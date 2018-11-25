@@ -17,6 +17,24 @@ class Signup extends Component {
 		return (
 			<form onSubmit={handleSubmit(this.onSubmit)}>
 				<fieldset>
+					<label>First Name</label>
+					<Field
+						name="firstname"
+						type="text"
+						component="input"
+						autoComplete="new-firstname"
+					/>
+				</fieldset>
+				<fieldset>
+					<label>Last Name</label>
+					<Field
+						name="lastname"
+						type="text"
+						component="input"
+						autoComplete="new-lastname"
+					/>
+				</fieldset>
+				<fieldset>
 					<label>Email</label>
 					<Field
 						name="email"
