@@ -15,8 +15,8 @@ class Header extends Component {
 			return (
 				<div>
 					{this.props.user.firstname ? <Link to="/feature" className={styles.firstname}>{this.props.user.firstname}</Link> : null}
-					<Link to="/signout">Signout</Link>
-					<Link to="/feature" className={styles.right}>Feature</Link>
+					<Link to="/signout" className={styles.right}>Signout</Link>
+					{/* <Link to="/feature" className={styles.right}>Feature</Link> */}
 				</div>
 			)
 		} else {
@@ -34,7 +34,7 @@ class Header extends Component {
 
 		return (
 			<div className={styles.header}>
-				<Link to="/" className={styles.left}>Madeleine's React Practice Website</Link>
+				<Link to="/" className={styles.left}>Madeleine's React/Redux Practice Website</Link>
 				{this.renderLinks()}
 			</div>
 		)

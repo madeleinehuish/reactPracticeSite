@@ -1,10 +1,16 @@
 import React, { Component } from 'react';
 import requireAuth from '../requireAuth';
+import Trucks from '../Trucks/Trucks';
+import styles from './Feature.css';
 
 class Feature extends Component {
 	render() {
 		return(
-			<div>I'm the Awesome Feature Component!!!</div>
+			<div className={styles.feature}>
+				{/* <div>I'm the Awesome Feature Component!!!</div> */}
+				<Trucks />
+			</div>
+
 		)
 	}
 };

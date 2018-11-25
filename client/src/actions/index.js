@@ -1,5 +1,5 @@
 import axios from 'axios';
-import { AUTH_USER, AUTH_ERROR } from './types';
+import { AUTH_USER, AUTH_ERROR, FETCH_TRUCKS } from './types';
 
 export const signup = (formProps, callback) => async dispatch => {
 	try {
@@ -56,4 +56,61 @@ export const signout = () => {
 		type: AUTH_USER,
 		payload: ''
 	}
+}
+
+export const gettrucks = (cb) => async dispatch => {
+	//get current date and time
+	const date = new Date();
+	const day = date.getDay();
+	const days = ['Sunday','Monday','Tuesday','Wednesday','Thursday','Friday','Saturday'];
+	const hour = date.getHours();
+	let minutes = date.getMinutes();
+	if (minutes < 10) {
+	  minutes = '0' + minutes;
+	}
+	let hour12 = hour;
+	let twelve;
+	if(hour>12) {
+	  hour12 = hour - 12;
+	  twelve = 'PM'
+	} else if (hour===12){
+	  twelve = 'PM';
+	} else twelve = 'AM';
+	const timeCurrent = hour12 + ':' + minutes + twelve;
+	const dayCurrent = days[day];
+
+	const baseUrl = 'https://data.sfgov.org/resource/bbb8-hzi6.json';
+  const query = `${baseUrl}?dayorder=${day}`;
+
+	const filtered = arr => {
+    	const filterThis = arr.filter(elem => {
+    		const start24 = Number(elem.start24.substr(0,2));
+    		const end24 = Number(elem.end24.substr(0,2));
+
+    		return start24 <= hour && hour < end24;
+    	})
+    	return filterThis;
+    }
+
+		// const fetchTrucks = async () => {
+		const response = await fetch(query);
+		const truckArray = await response.json();
+
+	  		//filter by current time
+		const truckFiltered = filtered(truckArray);
+    // console.log('truckFiltered: ', truckFiltered);
+
+	  		// //sort list alphabetically with Lodash
+	  		// const alphabetical = _.sortBy(truckFiltered, ['applicant']);
+	      //
+	  		// return alphabetical;
+	      // return truckFiltered;
+
+	  	// }
+
+		dispatch ({
+			type: FETCH_TRUCKS,
+			payload: truckFiltered
+		});
+		cb()
 }

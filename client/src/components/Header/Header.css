@@ -2,7 +2,7 @@
   display: flex;
   justify-content: space-between;
   background-color: #5f9ea0;
-  border: 1px solid black;
+  border: 1px solid #bcf5bc;
   padding-top: 30px;
   height: 60px;
 }
@@ -22,5 +22,6 @@
 }
 
 .header .firstname {
-  color: #fff2d7;
+  color: #fff3f0;
+  text-shadow: 2px 2px #808080;
 }

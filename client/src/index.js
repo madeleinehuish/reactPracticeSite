@@ -18,7 +18,8 @@ const store = createStore(
 				lastname: localStorage.getItem('user_lastname'),
 				email: localStorage.getItem('user_email')
 			}
-		}
+		},
+		trucks: []
 	},
 	applyMiddleware(reduxThunk)
 );
