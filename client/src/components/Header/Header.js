@@ -3,7 +3,6 @@ import { Link } from 'react-router-dom';
 import { connect } from 'react-redux';
 import styles from './Header.css';
 
-//TODO want to be able to pull first name from database to populate the nav bar
 
 class Header extends Component {
 
@@ -15,8 +14,8 @@ class Header extends Component {
 			return (
 				<div>
 					{this.props.user.firstname ? <Link to="/feature" className={styles.firstname}>{this.props.user.firstname}</Link> : null}
-					<Link to="/signout" className={styles.right}>Signout</Link>
-					{/* <Link to="/feature" className={styles.right}>Feature</Link> */}
+					<Link to="/signout">Signout</Link>
+					<Link to="/feature" className={styles.right}>></Link>
 				</div>
 			)
 		} else {

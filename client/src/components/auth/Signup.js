@@ -3,6 +3,7 @@ import { reduxForm, Field } from 'redux-form';
 import { compose } from 'redux';
 import { connect } from 'react-redux';
 import * as actions from '../../actions';
+import styles from './auth.css';
 
 class Signup extends Component {
 	onSubmit = (formProps) => {
@@ -15,9 +16,10 @@ class Signup extends Component {
 		const { handleSubmit } = this.props;
 
 		return (
-			<form onSubmit={handleSubmit(this.onSubmit)}>
-				<fieldset>
-					<label>First Name</label>
+			<form className={styles.main} onSubmit={handleSubmit(this.onSubmit)}>
+				<h3 className={styles.signInUpTitle}>Sign up!</h3>
+				<fieldset className={styles.fieldElems}>
+					<label className={styles.label}>First Name:</label>
 					<Field
 						name="firstname"
 						type="text"
@@ -25,8 +27,8 @@ class Signup extends Component {
 						autoComplete="new-firstname"
 					/>
 				</fieldset>
-				<fieldset>
-					<label>Last Name</label>
+				<fieldset className={styles.fieldElems}>
+					<label className={styles.label}>Last Name:</label>
 					<Field
 						name="lastname"
 						type="text"
@@ -34,8 +36,8 @@ class Signup extends Component {
 						autoComplete="new-lastname"
 					/>
 				</fieldset>
-				<fieldset>
-					<label>Email</label>
+				<fieldset className={styles.fieldElems}>
+					<label className={styles.label}>Email:</label>
 					<Field
 						name="email"
 						type="text"
@@ -43,8 +45,8 @@ class Signup extends Component {
 						autoComplete="new-email" //"new-email" was a work-around for "none" not working
 					/>
 				</fieldset>
-				<fieldset>
-					<label>Password</label>
+				<fieldset className={styles.fieldElems}>
+					<label className={styles.label}>Password:</label>
 					<Field
 						name="password"
 						type="password"
@@ -53,7 +55,7 @@ class Signup extends Component {
 					/>
 				</fieldset>
 				<div>{this.props.errorMessage}</div>
-				<button>Sign Up!</button>
+				<button className={styles.button}>Sign Up!</button>
 			</form>
 		)
 	}

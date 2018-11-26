@@ -3,16 +3,16 @@ import { connect } from 'react-redux';
 
 export default ChildComponent => {
   class ComposedComponent extends Component {
-    // Our component just got rendered
+
     componentDidMount() {
       this.shouldNavigateAway();
     }
-    // Our component just got updated
+
     componentDidUpdate() {
       this.shouldNavigateAway();
     }
     shouldNavigateAway() {
-      if (!this.props.auth.authenticated) { //this originally had !this.props.auth
+      if (!this.props.auth.authenticated) {
         this.props.history.push('/');
       }
     }
@@ -22,7 +22,7 @@ export default ChildComponent => {
   }
   function mapStateToProps(state) {
     console.log(' in requireAuth: state.auth: ', state.auth);
-    return { auth: state.auth  }; //this originally had state.auth.authenticated
+    return { auth: state.auth  };
   }
   return connect(mapStateToProps)(ComposedComponent);
 };

@@ -10,7 +10,12 @@ const Truckslist = props => {
 				{
 					props.trucks.map(truck => {
 						return (
-							<div key={truck.cnn}>{truck.applicant}</div>
+							<ul key={truck.cnn+Math.random(5)} className={styles.individualTrucks}>
+								<li>
+									<b>{truck.applicant}</b> / {truck.location}
+									<div>{truck.locationdesc}</div>
+								</li>
+							</ul>
 						)
 					})
 				}

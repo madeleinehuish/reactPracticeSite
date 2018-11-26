@@ -14,8 +14,21 @@ export const signup = (formProps, callback) => async dispatch => {
 		// 	}
 		// }
 
-		dispatch({ type: AUTH_USER, payload: response.data.token });
+		const payload = {
+			token: response.data.token,
+			user: {
+				firstname: response.data.user.firstname,
+				lastname: response.data.user.lastname,
+				email: response.data.user.email
+			}
+		};
+
+		dispatch({ type: AUTH_USER, payload: payload });
+
 		localStorage.setItem('token', response.data.token);
+		localStorage.setItem('user_firstname', response.data.user.firstname);
+		localStorage.setItem('user_lastname', response.data.user.lastname);
+		localStorage.setItem('user_email', response.data.user.email);
 		callback();
 	} catch(e) {
 		dispatch({ type: AUTH_ERROR, payload: 'Email in use.' })
