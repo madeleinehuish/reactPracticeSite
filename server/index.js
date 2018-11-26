@@ -5,16 +5,17 @@ const morgan = require('morgan');
 const router = require('./router');
 const mongoose = require('mongoose');
 const cors = require('cors');
-const config = require('./config');
 
 const app = express();
 
-//DB setup
-// // prod
-// mongoose.connect(config.mongoURI, { useNewUrlParser: true });
+if(process.env.NODE_ENV === 'production') {
+	// production
+	mongoose.connect(process.env.MONGO_URI, { useNewUrlParser: true });
+} else {
+	// development
+	mongoose.connect('mongodb://localhost:auth/auth', { useNewUrlParser: true }); //needed to add options for latest version
+}
 
-// dev
-mongoose.connect('mongodb://localhost:auth/auth', { useNewUrlParser: true }); //needed to add options for latest version
 mongoose.set('useCreateIndex', true); //need this to avoid server error
 
 //App setup

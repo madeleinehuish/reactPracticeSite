@@ -4,7 +4,14 @@ const config = require('../config');
 
 function tokenForUser(user) {
   const timestamp = new Date().getTime();
-  return jwt.encode({ sub: user.id, iat: timestamp }, config.secret);
+
+  console.log('configsecret:', config.SECRET);
+
+  if(process.env.NODE_ENV === 'production') {
+    return jwt.encode({ sub: user.id, iat: timestamp }, process.env.SECRET);
+  } else {
+    return jwt.encode({ sub: user.id, iat: timestamp }, config.SECRET);
+  }
 }
 
 exports.signin = function(req, res, next) {
