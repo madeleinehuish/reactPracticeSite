@@ -1,6 +1,5 @@
 const passport = require('passport');
 const User = require('../models/user');
-const config = require('../config');
 const JwtStrategy = require('passport-jwt').Strategy;
 const ExtractJwt = require('passport-jwt').ExtractJwt;
 const LocalStrategy = require('passport-local');
@@ -29,6 +28,7 @@ let secret;
 if(process.env.NODE_ENV === 'production') {
 	secret = process.env.SECRET;
 } else {
+	const config = require('../config');
 	secret = config.SECRET;
 }
 // Setup options for JWT Strategy
