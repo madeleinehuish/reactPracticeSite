@@ -1,17 +1,11 @@
+require('dotenv').config();
 const jwt = require('jwt-simple');
 const User = require('../models/user');
 
 function tokenForUser(user) {
   const timestamp = new Date().getTime();
 
-  console.log('configsecret:', config.SECRET);
-
-  if(process.env.NODE_ENV === 'production') {
-    return jwt.encode({ sub: user.id, iat: timestamp }, process.env.SECRET);
-  } else {
-    const config = require('../config');
-    return jwt.encode({ sub: user.id, iat: timestamp }, config.SECRET);
-  }
+  return jwt.encode({ sub: user.id, iat: timestamp }, process.env.SECRET);
 }
 
 exports.signin = function(req, res, next) {

@@ -1,3 +1,4 @@
+require('dotenv').config();
 const passport = require('passport');
 const User = require('../models/user');
 const JwtStrategy = require('passport-jwt').Strategy;
@@ -24,19 +25,12 @@ const localLogin = new LocalStrategy(localOptions, function(email, password, don
 	})
 })
 
-let secret;
-if(process.env.NODE_ENV === 'production') {
-	secret = process.env.SECRET;
-} else {
-	const config = require('../config');
-	secret = config.SECRET;
-}
 // Setup options for JWT Strategy
 const jwtOptions = {
 	//tells JwtStrategy where to look for token, in this case in the header
 	//also need to tell JWT the secret that we use to decode the token
 	jwtFromRequest: ExtractJwt.fromHeader('authorization'),
-	secretOrKey: secret
+	secretOrKey: process.env.SECRET
 };
 
 // create JWT Strategy
