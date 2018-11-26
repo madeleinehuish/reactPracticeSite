@@ -56,3 +56,8 @@
 	border-radius: 15px;
 	text-shadow: 2px 2px #808080;
 }
+
+.error {
+	margin-top: 7px;
+	margin-left: 2%;
+}

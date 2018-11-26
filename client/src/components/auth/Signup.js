@@ -54,7 +54,7 @@ class Signup extends Component {
 						autoComplete="new-password" //see email field above for why "new-password"
 					/>
 				</fieldset>
-				<div>{this.props.errorMessage}</div>
+				<div className={styles.error}>{this.props.errorMessage}</div>
 				<button className={styles.button}>Sign Up!</button>
 			</form>
 		)
