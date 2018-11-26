@@ -7,7 +7,6 @@ class Feature extends Component {
 	render() {
 		return(
 			<div className={styles.feature}>
-				{/* <div>I'm the Awesome Feature Component!!!</div> */}
 				<Trucks />
 			</div>
 

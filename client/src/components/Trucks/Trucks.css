@@ -22,3 +22,18 @@
 	margin-bottom: 20px;
 	cursor: pointer;
 }
+
+.input {
+	border-radius:5px;
+	border-color: #bcf5bc;
+	height: 25px;
+	margin-left: 50px;
+}
+
+.input:hover {
+	border-color: #808080;
+}
+
+.goUp {
+	margin-top: -15px;
+}

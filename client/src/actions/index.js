@@ -82,7 +82,8 @@ export const signout = () => {
 	}
 }
 
-export const gettrucks = (cb) => async dispatch => {
+export const gettrucks = (filterValue, cb) => async dispatch => {
+	if(!cb && typeof filterValue === 'function') cb = filterValue;
 	//get current date and time
 	const date = new Date();
 	const day = date.getDay();
@@ -106,7 +107,7 @@ export const gettrucks = (cb) => async dispatch => {
 	const baseUrl = 'https://data.sfgov.org/resource/bbb8-hzi6.json';
   const query = `${baseUrl}?dayorder=${day}`;
 
-	const filtered = arr => {
+	const filteredByTime = arr => {
     	const filterThis = arr.filter(elem => {
     		const start24 = Number(elem.start24.substr(0,2));
     		const end24 = Number(elem.end24.substr(0,2));
@@ -120,12 +121,29 @@ export const gettrucks = (cb) => async dispatch => {
 		const response = await fetch(query);
 		const truckArray = await response.json();
 
-	  		//filter by current time
-		const truckFiltered = filtered(truckArray);
+	  //filter by current time
+		const trucksFilteredByTime = filteredByTime(truckArray);
+		// let trucksFilteredByInputAndTime;
 
-		dispatch ({
-			type: FETCH_TRUCKS,
-			payload: truckFiltered
-		});
+		//trying input filter
+		if(filterValue.length) {
+			 const trucksFilteredByInputAndTime = trucksFilteredByTime.filter(elem => {
+						return (elem.applicant.toUpperCase().includes(filterValue.toUpperCase()) &&
+						        elem.applicant.toUpperCase()[0] === filterValue.toUpperCase()[0]) ;
+			 })
+			 dispatch({
+				 type: FETCH_TRUCKS,
+ 				 payload: trucksFilteredByInputAndTime
+			 });
+
+		} else {
+
+			dispatch ({
+				type: FETCH_TRUCKS,
+				payload: trucksFilteredByTime
+			});
+		}
+
+
 		cb()
 }
