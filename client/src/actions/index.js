@@ -8,7 +8,7 @@ export const signup = (formProps, callback) => async dispatch => {
 		// const response = await axios.post('http://localhost:3090/signup', formProps);
 
 		// // prod
-		const response = await axios.post('/signup', formProps);
+		const response = await axios.post('https://radiant-stream-78248.herokuapp.com/signup', formProps);
 
 		// const payload = {
 		// 	token: response.data.token,
@@ -48,7 +48,7 @@ export const signin = (formProps, callback) => async dispatch => {
 		// const response = await axios.post('http://localhost:3090/signin', formProps);
 
 		// // prod
-		const response = await axios.post('/signin', formProps);
+		const response = await axios.post('https://radiant-stream-78248.herokuapp.com/signin', formProps);
 
 		// console.log('in signin: response.data: ', response.data);
 		const payload = {
@@ -122,15 +122,6 @@ export const gettrucks = (cb) => async dispatch => {
 
 	  		//filter by current time
 		const truckFiltered = filtered(truckArray);
-    // console.log('truckFiltered: ', truckFiltered);
-
-	  		// //sort list alphabetically with Lodash
-	  		// const alphabetical = _.sortBy(truckFiltered, ['applicant']);
-	      //
-	  		// return alphabetical;
-	      // return truckFiltered;
-
-	  	// }
 
 		dispatch ({
 			type: FETCH_TRUCKS,
