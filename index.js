@@ -24,6 +24,16 @@ app.use(cors());
 app.use(bodyParser.json({ type: '*/*' }));
 router(app);
 
+if (process.env.NODE_ENV === 'production') {
+	//express will serve up production assets like our main.js or main.css file
+	app.use(express.static('client/build'));
+
+	//express will serve up the index.html file if it doesn't recognize the route
+	app.get('*', (req, res) => {
+		res.sendFile(path.resolve(__dirname, 'client', 'build', 'index.html'));
+	})
+}
+
 //Server setup
 const port = process.env.PORT || 3090;
 const server = http.createServer(app);
