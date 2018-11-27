@@ -24,8 +24,6 @@ const Truckslist = props => {
 	} else {
 			return <div></div>
 	}
-
-	return <div>true</div>
 }
 
 export default Truckslist;

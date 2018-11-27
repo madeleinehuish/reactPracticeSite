@@ -103,6 +103,7 @@ export const gettrucks = (filterValue, cb) => async dispatch => {
 	} else twelve = 'AM';
 	const timeCurrent = hour12 + ':' + minutes + twelve;
 	const dayCurrent = days[day];
+	console.log(timeCurrent, dayCurrent); //logging so they are used. i plan to use these variables soon.
 
 	const baseUrl = 'https://data.sfgov.org/resource/bbb8-hzi6.json';
   const query = `${baseUrl}?dayorder=${day}`;
