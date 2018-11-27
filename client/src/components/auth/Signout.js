@@ -5,7 +5,10 @@ import styles from './auth.css';
 
 class Signout extends Component {
 	componentDidMount() {
-		this.props.signout();
+		const cb = () => {
+			console.log('signed out');
+		}
+		this.props.signout(cb);
 	}
 
 	render() {

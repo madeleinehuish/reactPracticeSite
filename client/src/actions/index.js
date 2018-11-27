@@ -73,13 +73,25 @@ export const signin = (formProps, callback) => async dispatch => {
 };
 
 
-export const signout = () => {
-	localStorage.removeItem('token');
+// export const signout = () => {
+// 	localStorage.removeItem('token');
+//
+// 	return {
+// 		type: AUTH_USER,
+// 		payload: ''
+// 	}
+// }
 
-	return {
-		type: AUTH_USER,
-		payload: ''
-	}
+export const signout = (callback) => async dispatch => {
+	localStorage.removeItem('token');
+	localStorage.removeItem('user_firstname');
+	localStorage.removeItem('user_lastname');
+	localStorage.removeItem('user_email');
+
+	dispatch({ type: FETCH_TRUCKS, payload: [] });
+	dispatch({ type: AUTH_USER, payload: '' });
+
+	callback();
 }
 
 export const gettrucks = (filterValue, cb) => async dispatch => {
