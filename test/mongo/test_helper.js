@@ -12,7 +12,8 @@ before((done) => {
 })
 
 beforeEach((done) => {
+		console.log('inside of helper'.yellow);
 		mongoose.connection.collections.users.drop(() => {
-		done()
+		done();
 	});
 })

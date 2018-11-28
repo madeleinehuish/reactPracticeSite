@@ -6,6 +6,7 @@ const morgan = require('morgan');
 const router = require('./router');
 const mongoose = require('mongoose');
 const cors = require('cors');
+const colors = require('colors');
 
 const app = express();
 
@@ -39,4 +40,4 @@ if (process.env.NODE_ENV === 'production') {
 const port = process.env.PORT || 3090;
 const server = http.createServer(app);
 server.listen(port);
-console.log('Server listening on port ', port);
+console.log('Server listening on port '.magenta, port);
