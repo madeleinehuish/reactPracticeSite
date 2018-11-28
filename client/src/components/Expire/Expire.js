@@ -4,7 +4,7 @@ import React, { Component } from 'react';
 class Expire extends Component {
   constructor(props) {
     super(props);
-    this.state = {visible:true}
+    this.state = { visible: true }
   }
 
   componentWillReceiveProps(nextProps) {
@@ -37,6 +37,7 @@ class Expire extends Component {
   }
 
   render() {
+    console.log('this.props.children: ', this.props.children);
     return this.state.visible
       ? <div>{this.props.children}</div>
       : <span />;
