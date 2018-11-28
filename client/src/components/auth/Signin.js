@@ -4,22 +4,15 @@ import { compose } from 'redux';
 import { connect } from 'react-redux';
 import * as actions from '../../actions';
 import styles from './auth.css';
+import Expire from '../Expire/Expire';
 
 class Signin extends Component {
-
-	// state = {
-	// 	message: this.props.errorMessage
-	// }
 
 	onSubmit = (formProps) => {
 		this.props.signin(formProps, () => {
 			this.props.history.push('/feature');
 		})
 	}
-
-	// componentDidUpdate(){
-  //   setTimeout(() => this.setState({ message:''}), 8000);
-  // }
 
 	render() {
 		const { handleSubmit } = this.props;
@@ -46,8 +39,9 @@ class Signin extends Component {
 						autoComplete="new-password" //see email field above for why "new-password"
 					/>
 				</fieldset>
-				{/* <div className={styles.error}>{this.state.message}</div> */}
-				<div className={styles.error}>{this.props.errorMessage}</div>
+				<div className={styles.error}>
+					<Expire delay={4000}>{this.props.errorMessage}</Expire>
+				</div>
 				<button className={styles.button}>Sign In!</button>
 			</form>
 		)

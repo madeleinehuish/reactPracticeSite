@@ -10,15 +10,6 @@ export const signup = (formProps, callback) => async dispatch => {
 		// // prod
 		const response = await axios.post('https://radiant-stream-78248.herokuapp.com/signup', formProps);
 
-		// const payload = {
-		// 	token: response.data.token,
-		// 	user: {
-		// 		firstname: response.data.firstname,
-		// 		lastname: response.data.lastname,
-		// 		email: response.data.email
-		// 	}
-		// }
-
 		const payload = {
 			token: response.data.token,
 			user: {
@@ -42,6 +33,7 @@ export const signup = (formProps, callback) => async dispatch => {
 };
 
 export const signin = (formProps, callback) => async dispatch => {
+
 	try {
 
 		// // dev
@@ -72,16 +64,6 @@ export const signin = (formProps, callback) => async dispatch => {
 
 };
 
-
-// export const signout = () => {
-// 	localStorage.removeItem('token');
-//
-// 	return {
-// 		type: AUTH_USER,
-// 		payload: ''
-// 	}
-// }
-
 export const signout = (callback) => async dispatch => {
 	localStorage.removeItem('token');
 	localStorage.removeItem('user_firstname');
@@ -90,6 +72,7 @@ export const signout = (callback) => async dispatch => {
 
 	dispatch({ type: FETCH_TRUCKS, payload: [] });
 	dispatch({ type: AUTH_USER, payload: '' });
+	dispatch({ type: AUTH_ERROR, payload: ''});
 
 	callback();
 }
@@ -130,13 +113,11 @@ export const gettrucks = (filterValue, cb) => async dispatch => {
     	return filterThis;
     }
 
-		// const fetchTrucks = async () => {
 		const response = await fetch(query);
 		const truckArray = await response.json();
 
 	  //filter by current time
 		const trucksFilteredByTime = filteredByTime(truckArray);
-		// let trucksFilteredByInputAndTime;
 
 		//trying input filter
 		if(filterValue.length) {
@@ -156,7 +137,6 @@ export const gettrucks = (filterValue, cb) => async dispatch => {
 				payload: trucksFilteredByTime
 			});
 		}
-
 
 		cb()
 }

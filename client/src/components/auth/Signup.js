@@ -4,6 +4,7 @@ import { compose } from 'redux';
 import { connect } from 'react-redux';
 import * as actions from '../../actions';
 import styles from './auth.css';
+import Expire from '../Expire/Expire';
 
 class Signup extends Component {
 	onSubmit = (formProps) => {
@@ -54,7 +55,9 @@ class Signup extends Component {
 						autoComplete="new-password" //see email field above for why "new-password"
 					/>
 				</fieldset>
-				<div className={styles.error}>{this.props.errorMessage}</div>
+				<div className={styles.error}>
+					<Expire delay={4000}>{this.props.errorMessage}</Expire>
+				</div>
 				<button className={styles.button}>Sign Up!</button>
 			</form>
 		)
