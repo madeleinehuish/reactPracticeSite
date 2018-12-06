@@ -4,11 +4,11 @@ import { AUTH_USER, AUTH_ERROR, FETCH_TRUCKS } from './types';
 export const signup = (formProps, callback) => async dispatch => {
 	try {
 
-		// // dev
-		// const response = await axios.post('http://localhost:3090/signup', formProps);
+		// dev
+		const response = await axios.post('http://localhost:3090/signup', formProps);
 
-		// // prod
-		const response = await axios.post('https://radiant-stream-78248.herokuapp.com/signup', formProps);
+		// // // prod
+		// const response = await axios.post('https://radiant-stream-78248.herokuapp.com/signup', formProps);
 
 		const payload = {
 			token: response.data.token,
@@ -36,11 +36,11 @@ export const signin = (formProps, callback) => async dispatch => {
 
 	try {
 
-		// // dev
-		// const response = await axios.post('http://localhost:3090/signin', formProps);
+		// dev
+		const response = await axios.post('http://localhost:3090/signin', formProps);
 
-		// // prod
-		const response = await axios.post('https://radiant-stream-78248.herokuapp.com/signin', formProps);
+		// // // prod
+		// const response = await axios.post('https://radiant-stream-78248.herokuapp.com/signin', formProps);
 
 		// console.log('in signin: response.data: ', response.data);
 		const payload = {
@@ -122,8 +122,7 @@ export const gettrucks = (filterValue, cb) => async dispatch => {
 		//trying input filter
 		if(filterValue.length) {
 			 const trucksFilteredByInputAndTime = trucksFilteredByTime.filter(elem => {
-						return (elem.applicant.toUpperCase().includes(filterValue.toUpperCase()) &&
-						        elem.applicant.toUpperCase()[0] === filterValue.toUpperCase()[0]) ;
+						return elem.applicant.substr(0,filterValue.length).toUpperCase() === filterValue.toUpperCase();
 			 })
 			 dispatch({
 				 type: FETCH_TRUCKS,

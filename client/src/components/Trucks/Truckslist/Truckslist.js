@@ -6,20 +6,21 @@ const Truckslist = props => {
 
 	if(props && props.trucks && props.trucks.length) {
 		return (
-			<div className={styles.trucksList}>
+			<ul className={styles.trucksList}>
 				{
 					props.trucks.map(truck => {
 						return (
-							<ul key={truck.cnn+Math.random(5)} className={styles.individualTrucks}>
-								<li>
+							<div>
+								<br />
+								<li key={truck.cnn+Math.random(5)}>
 									<b>{truck.applicant}</b> / {truck.location}
 									<div>{truck.locationdesc}</div>
 								</li>
-							</ul>
+							</div>
 						)
 					})
 				}
-			</div>
+			</ul>
 		)
 	} else {
 			return <div></div>

@@ -8,6 +8,7 @@ before((done) => {
 		})
 		.on('error', (error) => {
 			console.warn('Warning', error);
+			done();
 		});
 })
 

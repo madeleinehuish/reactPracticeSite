@@ -4,8 +4,5 @@
 	overflow:scroll;
 	/* display: none; */
 	margin-top: 10px;
-}
-
-.individualTrucks {
-	padding-left: 8px;
+	list-style-type: none;
 }
