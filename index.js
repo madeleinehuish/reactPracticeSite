@@ -10,13 +10,13 @@ const colors = require('colors');
 
 const app = express();
 
-if(process.env.NODE_ENV === 'production') {
-	// production
+// if(process.env.NODE_ENV === 'production') {
+// 	// production
 	mongoose.connect(process.env.MONGO_URI, { useNewUrlParser: true });
-} else {
-	// development
-	mongoose.connect('mongodb://localhost:auth/auth', { useNewUrlParser: true }); //needed to add options for latest version
-}
+// } else {
+// 	// development
+// 	mongoose.connect('mongodb://localhost:auth/auth', { useNewUrlParser: true }); //needed to add options for latest version
+// }
 
 mongoose.set('useCreateIndex', true); //need this to avoid server error
 
