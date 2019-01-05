@@ -17,6 +17,7 @@ if(process.env.NODE_ENV === 'production') {
 	// development
 	mongoose.connect('mongodb://localhost:auth/auth', { useNewUrlParser: true }); //needed to add options for latest version
 }
+console.log('process.env: ', process.env.NODE_ENV);
 
 mongoose.set('useCreateIndex', true); //need this to avoid server error
 
