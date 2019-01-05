@@ -1,4 +1,4 @@
-require('dotenv').config();
+if(process.env.NODE_ENV !== 'production') require('dotenv').config();
 const passport = require('passport');
 const User = require('../models/user');
 const JwtStrategy = require('passport-jwt').Strategy;
