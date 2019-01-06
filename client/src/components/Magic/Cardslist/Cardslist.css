@@ -1,0 +1,8 @@
+.cardsList {
+	border: 2px solid #bcf5bc;
+	height: 400px;
+	overflow:scroll;
+	/* display: none; */
+	margin-top: 10px;
+	list-style-type: none;
+}

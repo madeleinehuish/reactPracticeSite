@@ -19,7 +19,8 @@ const store = createStore(
 				email: localStorage.getItem('user_email')
 			}
 		},
-		trucks: []
+		trucks: [],
+		cards: []
 	},
 	applyMiddleware(reduxThunk)
 );

@@ -1,5 +1,7 @@
 import axios from 'axios';
-import { AUTH_USER, AUTH_ERROR, FETCH_TRUCKS } from './types';
+import mtg from 'mtgsdk';
+import dataIxalan from '../data/dataIxalan';
+import { AUTH_USER, AUTH_ERROR, FETCH_TRUCKS, FETCH_CARDS } from './types';
 
 export const signup = (formProps, callback) => async dispatch => {
 	try {
@@ -138,4 +140,16 @@ export const gettrucks = (filterValue, cb) => async dispatch => {
 		}
 
 		cb()
+}
+
+export const getcards = (cb) => async dispatch => {
+// export const getcards = (filterValue, cb) => async dispatch => {
+	// if(!cb && typeof filterValue === 'function') cb = filterValue;
+
+	dispatch ({
+		type: FETCH_CARDS,
+		payload: dataIxalan
+	})
+
+	cb()
 }
