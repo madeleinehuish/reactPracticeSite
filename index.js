@@ -38,8 +38,6 @@ if (process.env.NODE_ENV === 'production') {
 
 //Server setup
 const port = process.env.PORT || 3090;
-console.log('PORT in production:::: ', process.env.PORT);
-console.log('process.env.NODE_ENV::: ', process.env.NODE_ENV);
 const server = http.createServer(app);
 server.listen(port);
 console.log('Server listening on port '.magenta, port);

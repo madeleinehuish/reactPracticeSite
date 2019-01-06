@@ -26,6 +26,8 @@ exports.signup = function(req, res, next) {
   const lastname = req.body.lastname;
   const email = req.body.email;
   const password = req.body.password;
+  console.log('PORT in production:::: ', process.env.PORT);
+  console.log('process.env.NODE_ENV::: ', process.env.NODE_ENV);
 
   if (!email || !password) {
     return res.status(422).send({ error: 'You must provide email and password'});
