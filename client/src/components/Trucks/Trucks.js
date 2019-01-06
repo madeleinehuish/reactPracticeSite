@@ -31,6 +31,8 @@ class Trucks extends Component {
 		console.log('in Trucks, this.props.trucks: ', this.props.trucks);
 
 		return (
+			<div>
+				<br />
 				<div className={styles.truckContainer}>
 					<h3 className={styles.title}>Food Trucks of San Francisco!</h3>
 					<h4>Push button to get list of current food trucks open in San Francisco.</h4>
@@ -41,6 +43,7 @@ class Trucks extends Component {
 						<Truckslist trucks={this.props.trucks} />
 					</div>
 				</div>
+			</div>
 		);
 	}
 }

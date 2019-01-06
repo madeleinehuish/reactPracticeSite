@@ -7,6 +7,8 @@ import Signup from './auth/Signup';
 import Signin from './auth/Signin';
 import Signout from './auth/Signout';
 import Feature from './Feature/Feature';
+import Trucks from './Trucks/Trucks';
+import Magic from './Magic/Magic'
 import styles from './App.css';
 
 export default (props) => {
@@ -20,6 +22,8 @@ export default (props) => {
 				<Route path="/signin" component={Signin} />
 				<Route path="/signout" component={Signout} />
 				<Route path="/feature" component={Feature} />
+				<Route path="/trucks" component={Trucks} />
+				<Route path="/magic" component={Magic} />
 			</div>
 		</BrowserRouter>
 	)
