@@ -26,19 +26,36 @@ class Magic extends Component {
 		this.props.getcards(cb);
 	}
 
+	handleHover = (cardId) => {
+		console.log('this.props in Magic.js: ', this.props);
+		console.log('hovering works! card id is : ', cardId);
+		let card = this.props.cards.filter(obj => {
+			return obj.id === cardId;
+		});
+		console.log('card: ', card[0]);
+		console.log('the image Url for this card is : ', card[0].imageUrl);
+		this.props.changeCurrentCard(card[0]);
+
+	}
+
 	render() {
-		console.log('this.props.cards in Magic.js: ', this.props.cards);
+		console.log('this.props.currentCard in Magic.js: ', this.props.currentCard);
 		return (
 			<div>
 				<br />
-				<div className={styles.magicContainer}>
+				<div className={styles.magicOuterContainer}>
 					<h3 className={styles.title}>Magic the Gathering Cards!</h3>
 					<h4>Push button to get list of cards from the Ixalan Set.</h4>
 					{/* <h4 className={styles.goUp}>Type into the input field to filter the results!</h4> */}
 					<button id="magicButton" className={styles.button} onClick={()=>this.handleMagicButton()}>Get Cards</button>
 					{/* <input className={styles.input} onChange={(event)=>this.handleInput(event)}/> */}
-					<div >
-						<Cardslist cards={this.props.cards} />
+					<div className={styles.magicGridContainer}>
+						<div className={styles.col1}>
+							<Cardslist cards={this.props.cards} handleHover={this.handleHover} currentCard={this.props.currentCard}/>
+						</div>
+						<div className={styles.col2}>
+
+						</div>
 					</div>
 				</div>
 			</div>
@@ -48,8 +65,8 @@ class Magic extends Component {
 
 function mapStateToProps(state) {
 	console.log('state in cards: ', state);
-	console.log('state.cards.cards: ', state.cards.cards);
-	return { cards: state.cards.cards };
+	// console.log('state.cards.cards: ', state.cards.cards);
+	return { cards: state.cards.cards, currentCard: state.currentCard.currentCard };
 }
 
 export default connect(mapStateToProps, actions)(Magic);

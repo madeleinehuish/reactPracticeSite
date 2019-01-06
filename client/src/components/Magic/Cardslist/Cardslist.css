@@ -1,8 +1,47 @@
 .cardsList {
-	border: 2px solid #bcf5bc;
-	height: 400px;
-	overflow:scroll;
+	/* border: 2px solid #bcf5bc; */
+
+	/* overflow:scroll; */
 	/* display: none; */
 	margin-top: 10px;
+	/* border: 2px solid #bcf5bc; */
+	/* margin-bottom: 10px; */
+	/* margin-bottom: 40px; */
+	height: 400px;
+
+
+}
+
+.cardsUlWrapper {
+	display: grid;
+	grid-template-columns: 50% 50%;
 	list-style-type: none;
+	height: 360px;
+	border: 2px solid #bcf5bc;
+	overflow:scroll;
+}
+
+.cardsUl {
+	list-style-type: none;
+	height: 360px;
+	/* border: 2px solid #bcf5bc; */
+	overflow:scroll;
+}
+
+.cardWindow {
+
+	width: 90%;
+	height: 320px;
+	margin-top: 20px;
+	/* background-color: #808080; */
+	/* border-radius: 1px; */
+}
+
+.cardSelect:hover {
+	cursor: pointer;
+	text-shadow: 3px 3px #808080;
+}
+
+.cardImage {
+	margin: 0 auto;
 }

@@ -1,19 +1,17 @@
 import React, { Component } from 'react';
 import requireAuth from '../requireAuth';
 import Trucks from '../Trucks/Trucks';
-import styles from './Feature.css';
+import styles from './Main.css';
 
-class Feature extends Component {
+class Main extends Component {
 	render() {
 		return(
 			<div className={styles.feature}>
 				<h3>Click one of the links above to try a different app!</h3>
-
-				{/* <Trucks /> */}
 			</div>
 
 		)
 	}
 };
 
-export default requireAuth(Feature);
+export default requireAuth(Main);

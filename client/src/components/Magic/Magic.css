@@ -1,4 +1,4 @@
-.magicContainer {
+.magicOuterContainer {
 	margin-left: 20px;
 	margin-right: 20px;
 	border: 1px solid #bcf5bc;
@@ -21,6 +21,11 @@
 	color: #fff3f0;
 	margin-bottom: 20px;
 	cursor: pointer;
+}
+
+.magicGridContainer {
+	display: grid;
+	grid-template-columns: 50% 50%;
 }
 
 .input {

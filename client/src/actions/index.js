@@ -1,7 +1,7 @@
 import axios from 'axios';
 import mtg from 'mtgsdk';
 import dataIxalan from '../data/dataIxalan';
-import { AUTH_USER, AUTH_ERROR, FETCH_TRUCKS, FETCH_CARDS } from './types';
+import { AUTH_USER, AUTH_ERROR, FETCH_TRUCKS, FETCH_CARDS, CHANGE_CURRENT_CARD } from './types';
 
 export const signup = (formProps, callback) => async dispatch => {
 	try {
@@ -144,7 +144,24 @@ export const gettrucks = (filterValue, cb) => async dispatch => {
 
 export const getcards = (cb) => async dispatch => {
 // export const getcards = (filterValue, cb) => async dispatch => {
-	// if(!cb && typeof filterValue === 'function') cb = filterValue;
+// 	if(!cb && typeof filterValue === 'function') cb = filterValue;
+//
+// 	if(filtervalue.length){
+// 		const cardsFiltered = dataIxalan.filter(elem => {
+// 			 return elem.name.substr(0,filterValue.length).toUpperCase() === filterValue.toUpperCase();
+// 	})
+// 	dispatch({
+// 		type: FETCH_TRUCKS,
+// 		payload: cardsFiltered
+// 	});
+//
+// } else {
+//
+//  dispatch ({
+// 	 type: FETCH_TRUCKS,
+// 	 payload: dataIxalan
+//  });
+// }
 
 	dispatch ({
 		type: FETCH_CARDS,
@@ -152,4 +169,11 @@ export const getcards = (cb) => async dispatch => {
 	})
 
 	cb()
+}
+
+export const changeCurrentCard = (card) => {
+	return {
+		type: CHANGE_CURRENT_CARD,
+		payload: card
+	}
 }

@@ -20,7 +20,8 @@ const store = createStore(
 			}
 		},
 		trucks: [],
-		cards: []
+		cards: [],
+		currentCard: {}
 	},
 	applyMiddleware(reduxThunk)
 );
