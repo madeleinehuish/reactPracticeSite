@@ -142,31 +142,31 @@ export const gettrucks = (filterValue, cb) => async dispatch => {
 		cb()
 }
 
-export const getcards = (cb) => async dispatch => {
+export const getcards = (filterValue, cb) => async dispatch => {
 // export const getcards = (filterValue, cb) => async dispatch => {
-// 	if(!cb && typeof filterValue === 'function') cb = filterValue;
-//
-// 	if(filtervalue.length){
-// 		const cardsFiltered = dataIxalan.filter(elem => {
-// 			 return elem.name.substr(0,filterValue.length).toUpperCase() === filterValue.toUpperCase();
-// 	})
-// 	dispatch({
-// 		type: FETCH_TRUCKS,
-// 		payload: cardsFiltered
-// 	});
-//
-// } else {
-//
-//  dispatch ({
-// 	 type: FETCH_TRUCKS,
-// 	 payload: dataIxalan
-//  });
-// }
+	if(!cb && typeof filterValue === 'function') cb = filterValue;
 
-	dispatch ({
-		type: FETCH_CARDS,
-		payload: dataIxalan
+	if(filterValue.length){
+		const cardsFiltered = dataIxalan.filter(elem => {
+			 return elem.name.substr(0,filterValue.length).toUpperCase() === filterValue.toUpperCase();
 	})
+	dispatch({
+		type: FETCH_CARDS,
+		payload: cardsFiltered
+	});
+
+} else {
+
+ dispatch ({
+	 type: FETCH_CARDS,
+	 payload: dataIxalan
+ });
+}
+
+	// dispatch ({
+	// 	type: FETCH_CARDS,
+	// 	payload: dataIxalan
+	// })
 
 	cb()
 }

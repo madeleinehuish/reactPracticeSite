@@ -7,17 +7,17 @@ import styles from './Magic.css';
 
 class Magic extends Component {
 
-	// handleInput = (event) => {
-	// 	const filterValue = event.target.value;
-	// 	// console.log(event.target.value);
-	//
-	// 	const cb = () => {
-	// 		this.forceUpdate();
-	// 	};
-	//
-	// 	this.props.getcards(filterValue, cb);
-	// }
-	//
+	handleInput = (event) => {
+		const filterValue = event.target.value;
+		// console.log(event.target.value);
+
+		const cb = () => {
+			this.forceUpdate();
+		};
+
+		this.props.getcards(filterValue, cb);
+	}
+
 	handleMagicButton = () => {
 		const cb = () => {
 			this.forceUpdate();
@@ -48,7 +48,7 @@ class Magic extends Component {
 					<h4>Push button to get list of cards from the Ixalan Set.</h4>
 					{/* <h4 className={styles.goUp}>Type into the input field to filter the results!</h4> */}
 					<button id="magicButton" className={styles.button} onClick={()=>this.handleMagicButton()}>Get Cards</button>
-					{/* <input className={styles.input} onChange={(event)=>this.handleInput(event)}/> */}
+					<input className={styles.input} onChange={(event)=>this.handleInput(event)}/>
 					<div className={styles.magicGridContainer}>
 						<div className={styles.col1}>
 							<Cardslist cards={this.props.cards} handleHover={this.handleHover} currentCard={this.props.currentCard}/>
