@@ -1,6 +1,4 @@
-import store from '../store';
 import axios from 'axios';
-import mtg from 'mtgsdk';
 import dataIxalan from '../data/dataIxalan';
 import { AUTH_USER, AUTH_ERROR, FETCH_TRUCKS, FETCH_CARDS, CHANGE_CURRENT_CARD, FILTER_CARD_BY_TYPE } from './types';
 
@@ -179,6 +177,7 @@ export const getcards = (filterValue, typeFilter, cb) => async dispatch => {
 }
 
 export const changeCurrentCard = (card) => {
+	// if(!card) card = dataIxalan[0];
 
 	return {
 		type: CHANGE_CURRENT_CARD,

@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import requireAuth from '../requireAuth';
-import Trucks from '../Trucks/Trucks';
 import styles from './Main.css';
 
 class Main extends Component {

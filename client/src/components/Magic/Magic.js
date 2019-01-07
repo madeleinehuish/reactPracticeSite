@@ -12,60 +12,69 @@ class Magic extends Component {
 		this.selectBox = React.createRef();
 	}
 
+	// componentDidUpdate = () => {
+	//
+	// 	this.props.changeCurrentCard(this.props.cards[0]);
+	// }
+
 	handleHover = (cardId) => {
-		// console.log('this.props in Magic.js: ', this.props);
-		// console.log('hovering works! card id is : ', cardId);
+
 		let card = this.props.cards.filter(obj => {
 			return obj.id === cardId;
 		});
-		// console.log('card: ', card[0]);
-		// console.log('the image Url for this card is : ', card[0].imageUrl);
+
 		this.props.changeCurrentCard(card[0]);
 
 	}
 
 	handleInput = (event) => {
 		const filterValue = event.target.value;
-		// console.log(event.target.value);
 
 		const cb = () => {
-			this.forceUpdate();
+			this.forceUpdate(()=>{
+				this.props.changeCurrentCard(this.props.cards[0]);
+			});
 		};
 
 		let type = this.props.typeSelected;
 
 		this.props.getcards(filterValue, type, cb);
+
 	}
 
 	handleMagicButton = () => {
 		//button will reset everything
 
 		const cb = () => {
-			this.forceUpdate();
+			this.forceUpdate(()=>{
+				this.props.changeCurrentCard(this.props.cards[0]);
+			});
 		};
-		let type = 'All';
 		let filterValue = '';
-		// console.log('placeholder')
+		let type = 'All';
+
+
 		this.selectBox.current.value = 'All';
 		this.props.getcards(filterValue, type, cb);
+
 	}
 
 	handleSelect = (event) => {
 
 		const cb = () => {
-			this.forceUpdate();
+
+			this.forceUpdate(()=>{
+				this.props.changeCurrentCard(this.props.cards[0]);
+			});
+
 		};
 
 		let filterValue = '';
 
-		this.props.filterCardByType(event.target.value);
+		// this.props.filterCardByType(event.target.value);
 		this.props.getcards(filterValue, event.target.value, cb);
-	}
 
-	reset = () => {
-		this.selectBox.value = 'All';
 	}
-
 
 
 	render() {
@@ -75,9 +84,9 @@ class Magic extends Component {
 				<br />
 				<div className={styles.magicOuterContainer}>
 					<h3 className={styles.title}>Magic the Gathering Cards!</h3>
-					<h4>Push button to get list of cards from the Ixalan Set.</h4>
+					<h4>Use controls to filter cards from the Ixalan set.</h4>
 					{/* <h4 className={styles.goUp}>Type into the input field to filter the results!</h4> */}
-					<button id="magicButton" className={styles.button} onClick={()=>this.handleMagicButton()}>Get Cards</button>
+					<button id="magicButton" className={styles.button} onClick={()=>this.handleMagicButton()}>Reset</button>
 					<input className={styles.input} onChange={(event)=>this.handleInput(event)}/>
 					<select className={styles.select} onChange={(event)=>this.handleSelect(event)} ref={this.selectBox}>
 					  <option default value="All">all</option>

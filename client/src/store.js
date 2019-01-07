@@ -1,6 +1,7 @@
 import reducers from './reducers';
 import { createStore, applyMiddleware } from 'redux';
 import reduxThunk from 'redux-thunk';
+import dataIxalan from './data/dataIxalan';
 
 const store = createStore(
 	reducers,
@@ -14,7 +15,9 @@ const store = createStore(
 			}
 		},
 		trucks: [],
-		cards: [],
+		cards: {
+			cards: dataIxalan
+		},
 		currentCard: {
 			currentCard: { myid: 1,
 			    id: 'ccbc0aca09ec754dd5dc97081315dfdff1748132',
