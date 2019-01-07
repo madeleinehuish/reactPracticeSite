@@ -13,16 +13,7 @@ class Magic extends Component {
 		this.inputBox = React.createRef();
 	}
 
-	handleHover = (cardId) => {
-
-		let card = this.props.cards.filter(obj => {
-			return obj.id === cardId;
-		});
-
-		this.props.changeCurrentCard(card[0]);
-	}
-
-	handleInput = (event) => {
+	handleFilter = (event, filterType) => {
 		const filterValue = event.target.value;
 
 		const cb = () => {
@@ -32,7 +23,25 @@ class Magic extends Component {
 			});
 		};
 
-		this.props.storeFilterText(filterValue, cb);
+		switch(filterType) {
+			case 'text':
+				this.props.storeFilterText(filterValue, cb);
+				break;
+			case 'type':
+				this.props.storeType(filterValue, cb);
+				break;
+			default:
+				break;
+		}
+	}
+
+	handleHover = (cardId) => {
+
+		let card = this.props.cards.filter(obj => {
+			return obj.id === cardId;
+		});
+
+		this.props.changeCurrentCard(card[0]);
 	}
 
 	reset = () => {
@@ -48,22 +57,6 @@ class Magic extends Component {
 		this.selectBox.current.value = 'All';
 		this.inputBox.current.value = '';
 		this.props.getcards(filterValue, type, cb);
-
-	}
-
-	handleSelect = (event) => {
-		const filterValue = event.target.value;
-
-		const cb = () => {
-			this.forceUpdate(()=>{
-				this.updateCards();
-				this.props.changeCurrentCard(this.props.cards[0]);
-			});
-
-		};
-
-		this.props.storeType(filterValue, cb);
-
 	}
 
 	updateCards = () => {
@@ -86,8 +79,8 @@ class Magic extends Component {
 					<h3 className={styles.title}>Magic the Gathering Cards!</h3>
 					<h4>Use controls to filter cards from the Ixalan set.</h4>
 					<button id="magicButton" className={styles.button} onClick={()=>this.reset()}>Reset</button>
-					<input className={styles.input} placeholder="type to filter" onChange={(event)=>this.handleInput(event)} ref={this.inputBox}/>
-					<select className={styles.select} onChange={(event)=>this.handleSelect(event)} ref={this.selectBox}>
+					<input className={styles.input} placeholder="type to filter" onChange={(event)=>this.handleFilter(event, 'text')} ref={this.inputBox}/>
+					<select className={styles.select} onChange={(event)=>this.handleFilter(event, 'type')} ref={this.selectBox}>
 					  <option default value="All">all</option>
 					  <option value="Creature">creatures</option>
 					  <option value="Enchantment">enchantments</option>

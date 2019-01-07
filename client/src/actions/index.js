@@ -184,7 +184,6 @@ export const getcards = (filterValue, typeFilter, cb) => async dispatch => {
 }
 
 export const changeCurrentCard = (card) => {
-	// if(!card) card = dataIxalan[0];
 
 	return {
 		type: CHANGE_CURRENT_CARD,
