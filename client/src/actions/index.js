@@ -200,10 +200,11 @@ export const storeFilterText = (text, cb) => async dispatch => {
 	cb()
 }
 
-export const storeType = (type) => {
+export const storeType = (type, cb) => async dispatch => {
 
-	return {
+	dispatch({
 		type: STORE_TYPE,
 		payload: type
-	}
+	});
+	cb();
 }

@@ -1,7 +1,8 @@
-import { STORE_FILTER_TEXT } from '../actions/types';
+import { STORE_FILTER_TEXT, STORE_TYPE } from '../actions/types';
 
 const INITIAL_STATE = {
-	filterText: ''
+	filterText: '',
+	filterType: 'All'
 };
 
 export default function(state=INITIAL_STATE, action) {
@@ -9,6 +10,8 @@ export default function(state=INITIAL_STATE, action) {
 	switch (action.type) {
 		case STORE_FILTER_TEXT:
 			return { ...state, filterText: action.payload };
+		case STORE_TYPE:
+			return { ...state, filterType: action.payload };
 		default:
 			return state;
 	}

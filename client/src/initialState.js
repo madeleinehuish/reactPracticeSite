@@ -40,7 +40,8 @@ export default {
 		typeSelected: 'All'
 	},
 	cardFilters: {
-		filterText: ''
+		filterText: '',
+		filterType: 'All'
 	}
 
 }

@@ -1,3 +1,5 @@
+//this is being cancelled
+
 import { STORE_TYPE } from '../actions/types';
 
 const INITIAL_STATE = {};
