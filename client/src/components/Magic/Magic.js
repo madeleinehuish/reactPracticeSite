@@ -10,6 +10,7 @@ class Magic extends Component {
 	constructor(props) {
 		super(props);
 		this.selectBox = React.createRef();
+		this.inputBox = React.createRef();
 	}
 
 	// componentDidUpdate = () => {
@@ -55,6 +56,7 @@ class Magic extends Component {
 
 
 		this.selectBox.current.value = 'All';
+		this.inputBox.current.value = '';
 		this.props.getcards(filterValue, type, cb);
 
 	}
@@ -62,16 +64,17 @@ class Magic extends Component {
 	handleSelect = (event) => {
 
 		const cb = () => {
-
+			let type = event.target.value;
 			this.forceUpdate(()=>{
 				this.props.changeCurrentCard(this.props.cards[0]);
+				this.props.storeType(type);
 			});
 
 		};
 
 		let filterValue = '';
-
-		// this.props.filterCardByType(event.target.value);
+		this.inputBox.current.value = '';
+		console.log('filter length: ', filterValue.length);
 		this.props.getcards(filterValue, event.target.value, cb);
 
 	}
@@ -87,7 +90,7 @@ class Magic extends Component {
 					<h4>Use controls to filter cards from the Ixalan set.</h4>
 					{/* <h4 className={styles.goUp}>Type into the input field to filter the results!</h4> */}
 					<button id="magicButton" className={styles.button} onClick={()=>this.handleMagicButton()}>Reset</button>
-					<input className={styles.input} onChange={(event)=>this.handleInput(event)}/>
+					<input className={styles.input} onChange={(event)=>this.handleInput(event)} ref={this.inputBox}/>
 					<select className={styles.select} onChange={(event)=>this.handleSelect(event)} ref={this.selectBox}>
 					  <option default value="All">all</option>
 					  <option value="Creature">creatures</option>
@@ -114,7 +117,7 @@ class Magic extends Component {
 function mapStateToProps(state) {
 	console.log('state in cards: ', state);
 	// console.log('state.cards.cards: ', state.cards.cards);
-	return { cards: state.cards.cards, currentCard: state.currentCard.currentCard, typeSelected: state.filterCardByType.typeSelected };
+	return { cards: state.cards.cards, currentCard: state.currentCard.currentCard, typeSelected: state.storeType.typeSelected };
 }
 
 export default connect(mapStateToProps, actions)(Magic);

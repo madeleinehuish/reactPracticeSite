@@ -41,7 +41,7 @@ const store = createStore(
 			    imageUrl:
 			     'http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=435152&type=card' }
 		},
-		filterCardByType: {
+		storeType: {
 			typeSelected: 'All'
 		}
 
