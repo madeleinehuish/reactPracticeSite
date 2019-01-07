@@ -33,13 +33,14 @@ class Magic extends Component {
 
 		const cb = () => {
 			this.forceUpdate(()=>{
+				this.updateCards();
 				this.props.changeCurrentCard(this.props.cards[0]);
 			});
 		};
 
 		let type = this.props.typeSelected;
-
-		this.props.getcards(filterValue, type, cb);
+		this.props.storeFilterText(filterValue, cb);
+		// this.props.getcards(filterValue, type, cb);
 
 	}
 
@@ -77,6 +78,16 @@ class Magic extends Component {
 		console.log('filter length: ', filterValue.length);
 		this.props.getcards(filterValue, event.target.value, cb);
 
+	}
+
+	updateCards = () => {
+		const cb = () => {
+			this.forceUpdate(()=>{
+				this.props.changeCurrentCard(this.props.cards[0]);
+			});
+		};
+
+		this.props.getcards(this.props.filterText, this.props.typeSelected, cb);
 	}
 
 
@@ -117,7 +128,7 @@ class Magic extends Component {
 function mapStateToProps(state) {
 	console.log('state in cards: ', state);
 	// console.log('state.cards.cards: ', state.cards.cards);
-	return { cards: state.cards.cards, currentCard: state.currentCard.currentCard, typeSelected: state.storeType.typeSelected };
+	return { cards: state.cards.cards, currentCard: state.currentCard.currentCard, typeSelected: state.storeType.typeSelected, filterText: state.storeFilterText.filterText };
 }
 
 export default connect(mapStateToProps, actions)(Magic);

@@ -1,6 +1,13 @@
 import axios from 'axios';
 import dataIxalan from '../data/dataIxalan';
-import { AUTH_USER, AUTH_ERROR, FETCH_TRUCKS, FETCH_CARDS, CHANGE_CURRENT_CARD, STORE_TYPE } from './types';
+import { AUTH_USER,
+				 AUTH_ERROR,
+				 FETCH_TRUCKS,
+				 FETCH_CARDS,
+				 CHANGE_CURRENT_CARD,
+				 STORE_TYPE,
+				 STORE_FILTER_TEXT
+			 } from './types';
 
 export const signup = (formProps, callback) => async dispatch => {
 	try {
@@ -183,6 +190,14 @@ export const changeCurrentCard = (card) => {
 		type: CHANGE_CURRENT_CARD,
 		payload: card
 	}
+}
+
+export const storeFilterText = (text, cb) => async dispatch => {
+	dispatch({
+		type: STORE_FILTER_TEXT,
+		payload: text
+	});
+	cb()
 }
 
 export const storeType = (type) => {

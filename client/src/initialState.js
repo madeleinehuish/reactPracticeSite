@@ -38,6 +38,9 @@ export default {
 	},
 	storeType: {
 		typeSelected: 'All'
+	},
+	cardFilters: {
+		filterText: ''
 	}
 
 }
