@@ -90,7 +90,7 @@ class Magic extends Component {
 					<h4>Use controls to filter cards from the Ixalan set.</h4>
 					{/* <h4 className={styles.goUp}>Type into the input field to filter the results!</h4> */}
 					<button id="magicButton" className={styles.button} onClick={()=>this.handleMagicButton()}>Reset</button>
-					<input className={styles.input} onChange={(event)=>this.handleInput(event)} ref={this.inputBox}/>
+					<input className={styles.input} placeholder="type to filter" onChange={(event)=>this.handleInput(event)} ref={this.inputBox}/>
 					<select className={styles.select} onChange={(event)=>this.handleSelect(event)} ref={this.selectBox}>
 					  <option default value="All">all</option>
 					  <option value="Creature">creatures</option>
