@@ -1,11 +1,9 @@
 import { CHANGE_CURRENT_CARD } from '../actions/types';
 
-const INITIAL_STATE = {
-	currentCard: {}
-}
+const INITIAL_STATE = {};
 
 export default function(state=INITIAL_STATE, action) {
-	console.log('in currentCard reducer: action.payload: ', action.payload);
+	// console.log('in currentCard reducer: action.payload: ', action.payload);
 	switch (action.type) {
 		case CHANGE_CURRENT_CARD:
 			return { ...state, currentCard: action.payload };

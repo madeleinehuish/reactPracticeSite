@@ -5,7 +5,7 @@ const INITIAL_STATE = {
 }
 
 export default function(state=INITIAL_STATE, action) {
-	console.log('in trucks reducer: action.payload: ', action.payload);
+	// console.log('in trucks reducer: action.payload: ', action.payload);
 	switch (action.type) {
 		case FETCH_TRUCKS:
 			return { ...state, trucks: action.payload };

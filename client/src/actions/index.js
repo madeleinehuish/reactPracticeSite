@@ -1,7 +1,8 @@
+import store from '../store';
 import axios from 'axios';
 import mtg from 'mtgsdk';
 import dataIxalan from '../data/dataIxalan';
-import { AUTH_USER, AUTH_ERROR, FETCH_TRUCKS, FETCH_CARDS, CHANGE_CURRENT_CARD } from './types';
+import { AUTH_USER, AUTH_ERROR, FETCH_TRUCKS, FETCH_CARDS, CHANGE_CURRENT_CARD, FILTER_CARD_BY_TYPE } from './types';
 
 export const signup = (formProps, callback) => async dispatch => {
 	try {
@@ -142,38 +143,53 @@ export const gettrucks = (filterValue, cb) => async dispatch => {
 		cb()
 }
 
-export const getcards = (filterValue, cb) => async dispatch => {
-// export const getcards = (filterValue, cb) => async dispatch => {
-	if(!cb && typeof filterValue === 'function') cb = filterValue;
-
-	if(filterValue.length){
-		const cardsFiltered = dataIxalan.filter(elem => {
-			 return elem.name.substr(0,filterValue.length).toUpperCase() === filterValue.toUpperCase();
-	})
-	dispatch({
-		type: FETCH_CARDS,
-		payload: cardsFiltered
-	});
-
-} else {
-
- dispatch ({
-	 type: FETCH_CARDS,
-	 payload: dataIxalan
- });
+function filterByInput(cards, filterValue) {
+	let filtered = cards.filter(card => {
+		 return card.name.substr(0,filterValue.length).toUpperCase() === filterValue.toUpperCase();
+	 })
+	 return filtered;
 }
 
-	// dispatch ({
-	// 	type: FETCH_CARDS,
-	// 	payload: dataIxalan
-	// })
+function filterByType(cards, typeFilter) {
+	let filtered = cards.filter(card => {
+		return card.types.includes(typeFilter)
+	})
+	return filtered;
+}
 
-	cb()
+export const getcards = (filterValue, typeFilter, cb) => async dispatch => {
+
+	let cards = dataIxalan;
+
+	if(filterValue.length) {
+		cards = filterByInput(cards, filterValue);
+	}
+
+	if(typeFilter!=='All') {
+		cards = filterByType(cards, typeFilter)
+	}
+
+	dispatch({
+		type: FETCH_CARDS,
+		payload: cards
+	})
+
+	cb();
+
 }
 
 export const changeCurrentCard = (card) => {
+
 	return {
 		type: CHANGE_CURRENT_CARD,
 		payload: card
+	}
+}
+
+export const filterCardByType = (type) => {
+
+	return {
+		type: FILTER_CARD_BY_TYPE,
+		payload: type
 	}
 }

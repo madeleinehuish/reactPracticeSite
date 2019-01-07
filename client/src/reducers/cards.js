@@ -1,11 +1,9 @@
 import { FETCH_CARDS } from '../actions/types';
 
-const INITIAL_STATE = {
-	cards: []
-}
+const INITIAL_STATE = {};
 
 export default function(state=INITIAL_STATE, action) {
-	console.log('in cards reducer: action.payload: ', action.payload);
+	// console.log('in cards reducer: action.payload: ', action.payload);
 	switch (action.type) {
 		case FETCH_CARDS:
 			return { ...state, cards: action.payload };
