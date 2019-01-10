@@ -6,7 +6,8 @@ import { AUTH_USER,
 				 FETCH_CARDS,
 				 CHANGE_CURRENT_CARD,
 				 STORE_TYPE,
-				 STORE_FILTER_TEXT
+				 STORE_FILTER_TEXT,
+				 STORE_COLOR
 			 } from './types';
 
 export const signup = (formProps, callback) => async dispatch => {
@@ -149,6 +150,8 @@ export const gettrucks = (filterValue, cb) => async dispatch => {
 }
 
 function filterByInput(cards, filterValue) {
+	if(filterValue==='') return cards;
+
 	let filtered = cards.filter(card => {
 		 return card.name.substr(0,filterValue.length).toUpperCase() === filterValue.toUpperCase();
 	 })
@@ -156,23 +159,50 @@ function filterByInput(cards, filterValue) {
 }
 
 function filterByType(cards, typeFilter) {
+	if(typeFilter==='All') return cards;
+
 	let filtered = cards.filter(card => {
-		return card.types.includes(typeFilter)
+		return card.types.includes(typeFilter);
 	})
 	return filtered;
 }
 
-export const getcards = (filterValue, typeFilter, cb) => async dispatch => {
+function filterByColor(cards, colorFilter) {
+	if(colorFilter==='All') return cards;
+	//use colorIdentity not Colors
+	//first filter out flip cards:
+
+	let filtered = cards.filter(card => {
+		if(!card.colorIdentity) {
+			return card.colors!=='White' || card.colors!=='Blue' && card.colors!=='Red' && card.colors!=='Green'&& card.colors!=='Black';
+		} else {
+				return card.colorIdentity.includes(colorFilter);
+		}
+	})
+	// let withoutFlip = cards.filter(card => {
+	// 	if(card.colors && card.colorIdentity) {
+	// 		return card;
+	// 	}
+	// })
+	// let filtered = withoutFlip.filter(card => {
+	// 	if(!card.colors) {
+	// 		return card.colors!=='White' && card.colors!=='Blue' && card.colors!=='Red' && card.colors!=='Green'&& card.colors!=='Black';
+	// 	} else {
+	// 			return card.colors.includes(colorFilter);
+	// 	}
+	// })
+	return filtered;
+}
+
+export const getcards = (filterValue, typeFilter, colorFilter, cb) => async dispatch => {
 
 	let cards = dataIxalan;
 
-	if(typeFilter!=='All') {
-		cards = filterByType(cards, typeFilter)
-	}
+	cards = filterByType(cards, typeFilter);
 
-	if(filterValue.length) {
-		cards = filterByInput(cards, filterValue);
-	}
+	cards = filterByColor(cards, colorFilter);
+
+	cards = filterByInput(cards, filterValue);
 
 	dispatch({
 		type: FETCH_CARDS,
@@ -203,6 +233,15 @@ export const storeType = (type, cb) => async dispatch => {
 
 	dispatch({
 		type: STORE_TYPE,
+		payload: type
+	});
+	cb();
+}
+
+export const storeColor = (type, cb) => async dispatch => {
+
+	dispatch({
+		type: STORE_COLOR,
 		payload: type
 	});
 	cb();

@@ -1,4 +1,4 @@
-import { STORE_FILTER_TEXT, STORE_TYPE } from '../actions/types';
+import { STORE_FILTER_TEXT, STORE_TYPE, STORE_COLOR } from '../actions/types';
 
 const INITIAL_STATE = {
 	filterText: '',
@@ -12,6 +12,8 @@ export default function(state=INITIAL_STATE, action) {
 			return { ...state, filterText: action.payload };
 		case STORE_TYPE:
 			return { ...state, filterType: action.payload };
+		case STORE_COLOR:
+			return { ...state, filterColor: action.payload };
 		default:
 			return state;
 	}

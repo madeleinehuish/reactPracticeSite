@@ -41,7 +41,8 @@ export default {
 	},
 	cardFilters: {
 		filterText: '',
-		filterType: 'All'
+		filterType: 'All',
+		filterColor: 'All'
 	}
 
 }

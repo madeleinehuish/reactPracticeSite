@@ -11,6 +11,7 @@ class Magic extends Component {
 		super(props);
 		this.selectBox = React.createRef();
 		this.inputBox = React.createRef();
+		this.colorBox = React.createRef();
 	}
 
 	handleFilter = (event, filterType) => {
@@ -29,6 +30,9 @@ class Magic extends Component {
 				break;
 			case 'type':
 				this.props.storeType(filterValue, cb);
+				break;
+			case 'color':
+				this.props.storeColor(filterValue, cb);
 				break;
 			default:
 				break;
@@ -49,14 +53,17 @@ class Magic extends Component {
 		const cb = () => {
 			this.forceUpdate(()=>{
 				this.props.changeCurrentCard(this.props.cards[0]);
+				this.updateCards();
 			});
 		};
-		let filterValue = '';
-		let type = 'All';
 
-		this.selectBox.current.value = 'All';
 		this.inputBox.current.value = '';
-		this.props.getcards(filterValue, type, cb);
+		this.selectBox.current.value = 'All';
+		this.colorBox.current.value = 'All';
+		//send in default values
+		this.props.storeFilterText('', cb);
+		this.props.storeType('All', cb);
+		this.props.storeColor('All', cb);
 	}
 
 	updateCards = () => {
@@ -66,7 +73,7 @@ class Magic extends Component {
 			});
 		};
 
-		this.props.getcards(this.props.filterText, this.props.filterType, cb);
+		this.props.getcards(this.props.filterText, this.props.filterType, this.props.filterColor, cb);
 	}
 
 
@@ -78,7 +85,8 @@ class Magic extends Component {
 				<div className={styles.magicOuterContainer}>
 					<h3 className={styles.title}>Magic the Gathering Cards!</h3>
 					<h4>Use controls to filter cards from the Ixalan set.</h4>
-					<button id="magicButton" className={styles.button} onClick={()=>this.reset()}>Reset</button>
+					<button id="magicButton" className={styles.button} onClick={()=>this.reset()} >Reset
+					</button>
 					<input className={styles.input} placeholder="type to filter" onChange={(event)=>this.handleFilter(event, 'text')} ref={this.inputBox}/>
 					<select className={styles.select} onChange={(event)=>this.handleFilter(event, 'type')} ref={this.selectBox}>
 					  <option default value="All">all</option>
@@ -90,6 +98,17 @@ class Magic extends Component {
 						<option value="Artifact">artifacts</option>
 						<option value="Land">lands</option>
 					</select>
+
+					<select className={styles.select} onChange={(event)=>this.handleFilter(event, 'color')} ref={this.colorBox}>
+					  <option default value="All">all</option>
+					  <option value="W">white</option>
+					  <option value="U">blue</option>
+					  <option value="R">red</option>
+						<option value="G">green</option>
+						<option value="B">black</option>
+						<option value="Colorless">colorless</option>
+					</select>
+
 					<div className={styles.magicGridContainer}>
 						<div className={styles.col1}>
 							<Cardslist cards={this.props.cards} handleHover={this.handleHover} currentCard={this.props.currentCard}/>
@@ -110,7 +129,8 @@ function mapStateToProps(state) {
 		cards: state.cards.cards,
 		currentCard: state.currentCard.currentCard,
 		filterType: state.cardFilters.filterType,
-		filterText: state.cardFilters.filterText
+		filterText: state.cardFilters.filterText,
+		filterColor: state.cardFilters.filterColor
 	};
 }
 
