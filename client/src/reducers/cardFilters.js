@@ -1,9 +1,6 @@
-import { STORE_FILTER_TEXT, STORE_TYPE, STORE_COLOR } from '../actions/types';
+import { STORE_FILTER_TEXT, STORE_TYPE, STORE_COLOR, STORE_RARITY } from '../actions/types';
 
-const INITIAL_STATE = {
-	filterText: '',
-	filterType: 'All'
-};
+const INITIAL_STATE = {};
 
 export default function(state=INITIAL_STATE, action) {
 	// console.log('in filterCardByType reducer: action.payload: ', action.payload);
@@ -14,6 +11,8 @@ export default function(state=INITIAL_STATE, action) {
 			return { ...state, filterType: action.payload };
 		case STORE_COLOR:
 			return { ...state, filterColor: action.payload };
+		case STORE_RARITY:
+			return { ...state, filterRarity: action.payload };
 		default:
 			return state;
 	}

@@ -12,6 +12,7 @@ class Magic extends Component {
 		this.selectBox = React.createRef();
 		this.inputBox = React.createRef();
 		this.colorBox = React.createRef();
+		this.rarityBox = React.createRef();
 	}
 
 	handleFilter = (event, filterType) => {
@@ -34,6 +35,8 @@ class Magic extends Component {
 			case 'color':
 				this.props.storeColor(filterValue, cb);
 				break;
+			case 'rarity':
+				this.props.storeRarity(filterValue, cb);
 			default:
 				break;
 		}
@@ -52,18 +55,21 @@ class Magic extends Component {
 
 		const cb = () => {
 			this.forceUpdate(()=>{
-				this.props.changeCurrentCard(this.props.cards[0]);
+				// this.props.changeCurrentCard(this.props.cards[0]);
 				this.updateCards();
 			});
 		};
 
+		// reset form elements
 		this.inputBox.current.value = '';
 		this.selectBox.current.value = 'All';
 		this.colorBox.current.value = 'All';
-		//send in default values
+		this.rarityBox.current.value = 'All';
+		// send in default values to state
 		this.props.storeFilterText('', cb);
 		this.props.storeType('All', cb);
 		this.props.storeColor('All', cb);
+		this.props.storeRarity('All', cb);
 	}
 
 	updateCards = () => {
@@ -73,7 +79,7 @@ class Magic extends Component {
 			});
 		};
 
-		this.props.getcards(this.props.filterText, this.props.filterType, this.props.filterColor, cb);
+		this.props.getcards(this.props.filterText, this.props.filterType, this.props.filterColor, this.props.filterRarity, cb);
 	}
 
 
@@ -109,6 +115,14 @@ class Magic extends Component {
 						<option value="Colorless">colorless</option>
 					</select>
 
+					<select className={styles.select} onChange={(event)=>this.handleFilter(event, 'rarity')} ref={this.rarityBox}>
+					  <option default value="All">all</option>
+					  <option value="Mythic Rare">mythic rare</option>
+					  <option value="Rare">rare</option>
+					  <option value="Uncommon">uncommon</option>
+						<option value="Common">common</option>
+					</select>
+
 					<div className={styles.magicGridContainer}>
 						<div className={styles.col1}>
 							<Cardslist cards={this.props.cards} handleHover={this.handleHover} currentCard={this.props.currentCard}/>
@@ -130,7 +144,8 @@ function mapStateToProps(state) {
 		currentCard: state.currentCard.currentCard,
 		filterType: state.cardFilters.filterType,
 		filterText: state.cardFilters.filterText,
-		filterColor: state.cardFilters.filterColor
+		filterColor: state.cardFilters.filterColor,
+		filterRarity: state.cardFilters.filterRarity
 	};
 }
 

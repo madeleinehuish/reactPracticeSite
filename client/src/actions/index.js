@@ -7,7 +7,8 @@ import { AUTH_USER,
 				 CHANGE_CURRENT_CARD,
 				 STORE_TYPE,
 				 STORE_FILTER_TEXT,
-				 STORE_COLOR
+				 STORE_COLOR,
+				 STORE_RARITY
 			 } from './types';
 
 export const signup = (formProps, callback) => async dispatch => {
@@ -149,13 +150,38 @@ export const gettrucks = (filterValue, cb) => async dispatch => {
 		cb()
 }
 
+function filterByColor(cards, colorFilter) {
+	if(colorFilter==='All') return cards;
+
+	let filtered = cards.filter(card => {
+		if(!card.colorIdentity) {
+			return card.colors!=='White' || card.colors!=='Blue' && card.colors!=='Red' && card.colors!=='Green'&& card.colors!=='Black';
+		} else {
+				return card.colorIdentity.includes(colorFilter);
+		}
+	})
+
+	return filtered;
+}
+
 function filterByInput(cards, filterValue) {
 	if(filterValue==='') return cards;
 
 	let filtered = cards.filter(card => {
 		 return card.name.substr(0,filterValue.length).toUpperCase() === filterValue.toUpperCase();
 	 })
+
 	 return filtered;
+}
+
+function filterByRarity(cards, filterValue) {
+	if(filterValue==='All') return cards;
+
+	let filtered = cards.filter(card => {
+		return card.rarity===filterValue;
+	})
+
+	return filtered;
 }
 
 function filterByType(cards, typeFilter) {
@@ -167,40 +193,16 @@ function filterByType(cards, typeFilter) {
 	return filtered;
 }
 
-function filterByColor(cards, colorFilter) {
-	if(colorFilter==='All') return cards;
-	//use colorIdentity not Colors
-	//first filter out flip cards:
 
-	let filtered = cards.filter(card => {
-		if(!card.colorIdentity) {
-			return card.colors!=='White' || card.colors!=='Blue' && card.colors!=='Red' && card.colors!=='Green'&& card.colors!=='Black';
-		} else {
-				return card.colorIdentity.includes(colorFilter);
-		}
-	})
-	// let withoutFlip = cards.filter(card => {
-	// 	if(card.colors && card.colorIdentity) {
-	// 		return card;
-	// 	}
-	// })
-	// let filtered = withoutFlip.filter(card => {
-	// 	if(!card.colors) {
-	// 		return card.colors!=='White' && card.colors!=='Blue' && card.colors!=='Red' && card.colors!=='Green'&& card.colors!=='Black';
-	// 	} else {
-	// 			return card.colors.includes(colorFilter);
-	// 	}
-	// })
-	return filtered;
-}
-
-export const getcards = (filterValue, typeFilter, colorFilter, cb) => async dispatch => {
+export const getcards = (filterValue, typeFilter, colorFilter, rarityFilter, cb) => async dispatch => {
 
 	let cards = dataIxalan;
 
 	cards = filterByType(cards, typeFilter);
 
 	cards = filterByColor(cards, colorFilter);
+
+	cards = filterByRarity(cards, rarityFilter);
 
 	cards = filterByInput(cards, filterValue);
 
@@ -238,11 +240,20 @@ export const storeType = (type, cb) => async dispatch => {
 	cb();
 }
 
-export const storeColor = (type, cb) => async dispatch => {
+export const storeColor = (color, cb) => async dispatch => {
 
 	dispatch({
 		type: STORE_COLOR,
-		payload: type
+		payload: color
+	});
+	cb();
+}
+
+export const storeRarity = (rarity, cb) => async dispatch => {
+
+	dispatch({
+		type: STORE_RARITY,
+		payload: rarity
 	});
 	cb();
 }
