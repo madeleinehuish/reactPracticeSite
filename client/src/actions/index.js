@@ -1,5 +1,5 @@
 import axios from 'axios';
-import dataIxalan from '../data/dataIxalan';
+import DATA from '../data/combinedData';
 import { AUTH_USER,
 				 AUTH_ERROR,
 				 FETCH_TRUCKS,
@@ -150,6 +150,15 @@ export const gettrucks = (filterValue, cb) => async dispatch => {
 		cb()
 }
 
+function filterAlphabetically(cards) {
+	let sortedAlphabetically = cards.sort((a,b) =>{
+		if(a.name < b.name) return -1;
+		if(a.name > b.name) return 1;
+		return 0;
+	})
+	return sortedAlphabetically;
+}
+
 function filterByColor(cards, colorFilter) {
 	if(colorFilter==='All') return cards;
 
@@ -196,7 +205,7 @@ function filterByType(cards, typeFilter) {
 
 export const getcards = (filterValue, typeFilter, colorFilter, rarityFilter, cb) => async dispatch => {
 
-	let cards = dataIxalan;
+	let cards = DATA;
 
 	cards = filterByType(cards, typeFilter);
 
@@ -205,6 +214,15 @@ export const getcards = (filterValue, typeFilter, colorFilter, rarityFilter, cb)
 	cards = filterByRarity(cards, rarityFilter);
 
 	cards = filterByInput(cards, filterValue);
+
+	cards = filterAlphabetically(cards);
+
+	// add logic for case where cards.length === 0
+
+	if(!cards.length) cards[0] =  {
+		name: "There are no cards with these given filters",
+		imageUrl: "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=366433&type=card"
+	};
 
 	dispatch({
 		type: FETCH_CARDS,

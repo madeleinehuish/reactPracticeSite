@@ -1,4 +1,14 @@
-import dataIxalan from './data/dataIxalan';
+// import data from './data/combinedData';
+import ixalan from './data/dataIxalan';
+import rivals from './data/dataRivalsOfIxalan';
+import dominaria from './data/dataDominaria';
+
+let data = [...ixalan, ...rivals, ...dominaria];
+let sortedInitialData = data.sort((a,b) =>{
+	if(a.name < b.name) return -1;
+	if(a.name > b.name) return 1;
+	return 0;
+})
 
 export default {
 	auth:{ //initial state
@@ -11,7 +21,7 @@ export default {
 	},
 	trucks: [],
 	cards: {
-		cards: dataIxalan
+		cards: sortedInitialData
 	},
 	currentCard: {
 		currentCard: { myid: 1,
