@@ -3,22 +3,29 @@
 
 	/* overflow:scroll; */
 	/* display: none; */
-	margin-top: 10px;
+	/* margin-top: 10px; */
 	/* border: 2px solid #bcf5bc; */
 	/* margin-bottom: 10px; */
 	/* margin-bottom: 40px; */
 	height: 400px;
-
+	/* margin-left: 0; */
 
 }
 
 .cardsUlWrapper {
 	display: grid;
-	grid-template-columns: 50% 50%;
+	grid-template-columns: 100%;
 	list-style-type: none;
 	height: 360px;
 	border: 2px solid #bcf5bc;
 	overflow:scroll;
+	width: 300px;
+	/* margin-left: -50px; */
+	/* margin-left: 0; */
+}
+
+.cardsUlWrapper:hover {
+	cursor: pointer;
 }
 
 .cardsUl {
@@ -26,6 +33,11 @@
 	height: 360px;
 	/* border: 2px solid #bcf5bc; */
 	overflow:scroll;
+	padding-left: 0;
+}
+
+.cardSelect {
+	padding-left: 10px;
 }
 
 .cardWindow {
@@ -38,7 +50,7 @@
 }
 
 .cardSelect:hover {
-	cursor: pointer;
+
 	text-shadow: 3px 3px #808080;
 }
 

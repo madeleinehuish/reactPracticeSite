@@ -23,9 +23,9 @@ const Cardslist = props => {
 							})
 						}
 					</ul>
-					<div className={styles.cardWindow}>
+					{/* <div className={styles.cardWindow}>
 						<img src={ props.currentCard ? props.currentCard.imageUrl : null } className={styles.cardImage} alt="magic card" height="320px" />
-					</div>
+					</div> */}
 				</div>
 			</div>
 

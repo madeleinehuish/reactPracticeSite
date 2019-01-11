@@ -95,57 +95,76 @@ class Magic extends Component {
 		return (
 			<div>
 				<br />
-				<div className={styles.magicOuterContainer}>
-					<h3 className={styles.title}>Magic the Gathering Cards!</h3>
+				<div className={styles.magicPageContainer}>
+					<header><h3 className={styles.title}>Magic the Gathering Cards!</h3></header>
 					<h4>Use controls to filter cards currently in Standard.</h4>
-					<button id="magicButton" className={styles.button} onClick={()=>this.reset()} >Reset
-					</button>
-					<input className={styles.input} placeholder="type to filter" onChange={(event)=>this.handleFilter(event, 'text')} ref={this.inputBox}/>
-					<select className={styles.select} onChange={(event)=>this.handleFilter(event, 'type')} ref={this.selectBox}>
-					  <option default value="All">all</option>
-					  <option value="Creature">creatures</option>
-					  <option value="Enchantment">enchantments</option>
-					  <option value="Instant">instants</option>
-						<option value="Sorcery">sorceries</option>
-						<option value="Planeswalker">planeswalkers</option>
-						<option value="Artifact">artifacts</option>
-						<option value="Land">lands</option>
-					</select>
+					<div className={styles.magicOuterContainer}>
+						<div className={styles.outerColumn1}>
+							<div className={styles.magicInnerContainer}>
+								<div className={styles.col1}>
+									<div className={styles.filters}>
+										<button id="magicButton" className={styles.button} onClick={()=>this.reset()}>Reset</button>
+									</div>
+									<div className={styles.filters}>
+										<input className={styles.input} placeholder="type to filter" onChange={(event)=>this.handleFilter(event, 'text')} ref={this.inputBox}/>
+									</div>
+									<div className={styles.filters}>
+										<select className={styles.select} onChange={(event)=>this.handleFilter(event, 'type')} ref={this.selectBox}>
+										  <option default value="All">types (all)</option>
+										  <option value="Creature">creatures</option>
+										  <option value="Enchantment">enchantments</option>
+										  <option value="Instant">instants</option>
+											<option value="Sorcery">sorceries</option>
+											<option value="Planeswalker">planeswalkers</option>
+											<option value="Artifact">artifacts</option>
+											<option value="Land">lands</option>
+										</select>
+									</div>
+									<div className={styles.filters}>
+										<select className={styles.select} onChange={(event)=>this.handleFilter(event, 'color')} ref={this.colorBox}>
+										  <option default value="All">colors (all)</option>
+										  <option value="W">white</option>
+										  <option value="U">blue</option>
+										  <option value="R">red</option>
+											<option value="G">green</option>
+											<option value="B">black</option>
+											<option value="Colorless">colorless</option>
+										</select>
+									</div>
 
-					<select className={styles.select} onChange={(event)=>this.handleFilter(event, 'color')} ref={this.colorBox}>
-					  <option default value="All">all</option>
-					  <option value="W">white</option>
-					  <option value="U">blue</option>
-					  <option value="R">red</option>
-						<option value="G">green</option>
-						<option value="B">black</option>
-						<option value="Colorless">colorless</option>
-					</select>
+									<div className={styles.filters}>
+										<select className={styles.select} onChange={(event)=>this.handleFilter(event, 'rarity')} ref={this.rarityBox}>
+										  <option default value="All">rarity (all)</option>
+										  <option value="Mythic Rare">mythic rare</option>
+										  <option value="Rare">rare</option>
+										  <option value="Uncommon">uncommon</option>
+											<option value="Common">common</option>
+										</select>
+									</div>
 
-					<select className={styles.select} onChange={(event)=>this.handleFilter(event, 'rarity')} ref={this.rarityBox}>
-					  <option default value="All">all</option>
-					  <option value="Mythic Rare">mythic rare</option>
-					  <option value="Rare">rare</option>
-					  <option value="Uncommon">uncommon</option>
-						<option value="Common">common</option>
-					</select>
-
-					<select className={styles.select} onChange={(event)=>this.handleFilter(event, 'set')} ref={this.setBox}>
-					  <option default value="All">all</option>
-					  <option value="XLN">Ixalan</option>
-					  <option value="RIX">Rivals of Ixalan</option>
-					  <option value="DOM">Dominaria</option>
-						<option value="M19">Core Set 2019</option>
-						<option value="GRN">Guilds of Ravnica</option>
-					</select>
-
-					<div className={styles.magicGridContainer}>
-						<div className={styles.col1}>
-							<Cardslist cards={this.props.cards} handleHover={this.handleHover} currentCard={this.props.currentCard}/>
+									<div className={styles.filters}>
+										<select className={styles.select} onChange={(event)=>this.handleFilter(event, 'set')} ref={this.setBox}>
+										  <option default value="All">sets (all)</option>
+										  <option value="XLN">Ixalan</option>
+										  <option value="RIX">Rivals of Ixalan</option>
+										  <option value="DOM">Dominaria</option>
+											<option value="M19">Core Set 2019</option>
+											<option value="GRN">Guilds of Ravnica</option>
+										</select>
+									</div>
+								</div>
+								<div className={styles.col2}>
+									<Cardslist cards={this.props.cards} handleHover={this.handleHover} currentCard={this.props.currentCard}/>
+								</div>
+							</div>
 						</div>
-						<div className={styles.col2}>
+						<div className={styles.outerColumn2}>
+							<img src={ this.props.currentCard ? this.props.currentCard.imageUrl : null } className={styles.cardImage} alt="magic card" height="320px" />
 						</div>
 					</div>
+
+
+
 				</div>
 			</div>
 		)

@@ -20,4 +20,9 @@ let sortedInitialData = combinedData.sort((a,b) =>{
 	return 0;
 })
 
+// let sortedBySet = sortedAlphabetically.filter(card => {
+// 	return card.set===setFilter;
+// })
+
+
 export default sortedInitialData;
