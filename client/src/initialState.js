@@ -1,14 +1,6 @@
-// import data from './data/combinedData';
-import ixalan from './data/dataIxalan';
-import rivals from './data/dataRivalsOfIxalan';
-import dominaria from './data/dataDominaria';
+import data from './data/combinedData';
+const firstCard = data[0];
 
-let data = [...ixalan, ...rivals, ...dominaria];
-let sortedInitialData = data.sort((a,b) =>{
-	if(a.name < b.name) return -1;
-	if(a.name > b.name) return 1;
-	return 0;
-})
 
 export default {
 	auth:{ //initial state
@@ -21,39 +13,17 @@ export default {
 	},
 	trucks: [],
 	cards: {
-		cards: sortedInitialData
+		cards: data
 	},
 	currentCard: {
-		currentCard: { myid: 1,
-				id: 'ccbc0aca09ec754dd5dc97081315dfdff1748132',
-				name: 'Adanto Vanguard',
-				manaCost: '{1}{W}',
-				cmc: 2,
-				colors: [ 'White' ],
-				colorIdentity: [ 'W' ],
-				type: 'Creature — Vampire Soldier',
-				types: [ 'Creature' ],
-				subtypes: [ 'Vampire', 'Soldier' ],
-				rarity: 'Uncommon',
-				set: 'XLN',
-				setName: 'Ixalan',
-				text:
-				 'As long as Adanto Vanguard is attacking, it gets +2/+0.\nPay 4 life: Adanto Vanguard gains indestructible until end of turn. (Damage and effects that say "destroy" don\'t destroy it.)',
-				artist: 'Anna Steinbauer',
-				number: '1',
-				power: '1',
-				toughness: '1',
-				imageUrl:
-				 'http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=435152&type=card' }
-	},
-	storeType: {
-		typeSelected: 'All'
+		currentCard: firstCard
 	},
 	cardFilters: {
 		filterText: '',
 		filterType: 'All',
 		filterColor: 'All',
-		filterRarity: 'All'
+		filterRarity: 'All',
+		filterSet: 'All'
 	}
 
 }

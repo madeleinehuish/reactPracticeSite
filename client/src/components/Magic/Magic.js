@@ -13,6 +13,7 @@ class Magic extends Component {
 		this.inputBox = React.createRef();
 		this.colorBox = React.createRef();
 		this.rarityBox = React.createRef();
+		this.setBox = React.createRef();
 	}
 
 	handleFilter = (event, filterType) => {
@@ -37,6 +38,10 @@ class Magic extends Component {
 				break;
 			case 'rarity':
 				this.props.storeRarity(filterValue, cb);
+				break;
+			case 'set':
+				this.props.storeSet(filterValue, cb);
+				break;
 			default:
 				break;
 		}
@@ -65,11 +70,13 @@ class Magic extends Component {
 		this.selectBox.current.value = 'All';
 		this.colorBox.current.value = 'All';
 		this.rarityBox.current.value = 'All';
+		this.setBox.current.value = 'All';
 		// send in default values to state
 		this.props.storeFilterText('', cb);
 		this.props.storeType('All', cb);
 		this.props.storeColor('All', cb);
 		this.props.storeRarity('All', cb);
+		this.props.storeSet('All', cb);
 	}
 
 	updateCards = () => {
@@ -79,7 +86,7 @@ class Magic extends Component {
 			});
 		};
 
-		this.props.getcards(this.props.filterText, this.props.filterType, this.props.filterColor, this.props.filterRarity, cb);
+		this.props.getcards(this.props.filterText, this.props.filterType, this.props.filterColor, this.props.filterRarity, this.props.filterSet, cb);
 	}
 
 
@@ -90,7 +97,7 @@ class Magic extends Component {
 				<br />
 				<div className={styles.magicOuterContainer}>
 					<h3 className={styles.title}>Magic the Gathering Cards!</h3>
-					<h4>Use controls to filter cards from the Ixalan set.</h4>
+					<h4>Use controls to filter cards currently in Standard.</h4>
 					<button id="magicButton" className={styles.button} onClick={()=>this.reset()} >Reset
 					</button>
 					<input className={styles.input} placeholder="type to filter" onChange={(event)=>this.handleFilter(event, 'text')} ref={this.inputBox}/>
@@ -123,6 +130,15 @@ class Magic extends Component {
 						<option value="Common">common</option>
 					</select>
 
+					<select className={styles.select} onChange={(event)=>this.handleFilter(event, 'set')} ref={this.setBox}>
+					  <option default value="All">all</option>
+					  <option value="XLN">Ixalan</option>
+					  <option value="RIX">Rivals of Ixalan</option>
+					  <option value="DOM">Dominaria</option>
+						<option value="M19">Core Set 2019</option>
+						<option value="GRN">Guilds of Ravnica</option>
+					</select>
+
 					<div className={styles.magicGridContainer}>
 						<div className={styles.col1}>
 							<Cardslist cards={this.props.cards} handleHover={this.handleHover} currentCard={this.props.currentCard}/>
@@ -145,7 +161,8 @@ function mapStateToProps(state) {
 		filterType: state.cardFilters.filterType,
 		filterText: state.cardFilters.filterText,
 		filterColor: state.cardFilters.filterColor,
-		filterRarity: state.cardFilters.filterRarity
+		filterRarity: state.cardFilters.filterRarity,
+		filterSet: state.cardFilters.filterSet
 	};
 }
 

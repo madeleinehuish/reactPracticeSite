@@ -8,7 +8,8 @@ import { AUTH_USER,
 				 STORE_TYPE,
 				 STORE_FILTER_TEXT,
 				 STORE_COLOR,
-				 STORE_RARITY
+				 STORE_RARITY,
+				 STORE_SET
 			 } from './types';
 
 export const signup = (formProps, callback) => async dispatch => {
@@ -147,8 +148,23 @@ export const gettrucks = (filterValue, cb) => async dispatch => {
 			});
 		}
 
-		cb()
+		cb();
 }
+
+// function filterDoubleCards(cards) {
+//
+// 	let sortedByDoubleSided = cards.filter((card, index) => {
+// 		let doesCardHaveDouble = card.number.charAt(card.number.length - 1); //checks if a 'b'
+// 		if(doesCardHaveDouble === 'a') {
+// 			card.double = cards[index + 1];
+// 			return card;
+// 		}
+// 		if(doesCardHaveDouble === 'b') {
+// 			card.double = cards[index - 1];
+// 			return card;
+// 		}
+// 	})
+// }
 
 function filterAlphabetically(cards) {
 	let sortedAlphabetically = cards.sort((a,b) =>{
@@ -193,6 +209,16 @@ function filterByRarity(cards, filterValue) {
 	return filtered;
 }
 
+function filterBySet(cards, setFilter) {
+	if(setFilter==='All') return cards;
+
+	let filtered = cards.filter(card => {
+		return card.set===setFilter;
+	})
+
+	return filtered;
+}
+
 function filterByType(cards, typeFilter) {
 	if(typeFilter==='All') return cards;
 
@@ -203,9 +229,13 @@ function filterByType(cards, typeFilter) {
 }
 
 
-export const getcards = (filterValue, typeFilter, colorFilter, rarityFilter, cb) => async dispatch => {
+export const getcards = (filterValue, typeFilter, colorFilter, rarityFilter, setFilter, cb) => async dispatch => {
 
 	let cards = DATA;
+
+	// cards = filterDoubleCards(cards); //this filter should be first as index needs to be in set order
+
+	cards = filterBySet(cards, setFilter);
 
 	cards = filterByType(cards, typeFilter);
 
@@ -272,6 +302,15 @@ export const storeRarity = (rarity, cb) => async dispatch => {
 	dispatch({
 		type: STORE_RARITY,
 		payload: rarity
+	});
+	cb();
+}
+
+export const storeSet = (set, cb) => async dispatch => {
+
+	dispatch({
+		type: STORE_SET,
+		payload: set
 	});
 	cb();
 }
