@@ -72,10 +72,9 @@
 	margin-bottom: 10px;
 }
 
-.imageWrapper {
-	border-radius: 10%;
-}
+
 .cardImage {
+	border-radius: 4%;
 	margin-top: -75px;
 	margin-bottom: 100px;
 	height: 500px;

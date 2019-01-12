@@ -179,10 +179,10 @@ function filterByColor(cards, colorFilter) {
 	if(colorFilter==='All') return cards;
 
 	let filtered = cards.filter(card => {
-		if(!card.colorIdentity) {
+		if(card.color_identity.length===0) {
 			return card.colors!=='White' || card.colors!=='Blue' && card.colors!=='Red' && card.colors!=='Green'&& card.colors!=='Black';
 		} else {
-				return card.colorIdentity.includes(colorFilter);
+				return card.color_identity.includes(colorFilter);
 		}
 	})
 
