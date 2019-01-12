@@ -159,7 +159,10 @@ class Magic extends Component {
 							</div>
 						</div>
 						<div className={styles.outerColumn2}>
-							<img src={ this.props.currentCard ? this.props.currentCard.imageUrl : null } className={styles.cardImage} alt="magic card" height="320px" />
+							{/* <img src={ this.props.currentCard ? this.props.currentCard.imageUrl : null } className={styles.cardImage} alt="magic card" height="320px" /> */}
+							<div className={styles.imageWrapper}>
+								<img src={ this.props.currentCard ? this.props.currentCard.image_uris.large : null } className={styles.cardImage} alt="magic card" height="320px" />
+							</div>
 						</div>
 					</div>
 

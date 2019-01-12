@@ -223,7 +223,7 @@ function filterByType(cards, typeFilter) {
 	if(typeFilter==='All') return cards;
 
 	let filtered = cards.filter(card => {
-		return card.types.includes(typeFilter);
+		return card.type_line.includes(typeFilter);
 	})
 	return filtered;
 }
