@@ -1,9 +1,31 @@
 import React, { Component } from 'react';
 import { connect } from 'react-redux';
 import * as actions from '../../actions';
+import CurrentImage from './CurrentImage/CurrentImage';
 
 import Cardslist from './Cardslist/Cardslist';
 import styles from './Magic.css';
+
+// const CurrentImage = (props) => {
+//
+//
+// 	if(props.currentCard.card_faces) {
+// 		return (
+// 			<div className={styles.flipBackground}>
+// 				<div className={styles.flipCard}>
+// 						<img src={ props.currentCard ? props.currentCard.card_faces[0].image_uris.large : null } className={styles.cardImage, styles.cardImageFront, styles.cardFace} alt="magic card" height="320px" />
+// 						<img src={ props.currentCard ? props.currentCard.card_faces[1].image_uris.large : null } className={styles.cardImage, styles.cardImageBack, styles.cardFace} alt="magic card" height="320px" />
+// 					</div>
+// 				</div>
+// 		)
+// 	} else {
+// 		return (
+// 			<img src={ props.currentCard ? props.currentCard.image_uris.large : null } className={styles.cardImage} alt="magic card" height="320px" />
+// 		)
+// 	}
+// }
+
+
 
 class Magic extends Component {
 
@@ -135,21 +157,21 @@ class Magic extends Component {
 									<div className={styles.filters}>
 										<select className={styles.select} onChange={(event)=>this.handleFilter(event, 'rarity')} ref={this.rarityBox}>
 										  <option default value="All">rarity (all)</option>
-										  <option value="Mythic Rare">mythic rare</option>
-										  <option value="Rare">rare</option>
-										  <option value="Uncommon">uncommon</option>
-											<option value="Common">common</option>
+										  <option value="mythic">mythic rare</option>
+										  <option value="rare">rare</option>
+										  <option value="uncommon">uncommon</option>
+											<option value="common">common</option>
 										</select>
 									</div>
 
 									<div className={styles.filters}>
 										<select className={styles.select} onChange={(event)=>this.handleFilter(event, 'set')} ref={this.setBox}>
 										  <option default value="All">sets (all)</option>
-										  <option value="XLN">Ixalan</option>
-										  <option value="RIX">Rivals of Ixalan</option>
-										  <option value="DOM">Dominaria</option>
-											<option value="M19">Core Set 2019</option>
-											<option value="GRN">Guilds of Ravnica</option>
+										  <option value="xln">Ixalan</option>
+										  <option value="rix">Rivals of Ixalan</option>
+										  <option value="dom">Dominaria</option>
+											<option value="m19">Core Set 2019</option>
+											<option value="grn">Guilds of Ravnica</option>
 										</select>
 									</div>
 								</div>
@@ -159,10 +181,7 @@ class Magic extends Component {
 							</div>
 						</div>
 						<div className={styles.outerColumn2}>
-							{/* <img src={ this.props.currentCard ? this.props.currentCard.imageUrl : null } className={styles.cardImage} alt="magic card" height="320px" /> */}
-							{/* <div className={styles.imageWrapper}> */}
-								<img src={ this.props.currentCard ? this.props.currentCard.image_uris.large : null } className={styles.cardImage} alt="magic card" height="320px" />
-							{/* </div> */}
+							<CurrentImage currentCard={this.props.currentCard} />
 						</div>
 					</div>
 

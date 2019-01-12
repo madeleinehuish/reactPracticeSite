@@ -1,0 +1,17 @@
+.cardImage {
+	border-radius: 4%;
+	margin-top: -75px;
+	margin-bottom: 100px;
+	height: 500px;
+}
+
+.cardImageDouble {
+	border-radius: 4%;
+	margin-top: -75px;
+	margin-bottom: 100px;
+	height: 500px;
+}
+
+.cardImageDouble:hover {
+	cursor: pointer;
+}
