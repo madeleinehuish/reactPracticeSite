@@ -31,22 +31,21 @@
 	/* padding-top: 10px; */
 }
 
-.button {
-	width: 100px;
-	height: 30px;
-	border-radius: 5px;
-	border-color: #bcf5bc;
-	background-color: #5f9ea0;
-	color: #fff3f0;
-	margin-bottom: 20px;
-	cursor: pointer;
-}
-
 .magicInnerContainer {
 	display: grid;
 	width: 550px;
 	grid-template-columns: 30% 70%;
 }
+
+.goUp {
+	margin-top: -15px;
+}
+
+/* filters  */
+.filters {
+
+}
+
 
 .input {
 	border-radius: 5px;
@@ -60,8 +59,15 @@
 	border-color: #808080;
 }
 
-.filters {
-	/* width: 200px; */
+.button {
+	width: 100px;
+	height: 30px;
+	border-radius: 5px;
+	border-color: #bcf5bc;
+	background-color: #5f9ea0;
+	color: #fff3f0;
+	margin-bottom: 20px;
+	cursor: pointer;
 }
 
 .select {
@@ -70,12 +76,4 @@
 	height: 25px;
 	width: 120px;
 	margin-bottom: 10px;
-}
-
-
-
-
-
-.goUp {
-	margin-top: -15px;
 }

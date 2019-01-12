@@ -1,9 +1,11 @@
 import React, { Component } from 'react';
 import { connect } from 'react-redux';
 import * as actions from '../../actions';
-import CurrentImage from './CurrentImage/CurrentImage';
 
 import Cardslist from './Cardslist/Cardslist';
+import CurrentImage from './CurrentImage/CurrentImage';
+// import FilterUI from './FilterUI/FilterUI'; //playing with sending the filters down but tricky with ref default updates
+import EmptyWrapper from '../EmptyWrapper/EmptyWrapper';
 import styles from './Magic.css';
 
 // const CurrentImage = (props) => {
@@ -93,6 +95,13 @@ class Magic extends Component {
 		this.colorBox.current.value = 'All';
 		this.rarityBox.current.value = 'All';
 		this.setBox.current.value = 'All';
+		// this.setState({
+		// 	inputBox: '',
+		// 	selectBox: 'All',
+		// 	colorBox: 'All',
+		// 	rarityBox: 'All',
+		// 	setBox: 'All'
+		// })
 		// send in default values to state
 		this.props.storeFilterText('', cb);
 		this.props.storeType('All', cb);
@@ -124,6 +133,16 @@ class Magic extends Component {
 						<div className={styles.outerColumn1}>
 							<div className={styles.magicInnerContainer}>
 								<div className={styles.col1}>
+									{/* <FilterUI
+										selectBoxRef={this.selectBox}
+
+										inputBoxRef={this.inputBox}
+										colorBoxRef={this.colorBox}
+										rarityBoxRef={this.rarityBox}
+										setBoxRef={this.selectBox}
+										handleFilter={this.handleFilter}
+										reset={this.reset}
+									/> */}
 									<div className={styles.filters}>
 										<button id="magicButton" className={styles.button} onClick={()=>this.reset()}>Reset</button>
 									</div>
@@ -174,6 +193,7 @@ class Magic extends Component {
 											<option value="grn">Guilds of Ravnica</option>
 										</select>
 									</div>
+
 								</div>
 								<div className={styles.col2}>
 									<Cardslist cards={this.props.cards} handleHover={this.handleHover} currentCard={this.props.currentCard}/>

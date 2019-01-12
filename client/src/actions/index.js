@@ -233,8 +233,6 @@ export const getcards = (filterValue, typeFilter, colorFilter, rarityFilter, set
 
 	let cards = DATA;
 
-	// cards = filterDoubleCards(cards); //this filter should be first as index needs to be in set order
-
 	cards = filterBySet(cards, setFilter);
 
 	cards = filterByType(cards, typeFilter);

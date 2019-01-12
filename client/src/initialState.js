@@ -1,6 +1,5 @@
 import data from './data/combinedData';
-const firstCard = data[0];
-
+import firstCard from './data/firstCard';
 
 export default {
 	auth:{ //initial state
