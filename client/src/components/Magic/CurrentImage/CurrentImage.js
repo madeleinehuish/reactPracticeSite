@@ -19,6 +19,11 @@ class CurrentImage extends Component {
 			return <img src={ this.props.currentCard ? this.props.currentCard.imageUrl : null } className={styles.cardImage} alt="magic card" height="320px" />
 		}
 		if(this.props.currentCard.card_faces) {
+			if(this.props.currentCard.image_uris) {
+				return (
+					<img src={ this.props.currentCard ? this.props.currentCard.image_uris.large : null } className={styles.cardImage} alt="magic card" height="320px" />
+				)
+			}
 			if(!this.state.toggleCard) {
 				return (
 					<img src={ this.props.currentCard ? this.props.currentCard.card_faces[0].image_uris.large : null } onClick={()=> this.toggleCard} className={styles.cardImageDouble} alt="magic card" height="320px" />
