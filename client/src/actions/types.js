@@ -8,3 +8,4 @@ export const STORE_FILTER_TEXT = 'store_filter_text';
 export const STORE_COLOR = 'store_color';
 export const STORE_RARITY = 'store_rarity';
 export const STORE_SET = 'store_set';
+export const TEST_CARDS = 'test_get_cards';

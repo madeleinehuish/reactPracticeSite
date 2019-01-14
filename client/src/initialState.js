@@ -1,4 +1,5 @@
 import data from './data/combinedData';
+// import data from './data/combinedDataFullScryfall';
 import firstCard from './data/firstCard';
 
 export default {
@@ -13,6 +14,9 @@ export default {
 	trucks: [],
 	cards: {
 		cards: data
+	},
+	testCards: {
+		testCards: []
 	},
 	currentCard: {
 		currentCard: firstCard

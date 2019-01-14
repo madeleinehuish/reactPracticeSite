@@ -5,6 +5,7 @@ import cards from './cards';
 import currentCard from './currentCard';
 import cardFilters from './cardFilters';
 import trucks from './trucks';
+import testCards from './testCards';
 
 export default combineReducers({
 	auth,
@@ -12,5 +13,6 @@ export default combineReducers({
 	currentCard,
 	cardFilters,
 	trucks,
-	form: formReducer
+	form: formReducer,
+	testCards
  });

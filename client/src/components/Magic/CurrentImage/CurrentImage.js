@@ -2,9 +2,6 @@ import React, { Component } from 'react';
 import styles from './CurrentImage.css';
 
 class CurrentImage extends Component {
-	constructor(props) {
-		super(props);
-	}
 
 	state = {
 		toggleCard: false

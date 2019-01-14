@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { connect } from 'react-redux';
-import * as actions from '../../actions';
+import * as actions from '../../actions/magic';
 
 import Cardslist from './Cardslist/Cardslist';
 import CurrentImage from './CurrentImage/CurrentImage';
@@ -110,6 +110,25 @@ class Magic extends Component {
 		this.props.storeSet('All', cb);
 	}
 
+	test = () => {
+		const cb = () => {
+			this.forceUpdate(()=>{
+				// this.updateCards();
+				console.log('TEST CALL FINISHED');
+				console.log('AFTER TEST CALL PROPS: ', this.props);
+			});
+		};
+
+		let filters = {
+			set: this.props.filterSet,
+			type: this.props.filterType,
+			color: this.props.filterColor,
+			rarity: this.props.filterRarity
+		}
+
+		this.props.getCardsFromDatabase(filters, cb)
+	}
+
 	updateCards = () => {
 		const cb = () => {
 			this.forceUpdate(()=>{
@@ -145,6 +164,9 @@ class Magic extends Component {
 									/> */}
 									<div className={styles.filters}>
 										<button id="magicButton" className={styles.button} onClick={()=>this.reset()}>Reset</button>
+									</div>
+									<div className={styles.filters}>
+										<button id="testCardsButton" className={styles.button} onClick={()=>this.test()}>Test Get Cards</button>
 									</div>
 									<div className={styles.filters}>
 										<input className={styles.input} placeholder="type to filter" onChange={(event)=>this.handleFilter(event, 'text')} ref={this.inputBox}/>
@@ -194,6 +216,18 @@ class Magic extends Component {
 										</select>
 									</div>
 
+									{/*  */}
+									{/* <div className={styles.filters}>
+										<select className={styles.select} onChange={(event)=>this.handleFilter(event, 'set')} ref={this.setBox}>
+										  <option default value="All">sets (all)</option>
+										  <option value="xln">Ixalan</option>
+										  <option value="rix">Rivals of Ixalan</option>
+										  <option value="dom">Dominaria</option>
+											<option value="m19">Core Set 2019</option>
+											<option value="grn">Guilds of Ravnica</option>
+										</select>
+									</div> */}
+
 								</div>
 								<div className={styles.col2}>
 									<Cardslist cards={this.props.cards} handleHover={this.handleHover} currentCard={this.props.currentCard}/>
@@ -223,7 +257,9 @@ function mapStateToProps(state) {
 		filterText: state.cardFilters.filterText,
 		filterColor: state.cardFilters.filterColor,
 		filterRarity: state.cardFilters.filterRarity,
-		filterSet: state.cardFilters.filterSet
+		filterSet: state.cardFilters.filterSet,
+		testCards: state.testCards
+
 	};
 }
 
