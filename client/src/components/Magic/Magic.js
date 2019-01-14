@@ -136,7 +136,17 @@ class Magic extends Component {
 			});
 		};
 
-		this.props.getcards(this.props.filterText, this.props.filterType, this.props.filterColor, this.props.filterRarity, this.props.filterSet, cb);
+		let filters = {
+			set: this.props.filterSet,
+			type: this.props.filterType,
+			text: this.props.filterText,
+			color: this.props.filterColor,
+			rarity: this.props.filterRarity
+		}
+
+		this.props.getcards(filters, cb);
+
+		// this.props.getcards(this.props.filterText, this.props.filterType, this.props.filterColor, this.props.filterRarity, this.props.filterSet, cb);
 	}
 
 

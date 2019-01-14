@@ -13,28 +13,7 @@ import {
 } from './types';
 
 
-function filterAlphabetically(cards) {
-	let sortedAlphabetically = cards.sort((a,b) =>{
-		if(a.name < b.name) return -1;
-		if(a.name > b.name) return 1;
-		return 0;
-	})
-	return sortedAlphabetically;
-}
-
-function filterByColor(cards, colorFilter) {
-	if(colorFilter==='All') return cards;
-
-	let filtered = cards.filter(card => {
-		if(card.color_identity.length===0) {
-			return card.colors!=='White' && card.colors!=='Blue' && card.colors!=='Red' && card.colors!=='Green'&& card.colors!=='Black';
-		} else {
-				return card.color_identity.includes(colorFilter);
-		}
-	})
-
-	return filtered;
-}
+//new filter functions
 
 function filterByInput(cards, filterValue) {
 	if(filterValue==='') return cards;
@@ -46,67 +25,61 @@ function filterByInput(cards, filterValue) {
 	 return filtered;
 }
 
-function filterByRarity(cards, filterValue) {
-	if(filterValue==='All') return cards;
-
-	let filtered = cards.filter(card => {
-		return card.rarity===filterValue;
-	})
-
-	return filtered;
+const filterSet = (elem, filter) => {
+	if(filter==='All') return true;
+	if(elem.set===filter) return true;
+	return false;
 }
 
-function filterBySet(cards, setFilter) {
-
-	if(setFilter==='All') return cards;
-
-	let filtered = cards.filter(card => {
-		return card.set===setFilter;
-	})
-
-	return filtered;
+const filterType = (elem, filter) => {
+	if(filter==='All') return true;
+	if(elem.type_line.includes(filter)) return true;
+	return false;
 }
 
-function filterByType(cards, typeFilter) {
-	if(typeFilter==='All') return cards;
-
-	let filtered = cards.filter(card => {
-		return card.type_line.includes(typeFilter);
-	})
-	return filtered;
+const filterColor = (elem, filter) => {
+	if(filter==='All') return true;
+	if(elem.color_identity.includes(filter)) return true;
+	return false;
 }
 
+const filterRarity = (elem, filter) => {
+	if(filter==='All') return true;
+	if(elem.rarity===filter) return true;
+	return false;
+}
 
-export const getcards = (filterValue, typeFilter, colorFilter, rarityFilter, setFilter, cb) => async dispatch => {
+// this is a newer version of this function. old versions below
+export const getcards = (filters, cb) => async dispatch => {
 
-	let cards = DATA;
+	const data = DATA; //first decide how big of dataset you want to use. 'All will default to full set'
+	// console.log('filters: ', filters);
+	console.log('data: ', data);
+	// return data;
+	// let filtered = data;
+	const filteredByInput = filterByInput(data, filters.text);
 
-	cards = filterBySet(cards, setFilter);
+	const filtered = filteredByInput.filter(elem => {
 
-	cards = filterByType(cards, typeFilter);
+		const conditionSet = filterSet(elem, filters.set);
+		const conditionType = filterType(elem, filters.type);
+		const conditionColor = filterColor(elem, filters.color);
+		const conditionRarity = filterRarity(elem, filters.rarity);
 
-	cards = filterByColor(cards, colorFilter);
+		return ( conditionSet && conditionType && conditionColor && conditionRarity);
+	})
 
-	cards = filterByRarity(cards, rarityFilter);
-
-	cards = filterByInput(cards, filterValue);
-
-	cards = filterAlphabetically(cards);
-
-	// add logic for case where cards.length === 0
-
-	if(!cards.length) cards[0] =  {
+	if(!filtered.length) filtered[0] =  {
 		name: "There are no cards with these given filters",
 		imageUrl: "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=366433&type=card"
 	};
 
 	dispatch({
 		type: FETCH_CARDS,
-		payload: cards
+		payload: filtered
 	})
 
 	cb();
-
 }
 
 export const changeCurrentCard = (card) => {
@@ -161,7 +134,10 @@ export const storeSet = (set, cb) => async dispatch => {
 	cb();
 }
 
+//this is for calling from the backend, it is not operating yet
 export const getCardsFromDatabase = (filters, cb) => async dispatch => {
+
+	// //can be used to hardcode testFilters
 	// const testFilters = {
 	// 	set: 'Innistrad',
 	// 	type: 'Creature',
@@ -183,6 +159,7 @@ export const getCardsFromDatabase = (filters, cb) => async dispatch => {
 		// 	payload: response.data.testArray
 		// })
 		dispatch({
+			// type: FETCH_CARDS,
 			type: TEST_CARDS,
 			payload: response.data
 		})
@@ -193,3 +170,90 @@ export const getCardsFromDatabase = (filters, cb) => async dispatch => {
 	}
 
 }
+
+
+// //old filter functions
+// function filterAlphabetically(cards) {
+// 	let sortedAlphabetically = cards.sort((a,b) =>{
+// 		if(a.name < b.name) return -1;
+// 		if(a.name > b.name) return 1;
+// 		return 0;
+// 	})
+// 	return sortedAlphabetically;
+// }
+// function filterByColor(cards, colorFilter) {
+// 	if(colorFilter==='All') return cards;
+//
+// 	let filtered = cards.filter(card => {
+// 		if(card.color_identity.length===0) {
+// 			return card.colors!=='White' && card.colors!=='Blue' && card.colors!=='Red' && card.colors!=='Green'&& card.colors!=='Black';
+// 		} else {
+// 				return card.color_identity.includes(colorFilter);
+// 		}
+// 	})
+//
+// 	return filtered;
+// }
+//
+//
+// function filterByRarity(cards, filterValue) {
+// 	if(filterValue==='All') return cards;
+//
+// 	let filtered = cards.filter(card => {
+// 		return card.rarity===filterValue;
+// 	})
+//
+// 	return filtered;
+// }
+//
+// function filterBySet(cards, setFilter) {
+//
+// 	if(setFilter==='All') return cards;
+//
+// 	let filtered = cards.filter(card => {
+// 		return card.set===setFilter;
+// 	})
+//
+// 	return filtered;
+// }
+//
+// function filterByType(cards, typeFilter) {
+// 	if(typeFilter==='All') return cards;
+//
+// 	let filtered = cards.filter(card => {
+// 		return card.type_line.includes(typeFilter);
+// 	})
+// 	return filtered;
+// }
+
+// export const getcards = (filterValue, typeFilter, colorFilter, rarityFilter, setFilter, cb) => async dispatch => {
+//
+// 	let cards = DATA;
+//
+// 	cards = filterBySet(cards, setFilter);
+//
+// 	cards = filterByType(cards, typeFilter);
+//
+// 	cards = filterByColor(cards, colorFilter);
+//
+// 	cards = filterByRarity(cards, rarityFilter);
+//
+// 	cards = filterByInput(cards, filterValue);
+//
+// 	cards = filterAlphabetically(cards);
+//
+// 	// add logic for case where cards.length === 0
+//
+// 	if(!cards.length) cards[0] =  {
+// 		name: "There are no cards with these given filters",
+// 		imageUrl: "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=366433&type=card"
+// 	};
+//
+// 	dispatch({
+// 		type: FETCH_CARDS,
+// 		payload: cards
+// 	})
+//
+// 	cb();
+//
+// }
