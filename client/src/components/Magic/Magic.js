@@ -223,6 +223,7 @@ class Magic extends Component {
 										  <option value="dom">Dominaria</option>
 											<option value="m19">Core Set 2019</option>
 											<option value="grn">Guilds of Ravnica</option>
+											<option value="rna">Ravnica Allegiance</option>
 										</select>
 									</div>
 
