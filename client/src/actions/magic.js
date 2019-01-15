@@ -77,7 +77,7 @@ const filterColor = (elem, filtersColors, filtersType) => {
 					}
 			return false;
 		}
-		return false;
+		// return false;
 	} else { //elem.layout === 'normal' (non transformable cards)
 		if(filtersType==='Land') {
 			if(!elem.color_identity.length) return false; //so colored filter doesn't return colorless lands
@@ -92,9 +92,9 @@ const filterColor = (elem, filtersColors, filtersType) => {
 			if(isSubset(filtersColors, elem.colors)) return true;
 			return false;
 		}
-		return false;
+		// return false;
 	}
-	return false; //default
+	// return false; //default
 }
 
 const filterRarity = (elem, filter) => {
