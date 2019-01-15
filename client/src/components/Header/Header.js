@@ -13,11 +13,11 @@ class Header extends Component {
 
 			return (
 				<div>
-					{this.props.user.firstname ? <Link to="/feature" className={styles.firstname}>{this.props.user.firstname}</Link> : null}
+					{this.props.user.firstname ? <Link to="/main" className={styles.firstname}>{this.props.user.firstname}</Link> : null}
 					<Link to="/magic">Magic the Gathering</Link>
-					<Link to="/trucks">Trucks of San Fran</Link>
+					{/* <Link to="/trucks">Trucks of San Fran</Link> */}
 					<Link to="/signout">Signout</Link>
-					<Link to="/feature" className={styles.right}>></Link>
+					<Link to="/trucks" className={styles.right}>></Link>
 				</div>
 			)
 		} else {
@@ -35,7 +35,7 @@ class Header extends Component {
 
 		return (
 			<div className={styles.header}>
-				<Link to="/" className={styles.left}>Madeleine's React/Redux Practice Website</Link>
+				<Link to="/" className={styles.left}>Madeleine's MTG Standard Cards Website</Link>
 				{this.renderLinks()}
 			</div>
 		)

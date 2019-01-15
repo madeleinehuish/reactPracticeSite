@@ -175,9 +175,9 @@ class Magic extends Component {
 									<div className={styles.filters}>
 										<button id="magicButton" className={styles.button} onClick={()=>this.reset()}>Reset</button>
 									</div>
-									<div className={styles.filters}>
+									{/* <div className={styles.filters}>
 										<button id="testCardsButton" className={styles.button} onClick={()=>this.test()}>Test Get Cards</button>
-									</div>
+									</div> */}
 									<div className={styles.filters}>
 										<input className={styles.input} placeholder="type to filter" onChange={(event)=>this.handleFilter(event, 'text')} ref={this.inputBox}/>
 									</div>
