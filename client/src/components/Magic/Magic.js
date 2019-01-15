@@ -5,7 +5,7 @@ import * as actions from '../../actions/magic';
 import Cardslist from './Cardslist/Cardslist';
 import CurrentImage from './CurrentImage/CurrentImage';
 // import FilterUI from './FilterUI/FilterUI'; //playing with sending the filters down but tricky with ref default updates
-import EmptyWrapper from '../EmptyWrapper/EmptyWrapper';
+// import EmptyWrapper from '../EmptyWrapper/EmptyWrapper';
 import styles from './Magic.css';
 
 // const CurrentImage = (props) => {
@@ -57,7 +57,7 @@ class Magic extends Component {
 			case 'type':
 				this.props.storeType(filterValue, cb);
 				break;
-			case 'color':
+			case 'colors':
 				this.props.storeColor(filterValue, cb);
 				break;
 			case 'rarity':
@@ -194,13 +194,23 @@ class Magic extends Component {
 										</select>
 									</div>
 									<div className={styles.filters}>
-										<select className={styles.select} onChange={(event)=>this.handleFilter(event, 'color')} ref={this.colorBox}>
+										<select className={styles.select} onChange={(event)=>this.handleFilter(event, 'colors')} ref={this.colorBox}>
 										  <option default value="All">colors (all)</option>
-										  <option value="W">white</option>
-										  <option value="U">blue</option>
-										  <option value="R">red</option>
-											<option value="G">green</option>
-											<option value="B">black</option>
+										  <option value={['W']}>white</option>
+										  <option value={['U']}>blue</option>
+										  <option value={['R']}>red</option>
+											<option value={['G']}>green</option>
+											<option value={['B']}>black</option>
+											<option value={['W', 'U']}>white / blue</option>
+											<option value={['W', 'R']}>white / red</option>
+											<option value={['W', 'G']}>white / green</option>
+											<option value={['W', 'B']}>white / black</option>
+											<option value={['U', 'R']}>blue / red</option>
+											<option value={['U', 'G']}>blue / green</option>
+											<option value={['U', 'B']}>blue / black</option>
+											<option value={['R', 'G']}>red / green</option>
+											<option value={['R', 'B']}>red / black</option>
+											<option value={['G', 'B']}>green / black</option>
 											<option value="Colorless">colorless</option>
 										</select>
 									</div>

@@ -12,6 +12,19 @@ import {
 	TEST_CARDS
 } from './types';
 
+function isSubset(arr, sub) {
+	let arrMap = {};
+
+	for(let elem of arr) {
+		arrMap[elem] = (arrMap[elem] || 0) + 1;
+	}
+
+	for(let elem of sub) {
+		if(!arrMap[elem]) return false;
+	}
+
+	return true;
+}
 
 //new filter functions
 
@@ -37,14 +50,51 @@ const filterType = (elem, filter) => {
 	return false;
 }
 
-const filterColor = (elem, filterColors, filterType) => {
-	if(filterColors==='All') return true;
-	if(filterType==='Land') {
-		console.log('elem.color_identity, filterColors: ', elem.color_identity, filterColors, typeof filterColors)
-		if(elem.color_identity.includes(filterColors)) return true;
+//check arr
+const filterColor = (elem, filtersColors, filtersType) => {
+
+	if(!Array.isArray(filtersColors) && filtersColors==='All') return true;
+	if(!Array.isArray(filtersColors) && filtersColors==='Colorless') {
+		if(elem.color_identity && elem.color_identity.length > 0) return false //removes colored lands
+		if(elem.colors && elem.colors.length === 0) return true; //all other colorless cases
+		return false;
 	}
-	if(elem.colors && elem.colors.includes(filterColors)) return true;
-	return false;
+	if(elem.layout==='transform') {
+		// return true;
+		if(filtersType==='Land') {
+			if(!elem.card_faces[0].colors.length && !elem.card_faces[1].colors.length) return false; //so colored filter doesn't return colorless lands
+			if(isSubset(filtersColors, elem.color_identity)) return true;
+			return false;
+		}	else  {
+			if(!elem.card_faces[0].colors.length && elem.color_identity.length > 0) { //if color picked but filtersType !== land
+				if(isSubset(filtersColors, elem.color_identity)) return true;
+				return false;
+			}
+			if((elem.card_faces[0].colors.length!==0 && isSubset(filtersColors, elem.card_faces[0].colors))
+						||
+					(elem.card_faces[1].colors.length!==0 && isSubset(filtersColors, elem.card_faces[1].colors))) {
+						return true;
+					}
+			return false;
+		}
+		return false;
+	} else { //elem.layout === 'normal' (non transformable cards)
+		if(filtersType==='Land') {
+			if(!elem.color_identity.length) return false; //so colored filter doesn't return colorless lands
+			if(isSubset(filtersColors, elem.color_identity)) return true;
+			return false;
+		}	else  {
+			if(!elem.colors.length && elem.color_identity.length > 0) { //if color picked but filtersType !== land
+				if(isSubset(filtersColors, elem.color_identity)) return true;
+				return false;
+			}
+			if(!elem.colors.length) return false;
+			if(isSubset(filtersColors, elem.colors)) return true;
+			return false;
+		}
+		return false;
+	}
+	return false; //default
 }
 
 const filterRarity = (elem, filter) => {
@@ -155,7 +205,7 @@ export const getCardsFromDatabase = (filters, cb) => async dispatch => {
 	try {
 		const response = await axios.get(url + query);
 
-		let payload = response.data;
+		// let payload = response.data;
 
 		console.log('response: ', response);
 		// dispatch({
