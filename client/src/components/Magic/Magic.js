@@ -152,6 +152,7 @@ class Magic extends Component {
 
 	render() {
 		console.log('this.props in Magic.js: ', this.props);
+		if (this.props.authenticated) {
 		return (
 			<div>
 				<br />
@@ -265,6 +266,9 @@ class Magic extends Component {
 				</div>
 			</div>
 		)
+	} else {
+		return <div>You need to be signed in to see this page!</div>
+	}
 	}
 }
 
@@ -279,7 +283,9 @@ function mapStateToProps(state) {
 		filterColor: state.cardFilters.filterColor,
 		filterRarity: state.cardFilters.filterRarity,
 		filterSet: state.cardFilters.filterSet,
-		testCards: state.testCards
+		testCards: state.testCards,
+		authenticated: state.auth.authenticated,
+		user: state.auth.user
 
 	};
 }

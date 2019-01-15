@@ -10,7 +10,7 @@ class Signin extends Component {
 
 	onSubmit = (formProps) => {
 		this.props.signin(formProps, () => {
-			this.props.history.push('/');
+			this.props.history.push('/magic');
 		})
 	}
 
