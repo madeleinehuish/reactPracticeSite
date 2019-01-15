@@ -4,6 +4,7 @@ import * as actions from '../../actions/magic';
 
 import Cardslist from './Cardslist/Cardslist';
 import CurrentImage from './CurrentImage/CurrentImage';
+import creatureTypes from '../../data/types/creatures';
 // import FilterUI from './FilterUI/FilterUI'; //playing with sending the filters down but tricky with ref default updates
 // import EmptyWrapper from '../EmptyWrapper/EmptyWrapper';
 import styles from './Magic.css';
@@ -26,6 +27,17 @@ import styles from './Magic.css';
 // 		)
 // 	}
 // }
+
+const Creatures = (props) => {
+
+	return (
+		<select className={styles.select} onChange={(event)=>props.handleFilter(event, 'creature')}>
+			{creatureTypes.map(elem => {
+				return <option value={elem}>{elem}</option>
+			})}
+		</select>
+	)
+}
 
 
 
@@ -66,6 +78,8 @@ class Magic extends Component {
 			case 'set':
 				this.props.storeSet(filterValue, cb);
 				break;
+			case 'creature':
+				this.props.storeCreature(filterValue, cb);
 			default:
 				break;
 		}
@@ -105,6 +119,7 @@ class Magic extends Component {
 		// send in default values to state
 		this.props.storeFilterText('', cb);
 		this.props.storeType('All', cb);
+		this.props.storeCreature('All', cb);
 		this.props.storeColor('All', cb);
 		this.props.storeRarity('All', cb);
 		this.props.storeSet('All', cb);
@@ -141,7 +156,8 @@ class Magic extends Component {
 			type: this.props.filterType,
 			text: this.props.filterText,
 			color: this.props.filterColor,
-			rarity: this.props.filterRarity
+			rarity: this.props.filterRarity,
+			creature: this.props.filterCreature
 		}
 
 		this.props.getcards(filters, cb);
@@ -194,6 +210,7 @@ class Magic extends Component {
 											<option value="Land">lands</option>
 										</select>
 									</div>
+									{this.props.filterType==='Creature' ? <Creatures handleFilter={this.handleFilter} /> : null }
 									<div className={styles.filters}>
 										<select className={styles.select} onChange={(event)=>this.handleFilter(event, 'colors')} ref={this.colorBox}>
 										  <option default value="All">colors (all)</option>
@@ -279,6 +296,7 @@ function mapStateToProps(state) {
 		cards: state.cards.cards,
 		currentCard: state.currentCard.currentCard,
 		filterType: state.cardFilters.filterType,
+		filterCreature: state.cardFilters.filterCreature,
 		filterText: state.cardFilters.filterText,
 		filterColor: state.cardFilters.filterColor,
 		filterRarity: state.cardFilters.filterRarity,

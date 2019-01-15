@@ -5,6 +5,7 @@ import {
 	FETCH_CARDS,
 	CHANGE_CURRENT_CARD,
 	STORE_TYPE,
+	STORE_CREATURE,
 	STORE_FILTER_TEXT,
 	STORE_COLOR,
 	STORE_RARITY,
@@ -44,10 +45,21 @@ const filterSet = (elem, filter) => {
 	return false;
 }
 
-const filterType = (elem, filter) => {
+const filterType = (elem, filterType, filterCreature) => {
+	if(filterType==='All') return true;
+	if(filterType==='Creature' && filterCreature==='All Creatures') return true;
+	if(filterType==='Creature' && filterCreature!=='All Creatures') {
+		if(elem.type_line.includes(filterCreature)) return true;
+		return false;
+	} else {
+		if(elem.type_line.includes(filterType)) return true;
+		return false;
+	}
+}
+
+const filterCreature = (elem, filter) => {
 	if(filter==='All') return true;
-	if(elem.type_line.includes(filter)) return true;
-	return false;
+
 }
 
 //check arr
@@ -116,7 +128,8 @@ export const getcards = (filters, cb) => async dispatch => {
 	const filtered = filteredByInput.filter(elem => {
 
 		const conditionSet = filterSet(elem, filters.set);
-		const conditionType = filterType(elem, filters.type);
+		const conditionType = filterType(elem, filters.type, filters.creature);
+		// const conditionCreature = filterCreature(elem, filters.creature);
 		const conditionColor = filterColor(elem, filters.color, filters.type);
 		const conditionRarity = filterRarity(elem, filters.rarity);
 
@@ -157,6 +170,15 @@ export const storeType = (type, cb) => async dispatch => {
 	dispatch({
 		type: STORE_TYPE,
 		payload: type
+	});
+	cb();
+}
+
+export const storeCreature = (creature, cb) => async dispatch => {
+
+	dispatch({
+		type: STORE_CREATURE,
+		payload: creature
 	});
 	cb();
 }

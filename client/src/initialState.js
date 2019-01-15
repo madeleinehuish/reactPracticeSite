@@ -24,6 +24,7 @@ export default {
 	cardFilters: {
 		filterText: '',
 		filterType: 'All',
+		filterCreature: 'All Creatures',
 		filterColor: 'All',
 		filterRarity: 'All',
 		filterSet: 'All'
