@@ -1,6 +1,6 @@
 const Authentication = require('./controllers/authentication');
 const passportService = require('./services/passport');
-const magicAPI = require('./magicAPI/magicAPI');
+// const magicAPI = require('./magicAPI/magicAPI');
 const passport = require('passport');
 
 
