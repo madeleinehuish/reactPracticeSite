@@ -13,8 +13,8 @@ class Header extends Component {
 
 			return (
 				<div>
-					{this.props.user.firstname ? <Link to="/main" className={styles.firstname}>{this.props.user.firstname}</Link> : null}
-					<Link to="/magic">Magic the Gathering</Link>
+					{this.props.user.firstname ? <Link to="/" className={styles.firstname}>{this.props.user.firstname}</Link> : null}
+					{/* <Link to="/magic">Magic the Gathering</Link> */}
 					{/* <Link to="/trucks">Trucks of San Fran</Link> */}
 					<Link to="/signout">Signout</Link>
 					<Link to="/trucks" className={styles.right}>></Link>
