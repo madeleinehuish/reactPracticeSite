@@ -17,13 +17,14 @@ export default (props) => {
 			<div className={styles.app}>
 				<Header />
 				{/* {props.children} */}
-				<Route path="/" exact component={Welcome} />
+				{/* <Route path="/" exact component={Welcome} /> */}
+				<Route path="/" exact component={Magic} />
 				<Route path="/signup" component={Signup} />
 				<Route path="/signin" component={Signin} />
 				<Route path="/signout" component={Signout} />
 				<Route path="/main" component={Main} />
 				<Route path="/trucks" component={Trucks} />
-				<Route path="/magic" component={Magic} />
+				{/* <Route path="/magic" component={Magic} /> */}
 			</div>
 		</BrowserRouter>
 	)
