@@ -12,7 +12,7 @@ module.exports = function(app) {
 	app.post('/signin',requireSignin, Authentication.signin);
 	app.post('/signup', Authentication.signup);
 
-	//magic cards
-	app.get('/cards', magicAPI.filterCards);
+	// //magic cards
+	// app.get('/cards', magicAPI.filterCards);
 
 }

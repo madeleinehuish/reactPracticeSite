@@ -12,12 +12,12 @@ const app = express();
 
 if(process.env.NODE_ENV === 'production') {
 // 	// production
-	mongoose.connect(process.env.MONGO_URL, { useNewUrlParser: true }); //for mongodb atlas
-	// mongoose.connect(process.env.MONGO_URI, { useNewUrlParser: true }); //for mlab
+	// mongoose.connect(process.env.MONGO_URL, { useNewUrlParser: true }); //for mongodb atlas
+	mongoose.connect(process.env.MONGO_URI, { useNewUrlParser: true }); //for mlab
 } else {
 	// development
-	// mongoose.connect('mongodb://localhost:auth/auth', { useNewUrlParser: true }); //needed to add options for latest version
-	mongoose.connect(process.env.MONGO_URL, { useNewUrlParser: true });
+	mongoose.connect('mongodb://localhost:auth/auth', { useNewUrlParser: true }); //needed to add options for latest version
+	// mongoose.connect(process.env.MONGO_URL, { useNewUrlParser: true });
 }
 
 mongoose.set('useCreateIndex', true); //need this to avoid server error
