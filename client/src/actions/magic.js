@@ -37,9 +37,13 @@ const filterType = (elem, filter) => {
 	return false;
 }
 
-const filterColor = (elem, filter) => {
-	if(filter==='All') return true;
-	if(elem.color_identity.includes(filter)) return true;
+const filterColor = (elem, filterColors, filterType) => {
+	if(filterColors==='All') return true;
+	if(filterType==='Land') {
+		console.log('elem.color_identity, filterColors: ', elem.color_identity, filterColors, typeof filterColors)
+		if(elem.color_identity.includes(filterColors)) return true;
+	}
+	if(elem.colors && elem.colors.includes(filterColors)) return true;
 	return false;
 }
 
@@ -63,7 +67,7 @@ export const getcards = (filters, cb) => async dispatch => {
 
 		const conditionSet = filterSet(elem, filters.set);
 		const conditionType = filterType(elem, filters.type);
-		const conditionColor = filterColor(elem, filters.color);
+		const conditionColor = filterColor(elem, filters.color, filters.type);
 		const conditionRarity = filterRarity(elem, filters.rarity);
 
 		return ( conditionSet && conditionType && conditionColor && conditionRarity);

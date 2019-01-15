@@ -122,7 +122,7 @@ class Magic extends Component {
 		let filters = {
 			set: this.props.filterSet,
 			type: this.props.filterType,
-			color: this.props.filterColor,
+			colors: this.props.filterColor,
 			rarity: this.props.filterRarity
 		}
 
