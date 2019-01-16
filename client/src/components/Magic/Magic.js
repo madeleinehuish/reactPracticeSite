@@ -3,44 +3,9 @@ import { connect } from 'react-redux';
 import * as actions from '../../actions/magic';
 
 import Cardslist from './Cardslist/Cardslist';
+import Creatures from './Creatures/Creatures';
 import CurrentImage from './CurrentImage/CurrentImage';
-import creatureTypes from '../../data/types/creatures';
-// import FilterUI from './FilterUI/FilterUI'; //playing with sending the filters down but tricky with ref default updates
-// import EmptyWrapper from '../EmptyWrapper/EmptyWrapper';
 import styles from './Magic.css';
-
-// const CurrentImage = (props) => {
-//
-//
-// 	if(props.currentCard.card_faces) {
-// 		return (
-// 			<div className={styles.flipBackground}>
-// 				<div className={styles.flipCard}>
-// 						<img src={ props.currentCard ? props.currentCard.card_faces[0].image_uris.large : null } className={styles.cardImage, styles.cardImageFront, styles.cardFace} alt="magic card" height="320px" />
-// 						<img src={ props.currentCard ? props.currentCard.card_faces[1].image_uris.large : null } className={styles.cardImage, styles.cardImageBack, styles.cardFace} alt="magic card" height="320px" />
-// 					</div>
-// 				</div>
-// 		)
-// 	} else {
-// 		return (
-// 			<img src={ props.currentCard ? props.currentCard.image_uris.large : null } className={styles.cardImage} alt="magic card" height="320px" />
-// 		)
-// 	}
-// }
-//
-
-const Creatures = (props) => {
-
-	return (
-		<select className={styles.select} onChange={(event)=>props.handleFilter(event, 'creature')}>
-			{creatureTypes.map(elem => {
-				return <option value={elem}>{elem}</option>
-			})}
-		</select>
-	)
-}
-
-
 
 class Magic extends Component {
 
@@ -81,6 +46,7 @@ class Magic extends Component {
 				break;
 			case 'creature':
 				this.props.storeCreature(filterValue, cb);
+				break;
 			default:
 				break;
 		}
@@ -174,108 +140,85 @@ class Magic extends Component {
 			<div>
 				<br />
 				<div className={styles.magicPageContainer}>
-					<header><h3 className={styles.title}>Magic the Gathering Cards!</h3></header>
-					<h4>Use controls to filter cards currently in Standard.</h4>
-					<div className={styles.magicOuterContainer}>
-						<div className={styles.outerColumn1}>
-							<div className={styles.magicInnerContainer}>
-								<div className={styles.col1}>
-									{/* <FilterUI
-										selectBoxRef={this.selectBox}
-
-										inputBoxRef={this.inputBox}
-										colorBoxRef={this.colorBox}
-										rarityBoxRef={this.rarityBox}
-										setBoxRef={this.selectBox}
-										handleFilter={this.handleFilter}
-										reset={this.reset}
-									/> */}
-									<div className={styles.filters}>
-										<button id="magicButton" className={styles.button} onClick={()=>this.reset()}>Reset</button>
-									</div>
-									{/* <div className={styles.filters}>
-										<button id="testCardsButton" className={styles.button} onClick={()=>this.test()}>Test Get Cards</button>
-									</div> */}
-									<div className={styles.filters}>
-										<input className={styles.input} placeholder="type to filter" onChange={(event)=>this.handleFilter(event, 'text')} ref={this.inputBox}/>
-									</div>
-									<div className={styles.filters}>
-										<select className={styles.select} onChange={(event)=>this.handleFilter(event, 'type')} ref={this.selectBox}>
-										  <option default value="All">types (all)</option>
-										  <option value="Creature">creatures</option>
-										  <option value="Enchantment">enchantments</option>
-										  <option value="Instant">instants</option>
-											<option value="Sorcery">sorceries</option>
-											<option value="Planeswalker">planeswalkers</option>
-											<option value="Artifact">artifacts</option>
-											<option value="Land">lands</option>
-										</select>
-									</div>
-									{this.props.filterType==='Creature' ? <Creatures handleFilter={this.handleFilter} /> : null }
-									<div className={styles.filters}>
-										<select className={styles.select} onChange={(event)=>this.handleFilter(event, 'colors')} ref={this.colorBox}>
-										  <option default value="All">colors (all)</option>
-										  <option value={['W']}>white</option>
-										  <option value={['U']}>blue</option>
-										  <option value={['R']}>red</option>
-											<option value={['G']}>green</option>
-											<option value={['B']}>black</option>
-											<option value={['W', 'U']}>white / blue</option>
-											<option value={['W', 'R']}>white / red</option>
-											<option value={['W', 'G']}>white / green</option>
-											<option value={['W', 'B']}>white / black</option>
-											<option value={['U', 'R']}>blue / red</option>
-											<option value={['U', 'G']}>blue / green</option>
-											<option value={['U', 'B']}>blue / black</option>
-											<option value={['R', 'G']}>red / green</option>
-											<option value={['R', 'B']}>red / black</option>
-											<option value={['G', 'B']}>green / black</option>
-											<option value="Colorless">colorless</option>
-										</select>
-									</div>
-
-									<div className={styles.filters}>
-										<select className={styles.select} onChange={(event)=>this.handleFilter(event, 'rarity')} ref={this.rarityBox}>
-										  <option default value="All">rarity (all)</option>
-										  <option value="mythic">mythic rare</option>
-										  <option value="rare">rare</option>
-										  <option value="uncommon">uncommon</option>
-											<option value="common">common</option>
-										</select>
-									</div>
-
-									<div className={styles.filters}>
-										<select className={styles.select} onChange={(event)=>this.handleFilter(event, 'set')} ref={this.setBox}>
-										  <option default value="All">sets (all)</option>
-										  <option value="xln">Ixalan</option>
-										  <option value="rix">Rivals of Ixalan</option>
-										  <option value="dom">Dominaria</option>
-											<option value="m19">Core Set 2019</option>
-											<option value="grn">Guilds of Ravnica</option>
-											<option value="rna">Ravnica Allegiance</option>
-										</select>
-									</div>
-
-									{/*  */}
-									{/* <div className={styles.filters}>
-										<select className={styles.select} onChange={(event)=>this.handleFilter(event, 'set')} ref={this.setBox}>
-										  <option default value="All">sets (all)</option>
-										  <option value="xln">Ixalan</option>
-										  <option value="rix">Rivals of Ixalan</option>
-										  <option value="dom">Dominaria</option>
-											<option value="m19">Core Set 2019</option>
-											<option value="grn">Guilds of Ravnica</option>
-										</select>
-									</div> */}
-
-								</div>
-								<div className={styles.col2}>
-									<Cardslist cards={this.props.cards} handleHover={this.handleHover} currentCard={this.props.currentCard}/>
-								</div>
-							</div>
+					<header className={styles.control_bar}>
+						<h3 className={styles.title}>Filters</h3>
+						<div className={styles.filters}>
+							<button id="magicButton" className={styles.button} onClick={()=>this.reset()}>Reset</button>
 						</div>
-						<div className={styles.outerColumn2}>
+						{/* <div className={styles.filters}>
+							<button id="testCardsButton" className={styles.button} onClick={()=>this.test()}>Test Get Cards</button>
+						</div> */}
+						<div className={styles.filters}>
+							<input className={styles.input} placeholder="type to filter" onChange={(event)=>this.handleFilter(event, 'text')} ref={this.inputBox}/>
+						</div>
+						<div className={styles.filters}>
+							<select className={styles.select} onChange={(event)=>this.handleFilter(event, 'type')} ref={this.selectBox}>
+								<option default value="All">types (all)</option>
+								<option value="Creature">creatures</option>
+								<option value="Enchantment">enchantments</option>
+								<option value="Instant">instants</option>
+								<option value="Sorcery">sorceries</option>
+								<option value="Planeswalker">planeswalkers</option>
+								<option value="Artifact">artifacts</option>
+								<option value="Land">lands</option>
+							</select>
+						</div>
+						{this.props.filterType==='Creature' ? <div className={styles.filters}><Creatures handleFilter={this.handleFilter} /></div> : null }
+						<div className={styles.filters}>
+							<select className={styles.select} onChange={(event)=>this.handleFilter(event, 'colors')} ref={this.colorBox}>
+								<option default value="All">colors (all)</option>
+								<option value={['W']}>white</option>
+								<option value={['U']}>blue</option>
+								<option value={['R']}>red</option>
+								<option value={['G']}>green</option>
+								<option value={['B']}>black</option>
+								<option value={['W', 'U']}>white / blue</option>
+								<option value={['W', 'R']}>white / red</option>
+								<option value={['W', 'G']}>white / green</option>
+								<option value={['W', 'B']}>white / black</option>
+								<option value={['U', 'R']}>blue / red</option>
+								<option value={['U', 'G']}>blue / green</option>
+								<option value={['U', 'B']}>blue / black</option>
+								<option value={['R', 'G']}>red / green</option>
+								<option value={['R', 'B']}>red / black</option>
+								<option value={['G', 'B']}>green / black</option>
+								<option value="Colorless">colorless</option>
+							</select>
+						</div>
+
+						<div className={styles.filters}>
+							<select className={styles.select} onChange={(event)=>this.handleFilter(event, 'rarity')} ref={this.rarityBox}>
+								<option default value="All">rarity (all)</option>
+								<option value="mythic">mythic rare</option>
+								<option value="rare">rare</option>
+								<option value="uncommon">uncommon</option>
+								<option value="common">common</option>
+							</select>
+						</div>
+
+						<div className={styles.filters}>
+							<select className={styles.select} onChange={(event)=>this.handleFilter(event, 'set')} ref={this.setBox}>
+								<option default value="All">sets (all)</option>
+								<option value="xln">Ixalan</option>
+								<option value="rix">Rivals of Ixalan</option>
+								<option value="dom">Dominaria</option>
+								<option value="m19">Core Set 2019</option>
+								<option value="grn">Guilds of Ravnica</option>
+								<option value="rna">Ravnica Allegiance</option>
+							</select>
+						</div>
+
+					</header>
+					{/* <h4>Use controls to filter cards currently in Standard.</h4> */}
+					<div className={styles.magicOuterContainer}>
+						<div className={styles.col}>
 							<CurrentImage currentCard={this.props.currentCard} />
+						</div>
+						<div className={styles.col}>
+							<Cardslist cards={this.props.cards} handleHover={this.handleHover} currentCard={this.props.currentCard}/>
+						</div>
+						<div className={styles.col}>
+							DeckBuilding Goes here
 						</div>
 					</div>
 

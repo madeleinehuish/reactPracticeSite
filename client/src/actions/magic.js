@@ -57,11 +57,6 @@ const filterType = (elem, filterType, filterCreature) => {
 	}
 }
 
-const filterCreature = (elem, filter) => {
-	if(filter==='All') return true;
-
-}
-
 //check arr
 const filterColor = (elem, filtersColors, filtersType) => {
 

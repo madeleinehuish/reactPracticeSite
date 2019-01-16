@@ -6,7 +6,7 @@ const Cardslist = props => {
 
 	if(props && props.cards && props.cards.length) {
 		return (
-			<div className={styles.cardsList}>
+			// <div className={styles.cardsList}>
 				<div className={styles.cardsUlWrapper}>
 					<ul className={styles.cardsUl}>
 						{
@@ -27,7 +27,7 @@ const Cardslist = props => {
 						<img src={ props.currentCard ? props.currentCard.imageUrl : null } className={styles.cardImage} alt="magic card" height="320px" />
 					</div> */}
 				</div>
-			</div>
+			// </div>
 
 		)
 	} else {

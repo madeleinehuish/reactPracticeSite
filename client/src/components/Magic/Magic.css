@@ -1,50 +1,49 @@
 .magicPageContainer {
-	/* display: grid;
-	grid-template-columns: 50% 50%; */
-	margin-left: 20px;
-	margin-right: 20px;
+	margin-left: 10px;
+	margin-right: 10px;
 	border: 1px solid #bcf5bc;
 	background-color: #5f9ea0;
 	color: #fff3f0;
-	padding-left: 20px;
-	padding-right: 20px;
+}
+
+.control_bar {
+	/* background-color: #808080; */
+	height: 50px;
+	margin-top: 0;
+	margin-bottom: 0;
+	padding-top: 20px;
+	width:100%;
+}
+
+.filters {
+	display: inline;
+	width: inherit;
+	margin-left: 20px;
+}
+
+.title {
+	margin-left: 20px;
+	display: inline;
 }
 
 .magicOuterContainer {
 	display: grid;
-	grid-template-columns: 40% 50%;
-}
-.outerColumn1 {
-	width: 200px;
+	grid-template-columns: 30% 25% 65%;
 }
 
-.outerColumn2 {
-	justify-content: left;
+.col {
+	padding-top: 10px;
+	border: 1px solid grey;
+	width: inherit;
 }
 
-.col1 {
-	width: 200px;
-}
-
-.title {
-
-	/* padding-top: 10px; */
-}
-
-.magicInnerContainer {
-	display: grid;
-	width: 550px;
-	grid-template-columns: 30% 70%;
-}
-
-.goUp {
+/* .goUp {
 	margin-top: -15px;
-}
+} */
+/* .cardsList {
+	margin: 0 auto 100px auto;
+} */
 
-/* filters  */
-.filters {
-
-}
 
 
 .input {

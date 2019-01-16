@@ -1,7 +1,9 @@
 .cardImage {
 	border-radius: 4%;
-	margin-top: -75px;
-	margin-bottom: 100px;
+	/* margin-top: -75px; */
+	/* margin: 0 auto 100px auto; */
+	display: block;
+	margin: 0 auto 100px auto;
 	height: 500px;
 }
 
