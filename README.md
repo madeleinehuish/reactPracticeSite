@@ -1,4 +1,4 @@
-### React Practice Website
+### Madeleine's MTG React-Redux Website Standard Edition
 
 https://radiant-stream-78248.herokuapp.com/
 
