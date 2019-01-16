@@ -13,6 +13,7 @@
 	margin-bottom: 0;
 	padding-top: 20px;
 	width:100%;
+	border-bottom: 1px solid grey;
 }
 
 .filters {
@@ -31,9 +32,15 @@
 	grid-template-columns: 30% 25% 65%;
 }
 
+
+
+.col2, .col3 {
+	border-left: 1px solid grey;
+}
+
 .col {
 	padding-top: 10px;
-	/* border: 1px solid grey; */
+
 	width: inherit;
 }
 

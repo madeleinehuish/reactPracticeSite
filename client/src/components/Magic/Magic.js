@@ -214,10 +214,10 @@ class Magic extends Component {
 						<div className={styles.col}>
 							<CurrentImage currentCard={this.props.currentCard} />
 						</div>
-						<div className={styles.col}>
+						<div className={[styles.col, styles.col2].join(' ')}>
 							<Cardslist cards={this.props.cards} handleHover={this.handleHover} currentCard={this.props.currentCard}/>
 						</div>
-						<div className={styles.col}>
+						<div className={[styles.col, styles.col3].join(' ')}>
 							<div className={styles.deckBuilding}>DeckBuilding Goes here</div>
 						</div>
 					</div>
