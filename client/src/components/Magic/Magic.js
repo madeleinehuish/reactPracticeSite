@@ -218,7 +218,7 @@ class Magic extends Component {
 							<Cardslist cards={this.props.cards} handleHover={this.handleHover} currentCard={this.props.currentCard}/>
 						</div>
 						<div className={styles.col}>
-							DeckBuilding Goes here
+							<div className={styles.deckBuilding}>DeckBuilding Goes here</div>
 						</div>
 					</div>
 
