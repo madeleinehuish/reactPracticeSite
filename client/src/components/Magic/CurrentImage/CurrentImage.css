@@ -9,8 +9,8 @@
 
 .cardImageDouble {
 	border-radius: 4%;
-	margin-top: -75px;
-	margin-bottom: 100px;
+	display: block;
+	margin: 0 auto 100px auto;
 	height: 500px;
 }
 
