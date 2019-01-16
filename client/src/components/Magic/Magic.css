@@ -8,23 +8,30 @@
 
 .control_bar {
 	/* background-color: #808080; */
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
 	height: 50px;
 	margin-top: 0;
 	margin-bottom: 0;
-	padding-top: 20px;
+	padding-top: 15px;
+	padding-bottom: 5px;
 	width:100%;
 	border-bottom: 1px solid grey;
+	/* font-weight: lighter; */
 }
 
 .filters {
 	display: inline;
-	width: inherit;
+	/* width: inherit; */
 	margin-left: 20px;
 }
 
 .title {
-	margin-left: 20px;
+	margin-left: 35px;
 	display: inline;
+	padding: 10px 0;
+	margin-bottom: 10px;
 }
 
 .magicOuterContainer {
@@ -44,9 +51,7 @@
 	width: inherit;
 }
 
-/* .goUp {
-	margin-top: -15px;
-} */
+
 /* .cardsList {
 	margin: 0 auto 100px auto;
 } */
@@ -76,14 +81,15 @@
 	border-color: #bcf5bc;
 	background-color: #5f9ea0;
 	color: #fff3f0;
-	margin-bottom: 20px;
+	margin-top: 2px;
+	margin-bottom: 10px;
 	cursor: pointer;
 }
 
 .select {
 	border-radius: 5px;
 	border-color: #bcf5bc;
-	height: 25px;
+	height: 28px;
 	width: 120px;
 	margin-bottom: 10px;
 }

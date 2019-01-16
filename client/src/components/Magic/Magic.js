@@ -86,7 +86,7 @@ class Magic extends Component {
 		// send in default values to state
 		this.props.storeFilterText('', cb);
 		this.props.storeType('All', cb);
-		this.props.storeCreature('All', cb);
+		this.props.storeCreature('All Creatures', cb);
 		this.props.storeColor('All', cb);
 		this.props.storeRarity('All', cb);
 		this.props.storeSet('All', cb);
@@ -141,7 +141,7 @@ class Magic extends Component {
 				<br />
 				<div className={styles.magicPageContainer}>
 					<header className={styles.control_bar}>
-						<h3 className={styles.title}>Filters</h3>
+						<div className={styles.title}>Filters</div>
 						<div className={styles.filters}>
 							<button id="magicButton" className={styles.button} onClick={()=>this.reset()}>Reset</button>
 						</div>
