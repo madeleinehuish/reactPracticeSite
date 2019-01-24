@@ -4,6 +4,7 @@ import * as actions from '../../actions/magic';
 
 import Cardslist from './Cardslist/Cardslist';
 import Creatures from './Creatures/Creatures';
+import Keywords from './Keywords/Keywords';
 import CurrentImage from './CurrentImage/CurrentImage';
 import styles from './Magic.css';
 
@@ -46,6 +47,9 @@ class Magic extends Component {
 				break;
 			case 'creature':
 				this.props.storeCreature(filterValue, cb);
+				break;
+			case 'keyword':
+				this.props.storeKeyword(filterValue, cb);
 				break;
 			default:
 				break;
@@ -92,6 +96,7 @@ class Magic extends Component {
 		this.props.storeSet('All', cb);
 	}
 
+	//this is for testing calls to the backend to load cards from there. ulitimately going to move to this
 	test = () => {
 		const cb = () => {
 			this.forceUpdate(()=>{
@@ -124,12 +129,11 @@ class Magic extends Component {
 			text: this.props.filterText,
 			color: this.props.filterColor,
 			rarity: this.props.filterRarity,
-			creature: this.props.filterCreature
+			creature: this.props.filterCreature,
+			keyword: this.props.filterKeyword
 		}
 
 		this.props.getcards(filters, cb);
-
-		// this.props.getcards(this.props.filterText, this.props.filterType, this.props.filterColor, this.props.filterRarity, this.props.filterSet, cb);
 	}
 
 
@@ -145,6 +149,7 @@ class Magic extends Component {
 						<div className={styles.filters}>
 							<button id="magicButton" className={styles.button} onClick={()=>this.reset()}>Reset</button>
 						</div>
+						{/* dont get rid of the following!!!! */}
 						{/* <div className={styles.filters}>
 							<button id="testCardsButton" className={styles.button} onClick={()=>this.test()}>Test Get Cards</button>
 						</div> */}
@@ -207,9 +212,12 @@ class Magic extends Component {
 								<option value="rna">Ravnica Allegiance</option>
 							</select>
 						</div>
+						<div className={styles.filters}>
+							<Keywords handleFilter={this.handleFilter} />
+						</div>
 
 					</header>
-					{/* <h4>Use controls to filter cards currently in Standard.</h4> */}
+
 					<div className={styles.magicOuterContainer}>
 						<div className={styles.col}>
 							<CurrentImage currentCard={this.props.currentCard} />
@@ -241,6 +249,7 @@ function mapStateToProps(state) {
 		currentCard: state.currentCard.currentCard,
 		filterType: state.cardFilters.filterType,
 		filterCreature: state.cardFilters.filterCreature,
+		filterKeyword: state.cardFilters.filterKeyword,
 		filterText: state.cardFilters.filterText,
 		filterColor: state.cardFilters.filterColor,
 		filterRarity: state.cardFilters.filterRarity,

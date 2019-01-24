@@ -6,6 +6,7 @@ import {
 	CHANGE_CURRENT_CARD,
 	STORE_TYPE,
 	STORE_CREATURE,
+	STORE_KEYWORD,
 	STORE_FILTER_TEXT,
 	STORE_COLOR,
 	STORE_RARITY,
@@ -55,6 +56,13 @@ const filterType = (elem, filterType, filterCreature) => {
 		if(elem.type_line.includes(filterType)) return true;
 		return false;
 	}
+}
+
+const filterKeyword = (elem, filterKeyword) => {
+	if(filterKeyword==='All Keywords') return true;
+	// console.log('elem.oracle_text: ', elem.oracle_text)
+	if(elem.oracle_text && elem.oracle_text.toLowerCase().includes(filterKeyword)) return true;
+	return false;
 }
 
 //check arr
@@ -127,8 +135,9 @@ export const getcards = (filters, cb) => async dispatch => {
 		// const conditionCreature = filterCreature(elem, filters.creature);
 		const conditionColor = filterColor(elem, filters.color, filters.type);
 		const conditionRarity = filterRarity(elem, filters.rarity);
+		const conditionKeyword = filterKeyword(elem, filters.keyword);
 
-		return ( conditionSet && conditionType && conditionColor && conditionRarity);
+		return ( conditionSet && conditionType && conditionColor && conditionRarity && conditionKeyword);
 	})
 
 	if(!filtered.length) filtered[0] =  {
@@ -174,6 +183,15 @@ export const storeCreature = (creature, cb) => async dispatch => {
 	dispatch({
 		type: STORE_CREATURE,
 		payload: creature
+	});
+	cb();
+}
+
+export const storeKeyword = (keyword, cb) => async dispatch => {
+
+	dispatch({
+		type: STORE_KEYWORD,
+		payload: keyword
 	});
 	cb();
 }
@@ -245,11 +263,11 @@ export const getCardsFromDatabase = (filters, cb) => async dispatch => {
 
 // //old filter functions
 // function filterAlphabetically(cards) {
-// 	let sortedAlphabetically = cards.sort((a,b) =>{
-// 		if(a.name < b.name) return -1;
-// 		if(a.name > b.name) return 1;
-// 		return 0;
-// 	})
+	// let sortedAlphabetically = cards.sort((a,b) =>{
+	// 	if(a.name < b.name) return -1;
+	// 	if(a.name > b.name) return 1;
+	// 	return 0;
+	// })
 // 	return sortedAlphabetically;
 // }
 // function filterByColor(cards, colorFilter) {
