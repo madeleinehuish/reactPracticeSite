@@ -17,6 +17,7 @@ class Magic extends Component {
 		this.colorBox = React.createRef();
 		this.rarityBox = React.createRef();
 		this.setBox = React.createRef();
+		this.keywordBox = React.createRef();
 	}
 
 	handleFilter = (event, filterType) => {
@@ -80,6 +81,7 @@ class Magic extends Component {
 		this.colorBox.current.value = 'All';
 		this.rarityBox.current.value = 'All';
 		this.setBox.current.value = 'All';
+		this.keywordBox.current.value = 'All Keywords';
 		// this.setState({
 		// 	inputBox: '',
 		// 	selectBox: 'All',
@@ -94,6 +96,7 @@ class Magic extends Component {
 		this.props.storeColor('All', cb);
 		this.props.storeRarity('All', cb);
 		this.props.storeSet('All', cb);
+		this.props.storeKeyword('All Keywords', cb);
 	}
 
 	//this is for testing calls to the backend to load cards from there. ulitimately going to move to this
@@ -213,7 +216,7 @@ class Magic extends Component {
 							</select>
 						</div>
 						<div className={styles.filters}>
-							<Keywords handleFilter={this.handleFilter} />
+							<Keywords handleFilter={this.handleFilter} ref={this.keywordBox}/>
 						</div>
 
 					</header>

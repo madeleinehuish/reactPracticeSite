@@ -48,7 +48,10 @@ const filterSet = (elem, filter) => {
 
 const filterType = (elem, filterType, filterCreature) => {
 	if(filterType==='All') return true;
-	if(filterType==='Creature' && filterCreature==='All Creatures') return true;
+	if(filterType==='Creature' && filterCreature==='All Creatures') {
+		if(elem.type_line.includes(filterType)) return true;
+		return false;
+	};
 	if(filterType==='Creature' && filterCreature!=='All Creatures') {
 		if(elem.type_line.includes(filterCreature)) return true;
 		return false;
@@ -131,13 +134,14 @@ export const getcards = (filters, cb) => async dispatch => {
 	const filtered = filteredByInput.filter(elem => {
 
 		const conditionSet = filterSet(elem, filters.set);
+		const conditionKeyword = filterKeyword(elem, filters.keyword);
 		const conditionType = filterType(elem, filters.type, filters.creature);
 		// const conditionCreature = filterCreature(elem, filters.creature);
 		const conditionColor = filterColor(elem, filters.color, filters.type);
 		const conditionRarity = filterRarity(elem, filters.rarity);
-		const conditionKeyword = filterKeyword(elem, filters.keyword);
 
-		return ( conditionSet && conditionType && conditionColor && conditionRarity && conditionKeyword);
+
+		return ( conditionSet && conditionKeyword && conditionType && conditionColor && conditionRarity );
 	})
 
 	if(!filtered.length) filtered[0] =  {
