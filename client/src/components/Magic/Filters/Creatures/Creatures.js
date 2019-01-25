@@ -1,6 +1,6 @@
 import React from 'react';
 
-import creatureTypes from '../../../data/types/creatures';
+import creatureTypes from '../../../../data/types/creatures';
 import styles from './Creatures.css';
 
 const Creatures = (props) => {
