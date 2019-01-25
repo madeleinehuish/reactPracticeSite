@@ -11,6 +11,7 @@ import {
 	STORE_COLOR,
 	STORE_RARITY,
 	STORE_SET,
+	STORE_SPECIAL,
 	TEST_CARDS
 } from './types';
 
@@ -128,6 +129,20 @@ const filterRarity = (elem, filter) => {
 	return false;
 }
 
+const filterSpecial = (elem, filter) => {
+	if(filter==='All Special') return true;
+	if(filter==='legendary') {
+		if(elem.type_line.includes('Legendary')) return true;
+	}
+	if(filter==='saga') {
+		if(elem.type_line.includes('Saga')) return true;
+	}
+	if(filter==='historic') {
+		if(elem.type_line.includes('Saga') || elem.type_line.includes('Legendary') || elem.type_line.includes('Artifact')) return true;
+	}
+	return false;
+}
+
 // this is a newer version of this function. old versions below
 export const getcards = (filters, cb) => async dispatch => {
 
@@ -146,9 +161,10 @@ export const getcards = (filters, cb) => async dispatch => {
 		// const conditionCreature = filterCreature(elem, filters.creature);
 		const conditionColor = filterColor(elem, filters.color, filters.type);
 		const conditionRarity = filterRarity(elem, filters.rarity);
+		const conditionSpecial = filterSpecial(elem, filters.special);
 
 
-		return ( conditionSet && conditionKeyword && conditionType && conditionColor && conditionRarity );
+		return ( conditionSet && conditionKeyword && conditionType && conditionColor && conditionRarity && conditionSpecial );
 	})
 
 	if(!filtered.length) filtered[0] =  {
@@ -230,6 +246,15 @@ export const storeSet = (set, cb) => async dispatch => {
 	dispatch({
 		type: STORE_SET,
 		payload: set
+	});
+	cb();
+}
+
+export const storeSpecial = (special, cb) => async dispatch => {
+
+	dispatch({
+		type: STORE_SPECIAL,
+		payload: special
 	});
 	cb();
 }

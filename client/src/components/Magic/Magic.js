@@ -8,6 +8,7 @@ import Creatures from './Filters/Creatures/Creatures';
 import Keywords from './Filters/Keywords/Keywords';
 import Rarity from './Filters/Rarity/Rarity';
 import Sets from './Filters/Sets/Sets';
+import Special from './Filters/Special/Special';
 import Types from './Filters/Types/Types'
 import CurrentImage from './CurrentImage/CurrentImage';
 import styles from './Magic.css';
@@ -22,6 +23,7 @@ class Magic extends Component {
 		this.rarityBox = React.createRef();
 		this.setBox = React.createRef();
 		this.keywordBox = React.createRef();
+		this.specialBox = React.createRef();
 	}
 
 	handleFilter = (event, filterType) => {
@@ -56,6 +58,9 @@ class Magic extends Component {
 			case 'keyword':
 				this.props.storeKeyword(filterValue, cb);
 				break;
+			case 'special':
+				this.props.storeSpecial(filterValue, cb);
+				break;
 			default:
 				break;
 		}
@@ -85,6 +90,7 @@ class Magic extends Component {
 		this.rarityBox.current.value = 'All';
 		this.setBox.current.value = 'All';
 		this.keywordBox.current.value = 'All Keywords';
+		this.specialBox.current.value = 'All Special';
 
 		// send in default values to state
 		this.props.storeFilterText('', cb);
@@ -94,6 +100,7 @@ class Magic extends Component {
 		this.props.storeRarity('All', cb);
 		this.props.storeSet('All', cb);
 		this.props.storeKeyword('All Keywords', cb);
+		this.props.storeSpecial('All Special', cb);
 	}
 
 	//this is for testing calls to the backend to load cards from there. ulitimately going to move to this
@@ -130,7 +137,8 @@ class Magic extends Component {
 			color: this.props.filterColor,
 			rarity: this.props.filterRarity,
 			creature: this.props.filterCreature,
-			keyword: this.props.filterKeyword
+			keyword: this.props.filterKeyword,
+			special: this.props.filterSpecial
 		}
 
 		this.props.getcards(filters, cb);
@@ -171,6 +179,9 @@ class Magic extends Component {
 						<div className={styles.filters}>
 							<Keywords handleFilter={this.handleFilter} ref={this.keywordBox}/>
 						</div>
+						<div className={styles.filters}>
+							<Special handleFilter={this.handleFilter} ref={this.specialBox}/>
+						</div>
 					</header>
 
 					<div className={styles.magicOuterContainer}>
@@ -206,6 +217,7 @@ function mapStateToProps(state) {
 		filterColor: state.cardFilters.filterColor,
 		filterRarity: state.cardFilters.filterRarity,
 		filterSet: state.cardFilters.filterSet,
+		filterSpecial: state.cardFilters.filterSpecial,
 		testCards: state.testCards,
 		authenticated: state.auth.authenticated,
 		user: state.auth.user

@@ -28,7 +28,8 @@ export default {
 		filterKeyword: 'All Keywords',
 		filterColor: 'All',
 		filterRarity: 'All',
-		filterSet: 'All'
+		filterSet: 'All',
+		filterSpecial: 'All Special'
 	}
 
 }

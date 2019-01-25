@@ -1,4 +1,4 @@
-import { STORE_FILTER_TEXT, STORE_TYPE, STORE_COLOR, STORE_RARITY, STORE_SET, STORE_CREATURE, STORE_KEYWORD } from '../actions/types';
+import { STORE_FILTER_TEXT, STORE_TYPE, STORE_COLOR, STORE_RARITY, STORE_SET, STORE_CREATURE, STORE_KEYWORD, STORE_SPECIAL } from '../actions/types';
 
 const INITIAL_STATE = {};
 
@@ -19,6 +19,8 @@ export default function(state=INITIAL_STATE, action) {
 			return { ...state, filterCreature: action.payload };
 		case STORE_KEYWORD:
 			return { ...state, filterKeyword: action.payload };
+		case STORE_SPECIAL:
+			return { ...state, filterSpecial: action.payload };
 		default:
 			return state;
 	}
