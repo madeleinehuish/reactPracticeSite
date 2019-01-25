@@ -25,7 +25,7 @@ export default {
 		filterText: '',
 		filterType: 'All',
 		filterCreature: 'All Creatures',
-		filterKeyword: 'All Keywords',
+		filterKeyword: 'keywords (all)',
 		filterColor: 'All',
 		filterRarity: 'All',
 		filterSet: 'All',

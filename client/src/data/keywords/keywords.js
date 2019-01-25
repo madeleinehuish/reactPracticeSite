@@ -1,5 +1,5 @@
 export default [
-		'All Keywords',
+		'keywords (all)',
 		'adapt',
 		'addendum',
 		'afterlife',

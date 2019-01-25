@@ -63,7 +63,7 @@ const filterType = (elem, filterType, filterCreature) => {
 }
 
 const filterKeyword = (elem, filterKeyword) => {
-	if(filterKeyword==='All Keywords') return true;
+	if(filterKeyword==='keywords (all)') return true;
 	// console.log('elem.oracle_text: ', elem.oracle_text)
 	if(filterKeyword === 'return from graveyard') {
 		if(elem.oracle_text && elem.oracle_text.toLowerCase().includes('return') && elem.oracle_text.toLowerCase().includes('graveyard')) return true;

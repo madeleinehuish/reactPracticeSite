@@ -89,7 +89,7 @@ class Magic extends Component {
 		this.colorBox.current.value = 'All';
 		this.rarityBox.current.value = 'All';
 		this.setBox.current.value = 'All';
-		this.keywordBox.current.value = 'All Keywords';
+		this.keywordBox.current.value = 'keywords (all)';
 		this.specialBox.current.value = 'All Special';
 
 		// send in default values to state
@@ -99,7 +99,7 @@ class Magic extends Component {
 		this.props.storeColor('All', cb);
 		this.props.storeRarity('All', cb);
 		this.props.storeSet('All', cb);
-		this.props.storeKeyword('All Keywords', cb);
+		this.props.storeKeyword('keywords (all)', cb);
 		this.props.storeSpecial('All Special', cb);
 	}
 
