@@ -3,14 +3,16 @@ import { connect } from 'react-redux';
 import * as actions from '../../actions/magic';
 
 import Cardslist from './Cardslist/Cardslist';
-import Colors from './Filters/Colors/Colors';
-import Creatures from './Filters/Creatures/Creatures';
-import Keywords from './Filters/Keywords/Keywords';
-import Rarity from './Filters/Rarity/Rarity';
-import Sets from './Filters/Sets/Sets';
-import Special from './Filters/Special/Special';
-import Types from './Filters/Types/Types'
 import CurrentImage from './CurrentImage/CurrentImage';
+
+import Colors from './Filters/Colors';
+import Creatures from './Filters/Creatures';
+import Keywords from './Filters/Keywords';
+import Rarity from './Filters/Rarity';
+import Sets from './Filters/Sets';
+import Special from './Filters/Special';
+import Types from './Filters/Types'
+
 import styles from './Magic.css';
 
 class Magic extends Component {

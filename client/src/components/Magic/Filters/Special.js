@@ -1,5 +1,5 @@
 import React from 'react';
-import styles from './Special.css';
+import styles from './Filters.css';
 
 const Special = React.forwardRef((props, ref) => {
 	return (

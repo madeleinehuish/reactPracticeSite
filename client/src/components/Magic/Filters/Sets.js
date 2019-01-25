@@ -1,5 +1,5 @@
 import React from 'react';
-import styles from './Sets.css';
+import styles from './Filters.css';
 
 const Sets = React.forwardRef((props, ref) => {
 	return (

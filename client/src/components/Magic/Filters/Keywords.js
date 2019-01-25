@@ -1,7 +1,7 @@
 import React from 'react';
 
-import keywordTypes from '../../../../data/keywords/keywords';
-import styles from './Keywords.css';
+import keywordTypes from '../../../data/keywords/keywords';
+import styles from './Filters.css';
 
 const Keywords = React.forwardRef((props, ref) => {
 	return (

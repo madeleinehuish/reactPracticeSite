@@ -1,5 +1,5 @@
 import React from 'react';
-import styles from './Types.css';
+import styles from './Filters.css';
 
 const Types = React.forwardRef((props, ref) => {
 	return (

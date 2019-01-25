@@ -1,5 +1,5 @@
 import React from 'react';
-import styles from './Rarity.css';
+import styles from './Filters.css';
 
 const Rarity = React.forwardRef((props, ref) => {
 	return (

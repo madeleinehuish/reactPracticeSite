@@ -1,7 +1,7 @@
 import React from 'react';
 
-import creatureTypes from '../../../../data/types/creatures';
-import styles from './Creatures.css';
+import creatureTypes from '../../../data/types/creatures';
+import styles from './Filters.css';
 
 const Creatures = (props) => {
 
