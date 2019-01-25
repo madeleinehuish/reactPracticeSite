@@ -22,6 +22,7 @@ export default [
 		'flying',
 		'haste',
 		'hexproof',
+		'historic',
 		'indestructible',
 		'jump-start',
 		'kicker',
