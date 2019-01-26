@@ -4,6 +4,7 @@
 	border: 1px solid #bcf5bc;
 	background-color: #5f9ea0;
 	color: #fff3f0;
+	width: 100%;
 }
 
 .control_bar {
@@ -36,7 +37,7 @@
 
 .magicOuterContainer {
 	display: grid;
-	grid-template-columns: 30% 25% 65%;
+	grid-template-columns: 30% 25% 45%;
 }
 
 
@@ -56,10 +57,7 @@
 	margin: 0 auto 100px auto;
 } */
 
-.deckBuilding {
-	margin-left: 150px;
-	/* width: 100px; */
-}
+
 
 
 .input {

@@ -7,6 +7,8 @@ import Cardslist from './Cardslist/Cardslist';
 import CurrentSelected from './Cardslist/CurrentSelected';
 import CurrentCardInfo from './Cardslist/CurrentCardInfo';
 
+import DeckBuilding from './DeckBuilding/DeckBuilding';
+
 import Colors from './Filters/Colors';
 import Creatures from './Filters/Creatures';
 import Keywords from './Filters/Keywords';
@@ -34,13 +36,13 @@ class Magic extends Component {
 		}
 	}
 
+	deckAddTo = (card) => {
+		// console.log('deckAddTo card: ', card);
+		this.props.addToCurrentDeck(card);
+	}
+
 	handleClickColumnTwo = (elem) => {
-		this.setState({ columnTwo: !this.state.columnTwo }, () => {
-			if(elem) {
-				console.log('elem on click: ', elem, ' this.state.columnTwo: ', this.state.columnTwo);
-			}
-			// this.handleChangeColumnTwoInformation(event.target)
-		});
+		this.setState({ columnTwo: !this.state.columnTwo });
 	}
 
 	handleFilter = (event, filterType) => {
@@ -207,16 +209,17 @@ class Magic extends Component {
 							<CurrentImage currentCard={this.props.currentCard} />
 						</div>
 						<div className={[styles.col, styles.col2].join(' ')}>
-							<CurrentSelected currentSelected={this.props.currentCard} />
+							<CurrentSelected currentSelected={this.props.currentCard} addToDeck={this.deckAddTo} />
 							<br />
 							{this.state.columnTwo
-								? <CurrentCardInfo card={this.props.currentCard} handleClick={this.handleClickColumnTwo}/> :
+								? <CurrentCardInfo card={this.props.currentCard} handleClick={this.handleClickColumnTwo} /> :
 									<Cardslist cards={this.props.cards} handleHover={this.handleHover} handleClick={this.handleClickColumnTwo} currentCard={this.props.currentCard}/>
 							}
 
 						</div>
 						<div className={[styles.col, styles.col3].join(' ')}>
-							<div className={styles.deckBuilding}>DeckBuilding Goes here</div>
+							<DeckBuilding />
+							{/* <div className={styles.deckBuilding}>DeckBuilding Goes here</div> */}
 						</div>
 					</div>
 				</div>
@@ -234,6 +237,7 @@ function mapStateToProps(state) {
 	return {
 		cards: state.cards.cards,
 		currentCard: state.currentCard.currentCard,
+		currentDeck: state.currentDeck,
 		filterType: state.cardFilters.filterType,
 		filterCreature: state.cardFilters.filterCreature,
 		filterKeyword: state.cardFilters.filterKeyword,

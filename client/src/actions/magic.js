@@ -2,6 +2,7 @@ import axios from 'axios';
 import DATA from '../data/combinedData';
 
 import {
+	DECK_ADD_TO_DECK,
 	FETCH_CARDS,
 	CHANGE_CURRENT_CARD,
 	STORE_TYPE,
@@ -178,6 +179,13 @@ export const getcards = (filters, cb) => async dispatch => {
 	})
 
 	cb();
+}
+
+export const addToCurrentDeck = (card) => {
+	return {
+		type: DECK_ADD_TO_DECK,
+		payload: card
+	}
 }
 
 export const changeCurrentCard = (card) => {

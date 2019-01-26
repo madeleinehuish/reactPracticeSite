@@ -1,0 +1,17 @@
+.deckWrapper {
+	display: grid;
+	grid-template-columns: 100%;
+	/* list-style-type: none; */
+	height: 500px;
+	border: 2px solid #bcf5bc;
+	overflow:scroll;
+	/* width: 100%; */
+	margin: 0 30px 0 30px;
+	border-radius: 5px;
+	/* margin-left: -50px; */
+	/* margin-left: 0; */
+}
+
+.title {
+	margin: 15px auto 0 auto;
+}

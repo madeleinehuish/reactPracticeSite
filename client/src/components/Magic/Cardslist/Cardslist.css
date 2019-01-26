@@ -59,20 +59,32 @@
 	border: 2px solid #bcf5bc;
 	width: 300px;
 	margin: 0 auto;
-	/* border-radius: 4%; */
+	border-radius: 5px;
 }
 
 .titleSelected {
-	padding-left: 10px;
-	padding-top: 15px;
+	margin-left: 35px;
+	margin-top: 15px;
 }
 
 .addToDeck {
 	margin-top: 20px;
-	margin-left: 60px;
+	margin-left: 35px;
 }
 
 .currentCardInfo{
 	padding-left: 10px;
 	overflow: scroll;
+}
+
+.button {
+	width: 200px;
+	height: 35px;
+	border-radius: 5px;
+	border-color: #bcf5bc;
+	background-color: #5f9ea0;
+	color: #fff3f0;
+	margin-top: 2px;
+	margin-bottom: 10px;
+	cursor: pointer;
 }

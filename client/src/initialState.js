@@ -21,6 +21,10 @@ export default {
 	currentCard: {
 		currentCard: firstCard
 	},
+	currentDeck: {
+		currentDeck: []
+	},
+	// currentDeck: [],
 	cardFilters: {
 		filterText: '',
 		filterType: 'All',

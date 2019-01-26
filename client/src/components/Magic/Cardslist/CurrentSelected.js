@@ -2,14 +2,15 @@ import React from 'react';
 import styles from './Cardslist.css';
 
 const CurrentSelected = (props) => {
-	// console.log('current selected props: ', props.currentSelected.name);
+	const card = props.currentSelected || null;
+	console.log('props in CurrentSelected : ', props);
 	return (
 		<div className={styles.currentSelected}>
 			<div className={styles.titleSelected}>
-				<b>{props.currentSelected.name}</b>
-				<div className={styles.addToDeck}>
-					add to deck     >>>
-				</div>
+				<b>{card.name}</b>
+			</div>
+			<div className={styles.addToDeck}>
+				<button className={styles.button} onClick={() => props.addToDeck(card)}>add to deck     >>></button>
 			</div>
 		</div>
 	)
