@@ -6,8 +6,8 @@ import styles from './Filters.css';
 const Keywords = React.forwardRef((props, ref) => {
 	return (
 		<select className={styles.select} ref={ref} onChange={(event)=>props.handleFilter(event, 'keyword')}>
-			{keywordTypes.map(elem => {
-				return <option value={elem}>{elem}</option>
+			{keywordTypes.map((elem, index) => {
+				return <option key={index} value={elem}>{elem}</option>
 			})}
 		</select>
 	)

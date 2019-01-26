@@ -53,3 +53,26 @@
 .cardImage {
 	margin: 0 auto;
 }
+
+.currentSelected {
+	height: 110px;
+	border: 2px solid #bcf5bc;
+	width: 300px;
+	margin: 0 auto;
+	/* border-radius: 4%; */
+}
+
+.titleSelected {
+	padding-left: 10px;
+	padding-top: 15px;
+}
+
+.addToDeck {
+	margin-top: 20px;
+	margin-left: 60px;
+}
+
+.currentCardInfo{
+	padding-left: 10px;
+	overflow: scroll;
+}

@@ -2,8 +2,10 @@ import React, { Component } from 'react';
 import { connect } from 'react-redux';
 import * as actions from '../../actions/magic';
 
-import Cardslist from './Cardslist/Cardslist';
 import CurrentImage from './CurrentImage/CurrentImage';
+import Cardslist from './Cardslist/Cardslist';
+import CurrentSelected from './Cardslist/CurrentSelected';
+import CurrentCardInfo from './Cardslist/CurrentCardInfo';
 
 import Colors from './Filters/Colors';
 import Creatures from './Filters/Creatures';
@@ -26,6 +28,19 @@ class Magic extends Component {
 		this.setBox = React.createRef();
 		this.keywordBox = React.createRef();
 		this.specialBox = React.createRef();
+
+		this.state = {
+			columnTwo: false
+		}
+	}
+
+	handleClickColumnTwo = (elem) => {
+		this.setState({ columnTwo: !this.state.columnTwo }, () => {
+			if(elem) {
+				console.log('elem on click: ', elem, ' this.state.columnTwo: ', this.state.columnTwo);
+			}
+			// this.handleChangeColumnTwoInformation(event.target)
+		});
 	}
 
 	handleFilter = (event, filterType) => {
@@ -81,6 +96,7 @@ class Magic extends Component {
 
 		const cb = () => {
 			this.forceUpdate(()=>{
+				this.setState({ columnTwo: false });
 				this.updateCards();
 			});
 		};
@@ -191,7 +207,13 @@ class Magic extends Component {
 							<CurrentImage currentCard={this.props.currentCard} />
 						</div>
 						<div className={[styles.col, styles.col2].join(' ')}>
-							<Cardslist cards={this.props.cards} handleHover={this.handleHover} currentCard={this.props.currentCard}/>
+							<CurrentSelected currentSelected={this.props.currentCard} />
+							<br />
+							{this.state.columnTwo
+								? <CurrentCardInfo card={this.props.currentCard} handleClick={this.handleClickColumnTwo}/> :
+									<Cardslist cards={this.props.cards} handleHover={this.handleHover} handleClick={this.handleClickColumnTwo} currentCard={this.props.currentCard}/>
+							}
+
 						</div>
 						<div className={[styles.col, styles.col3].join(' ')}>
 							<div className={styles.deckBuilding}>DeckBuilding Goes here</div>

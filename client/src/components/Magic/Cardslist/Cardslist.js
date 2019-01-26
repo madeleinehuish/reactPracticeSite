@@ -15,7 +15,7 @@ const Cardslist = props => {
 									<div key={card.id}>
 										<br />
 										<li>
-											<b className={styles.cardSelect} onMouseOver={()=> props.handleHover(card.id)}>{card.name}</b>
+											<b className={styles.cardSelect} onClick={()=> props.handleClick(card)} onMouseOver={()=> props.handleHover(card.id)}>{card.name}</b>
 											{/* <div>{card.locationdesc}</div> */}
 										</li>
 									</div>
