@@ -37,8 +37,10 @@ class Magic extends Component {
 	}
 
 	deckAddTo = (card) => {
-		// console.log('deckAddTo card: ', card);
-		this.props.addToCurrentDeck(card);
+
+		let deck = this.props.currentDeck;
+		this.props.addToCurrentDeck(card, deck);
+		// this.props.addToCurrentDeck(card);
 	}
 
 	handleClickColumnTwo = (elem) => {

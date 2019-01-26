@@ -181,10 +181,41 @@ export const getcards = (filters, cb) => async dispatch => {
 	cb();
 }
 
-export const addToCurrentDeck = (card) => {
+export const addToCurrentDeck = (card, deck) => {
+
+	console.log('deckAddTo card: ', card);
+	let currentNumber = 0;
+	let newDeck = [...deck];
+	let isDup = false;
+
+	for(let elem of newDeck) {
+		if(elem.name && elem.name === card.name ) {
+			isDup = true;
+			if(elem.number < 4) {
+				elem.number = elem.number + 1;
+			} else {
+				elem.number = 4;
+			}
+		}
+	}
+
+	if(isDup===false) newDeck.push({
+		name: card.name,
+		number: 1,
+		info: card
+	})
+
+	// if(currentNumber < 1) currentNumber=1;
+	// // let currentNumber = 1;
+	// let addedCard = {
+	// 	name: card.name,
+	// 	number: currentNumber,
+	// 	info: card
+	// }
+
 	return {
 		type: DECK_ADD_TO_DECK,
-		payload: card
+		payload: newDeck
 	}
 }
 

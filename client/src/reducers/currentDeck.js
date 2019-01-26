@@ -8,7 +8,8 @@ export default function(state=INITIAL_STATE, action) {
 		case DECK_ADD_TO_DECK:
 			// return { ...state, action.payload };
 			// return { ...state, currentDeck: [ ...state.currentDeck, action.payload]}
-			return { ...state, currentDeck: [ ...state.currentDeck, action.payload ] };
+			// return { ...state, currentDeck: [ ...state.currentDeck, action.payload ] };
+			return { ...state, currentDeck: action.payload };
 		default:
 			return state;
 	}
