@@ -218,7 +218,7 @@ class Magic extends Component {
 
 						</div>
 						<div className={[styles.col, styles.col3].join(' ')}>
-							<DeckBuilding />
+							<DeckBuilding deck={this.props.currentDeck}/>
 							{/* <div className={styles.deckBuilding}>DeckBuilding Goes here</div> */}
 						</div>
 					</div>
@@ -237,7 +237,7 @@ function mapStateToProps(state) {
 	return {
 		cards: state.cards.cards,
 		currentCard: state.currentCard.currentCard,
-		currentDeck: state.currentDeck,
+		currentDeck: state.currentDeck.currentDeck,
 		filterType: state.cardFilters.filterType,
 		filterCreature: state.cardFilters.filterCreature,
 		filterKeyword: state.cardFilters.filterKeyword,
