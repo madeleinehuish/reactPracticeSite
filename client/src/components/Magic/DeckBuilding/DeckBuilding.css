@@ -24,8 +24,9 @@
 }
 .cardDiv {
 	display: inline-grid;
-	padding-top: 10px;
+	padding-top: 20px;
 }
 .cardImage {
 	border-radius: 4%;
+	cursor: pointer;
 }

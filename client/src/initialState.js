@@ -18,12 +18,10 @@ export default {
 	testCards: {
 		testCards: []
 	},
+	columnTwo: false,
 	currentCard: {
 		currentCard: firstCard
 	},
-	// currentDeck: {
-	// 	currentDeck: []
-	// },
 	currentDeck: {
 		currentDeck: []
 	},

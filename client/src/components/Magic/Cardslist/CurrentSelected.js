@@ -7,10 +7,10 @@ const CurrentSelected = (props) => {
 	return (
 		<div className={styles.currentSelected}>
 			<div className={styles.titleSelected}>
-				<b>{card.name}</b>
+				{card.name!=='There are no cards with these given filters' ? <b>{card.name}</b> : <b>Totally Lost</b>}
 			</div>
 			<div className={styles.addToDeck}>
-				<button className={styles.button} onClick={() => props.addToDeck(card)}>add to deck     >>></button>
+				<button className={styles.button} onClick={() => props.deckModify(card, 'add')}>add to deck     >>></button>
 			</div>
 		</div>
 	)

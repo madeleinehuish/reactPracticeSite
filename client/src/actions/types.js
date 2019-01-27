@@ -5,6 +5,7 @@ export const DECK_UPDATE_NUMBER = 'deck_update_number';
 export const FETCH_TRUCKS = 'fetch_trucks';
 export const FETCH_CARDS = 'fetch_cards';
 export const CHANGE_CURRENT_CARD = 'change_current_card';
+export const SET_COLUMN_TWO = 'set_column_two';
 export const STORE_TYPE = 'filter_card_by_type';
 export const STORE_CREATURE = 'store_creature';
 export const STORE_KEYWORD = 'store_keyword';

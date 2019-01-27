@@ -5,6 +5,7 @@ import {
 	DECK_ADD_TO_DECK,
 	FETCH_CARDS,
 	CHANGE_CURRENT_CARD,
+	SET_COLUMN_TWO,
 	STORE_TYPE,
 	STORE_CREATURE,
 	STORE_KEYWORD,
@@ -181,34 +182,54 @@ export const getcards = (filters, cb) => async dispatch => {
 	cb();
 }
 
-export const addToCurrentDeck = (card, deck) => {
+export const modifyDeck = (card, deck, sign) => {
 
-	console.log('deckAddTo card: ', card);
-	let currentNumber = 0;
-	let newDeck = [...deck];
-	let isDup = false;
+	if(sign==='add') {
+		console.log('deckAddTo card: ', card);
+		let currentNumber = 0;
+		let newDeck = [...deck];
+		let isDup = false;
 
-	for(let elem of newDeck) {
-		if(elem.name && elem.name === card.name ) {
-			isDup = true;
-			if(elem.number < 4) {
-				elem.number = elem.number + 1;
-			} else {
-				elem.number = 4;
+		for(let elem of newDeck) {
+			if(elem.name && elem.name === card.name ) {
+				isDup = true;
+				if(elem.number < 4) {
+					elem.number = elem.number + 1;
+				} else {
+					elem.number = 4;
+				}
 			}
+		}
+
+		if(isDup===false) newDeck.push({
+			name: card.name,
+			number: 1,
+			info: card
+		})
+
+		return {
+			type: DECK_ADD_TO_DECK,
+			payload: newDeck
+		}
+	} else if (sign==='delete') {
+		let newDeck = [...deck];
+
+		newDeck.forEach(elem => {
+			if(elem.name && elem.name === card.name) {
+				elem.number = elem.number - 1;
+			}
+		})
+		let filtered = newDeck.filter(elem => {
+			return elem.number > 0;
+		})
+
+		return {
+			type: DECK_ADD_TO_DECK,
+			payload: filtered
 		}
 	}
 
-	if(isDup===false) newDeck.push({
-		name: card.name,
-		number: 1,
-		info: card
-	})
 
-	return {
-		type: DECK_ADD_TO_DECK,
-		payload: newDeck
-	}
 }
 
 export const changeCurrentCard = (card) => {
@@ -216,6 +237,13 @@ export const changeCurrentCard = (card) => {
 	return {
 		type: CHANGE_CURRENT_CARD,
 		payload: card
+	}
+}
+
+export const setColumnTwo = (columnTwo) => {
+	return {
+		type: SET_COLUMN_TWO,
+		payload: !columnTwo
 	}
 }
 

@@ -31,20 +31,18 @@ class Magic extends Component {
 		this.keywordBox = React.createRef();
 		this.specialBox = React.createRef();
 
-		this.state = {
-			columnTwo: false
-		}
 	}
 
-	deckAddTo = (card) => {
+	deckModify = (card, sign) => {
 
 		let deck = this.props.currentDeck;
-		this.props.addToCurrentDeck(card, deck);
-		// this.props.addToCurrentDeck(card);
+		if(card.name==="There are no cards with these given filters") return;
+		this.props.modifyDeck(card, deck, sign);
+
 	}
 
-	handleClickColumnTwo = (elem) => {
-		this.setState({ columnTwo: !this.state.columnTwo });
+	handleClickColumnTwo = () => {
+		this.props.setColumnTwo(this.props.columnTwo);
 	}
 
 	handleFilter = (event, filterType) => {
@@ -94,6 +92,11 @@ class Magic extends Component {
 		});
 
 		this.props.changeCurrentCard(card[0]);
+	}
+
+	handleDeckHover = (card) => {
+		this.props.setColumnTwo(false);
+		this.props.changeCurrentCard(card);
 	}
 
 	reset = () => {
@@ -211,17 +214,16 @@ class Magic extends Component {
 							<CurrentImage currentCard={this.props.currentCard} />
 						</div>
 						<div className={[styles.col, styles.col2].join(' ')}>
-							<CurrentSelected currentSelected={this.props.currentCard} addToDeck={this.deckAddTo} />
+							<CurrentSelected currentSelected={this.props.currentCard} deckModify={this.deckModify} />
 							<br />
-							{this.state.columnTwo
+							{this.props.columnTwo
 								? <CurrentCardInfo card={this.props.currentCard} handleClick={this.handleClickColumnTwo} /> :
 									<Cardslist cards={this.props.cards} handleHover={this.handleHover} handleClick={this.handleClickColumnTwo} currentCard={this.props.currentCard}/>
 							}
 
 						</div>
 						<div className={[styles.col, styles.col3].join(' ')}>
-							<DeckBuilding deck={this.props.currentDeck}/>
-							{/* <div className={styles.deckBuilding}>DeckBuilding Goes here</div> */}
+							<DeckBuilding deck={this.props.currentDeck} handleHover={this.handleDeckHover} deckModify={this.deckModify}/>
 						</div>
 					</div>
 				</div>
@@ -238,6 +240,7 @@ function mapStateToProps(state) {
 	// console.log('state.cards.cards: ', state.cards.cards);
 	return {
 		cards: state.cards.cards,
+		columnTwo: state.columnTwo.columnTwo,
 		currentCard: state.currentCard.currentCard,
 		currentDeck: state.currentDeck.currentDeck,
 		filterType: state.cardFilters.filterType,
