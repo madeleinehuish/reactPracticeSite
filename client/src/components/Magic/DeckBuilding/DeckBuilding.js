@@ -23,7 +23,7 @@ const Multiples = (props) => {
 const DeckBuilding = (props) => {
 	return (
 		<div className={styles.deckWrapper}>
-			<b className={styles.title}>Current Deck</b>
+			<b className={styles.title}>Current Deck (this part still in progress)</b>
 			<div className={styles.deckGrid}>
 				{props.deck.map((card, index) => {
 					if(card.number>1) {
