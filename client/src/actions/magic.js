@@ -205,14 +205,6 @@ export const addToCurrentDeck = (card, deck) => {
 		info: card
 	})
 
-	// if(currentNumber < 1) currentNumber=1;
-	// // let currentNumber = 1;
-	// let addedCard = {
-	// 	name: card.name,
-	// 	number: currentNumber,
-	// 	info: card
-	// }
-
 	return {
 		type: DECK_ADD_TO_DECK,
 		payload: newDeck
