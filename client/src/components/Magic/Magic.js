@@ -30,7 +30,17 @@ class Magic extends Component {
 		this.setBox = React.createRef();
 		this.keywordBox = React.createRef();
 		this.specialBox = React.createRef();
+	}
 
+	handleDeckNameSubmit = (event, value) => {
+
+		const cb = () => {
+			event.preventDefault();
+
+			this.forceUpdate(()=>{
+			});
+		};
+		this.props.storeDeckName(value, cb)
 	}
 
 	deckModify = (card, sign) => {
@@ -223,7 +233,7 @@ class Magic extends Component {
 
 						</div>
 						<div className={[styles.col, styles.col3].join(' ')}>
-							<DeckBuilding deck={this.props.currentDeck} handleHover={this.handleDeckHover} deckModify={this.deckModify}/>
+							<DeckBuilding deck={this.props.currentDeck} deckName={this.props.currentDeckName} handleDeckNameSubmit={this.handleDeckNameSubmit} handleHover={this.handleDeckHover} deckModify={this.deckModify}/>
 						</div>
 					</div>
 				</div>
@@ -242,6 +252,8 @@ function mapStateToProps(state) {
 		cards: state.cards.cards,
 		columnTwo: state.columnTwo.columnTwo,
 		currentCard: state.currentCard.currentCard,
+		currentDeckName: state.currentDeck.name,
+		// currentDeckName: state.currentDeck.name,
 		currentDeck: state.currentDeck.currentDeck,
 		filterType: state.cardFilters.filterType,
 		filterCreature: state.cardFilters.filterCreature,

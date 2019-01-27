@@ -6,6 +6,7 @@ import {
 	FETCH_CARDS,
 	CHANGE_CURRENT_CARD,
 	SET_COLUMN_TWO,
+	STORE_DECK_NAME,
 	STORE_TYPE,
 	STORE_CREATURE,
 	STORE_KEYWORD,
@@ -247,12 +248,20 @@ export const setColumnTwo = (columnTwo) => {
 	}
 }
 
+export const storeDeckName = (deckName, cb) => async dispatch => {
+	dispatch({
+		type: STORE_DECK_NAME,
+		payload: deckName
+	});
+	cb();
+}
+
 export const storeFilterText = (text, cb) => async dispatch => {
 	dispatch({
 		type: STORE_FILTER_TEXT,
 		payload: text
 	});
-	cb()
+	cb();
 }
 
 export const storeType = (type, cb) => async dispatch => {

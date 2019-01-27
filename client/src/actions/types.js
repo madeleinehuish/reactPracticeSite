@@ -15,3 +15,4 @@ export const STORE_RARITY = 'store_rarity';
 export const STORE_SET = 'store_set';
 export const STORE_SPECIAL = 'store_special';
 export const TEST_CARDS = 'test_get_cards';
+export const STORE_DECK_NAME = 'store_deck_name';

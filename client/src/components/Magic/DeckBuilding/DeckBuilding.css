@@ -38,9 +38,14 @@
 
 .title {
 	/* margin-left: 220px; */
-	margin-left: 10px;
-	font-size: 18px;
+	padding-left: 12px;
+	font-size: 16px;
+	/* margin: 0 auto; */
 	/* padding-top: 10px; */
+}
+
+.titleWrapper {
+	width: 140px;
 }
 
 
@@ -81,12 +86,14 @@
 
 
 .input {
+
 	border-radius: 5px;
 	border-color: #bcf5bc;
 	/* margin-left: 10px; */
 	height: 25px;
 	margin-bottom: 10px;
 	width: 100px;
+	/* margin-left: 100px; */
 }
 
 .button {
