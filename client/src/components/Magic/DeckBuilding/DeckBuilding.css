@@ -14,20 +14,90 @@
 
 .title {
 	/* margin-left: 220px; */
-	margin-left: 100px;
+	margin-left: 10px;
+	font-size: 18px;
 	/* padding-top: 10px; */
+}
+
+.controlBar {
+	/* background-color: #808080; */
+	display: flex;
+	/* position:relative; */
+	justify-content: flex-start;
+	align-items: center;
+	height: 25px;
+	margin-top: 0;
+	margin-bottom: 0;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	width:100%;
+	border-bottom: 1px solid #bcf5bc;
+	z-index: 7;
+	/* background: inherit; */
+
+	/* font-weight: lighter; */
 }
 
 .deckGrid {
 	display: grid;
+
 	grid-template-columns: 20% 20% 20% 20% 20%;
 	padding-left: 20px;
+	/* margin-top:50px; */
+
 }
 .cardDiv {
 	display: inline-grid;
-	padding-top: 20px;
+	/* border: 1px solid red; */
+	height: 120px;
+	/* padding-top: 20px; */
+	/* position: relative; */
+}
+.relativeDiv {
+	position: relative;
+	/* border: 1px solid green; */
+	height: 100%;
+	/* margin-top: 20px; */
 }
 .cardImage {
 	border-radius: 4%;
+	padding-top: 20px;
 	cursor: pointer;
+}
+
+
+
+.filters {
+	display: inline;
+	margin-left: 15px;
+}
+
+
+.input {
+	border-radius: 5px;
+	border-color: #bcf5bc;
+	/* margin-left: 10px; */
+	height: 25px;
+	margin-bottom: 10px;
+	width: 100px;
+}
+
+.button {
+	width: 60px;
+	height: 30px;
+	border-radius: 5px;
+	border-color: #bcf5bc;
+	background-color: #5f9ea0;
+	color: #fff3f0;
+	margin-top: 2px;
+	margin-bottom: 10px;
+	cursor: pointer;
+}
+
+.select {
+	border-radius: 5px;
+	border-color: #bcf5bc;
+	height: 28px;
+	width: 60px;
+	margin-bottom: 10px;
 }

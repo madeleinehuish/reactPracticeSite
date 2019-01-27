@@ -23,6 +23,7 @@ export default {
 		currentCard: firstCard
 	},
 	currentDeck: {
+		name: 'Unnamed Deck',
 		currentDeck: []
 	},
 	cardFilters: {

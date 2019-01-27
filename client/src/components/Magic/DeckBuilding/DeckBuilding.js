@@ -3,18 +3,25 @@ import styles from './DeckBuilding.css';
 import EmptyWrapper from '../../EmptyWrapper/EmptyWrapper';
 
 const Multiples = (props) => {
+	let multiplesArr=[];
+	// let multiplesArr = [<img src={ props.card.info.image_uris ? props.card.info.image_uris.small : null } key='1' onClick={()=>props.deckModify(props.card, 'delete')} onMouseOver={()=>{props.handleHover(props.card.info)}} style={{ position: 'absolute', zIndex: i, marginTop: `${margin}px`, marginLeft: `${margin}px`}} className={styles.cardImage} alt="magic card" height="100px" />];
+	for(let i = 1; i <= props.card.number; i++){
+		let margin;
+		if(i > 1) {
+			margin=5*(i-1);
+		} else margin=0;
 
-	let multiplesArr = [<img src={ props.card.info.image_uris ? props.card.info.image_uris.small : null } key='1' onClick={()=>props.deckModify(props.card, 'delete')} onMouseOver={()=>{props.handleHover(props.card.info)}} style={{ position: 'relative' }} className={styles.cardImage} alt="magic card" height="100px" />];
-	for(let i = 2; i <= props.card.number; i++){
-		let margin=5*(i-1);
-
-		multiplesArr.push(<img src={ props.card.info.image_uris ? props.card.info.image_uris.small : null } key={i} onClick={()=>props.deckModify(props.card, 'delete')} onMouseOver={()=>{props.handleHover(props.card.info)}} style={{ position: 'absolute', zIndex: i, marginTop: `${margin}px`, marginLeft: `${margin}px`}} className={styles.cardImage} alt="magic card" height="100px" />)
+		multiplesArr.push(
+			<img src={ props.card.info.image_uris ? props.card.info.image_uris.small : null } key={i} onClick={()=>props.deckModify(props.card, 'delete')} onMouseOver={()=>{props.handleHover(props.card.info)}} style={{ position: 'absolute', zIndex: i, top: `${margin}px`, left: `${margin}px`}} className={styles.cardImage} alt="magic card" height="100px" />
+		)
 	}
 
 	return (
 		<EmptyWrapper>
-			<div className={styles.cardDiv} >
-				{multiplesArr}
+			<div className={styles.cardDiv}>
+				<div className={styles.relativeDiv}>
+					{multiplesArr}
+				</div>
 			</div>
 		</EmptyWrapper>
 	)
@@ -23,7 +30,26 @@ const Multiples = (props) => {
 const DeckBuilding = (props) => {
 	return (
 		<div className={styles.deckWrapper}>
-			<b className={styles.title}>Current Deck (this part still in progress)</b>
+			<header className={styles.controlBar}>
+				<b className={styles.title}>Unnamed Deck</b>
+				<div className={styles.filters}>
+					<input className={styles.input} placeholder='change deck name'></input>
+				</div>
+				<div className={styles.filters}>
+					<select className={styles.select}>
+						<option>decks</option>
+					</select>
+				</div>
+				<div className={styles.filters}>
+					<button className={styles.button}>Save</button>
+				</div>
+				<div className={styles.filters}>
+					<button className={styles.button}>Analysis</button>
+				</div>
+				<div className={styles.filters}>
+					<button className={styles.button}>Reset</button>
+				</div>
+			</header>
 			<div className={styles.deckGrid}>
 				{props.deck.map((card, index) => {
 					if(card.number>1) {
