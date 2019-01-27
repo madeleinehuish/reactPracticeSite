@@ -29,7 +29,7 @@ const Multiples = (props) => {
 
 const DeckBuilding = (props) => {
 	return (
-		<div className={styles.deckWrapper}>
+		<EmptyWrapper>
 			<header className={styles.controlBar}>
 				<b className={styles.title}>Unnamed Deck</b>
 				<div className={styles.filters}>
@@ -50,20 +50,22 @@ const DeckBuilding = (props) => {
 					<button className={styles.button}>Reset</button>
 				</div>
 			</header>
-			<div className={styles.deckGrid}>
-				{props.deck.map((card, index) => {
-					if(card.number>1) {
-						return <Multiples key={index} card={card} handleHover={props.handleHover} deckModify={props.deckModify}/>
-					} else {
-						return (
-							<div className={styles.cardDiv} key={index}>
-								<img src={ card.info.image_uris ? card.info.image_uris.small : null } onClick={()=>props.deckModify(card, 'delete')} onMouseOver={()=>{props.handleHover(card.info)}} className={styles.cardImage} alt="magic card" height="100px" />
-							</div>
-						)
-					}
-				})}
+			<div className={styles.deckWrapper}>
+				<div className={styles.deckGrid}>
+					{props.deck.map((card, index) => {
+						if(card.number>1) {
+							return <Multiples key={index} card={card} handleHover={props.handleHover} deckModify={props.deckModify}/>
+						} else {
+							return (
+								<div className={styles.cardDiv} key={index}>
+									<img src={ card.info.image_uris ? card.info.image_uris.small : null } onClick={()=>props.deckModify(card, 'delete')} onMouseOver={()=>{props.handleHover(card.info)}} className={styles.cardImage} alt="magic card" height="100px" />
+								</div>
+							)
+						}
+					})}
+				</div>
 			</div>
-		</div>
+		</EmptyWrapper>
 	);
 }
 
