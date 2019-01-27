@@ -46,9 +46,16 @@ class Magic extends Component {
 	deckModify = (card, sign) => {
 
 		let deck = this.props.currentDeck;
-		if(card.name==="There are no cards with these given filters") return;
+		if(card && card.name==="There are no cards with these given filters") return;
 		this.props.modifyDeck(card, deck, sign);
 
+	}
+
+	saveDeck = () => {
+		this.props.saveDeckToDB({
+			name: this.props.currentDeckName,
+			deck: this.props.currentDeck
+		})
 	}
 
 	handleClickColumnTwo = () => {
@@ -233,7 +240,7 @@ class Magic extends Component {
 
 						</div>
 						<div className={[styles.col, styles.col3].join(' ')}>
-							<DeckBuilding deck={this.props.currentDeck} deckName={this.props.currentDeckName} handleDeckNameSubmit={this.handleDeckNameSubmit} handleHover={this.handleDeckHover} deckModify={this.deckModify}/>
+							<DeckBuilding deck={this.props.currentDeck} deckName={this.props.currentDeckName} saveDeck={this.saveDeck} handleDeckNameSubmit={this.handleDeckNameSubmit} handleHover={this.handleDeckHover} deckModify={this.deckModify}/>
 						</div>
 					</div>
 				</div>

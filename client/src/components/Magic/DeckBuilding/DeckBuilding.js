@@ -56,13 +56,13 @@ class DeckBuilding extends Component {
 					</select>
 				</div>
 				<div className={styles.filters}>
-					<button className={styles.button}>Save</button>
+					<button className={styles.button} onClick={this.props.saveDeck}>Save</button>
 				</div>
 				<div className={styles.filters}>
 					<button className={styles.button}>Analysis</button>
 				</div>
 				<div className={styles.filters}>
-					<button className={styles.button}>Reset</button>
+					<button className={styles.button} onClick={()=>this.props.deckModify(null, 'reset')}>Reset</button>
 				</div>
 			</header>
 			<div className={styles.deckWrapper}>

@@ -185,50 +185,113 @@ export const getcards = (filters, cb) => async dispatch => {
 
 export const modifyDeck = (card, deck, sign) => {
 
-	if(sign==='add') {
-		console.log('deckAddTo card: ', card);
-		let currentNumber = 0;
-		let newDeck = [...deck];
-		let isDup = false;
+	switch(sign) {
+		case 'add':
+					{
+						console.log('deckAddTo card: ', card);
+						// let currentNumber = 0;
+						let newDeck = [...deck];
+						let isDup = false;
 
-		for(let elem of newDeck) {
-			if(elem.name && elem.name === card.name ) {
-				isDup = true;
-				if(elem.number < 4) {
-					elem.number = elem.number + 1;
-				} else {
-					elem.number = 4;
+						for(let elem of newDeck) {
+							if(elem.name && elem.name === card.name ) {
+								isDup = true;
+								if(elem.number < 4) {
+									elem.number = elem.number + 1;
+								} else {
+									elem.number = 4;
+								}
+							}
+						}
+
+						if(isDup===false) newDeck.push({
+							name: card.name,
+							number: 1,
+							info: card
+						})
+
+						return {
+							type: DECK_ADD_TO_DECK,
+							payload: newDeck
+						}
+					}
+		case 'delete':
+					{
+						let newDeck = [...deck];
+
+						newDeck.forEach(elem => {
+							if(elem.name && elem.name === card.name) {
+								elem.number = elem.number - 1;
+							}
+						})
+						let filtered = newDeck.filter(elem => {
+							return elem.number > 0;
+						})
+
+						return {
+							type: DECK_ADD_TO_DECK,
+							payload: filtered
+						}
+					}
+
+					case 'reset':
+					{
+						let newDeck = [];
+
+						return {
+							type: DECK_ADD_TO_DECK,
+							payload: newDeck
+						}
+					}
+
+					default:
+						break;
 				}
-			}
-		}
 
-		if(isDup===false) newDeck.push({
-			name: card.name,
-			number: 1,
-			info: card
-		})
-
-		return {
-			type: DECK_ADD_TO_DECK,
-			payload: newDeck
-		}
-	} else if (sign==='delete') {
-		let newDeck = [...deck];
-
-		newDeck.forEach(elem => {
-			if(elem.name && elem.name === card.name) {
-				elem.number = elem.number - 1;
-			}
-		})
-		let filtered = newDeck.filter(elem => {
-			return elem.number > 0;
-		})
-
-		return {
-			type: DECK_ADD_TO_DECK,
-			payload: filtered
-		}
-	}
+	// if(sign==='add') {
+	// 	console.log('deckAddTo card: ', card);
+	// 	let currentNumber = 0;
+	// 	let newDeck = [...deck];
+	// 	let isDup = false;
+	//
+	// 	for(let elem of newDeck) {
+	// 		if(elem.name && elem.name === card.name ) {
+	// 			isDup = true;
+	// 			if(elem.number < 4) {
+	// 				elem.number = elem.number + 1;
+	// 			} else {
+	// 				elem.number = 4;
+	// 			}
+	// 		}
+	// 	}
+	//
+	// 	if(isDup===false) newDeck.push({
+	// 		name: card.name,
+	// 		number: 1,
+	// 		info: card
+	// 	})
+	//
+	// 	return {
+	// 		type: DECK_ADD_TO_DECK,
+	// 		payload: newDeck
+	// 	}
+	// } else if (sign==='delete') {
+	// 	let newDeck = [...deck];
+	//
+	// 	newDeck.forEach(elem => {
+	// 		if(elem.name && elem.name === card.name) {
+	// 			elem.number = elem.number - 1;
+	// 		}
+	// 	})
+	// 	let filtered = newDeck.filter(elem => {
+	// 		return elem.number > 0;
+	// 	})
+	//
+	// 	return {
+	// 		type: DECK_ADD_TO_DECK,
+	// 		payload: filtered
+	// 	}
+	// }
 
 
 }
@@ -325,6 +388,23 @@ export const storeSpecial = (special, cb) => async dispatch => {
 		payload: special
 	});
 	cb();
+}
+
+export const saveDeckToDB = (data) => async dispatch => {
+	const url = 'http://localhost:3090/decks';
+	const email = localStorage.getItem('user_email');
+
+	data.email = email;
+
+	try {
+		const response = await axios.post(url, data);
+
+		console.log('response: ', response);
+
+	} catch (error) {
+		console.log('axios error: ', error);
+		// console.log('response: ', response);
+	}
 }
 
 //this is for calling from the backend, it is not operating yet

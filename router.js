@@ -1,6 +1,7 @@
 const Authentication = require('./controllers/authentication');
 const passportService = require('./services/passport');
 // const magicAPI = require('./magicAPI/magicAPI');
+const magicDecks = require('./magicDecks/magicDecks');
 const passport = require('passport');
 
 
@@ -14,5 +15,8 @@ module.exports = function(app) {
 
 	// //magic cards
 	// app.get('/cards', magicAPI.filterCards);
+
+	//magic decks
+	app.post('/decks', magicDecks.saveDeckToDB)
 
 }
