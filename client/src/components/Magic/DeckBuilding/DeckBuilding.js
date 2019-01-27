@@ -3,16 +3,7 @@ import styles from './DeckBuilding.css';
 import EmptyWrapper from '../../EmptyWrapper/EmptyWrapper';
 
 const Multiples = (props) => {
-	// let multipleJSX = '';
-	// for(let i = 1; i <= props.card.number; i++){
-	// 	multipleJSX = multipleJSX
-	// 										+ `<div className={styles.cardDiv} style={{ zIndex: ${i}, marginTop: '${i*2}'}}>
-	// 												<img src={ card.info.image_uris ? card.info.image_uris.small : null } className={styles.cardImage} alt="magic card" height="100px" />
-	// 											 </div>`
-	// }
-	// let multipleJSX = () => (
-	//
-	// )
+
 	let multiplesArr = [<img src={ props.card.info.image_uris ? props.card.info.image_uris.small : null } key='1' onClick={()=>props.deckModify(props.card, 'delete')} onMouseOver={()=>{props.handleHover(props.card.info)}} style={{ position: 'relative' }} className={styles.cardImage} alt="magic card" height="100px" />];
 	for(let i = 2; i <= props.card.number; i++){
 		let margin=5*(i-1);
@@ -24,8 +15,6 @@ const Multiples = (props) => {
 		<EmptyWrapper>
 			<div className={styles.cardDiv} >
 				{multiplesArr}
-				{/* <img src={ props.card.info.image_uris ? props.card.info.image_uris.small : null } style={{ position: 'absolute' }} className={styles.cardImage} alt="magic card" height="100px" />
-				<img src={ props.card.info.image_uris ? props.card.info.image_uris.small : null } style={{ position: 'relative', zIndex: 1, marginTop: `5px`, marginLeft: `5px`}} className={styles.cardImage} alt="magic card" height="100px" /> */}
 			</div>
 		</EmptyWrapper>
 	)
