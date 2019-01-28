@@ -3,6 +3,7 @@ import DATA from '../data/combinedData';
 
 import {
 	DECK_ADD_TO_DECK,
+	GET_DECKS_FROM_DB,
 	FETCH_CARDS,
 	CHANGE_CURRENT_CARD,
 	SET_COLUMN_TWO,
@@ -181,6 +182,31 @@ export const getcards = (filters, cb) => async dispatch => {
 	})
 
 	cb();
+}
+
+
+export const getDecksFromDB = (cb) => async dispatch => {
+
+	const url = 'http://localhost:3090/decks';
+	const email = localStorage.getItem('user_email');
+
+	const query = `?email=${email}`
+
+	try {
+		const response = await axios.get(url + query);
+
+		console.log('response: ', response);
+
+		dispatch({
+			// type: FETCH_CARDS,
+			type: GET_DECKS_FROM_DB,
+			payload: response.data
+		})
+
+		cb()
+	} catch (error) {
+		console.log('axios error: ', error);
+	}
 }
 
 export const modifyDeck = (card, deck, sign) => {

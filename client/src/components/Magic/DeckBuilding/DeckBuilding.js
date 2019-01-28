@@ -2,6 +2,30 @@ import React, { Component } from 'react';
 import styles from './DeckBuilding.css';
 import EmptyWrapper from '../../EmptyWrapper/EmptyWrapper';
 
+
+const Decks = (props) => {
+	console.log('props in Decks: ', props);
+	if(!props.decks) {
+		return (
+			<select className={styles.select}>
+				decks
+			</select>
+		)
+	} else {
+		const deckArr = props.decks.map((deck,index) => {
+				return (
+					<option key={index}>{deck.name}</option>
+				)
+		})
+		return (
+			<select className={styles.select}>
+				<option key='001'>decks</option>
+				{deckArr}
+			</select>
+		)
+	}
+}
+
 const Multiples = (props) => {
 	let multiplesArr=[];
 	// let multiplesArr = [<img src={ props.card.info.image_uris ? props.card.info.image_uris.small : null } key='1' onClick={()=>props.deckModify(props.card, 'delete')} onMouseOver={()=>{props.handleHover(props.card.info)}} style={{ position: 'absolute', zIndex: i, marginTop: `${margin}px`, marginLeft: `${margin}px`}} className={styles.cardImage} alt="magic card" height="100px" />];
@@ -51,9 +75,11 @@ class DeckBuilding extends Component {
 					</form>
 				</div>
 				<div className={styles.filters}>
-					<select className={styles.select}>
+
+					<Decks decks={this.props.decks}/>
+					{/* <select className={styles.select}>
 						<option>decks</option>
-					</select>
+					</select> */}
 				</div>
 				<div className={styles.filters}>
 					<button className={styles.button} onClick={this.props.saveDeck}>Save</button>

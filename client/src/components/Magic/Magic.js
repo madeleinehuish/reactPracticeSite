@@ -32,6 +32,14 @@ class Magic extends Component {
 		this.specialBox = React.createRef();
 	}
 
+	componentDidMount() {
+		const cb = () => {
+			console.log('component did mount finished...')
+		}
+
+		this.props.getDecksFromDB(cb);
+	}
+
 	handleDeckNameSubmit = (event, value) => {
 
 		const cb = () => {
@@ -240,7 +248,7 @@ class Magic extends Component {
 
 						</div>
 						<div className={[styles.col, styles.col3].join(' ')}>
-							<DeckBuilding deck={this.props.currentDeck} deckName={this.props.currentDeckName} saveDeck={this.saveDeck} handleDeckNameSubmit={this.handleDeckNameSubmit} handleHover={this.handleDeckHover} deckModify={this.deckModify}/>
+							<DeckBuilding deck={this.props.currentDeck} decks={this.props.decks} deckName={this.props.currentDeckName} saveDeck={this.saveDeck} handleDeckNameSubmit={this.handleDeckNameSubmit} handleHover={this.handleDeckHover} deckModify={this.deckModify}/>
 						</div>
 					</div>
 				</div>
@@ -261,6 +269,7 @@ function mapStateToProps(state) {
 		currentCard: state.currentCard.currentCard,
 		currentDeckName: state.currentDeck.name,
 		// currentDeckName: state.currentDeck.name,
+		decks: state.decks.decks,
 		currentDeck: state.currentDeck.currentDeck,
 		filterType: state.cardFilters.filterType,
 		filterCreature: state.cardFilters.filterCreature,

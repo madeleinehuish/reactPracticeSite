@@ -1,5 +1,5 @@
 if (process.env.NODE_ENV !== 'production') require('dotenv').config();
-const Deck = require('../models/deck');
+
 const User = require('../models/user');
 
 exports.saveDeckToDB = function(req, res, next) {
@@ -11,9 +11,7 @@ exports.saveDeckToDB = function(req, res, next) {
 	let deck = req.body.deck;
 
 	let query = {'email': email};
-	// let data = {
-	// 	decks: deck
-	// }
+
 	let infoToSend = {
 		decks: {
 			name: name,
@@ -21,34 +19,28 @@ exports.saveDeckToDB = function(req, res, next) {
 		}
 	}
 
-	// { $push: { decks: deck }}
-
-	// User.findOne({ email: email }, function(err, existingUser) {
-	// 	if(err) { return next(err); }
-	//
-	// 	if(existingUser) {
-	//
-	// 	}
-	// })
-
 	User.findOneAndUpdate({ email: email },
 		{ $push: infoToSend },
 		{ upsert: true }, function(err, doc) {
 		if(err) return res.send(500, {error: err});
 		return res.send('successfully saved!!!!!')
 	})
-	// const user = new User(req.body);
-	//
-	// deck.save(function(err) {
-	// 	if(err) {
-	// 		return next(err);
-	// 	}
-	// 	res.json(deck);
-	// })
+
+}
+
+exports.getDecksFromDB = function(req, res, next) {
+
+	console.log('Req.body: ', req.query);
+	let email = req.query.email;
+
+	User.find({ email: email }, function(err, data) {
+		if(err) return res.send(500, {error: err});
+		console.log('data: ', data);
+		console.log('data.decks: ', data[0].decks);
+		// console.log('object keys of data', Object.keys(data));
+		let decks = data[0].decks;
+		return res.send(decks);
+	})
 
 
-
-
-	// let returnData = ':) you made it to the back end you awesome you!!!!';
-	// res.send(returnData);
 }

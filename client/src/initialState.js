@@ -26,6 +26,7 @@ export default {
 		name: 'Unnamed Deck',
 		currentDeck: []
 	},
+	decks: [],
 	cardFilters: {
 		filterText: '',
 		filterType: 'All',
