@@ -7,14 +7,14 @@ exports.saveDeckToDB = function(req, res, next) {
 	console.log('Req.body: ', req.body);
 
 	let email = req.body.email;
-	let name = req.body.name; //deck name not user name
+	let name = req.body.deck_name; //deck name not user name
 	let deck = req.body.deck;
 
 	let query = {'email': email};
 
 	let infoToSend = {
 		decks: {
-			name: name,
+			deck_name: name,
 			data: deck
 		}
 	}

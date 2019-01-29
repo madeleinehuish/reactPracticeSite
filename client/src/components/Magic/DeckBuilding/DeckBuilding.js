@@ -3,11 +3,11 @@ import styles from './DeckBuilding.css';
 import EmptyWrapper from '../../EmptyWrapper/EmptyWrapper';
 
 
-const Decks = (props) => {
+const Decks = React.forwardRef((props, ref) => {
 	console.log('props in Decks: ', props);
 	if(!props.decks) {
 		return (
-			<select className={styles.select}>
+			<select className={styles.select} ref={ref}>
 				decks
 			</select>
 		)
@@ -24,7 +24,7 @@ const Decks = (props) => {
 			</select>
 		)
 	}
-}
+})
 
 const Multiples = (props) => {
 	let multiplesArr=[];
@@ -51,63 +51,56 @@ const Multiples = (props) => {
 	)
 }
 
-class DeckBuilding extends Component {
+const DeckBuilding = React.forwardRef((props, ref) => {
 
-	state = {
-		inputValue: ''
-	}
+		const { refSelect, refInput } = ref;
 
-	handleInput = (event) => {
-		this.setState({ inputValue: event.target.value})
-	}
+		return (
+			<EmptyWrapper>
+				<header className={styles.controlBar}>
+					<div className={styles.titleWrapper}>
+						<b className={styles.title}>{props.deckName}</b>
+					</div>
 
-	render() {
-	return (
-		<EmptyWrapper>
-			<header className={styles.controlBar}>
-				<div className={styles.titleWrapper}>
-					<b className={styles.title}>{this.props.deckName}</b>
-				</div>
+					<div className={styles.filters}>
+						<form onSubmit={(event)=> props.handleDeckNameSubmit(event, props.inputValueDeck)}>
+							<input className={styles.input} ref={refInput} value={props.inputValueDeck} onChange={props.handleDeckInput} type='text' placeholder='change deck name'></input>
+						</form>
+					</div>
+					<div className={styles.filters}>
 
-				<div className={styles.filters}>
-					<form onSubmit={(event)=> this.props.handleDeckNameSubmit(event, this.state.inputValue)}>
-						<input className={styles.input} value={this.state.inputValue} onChange={this.handleInput} type='text' placeholder='change deck name'></input>
-					</form>
+						<Decks decks={props.decks} ref={refSelect} />
+						{/* <select className={styles.select}>
+							<option>decks</option>
+						</select> */}
+					</div>
+					<div className={styles.filters}>
+						<button className={styles.button} onClick={props.saveDeck}>Save</button>
+					</div>
+					<div className={styles.filters}>
+						<button className={styles.button}>Analysis</button>
+					</div>
+					<div className={styles.filters}>
+						<button className={styles.button} onClick={()=>props.deckModify(null, 'reset')}>Reset</button>
+					</div>
+				</header>
+				<div className={styles.deckWrapper}>
+					<div className={styles.deckGrid}>
+						{props.deck.map((card, index) => {
+							if(card.number>1) {
+								return <Multiples key={index} card={card} handleHover={props.handleHover} deckModify={props.deckModify}/>
+							} else {
+								return (
+									<div className={styles.cardDiv} key={index}>
+										<img src={ card.info.image_uris ? card.info.image_uris.small : null } onClick={()=>props.deckModify(card, 'delete')} onMouseOver={()=>{props.handleHover(card.info)}} className={styles.cardImage} alt="magic card" height="100px" />
+									</div>
+								)
+							}
+						})}
+					</div>
 				</div>
-				<div className={styles.filters}>
-
-					<Decks decks={this.props.decks}/>
-					{/* <select className={styles.select}>
-						<option>decks</option>
-					</select> */}
-				</div>
-				<div className={styles.filters}>
-					<button className={styles.button} onClick={this.props.saveDeck}>Save</button>
-				</div>
-				<div className={styles.filters}>
-					<button className={styles.button}>Analysis</button>
-				</div>
-				<div className={styles.filters}>
-					<button className={styles.button} onClick={()=>this.props.deckModify(null, 'reset')}>Reset</button>
-				</div>
-			</header>
-			<div className={styles.deckWrapper}>
-				<div className={styles.deckGrid}>
-					{this.props.deck.map((card, index) => {
-						if(card.number>1) {
-							return <Multiples key={index} card={card} handleHover={this.props.handleHover} deckModify={this.props.deckModify}/>
-						} else {
-							return (
-								<div className={styles.cardDiv} key={index}>
-									<img src={ card.info.image_uris ? card.info.image_uris.small : null } onClick={()=>this.props.deckModify(card, 'delete')} onMouseOver={()=>{this.props.handleHover(card.info)}} className={styles.cardImage} alt="magic card" height="100px" />
-								</div>
-							)
-						}
-					})}
-				</div>
-			</div>
-		</EmptyWrapper>
-	)};
-}
+			</EmptyWrapper>
+		)
+})
 
 export default DeckBuilding;

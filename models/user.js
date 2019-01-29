@@ -9,7 +9,7 @@ const userSchema = new Schema({
 	email: { type: String, unique: true, lowercase: true },
 	password: String,
 	decks: [{
-		name: String,
+		deck_name: String,
 		data: [{
 					name: String,
 					number: Number,
@@ -134,6 +134,8 @@ userSchema.pre('save', function(next) {
 		});
 	}
 
+//set unique deck and email
+// userSchema.index({ email: 1, deck_name: 1}, { unique: true });
 
 //create the model class
 const ModelClass = mongoose.model('user', userSchema);

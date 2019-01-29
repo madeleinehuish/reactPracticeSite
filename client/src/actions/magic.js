@@ -209,12 +209,13 @@ export const getDecksFromDB = (cb) => async dispatch => {
 	}
 }
 
-export const modifyDeck = (card, deck, sign) => {
+export const modifyDeck = (card, deck, sign, cb) => async dispatch => {
 
 	switch(sign) {
 		case 'add':
 					{
 						console.log('deckAddTo card: ', card);
+						console.log('deck: ', )
 						// let currentNumber = 0;
 						let newDeck = [...deck];
 						let isDup = false;
@@ -234,13 +235,17 @@ export const modifyDeck = (card, deck, sign) => {
 							name: card.name,
 							number: 1,
 							info: card
-						})
+						});
 
-						return {
+
+						dispatch({
 							type: DECK_ADD_TO_DECK,
 							payload: newDeck
-						}
+						});
+
+						cb()
 					}
+					break;
 		case 'delete':
 					{
 						let newDeck = [...deck];
@@ -254,22 +259,31 @@ export const modifyDeck = (card, deck, sign) => {
 							return elem.number > 0;
 						})
 
-						return {
+						dispatch({
 							type: DECK_ADD_TO_DECK,
 							payload: filtered
-						}
-					}
+						});
 
-					case 'reset':
+						cb();
+					}
+					break;
+		case 'reset':
 					{
 						let newDeck = [];
 
-						return {
+						dispatch ({
 							type: DECK_ADD_TO_DECK,
 							payload: newDeck
-						}
-					}
+						});
+						dispatch({
+							type: STORE_DECK_NAME,
+							payload: 'unnamed deck'
+						});
+						//add another dispatch here to modify select state and possibly input state
 
+						cb()
+					}
+						break;
 					default:
 						break;
 				}

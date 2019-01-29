@@ -23,6 +23,7 @@ class Magic extends Component {
 
 	constructor(props) {
 		super(props);
+		//filter refs
 		this.selectBox = React.createRef();
 		this.inputBox = React.createRef();
 		this.colorBox = React.createRef();
@@ -30,6 +31,14 @@ class Magic extends Component {
 		this.setBox = React.createRef();
 		this.keywordBox = React.createRef();
 		this.specialBox = React.createRef();
+
+		//deckbuilding refs
+		this.selectDeck = React.createRef();
+		this.inputDeck = React.createRef();
+
+		this.state = {
+			inputValueDeck: ''
+		}
 	}
 
 	componentDidMount() {
@@ -38,6 +47,10 @@ class Magic extends Component {
 		}
 
 		this.props.getDecksFromDB(cb);
+	}
+
+	handleDeckInput = (event) => {
+		this.setState({ inputValueDeck: event.target.value})
 	}
 
 	handleDeckNameSubmit = (event, value) => {
@@ -52,16 +65,25 @@ class Magic extends Component {
 	}
 
 	deckModify = (card, sign) => {
+		console.log('card, sign in deckModify:  ', card, sign);
+
+		const cb = () => {
+			console.log('deckModify completed...')
+		}
 
 		let deck = this.props.currentDeck;
 		if(card && card.name==="There are no cards with these given filters") return;
-		this.props.modifyDeck(card, deck, sign);
+		if(sign==='reset') {
+			// this.selectDeck.current.value = 'decks'
+			this.setState({ inputValueDeck: '' })
+		}
+		this.props.modifyDeck(card, deck, sign, cb);
 
 	}
 
 	saveDeck = () => {
 		this.props.saveDeckToDB({
-			name: this.props.currentDeckName,
+			deck_name: this.props.currentDeckName,
 			deck: this.props.currentDeck
 		})
 	}
@@ -248,7 +270,19 @@ class Magic extends Component {
 
 						</div>
 						<div className={[styles.col, styles.col3].join(' ')}>
-							<DeckBuilding deck={this.props.currentDeck} decks={this.props.decks} deckName={this.props.currentDeckName} saveDeck={this.saveDeck} handleDeckNameSubmit={this.handleDeckNameSubmit} handleHover={this.handleDeckHover} deckModify={this.deckModify}/>
+							<DeckBuilding
+								deck={this.props.currentDeck}
+								decks={this.props.decks}
+								deckName={this.props.currentDeckName}
+								saveDeck={this.saveDeck}
+								handleDeckNameSubmit={this.handleDeckNameSubmit}
+								handleHover={this.handleDeckHover}
+								deckModify={this.deckModify}
+								ref={{ refSelect: this.selectDeck, refInput: this.inputDeck }}
+								// resetDeck={this.resetDeck}
+								inputValueDeck={this.state.inputValueDeck}
+								handleDeckInput={this.handleDeckInput}
+							/>
 						</div>
 					</div>
 				</div>
