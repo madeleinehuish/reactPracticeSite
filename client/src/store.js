@@ -18,7 +18,7 @@ const store = createStore(
 	reducers,
 	initialState,
 	applyMiddleware(
-    logger,
+    // logger,
     reduxThunk
   )
 );

@@ -36,9 +36,9 @@ class Magic extends Component {
 		this.selectDeck = React.createRef();
 		this.inputDeck = React.createRef();
 
-		this.state = {
-			inputValueDeck: ''
-		}
+		// this.state = {
+		// 	inputValueDeck: ''
+		// }
 	}
 
 	componentDidMount() {
@@ -49,11 +49,20 @@ class Magic extends Component {
 		this.props.getDecksFromDB(cb);
 	}
 
-	handleDeckInput = (event) => {
-		this.setState({ inputValueDeck: event.target.value})
-	}
+	// //leave this in temporarily to check performance
+	// shouldComponentUpdate(nextProps, nextState) {
+	// 	console.log('shouldComponentUpdate: nextProps: ', nextProps);
+	// 	console.log('shouldComponentUpdate: nextState: ', nextState);
+	//
+	// 	return true;
+	// }
+
+	// handleDeckInput = (event) => {
+	// 	this.setState({ inputValueDeck: event.target.value})
+	// }
 
 	handleDeckNameSubmit = (event, value) => {
+		console.log('handleDeckNameSubmit in Magic: ', event, value);
 
 		const cb = () => {
 			event.preventDefault();
@@ -280,8 +289,8 @@ class Magic extends Component {
 								deckModify={this.deckModify}
 								ref={{ refSelect: this.selectDeck, refInput: this.inputDeck }}
 								// resetDeck={this.resetDeck}
-								inputValueDeck={this.state.inputValueDeck}
-								handleDeckInput={this.handleDeckInput}
+								// inputValueDeck={this.state.inputValueDeck}
+								// handleDeckInput={this.handleDeckInput}
 							/>
 						</div>
 					</div>
