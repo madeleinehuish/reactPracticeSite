@@ -6,4 +6,8 @@ Although appearing simple, this app was built with many technologies, including 
 
 After signing in or signing up, the app will take you to a page where you can filter through the Magic cards and sort them in many different ways. Exploring the app might reveal another fun location :)
 
-This is a current work in progress as of mid-January 2019.
+This is a current work in progress as of late-January 2019.
+
+(update late January: I have implemented the beginnings of the deckbuilding logic. I have some more work to do before I'm going to deploy again as I want the deckbuilding to be a little more smooth than it is currently but it is coming along well :) )
+
+![alt picture of app](mtg.jpg "Madeleine's MTG React-Redux Website Standard Edition")
