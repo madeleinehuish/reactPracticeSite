@@ -45,7 +45,8 @@ exports.signup = function(req, res, next) {
       firstname: firstname,
       lastname: lastname,
       email: email,
-      password: password
+      password: password,
+      decks: []
     });
 
     const userSanitized = {

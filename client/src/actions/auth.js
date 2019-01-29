@@ -1,7 +1,11 @@
 import axios from 'axios';
 import { AUTH_USER,
 				 AUTH_ERROR,
+				 DECK_ADD_TO_DECK,
+				 CHANGE_CURRENT_CARD,
+			 	 SET_COLUMN_TWO,
 			 } from './types';
+import firstCard from '../data/firstCard';
 
 export const signup = (formProps, callback) => async dispatch => {
 	try {
@@ -74,6 +78,9 @@ export const signout = (callback) => async dispatch => {
 
 	dispatch({ type: AUTH_USER, payload: '' });
 	dispatch({ type: AUTH_ERROR, payload: ''});
+	dispatch({ type: DECK_ADD_TO_DECK, payload: [] });
+	dispatch({ type: CHANGE_CURRENT_CARD, payload: firstCard });
+	dispatch({ type: SET_COLUMN_TWO, payload: false });
 
 	callback();
 }
