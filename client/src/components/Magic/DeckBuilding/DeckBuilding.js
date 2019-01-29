@@ -65,15 +65,17 @@ class DeckNameInput extends Component {
 	}
 
 	render() {
+		console.log('inside of DeckNameInput, forwardRef: ', this.props.forwardRef)
 		return (
 			<form onSubmit={(event)=> this.props.handleDeckNameSubmit(event, this.state.inputValueDeck)}>
 				<input
 					className={styles.input}
-					// ref={refInput}
 					value={this.state.inputValueDeck}
 					onChange={this.handleInput}
 					type='text'
-					placeholder='change deck name'>
+					placeholder='change deck name'
+					ref={this.props.forwardRef}
+					>
 				</input>
 			</form>
 		)
@@ -92,7 +94,10 @@ const DeckBuilding = React.forwardRef((props, ref) => {
 					</div>
 
 					<div className={styles.filters}>
-						<DeckNameInput handleDeckNameSubmit={props.handleDeckNameSubmit} />
+						<DeckNameInput
+							handleDeckNameSubmit={props.handleDeckNameSubmit}
+							forwardRef={refInput}
+						/>
 
 					</div>
 					<div className={styles.filters}>
@@ -109,7 +114,13 @@ const DeckBuilding = React.forwardRef((props, ref) => {
 						<button className={styles.button}>Analysis</button>
 					</div>
 					<div className={styles.filters}>
-						<button className={styles.button} onClick={()=>props.deckModify(null, 'reset')}>Reset</button>
+						<button
+							className={styles.button}
+							onClick={()=>{
+								// refInput.current.value='';
+								props.deckModify(null, 'reset');
+							}}
+						>Reset</button>
 					</div>
 				</header>
 				<div className={styles.deckWrapper}>

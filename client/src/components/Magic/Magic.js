@@ -35,10 +35,6 @@ class Magic extends Component {
 		//deckbuilding refs
 		this.selectDeck = React.createRef();
 		this.inputDeck = React.createRef();
-
-		// this.state = {
-		// 	inputValueDeck: ''
-		// }
 	}
 
 	componentDidMount() {
@@ -77,14 +73,15 @@ class Magic extends Component {
 		console.log('card, sign in deckModify:  ', card, sign);
 
 		const cb = () => {
+			this.forceUpdate();
 			console.log('deckModify completed...')
 		}
 
 		let deck = this.props.currentDeck;
 		if(card && card.name==="There are no cards with these given filters") return;
 		if(sign==='reset') {
-			// this.selectDeck.current.value = 'decks'
-			this.setState({ inputValueDeck: '' })
+			console.log('value of input ref in magic: ', this.inputDeck.current.value);
+			this.inputDeck.current.value = '';
 		}
 		this.props.modifyDeck(card, deck, sign, cb);
 
@@ -289,8 +286,6 @@ class Magic extends Component {
 								deckModify={this.deckModify}
 								ref={{ refSelect: this.selectDeck, refInput: this.inputDeck }}
 								// resetDeck={this.resetDeck}
-								// inputValueDeck={this.state.inputValueDeck}
-								// handleDeckInput={this.handleDeckInput}
 							/>
 						</div>
 					</div>
