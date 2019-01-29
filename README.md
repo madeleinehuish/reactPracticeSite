@@ -10,4 +10,4 @@ After signing in or signing up, the app will take you to a page where you can fi
 
 This is a current work in progress as of late-January 2019.
 
-(update late January: I have implemented the beginnings of the deckbuilding logic. I have some more work to do before I'm going to deploy again as I want the deckbuilding to be a little more smooth than it is currently but it is coming along well :) )
+(update late January: I have implemented the beginnings of the deckbuilding logic. I have some more work to do before I'm going to deploy again as I want the deckbuilding to be a little more smooth than it is currently, so some of the features in the picture above are not available yet on the deployed version. But it is coming along well and will be available soon :) )
