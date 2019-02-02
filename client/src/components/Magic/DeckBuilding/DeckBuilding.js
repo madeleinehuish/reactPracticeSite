@@ -13,10 +13,12 @@ const Decks = React.forwardRef((props, ref) => {
 		)
 	} else {
 		const deckArr = props.decks.map((deck,index) => {
+			console.log('deck: ', deck.deck_name)
 				return (
-					<option key={index}>{deck.name}</option>
+					<option key={index}>{deck.deck_name}</option>
 				)
 		})
+		// console.log('deckArr: ', deckArr);
 		return (
 			<select className={styles.select}>
 				<option key='001'>decks</option>
@@ -42,19 +44,25 @@ const Multiples = (props) => {
 
 	return (
 		<EmptyWrapper>
+
 			<div className={styles.cardDiv}>
 				<div className={styles.relativeDiv}>
 					{multiplesArr}
 				</div>
 			</div>
+
 		</EmptyWrapper>
 	)
 }
 
+const ForwardRef = (props, ref) => {
+	return <DeckNameInput {...props } forwardedRef={ref}/>
+}
+
+const Forwarded = React.forwardRef(ForwardRef);
+
 class DeckNameInput extends Component {
-	// constructor(props) {
-	// 	super(props);
-	// }
+
 
 	state = {
 		inputValueDeck: ''
@@ -65,7 +73,7 @@ class DeckNameInput extends Component {
 	}
 
 	render() {
-		console.log('inside of DeckNameInput, forwardRef: ', this.props.forwardRef)
+		console.log('inside of DeckNameInput, forwardRef: ', this.props.refInput)
 		return (
 			<form onSubmit={(event)=> this.props.handleDeckNameSubmit(event, this.state.inputValueDeck)}>
 				<input
@@ -74,7 +82,7 @@ class DeckNameInput extends Component {
 					onChange={this.handleInput}
 					type='text'
 					placeholder='change deck name'
-					ref={this.props.forwardRef}
+					ref={this.props.refInput}
 					>
 				</input>
 			</form>
@@ -94,9 +102,9 @@ const DeckBuilding = React.forwardRef((props, ref) => {
 					</div>
 
 					<div className={styles.filters}>
-						<DeckNameInput
+						<Forwarded
 							handleDeckNameSubmit={props.handleDeckNameSubmit}
-							forwardRef={refInput}
+							refInput={refInput}
 						/>
 
 					</div>

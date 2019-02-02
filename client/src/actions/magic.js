@@ -200,7 +200,7 @@ export const getDecksFromDB = (cb) => async dispatch => {
 		dispatch({
 			// type: FETCH_CARDS,
 			type: GET_DECKS_FROM_DB,
-			payload: response.data
+			payload: await response.data
 		})
 
 		cb()

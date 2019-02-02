@@ -38,12 +38,22 @@ class Magic extends Component {
 	}
 
 	componentDidMount() {
+
 		const cb = () => {
 			console.log('component did mount finished...')
 		}
-
+		console.log('component did mount')
 		this.props.getDecksFromDB(cb);
 	}
+
+	// componentDidUpdate() {
+	//
+	// 	const cb = () => {
+	// 		console.log('component did update finished...')
+	// 	}
+	//
+	// 	this.props.getDecksFromDB(cb);
+	// }
 
 	// //leave this in temporarily to check performance
 	// shouldComponentUpdate(nextProps, nextState) {
@@ -69,19 +79,24 @@ class Magic extends Component {
 		this.props.storeDeckName(value, cb)
 	}
 
-	deckModify = (card, sign) => {
+	//TODO add deckModify to select function in deckbuilding send in null, and maybe add deck to parameters
+	deckModify = (card, sign) => { //TODO add parameter newDeck after sign
 		console.log('card, sign in deckModify:  ', card, sign);
 
 		const cb = () => {
 			this.forceUpdate();
 			console.log('deckModify completed...')
 		}
+		console.log('inputBox value: ', this.inputBox.current.value);
+		console.log('##################################################');
 
-		let deck = this.props.currentDeck;
+		let deck = this.props.currentDeck; //TODO possibly change this to add an || newDeck
 		if(card && card.name==="There are no cards with these given filters") return;
 		if(sign==='reset') {
 			console.log('value of input ref in magic: ', this.inputDeck.current.value);
 			this.inputDeck.current.value = '';
+			// forceUpdate();
+			console.log('value after reset: ', this.inputDeck.current.value)
 		}
 		this.props.modifyDeck(card, deck, sign, cb);
 
@@ -169,6 +184,7 @@ class Magic extends Component {
 		this.setBox.current.value = 'All';
 		this.keywordBox.current.value = 'keywords (all)';
 		this.specialBox.current.value = 'All Special';
+
 
 		// send in default values to state
 		this.props.storeFilterText('', cb);
