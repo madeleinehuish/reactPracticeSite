@@ -267,6 +267,15 @@ export const modifyDeck = (card, deck, sign, cb) => async dispatch => {
 						cb();
 					}
 					break;
+		case 'changeDeck':
+		{
+			dispatch({
+				type: DECK_ADD_TO_DECK,
+				payload: deck
+			})
+			cb();
+		}
+		break;
 		case 'reset':
 					{
 						let newDeck = [];

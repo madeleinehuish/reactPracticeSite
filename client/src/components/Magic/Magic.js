@@ -80,7 +80,7 @@ class Magic extends Component {
 	}
 
 	//TODO add deckModify to select function in deckbuilding send in null, and maybe add deck to parameters
-	deckModify = (card, sign) => { //TODO add parameter newDeck after sign
+	deckModify = (card, sign, newDeck) => { //TODO add parameter newDeck after sign
 		console.log('card, sign in deckModify:  ', card, sign);
 
 		const cb = () => {
@@ -90,7 +90,7 @@ class Magic extends Component {
 		console.log('inputBox value: ', this.inputBox.current.value);
 		console.log('##################################################');
 
-		let deck = this.props.currentDeck; //TODO possibly change this to add an || newDeck
+		let deck = newDeck || this.props.currentDeck; //TODO possibly change this to add an || newDeck
 		if(card && card.name==="There are no cards with these given filters") return;
 		if(sign==='reset') {
 			console.log('value of input ref in magic: ', this.inputDeck.current.value);

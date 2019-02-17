@@ -20,7 +20,10 @@ const Decks = React.forwardRef((props, ref) => {
 		})
 		// console.log('deckArr: ', deckArr);
 		return (
-			<select className={styles.select}>
+			<select
+				className={styles.select}
+				// onChange={()=>props.deckModify(null, 'changeDeck', deckArr)}
+				>
 				<option key='001'>decks</option>
 				{deckArr}
 			</select>
