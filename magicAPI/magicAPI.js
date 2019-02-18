@@ -1,12 +1,21 @@
 const dataFull = require('./largeData/combinedData.js');
 
+// const filterSets = (filter) => {
+// 	if(filter==='All') {
+// 		// console.log('dataFull: ', dataFull)
+// 		return dataFull.combinedData;
+// 	} else {
+// 		return dataFull[filter];
+// 	}
+// }
+
 const filterSets = (filter) => {
-	if(filter==='All') {
-		// console.log('dataFull: ', dataFull)
-		return dataFull.combinedData;
-	} else {
-		return dataFull[filter];
-	}
+	let dataSet = dataFull.filter(elem => {
+		if(filter==='All') return true;
+		if(elem.set===filter) return true;
+		return false
+	})
+	return dataSet;
 }
 
 const filterType = (elem, filter) => {
@@ -30,7 +39,11 @@ const filterRarity = (elem, filter) => {
 
 
 const applyFilters = (filters) => {
+	// return filterSets(filters.set)
+	console.log('dataFull: ', dataFull);
 	let data = filterSets(filters.set); //first decide how big of dataset you want to use. 'All will default to full set'
+	console.log('data: ', data);
+	// return data;
 	console.log('filters: ', filters);
 	// console.log('data: ', data);
 	// return data;

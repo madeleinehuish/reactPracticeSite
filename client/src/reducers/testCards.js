@@ -7,6 +7,7 @@ export default function(state=INITIAL_STATE, action) {
 	switch (action.type) {
 		case TEST_CARDS:
 			return { ...state, testCards: action.payload };
+			// return { ...state, cards: action.payload };
 			// return { ...state, testCards: action.payload };
 		// case MAGIC_ERROR:
 		// 	return {...state, errorMessage: action.payload }

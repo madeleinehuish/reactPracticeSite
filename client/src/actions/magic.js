@@ -1,5 +1,6 @@
 import axios from 'axios';
-import DATA from '../data/combinedData';
+// import DATA from '../data/combinedData'; //standard
+import DATA from '../data/combinedDataTest' //mirrodin test run
 
 import {
 	DECK_ADD_TO_DECK,
@@ -468,7 +469,7 @@ export const getCardsFromDatabase = (filters, cb) => async dispatch => {
 	// }
 
 	const url = 'http://localhost:3090/cards'
-	const query = `?set=${filters.set}&type=${filters.type}&color=${filters.color}&rarity=${filters.rarity}`
+	const query = `?set=${filters.set}&type=${filters.type}&color=${filters.colors}&rarity=${filters.rarity}`
 
 	try {
 		const response = await axios.get(url + query);
@@ -482,7 +483,8 @@ export const getCardsFromDatabase = (filters, cb) => async dispatch => {
 		// })
 		dispatch({
 			// type: FETCH_CARDS,
-			type: TEST_CARDS,
+			// type: TEST_CARDS,
+			type: FETCH_CARDS,
 			payload: response.data
 		})
 

@@ -1,6 +1,6 @@
 const Authentication = require('./controllers/authentication');
 const passportService = require('./services/passport');
-// const magicAPI = require('./magicAPI/magicAPI');
+const magicAPI = require('./magicAPI/magicAPI');
 const magicDecks = require('./magicDecks/magicDecks');
 const passport = require('passport');
 
@@ -13,8 +13,8 @@ module.exports = function(app) {
 	app.post('/signin',requireSignin, Authentication.signin);
 	app.post('/signup', Authentication.signup);
 
-	// //magic cards
-	// app.get('/cards', magicAPI.filterCards);
+	//magic cards
+	app.get('/cards', magicAPI.filterCards);
 
 	//magic decks
 	app.post('/decks', magicDecks.saveDeckToDB);

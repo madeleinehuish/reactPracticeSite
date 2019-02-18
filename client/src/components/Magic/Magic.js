@@ -14,10 +14,12 @@ import Creatures from './Filters/Creatures';
 import Keywords from './Filters/Keywords';
 import Rarity from './Filters/Rarity';
 import Sets from './Filters/Sets';
+import TestSets from './Filters/testSets';
 import Special from './Filters/Special';
 import Types from './Filters/Types'
 
 import styles from './Magic.css';
+
 
 class Magic extends Component {
 
@@ -198,7 +200,7 @@ class Magic extends Component {
 	}
 
 	//this is for testing calls to the backend to load cards from there. ulitimately going to move to this
-	test = () => {
+	test = (config) => {
 		const cb = () => {
 			this.forceUpdate(()=>{
 				// this.updateCards();
@@ -208,10 +210,13 @@ class Magic extends Component {
 		};
 
 		let filters = {
-			set: this.props.filterSet,
-			type: this.props.filterType,
-			colors: this.props.filterColor,
-			rarity: this.props.filterRarity
+			set: config.set,
+			type: 'All',
+			colors: 'All',
+			rarity: 'All'
+			// type: this.props.filterType,
+			// colors: this.props.filterColor,
+			// rarity: this.props.filterRarity
 		}
 
 		this.props.getCardsFromDatabase(filters, cb)
@@ -251,9 +256,9 @@ class Magic extends Component {
 							<button id="magicButton" className={styles.button} onClick={()=>this.reset()}>Reset</button>
 						</div>
 						{/* dont get rid of the following!!!! */}
-						{/* <div className={styles.filters}>
-							<button id="testCardsButton" className={styles.button} onClick={()=>this.test()}>Test Get Cards</button>
-						</div> */}
+						<div className={styles.filters}>
+							<button id="testCardsButton" className={styles.button} onClick={()=>this.test({ set: 'usg'})}>Test Get Cards</button>
+						</div>
 						<div className={styles.filters}>
 							<input className={styles.input} placeholder="type to filter" onChange={(event)=>this.handleFilter(event, 'text')} ref={this.inputBox}/>
 						</div>
