@@ -13,7 +13,8 @@ import Colors from './Filters/Colors';
 import Creatures from './Filters/Creatures';
 import Keywords from './Filters/Keywords';
 import Rarity from './Filters/Rarity';
-import Sets from './Filters/Sets';
+// import Sets from './Filters/Sets';
+import Sets from './Filters/testSets';
 import TestSets from './Filters/testSets';
 import Special from './Filters/Special';
 import Types from './Filters/Types'
@@ -117,9 +118,14 @@ class Magic extends Component {
 
 	handleFilter = (event, filterType) => {
 		const filterValue = event.target.value;
+		console.log('filterValue: ', filterValue);
+
+
 
 		const cb = () => {
 			this.forceUpdate(()=>{
+				console.log('TEST CALL FINISHED');
+				console.log('AFTER TEST CALL PROPS: ', this.props);
 				this.updateCards();
 				this.props.changeCurrentCard(this.props.cards[0]);
 			});
@@ -139,7 +145,20 @@ class Magic extends Component {
 				this.props.storeRarity(filterValue, cb);
 				break;
 			case 'set':
-				this.props.storeSet(filterValue, cb);
+				// this.props.storeSet(filterValue, cb);
+				let filters = {
+					set: event.target.value,
+					type: 'All',
+					colors: 'All',
+					rarity: 'All'
+					// type: this.props.filterType,
+					// colors: this.props.filterColor,
+					// rarity: this.props.filterRarity
+				}
+				// console.log('CALLBACK@@@@@@@@@@@@@@@@@@@@: ', typeof cb)
+
+				this.props.getCardsFromDatabase(filters, cb);
+				return;
 				break;
 			case 'creature':
 				this.props.storeCreature(filterValue, cb);
@@ -203,7 +222,7 @@ class Magic extends Component {
 	test = (config) => {
 		const cb = () => {
 			this.forceUpdate(()=>{
-				// this.updateCards();
+				this.updateCards();
 				console.log('TEST CALL FINISHED');
 				console.log('AFTER TEST CALL PROPS: ', this.props);
 			});
@@ -230,7 +249,7 @@ class Magic extends Component {
 		};
 
 		let filters = {
-			set: this.props.filterSet,
+			// set: this.props.filterSet,
 			type: this.props.filterType,
 			text: this.props.filterText,
 			color: this.props.filterColor,
@@ -240,7 +259,7 @@ class Magic extends Component {
 			special: this.props.filterSpecial
 		}
 
-		this.props.getcards(filters, cb);
+		this.props.getcards(this.props.cards, filters, cb);
 	}
 
 	render() {

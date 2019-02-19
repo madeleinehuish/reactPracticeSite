@@ -37,7 +37,9 @@ function isSubset(arr, sub) {
 //new filter functions
 
 function filterByInput(cards, filterValue) {
+	console.log('CARDS in INPUT: ', cards);
 	if(filterValue==='') return cards;
+	if(!cards) return;
 
 	let filtered = cards.filter(card => {
 		 return card.name.substr(0,filterValue.length).toUpperCase() === filterValue.toUpperCase();
@@ -149,9 +151,9 @@ const filterSpecial = (elem, filter) => {
 }
 
 // this is a newer version of this function. old versions below
-export const getcards = (filters, cb) => async dispatch => {
+export const getcards = (cards, filters, cb) => async dispatch => {
 
-	const data = DATA; //first decide how big of dataset you want to use. 'All will default to full set'
+	const data = cards; //first decide how big of dataset you want to use. 'All will default to full set'
 	// console.log('filters: ', filters);
 	console.log('data: ', data);
 	// return data;
@@ -160,7 +162,7 @@ export const getcards = (filters, cb) => async dispatch => {
 
 	const filtered = filteredByInput.filter(elem => {
 
-		const conditionSet = filterSet(elem, filters.set);
+		// const conditionSet = filterSet(elem, filters.set);
 		const conditionKeyword = filterKeyword(elem, filters.keyword);
 		const conditionType = filterType(elem, filters.type, filters.creature);
 		// const conditionCreature = filterCreature(elem, filters.creature);
@@ -169,7 +171,7 @@ export const getcards = (filters, cb) => async dispatch => {
 		const conditionSpecial = filterSpecial(elem, filters.special);
 
 
-		return ( conditionSet && conditionKeyword && conditionType && conditionColor && conditionRarity && conditionSpecial );
+		return ( conditionKeyword && conditionType && conditionColor && conditionRarity && conditionSpecial );
 	})
 
 	if(!filtered.length) filtered[0] =  {
