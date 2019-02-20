@@ -143,7 +143,7 @@ const TestSets = React.forwardRef((props, ref) => {
 		{ name: 'Modern Masters 2017', id: 'mm3' },
 		{ name: 'Duel Decks: Mind vs Might', id: 'dds' },
 		{ name: 'Amonkhet', id: 'akh' },
-		{ name: 'Amonkhet Invocations', id: 'mps' },
+		{ name: 'Amonkhet Invocations', id: 'mp2' },
 		{ name: 'Commander Anthology', id: 'cma' },
 		{ name: 'Archenemy: Nicol Bolas', id: 'e01' },
 		{ name: 'Hour of Devastation', id: 'hou' },

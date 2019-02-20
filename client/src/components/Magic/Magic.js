@@ -123,6 +123,7 @@ class Magic extends Component {
 
 
 		const cb = () => {
+			console.log('inside of CB')
 			this.forceUpdate(()=>{
 				console.log('TEST CALL FINISHED');
 				console.log('AFTER TEST CALL PROPS: ', this.props);
@@ -259,7 +260,7 @@ class Magic extends Component {
 			special: this.props.filterSpecial
 		}
 
-		this.props.getcards(this.props.cards, filters, cb);
+		this.props.getcards(this.props.base, filters, cb);
 	}
 
 	render() {
@@ -339,9 +340,10 @@ class Magic extends Component {
 }
 
 function mapStateToProps(state) {
-	console.log('state in cards: ', state);
+	console.log('state in magic: ', state);
 	// console.log('state.cards.cards: ', state.cards.cards);
 	return {
+		base: state.cards.base,
 		cards: state.cards.cards,
 		columnTwo: state.columnTwo.columnTwo,
 		currentCard: state.currentCard.currentCard,

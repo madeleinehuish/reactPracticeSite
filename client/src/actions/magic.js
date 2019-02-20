@@ -6,6 +6,7 @@ import {
 	DECK_ADD_TO_DECK,
 	GET_DECKS_FROM_DB,
 	FETCH_CARDS,
+	UPDATE_CARDS,
 	CHANGE_CURRENT_CARD,
 	SET_COLUMN_TWO,
 	STORE_DECK_NAME,
@@ -151,11 +152,11 @@ const filterSpecial = (elem, filter) => {
 }
 
 // this is a newer version of this function. old versions below
-export const getcards = (cards, filters, cb) => async dispatch => {
+export const getcards = (base, filters, cb) => async dispatch => {
 
-	const data = cards; //first decide how big of dataset you want to use. 'All will default to full set'
+	const data = base; //first decide how big of dataset you want to use. 'All will default to full set'
 	// console.log('filters: ', filters);
-	console.log('data: ', data);
+	console.log('data in getcards: ', base);
 	// return data;
 	// let filtered = data;
 	const filteredByInput = filterByInput(data, filters.text);
@@ -180,7 +181,7 @@ export const getcards = (cards, filters, cb) => async dispatch => {
 	};
 
 	dispatch({
-		type: FETCH_CARDS,
+		type: UPDATE_CARDS,
 		payload: filtered
 	})
 

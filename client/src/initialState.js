@@ -15,6 +15,7 @@ export default {
 	},
 	trucks: [],
 	cards: {
+		base: data,
 		cards: data
 	},
 	testCards: {
