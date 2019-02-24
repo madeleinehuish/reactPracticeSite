@@ -498,6 +498,43 @@ export const getCardsFromDatabase = (filters, cb) => async dispatch => {
 
 }
 
+export const getAllCardsFromDatabase = (filters, cb) => async dispatch => {
+
+	// //can be used to hardcode testFilters
+	// const testFilters = {
+	// 	set: 'Innistrad',
+	// 	type: 'Creature',
+	// 	color: 'W',
+	// 	rarity: 'rare'
+	// }
+
+	const url = 'http://localhost:3090/allcards'
+	const query = `?type=${filters.type}&color=${filters.colors}&rarity=${filters.rarity}`
+
+	try {
+		const response = await axios.get(url + query);
+
+		// let payload = response.data;
+
+		console.log('response: ', response);
+		// dispatch({
+		// 	type: TEST_CARDS,
+		// 	payload: response.data.testArray
+		// })
+		dispatch({
+			// type: FETCH_CARDS,
+			// type: TEST_CARDS,
+			type: FETCH_CARDS,
+			payload: response.data
+		})
+
+		cb()
+	} catch (error) {
+		console.log('axios error: ', error);
+	}
+
+}
+
 
 // //old filter functions
 // function filterAlphabetically(cards) {

@@ -35,7 +35,7 @@ class Header extends Component {
 
 		return (
 			<div className={styles.header}>
-				<Link to="/magic" className={styles.left}>Madeleine's MTG Standard Cards Website</Link>
+				<Link to="/magic" className={styles.left}>Madeleine's MTG Cards Website</Link>
 				{this.renderLinks()}
 			</div>
 		)

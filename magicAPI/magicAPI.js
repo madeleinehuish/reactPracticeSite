@@ -1,14 +1,5 @@
 const dataFull = require('./largeData/combinedData.js');
 
-// const filterSets = (filter) => {
-// 	if(filter==='All') {
-// 		// console.log('dataFull: ', dataFull)
-// 		return dataFull.combinedData;
-// 	} else {
-// 		return dataFull[filter];
-// 	}
-// }
-
 const filterSets = (filter) => {
 	let dataSet = dataFull.filter(elem => {
 		if(filter==='All') return true;
@@ -39,14 +30,9 @@ const filterRarity = (elem, filter) => {
 
 
 const applyFilters = (filters) => {
-	// return filterSets(filters.set)
-	console.log('dataFull: ', dataFull);
+
 	let data = filterSets(filters.set); //first decide how big of dataset you want to use. 'All will default to full set'
-	console.log('data: ', data);
-	// return data;
-	console.log('filters: ', filters);
-	// console.log('data: ', data);
-	// return data;
+
 	let filtered = data.filter(elem => {
 		const conditionType = filterType(elem, filters.type);
 		const conditionColor = filterColor(elem, filters.color);
@@ -57,12 +43,37 @@ const applyFilters = (filters) => {
 	return filtered;
 }
 
+const applyFiltersAll = (filters) => {
+	let filtered = dataFull.filter(elem => {
+		const conditionType = filterType(elem, filters.type);
+		const conditionColor = filterColor(elem, filters.color);
+		const conditionRarity = filterRarity(elem, filters.rarity);
+
+		return ( conditionType && conditionColor && conditionRarity);
+	})
+	return filtered;
+
+}
+
 exports.filterCards = function(req, res, next) {
-	// console.log('Req in filterCards /cards: ', req);
-	console.log('Req.query: ', req.query);
+
+	// console.log('Req.query for filterCards: ', req.query);
 	let returnData = applyFilters(req.query);
-	// let returnObject = (returnData);
-	// let testArray = [1,3,5];
-	// let returnData = ({ testArray });
+
+	res.send(returnData);
+}
+
+exports.filterCardsAll = function(req, res, next) {
+
+	let returnData;
+	// console.log('Req.query for filterCardsAll: ', req.query);
+
+	let filtered = applyFiltersAll(req.query);
+
+	// if(filtered.length > 1000) {
+	// 	returnData = filtered.slice(0,1000);
+	// }
+	// console.log('returnData.length: ', returnData);
+
 	res.send(returnData);
 }

@@ -10,6 +10,7 @@ const TestSets = React.forwardRef((props, ref) => {
 		{ name: 'Arabian Nights', id: 'arn' },
 		{ name: 'Antiquities', id: 'atq' },
 		{ name: 'Revised Edition', id: '3ed' },
+		{ name: 'Book Promos', id: 'phpr' },
 		{ name: 'Legends', id: 'leg' },
 		{ name: 'The Dark', id: 'drk' },
 		{ name: 'Fallen Empires', id: 'fem' },
@@ -157,7 +158,7 @@ const TestSets = React.forwardRef((props, ref) => {
 		{ name: 'Rivals of Ixalan', id: 'rix' },
 		{ name: 'Masters 25', id: 'a25' },
 		{ name: 'Duel Decks: Elves vs Inventors', id: 'ddu' },
-		{ name: 'Challenger Decks', id: 'q01' },
+		// { name: 'Challenger Decks', id: 'qo1' },
 		{ name: 'Dominaria', id: 'dom' },
 		{ name: 'Commander Anthology 2', id: 'cm2' },
 		{ name: 'Battlebond', id: 'bbd' },
@@ -169,8 +170,10 @@ const TestSets = React.forwardRef((props, ref) => {
 		{ name: 'Guilds of Ravnica Guild Kits', id: 'gk1' },
 		{ name: 'Ultimate Masters', id: 'uma' },
 		{ name: 'Ravnica Allegiance Mythic Edition', id: 'med' },
-		{ name: 'Ravnica Allegiance', id: 'rna' },
-		{ name: 'Ravnica Allegiance Guild Kits', id: 'gk2' }
+		{ name: 'Ravnica Allegiance', id: 'rna' }
+		//,
+		// { name: 'Ravnica Allegiance Guild Kits', id: 'gk2' }
+
 
 
 
@@ -185,7 +188,7 @@ const TestSets = React.forwardRef((props, ref) => {
 
 	return (
 		<select className={styles.select} onChange={(event)=>props.handleFilter(event, 'set')} ref={ref}>
-			<option default value="All">sets (all)</option>
+			<option default value="All">sets (all standard)</option>
 			{list}
 		</select>
 	)

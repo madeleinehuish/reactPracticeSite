@@ -1,8 +1,7 @@
-// import data from './data/combinedData'; // standard
-import data from './data/combinedDataTest'; //mirrodin test run
-// import data from './data/combinedDataFullScryfall';
-// import firstCard from './data/firstCard';
-import firstCard from './data/firstCardMirrodinTest';
+import data from './data/combinedData'; // standard
+// import data from './data/combinedDataTest'; //mirrodin test run
+import firstCard from './data/firstCard';
+// import firstCard from './data/firstCardMirrodinTest';
 
 export default {
 	auth:{ //initial state
@@ -15,6 +14,7 @@ export default {
 	},
 	trucks: [],
 	cards: {
+		standard: data,
 		base: data,
 		cards: data
 	},

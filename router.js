@@ -4,7 +4,6 @@ const magicAPI = require('./magicAPI/magicAPI');
 const magicDecks = require('./magicDecks/magicDecks');
 const passport = require('passport');
 
-
 const requireAuth = passport.authenticate('jwt', { session: false });
 const requireSignin = passport.authenticate('local', { session: false });
 
@@ -15,6 +14,7 @@ module.exports = function(app) {
 
 	//magic cards
 	app.get('/cards', magicAPI.filterCards);
+	app.get('/allcards', magicAPI.filterCardsAll);
 
 	//magic decks
 	app.post('/decks', magicDecks.saveDeckToDB);

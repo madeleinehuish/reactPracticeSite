@@ -14,6 +14,7 @@ import Creatures from './Filters/Creatures';
 import Keywords from './Filters/Keywords';
 import Rarity from './Filters/Rarity';
 // import Sets from './Filters/Sets';
+import StandardSets from './Filters/Sets';
 import Sets from './Filters/testSets';
 import TestSets from './Filters/testSets';
 import Special from './Filters/Special';
@@ -34,6 +35,7 @@ class Magic extends Component {
 		this.setBox = React.createRef();
 		this.keywordBox = React.createRef();
 		this.specialBox = React.createRef();
+		this.standardSetBox = React.createRef();
 
 		//deckbuilding refs
 		this.selectDeck = React.createRef();
@@ -157,8 +159,11 @@ class Magic extends Component {
 					// rarity: this.props.filterRarity
 				}
 				// console.log('CALLBACK@@@@@@@@@@@@@@@@@@@@: ', typeof cb)
-
-				this.props.getCardsFromDatabase(filters, cb);
+				if(filters.set==='All') {
+					this.reset();
+				} else {
+					this.props.getCardsFromDatabase(filters, cb);
+				}
 				return;
 				break;
 			case 'creature':
@@ -194,7 +199,7 @@ class Magic extends Component {
 		const cb = () => {
 			this.forceUpdate(()=>{
 				this.setState({ columnTwo: false });
-				this.updateCards();
+				this.updateCards(true);
 			});
 		};
 
@@ -230,7 +235,7 @@ class Magic extends Component {
 		};
 
 		let filters = {
-			set: config.set,
+			// set: config.set,
 			type: 'All',
 			colors: 'All',
 			rarity: 'All'
@@ -239,10 +244,11 @@ class Magic extends Component {
 			// rarity: this.props.filterRarity
 		}
 
-		this.props.getCardsFromDatabase(filters, cb)
+		// DON'T REMOVE!
+		// this.props.getAllCardsFromDatabase(filters, cb)
 	}
 
-	updateCards = () => {
+	updateCards = (reset) => {
 		const cb = () => {
 			this.forceUpdate(()=>{
 				this.props.changeCurrentCard(this.props.cards[0]);
@@ -260,7 +266,12 @@ class Magic extends Component {
 			special: this.props.filterSpecial
 		}
 
-		this.props.getcards(this.props.base, filters, cb);
+		if(!reset) {
+			this.props.getcards(this.props.base, filters, cb);
+		} else {
+			this.props.getcards(this.props.standard, filters, cb);
+		}
+
 	}
 
 	render() {
@@ -276,9 +287,9 @@ class Magic extends Component {
 							<button id="magicButton" className={styles.button} onClick={()=>this.reset()}>Reset</button>
 						</div>
 						{/* dont get rid of the following!!!! */}
-						<div className={styles.filters}>
+						{/* <div className={styles.filters}>
 							<button id="testCardsButton" className={styles.button} onClick={()=>this.test({ set: 'usg'})}>Test Get Cards</button>
-						</div>
+						</div> */}
 						<div className={styles.filters}>
 							<input className={styles.input} placeholder="type to filter" onChange={(event)=>this.handleFilter(event, 'text')} ref={this.inputBox}/>
 						</div>
@@ -294,6 +305,13 @@ class Magic extends Component {
 						</div>
 						<div className={styles.filters}>
 							<Sets handleFilter={this.handleFilter} ref={this.setBox} />
+						</div>
+						<div className={styles.filters}>
+							{
+								this.props.filterSet==='All' ?
+									<StandardSets handleFilter={this.handleFilter} ref={this.standardSetBox} /> :
+									null
+							}
 						</div>
 						<div className={styles.filters}>
 							<Keywords handleFilter={this.handleFilter} ref={this.keywordBox}/>
@@ -345,6 +363,7 @@ function mapStateToProps(state) {
 	return {
 		base: state.cards.base,
 		cards: state.cards.cards,
+		standard: state.cards.standard,
 		columnTwo: state.columnTwo.columnTwo,
 		currentCard: state.currentCard.currentCard,
 		currentDeckName: state.currentDeck.name,
