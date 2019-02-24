@@ -3,7 +3,7 @@ import styles from './Cardslist.css';
 
 const CurrentSelected = (props) => {
 	const card = props.currentSelected || null;
-	console.log('props in CurrentSelected : ', props);
+	// console.log('props in CurrentSelected : ', props);
 	return (
 		<div className={styles.currentSelected}>
 			<div className={styles.titleSelected}>

@@ -76,7 +76,7 @@ class DeckNameInput extends Component {
 	}
 
 	render() {
-		console.log('inside of DeckNameInput, forwardRef: ', this.props.refInput)
+		// console.log('inside of DeckNameInput, forwardRef: ', this.props.refInput)
 		return (
 			<form onSubmit={(event)=> this.props.handleDeckNameSubmit(event, this.state.inputValueDeck)}>
 				<input

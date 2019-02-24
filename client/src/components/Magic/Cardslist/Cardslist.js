@@ -2,7 +2,7 @@ import React from 'react';
 import styles from './Cardslist.css';
 
 const Cardslist = props => {
-	console.log('inside cardslist, props: ', props);
+	// console.log('inside cardslist, props: ', props);
 
 	if(props && props.cards && props.cards.length) {
 		return (

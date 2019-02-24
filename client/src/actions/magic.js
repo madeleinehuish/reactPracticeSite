@@ -1,6 +1,6 @@
 import axios from 'axios';
 // import DATA from '../data/combinedData'; //standard
-import DATA from '../data/combinedDataTest' //mirrodin test run
+// import DATA from '../data/combinedDataTest' //mirrodin test run
 
 import {
 	DECK_ADD_TO_DECK,
@@ -17,8 +17,8 @@ import {
 	STORE_COLOR,
 	STORE_RARITY,
 	STORE_SET,
-	STORE_SPECIAL,
-	TEST_CARDS
+	STORE_SPECIAL
+	// TEST_CARDS
 } from './types';
 
 function isSubset(arr, sub) {
@@ -35,7 +35,7 @@ function isSubset(arr, sub) {
 	return true;
 }
 
-//new filter functions
+//filter functions
 
 function filterByInput(cards, filterValue) {
 	console.log('CARDS in INPUT: ', cards);
@@ -49,11 +49,12 @@ function filterByInput(cards, filterValue) {
 	 return filtered;
 }
 
-const filterSet = (elem, filter) => {
-	if(filter==='All') return true;
-	if(elem.set===filter) return true;
-	return false;
-}
+// // DON'T remove this until back end filtering figured out
+// const filterSet = (elem, filter) => {
+// 	if(filter==='All') return true;
+// 	if(elem.set===filter) return true;
+// 	return false;
+// }
 
 const filterType = (elem, filterType, filterCreature) => {
 	if(filterType==='All') return true;
@@ -111,7 +112,7 @@ const filterColor = (elem, filtersColors, filtersType) => {
 					}
 			return false;
 		}
-		// return false;
+
 	} else { //elem.layout === 'normal' (non transformable cards)
 		if(filtersType==='Land') {
 			if(!elem.color_identity.length) return false; //so colored filter doesn't return colorless lands
@@ -126,9 +127,9 @@ const filterColor = (elem, filtersColors, filtersType) => {
 			if(isSubset(filtersColors, elem.colors)) return true;
 			return false;
 		}
-		// return false;
+
 	}
-	// return false; //default
+
 }
 
 const filterRarity = (elem, filter) => {
@@ -151,14 +152,11 @@ const filterSpecial = (elem, filter) => {
 	return false;
 }
 
-// this is a newer version of this function. old versions below
+
 export const getcards = (base, filters, cb) => async dispatch => {
 
 	const data = base; //first decide how big of dataset you want to use. 'All will default to full set'
-	// console.log('filters: ', filters);
-	console.log('data in getcards: ', base);
-	// return data;
-	// let filtered = data;
+
 	const filteredByInput = filterByInput(data, filters.text);
 
 	const filtered = filteredByInput.filter(elem => {
@@ -166,7 +164,6 @@ export const getcards = (base, filters, cb) => async dispatch => {
 		// const conditionSet = filterSet(elem, filters.set);
 		const conditionKeyword = filterKeyword(elem, filters.keyword);
 		const conditionType = filterType(elem, filters.type, filters.creature);
-		// const conditionCreature = filterCreature(elem, filters.creature);
 		const conditionColor = filterColor(elem, filters.color, filters.type);
 		const conditionRarity = filterRarity(elem, filters.rarity);
 		const conditionSpecial = filterSpecial(elem, filters.special);
@@ -202,7 +199,6 @@ export const getDecksFromDB = (cb) => async dispatch => {
 		console.log('response: ', response);
 
 		dispatch({
-			// type: FETCH_CARDS,
 			type: GET_DECKS_FROM_DB,
 			payload: await response.data
 		})
@@ -271,15 +267,15 @@ export const modifyDeck = (card, deck, sign, cb) => async dispatch => {
 						cb();
 					}
 					break;
-		case 'changeDeck':
-		{
-			dispatch({
-				type: DECK_ADD_TO_DECK,
-				payload: deck
-			})
-			cb();
-		}
-		break;
+		// case 'changeDeck':
+		// {
+		// 	dispatch({
+		// 		type: DECK_ADD_TO_DECK,
+		// 		payload: deck
+		// 	})
+		// 	cb();
+		// }
+		// break;
 		case 'reset':
 					{
 						let newDeck = [];
@@ -300,52 +296,6 @@ export const modifyDeck = (card, deck, sign, cb) => async dispatch => {
 					default:
 						break;
 				}
-
-	// if(sign==='add') {
-	// 	console.log('deckAddTo card: ', card);
-	// 	let currentNumber = 0;
-	// 	let newDeck = [...deck];
-	// 	let isDup = false;
-	//
-	// 	for(let elem of newDeck) {
-	// 		if(elem.name && elem.name === card.name ) {
-	// 			isDup = true;
-	// 			if(elem.number < 4) {
-	// 				elem.number = elem.number + 1;
-	// 			} else {
-	// 				elem.number = 4;
-	// 			}
-	// 		}
-	// 	}
-	//
-	// 	if(isDup===false) newDeck.push({
-	// 		name: card.name,
-	// 		number: 1,
-	// 		info: card
-	// 	})
-	//
-	// 	return {
-	// 		type: DECK_ADD_TO_DECK,
-	// 		payload: newDeck
-	// 	}
-	// } else if (sign==='delete') {
-	// 	let newDeck = [...deck];
-	//
-	// 	newDeck.forEach(elem => {
-	// 		if(elem.name && elem.name === card.name) {
-	// 			elem.number = elem.number - 1;
-	// 		}
-	// 	})
-	// 	let filtered = newDeck.filter(elem => {
-	// 		return elem.number > 0;
-	// 	})
-	//
-	// 	return {
-	// 		type: DECK_ADD_TO_DECK,
-	// 		payload: filtered
-	// 	}
-	// }
-
 
 }
 
@@ -456,20 +406,11 @@ export const saveDeckToDB = (data) => async dispatch => {
 
 	} catch (error) {
 		console.log('axios error: ', error);
-		// console.log('response: ', response);
 	}
 }
 
 //this is for calling from the backend, it is not operating yet
 export const getCardsFromDatabase = (filters, cb) => async dispatch => {
-
-	// //can be used to hardcode testFilters
-	// const testFilters = {
-	// 	set: 'Innistrad',
-	// 	type: 'Creature',
-	// 	color: 'W',
-	// 	rarity: 'rare'
-	// }
 
 	const url = 'http://localhost:3090/cards'
 	const query = `?set=${filters.set}&type=${filters.type}&color=${filters.colors}&rarity=${filters.rarity}`
@@ -477,16 +418,9 @@ export const getCardsFromDatabase = (filters, cb) => async dispatch => {
 	try {
 		const response = await axios.get(url + query);
 
-		// let payload = response.data;
-
 		console.log('response: ', response);
-		// dispatch({
-		// 	type: TEST_CARDS,
-		// 	payload: response.data.testArray
-		// })
+
 		dispatch({
-			// type: FETCH_CARDS,
-			// type: TEST_CARDS,
 			type: FETCH_CARDS,
 			payload: response.data
 		})
@@ -498,15 +432,8 @@ export const getCardsFromDatabase = (filters, cb) => async dispatch => {
 
 }
 
-export const getAllCardsFromDatabase = (filters, cb) => async dispatch => {
 
-	// //can be used to hardcode testFilters
-	// const testFilters = {
-	// 	set: 'Innistrad',
-	// 	type: 'Creature',
-	// 	color: 'W',
-	// 	rarity: 'rare'
-	// }
+export const getAllCardsFromDatabase = (filters, cb) => async dispatch => {
 
 	const url = 'http://localhost:3090/allcards'
 	const query = `?type=${filters.type}&color=${filters.colors}&rarity=${filters.rarity}`
@@ -514,16 +441,10 @@ export const getAllCardsFromDatabase = (filters, cb) => async dispatch => {
 	try {
 		const response = await axios.get(url + query);
 
-		// let payload = response.data;
 
 		console.log('response: ', response);
-		// dispatch({
-		// 	type: TEST_CARDS,
-		// 	payload: response.data.testArray
-		// })
+
 		dispatch({
-			// type: FETCH_CARDS,
-			// type: TEST_CARDS,
 			type: FETCH_CARDS,
 			payload: response.data
 		})
@@ -534,90 +455,3 @@ export const getAllCardsFromDatabase = (filters, cb) => async dispatch => {
 	}
 
 }
-
-
-// //old filter functions
-// function filterAlphabetically(cards) {
-	// let sortedAlphabetically = cards.sort((a,b) =>{
-	// 	if(a.name < b.name) return -1;
-	// 	if(a.name > b.name) return 1;
-	// 	return 0;
-	// })
-// 	return sortedAlphabetically;
-// }
-// function filterByColor(cards, colorFilter) {
-// 	if(colorFilter==='All') return cards;
-//
-// 	let filtered = cards.filter(card => {
-// 		if(card.color_identity.length===0) {
-// 			return card.colors!=='White' && card.colors!=='Blue' && card.colors!=='Red' && card.colors!=='Green'&& card.colors!=='Black';
-// 		} else {
-// 				return card.color_identity.includes(colorFilter);
-// 		}
-// 	})
-//
-// 	return filtered;
-// }
-//
-//
-// function filterByRarity(cards, filterValue) {
-// 	if(filterValue==='All') return cards;
-//
-// 	let filtered = cards.filter(card => {
-// 		return card.rarity===filterValue;
-// 	})
-//
-// 	return filtered;
-// }
-//
-// function filterBySet(cards, setFilter) {
-//
-// 	if(setFilter==='All') return cards;
-//
-// 	let filtered = cards.filter(card => {
-// 		return card.set===setFilter;
-// 	})
-//
-// 	return filtered;
-// }
-//
-// function filterByType(cards, typeFilter) {
-// 	if(typeFilter==='All') return cards;
-//
-// 	let filtered = cards.filter(card => {
-// 		return card.type_line.includes(typeFilter);
-// 	})
-// 	return filtered;
-// }
-
-// export const getcards = (filterValue, typeFilter, colorFilter, rarityFilter, setFilter, cb) => async dispatch => {
-//
-// 	let cards = DATA;
-//
-// 	cards = filterBySet(cards, setFilter);
-//
-// 	cards = filterByType(cards, typeFilter);
-//
-// 	cards = filterByColor(cards, colorFilter);
-//
-// 	cards = filterByRarity(cards, rarityFilter);
-//
-// 	cards = filterByInput(cards, filterValue);
-//
-// 	cards = filterAlphabetically(cards);
-//
-// 	// add logic for case where cards.length === 0
-//
-// 	if(!cards.length) cards[0] =  {
-// 		name: "There are no cards with these given filters",
-// 		imageUrl: "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=366433&type=card"
-// 	};
-//
-// 	dispatch({
-// 		type: FETCH_CARDS,
-// 		payload: cards
-// 	})
-//
-// 	cb();
-//
-// }

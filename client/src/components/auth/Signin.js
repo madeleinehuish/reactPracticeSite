@@ -16,7 +16,7 @@ class Signin extends Component {
 
 	render() {
 		const { handleSubmit } = this.props;
-		console.log('state: ', this.state)
+		// console.log('state: ', this.state)
 
 		return (
 			<form className={styles.main} onSubmit={handleSubmit(this.onSubmit)}>

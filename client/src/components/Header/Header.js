@@ -7,7 +7,7 @@ import styles from './Header.css';
 class Header extends Component {
 
 	renderLinks() {
-		console.log('this.props: ', this.props);
+		// console.log('this.props: ', this.props);
 
 		if (this.props.authenticated) {
 
@@ -43,8 +43,8 @@ class Header extends Component {
 }
 
 function mapStateToProps(state) {
-	console.log('state: ', state);
-	console.log('state.auth.user: ', state.auth.user);
+	// console.log('state: ', state);
+	// console.log('state.auth.user: ', state.auth.user);
 	// console.log('state.user.firstname: ', state.auth.user.firstname);
 	return { authenticated: state.auth.authenticated, user: state.auth.user };
 }

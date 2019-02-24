@@ -37,7 +37,7 @@ class Expire extends Component {
   }
 
   render() {
-    console.log('this.props.children: ', this.props.children);
+    // console.log('this.props.children: ', this.props.children);
     return this.state.visible
       ? <div>{this.props.children}</div>
       : <span />;
