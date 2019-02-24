@@ -188,11 +188,11 @@ export const getcards = (base, filters, cb) => async dispatch => {
 
 export const getDecksFromDB = (cb) => async dispatch => {
 
-	// //development
-	// const url = 'http://localhost:3090/decks';
+	//development
+	const url = 'http://localhost:3090/decks';
 
-	//production
-	const url = 'https://radiant-stream-78248.herokuapp.com/decks';
+	// //production
+	// const url = 'https://radiant-stream-78248.herokuapp.com/decks';
 
 	const email = localStorage.getItem('user_email');
 
@@ -400,11 +400,11 @@ export const storeSpecial = (special, cb) => async dispatch => {
 
 export const saveDeckToDB = (data) => async dispatch => {
 
-	// // //development
-	// const url = 'http://localhost:3090/decks';
+	// //development
+	const url = 'http://localhost:3090/decks';
 
-	//production
-	const url = 'https://radiant-stream-78248.herokuapp.com/decks';
+	// //production
+	// const url = 'https://radiant-stream-78248.herokuapp.com/decks';
 
 	const email = localStorage.getItem('user_email');
 
@@ -423,11 +423,11 @@ export const saveDeckToDB = (data) => async dispatch => {
 //this is for calling from the backend, it is not operating yet
 export const getCardsFromDatabase = (filters, cb) => async dispatch => {
 
-	// //development
-	// const url = 'http://localhost:3090/cards';
+	//development
+	const url = 'http://localhost:3090/cards';
 
-	//production
-	const url = 'https://radiant-stream-78248.herokuapp.com/cards';
+	// //production
+	// const url = 'https://radiant-stream-78248.herokuapp.com/cards';
 
 	const query = `?set=${filters.set}&type=${filters.type}&color=${filters.colors}&rarity=${filters.rarity}`
 
