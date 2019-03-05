@@ -170,14 +170,8 @@ const TestSets = React.forwardRef((props, ref) => {
 		{ name: 'Guilds of Ravnica Guild Kits', id: 'gk1' },
 		{ name: 'Ultimate Masters', id: 'uma' },
 		{ name: 'Ravnica Allegiance Mythic Edition', id: 'med' },
-		{ name: 'Ravnica Allegiance', id: 'rna' }
-		//,
-		// { name: 'Ravnica Allegiance Guild Kits', id: 'gk2' } //need to update data set before including
-
-
-
-
-
+		{ name: 'Ravnica Allegiance', id: 'rna' },
+		{ name: 'Ravnica Allegiance Guild Kits', id: 'gk2' }
 
 	]
 

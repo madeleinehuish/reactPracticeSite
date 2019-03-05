@@ -329,6 +329,7 @@ const Pro_Tour_Promos = require('./full_scryfall/Pro_Tour_Promos');
 const Promotional_Planes = require('./full_scryfall/Promotional_Planes');
 const Promotional_Schemes = require('./full_scryfall/Promotional_Schemes');
 const Prophecy = require('./full_scryfall/Prophecy');
+const RNA_Guild_Kit = require('./full_scryfall/RNA_Guild_Kit');
 const RNA_Ravnica_Weekend = require('./full_scryfall/RNA_Ravnica_Weekend');
 const Ravnica_Allegiance = require('./full_scryfall/Ravnica_Allegiance');
 const Ravnica_Allegiance_Promos = require('./full_scryfall/Ravnica_Allegiance_Promos');
@@ -763,6 +764,7 @@ const combinedData = [
   ...Promotional_Planes,
   ...Promotional_Schemes,
   ...Prophecy,
+  ...RNA_Guild_Kit,
   ...RNA_Ravnica_Weekend,
   ...Ravnica_Allegiance,
   ...Ravnica_Allegiance_Promos,

@@ -16,17 +16,17 @@ module.exports = [ { object: 'card',
     highres_image: true,
     image_uris:
      { small:
-        'https://img.scryfall.com/cards/small/front/0/2/02e17705-739e-409f-a6fd-7bab22120b22.jpg?1545071843',
+        'https://img.scryfall.com/cards/small/front/0/2/02e17705-739e-409f-a6fd-7bab22120b22.jpg?1547518812',
        normal:
-        'https://img.scryfall.com/cards/normal/front/0/2/02e17705-739e-409f-a6fd-7bab22120b22.jpg?1545071843',
+        'https://img.scryfall.com/cards/normal/front/0/2/02e17705-739e-409f-a6fd-7bab22120b22.jpg?1547518812',
        large:
-        'https://img.scryfall.com/cards/large/front/0/2/02e17705-739e-409f-a6fd-7bab22120b22.jpg?1545071843',
+        'https://img.scryfall.com/cards/large/front/0/2/02e17705-739e-409f-a6fd-7bab22120b22.jpg?1547518812',
        png:
-        'https://img.scryfall.com/cards/png/front/0/2/02e17705-739e-409f-a6fd-7bab22120b22.png?1545071843',
+        'https://img.scryfall.com/cards/png/front/0/2/02e17705-739e-409f-a6fd-7bab22120b22.png?1547518812',
        art_crop:
-        'https://img.scryfall.com/cards/art_crop/front/0/2/02e17705-739e-409f-a6fd-7bab22120b22.jpg?1545071843',
+        'https://img.scryfall.com/cards/art_crop/front/0/2/02e17705-739e-409f-a6fd-7bab22120b22.jpg?1547518812',
        border_crop:
-        'https://img.scryfall.com/cards/border_crop/front/0/2/02e17705-739e-409f-a6fd-7bab22120b22.jpg?1545071843' },
+        'https://img.scryfall.com/cards/border_crop/front/0/2/02e17705-739e-409f-a6fd-7bab22120b22.jpg?1547518812' },
     mana_cost: '',
     cmc: 0,
     type_line: 'Legendary Land',
@@ -43,9 +43,8 @@ module.exports = [ { object: 'card',
        vintage: 'legal',
        penny: 'not_legal',
        commander: 'legal',
-       '1v1': 'legal',
        duel: 'legal',
-       brawl: 'not_legal' },
+       oldschool: 'not_legal' },
     games: [ 'mtgo', 'paper' ],
     reserved: false,
     foil: true,
@@ -68,7 +67,7 @@ module.exports = [ { object: 'card',
     digital: false,
     rarity: 'rare',
     flavor_text:
-     '"Yawgmoth\'s corpse is a wound in the universe. His foul blood seeps out, infecting the land with his final curse."\n—Lord Windgrace',
+     `"Yawgmoth's corpse is a wound in the universe. His foul blood seeps out, infecting the land with his final curse."\n—Lord Windgrace`,
     illustration_id: '19b4c4f6-9ab6-427c-8856-17b61dcfd780',
     artist: 'Jung Park',
     border_color: 'black',
@@ -76,7 +75,7 @@ module.exports = [ { object: 'card',
     frame_effect: '',
     full_art: false,
     story_spotlight: false,
-    edhrec_rank: 31,
+    edhrec_rank: 29,
     related_uris:
      { gatherer:
         'http://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=456850',
@@ -92,7 +91,7 @@ module.exports = [ { object: 'card',
     multiverse_ids: [ 456849 ],
     mtgo_id: 70583,
     tcgplayer_id: 180819,
-    name: 'Thespian\'s Stage',
+    name: "Thespian's Stage",
     lang: 'en',
     released_at: '2018-12-07',
     uri:
@@ -100,25 +99,25 @@ module.exports = [ { object: 'card',
     scryfall_uri:
      'https://scryfall.com/card/uma/253/thespians-stage?utm_source=api',
     layout: 'normal',
-    highres_image: false,
+    highres_image: true,
     image_uris:
      { small:
-        'https://img.scryfall.com/cards/small/front/1/0/107492bd-b32f-4692-917c-7771986b5bf7.jpg?1542805696',
+        'https://img.scryfall.com/cards/small/front/1/0/107492bd-b32f-4692-917c-7771986b5bf7.jpg?1547518797',
        normal:
-        'https://img.scryfall.com/cards/normal/front/1/0/107492bd-b32f-4692-917c-7771986b5bf7.jpg?1542805696',
+        'https://img.scryfall.com/cards/normal/front/1/0/107492bd-b32f-4692-917c-7771986b5bf7.jpg?1547518797',
        large:
-        'https://img.scryfall.com/cards/large/front/1/0/107492bd-b32f-4692-917c-7771986b5bf7.jpg?1542805696',
+        'https://img.scryfall.com/cards/large/front/1/0/107492bd-b32f-4692-917c-7771986b5bf7.jpg?1547518797',
        png:
-        'https://img.scryfall.com/cards/png/front/1/0/107492bd-b32f-4692-917c-7771986b5bf7.png?1542805696',
+        'https://img.scryfall.com/cards/png/front/1/0/107492bd-b32f-4692-917c-7771986b5bf7.png?1547518797',
        art_crop:
-        'https://img.scryfall.com/cards/art_crop/front/1/0/107492bd-b32f-4692-917c-7771986b5bf7.jpg?1542805696',
+        'https://img.scryfall.com/cards/art_crop/front/1/0/107492bd-b32f-4692-917c-7771986b5bf7.jpg?1547518797',
        border_crop:
-        'https://img.scryfall.com/cards/border_crop/front/1/0/107492bd-b32f-4692-917c-7771986b5bf7.jpg?1542805696' },
+        'https://img.scryfall.com/cards/border_crop/front/1/0/107492bd-b32f-4692-917c-7771986b5bf7.jpg?1547518797' },
     mana_cost: '',
     cmc: 0,
     type_line: 'Land',
     oracle_text:
-     '{T}: Add {C}.\n{2}, {T}: Thespian\'s Stage becomes a copy of target land, except it has this ability.',
+     "{T}: Add {C}.\n{2}, {T}: Thespian's Stage becomes a copy of target land, except it has this ability.",
     colors: [],
     color_identity: [],
     legalities:
@@ -131,9 +130,8 @@ module.exports = [ { object: 'card',
        vintage: 'legal',
        penny: 'not_legal',
        commander: 'legal',
-       '1v1': 'legal',
        duel: 'legal',
-       brawl: 'not_legal' },
+       oldschool: 'not_legal' },
     games: [ 'mtgo', 'paper' ],
     reserved: false,
     foil: true,
@@ -164,7 +162,7 @@ module.exports = [ { object: 'card',
     frame_effect: '',
     full_art: false,
     story_spotlight: false,
-    edhrec_rank: 317,
+    edhrec_rank: 314,
     related_uris:
      { gatherer:
         'http://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=456849',
@@ -188,20 +186,20 @@ module.exports = [ { object: 'card',
     scryfall_uri:
      'https://scryfall.com/card/uma/252/terramorphic-expanse?utm_source=api',
     layout: 'normal',
-    highres_image: false,
+    highres_image: true,
     image_uris:
      { small:
-        'https://img.scryfall.com/cards/small/front/8/0/80d3fa52-93ee-40a8-a4ce-41b91ff20eb8.jpg?1542805684',
+        'https://img.scryfall.com/cards/small/front/8/0/80d3fa52-93ee-40a8-a4ce-41b91ff20eb8.jpg?1547518787',
        normal:
-        'https://img.scryfall.com/cards/normal/front/8/0/80d3fa52-93ee-40a8-a4ce-41b91ff20eb8.jpg?1542805684',
+        'https://img.scryfall.com/cards/normal/front/8/0/80d3fa52-93ee-40a8-a4ce-41b91ff20eb8.jpg?1547518787',
        large:
-        'https://img.scryfall.com/cards/large/front/8/0/80d3fa52-93ee-40a8-a4ce-41b91ff20eb8.jpg?1542805684',
+        'https://img.scryfall.com/cards/large/front/8/0/80d3fa52-93ee-40a8-a4ce-41b91ff20eb8.jpg?1547518787',
        png:
-        'https://img.scryfall.com/cards/png/front/8/0/80d3fa52-93ee-40a8-a4ce-41b91ff20eb8.png?1542805684',
+        'https://img.scryfall.com/cards/png/front/8/0/80d3fa52-93ee-40a8-a4ce-41b91ff20eb8.png?1547518787',
        art_crop:
-        'https://img.scryfall.com/cards/art_crop/front/8/0/80d3fa52-93ee-40a8-a4ce-41b91ff20eb8.jpg?1542805684',
+        'https://img.scryfall.com/cards/art_crop/front/8/0/80d3fa52-93ee-40a8-a4ce-41b91ff20eb8.jpg?1547518787',
        border_crop:
-        'https://img.scryfall.com/cards/border_crop/front/8/0/80d3fa52-93ee-40a8-a4ce-41b91ff20eb8.jpg?1542805684' },
+        'https://img.scryfall.com/cards/border_crop/front/8/0/80d3fa52-93ee-40a8-a4ce-41b91ff20eb8.jpg?1547518787' },
     mana_cost: '',
     cmc: 0,
     type_line: 'Land',
@@ -219,9 +217,8 @@ module.exports = [ { object: 'card',
        vintage: 'legal',
        penny: 'not_legal',
        commander: 'legal',
-       '1v1': 'legal',
        duel: 'legal',
-       brawl: 'not_legal' },
+       oldschool: 'not_legal' },
     games: [ 'mtgo', 'paper' ],
     reserved: false,
     foil: true,
@@ -252,7 +249,7 @@ module.exports = [ { object: 'card',
     frame_effect: '',
     full_art: false,
     story_spotlight: false,
-    edhrec_rank: 16,
+    edhrec_rank: 13,
     related_uris:
      { gatherer:
         'http://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=456848',
@@ -280,22 +277,22 @@ module.exports = [ { object: 'card',
     highres_image: true,
     image_uris:
      { small:
-        'https://img.scryfall.com/cards/small/front/2/2/22f40dfc-a35d-4094-9805-0de8b7f61cb0.jpg?1545071524',
+        'https://img.scryfall.com/cards/small/front/2/2/22f40dfc-a35d-4094-9805-0de8b7f61cb0.jpg?1547518772',
        normal:
-        'https://img.scryfall.com/cards/normal/front/2/2/22f40dfc-a35d-4094-9805-0de8b7f61cb0.jpg?1545071524',
+        'https://img.scryfall.com/cards/normal/front/2/2/22f40dfc-a35d-4094-9805-0de8b7f61cb0.jpg?1547518772',
        large:
-        'https://img.scryfall.com/cards/large/front/2/2/22f40dfc-a35d-4094-9805-0de8b7f61cb0.jpg?1545071524',
+        'https://img.scryfall.com/cards/large/front/2/2/22f40dfc-a35d-4094-9805-0de8b7f61cb0.jpg?1547518772',
        png:
-        'https://img.scryfall.com/cards/png/front/2/2/22f40dfc-a35d-4094-9805-0de8b7f61cb0.png?1545071524',
+        'https://img.scryfall.com/cards/png/front/2/2/22f40dfc-a35d-4094-9805-0de8b7f61cb0.png?1547518772',
        art_crop:
-        'https://img.scryfall.com/cards/art_crop/front/2/2/22f40dfc-a35d-4094-9805-0de8b7f61cb0.jpg?1545071524',
+        'https://img.scryfall.com/cards/art_crop/front/2/2/22f40dfc-a35d-4094-9805-0de8b7f61cb0.jpg?1547518772',
        border_crop:
-        'https://img.scryfall.com/cards/border_crop/front/2/2/22f40dfc-a35d-4094-9805-0de8b7f61cb0.jpg?1545071524' },
+        'https://img.scryfall.com/cards/border_crop/front/2/2/22f40dfc-a35d-4094-9805-0de8b7f61cb0.jpg?1547518772' },
     mana_cost: '',
     cmc: 0,
     type_line: 'Land',
     oracle_text:
-     'Stirring Wildwood enters the battlefield tapped.\n{T}: Add {G} or {W}.\n{1}{G}{W}: Until end of turn, Stirring Wildwood becomes a 3/4 green and white Elemental creature with reach. It\'s still a land.',
+     "Stirring Wildwood enters the battlefield tapped.\n{T}: Add {G} or {W}.\n{1}{G}{W}: Until end of turn, Stirring Wildwood becomes a 3/4 green and white Elemental creature with reach. It's still a land.",
     colors: [],
     color_identity: [ 'G', 'W' ],
     legalities:
@@ -308,9 +305,8 @@ module.exports = [ { object: 'card',
        vintage: 'legal',
        penny: 'not_legal',
        commander: 'legal',
-       '1v1': 'legal',
        duel: 'legal',
-       brawl: 'not_legal' },
+       oldschool: 'not_legal' },
     games: [ 'mtgo', 'paper' ],
     reserved: false,
     foil: true,
@@ -339,7 +335,7 @@ module.exports = [ { object: 'card',
     frame_effect: '',
     full_art: false,
     story_spotlight: false,
-    edhrec_rank: 1055,
+    edhrec_rank: 1069,
     related_uris:
      { gatherer:
         'http://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=456847',
@@ -355,7 +351,7 @@ module.exports = [ { object: 'card',
     multiverse_ids: [ 456846 ],
     mtgo_id: 70577,
     tcgplayer_id: 180848,
-    name: 'Rogue\'s Passage',
+    name: "Rogue's Passage",
     lang: 'en',
     released_at: '2018-12-07',
     uri:
@@ -363,25 +359,25 @@ module.exports = [ { object: 'card',
     scryfall_uri:
      'https://scryfall.com/card/uma/250/rogues-passage?utm_source=api',
     layout: 'normal',
-    highres_image: false,
+    highres_image: true,
     image_uris:
      { small:
-        'https://img.scryfall.com/cards/small/front/c/8/c8e32c53-cd0c-4c57-8cf6-23fc8fcde054.jpg?1542805665',
+        'https://img.scryfall.com/cards/small/front/c/8/c8e32c53-cd0c-4c57-8cf6-23fc8fcde054.jpg?1547518758',
        normal:
-        'https://img.scryfall.com/cards/normal/front/c/8/c8e32c53-cd0c-4c57-8cf6-23fc8fcde054.jpg?1542805665',
+        'https://img.scryfall.com/cards/normal/front/c/8/c8e32c53-cd0c-4c57-8cf6-23fc8fcde054.jpg?1547518758',
        large:
-        'https://img.scryfall.com/cards/large/front/c/8/c8e32c53-cd0c-4c57-8cf6-23fc8fcde054.jpg?1542805665',
+        'https://img.scryfall.com/cards/large/front/c/8/c8e32c53-cd0c-4c57-8cf6-23fc8fcde054.jpg?1547518758',
        png:
-        'https://img.scryfall.com/cards/png/front/c/8/c8e32c53-cd0c-4c57-8cf6-23fc8fcde054.png?1542805665',
+        'https://img.scryfall.com/cards/png/front/c/8/c8e32c53-cd0c-4c57-8cf6-23fc8fcde054.png?1547518758',
        art_crop:
-        'https://img.scryfall.com/cards/art_crop/front/c/8/c8e32c53-cd0c-4c57-8cf6-23fc8fcde054.jpg?1542805665',
+        'https://img.scryfall.com/cards/art_crop/front/c/8/c8e32c53-cd0c-4c57-8cf6-23fc8fcde054.jpg?1547518758',
        border_crop:
-        'https://img.scryfall.com/cards/border_crop/front/c/8/c8e32c53-cd0c-4c57-8cf6-23fc8fcde054.jpg?1542805665' },
+        'https://img.scryfall.com/cards/border_crop/front/c/8/c8e32c53-cd0c-4c57-8cf6-23fc8fcde054.jpg?1547518758' },
     mana_cost: '',
     cmc: 0,
     type_line: 'Land',
     oracle_text:
-     '{T}: Add {C}.\n{4}, {T}: Target creature can\'t be blocked this turn.',
+     "{T}: Add {C}.\n{4}, {T}: Target creature can't be blocked this turn.",
     colors: [],
     color_identity: [],
     legalities:
@@ -392,11 +388,10 @@ module.exports = [ { object: 'card',
        legacy: 'legal',
        pauper: 'not_legal',
        vintage: 'legal',
-       penny: 'legal',
+       penny: 'not_legal',
        commander: 'legal',
-       '1v1': 'legal',
        duel: 'legal',
-       brawl: 'not_legal' },
+       oldschool: 'not_legal' },
     games: [ 'mtgo', 'paper' ],
     reserved: false,
     foil: true,
@@ -427,7 +422,7 @@ module.exports = [ { object: 'card',
     frame_effect: '',
     full_art: false,
     story_spotlight: false,
-    edhrec_rank: 28,
+    edhrec_rank: 26,
     related_uris:
      { gatherer:
         'http://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=456846',
@@ -455,22 +450,22 @@ module.exports = [ { object: 'card',
     highres_image: true,
     image_uris:
      { small:
-        'https://img.scryfall.com/cards/small/front/7/9/79e6b8fc-6627-47ab-bfd1-7300e13debec.jpg?1545071360',
+        'https://img.scryfall.com/cards/small/front/7/9/79e6b8fc-6627-47ab-bfd1-7300e13debec.jpg?1547518746',
        normal:
-        'https://img.scryfall.com/cards/normal/front/7/9/79e6b8fc-6627-47ab-bfd1-7300e13debec.jpg?1545071360',
+        'https://img.scryfall.com/cards/normal/front/7/9/79e6b8fc-6627-47ab-bfd1-7300e13debec.jpg?1547518746',
        large:
-        'https://img.scryfall.com/cards/large/front/7/9/79e6b8fc-6627-47ab-bfd1-7300e13debec.jpg?1545071360',
+        'https://img.scryfall.com/cards/large/front/7/9/79e6b8fc-6627-47ab-bfd1-7300e13debec.jpg?1547518746',
        png:
-        'https://img.scryfall.com/cards/png/front/7/9/79e6b8fc-6627-47ab-bfd1-7300e13debec.png?1545071360',
+        'https://img.scryfall.com/cards/png/front/7/9/79e6b8fc-6627-47ab-bfd1-7300e13debec.png?1547518746',
        art_crop:
-        'https://img.scryfall.com/cards/art_crop/front/7/9/79e6b8fc-6627-47ab-bfd1-7300e13debec.jpg?1545071360',
+        'https://img.scryfall.com/cards/art_crop/front/7/9/79e6b8fc-6627-47ab-bfd1-7300e13debec.jpg?1547518746',
        border_crop:
-        'https://img.scryfall.com/cards/border_crop/front/7/9/79e6b8fc-6627-47ab-bfd1-7300e13debec.jpg?1545071360' },
+        'https://img.scryfall.com/cards/border_crop/front/7/9/79e6b8fc-6627-47ab-bfd1-7300e13debec.jpg?1547518746' },
     mana_cost: '',
     cmc: 0,
     type_line: 'Land',
     oracle_text:
-     'Raging Ravine enters the battlefield tapped.\n{T}: Add {R} or {G}.\n{2}{R}{G}: Until end of turn, Raging Ravine becomes a 3/3 red and green Elemental creature with "Whenever this creature attacks, put a +1/+1 counter on it." It\'s still a land.',
+     `Raging Ravine enters the battlefield tapped.\n{T}: Add {R} or {G}.\n{2}{R}{G}: Until end of turn, Raging Ravine becomes a 3/3 red and green Elemental creature with "Whenever this creature attacks, put a +1/+1 counter on it." It's still a land.`,
     colors: [],
     color_identity: [ 'G', 'R' ],
     legalities:
@@ -483,9 +478,8 @@ module.exports = [ { object: 'card',
        vintage: 'legal',
        penny: 'not_legal',
        commander: 'legal',
-       '1v1': 'legal',
        duel: 'legal',
-       brawl: 'not_legal' },
+       oldschool: 'not_legal' },
     games: [ 'mtgo', 'paper' ],
     reserved: false,
     foil: true,
@@ -514,7 +508,7 @@ module.exports = [ { object: 'card',
     frame_effect: '',
     full_art: false,
     story_spotlight: false,
-    edhrec_rank: 2430,
+    edhrec_rank: 2435,
     related_uris:
      { gatherer:
         'http://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=456845',
@@ -538,20 +532,20 @@ module.exports = [ { object: 'card',
     scryfall_uri:
      'https://scryfall.com/card/uma/248/phyrexian-tower?utm_source=api',
     layout: 'normal',
-    highres_image: false,
+    highres_image: true,
     image_uris:
      { small:
-        'https://img.scryfall.com/cards/small/front/c/2/c25dc997-219f-44e9-9003-384f75a606a3.jpg?1542633494',
+        'https://img.scryfall.com/cards/small/front/c/2/c25dc997-219f-44e9-9003-384f75a606a3.jpg?1547518734',
        normal:
-        'https://img.scryfall.com/cards/normal/front/c/2/c25dc997-219f-44e9-9003-384f75a606a3.jpg?1542633494',
+        'https://img.scryfall.com/cards/normal/front/c/2/c25dc997-219f-44e9-9003-384f75a606a3.jpg?1547518734',
        large:
-        'https://img.scryfall.com/cards/large/front/c/2/c25dc997-219f-44e9-9003-384f75a606a3.jpg?1542633494',
+        'https://img.scryfall.com/cards/large/front/c/2/c25dc997-219f-44e9-9003-384f75a606a3.jpg?1547518734',
        png:
-        'https://img.scryfall.com/cards/png/front/c/2/c25dc997-219f-44e9-9003-384f75a606a3.png?1542633494',
+        'https://img.scryfall.com/cards/png/front/c/2/c25dc997-219f-44e9-9003-384f75a606a3.png?1547518734',
        art_crop:
-        'https://img.scryfall.com/cards/art_crop/front/c/2/c25dc997-219f-44e9-9003-384f75a606a3.jpg?1542633494',
+        'https://img.scryfall.com/cards/art_crop/front/c/2/c25dc997-219f-44e9-9003-384f75a606a3.jpg?1547518734',
        border_crop:
-        'https://img.scryfall.com/cards/border_crop/front/c/2/c25dc997-219f-44e9-9003-384f75a606a3.jpg?1542633494' },
+        'https://img.scryfall.com/cards/border_crop/front/c/2/c25dc997-219f-44e9-9003-384f75a606a3.jpg?1547518734' },
     mana_cost: '',
     cmc: 0,
     type_line: 'Legendary Land',
@@ -568,9 +562,8 @@ module.exports = [ { object: 'card',
        vintage: 'legal',
        penny: 'not_legal',
        commander: 'legal',
-       '1v1': 'legal',
        duel: 'legal',
-       brawl: 'not_legal' },
+       oldschool: 'not_legal' },
     games: [ 'mtgo', 'paper' ],
     reserved: false,
     foil: true,
@@ -601,7 +594,7 @@ module.exports = [ { object: 'card',
     frame_effect: '',
     full_art: false,
     story_spotlight: false,
-    edhrec_rank: 873,
+    edhrec_rank: 802,
     related_uris:
      { gatherer:
         'http://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=456844',
@@ -625,20 +618,20 @@ module.exports = [ { object: 'card',
     scryfall_uri:
      'https://scryfall.com/card/uma/247/mistveil-plains?utm_source=api',
     layout: 'normal',
-    highres_image: false,
+    highres_image: true,
     image_uris:
      { small:
-        'https://img.scryfall.com/cards/small/front/7/2/724acbe2-4c82-4360-a738-38cc6aa0c4a4.jpg?1542805629',
+        'https://img.scryfall.com/cards/small/front/7/2/724acbe2-4c82-4360-a738-38cc6aa0c4a4.jpg?1547518720',
        normal:
-        'https://img.scryfall.com/cards/normal/front/7/2/724acbe2-4c82-4360-a738-38cc6aa0c4a4.jpg?1542805629',
+        'https://img.scryfall.com/cards/normal/front/7/2/724acbe2-4c82-4360-a738-38cc6aa0c4a4.jpg?1547518720',
        large:
-        'https://img.scryfall.com/cards/large/front/7/2/724acbe2-4c82-4360-a738-38cc6aa0c4a4.jpg?1542805629',
+        'https://img.scryfall.com/cards/large/front/7/2/724acbe2-4c82-4360-a738-38cc6aa0c4a4.jpg?1547518720',
        png:
-        'https://img.scryfall.com/cards/png/front/7/2/724acbe2-4c82-4360-a738-38cc6aa0c4a4.png?1542805629',
+        'https://img.scryfall.com/cards/png/front/7/2/724acbe2-4c82-4360-a738-38cc6aa0c4a4.png?1547518720',
        art_crop:
-        'https://img.scryfall.com/cards/art_crop/front/7/2/724acbe2-4c82-4360-a738-38cc6aa0c4a4.jpg?1542805629',
+        'https://img.scryfall.com/cards/art_crop/front/7/2/724acbe2-4c82-4360-a738-38cc6aa0c4a4.jpg?1547518720',
        border_crop:
-        'https://img.scryfall.com/cards/border_crop/front/7/2/724acbe2-4c82-4360-a738-38cc6aa0c4a4.jpg?1542805629' },
+        'https://img.scryfall.com/cards/border_crop/front/7/2/724acbe2-4c82-4360-a738-38cc6aa0c4a4.jpg?1547518720' },
     mana_cost: '',
     cmc: 0,
     type_line: 'Land — Plains',
@@ -656,9 +649,8 @@ module.exports = [ { object: 'card',
        vintage: 'legal',
        penny: 'not_legal',
        commander: 'legal',
-       '1v1': 'legal',
        duel: 'legal',
-       brawl: 'not_legal' },
+       oldschool: 'not_legal' },
     games: [ 'mtgo', 'paper' ],
     reserved: false,
     foil: true,
@@ -687,7 +679,7 @@ module.exports = [ { object: 'card',
     frame_effect: '',
     full_art: false,
     story_spotlight: false,
-    edhrec_rank: 956,
+    edhrec_rank: 955,
     related_uris:
      { gatherer:
         'http://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=456843',
@@ -711,20 +703,20 @@ module.exports = [ { object: 'card',
     scryfall_uri:
      'https://scryfall.com/card/uma/246/mage-ring-network?utm_source=api',
     layout: 'normal',
-    highres_image: false,
+    highres_image: true,
     image_uris:
      { small:
-        'https://img.scryfall.com/cards/small/front/2/9/297e677f-5092-49bb-a63b-ac3269a4c016.jpg?1542805611',
+        'https://img.scryfall.com/cards/small/front/2/9/297e677f-5092-49bb-a63b-ac3269a4c016.jpg?1547518705',
        normal:
-        'https://img.scryfall.com/cards/normal/front/2/9/297e677f-5092-49bb-a63b-ac3269a4c016.jpg?1542805611',
+        'https://img.scryfall.com/cards/normal/front/2/9/297e677f-5092-49bb-a63b-ac3269a4c016.jpg?1547518705',
        large:
-        'https://img.scryfall.com/cards/large/front/2/9/297e677f-5092-49bb-a63b-ac3269a4c016.jpg?1542805611',
+        'https://img.scryfall.com/cards/large/front/2/9/297e677f-5092-49bb-a63b-ac3269a4c016.jpg?1547518705',
        png:
-        'https://img.scryfall.com/cards/png/front/2/9/297e677f-5092-49bb-a63b-ac3269a4c016.png?1542805611',
+        'https://img.scryfall.com/cards/png/front/2/9/297e677f-5092-49bb-a63b-ac3269a4c016.png?1547518705',
        art_crop:
-        'https://img.scryfall.com/cards/art_crop/front/2/9/297e677f-5092-49bb-a63b-ac3269a4c016.jpg?1542805611',
+        'https://img.scryfall.com/cards/art_crop/front/2/9/297e677f-5092-49bb-a63b-ac3269a4c016.jpg?1547518705',
        border_crop:
-        'https://img.scryfall.com/cards/border_crop/front/2/9/297e677f-5092-49bb-a63b-ac3269a4c016.jpg?1542805611' },
+        'https://img.scryfall.com/cards/border_crop/front/2/9/297e677f-5092-49bb-a63b-ac3269a4c016.jpg?1547518705' },
     mana_cost: '',
     cmc: 0,
     type_line: 'Land',
@@ -742,9 +734,8 @@ module.exports = [ { object: 'card',
        vintage: 'legal',
        penny: 'legal',
        commander: 'legal',
-       '1v1': 'legal',
        duel: 'legal',
-       brawl: 'not_legal' },
+       oldschool: 'not_legal' },
     games: [ 'mtgo', 'paper' ],
     reserved: false,
     foil: true,
@@ -773,7 +764,7 @@ module.exports = [ { object: 'card',
     frame_effect: '',
     full_art: false,
     story_spotlight: false,
-    edhrec_rank: 1517,
+    edhrec_rank: 1526,
     related_uris:
      { gatherer:
         'http://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=456842',
@@ -801,22 +792,22 @@ module.exports = [ { object: 'card',
     highres_image: true,
     image_uris:
      { small:
-        'https://img.scryfall.com/cards/small/front/4/0/409fcd0c-8449-4623-8bf0-cd7ca0937a4a.jpg?1545069343',
+        'https://img.scryfall.com/cards/small/front/4/0/409fcd0c-8449-4623-8bf0-cd7ca0937a4a.jpg?1547518687',
        normal:
-        'https://img.scryfall.com/cards/normal/front/4/0/409fcd0c-8449-4623-8bf0-cd7ca0937a4a.jpg?1545069343',
+        'https://img.scryfall.com/cards/normal/front/4/0/409fcd0c-8449-4623-8bf0-cd7ca0937a4a.jpg?1547518687',
        large:
-        'https://img.scryfall.com/cards/large/front/4/0/409fcd0c-8449-4623-8bf0-cd7ca0937a4a.jpg?1545069343',
+        'https://img.scryfall.com/cards/large/front/4/0/409fcd0c-8449-4623-8bf0-cd7ca0937a4a.jpg?1547518687',
        png:
-        'https://img.scryfall.com/cards/png/front/4/0/409fcd0c-8449-4623-8bf0-cd7ca0937a4a.png?1545069343',
+        'https://img.scryfall.com/cards/png/front/4/0/409fcd0c-8449-4623-8bf0-cd7ca0937a4a.png?1547518687',
        art_crop:
-        'https://img.scryfall.com/cards/art_crop/front/4/0/409fcd0c-8449-4623-8bf0-cd7ca0937a4a.jpg?1545069343',
+        'https://img.scryfall.com/cards/art_crop/front/4/0/409fcd0c-8449-4623-8bf0-cd7ca0937a4a.jpg?1547518687',
        border_crop:
-        'https://img.scryfall.com/cards/border_crop/front/4/0/409fcd0c-8449-4623-8bf0-cd7ca0937a4a.jpg?1545069343' },
+        'https://img.scryfall.com/cards/border_crop/front/4/0/409fcd0c-8449-4623-8bf0-cd7ca0937a4a.jpg?1547518687' },
     mana_cost: '',
     cmc: 0,
     type_line: 'Land',
     oracle_text:
-     'Lavaclaw Reaches enters the battlefield tapped.\n{T}: Add {B} or {R}.\n{1}{B}{R}: Until end of turn, Lavaclaw Reaches becomes a 2/2 black and red Elemental creature with "{X}: This creature gets +X/+0 until end of turn." It\'s still a land.',
+     `Lavaclaw Reaches enters the battlefield tapped.\n{T}: Add {B} or {R}.\n{1}{B}{R}: Until end of turn, Lavaclaw Reaches becomes a 2/2 black and red Elemental creature with "{X}: This creature gets +X/+0 until end of turn." It's still a land.`,
     colors: [],
     color_identity: [ 'B', 'R' ],
     legalities:
@@ -827,11 +818,10 @@ module.exports = [ { object: 'card',
        legacy: 'legal',
        pauper: 'not_legal',
        vintage: 'legal',
-       penny: 'not_legal',
+       penny: 'legal',
        commander: 'legal',
-       '1v1': 'legal',
        duel: 'legal',
-       brawl: 'not_legal' },
+       oldschool: 'not_legal' },
     games: [ 'mtgo', 'paper' ],
     reserved: false,
     foil: true,
@@ -860,7 +850,7 @@ module.exports = [ { object: 'card',
     frame_effect: '',
     full_art: false,
     story_spotlight: false,
-    edhrec_rank: 2142,
+    edhrec_rank: 2166,
     related_uris:
      { gatherer:
         'http://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=456841',
@@ -887,22 +877,22 @@ module.exports = [ { object: 'card',
     highres_image: true,
     image_uris:
      { small:
-        'https://img.scryfall.com/cards/small/front/e/5/e52214e1-404a-405a-b08e-20e13c087338.jpg?1545069008',
+        'https://img.scryfall.com/cards/small/front/e/5/e52214e1-404a-405a-b08e-20e13c087338.jpg?1547518668',
        normal:
-        'https://img.scryfall.com/cards/normal/front/e/5/e52214e1-404a-405a-b08e-20e13c087338.jpg?1545069008',
+        'https://img.scryfall.com/cards/normal/front/e/5/e52214e1-404a-405a-b08e-20e13c087338.jpg?1547518668',
        large:
-        'https://img.scryfall.com/cards/large/front/e/5/e52214e1-404a-405a-b08e-20e13c087338.jpg?1545069008',
+        'https://img.scryfall.com/cards/large/front/e/5/e52214e1-404a-405a-b08e-20e13c087338.jpg?1547518668',
        png:
-        'https://img.scryfall.com/cards/png/front/e/5/e52214e1-404a-405a-b08e-20e13c087338.png?1545069008',
+        'https://img.scryfall.com/cards/png/front/e/5/e52214e1-404a-405a-b08e-20e13c087338.png?1547518668',
        art_crop:
-        'https://img.scryfall.com/cards/art_crop/front/e/5/e52214e1-404a-405a-b08e-20e13c087338.jpg?1545069008',
+        'https://img.scryfall.com/cards/art_crop/front/e/5/e52214e1-404a-405a-b08e-20e13c087338.jpg?1547518668',
        border_crop:
-        'https://img.scryfall.com/cards/border_crop/front/e/5/e52214e1-404a-405a-b08e-20e13c087338.jpg?1545069008' },
+        'https://img.scryfall.com/cards/border_crop/front/e/5/e52214e1-404a-405a-b08e-20e13c087338.jpg?1547518668' },
     mana_cost: '',
     cmc: 0,
     type_line: 'Legendary Land',
     oracle_text:
-     '{T}: Add {W}.\n{T}: Return target legendary creature to its owner\'s hand.',
+     "{T}: Add {W}.\n{T}: Return target legendary creature to its owner's hand.",
     colors: [],
     color_identity: [ 'W' ],
     legalities:
@@ -915,9 +905,8 @@ module.exports = [ { object: 'card',
        vintage: 'legal',
        penny: 'not_legal',
        commander: 'banned',
-       '1v1': 'banned',
        duel: 'banned',
-       brawl: 'not_legal' },
+       oldschool: 'not_legal' },
     games: [ 'mtgo', 'paper' ],
     reserved: false,
     foil: true,
@@ -969,20 +958,20 @@ module.exports = [ { object: 'card',
     scryfall_uri:
      'https://scryfall.com/card/uma/243/flagstones-of-trokair?utm_source=api',
     layout: 'normal',
-    highres_image: false,
+    highres_image: true,
     image_uris:
      { small:
-        'https://img.scryfall.com/cards/small/front/e/9/e93d3a9f-abc2-4f63-a74d-e5936609386f.jpg?1542806304',
+        'https://img.scryfall.com/cards/small/front/e/9/e93d3a9f-abc2-4f63-a74d-e5936609386f.jpg?1547518654',
        normal:
-        'https://img.scryfall.com/cards/normal/front/e/9/e93d3a9f-abc2-4f63-a74d-e5936609386f.jpg?1542806304',
+        'https://img.scryfall.com/cards/normal/front/e/9/e93d3a9f-abc2-4f63-a74d-e5936609386f.jpg?1547518654',
        large:
-        'https://img.scryfall.com/cards/large/front/e/9/e93d3a9f-abc2-4f63-a74d-e5936609386f.jpg?1542806304',
+        'https://img.scryfall.com/cards/large/front/e/9/e93d3a9f-abc2-4f63-a74d-e5936609386f.jpg?1547518654',
        png:
-        'https://img.scryfall.com/cards/png/front/e/9/e93d3a9f-abc2-4f63-a74d-e5936609386f.png?1542806304',
+        'https://img.scryfall.com/cards/png/front/e/9/e93d3a9f-abc2-4f63-a74d-e5936609386f.png?1547518654',
        art_crop:
-        'https://img.scryfall.com/cards/art_crop/front/e/9/e93d3a9f-abc2-4f63-a74d-e5936609386f.jpg?1542806304',
+        'https://img.scryfall.com/cards/art_crop/front/e/9/e93d3a9f-abc2-4f63-a74d-e5936609386f.jpg?1547518654',
        border_crop:
-        'https://img.scryfall.com/cards/border_crop/front/e/9/e93d3a9f-abc2-4f63-a74d-e5936609386f.jpg?1542806304' },
+        'https://img.scryfall.com/cards/border_crop/front/e/9/e93d3a9f-abc2-4f63-a74d-e5936609386f.jpg?1547518654' },
     mana_cost: '',
     cmc: 0,
     type_line: 'Legendary Land',
@@ -1000,9 +989,8 @@ module.exports = [ { object: 'card',
        vintage: 'legal',
        penny: 'not_legal',
        commander: 'legal',
-       '1v1': 'legal',
        duel: 'legal',
-       brawl: 'not_legal' },
+       oldschool: 'not_legal' },
     games: [ 'mtgo', 'paper' ],
     reserved: false,
     foil: true,
@@ -1033,7 +1021,7 @@ module.exports = [ { object: 'card',
     frame_effect: '',
     full_art: false,
     story_spotlight: false,
-    edhrec_rank: 1878,
+    edhrec_rank: 1895,
     related_uris:
      { gatherer:
         'http://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=456839',
@@ -1057,20 +1045,20 @@ module.exports = [ { object: 'card',
     scryfall_uri:
      'https://scryfall.com/card/uma/242/desolate-lighthouse?utm_source=api',
     layout: 'normal',
-    highres_image: false,
+    highres_image: true,
     image_uris:
      { small:
-        'https://img.scryfall.com/cards/small/front/9/f/9f12cfe8-76cf-4709-bdc4-62c059f4eebd.jpg?1542805593',
+        'https://img.scryfall.com/cards/small/front/9/f/9f12cfe8-76cf-4709-bdc4-62c059f4eebd.jpg?1547522201',
        normal:
-        'https://img.scryfall.com/cards/normal/front/9/f/9f12cfe8-76cf-4709-bdc4-62c059f4eebd.jpg?1542805593',
+        'https://img.scryfall.com/cards/normal/front/9/f/9f12cfe8-76cf-4709-bdc4-62c059f4eebd.jpg?1547522201',
        large:
-        'https://img.scryfall.com/cards/large/front/9/f/9f12cfe8-76cf-4709-bdc4-62c059f4eebd.jpg?1542805593',
+        'https://img.scryfall.com/cards/large/front/9/f/9f12cfe8-76cf-4709-bdc4-62c059f4eebd.jpg?1547522201',
        png:
-        'https://img.scryfall.com/cards/png/front/9/f/9f12cfe8-76cf-4709-bdc4-62c059f4eebd.png?1542805593',
+        'https://img.scryfall.com/cards/png/front/9/f/9f12cfe8-76cf-4709-bdc4-62c059f4eebd.png?1547522201',
        art_crop:
-        'https://img.scryfall.com/cards/art_crop/front/9/f/9f12cfe8-76cf-4709-bdc4-62c059f4eebd.jpg?1542805593',
+        'https://img.scryfall.com/cards/art_crop/front/9/f/9f12cfe8-76cf-4709-bdc4-62c059f4eebd.jpg?1547522201',
        border_crop:
-        'https://img.scryfall.com/cards/border_crop/front/9/f/9f12cfe8-76cf-4709-bdc4-62c059f4eebd.jpg?1542805593' },
+        'https://img.scryfall.com/cards/border_crop/front/9/f/9f12cfe8-76cf-4709-bdc4-62c059f4eebd.jpg?1547522201' },
     mana_cost: '',
     cmc: 0,
     type_line: 'Land',
@@ -1088,9 +1076,8 @@ module.exports = [ { object: 'card',
        vintage: 'legal',
        penny: 'not_legal',
        commander: 'legal',
-       '1v1': 'legal',
        duel: 'legal',
-       brawl: 'not_legal' },
+       oldschool: 'not_legal' },
     games: [ 'mtgo', 'paper' ],
     reserved: false,
     foil: true,
@@ -1149,17 +1136,17 @@ module.exports = [ { object: 'card',
     highres_image: true,
     image_uris:
      { small:
-        'https://img.scryfall.com/cards/small/front/e/0/e00d16f9-ea27-4aa3-a134-4e04f934d020.jpg?1545068554',
+        'https://img.scryfall.com/cards/small/front/e/0/e00d16f9-ea27-4aa3-a134-4e04f934d020.jpg?1547522199',
        normal:
-        'https://img.scryfall.com/cards/normal/front/e/0/e00d16f9-ea27-4aa3-a134-4e04f934d020.jpg?1545068554',
+        'https://img.scryfall.com/cards/normal/front/e/0/e00d16f9-ea27-4aa3-a134-4e04f934d020.jpg?1547522199',
        large:
-        'https://img.scryfall.com/cards/large/front/e/0/e00d16f9-ea27-4aa3-a134-4e04f934d020.jpg?1545068554',
+        'https://img.scryfall.com/cards/large/front/e/0/e00d16f9-ea27-4aa3-a134-4e04f934d020.jpg?1547522199',
        png:
-        'https://img.scryfall.com/cards/png/front/e/0/e00d16f9-ea27-4aa3-a134-4e04f934d020.png?1545068554',
+        'https://img.scryfall.com/cards/png/front/e/0/e00d16f9-ea27-4aa3-a134-4e04f934d020.png?1547522199',
        art_crop:
-        'https://img.scryfall.com/cards/art_crop/front/e/0/e00d16f9-ea27-4aa3-a134-4e04f934d020.jpg?1545068554',
+        'https://img.scryfall.com/cards/art_crop/front/e/0/e00d16f9-ea27-4aa3-a134-4e04f934d020.jpg?1547522199',
        border_crop:
-        'https://img.scryfall.com/cards/border_crop/front/e/0/e00d16f9-ea27-4aa3-a134-4e04f934d020.jpg?1545068554' },
+        'https://img.scryfall.com/cards/border_crop/front/e/0/e00d16f9-ea27-4aa3-a134-4e04f934d020.jpg?1547522199' },
     mana_cost: '',
     cmc: 0,
     type_line: 'Legendary Snow Land',
@@ -1169,12 +1156,12 @@ module.exports = [ { object: 'card',
     color_identity: [],
     all_parts:
      [ { object: 'related_card',
-         id: 'e8fa97f8-2f52-426a-84f3-a7b85fda1344',
+         id: 'e00d16f9-ea27-4aa3-a134-4e04f934d020',
          component: 'combo_piece',
          name: 'Dark Depths',
          type_line: 'Legendary Snow Land',
          uri:
-          'https://api.scryfall.com/cards/e8fa97f8-2f52-426a-84f3-a7b85fda1344' },
+          'https://api.scryfall.com/cards/e00d16f9-ea27-4aa3-a134-4e04f934d020' },
        { object: 'related_card',
          id: '105e687e-7196-4010-a6b7-cfa42d998fa4',
          component: 'token',
@@ -1192,9 +1179,8 @@ module.exports = [ { object: 'card',
        vintage: 'legal',
        penny: 'not_legal',
        commander: 'legal',
-       '1v1': 'legal',
        duel: 'legal',
-       brawl: 'not_legal' },
+       oldschool: 'not_legal' },
     games: [ 'mtgo', 'paper' ],
     reserved: false,
     foil: true,
@@ -1223,7 +1209,7 @@ module.exports = [ { object: 'card',
     frame_effect: '',
     full_art: false,
     story_spotlight: false,
-    edhrec_rank: 1750,
+    edhrec_rank: 1737,
     related_uris:
      { gatherer:
         'http://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=456837',
@@ -1247,20 +1233,20 @@ module.exports = [ { object: 'card',
     scryfall_uri:
      'https://scryfall.com/card/uma/240/dakmor-salvage?utm_source=api',
     layout: 'normal',
-    highres_image: false,
+    highres_image: true,
     image_uris:
      { small:
-        'https://img.scryfall.com/cards/small/front/5/8/58329049-2141-498a-8b73-653610c05ea6.jpg?1542759898',
+        'https://img.scryfall.com/cards/small/front/5/8/58329049-2141-498a-8b73-653610c05ea6.jpg?1547518608',
        normal:
-        'https://img.scryfall.com/cards/normal/front/5/8/58329049-2141-498a-8b73-653610c05ea6.jpg?1542759898',
+        'https://img.scryfall.com/cards/normal/front/5/8/58329049-2141-498a-8b73-653610c05ea6.jpg?1547518608',
        large:
-        'https://img.scryfall.com/cards/large/front/5/8/58329049-2141-498a-8b73-653610c05ea6.jpg?1542759898',
+        'https://img.scryfall.com/cards/large/front/5/8/58329049-2141-498a-8b73-653610c05ea6.jpg?1547518608',
        png:
-        'https://img.scryfall.com/cards/png/front/5/8/58329049-2141-498a-8b73-653610c05ea6.png?1542759898',
+        'https://img.scryfall.com/cards/png/front/5/8/58329049-2141-498a-8b73-653610c05ea6.png?1547518608',
        art_crop:
-        'https://img.scryfall.com/cards/art_crop/front/5/8/58329049-2141-498a-8b73-653610c05ea6.jpg?1542759898',
+        'https://img.scryfall.com/cards/art_crop/front/5/8/58329049-2141-498a-8b73-653610c05ea6.jpg?1547518608',
        border_crop:
-        'https://img.scryfall.com/cards/border_crop/front/5/8/58329049-2141-498a-8b73-653610c05ea6.jpg?1542759898' },
+        'https://img.scryfall.com/cards/border_crop/front/5/8/58329049-2141-498a-8b73-653610c05ea6.jpg?1547518608' },
     mana_cost: '',
     cmc: 0,
     type_line: 'Land',
@@ -1278,9 +1264,8 @@ module.exports = [ { object: 'card',
        vintage: 'legal',
        penny: 'not_legal',
        commander: 'legal',
-       '1v1': 'legal',
        duel: 'legal',
-       brawl: 'not_legal' },
+       oldschool: 'not_legal' },
     games: [ 'mtgo', 'paper' ],
     reserved: false,
     foil: true,
@@ -1309,7 +1294,7 @@ module.exports = [ { object: 'card',
     frame_effect: '',
     full_art: false,
     story_spotlight: false,
-    edhrec_rank: 1305,
+    edhrec_rank: 1263,
     related_uris:
      { gatherer:
         'http://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=456836',
@@ -1337,22 +1322,22 @@ module.exports = [ { object: 'card',
     highres_image: true,
     image_uris:
      { small:
-        'https://img.scryfall.com/cards/small/front/1/2/1250441b-8255-4ae1-b064-a75eb24faaf3.jpg?1545068504',
+        'https://img.scryfall.com/cards/small/front/1/2/1250441b-8255-4ae1-b064-a75eb24faaf3.jpg?1547518594',
        normal:
-        'https://img.scryfall.com/cards/normal/front/1/2/1250441b-8255-4ae1-b064-a75eb24faaf3.jpg?1545068504',
+        'https://img.scryfall.com/cards/normal/front/1/2/1250441b-8255-4ae1-b064-a75eb24faaf3.jpg?1547518594',
        large:
-        'https://img.scryfall.com/cards/large/front/1/2/1250441b-8255-4ae1-b064-a75eb24faaf3.jpg?1545068504',
+        'https://img.scryfall.com/cards/large/front/1/2/1250441b-8255-4ae1-b064-a75eb24faaf3.jpg?1547518594',
        png:
-        'https://img.scryfall.com/cards/png/front/1/2/1250441b-8255-4ae1-b064-a75eb24faaf3.png?1545068504',
+        'https://img.scryfall.com/cards/png/front/1/2/1250441b-8255-4ae1-b064-a75eb24faaf3.png?1547518594',
        art_crop:
-        'https://img.scryfall.com/cards/art_crop/front/1/2/1250441b-8255-4ae1-b064-a75eb24faaf3.jpg?1545068504',
+        'https://img.scryfall.com/cards/art_crop/front/1/2/1250441b-8255-4ae1-b064-a75eb24faaf3.jpg?1547518594',
        border_crop:
-        'https://img.scryfall.com/cards/border_crop/front/1/2/1250441b-8255-4ae1-b064-a75eb24faaf3.jpg?1545068504' },
+        'https://img.scryfall.com/cards/border_crop/front/1/2/1250441b-8255-4ae1-b064-a75eb24faaf3.jpg?1547518594' },
     mana_cost: '',
     cmc: 0,
     type_line: 'Land',
     oracle_text:
-     'Creeping Tar Pit enters the battlefield tapped.\n{T}: Add {U} or {B}.\n{1}{U}{B}: Creeping Tar Pit becomes a 3/2 blue and black Elemental creature until end of turn and can\'t be blocked this turn. It\'s still a land.',
+     "Creeping Tar Pit enters the battlefield tapped.\n{T}: Add {U} or {B}.\n{1}{U}{B}: Creeping Tar Pit becomes a 3/2 blue and black Elemental creature until end of turn and can't be blocked this turn. It's still a land.",
     colors: [],
     color_identity: [ 'B', 'U' ],
     legalities:
@@ -1365,9 +1350,8 @@ module.exports = [ { object: 'card',
        vintage: 'legal',
        penny: 'not_legal',
        commander: 'legal',
-       '1v1': 'legal',
        duel: 'legal',
-       brawl: 'not_legal' },
+       oldschool: 'not_legal' },
     games: [ 'mtgo', 'paper' ],
     reserved: false,
     foil: true,
@@ -1396,7 +1380,7 @@ module.exports = [ { object: 'card',
     frame_effect: '',
     full_art: false,
     story_spotlight: false,
-    edhrec_rank: 1828,
+    edhrec_rank: 1816,
     related_uris:
      { gatherer:
         'http://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=456835',
@@ -1424,22 +1408,22 @@ module.exports = [ { object: 'card',
     highres_image: true,
     image_uris:
      { small:
-        'https://img.scryfall.com/cards/small/front/4/c/4c830a99-595b-4aed-9f6b-85a78917f498.jpg?1545068100',
+        'https://img.scryfall.com/cards/small/front/4/c/4c830a99-595b-4aed-9f6b-85a78917f498.jpg?1547518582',
        normal:
-        'https://img.scryfall.com/cards/normal/front/4/c/4c830a99-595b-4aed-9f6b-85a78917f498.jpg?1545068100',
+        'https://img.scryfall.com/cards/normal/front/4/c/4c830a99-595b-4aed-9f6b-85a78917f498.jpg?1547518582',
        large:
-        'https://img.scryfall.com/cards/large/front/4/c/4c830a99-595b-4aed-9f6b-85a78917f498.jpg?1545068100',
+        'https://img.scryfall.com/cards/large/front/4/c/4c830a99-595b-4aed-9f6b-85a78917f498.jpg?1547518582',
        png:
-        'https://img.scryfall.com/cards/png/front/4/c/4c830a99-595b-4aed-9f6b-85a78917f498.png?1545068100',
+        'https://img.scryfall.com/cards/png/front/4/c/4c830a99-595b-4aed-9f6b-85a78917f498.png?1547518582',
        art_crop:
-        'https://img.scryfall.com/cards/art_crop/front/4/c/4c830a99-595b-4aed-9f6b-85a78917f498.jpg?1545068100',
+        'https://img.scryfall.com/cards/art_crop/front/4/c/4c830a99-595b-4aed-9f6b-85a78917f498.jpg?1547518582',
        border_crop:
-        'https://img.scryfall.com/cards/border_crop/front/4/c/4c830a99-595b-4aed-9f6b-85a78917f498.jpg?1545068100' },
+        'https://img.scryfall.com/cards/border_crop/front/4/c/4c830a99-595b-4aed-9f6b-85a78917f498.jpg?1547518582' },
     mana_cost: '',
     cmc: 0,
     type_line: 'Land',
     oracle_text:
-     'Celestial Colonnade enters the battlefield tapped.\n{T}: Add {W} or {U}.\n{3}{W}{U}: Until end of turn, Celestial Colonnade becomes a 4/4 white and blue Elemental creature with flying and vigilance. It\'s still a land.',
+     "Celestial Colonnade enters the battlefield tapped.\n{T}: Add {W} or {U}.\n{3}{W}{U}: Until end of turn, Celestial Colonnade becomes a 4/4 white and blue Elemental creature with flying and vigilance. It's still a land.",
     colors: [],
     color_identity: [ 'U', 'W' ],
     legalities:
@@ -1452,9 +1436,8 @@ module.exports = [ { object: 'card',
        vintage: 'legal',
        penny: 'not_legal',
        commander: 'legal',
-       '1v1': 'legal',
        duel: 'legal',
-       brawl: 'not_legal' },
+       oldschool: 'not_legal' },
     games: [ 'mtgo', 'paper' ],
     reserved: false,
     foil: true,
@@ -1483,7 +1466,7 @@ module.exports = [ { object: 'card',
     frame_effect: '',
     full_art: false,
     story_spotlight: false,
-    edhrec_rank: 2002,
+    edhrec_rank: 2033,
     related_uris:
      { gatherer:
         'http://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=456834',
@@ -1508,25 +1491,25 @@ module.exports = [ { object: 'card',
     scryfall_uri:
      'https://scryfall.com/card/uma/237/cavern-of-souls?utm_source=api',
     layout: 'normal',
-    highres_image: false,
+    highres_image: true,
     image_uris:
      { small:
-        'https://img.scryfall.com/cards/small/front/2/5/25976cb2-3123-4935-adcc-70e3db51d381.jpg?1545068038',
+        'https://img.scryfall.com/cards/small/front/2/5/25976cb2-3123-4935-adcc-70e3db51d381.jpg?1547518571',
        normal:
-        'https://img.scryfall.com/cards/normal/front/2/5/25976cb2-3123-4935-adcc-70e3db51d381.jpg?1545068038',
+        'https://img.scryfall.com/cards/normal/front/2/5/25976cb2-3123-4935-adcc-70e3db51d381.jpg?1547518571',
        large:
-        'https://img.scryfall.com/cards/large/front/2/5/25976cb2-3123-4935-adcc-70e3db51d381.jpg?1545068038',
+        'https://img.scryfall.com/cards/large/front/2/5/25976cb2-3123-4935-adcc-70e3db51d381.jpg?1547518571',
        png:
-        'https://img.scryfall.com/cards/png/front/2/5/25976cb2-3123-4935-adcc-70e3db51d381.png?1545068038',
+        'https://img.scryfall.com/cards/png/front/2/5/25976cb2-3123-4935-adcc-70e3db51d381.png?1547518571',
        art_crop:
-        'https://img.scryfall.com/cards/art_crop/front/2/5/25976cb2-3123-4935-adcc-70e3db51d381.jpg?1545068038',
+        'https://img.scryfall.com/cards/art_crop/front/2/5/25976cb2-3123-4935-adcc-70e3db51d381.jpg?1547518571',
        border_crop:
-        'https://img.scryfall.com/cards/border_crop/front/2/5/25976cb2-3123-4935-adcc-70e3db51d381.jpg?1545068038' },
+        'https://img.scryfall.com/cards/border_crop/front/2/5/25976cb2-3123-4935-adcc-70e3db51d381.jpg?1547518571' },
     mana_cost: '',
     cmc: 0,
     type_line: 'Land',
     oracle_text:
-     'As Cavern of Souls enters the battlefield, choose a creature type.\n{T}: Add {C}.\n{T}: Add one mana of any color. Spend this mana only to cast a creature spell of the chosen type, and that spell can\'t be countered.',
+     "As Cavern of Souls enters the battlefield, choose a creature type.\n{T}: Add {C}.\n{T}: Add one mana of any color. Spend this mana only to cast a creature spell of the chosen type, and that spell can't be countered.",
     colors: [],
     color_identity: [],
     legalities:
@@ -1539,9 +1522,8 @@ module.exports = [ { object: 'card',
        vintage: 'legal',
        penny: 'not_legal',
        commander: 'legal',
-       '1v1': 'legal',
        duel: 'legal',
-       brawl: 'not_legal' },
+       oldschool: 'not_legal' },
     games: [ 'mtgo', 'paper' ],
     reserved: false,
     foil: true,
@@ -1570,7 +1552,7 @@ module.exports = [ { object: 'card',
     frame_effect: '',
     full_art: false,
     story_spotlight: false,
-    edhrec_rank: 198,
+    edhrec_rank: 194,
     related_uris:
      { gatherer:
         'http://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=456833',
@@ -1598,17 +1580,17 @@ module.exports = [ { object: 'card',
     highres_image: true,
     image_uris:
      { small:
-        'https://img.scryfall.com/cards/small/front/b/d/bd3d4b4b-cf31-4f89-8140-9650edb03c7b.jpg?1545067798',
+        'https://img.scryfall.com/cards/small/front/b/d/bd3d4b4b-cf31-4f89-8140-9650edb03c7b.jpg?1547518556',
        normal:
-        'https://img.scryfall.com/cards/normal/front/b/d/bd3d4b4b-cf31-4f89-8140-9650edb03c7b.jpg?1545067798',
+        'https://img.scryfall.com/cards/normal/front/b/d/bd3d4b4b-cf31-4f89-8140-9650edb03c7b.jpg?1547518556',
        large:
-        'https://img.scryfall.com/cards/large/front/b/d/bd3d4b4b-cf31-4f89-8140-9650edb03c7b.jpg?1545067798',
+        'https://img.scryfall.com/cards/large/front/b/d/bd3d4b4b-cf31-4f89-8140-9650edb03c7b.jpg?1547518556',
        png:
-        'https://img.scryfall.com/cards/png/front/b/d/bd3d4b4b-cf31-4f89-8140-9650edb03c7b.png?1545067798',
+        'https://img.scryfall.com/cards/png/front/b/d/bd3d4b4b-cf31-4f89-8140-9650edb03c7b.png?1547518556',
        art_crop:
-        'https://img.scryfall.com/cards/art_crop/front/b/d/bd3d4b4b-cf31-4f89-8140-9650edb03c7b.jpg?1545067798',
+        'https://img.scryfall.com/cards/art_crop/front/b/d/bd3d4b4b-cf31-4f89-8140-9650edb03c7b.jpg?1547518556',
        border_crop:
-        'https://img.scryfall.com/cards/border_crop/front/b/d/bd3d4b4b-cf31-4f89-8140-9650edb03c7b.jpg?1545067798' },
+        'https://img.scryfall.com/cards/border_crop/front/b/d/bd3d4b4b-cf31-4f89-8140-9650edb03c7b.jpg?1547518556' },
     mana_cost: '',
     cmc: 0,
     type_line: 'Land',
@@ -1625,9 +1607,8 @@ module.exports = [ { object: 'card',
        vintage: 'legal',
        penny: 'not_legal',
        commander: 'legal',
-       '1v1': 'legal',
        duel: 'legal',
-       brawl: 'not_legal' },
+       oldschool: 'not_legal' },
     games: [ 'mtgo', 'paper' ],
     reserved: false,
     foil: true,
@@ -1658,7 +1639,7 @@ module.exports = [ { object: 'card',
     frame_effect: '',
     full_art: false,
     story_spotlight: false,
-    edhrec_rank: 140,
+    edhrec_rank: 127,
     related_uris:
      { gatherer:
         'http://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=456832',
@@ -1682,25 +1663,25 @@ module.exports = [ { object: 'card',
     scryfall_uri:
      'https://scryfall.com/card/uma/235/vessel-of-endless-rest?utm_source=api',
     layout: 'normal',
-    highres_image: false,
+    highres_image: true,
     image_uris:
      { small:
-        'https://img.scryfall.com/cards/small/front/9/3/93ec86a5-7d2f-4413-919e-b4f7c70457df.jpg?1542805872',
+        'https://img.scryfall.com/cards/small/front/9/3/93ec86a5-7d2f-4413-919e-b4f7c70457df.jpg?1547518540',
        normal:
-        'https://img.scryfall.com/cards/normal/front/9/3/93ec86a5-7d2f-4413-919e-b4f7c70457df.jpg?1542805872',
+        'https://img.scryfall.com/cards/normal/front/9/3/93ec86a5-7d2f-4413-919e-b4f7c70457df.jpg?1547518540',
        large:
-        'https://img.scryfall.com/cards/large/front/9/3/93ec86a5-7d2f-4413-919e-b4f7c70457df.jpg?1542805872',
+        'https://img.scryfall.com/cards/large/front/9/3/93ec86a5-7d2f-4413-919e-b4f7c70457df.jpg?1547518540',
        png:
-        'https://img.scryfall.com/cards/png/front/9/3/93ec86a5-7d2f-4413-919e-b4f7c70457df.png?1542805872',
+        'https://img.scryfall.com/cards/png/front/9/3/93ec86a5-7d2f-4413-919e-b4f7c70457df.png?1547518540',
        art_crop:
-        'https://img.scryfall.com/cards/art_crop/front/9/3/93ec86a5-7d2f-4413-919e-b4f7c70457df.jpg?1542805872',
+        'https://img.scryfall.com/cards/art_crop/front/9/3/93ec86a5-7d2f-4413-919e-b4f7c70457df.jpg?1547518540',
        border_crop:
-        'https://img.scryfall.com/cards/border_crop/front/9/3/93ec86a5-7d2f-4413-919e-b4f7c70457df.jpg?1542805872' },
+        'https://img.scryfall.com/cards/border_crop/front/9/3/93ec86a5-7d2f-4413-919e-b4f7c70457df.jpg?1547518540' },
     mana_cost: '{3}',
     cmc: 3,
     type_line: 'Artifact',
     oracle_text:
-     'When Vessel of Endless Rest enters the battlefield, put target card from a graveyard on the bottom of its owner\'s library.\n{T}: Add one mana of any color.',
+     "When Vessel of Endless Rest enters the battlefield, put target card from a graveyard on the bottom of its owner's library.\n{T}: Add one mana of any color.",
     colors: [],
     color_identity: [],
     legalities:
@@ -1711,11 +1692,10 @@ module.exports = [ { object: 'card',
        legacy: 'legal',
        pauper: 'legal',
        vintage: 'legal',
-       penny: 'not_legal',
+       penny: 'legal',
        commander: 'legal',
-       '1v1': 'legal',
        duel: 'legal',
-       brawl: 'not_legal' },
+       oldschool: 'not_legal' },
     games: [ 'mtgo', 'paper' ],
     reserved: false,
     foil: true,
@@ -1744,7 +1724,7 @@ module.exports = [ { object: 'card',
     frame_effect: '',
     full_art: false,
     story_spotlight: false,
-    edhrec_rank: 3169,
+    edhrec_rank: 3161,
     related_uris:
      { gatherer:
         'http://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=456831',
@@ -1768,20 +1748,20 @@ module.exports = [ { object: 'card',
     scryfall_uri:
      'https://scryfall.com/card/uma/234/prismatic-lens?utm_source=api',
     layout: 'normal',
-    highres_image: false,
+    highres_image: true,
     image_uris:
      { small:
-        'https://img.scryfall.com/cards/small/front/7/6/7618fb0b-099c-47f6-b16f-49854bc5be6b.jpg?1542805854',
+        'https://img.scryfall.com/cards/small/front/7/6/7618fb0b-099c-47f6-b16f-49854bc5be6b.jpg?1547518529',
        normal:
-        'https://img.scryfall.com/cards/normal/front/7/6/7618fb0b-099c-47f6-b16f-49854bc5be6b.jpg?1542805854',
+        'https://img.scryfall.com/cards/normal/front/7/6/7618fb0b-099c-47f6-b16f-49854bc5be6b.jpg?1547518529',
        large:
-        'https://img.scryfall.com/cards/large/front/7/6/7618fb0b-099c-47f6-b16f-49854bc5be6b.jpg?1542805854',
+        'https://img.scryfall.com/cards/large/front/7/6/7618fb0b-099c-47f6-b16f-49854bc5be6b.jpg?1547518529',
        png:
-        'https://img.scryfall.com/cards/png/front/7/6/7618fb0b-099c-47f6-b16f-49854bc5be6b.png?1542805854',
+        'https://img.scryfall.com/cards/png/front/7/6/7618fb0b-099c-47f6-b16f-49854bc5be6b.png?1547518529',
        art_crop:
-        'https://img.scryfall.com/cards/art_crop/front/7/6/7618fb0b-099c-47f6-b16f-49854bc5be6b.jpg?1542805854',
+        'https://img.scryfall.com/cards/art_crop/front/7/6/7618fb0b-099c-47f6-b16f-49854bc5be6b.jpg?1547518529',
        border_crop:
-        'https://img.scryfall.com/cards/border_crop/front/7/6/7618fb0b-099c-47f6-b16f-49854bc5be6b.jpg?1542805854' },
+        'https://img.scryfall.com/cards/border_crop/front/7/6/7618fb0b-099c-47f6-b16f-49854bc5be6b.jpg?1547518529' },
     mana_cost: '{2}',
     cmc: 2,
     type_line: 'Artifact',
@@ -1796,11 +1776,10 @@ module.exports = [ { object: 'card',
        legacy: 'legal',
        pauper: 'legal',
        vintage: 'legal',
-       penny: 'not_legal',
+       penny: 'legal',
        commander: 'legal',
-       '1v1': 'legal',
        duel: 'legal',
-       brawl: 'not_legal' },
+       oldschool: 'not_legal' },
     games: [ 'mtgo', 'paper' ],
     reserved: false,
     foil: true,
@@ -1831,7 +1810,7 @@ module.exports = [ { object: 'card',
     frame_effect: '',
     full_art: false,
     story_spotlight: false,
-    edhrec_rank: 1792,
+    edhrec_rank: 1672,
     related_uris:
      { gatherer:
         'http://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=456830',
@@ -1859,22 +1838,22 @@ module.exports = [ { object: 'card',
     highres_image: true,
     image_uris:
      { small:
-        'https://img.scryfall.com/cards/small/front/7/1/71b03143-9e85-4061-88e6-ad621f75ec3b.jpg?1545071318',
+        'https://img.scryfall.com/cards/small/front/7/1/71b03143-9e85-4061-88e6-ad621f75ec3b.jpg?1547518515',
        normal:
-        'https://img.scryfall.com/cards/normal/front/7/1/71b03143-9e85-4061-88e6-ad621f75ec3b.jpg?1545071318',
+        'https://img.scryfall.com/cards/normal/front/7/1/71b03143-9e85-4061-88e6-ad621f75ec3b.jpg?1547518515',
        large:
-        'https://img.scryfall.com/cards/large/front/7/1/71b03143-9e85-4061-88e6-ad621f75ec3b.jpg?1545071318',
+        'https://img.scryfall.com/cards/large/front/7/1/71b03143-9e85-4061-88e6-ad621f75ec3b.jpg?1547518515',
        png:
-        'https://img.scryfall.com/cards/png/front/7/1/71b03143-9e85-4061-88e6-ad621f75ec3b.png?1545071318',
+        'https://img.scryfall.com/cards/png/front/7/1/71b03143-9e85-4061-88e6-ad621f75ec3b.png?1547518515',
        art_crop:
-        'https://img.scryfall.com/cards/art_crop/front/7/1/71b03143-9e85-4061-88e6-ad621f75ec3b.jpg?1545071318',
+        'https://img.scryfall.com/cards/art_crop/front/7/1/71b03143-9e85-4061-88e6-ad621f75ec3b.jpg?1547518515',
        border_crop:
-        'https://img.scryfall.com/cards/border_crop/front/7/1/71b03143-9e85-4061-88e6-ad621f75ec3b.jpg?1545071318' },
+        'https://img.scryfall.com/cards/border_crop/front/7/1/71b03143-9e85-4061-88e6-ad621f75ec3b.jpg?1547518515' },
     mana_cost: '{8}',
     cmc: 8,
     type_line: 'Artifact Creature — Golem',
     oracle_text:
-     'Your life total can\'t change. (You can\'t gain or lose life. You can\'t pay any amount of life except 0.)',
+     "Your life total can't change. (You can't gain or lose life. You can't pay any amount of life except 0.)",
     power: '8',
     toughness: '8',
     colors: [],
@@ -1889,9 +1868,8 @@ module.exports = [ { object: 'card',
        vintage: 'legal',
        penny: 'not_legal',
        commander: 'legal',
-       '1v1': 'legal',
        duel: 'legal',
-       brawl: 'not_legal' },
+       oldschool: 'not_legal' },
     games: [ 'mtgo', 'paper' ],
     reserved: false,
     foil: true,
@@ -1922,7 +1900,7 @@ module.exports = [ { object: 'card',
     frame_effect: '',
     full_art: false,
     story_spotlight: false,
-    edhrec_rank: 2260,
+    edhrec_rank: 2306,
     related_uris:
      { gatherer:
         'http://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=456829',
@@ -1946,20 +1924,20 @@ module.exports = [ { object: 'card',
     scryfall_uri:
      'https://scryfall.com/card/uma/232/phyrexian-altar?utm_source=api',
     layout: 'normal',
-    highres_image: false,
+    highres_image: true,
     image_uris:
      { small:
-        'https://img.scryfall.com/cards/small/front/3/c/3c66c54b-b2d1-494d-ae10-a950c184a52f.jpg?1542635366',
+        'https://img.scryfall.com/cards/small/front/3/c/3c66c54b-b2d1-494d-ae10-a950c184a52f.jpg?1547518505',
        normal:
-        'https://img.scryfall.com/cards/normal/front/3/c/3c66c54b-b2d1-494d-ae10-a950c184a52f.jpg?1542635366',
+        'https://img.scryfall.com/cards/normal/front/3/c/3c66c54b-b2d1-494d-ae10-a950c184a52f.jpg?1547518505',
        large:
-        'https://img.scryfall.com/cards/large/front/3/c/3c66c54b-b2d1-494d-ae10-a950c184a52f.jpg?1542635366',
+        'https://img.scryfall.com/cards/large/front/3/c/3c66c54b-b2d1-494d-ae10-a950c184a52f.jpg?1547518505',
        png:
-        'https://img.scryfall.com/cards/png/front/3/c/3c66c54b-b2d1-494d-ae10-a950c184a52f.png?1542635366',
+        'https://img.scryfall.com/cards/png/front/3/c/3c66c54b-b2d1-494d-ae10-a950c184a52f.png?1547518505',
        art_crop:
-        'https://img.scryfall.com/cards/art_crop/front/3/c/3c66c54b-b2d1-494d-ae10-a950c184a52f.jpg?1542635366',
+        'https://img.scryfall.com/cards/art_crop/front/3/c/3c66c54b-b2d1-494d-ae10-a950c184a52f.jpg?1547518505',
        border_crop:
-        'https://img.scryfall.com/cards/border_crop/front/3/c/3c66c54b-b2d1-494d-ae10-a950c184a52f.jpg?1542635366' },
+        'https://img.scryfall.com/cards/border_crop/front/3/c/3c66c54b-b2d1-494d-ae10-a950c184a52f.jpg?1547518505' },
     mana_cost: '{3}',
     cmc: 3,
     type_line: 'Artifact',
@@ -1976,9 +1954,8 @@ module.exports = [ { object: 'card',
        vintage: 'legal',
        penny: 'not_legal',
        commander: 'legal',
-       '1v1': 'legal',
        duel: 'legal',
-       brawl: 'not_legal' },
+       oldschool: 'not_legal' },
     games: [ 'mtgo', 'paper' ],
     reserved: false,
     foil: true,
@@ -2009,7 +1986,7 @@ module.exports = [ { object: 'card',
     frame_effect: '',
     full_art: false,
     story_spotlight: false,
-    edhrec_rank: 885,
+    edhrec_rank: 810,
     related_uris:
      { gatherer:
         'http://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=456828',
@@ -2033,20 +2010,20 @@ module.exports = [ { object: 'card',
     scryfall_uri:
      'https://scryfall.com/card/uma/231/patchwork-gnomes?utm_source=api',
     layout: 'normal',
-    highres_image: false,
+    highres_image: true,
     image_uris:
      { small:
-        'https://img.scryfall.com/cards/small/front/1/a/1ab6b8ca-2e72-4f19-b73b-08b3f9fe6966.jpg?1542805808',
+        'https://img.scryfall.com/cards/small/front/1/a/1ab6b8ca-2e72-4f19-b73b-08b3f9fe6966.jpg?1547518491',
        normal:
-        'https://img.scryfall.com/cards/normal/front/1/a/1ab6b8ca-2e72-4f19-b73b-08b3f9fe6966.jpg?1542805808',
+        'https://img.scryfall.com/cards/normal/front/1/a/1ab6b8ca-2e72-4f19-b73b-08b3f9fe6966.jpg?1547518491',
        large:
-        'https://img.scryfall.com/cards/large/front/1/a/1ab6b8ca-2e72-4f19-b73b-08b3f9fe6966.jpg?1542805808',
+        'https://img.scryfall.com/cards/large/front/1/a/1ab6b8ca-2e72-4f19-b73b-08b3f9fe6966.jpg?1547518491',
        png:
-        'https://img.scryfall.com/cards/png/front/1/a/1ab6b8ca-2e72-4f19-b73b-08b3f9fe6966.png?1542805808',
+        'https://img.scryfall.com/cards/png/front/1/a/1ab6b8ca-2e72-4f19-b73b-08b3f9fe6966.png?1547518491',
        art_crop:
-        'https://img.scryfall.com/cards/art_crop/front/1/a/1ab6b8ca-2e72-4f19-b73b-08b3f9fe6966.jpg?1542805808',
+        'https://img.scryfall.com/cards/art_crop/front/1/a/1ab6b8ca-2e72-4f19-b73b-08b3f9fe6966.jpg?1547518491',
        border_crop:
-        'https://img.scryfall.com/cards/border_crop/front/1/a/1ab6b8ca-2e72-4f19-b73b-08b3f9fe6966.jpg?1542805808' },
+        'https://img.scryfall.com/cards/border_crop/front/1/a/1ab6b8ca-2e72-4f19-b73b-08b3f9fe6966.jpg?1547518491' },
     mana_cost: '{3}',
     cmc: 3,
     type_line: 'Artifact Creature — Gnome',
@@ -2065,9 +2042,8 @@ module.exports = [ { object: 'card',
        vintage: 'legal',
        penny: 'legal',
        commander: 'legal',
-       '1v1': 'legal',
        duel: 'legal',
-       brawl: 'not_legal' },
+       oldschool: 'not_legal' },
     games: [ 'mtgo', 'paper' ],
     reserved: false,
     foil: true,
@@ -2090,7 +2066,7 @@ module.exports = [ { object: 'card',
     digital: false,
     rarity: 'common',
     flavor_text:
-     'One wizard\'s trash is another wizard\'s roving gang of abominations.',
+     "One wizard's trash is another wizard's roving gang of abominations.",
     illustration_id: 'ee09c216-9262-4296-8ebf-ff666cd5f205',
     artist: 'Filip Burburan',
     border_color: 'black',
@@ -2098,7 +2074,7 @@ module.exports = [ { object: 'card',
     frame_effect: '',
     full_art: false,
     story_spotlight: false,
-    edhrec_rank: 14353,
+    edhrec_rank: 14505,
     related_uris:
      { gatherer:
         'http://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=456827',
@@ -2122,20 +2098,20 @@ module.exports = [ { object: 'card',
     scryfall_uri:
      'https://scryfall.com/card/uma/230/myr-servitor?utm_source=api',
     layout: 'normal',
-    highres_image: false,
+    highres_image: true,
     image_uris:
      { small:
-        'https://img.scryfall.com/cards/small/front/d/5/d53712a0-e11d-4b83-aebc-8e97244f085b.jpg?1542805776',
+        'https://img.scryfall.com/cards/small/front/d/5/d53712a0-e11d-4b83-aebc-8e97244f085b.jpg?1547518480',
        normal:
-        'https://img.scryfall.com/cards/normal/front/d/5/d53712a0-e11d-4b83-aebc-8e97244f085b.jpg?1542805776',
+        'https://img.scryfall.com/cards/normal/front/d/5/d53712a0-e11d-4b83-aebc-8e97244f085b.jpg?1547518480',
        large:
-        'https://img.scryfall.com/cards/large/front/d/5/d53712a0-e11d-4b83-aebc-8e97244f085b.jpg?1542805776',
+        'https://img.scryfall.com/cards/large/front/d/5/d53712a0-e11d-4b83-aebc-8e97244f085b.jpg?1547518480',
        png:
-        'https://img.scryfall.com/cards/png/front/d/5/d53712a0-e11d-4b83-aebc-8e97244f085b.png?1542805776',
+        'https://img.scryfall.com/cards/png/front/d/5/d53712a0-e11d-4b83-aebc-8e97244f085b.png?1547518480',
        art_crop:
-        'https://img.scryfall.com/cards/art_crop/front/d/5/d53712a0-e11d-4b83-aebc-8e97244f085b.jpg?1542805776',
+        'https://img.scryfall.com/cards/art_crop/front/d/5/d53712a0-e11d-4b83-aebc-8e97244f085b.jpg?1547518480',
        border_crop:
-        'https://img.scryfall.com/cards/border_crop/front/d/5/d53712a0-e11d-4b83-aebc-8e97244f085b.jpg?1542805776' },
+        'https://img.scryfall.com/cards/border_crop/front/d/5/d53712a0-e11d-4b83-aebc-8e97244f085b.jpg?1547518480' },
     mana_cost: '{1}',
     cmc: 1,
     type_line: 'Artifact Creature — Myr',
@@ -2153,11 +2129,10 @@ module.exports = [ { object: 'card',
        legacy: 'legal',
        pauper: 'legal',
        vintage: 'legal',
-       penny: 'not_legal',
+       penny: 'legal',
        commander: 'legal',
-       '1v1': 'legal',
        duel: 'legal',
-       brawl: 'not_legal' },
+       oldschool: 'not_legal' },
     games: [ 'mtgo', 'paper' ],
     reserved: false,
     foil: true,
@@ -2188,7 +2163,7 @@ module.exports = [ { object: 'card',
     frame_effect: '',
     full_art: false,
     story_spotlight: false,
-    edhrec_rank: 15133,
+    edhrec_rank: 15184,
     related_uris:
      { gatherer:
         'http://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=456826',
@@ -2216,22 +2191,22 @@ module.exports = [ { object: 'card',
     highres_image: true,
     image_uris:
      { small:
-        'https://img.scryfall.com/cards/small/front/c/f/cfdf9706-acdb-48fc-89db-93bc50b3b9ad.jpg?1545070964',
+        'https://img.scryfall.com/cards/small/front/c/f/cfdf9706-acdb-48fc-89db-93bc50b3b9ad.jpg?1547518467',
        normal:
-        'https://img.scryfall.com/cards/normal/front/c/f/cfdf9706-acdb-48fc-89db-93bc50b3b9ad.jpg?1545070964',
+        'https://img.scryfall.com/cards/normal/front/c/f/cfdf9706-acdb-48fc-89db-93bc50b3b9ad.jpg?1547518467',
        large:
-        'https://img.scryfall.com/cards/large/front/c/f/cfdf9706-acdb-48fc-89db-93bc50b3b9ad.jpg?1545070964',
+        'https://img.scryfall.com/cards/large/front/c/f/cfdf9706-acdb-48fc-89db-93bc50b3b9ad.jpg?1547518467',
        png:
-        'https://img.scryfall.com/cards/png/front/c/f/cfdf9706-acdb-48fc-89db-93bc50b3b9ad.png?1545070964',
+        'https://img.scryfall.com/cards/png/front/c/f/cfdf9706-acdb-48fc-89db-93bc50b3b9ad.png?1547518467',
        art_crop:
-        'https://img.scryfall.com/cards/art_crop/front/c/f/cfdf9706-acdb-48fc-89db-93bc50b3b9ad.jpg?1545070964',
+        'https://img.scryfall.com/cards/art_crop/front/c/f/cfdf9706-acdb-48fc-89db-93bc50b3b9ad.jpg?1547518467',
        border_crop:
-        'https://img.scryfall.com/cards/border_crop/front/c/f/cfdf9706-acdb-48fc-89db-93bc50b3b9ad.jpg?1545070964' },
+        'https://img.scryfall.com/cards/border_crop/front/c/f/cfdf9706-acdb-48fc-89db-93bc50b3b9ad.jpg?1547518467' },
     mana_cost: '{1}',
     cmc: 1,
     type_line: 'Artifact',
     oracle_text:
-     'Mana Vault doesn\'t untap during your untap step.\nAt the beginning of your upkeep, you may pay {4}. If you do, untap Mana Vault.\nAt the beginning of your draw step, if Mana Vault is tapped, it deals 1 damage to you.\n{T}: Add {C}{C}{C}.',
+     "Mana Vault doesn't untap during your untap step.\nAt the beginning of your upkeep, you may pay {4}. If you do, untap Mana Vault.\nAt the beginning of your draw step, if Mana Vault is tapped, it deals 1 damage to you.\n{T}: Add {C}{C}{C}.",
     colors: [],
     color_identity: [],
     legalities:
@@ -2244,9 +2219,8 @@ module.exports = [ { object: 'card',
        vintage: 'restricted',
        penny: 'not_legal',
        commander: 'legal',
-       '1v1': 'legal',
        duel: 'banned',
-       brawl: 'not_legal' },
+       oldschool: 'not_legal' },
     games: [ 'mtgo', 'paper' ],
     reserved: false,
     foil: true,
@@ -2275,7 +2249,7 @@ module.exports = [ { object: 'card',
     frame_effect: '',
     full_art: false,
     story_spotlight: false,
-    edhrec_rank: 125,
+    edhrec_rank: 119,
     related_uris:
      { gatherer:
         'http://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=456825',
@@ -2298,20 +2272,20 @@ module.exports = [ { object: 'card',
      'https://api.scryfall.com/cards/8d09a887-958c-4a63-81d6-f5ec484223c2',
     scryfall_uri: 'https://scryfall.com/card/uma/228/heap-doll?utm_source=api',
     layout: 'normal',
-    highres_image: false,
+    highres_image: true,
     image_uris:
      { small:
-        'https://img.scryfall.com/cards/small/front/8/d/8d09a887-958c-4a63-81d6-f5ec484223c2.jpg?1542805764',
+        'https://img.scryfall.com/cards/small/front/8/d/8d09a887-958c-4a63-81d6-f5ec484223c2.jpg?1547518441',
        normal:
-        'https://img.scryfall.com/cards/normal/front/8/d/8d09a887-958c-4a63-81d6-f5ec484223c2.jpg?1542805764',
+        'https://img.scryfall.com/cards/normal/front/8/d/8d09a887-958c-4a63-81d6-f5ec484223c2.jpg?1547518441',
        large:
-        'https://img.scryfall.com/cards/large/front/8/d/8d09a887-958c-4a63-81d6-f5ec484223c2.jpg?1542805764',
+        'https://img.scryfall.com/cards/large/front/8/d/8d09a887-958c-4a63-81d6-f5ec484223c2.jpg?1547518441',
        png:
-        'https://img.scryfall.com/cards/png/front/8/d/8d09a887-958c-4a63-81d6-f5ec484223c2.png?1542805764',
+        'https://img.scryfall.com/cards/png/front/8/d/8d09a887-958c-4a63-81d6-f5ec484223c2.png?1547518441',
        art_crop:
-        'https://img.scryfall.com/cards/art_crop/front/8/d/8d09a887-958c-4a63-81d6-f5ec484223c2.jpg?1542805764',
+        'https://img.scryfall.com/cards/art_crop/front/8/d/8d09a887-958c-4a63-81d6-f5ec484223c2.jpg?1547518441',
        border_crop:
-        'https://img.scryfall.com/cards/border_crop/front/8/d/8d09a887-958c-4a63-81d6-f5ec484223c2.jpg?1542805764' },
+        'https://img.scryfall.com/cards/border_crop/front/8/d/8d09a887-958c-4a63-81d6-f5ec484223c2.jpg?1547518441' },
     mana_cost: '{1}',
     cmc: 1,
     type_line: 'Artifact Creature — Scarecrow',
@@ -2330,9 +2304,8 @@ module.exports = [ { object: 'card',
        vintage: 'legal',
        penny: 'legal',
        commander: 'legal',
-       '1v1': 'legal',
        duel: 'legal',
-       brawl: 'not_legal' },
+       oldschool: 'not_legal' },
     games: [ 'mtgo', 'paper' ],
     reserved: false,
     foil: true,
@@ -2355,7 +2328,7 @@ module.exports = [ { object: 'card',
     digital: false,
     rarity: 'uncommon',
     flavor_text:
-     '"I know one night it won\'t come back. Then I\'ll know it\'s truly done its job."\n—Braenna, cobblesmith',
+     `"I know one night it won't come back. Then I'll know it's truly done its job."\n—Braenna, cobblesmith`,
     illustration_id: 'b2e0f56b-9601-4f37-ae65-690bd462c53f',
     artist: 'John Avon',
     border_color: 'black',
@@ -2363,7 +2336,7 @@ module.exports = [ { object: 'card',
     frame_effect: '',
     full_art: false,
     story_spotlight: false,
-    edhrec_rank: 5730,
+    edhrec_rank: 5739,
     related_uris:
      { gatherer:
         'http://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=456824',
@@ -2391,17 +2364,17 @@ module.exports = [ { object: 'card',
     highres_image: true,
     image_uris:
      { small:
-        'https://img.scryfall.com/cards/small/front/f/1/f1e2b69e-b06b-46a5-ac57-a6a180eeecc7.jpg?1545068740',
+        'https://img.scryfall.com/cards/small/front/f/1/f1e2b69e-b06b-46a5-ac57-a6a180eeecc7.jpg?1547518428',
        normal:
-        'https://img.scryfall.com/cards/normal/front/f/1/f1e2b69e-b06b-46a5-ac57-a6a180eeecc7.jpg?1545068740',
+        'https://img.scryfall.com/cards/normal/front/f/1/f1e2b69e-b06b-46a5-ac57-a6a180eeecc7.jpg?1547518428',
        large:
-        'https://img.scryfall.com/cards/large/front/f/1/f1e2b69e-b06b-46a5-ac57-a6a180eeecc7.jpg?1545068740',
+        'https://img.scryfall.com/cards/large/front/f/1/f1e2b69e-b06b-46a5-ac57-a6a180eeecc7.jpg?1547518428',
        png:
-        'https://img.scryfall.com/cards/png/front/f/1/f1e2b69e-b06b-46a5-ac57-a6a180eeecc7.png?1545068740',
+        'https://img.scryfall.com/cards/png/front/f/1/f1e2b69e-b06b-46a5-ac57-a6a180eeecc7.png?1547518428',
        art_crop:
-        'https://img.scryfall.com/cards/art_crop/front/f/1/f1e2b69e-b06b-46a5-ac57-a6a180eeecc7.jpg?1545068740',
+        'https://img.scryfall.com/cards/art_crop/front/f/1/f1e2b69e-b06b-46a5-ac57-a6a180eeecc7.jpg?1547518428',
        border_crop:
-        'https://img.scryfall.com/cards/border_crop/front/f/1/f1e2b69e-b06b-46a5-ac57-a6a180eeecc7.jpg?1545068740' },
+        'https://img.scryfall.com/cards/border_crop/front/f/1/f1e2b69e-b06b-46a5-ac57-a6a180eeecc7.jpg?1547518428' },
     mana_cost: '{X}',
     cmc: 0,
     type_line: 'Artifact',
@@ -2419,9 +2392,8 @@ module.exports = [ { object: 'card',
        vintage: 'legal',
        penny: 'not_legal',
        commander: 'legal',
-       '1v1': 'legal',
        duel: 'legal',
-       brawl: 'not_legal' },
+       oldschool: 'not_legal' },
     games: [ 'mtgo', 'paper' ],
     reserved: false,
     foil: true,
@@ -2450,7 +2422,7 @@ module.exports = [ { object: 'card',
     frame_effect: '',
     full_art: false,
     story_spotlight: false,
-    edhrec_rank: 7481,
+    edhrec_rank: 7553,
     related_uris:
      { gatherer:
         'http://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=456823',
@@ -2473,20 +2445,20 @@ module.exports = [ { object: 'card',
      'https://api.scryfall.com/cards/a2ba6c14-9393-4420-adfe-6b2ef85d2ce9',
     scryfall_uri: 'https://scryfall.com/card/uma/226/cathodion?utm_source=api',
     layout: 'normal',
-    highres_image: false,
+    highres_image: true,
     image_uris:
      { small:
-        'https://img.scryfall.com/cards/small/front/a/2/a2ba6c14-9393-4420-adfe-6b2ef85d2ce9.jpg?1542805751',
+        'https://img.scryfall.com/cards/small/front/a/2/a2ba6c14-9393-4420-adfe-6b2ef85d2ce9.jpg?1547518413',
        normal:
-        'https://img.scryfall.com/cards/normal/front/a/2/a2ba6c14-9393-4420-adfe-6b2ef85d2ce9.jpg?1542805751',
+        'https://img.scryfall.com/cards/normal/front/a/2/a2ba6c14-9393-4420-adfe-6b2ef85d2ce9.jpg?1547518413',
        large:
-        'https://img.scryfall.com/cards/large/front/a/2/a2ba6c14-9393-4420-adfe-6b2ef85d2ce9.jpg?1542805751',
+        'https://img.scryfall.com/cards/large/front/a/2/a2ba6c14-9393-4420-adfe-6b2ef85d2ce9.jpg?1547518413',
        png:
-        'https://img.scryfall.com/cards/png/front/a/2/a2ba6c14-9393-4420-adfe-6b2ef85d2ce9.png?1542805751',
+        'https://img.scryfall.com/cards/png/front/a/2/a2ba6c14-9393-4420-adfe-6b2ef85d2ce9.png?1547518413',
        art_crop:
-        'https://img.scryfall.com/cards/art_crop/front/a/2/a2ba6c14-9393-4420-adfe-6b2ef85d2ce9.jpg?1542805751',
+        'https://img.scryfall.com/cards/art_crop/front/a/2/a2ba6c14-9393-4420-adfe-6b2ef85d2ce9.jpg?1547518413',
        border_crop:
-        'https://img.scryfall.com/cards/border_crop/front/a/2/a2ba6c14-9393-4420-adfe-6b2ef85d2ce9.jpg?1542805751' },
+        'https://img.scryfall.com/cards/border_crop/front/a/2/a2ba6c14-9393-4420-adfe-6b2ef85d2ce9.jpg?1547518413' },
     mana_cost: '{3}',
     cmc: 3,
     type_line: 'Artifact Creature — Construct',
@@ -2505,9 +2477,8 @@ module.exports = [ { object: 'card',
        vintage: 'legal',
        penny: 'legal',
        commander: 'legal',
-       '1v1': 'legal',
        duel: 'legal',
-       brawl: 'not_legal' },
+       oldschool: 'not_legal' },
     games: [ 'mtgo', 'paper' ],
     reserved: false,
     foil: true,
@@ -2538,7 +2509,7 @@ module.exports = [ { object: 'card',
     frame_effect: '',
     full_art: false,
     story_spotlight: false,
-    edhrec_rank: 5637,
+    edhrec_rank: 5481,
     related_uris:
      { gatherer:
         'http://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=456822',
@@ -2561,20 +2532,20 @@ module.exports = [ { object: 'card',
      'https://api.scryfall.com/cards/3f822331-315e-4297-bb69-f1069032c6c5',
     scryfall_uri: 'https://scryfall.com/card/uma/225/fire-ice?utm_source=api',
     layout: 'split',
-    highres_image: false,
+    highres_image: true,
     image_uris:
      { small:
-        'https://img.scryfall.com/cards/small/front/3/f/3f822331-315e-4297-bb69-f1069032c6c5.jpg?1543760644',
+        'https://img.scryfall.com/cards/small/front/3/f/3f822331-315e-4297-bb69-f1069032c6c5.jpg?1547518354',
        normal:
-        'https://img.scryfall.com/cards/normal/front/3/f/3f822331-315e-4297-bb69-f1069032c6c5.jpg?1543760644',
+        'https://img.scryfall.com/cards/normal/front/3/f/3f822331-315e-4297-bb69-f1069032c6c5.jpg?1547518354',
        large:
-        'https://img.scryfall.com/cards/large/front/3/f/3f822331-315e-4297-bb69-f1069032c6c5.jpg?1543760644',
+        'https://img.scryfall.com/cards/large/front/3/f/3f822331-315e-4297-bb69-f1069032c6c5.jpg?1547518354',
        png:
-        'https://img.scryfall.com/cards/png/front/3/f/3f822331-315e-4297-bb69-f1069032c6c5.png?1543760644',
+        'https://img.scryfall.com/cards/png/front/3/f/3f822331-315e-4297-bb69-f1069032c6c5.png?1547518354',
        art_crop:
-        'https://img.scryfall.com/cards/art_crop/front/3/f/3f822331-315e-4297-bb69-f1069032c6c5.jpg?1543760644',
+        'https://img.scryfall.com/cards/art_crop/front/3/f/3f822331-315e-4297-bb69-f1069032c6c5.jpg?1547518354',
        border_crop:
-        'https://img.scryfall.com/cards/border_crop/front/3/f/3f822331-315e-4297-bb69-f1069032c6c5.jpg?1543760644' },
+        'https://img.scryfall.com/cards/border_crop/front/3/f/3f822331-315e-4297-bb69-f1069032c6c5.jpg?1547518354' },
     mana_cost: '{1}{R} // {1}{U}',
     cmc: 4,
     type_line: 'Instant // Instant',
@@ -2605,9 +2576,8 @@ module.exports = [ { object: 'card',
        vintage: 'legal',
        penny: 'not_legal',
        commander: 'legal',
-       '1v1': 'legal',
        duel: 'legal',
-       brawl: 'not_legal' },
+       oldschool: 'not_legal' },
     games: [ 'mtgo', 'paper' ],
     reserved: false,
     foil: true,
@@ -2636,7 +2606,7 @@ module.exports = [ { object: 'card',
     frame_effect: '',
     full_art: false,
     story_spotlight: false,
-    edhrec_rank: 5416,
+    edhrec_rank: 5563,
     related_uris:
      { gatherer:
         'http://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=456821',
@@ -2660,25 +2630,25 @@ module.exports = [ { object: 'card',
     scryfall_uri:
      'https://scryfall.com/card/uma/224/turn-to-mist?utm_source=api',
     layout: 'normal',
-    highres_image: false,
+    highres_image: true,
     image_uris:
      { small:
-        'https://img.scryfall.com/cards/small/front/1/6/160d3bf1-5f8b-431c-bb4e-a6874c69817a.jpg?1542806372',
+        'https://img.scryfall.com/cards/small/front/1/6/160d3bf1-5f8b-431c-bb4e-a6874c69817a.jpg?1547518338',
        normal:
-        'https://img.scryfall.com/cards/normal/front/1/6/160d3bf1-5f8b-431c-bb4e-a6874c69817a.jpg?1542806372',
+        'https://img.scryfall.com/cards/normal/front/1/6/160d3bf1-5f8b-431c-bb4e-a6874c69817a.jpg?1547518338',
        large:
-        'https://img.scryfall.com/cards/large/front/1/6/160d3bf1-5f8b-431c-bb4e-a6874c69817a.jpg?1542806372',
+        'https://img.scryfall.com/cards/large/front/1/6/160d3bf1-5f8b-431c-bb4e-a6874c69817a.jpg?1547518338',
        png:
-        'https://img.scryfall.com/cards/png/front/1/6/160d3bf1-5f8b-431c-bb4e-a6874c69817a.png?1542806372',
+        'https://img.scryfall.com/cards/png/front/1/6/160d3bf1-5f8b-431c-bb4e-a6874c69817a.png?1547518338',
        art_crop:
-        'https://img.scryfall.com/cards/art_crop/front/1/6/160d3bf1-5f8b-431c-bb4e-a6874c69817a.jpg?1542806372',
+        'https://img.scryfall.com/cards/art_crop/front/1/6/160d3bf1-5f8b-431c-bb4e-a6874c69817a.jpg?1547518338',
        border_crop:
-        'https://img.scryfall.com/cards/border_crop/front/1/6/160d3bf1-5f8b-431c-bb4e-a6874c69817a.jpg?1542806372' },
+        'https://img.scryfall.com/cards/border_crop/front/1/6/160d3bf1-5f8b-431c-bb4e-a6874c69817a.jpg?1547518338' },
     mana_cost: '{1}{W/U}',
     cmc: 2,
     type_line: 'Instant',
     oracle_text:
-     'Exile target creature. Return that card to the battlefield under its owner\'s control at the beginning of the next end step.',
+     "Exile target creature. Return that card to the battlefield under its owner's control at the beginning of the next end step.",
     colors: [ 'U', 'W' ],
     color_identity: [ 'U', 'W' ],
     legalities:
@@ -2691,9 +2661,8 @@ module.exports = [ { object: 'card',
        vintage: 'legal',
        penny: 'legal',
        commander: 'legal',
-       '1v1': 'legal',
        duel: 'legal',
-       brawl: 'not_legal' },
+       oldschool: 'not_legal' },
     games: [ 'mtgo', 'paper' ],
     reserved: false,
     foil: true,
@@ -2724,7 +2693,7 @@ module.exports = [ { object: 'card',
     frame_effect: '',
     full_art: false,
     story_spotlight: false,
-    edhrec_rank: 6969,
+    edhrec_rank: 7000,
     related_uris:
      { gatherer:
         'http://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=456820',
@@ -2748,25 +2717,25 @@ module.exports = [ { object: 'card',
     scryfall_uri:
      'https://scryfall.com/card/uma/223/slippery-bogle?utm_source=api',
     layout: 'normal',
-    highres_image: false,
+    highres_image: true,
     image_uris:
      { small:
-        'https://img.scryfall.com/cards/small/front/c/4/c4e4bbea-7e3f-4de0-bb01-dfd67f21c254.jpg?1542721770',
+        'https://img.scryfall.com/cards/small/front/c/4/c4e4bbea-7e3f-4de0-bb01-dfd67f21c254.jpg?1547518325',
        normal:
-        'https://img.scryfall.com/cards/normal/front/c/4/c4e4bbea-7e3f-4de0-bb01-dfd67f21c254.jpg?1542721770',
+        'https://img.scryfall.com/cards/normal/front/c/4/c4e4bbea-7e3f-4de0-bb01-dfd67f21c254.jpg?1547518325',
        large:
-        'https://img.scryfall.com/cards/large/front/c/4/c4e4bbea-7e3f-4de0-bb01-dfd67f21c254.jpg?1542721770',
+        'https://img.scryfall.com/cards/large/front/c/4/c4e4bbea-7e3f-4de0-bb01-dfd67f21c254.jpg?1547518325',
        png:
-        'https://img.scryfall.com/cards/png/front/c/4/c4e4bbea-7e3f-4de0-bb01-dfd67f21c254.png?1542721770',
+        'https://img.scryfall.com/cards/png/front/c/4/c4e4bbea-7e3f-4de0-bb01-dfd67f21c254.png?1547518325',
        art_crop:
-        'https://img.scryfall.com/cards/art_crop/front/c/4/c4e4bbea-7e3f-4de0-bb01-dfd67f21c254.jpg?1542721770',
+        'https://img.scryfall.com/cards/art_crop/front/c/4/c4e4bbea-7e3f-4de0-bb01-dfd67f21c254.jpg?1547518325',
        border_crop:
-        'https://img.scryfall.com/cards/border_crop/front/c/4/c4e4bbea-7e3f-4de0-bb01-dfd67f21c254.jpg?1542721770' },
+        'https://img.scryfall.com/cards/border_crop/front/c/4/c4e4bbea-7e3f-4de0-bb01-dfd67f21c254.jpg?1547518325' },
     mana_cost: '{G/U}',
     cmc: 1,
     type_line: 'Creature — Beast',
     oracle_text:
-     'Hexproof (This creature can\'t be the target of spells or abilities your opponents control.)',
+     "Hexproof (This creature can't be the target of spells or abilities your opponents control.)",
     power: '1',
     toughness: '1',
     colors: [ 'G', 'U' ],
@@ -2781,9 +2750,8 @@ module.exports = [ { object: 'card',
        vintage: 'legal',
        penny: 'not_legal',
        commander: 'legal',
-       '1v1': 'legal',
        duel: 'legal',
-       brawl: 'not_legal' },
+       oldschool: 'not_legal' },
     games: [ 'mtgo', 'paper' ],
     reserved: false,
     foil: true,
@@ -2806,7 +2774,7 @@ module.exports = [ { object: 'card',
     digital: false,
     rarity: 'uncommon',
     flavor_text:
-     'Ogle the bogle, or goggle the boggle? Doesn\'t matter. You weren\'t going to catch it anyway.',
+     "Ogle the bogle, or goggle the boggle? Doesn't matter. You weren't going to catch it anyway.",
     illustration_id: 'cb6863ac-e2af-4f2f-bb3b-6f64ab08b6ba',
     artist: 'Jesper Ejsing',
     border_color: 'black',
@@ -2814,7 +2782,7 @@ module.exports = [ { object: 'card',
     frame_effect: '',
     full_art: false,
     story_spotlight: false,
-    edhrec_rank: 10478,
+    edhrec_rank: 10496,
     related_uris:
      { gatherer:
         'http://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=456819',
@@ -2838,25 +2806,25 @@ module.exports = [ { object: 'card',
     scryfall_uri:
      'https://scryfall.com/card/uma/222/shielding-plax?utm_source=api',
     layout: 'normal',
-    highres_image: false,
+    highres_image: true,
     image_uris:
      { small:
-        'https://img.scryfall.com/cards/small/front/2/4/24a99c3c-0041-49c0-9d81-e8ec731ba072.jpg?1542806330',
+        'https://img.scryfall.com/cards/small/front/2/4/24a99c3c-0041-49c0-9d81-e8ec731ba072.jpg?1547518313',
        normal:
-        'https://img.scryfall.com/cards/normal/front/2/4/24a99c3c-0041-49c0-9d81-e8ec731ba072.jpg?1542806330',
+        'https://img.scryfall.com/cards/normal/front/2/4/24a99c3c-0041-49c0-9d81-e8ec731ba072.jpg?1547518313',
        large:
-        'https://img.scryfall.com/cards/large/front/2/4/24a99c3c-0041-49c0-9d81-e8ec731ba072.jpg?1542806330',
+        'https://img.scryfall.com/cards/large/front/2/4/24a99c3c-0041-49c0-9d81-e8ec731ba072.jpg?1547518313',
        png:
-        'https://img.scryfall.com/cards/png/front/2/4/24a99c3c-0041-49c0-9d81-e8ec731ba072.png?1542806330',
+        'https://img.scryfall.com/cards/png/front/2/4/24a99c3c-0041-49c0-9d81-e8ec731ba072.png?1547518313',
        art_crop:
-        'https://img.scryfall.com/cards/art_crop/front/2/4/24a99c3c-0041-49c0-9d81-e8ec731ba072.jpg?1542806330',
+        'https://img.scryfall.com/cards/art_crop/front/2/4/24a99c3c-0041-49c0-9d81-e8ec731ba072.jpg?1547518313',
        border_crop:
-        'https://img.scryfall.com/cards/border_crop/front/2/4/24a99c3c-0041-49c0-9d81-e8ec731ba072.jpg?1542806330' },
+        'https://img.scryfall.com/cards/border_crop/front/2/4/24a99c3c-0041-49c0-9d81-e8ec731ba072.jpg?1547518313' },
     mana_cost: '{2}{G/U}',
     cmc: 3,
     type_line: 'Enchantment — Aura',
     oracle_text:
-     '({G/U} can be paid with either {G} or {U}.)\nEnchant creature\nWhen Shielding Plax enters the battlefield, draw a card.\nEnchanted creature can\'t be the target of spells or abilities your opponents control.',
+     "({G/U} can be paid with either {G} or {U}.)\nEnchant creature\nWhen Shielding Plax enters the battlefield, draw a card.\nEnchanted creature can't be the target of spells or abilities your opponents control.",
     colors: [ 'G', 'U' ],
     color_identity: [ 'G', 'U' ],
     legalities:
@@ -2869,9 +2837,8 @@ module.exports = [ { object: 'card',
        vintage: 'legal',
        penny: 'legal',
        commander: 'legal',
-       '1v1': 'legal',
        duel: 'legal',
-       brawl: 'not_legal' },
+       oldschool: 'not_legal' },
     games: [ 'mtgo', 'paper' ],
     reserved: false,
     foil: true,
@@ -2900,7 +2867,7 @@ module.exports = [ { object: 'card',
     frame_effect: '',
     full_art: false,
     story_spotlight: false,
-    edhrec_rank: 7371,
+    edhrec_rank: 7392,
     related_uris:
      { gatherer:
         'http://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=456818',
@@ -2924,25 +2891,25 @@ module.exports = [ { object: 'card',
     scryfall_uri:
      'https://scryfall.com/card/uma/221/scuzzback-marauders?utm_source=api',
     layout: 'normal',
-    highres_image: false,
+    highres_image: true,
     image_uris:
      { small:
-        'https://img.scryfall.com/cards/small/front/0/e/0e013b28-7a90-4b4e-a91c-7d864105d28b.jpg?1542806283',
+        'https://img.scryfall.com/cards/small/front/0/e/0e013b28-7a90-4b4e-a91c-7d864105d28b.jpg?1547518303',
        normal:
-        'https://img.scryfall.com/cards/normal/front/0/e/0e013b28-7a90-4b4e-a91c-7d864105d28b.jpg?1542806283',
+        'https://img.scryfall.com/cards/normal/front/0/e/0e013b28-7a90-4b4e-a91c-7d864105d28b.jpg?1547518303',
        large:
-        'https://img.scryfall.com/cards/large/front/0/e/0e013b28-7a90-4b4e-a91c-7d864105d28b.jpg?1542806283',
+        'https://img.scryfall.com/cards/large/front/0/e/0e013b28-7a90-4b4e-a91c-7d864105d28b.jpg?1547518303',
        png:
-        'https://img.scryfall.com/cards/png/front/0/e/0e013b28-7a90-4b4e-a91c-7d864105d28b.png?1542806283',
+        'https://img.scryfall.com/cards/png/front/0/e/0e013b28-7a90-4b4e-a91c-7d864105d28b.png?1547518303',
        art_crop:
-        'https://img.scryfall.com/cards/art_crop/front/0/e/0e013b28-7a90-4b4e-a91c-7d864105d28b.jpg?1542806283',
+        'https://img.scryfall.com/cards/art_crop/front/0/e/0e013b28-7a90-4b4e-a91c-7d864105d28b.jpg?1547518303',
        border_crop:
-        'https://img.scryfall.com/cards/border_crop/front/0/e/0e013b28-7a90-4b4e-a91c-7d864105d28b.jpg?1542806283' },
+        'https://img.scryfall.com/cards/border_crop/front/0/e/0e013b28-7a90-4b4e-a91c-7d864105d28b.jpg?1547518303' },
     mana_cost: '{4}{R/G}',
     cmc: 5,
     type_line: 'Creature — Goblin Warrior',
     oracle_text:
-     'Trample\nPersist (When this creature dies, if it had no -1/-1 counters on it, return it to the battlefield under its owner\'s control with a -1/-1 counter on it.)',
+     "Trample\nPersist (When this creature dies, if it had no -1/-1 counters on it, return it to the battlefield under its owner's control with a -1/-1 counter on it.)",
     power: '5',
     toughness: '2',
     colors: [ 'G', 'R' ],
@@ -2957,9 +2924,8 @@ module.exports = [ { object: 'card',
        vintage: 'legal',
        penny: 'legal',
        commander: 'legal',
-       '1v1': 'legal',
        duel: 'legal',
-       brawl: 'not_legal' },
+       oldschool: 'not_legal' },
     games: [ 'mtgo', 'paper' ],
     reserved: false,
     foil: true,
@@ -2988,7 +2954,7 @@ module.exports = [ { object: 'card',
     frame_effect: '',
     full_art: false,
     story_spotlight: false,
-    edhrec_rank: 14064,
+    edhrec_rank: 14238,
     related_uris:
      { gatherer:
         'http://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=456817',
@@ -3012,25 +2978,25 @@ module.exports = [ { object: 'card',
     scryfall_uri:
      'https://scryfall.com/card/uma/220/safehold-elite?utm_source=api',
     layout: 'normal',
-    highres_image: false,
+    highres_image: true,
     image_uris:
      { small:
-        'https://img.scryfall.com/cards/small/front/d/0/d049f233-7fcb-49cb-897b-a12d57692fe0.jpg?1542806248',
+        'https://img.scryfall.com/cards/small/front/d/0/d049f233-7fcb-49cb-897b-a12d57692fe0.jpg?1547518288',
        normal:
-        'https://img.scryfall.com/cards/normal/front/d/0/d049f233-7fcb-49cb-897b-a12d57692fe0.jpg?1542806248',
+        'https://img.scryfall.com/cards/normal/front/d/0/d049f233-7fcb-49cb-897b-a12d57692fe0.jpg?1547518288',
        large:
-        'https://img.scryfall.com/cards/large/front/d/0/d049f233-7fcb-49cb-897b-a12d57692fe0.jpg?1542806248',
+        'https://img.scryfall.com/cards/large/front/d/0/d049f233-7fcb-49cb-897b-a12d57692fe0.jpg?1547518288',
        png:
-        'https://img.scryfall.com/cards/png/front/d/0/d049f233-7fcb-49cb-897b-a12d57692fe0.png?1542806248',
+        'https://img.scryfall.com/cards/png/front/d/0/d049f233-7fcb-49cb-897b-a12d57692fe0.png?1547518288',
        art_crop:
-        'https://img.scryfall.com/cards/art_crop/front/d/0/d049f233-7fcb-49cb-897b-a12d57692fe0.jpg?1542806248',
+        'https://img.scryfall.com/cards/art_crop/front/d/0/d049f233-7fcb-49cb-897b-a12d57692fe0.jpg?1547518288',
        border_crop:
-        'https://img.scryfall.com/cards/border_crop/front/d/0/d049f233-7fcb-49cb-897b-a12d57692fe0.jpg?1542806248' },
+        'https://img.scryfall.com/cards/border_crop/front/d/0/d049f233-7fcb-49cb-897b-a12d57692fe0.jpg?1547518288' },
     mana_cost: '{1}{G/W}',
     cmc: 2,
     type_line: 'Creature — Elf Scout',
     oracle_text:
-     'Persist (When this creature dies, if it had no -1/-1 counters on it, return it to the battlefield under its owner\'s control with a -1/-1 counter on it.)',
+     "Persist (When this creature dies, if it had no -1/-1 counters on it, return it to the battlefield under its owner's control with a -1/-1 counter on it.)",
     power: '2',
     toughness: '2',
     colors: [ 'G', 'W' ],
@@ -3043,11 +3009,10 @@ module.exports = [ { object: 'card',
        legacy: 'legal',
        pauper: 'legal',
        vintage: 'legal',
-       penny: 'not_legal',
+       penny: 'legal',
        commander: 'legal',
-       '1v1': 'legal',
        duel: 'legal',
-       brawl: 'not_legal' },
+       oldschool: 'not_legal' },
     games: [ 'mtgo', 'paper' ],
     reserved: false,
     foil: true,
@@ -3077,7 +3042,7 @@ module.exports = [ { object: 'card',
     frame_effect: '',
     full_art: false,
     story_spotlight: false,
-    edhrec_rank: 11306,
+    edhrec_rank: 11459,
     related_uris:
      { gatherer:
         'http://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=456816',
@@ -3101,20 +3066,20 @@ module.exports = [ { object: 'card',
     scryfall_uri:
      'https://scryfall.com/card/uma/219/rakdos-shred-freak?utm_source=api',
     layout: 'normal',
-    highres_image: false,
+    highres_image: true,
     image_uris:
      { small:
-        'https://img.scryfall.com/cards/small/front/3/a/3aed1803-7936-4329-bb8a-7cdb0de23633.jpg?1542806178',
+        'https://img.scryfall.com/cards/small/front/3/a/3aed1803-7936-4329-bb8a-7cdb0de23633.jpg?1547518267',
        normal:
-        'https://img.scryfall.com/cards/normal/front/3/a/3aed1803-7936-4329-bb8a-7cdb0de23633.jpg?1542806178',
+        'https://img.scryfall.com/cards/normal/front/3/a/3aed1803-7936-4329-bb8a-7cdb0de23633.jpg?1547518267',
        large:
-        'https://img.scryfall.com/cards/large/front/3/a/3aed1803-7936-4329-bb8a-7cdb0de23633.jpg?1542806178',
+        'https://img.scryfall.com/cards/large/front/3/a/3aed1803-7936-4329-bb8a-7cdb0de23633.jpg?1547518267',
        png:
-        'https://img.scryfall.com/cards/png/front/3/a/3aed1803-7936-4329-bb8a-7cdb0de23633.png?1542806178',
+        'https://img.scryfall.com/cards/png/front/3/a/3aed1803-7936-4329-bb8a-7cdb0de23633.png?1547518267',
        art_crop:
-        'https://img.scryfall.com/cards/art_crop/front/3/a/3aed1803-7936-4329-bb8a-7cdb0de23633.jpg?1542806178',
+        'https://img.scryfall.com/cards/art_crop/front/3/a/3aed1803-7936-4329-bb8a-7cdb0de23633.jpg?1547518267',
        border_crop:
-        'https://img.scryfall.com/cards/border_crop/front/3/a/3aed1803-7936-4329-bb8a-7cdb0de23633.jpg?1542806178' },
+        'https://img.scryfall.com/cards/border_crop/front/3/a/3aed1803-7936-4329-bb8a-7cdb0de23633.jpg?1547518267' },
     mana_cost: '{B/R}{B/R}',
     cmc: 2,
     type_line: 'Creature — Human Berserker',
@@ -3133,9 +3098,8 @@ module.exports = [ { object: 'card',
        vintage: 'legal',
        penny: 'legal',
        commander: 'legal',
-       '1v1': 'legal',
        duel: 'legal',
-       brawl: 'not_legal' },
+       oldschool: 'not_legal' },
     games: [ 'mtgo', 'paper' ],
     reserved: false,
     foil: true,
@@ -3166,7 +3130,7 @@ module.exports = [ { object: 'card',
     frame_effect: '',
     full_art: false,
     story_spotlight: false,
-    edhrec_rank: 10157,
+    edhrec_rank: 10320,
     related_uris:
      { gatherer:
         'http://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=456815',
@@ -3189,20 +3153,20 @@ module.exports = [ { object: 'card',
      'https://api.scryfall.com/cards/aad6c9c6-53db-4f6f-a20b-16dcbae42d0c',
     scryfall_uri: 'https://scryfall.com/card/uma/218/plumeveil?utm_source=api',
     layout: 'normal',
-    highres_image: false,
+    highres_image: true,
     image_uris:
      { small:
-        'https://img.scryfall.com/cards/small/front/a/a/aad6c9c6-53db-4f6f-a20b-16dcbae42d0c.jpg?1542806134',
+        'https://img.scryfall.com/cards/small/front/a/a/aad6c9c6-53db-4f6f-a20b-16dcbae42d0c.jpg?1547518249',
        normal:
-        'https://img.scryfall.com/cards/normal/front/a/a/aad6c9c6-53db-4f6f-a20b-16dcbae42d0c.jpg?1542806134',
+        'https://img.scryfall.com/cards/normal/front/a/a/aad6c9c6-53db-4f6f-a20b-16dcbae42d0c.jpg?1547518249',
        large:
-        'https://img.scryfall.com/cards/large/front/a/a/aad6c9c6-53db-4f6f-a20b-16dcbae42d0c.jpg?1542806134',
+        'https://img.scryfall.com/cards/large/front/a/a/aad6c9c6-53db-4f6f-a20b-16dcbae42d0c.jpg?1547518249',
        png:
-        'https://img.scryfall.com/cards/png/front/a/a/aad6c9c6-53db-4f6f-a20b-16dcbae42d0c.png?1542806134',
+        'https://img.scryfall.com/cards/png/front/a/a/aad6c9c6-53db-4f6f-a20b-16dcbae42d0c.png?1547518249',
        art_crop:
-        'https://img.scryfall.com/cards/art_crop/front/a/a/aad6c9c6-53db-4f6f-a20b-16dcbae42d0c.jpg?1542806134',
+        'https://img.scryfall.com/cards/art_crop/front/a/a/aad6c9c6-53db-4f6f-a20b-16dcbae42d0c.jpg?1547518249',
        border_crop:
-        'https://img.scryfall.com/cards/border_crop/front/a/a/aad6c9c6-53db-4f6f-a20b-16dcbae42d0c.jpg?1542806134' },
+        'https://img.scryfall.com/cards/border_crop/front/a/a/aad6c9c6-53db-4f6f-a20b-16dcbae42d0c.jpg?1547518249' },
     mana_cost: '{W/U}{W/U}{W/U}',
     cmc: 3,
     type_line: 'Creature — Elemental',
@@ -3221,9 +3185,8 @@ module.exports = [ { object: 'card',
        vintage: 'legal',
        penny: 'legal',
        commander: 'legal',
-       '1v1': 'legal',
        duel: 'legal',
-       brawl: 'not_legal' },
+       oldschool: 'not_legal' },
     games: [ 'mtgo', 'paper' ],
     reserved: false,
     foil: true,
@@ -3254,7 +3217,7 @@ module.exports = [ { object: 'card',
     frame_effect: '',
     full_art: false,
     story_spotlight: false,
-    edhrec_rank: 8292,
+    edhrec_rank: 8192,
     related_uris:
      { gatherer:
         'http://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=456814',
@@ -3278,25 +3241,25 @@ module.exports = [ { object: 'card',
     scryfall_uri:
      'https://scryfall.com/card/uma/217/murderous-redcap?utm_source=api',
     layout: 'normal',
-    highres_image: false,
+    highres_image: true,
     image_uris:
      { small:
-        'https://img.scryfall.com/cards/small/front/a/c/acadf575-2076-4f0c-b66e-994898adf375.jpg?1542806087',
+        'https://img.scryfall.com/cards/small/front/a/c/acadf575-2076-4f0c-b66e-994898adf375.jpg?1547518234',
        normal:
-        'https://img.scryfall.com/cards/normal/front/a/c/acadf575-2076-4f0c-b66e-994898adf375.jpg?1542806087',
+        'https://img.scryfall.com/cards/normal/front/a/c/acadf575-2076-4f0c-b66e-994898adf375.jpg?1547518234',
        large:
-        'https://img.scryfall.com/cards/large/front/a/c/acadf575-2076-4f0c-b66e-994898adf375.jpg?1542806087',
+        'https://img.scryfall.com/cards/large/front/a/c/acadf575-2076-4f0c-b66e-994898adf375.jpg?1547518234',
        png:
-        'https://img.scryfall.com/cards/png/front/a/c/acadf575-2076-4f0c-b66e-994898adf375.png?1542806087',
+        'https://img.scryfall.com/cards/png/front/a/c/acadf575-2076-4f0c-b66e-994898adf375.png?1547518234',
        art_crop:
-        'https://img.scryfall.com/cards/art_crop/front/a/c/acadf575-2076-4f0c-b66e-994898adf375.jpg?1542806087',
+        'https://img.scryfall.com/cards/art_crop/front/a/c/acadf575-2076-4f0c-b66e-994898adf375.jpg?1547518234',
        border_crop:
-        'https://img.scryfall.com/cards/border_crop/front/a/c/acadf575-2076-4f0c-b66e-994898adf375.jpg?1542806087' },
+        'https://img.scryfall.com/cards/border_crop/front/a/c/acadf575-2076-4f0c-b66e-994898adf375.jpg?1547518234' },
     mana_cost: '{2}{B/R}{B/R}',
     cmc: 4,
     type_line: 'Creature — Goblin Assassin',
     oracle_text:
-     'When Murderous Redcap enters the battlefield, it deals damage equal to its power to any target.\nPersist (When this creature dies, if it had no -1/-1 counters on it, return it to the battlefield under its owner\'s control with a -1/-1 counter on it.)',
+     "When Murderous Redcap enters the battlefield, it deals damage equal to its power to any target.\nPersist (When this creature dies, if it had no -1/-1 counters on it, return it to the battlefield under its owner's control with a -1/-1 counter on it.)",
     power: '2',
     toughness: '2',
     colors: [ 'B', 'R' ],
@@ -3309,11 +3272,10 @@ module.exports = [ { object: 'card',
        legacy: 'legal',
        pauper: 'not_legal',
        vintage: 'legal',
-       penny: 'not_legal',
+       penny: 'legal',
        commander: 'legal',
-       '1v1': 'legal',
        duel: 'legal',
-       brawl: 'not_legal' },
+       oldschool: 'not_legal' },
     games: [ 'mtgo', 'paper' ],
     reserved: false,
     foil: true,
@@ -3342,7 +3304,7 @@ module.exports = [ { object: 'card',
     frame_effect: '',
     full_art: false,
     story_spotlight: false,
-    edhrec_rank: 2449,
+    edhrec_rank: 2451,
     related_uris:
      { gatherer:
         'http://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=456813',
@@ -3370,22 +3332,22 @@ module.exports = [ { object: 'card',
     highres_image: true,
     image_uris:
      { small:
-        'https://img.scryfall.com/cards/small/front/a/8/a844d537-df73-422d-a154-f1c6b92d0469.jpg?1545069208',
+        'https://img.scryfall.com/cards/small/front/a/8/a844d537-df73-422d-a154-f1c6b92d0469.jpg?1547518222',
        normal:
-        'https://img.scryfall.com/cards/normal/front/a/8/a844d537-df73-422d-a154-f1c6b92d0469.jpg?1545069208',
+        'https://img.scryfall.com/cards/normal/front/a/8/a844d537-df73-422d-a154-f1c6b92d0469.jpg?1547518222',
        large:
-        'https://img.scryfall.com/cards/large/front/a/8/a844d537-df73-422d-a154-f1c6b92d0469.jpg?1545069208',
+        'https://img.scryfall.com/cards/large/front/a/8/a844d537-df73-422d-a154-f1c6b92d0469.jpg?1547518222',
        png:
-        'https://img.scryfall.com/cards/png/front/a/8/a844d537-df73-422d-a154-f1c6b92d0469.png?1545069208',
+        'https://img.scryfall.com/cards/png/front/a/8/a844d537-df73-422d-a154-f1c6b92d0469.png?1547518222',
        art_crop:
-        'https://img.scryfall.com/cards/art_crop/front/a/8/a844d537-df73-422d-a154-f1c6b92d0469.jpg?1545069208',
+        'https://img.scryfall.com/cards/art_crop/front/a/8/a844d537-df73-422d-a154-f1c6b92d0469.jpg?1547518222',
        border_crop:
-        'https://img.scryfall.com/cards/border_crop/front/a/8/a844d537-df73-422d-a154-f1c6b92d0469.jpg?1545069208' },
+        'https://img.scryfall.com/cards/border_crop/front/a/8/a844d537-df73-422d-a154-f1c6b92d0469.jpg?1547518222' },
     mana_cost: '{1}{G/W}{G/W}',
     cmc: 3,
     type_line: 'Creature — Ouphe',
     oracle_text:
-     'When Kitchen Finks enters the battlefield, you gain 2 life.\nPersist (When this creature dies, if it had no -1/-1 counters on it, return it to the battlefield under its owner\'s control with a -1/-1 counter on it.)',
+     "When Kitchen Finks enters the battlefield, you gain 2 life.\nPersist (When this creature dies, if it had no -1/-1 counters on it, return it to the battlefield under its owner's control with a -1/-1 counter on it.)",
     power: '3',
     toughness: '2',
     colors: [ 'G', 'W' ],
@@ -3400,9 +3362,8 @@ module.exports = [ { object: 'card',
        vintage: 'legal',
        penny: 'not_legal',
        commander: 'legal',
-       '1v1': 'legal',
        duel: 'legal',
-       brawl: 'not_legal' },
+       oldschool: 'not_legal' },
     games: [ 'mtgo', 'paper' ],
     reserved: false,
     foil: true,
@@ -3425,7 +3386,7 @@ module.exports = [ { object: 'card',
     digital: false,
     rarity: 'uncommon',
     flavor_text:
-     'Accept one favor from an ouphe, and you\'re doomed to accept another.',
+     "Accept one favor from an ouphe, and you're doomed to accept another.",
     illustration_id: 'bc0b9563-df7a-4e0f-a584-01a699770d3c',
     artist: 'Kev Walker',
     border_color: 'black',
@@ -3433,7 +3394,7 @@ module.exports = [ { object: 'card',
     frame_effect: '',
     full_art: false,
     story_spotlight: false,
-    edhrec_rank: 4478,
+    edhrec_rank: 4568,
     related_uris:
      { gatherer:
         'http://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=456812',
@@ -3461,17 +3422,17 @@ module.exports = [ { object: 'card',
     highres_image: true,
     image_uris:
      { small:
-        'https://img.scryfall.com/cards/small/front/2/1/2168dd99-f4a9-4fe9-89d4-fc0effeb8f89.jpg?1545068841',
+        'https://img.scryfall.com/cards/small/front/2/1/2168dd99-f4a9-4fe9-89d4-fc0effeb8f89.jpg?1547518206',
        normal:
-        'https://img.scryfall.com/cards/normal/front/2/1/2168dd99-f4a9-4fe9-89d4-fc0effeb8f89.jpg?1545068841',
+        'https://img.scryfall.com/cards/normal/front/2/1/2168dd99-f4a9-4fe9-89d4-fc0effeb8f89.jpg?1547518206',
        large:
-        'https://img.scryfall.com/cards/large/front/2/1/2168dd99-f4a9-4fe9-89d4-fc0effeb8f89.jpg?1545068841',
+        'https://img.scryfall.com/cards/large/front/2/1/2168dd99-f4a9-4fe9-89d4-fc0effeb8f89.jpg?1547518206',
        png:
-        'https://img.scryfall.com/cards/png/front/2/1/2168dd99-f4a9-4fe9-89d4-fc0effeb8f89.png?1545068841',
+        'https://img.scryfall.com/cards/png/front/2/1/2168dd99-f4a9-4fe9-89d4-fc0effeb8f89.png?1547518206',
        art_crop:
-        'https://img.scryfall.com/cards/art_crop/front/2/1/2168dd99-f4a9-4fe9-89d4-fc0effeb8f89.jpg?1545068841',
+        'https://img.scryfall.com/cards/art_crop/front/2/1/2168dd99-f4a9-4fe9-89d4-fc0effeb8f89.jpg?1547518206',
        border_crop:
-        'https://img.scryfall.com/cards/border_crop/front/2/1/2168dd99-f4a9-4fe9-89d4-fc0effeb8f89.jpg?1545068841' },
+        'https://img.scryfall.com/cards/border_crop/front/2/1/2168dd99-f4a9-4fe9-89d4-fc0effeb8f89.jpg?1547518206' },
     mana_cost: '{1}{B/R}{B/R}',
     cmc: 3,
     type_line: 'Creature — Elemental Shaman',
@@ -3490,9 +3451,8 @@ module.exports = [ { object: 'card',
        vintage: 'legal',
        penny: 'not_legal',
        commander: 'legal',
-       '1v1': 'legal',
        duel: 'legal',
-       brawl: 'not_legal' },
+       oldschool: 'not_legal' },
     games: [ 'mtgo', 'paper' ],
     reserved: false,
     foil: true,
@@ -3522,7 +3482,7 @@ module.exports = [ { object: 'card',
     frame_effect: '',
     full_art: false,
     story_spotlight: false,
-    edhrec_rank: 6651,
+    edhrec_rank: 6771,
     related_uris:
      { gatherer:
         'http://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=456811',
@@ -3546,20 +3506,20 @@ module.exports = [ { object: 'card',
     scryfall_uri:
      'https://scryfall.com/card/uma/214/double-cleave?utm_source=api',
     layout: 'normal',
-    highres_image: false,
+    highres_image: true,
     image_uris:
      { small:
-        'https://img.scryfall.com/cards/small/front/8/2/82505754-a22f-4ae9-8efd-75eff17cbed6.jpg?1542806033',
+        'https://img.scryfall.com/cards/small/front/8/2/82505754-a22f-4ae9-8efd-75eff17cbed6.jpg?1547518194',
        normal:
-        'https://img.scryfall.com/cards/normal/front/8/2/82505754-a22f-4ae9-8efd-75eff17cbed6.jpg?1542806033',
+        'https://img.scryfall.com/cards/normal/front/8/2/82505754-a22f-4ae9-8efd-75eff17cbed6.jpg?1547518194',
        large:
-        'https://img.scryfall.com/cards/large/front/8/2/82505754-a22f-4ae9-8efd-75eff17cbed6.jpg?1542806033',
+        'https://img.scryfall.com/cards/large/front/8/2/82505754-a22f-4ae9-8efd-75eff17cbed6.jpg?1547518194',
        png:
-        'https://img.scryfall.com/cards/png/front/8/2/82505754-a22f-4ae9-8efd-75eff17cbed6.png?1542806033',
+        'https://img.scryfall.com/cards/png/front/8/2/82505754-a22f-4ae9-8efd-75eff17cbed6.png?1547518194',
        art_crop:
-        'https://img.scryfall.com/cards/art_crop/front/8/2/82505754-a22f-4ae9-8efd-75eff17cbed6.jpg?1542806033',
+        'https://img.scryfall.com/cards/art_crop/front/8/2/82505754-a22f-4ae9-8efd-75eff17cbed6.jpg?1547518194',
        border_crop:
-        'https://img.scryfall.com/cards/border_crop/front/8/2/82505754-a22f-4ae9-8efd-75eff17cbed6.jpg?1542806033' },
+        'https://img.scryfall.com/cards/border_crop/front/8/2/82505754-a22f-4ae9-8efd-75eff17cbed6.jpg?1547518194' },
     mana_cost: '{1}{R/W}',
     cmc: 2,
     type_line: 'Instant',
@@ -3575,11 +3535,10 @@ module.exports = [ { object: 'card',
        legacy: 'legal',
        pauper: 'legal',
        vintage: 'legal',
-       penny: 'not_legal',
+       penny: 'legal',
        commander: 'legal',
-       '1v1': 'legal',
        duel: 'legal',
-       brawl: 'not_legal' },
+       oldschool: 'not_legal' },
     games: [ 'mtgo', 'paper' ],
     reserved: false,
     foil: true,
@@ -3601,7 +3560,7 @@ module.exports = [ { object: 'card',
     collector_number: '214',
     digital: false,
     rarity: 'common',
-    flavor_text: 'If at first you don\'t succeed, hit them again.',
+    flavor_text: "If at first you don't succeed, hit them again.",
     illustration_id: 'e6c68f70-a565-4a16-8c98-acef460424a4',
     artist: 'Zoltan Boros',
     border_color: 'black',
@@ -3609,7 +3568,7 @@ module.exports = [ { object: 'card',
     frame_effect: '',
     full_art: false,
     story_spotlight: false,
-    edhrec_rank: 8613,
+    edhrec_rank: 8835,
     related_uris:
      { gatherer:
         'http://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=456810',
@@ -3633,20 +3592,20 @@ module.exports = [ { object: 'card',
     scryfall_uri:
      'https://scryfall.com/card/uma/213/dimir-guildmage?utm_source=api',
     layout: 'normal',
-    highres_image: false,
+    highres_image: true,
     image_uris:
      { small:
-        'https://img.scryfall.com/cards/small/front/6/8/6822ef8f-ff27-410d-934f-c87baef03266.jpg?1542722820',
+        'https://img.scryfall.com/cards/small/front/6/8/6822ef8f-ff27-410d-934f-c87baef03266.jpg?1547518180',
        normal:
-        'https://img.scryfall.com/cards/normal/front/6/8/6822ef8f-ff27-410d-934f-c87baef03266.jpg?1542722820',
+        'https://img.scryfall.com/cards/normal/front/6/8/6822ef8f-ff27-410d-934f-c87baef03266.jpg?1547518180',
        large:
-        'https://img.scryfall.com/cards/large/front/6/8/6822ef8f-ff27-410d-934f-c87baef03266.jpg?1542722820',
+        'https://img.scryfall.com/cards/large/front/6/8/6822ef8f-ff27-410d-934f-c87baef03266.jpg?1547518180',
        png:
-        'https://img.scryfall.com/cards/png/front/6/8/6822ef8f-ff27-410d-934f-c87baef03266.png?1542722820',
+        'https://img.scryfall.com/cards/png/front/6/8/6822ef8f-ff27-410d-934f-c87baef03266.png?1547518180',
        art_crop:
-        'https://img.scryfall.com/cards/art_crop/front/6/8/6822ef8f-ff27-410d-934f-c87baef03266.jpg?1542722820',
+        'https://img.scryfall.com/cards/art_crop/front/6/8/6822ef8f-ff27-410d-934f-c87baef03266.jpg?1547518180',
        border_crop:
-        'https://img.scryfall.com/cards/border_crop/front/6/8/6822ef8f-ff27-410d-934f-c87baef03266.jpg?1542722820' },
+        'https://img.scryfall.com/cards/border_crop/front/6/8/6822ef8f-ff27-410d-934f-c87baef03266.jpg?1547518180' },
     mana_cost: '{U/B}{U/B}',
     cmc: 2,
     type_line: 'Creature — Human Wizard',
@@ -3666,9 +3625,8 @@ module.exports = [ { object: 'card',
        vintage: 'legal',
        penny: 'legal',
        commander: 'legal',
-       '1v1': 'legal',
        duel: 'legal',
-       brawl: 'not_legal' },
+       oldschool: 'not_legal' },
     games: [ 'mtgo', 'paper' ],
     reserved: false,
     foil: true,
@@ -3697,7 +3655,7 @@ module.exports = [ { object: 'card',
     frame_effect: '',
     full_art: false,
     story_spotlight: false,
-    edhrec_rank: 8216,
+    edhrec_rank: 8323,
     related_uris:
      { gatherer:
         'http://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=456809',
@@ -3721,20 +3679,20 @@ module.exports = [ { object: 'card',
     scryfall_uri:
      'https://scryfall.com/card/uma/212/canker-abomination?utm_source=api',
     layout: 'normal',
-    highres_image: false,
+    highres_image: true,
     image_uris:
      { small:
-        'https://img.scryfall.com/cards/small/front/f/7/f7158f78-daf3-46ff-aa5f-f8cff3a24ed5.jpg?1542805953',
+        'https://img.scryfall.com/cards/small/front/f/7/f7158f78-daf3-46ff-aa5f-f8cff3a24ed5.jpg?1547518163',
        normal:
-        'https://img.scryfall.com/cards/normal/front/f/7/f7158f78-daf3-46ff-aa5f-f8cff3a24ed5.jpg?1542805953',
+        'https://img.scryfall.com/cards/normal/front/f/7/f7158f78-daf3-46ff-aa5f-f8cff3a24ed5.jpg?1547518163',
        large:
-        'https://img.scryfall.com/cards/large/front/f/7/f7158f78-daf3-46ff-aa5f-f8cff3a24ed5.jpg?1542805953',
+        'https://img.scryfall.com/cards/large/front/f/7/f7158f78-daf3-46ff-aa5f-f8cff3a24ed5.jpg?1547518163',
        png:
-        'https://img.scryfall.com/cards/png/front/f/7/f7158f78-daf3-46ff-aa5f-f8cff3a24ed5.png?1542805953',
+        'https://img.scryfall.com/cards/png/front/f/7/f7158f78-daf3-46ff-aa5f-f8cff3a24ed5.png?1547518163',
        art_crop:
-        'https://img.scryfall.com/cards/art_crop/front/f/7/f7158f78-daf3-46ff-aa5f-f8cff3a24ed5.jpg?1542805953',
+        'https://img.scryfall.com/cards/art_crop/front/f/7/f7158f78-daf3-46ff-aa5f-f8cff3a24ed5.jpg?1547518163',
        border_crop:
-        'https://img.scryfall.com/cards/border_crop/front/f/7/f7158f78-daf3-46ff-aa5f-f8cff3a24ed5.jpg?1542805953' },
+        'https://img.scryfall.com/cards/border_crop/front/f/7/f7158f78-daf3-46ff-aa5f-f8cff3a24ed5.jpg?1547518163' },
     mana_cost: '{2}{B/G}{B/G}',
     cmc: 4,
     type_line: 'Creature — Treefolk Horror',
@@ -3754,9 +3712,8 @@ module.exports = [ { object: 'card',
        vintage: 'legal',
        penny: 'legal',
        commander: 'legal',
-       '1v1': 'legal',
        duel: 'legal',
-       brawl: 'not_legal' },
+       oldschool: 'not_legal' },
     games: [ 'mtgo', 'paper' ],
     reserved: false,
     foil: true,
@@ -3787,7 +3744,7 @@ module.exports = [ { object: 'card',
     frame_effect: '',
     full_art: false,
     story_spotlight: false,
-    edhrec_rank: 8465,
+    edhrec_rank: 8627,
     related_uris:
      { gatherer:
         'http://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=456808',
@@ -3811,20 +3768,20 @@ module.exports = [ { object: 'card',
     scryfall_uri:
      'https://scryfall.com/card/uma/211/beckon-apparition?utm_source=api',
     layout: 'normal',
-    highres_image: false,
+    highres_image: true,
     image_uris:
      { small:
-        'https://img.scryfall.com/cards/small/front/3/9/396bdd5f-2aad-48ba-a4b1-f2b2365a1a53.jpg?1542805905',
+        'https://img.scryfall.com/cards/small/front/3/9/396bdd5f-2aad-48ba-a4b1-f2b2365a1a53.jpg?1547518148',
        normal:
-        'https://img.scryfall.com/cards/normal/front/3/9/396bdd5f-2aad-48ba-a4b1-f2b2365a1a53.jpg?1542805905',
+        'https://img.scryfall.com/cards/normal/front/3/9/396bdd5f-2aad-48ba-a4b1-f2b2365a1a53.jpg?1547518148',
        large:
-        'https://img.scryfall.com/cards/large/front/3/9/396bdd5f-2aad-48ba-a4b1-f2b2365a1a53.jpg?1542805905',
+        'https://img.scryfall.com/cards/large/front/3/9/396bdd5f-2aad-48ba-a4b1-f2b2365a1a53.jpg?1547518148',
        png:
-        'https://img.scryfall.com/cards/png/front/3/9/396bdd5f-2aad-48ba-a4b1-f2b2365a1a53.png?1542805905',
+        'https://img.scryfall.com/cards/png/front/3/9/396bdd5f-2aad-48ba-a4b1-f2b2365a1a53.png?1547518148',
        art_crop:
-        'https://img.scryfall.com/cards/art_crop/front/3/9/396bdd5f-2aad-48ba-a4b1-f2b2365a1a53.jpg?1542805905',
+        'https://img.scryfall.com/cards/art_crop/front/3/9/396bdd5f-2aad-48ba-a4b1-f2b2365a1a53.jpg?1547518148',
        border_crop:
-        'https://img.scryfall.com/cards/border_crop/front/3/9/396bdd5f-2aad-48ba-a4b1-f2b2365a1a53.jpg?1542805905' },
+        'https://img.scryfall.com/cards/border_crop/front/3/9/396bdd5f-2aad-48ba-a4b1-f2b2365a1a53.jpg?1547518148' },
     mana_cost: '{W/B}',
     cmc: 1,
     type_line: 'Instant',
@@ -3855,11 +3812,10 @@ module.exports = [ { object: 'card',
        legacy: 'legal',
        pauper: 'legal',
        vintage: 'legal',
-       penny: 'not_legal',
+       penny: 'legal',
        commander: 'legal',
-       '1v1': 'legal',
        duel: 'legal',
-       brawl: 'not_legal' },
+       oldschool: 'not_legal' },
     games: [ 'mtgo', 'paper' ],
     reserved: false,
     foil: true,
@@ -3890,7 +3846,7 @@ module.exports = [ { object: 'card',
     frame_effect: '',
     full_art: false,
     story_spotlight: false,
-    edhrec_rank: 9863,
+    edhrec_rank: 9957,
     related_uris:
      { gatherer:
         'http://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=456807',
@@ -3906,7 +3862,7 @@ module.exports = [ { object: 'card',
     multiverse_ids: [ 456806 ],
     mtgo_id: 70493,
     tcgplayer_id: 180918,
-    name: 'Warleader\'s Helix',
+    name: "Warleader's Helix",
     lang: 'en',
     released_at: '2018-12-07',
     uri:
@@ -3914,25 +3870,25 @@ module.exports = [ { object: 'card',
     scryfall_uri:
      'https://scryfall.com/card/uma/210/warleaders-helix?utm_source=api',
     layout: 'normal',
-    highres_image: false,
+    highres_image: true,
     image_uris:
      { small:
-        'https://img.scryfall.com/cards/small/front/9/8/989f8049-c4d2-4729-b35f-7bd7d8cbcb06.jpg?1542805865',
+        'https://img.scryfall.com/cards/small/front/9/8/989f8049-c4d2-4729-b35f-7bd7d8cbcb06.jpg?1547518136',
        normal:
-        'https://img.scryfall.com/cards/normal/front/9/8/989f8049-c4d2-4729-b35f-7bd7d8cbcb06.jpg?1542805865',
+        'https://img.scryfall.com/cards/normal/front/9/8/989f8049-c4d2-4729-b35f-7bd7d8cbcb06.jpg?1547518136',
        large:
-        'https://img.scryfall.com/cards/large/front/9/8/989f8049-c4d2-4729-b35f-7bd7d8cbcb06.jpg?1542805865',
+        'https://img.scryfall.com/cards/large/front/9/8/989f8049-c4d2-4729-b35f-7bd7d8cbcb06.jpg?1547518136',
        png:
-        'https://img.scryfall.com/cards/png/front/9/8/989f8049-c4d2-4729-b35f-7bd7d8cbcb06.png?1542805865',
+        'https://img.scryfall.com/cards/png/front/9/8/989f8049-c4d2-4729-b35f-7bd7d8cbcb06.png?1547518136',
        art_crop:
-        'https://img.scryfall.com/cards/art_crop/front/9/8/989f8049-c4d2-4729-b35f-7bd7d8cbcb06.jpg?1542805865',
+        'https://img.scryfall.com/cards/art_crop/front/9/8/989f8049-c4d2-4729-b35f-7bd7d8cbcb06.jpg?1547518136',
        border_crop:
-        'https://img.scryfall.com/cards/border_crop/front/9/8/989f8049-c4d2-4729-b35f-7bd7d8cbcb06.jpg?1542805865' },
+        'https://img.scryfall.com/cards/border_crop/front/9/8/989f8049-c4d2-4729-b35f-7bd7d8cbcb06.jpg?1547518136' },
     mana_cost: '{2}{R}{W}',
     cmc: 4,
     type_line: 'Instant',
     oracle_text:
-     'Warleader\'s Helix deals 4 damage to any target and you gain 4 life.',
+     "Warleader's Helix deals 4 damage to any target and you gain 4 life.",
     colors: [ 'R', 'W' ],
     color_identity: [ 'R', 'W' ],
     legalities:
@@ -3945,9 +3901,8 @@ module.exports = [ { object: 'card',
        vintage: 'legal',
        penny: 'legal',
        commander: 'legal',
-       '1v1': 'legal',
        duel: 'legal',
-       brawl: 'not_legal' },
+       oldschool: 'not_legal' },
     games: [ 'mtgo', 'paper' ],
     reserved: false,
     foil: true,
@@ -3970,7 +3925,7 @@ module.exports = [ { object: 'card',
     digital: false,
     rarity: 'uncommon',
     flavor_text:
-     '"There is no time to remedy our enemies\' ignorance. Blast it out of them." —Aurelia',
+     `"There is no time to remedy our enemies' ignorance. Blast it out of them." —Aurelia`,
     illustration_id: '3c89dc76-6d32-49d7-adc3-0fab1193f47e',
     artist: 'Wesley Burt',
     border_color: 'black',
@@ -3978,7 +3933,7 @@ module.exports = [ { object: 'card',
     frame_effect: '',
     full_art: false,
     story_spotlight: false,
-    edhrec_rank: 5327,
+    edhrec_rank: 5364,
     related_uris:
      { gatherer:
         'http://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=456806',
@@ -4002,25 +3957,25 @@ module.exports = [ { object: 'card',
     scryfall_uri:
      'https://scryfall.com/card/uma/209/vengeful-rebirth?utm_source=api',
     layout: 'normal',
-    highres_image: false,
+    highres_image: true,
     image_uris:
      { small:
-        'https://img.scryfall.com/cards/small/front/b/0/b03bb160-8113-409a-a130-2b3fdc476e6a.jpg?1542805785',
+        'https://img.scryfall.com/cards/small/front/b/0/b03bb160-8113-409a-a130-2b3fdc476e6a.jpg?1547518128',
        normal:
-        'https://img.scryfall.com/cards/normal/front/b/0/b03bb160-8113-409a-a130-2b3fdc476e6a.jpg?1542805785',
+        'https://img.scryfall.com/cards/normal/front/b/0/b03bb160-8113-409a-a130-2b3fdc476e6a.jpg?1547518128',
        large:
-        'https://img.scryfall.com/cards/large/front/b/0/b03bb160-8113-409a-a130-2b3fdc476e6a.jpg?1542805785',
+        'https://img.scryfall.com/cards/large/front/b/0/b03bb160-8113-409a-a130-2b3fdc476e6a.jpg?1547518128',
        png:
-        'https://img.scryfall.com/cards/png/front/b/0/b03bb160-8113-409a-a130-2b3fdc476e6a.png?1542805785',
+        'https://img.scryfall.com/cards/png/front/b/0/b03bb160-8113-409a-a130-2b3fdc476e6a.png?1547518128',
        art_crop:
-        'https://img.scryfall.com/cards/art_crop/front/b/0/b03bb160-8113-409a-a130-2b3fdc476e6a.jpg?1542805785',
+        'https://img.scryfall.com/cards/art_crop/front/b/0/b03bb160-8113-409a-a130-2b3fdc476e6a.jpg?1547518128',
        border_crop:
-        'https://img.scryfall.com/cards/border_crop/front/b/0/b03bb160-8113-409a-a130-2b3fdc476e6a.jpg?1542805785' },
+        'https://img.scryfall.com/cards/border_crop/front/b/0/b03bb160-8113-409a-a130-2b3fdc476e6a.jpg?1547518128' },
     mana_cost: '{4}{R}{G}',
     cmc: 6,
     type_line: 'Sorcery',
     oracle_text:
-     'Return target card from your graveyard to your hand. If you return a nonland card to your hand this way, Vengeful Rebirth deals damage equal to that card\'s converted mana cost to any target.\nExile Vengeful Rebirth.',
+     "Return target card from your graveyard to your hand. If you return a nonland card to your hand this way, Vengeful Rebirth deals damage equal to that card's converted mana cost to any target.\nExile Vengeful Rebirth.",
     colors: [ 'G', 'R' ],
     color_identity: [ 'G', 'R' ],
     legalities:
@@ -4033,9 +3988,8 @@ module.exports = [ { object: 'card',
        vintage: 'legal',
        penny: 'legal',
        commander: 'legal',
-       '1v1': 'legal',
        duel: 'legal',
-       brawl: 'not_legal' },
+       oldschool: 'not_legal' },
     games: [ 'mtgo', 'paper' ],
     reserved: false,
     foil: true,
@@ -4064,7 +4018,7 @@ module.exports = [ { object: 'card',
     frame_effect: '',
     full_art: false,
     story_spotlight: false,
-    edhrec_rank: 6448,
+    edhrec_rank: 6551,
     related_uris:
      { gatherer:
         'http://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=456805',
@@ -4088,20 +4042,20 @@ module.exports = [ { object: 'card',
     scryfall_uri:
      'https://scryfall.com/card/uma/208/urban-evolution?utm_source=api',
     layout: 'normal',
-    highres_image: false,
+    highres_image: true,
     image_uris:
      { small:
-        'https://img.scryfall.com/cards/small/front/c/5/c5d74ebd-9674-4bcc-b51e-d46e7b5cbc72.jpg?1542805704',
+        'https://img.scryfall.com/cards/small/front/c/5/c5d74ebd-9674-4bcc-b51e-d46e7b5cbc72.jpg?1547518119',
        normal:
-        'https://img.scryfall.com/cards/normal/front/c/5/c5d74ebd-9674-4bcc-b51e-d46e7b5cbc72.jpg?1542805704',
+        'https://img.scryfall.com/cards/normal/front/c/5/c5d74ebd-9674-4bcc-b51e-d46e7b5cbc72.jpg?1547518119',
        large:
-        'https://img.scryfall.com/cards/large/front/c/5/c5d74ebd-9674-4bcc-b51e-d46e7b5cbc72.jpg?1542805704',
+        'https://img.scryfall.com/cards/large/front/c/5/c5d74ebd-9674-4bcc-b51e-d46e7b5cbc72.jpg?1547518119',
        png:
-        'https://img.scryfall.com/cards/png/front/c/5/c5d74ebd-9674-4bcc-b51e-d46e7b5cbc72.png?1542805704',
+        'https://img.scryfall.com/cards/png/front/c/5/c5d74ebd-9674-4bcc-b51e-d46e7b5cbc72.png?1547518119',
        art_crop:
-        'https://img.scryfall.com/cards/art_crop/front/c/5/c5d74ebd-9674-4bcc-b51e-d46e7b5cbc72.jpg?1542805704',
+        'https://img.scryfall.com/cards/art_crop/front/c/5/c5d74ebd-9674-4bcc-b51e-d46e7b5cbc72.jpg?1547518119',
        border_crop:
-        'https://img.scryfall.com/cards/border_crop/front/c/5/c5d74ebd-9674-4bcc-b51e-d46e7b5cbc72.jpg?1542805704' },
+        'https://img.scryfall.com/cards/border_crop/front/c/5/c5d74ebd-9674-4bcc-b51e-d46e7b5cbc72.jpg?1547518119' },
     mana_cost: '{3}{G}{U}',
     cmc: 5,
     type_line: 'Sorcery',
@@ -4119,9 +4073,8 @@ module.exports = [ { object: 'card',
        vintage: 'legal',
        penny: 'legal',
        commander: 'legal',
-       '1v1': 'legal',
        duel: 'legal',
-       brawl: 'not_legal' },
+       oldschool: 'not_legal' },
     games: [ 'mtgo', 'paper' ],
     reserved: false,
     foil: true,
@@ -4152,7 +4105,7 @@ module.exports = [ { object: 'card',
     frame_effect: '',
     full_art: false,
     story_spotlight: false,
-    edhrec_rank: 948,
+    edhrec_rank: 932,
     related_uris:
      { gatherer:
         'http://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=456804',
@@ -4176,20 +4129,20 @@ module.exports = [ { object: 'card',
     scryfall_uri:
      'https://scryfall.com/card/uma/207/sovereigns-of-lost-alara?utm_source=api',
     layout: 'normal',
-    highres_image: false,
+    highres_image: true,
     image_uris:
      { small:
-        'https://img.scryfall.com/cards/small/front/9/d/9d68ea02-66d3-4cca-ba0c-96f4340f683c.jpg?1542681228',
+        'https://img.scryfall.com/cards/small/front/9/d/9d68ea02-66d3-4cca-ba0c-96f4340f683c.jpg?1547518109',
        normal:
-        'https://img.scryfall.com/cards/normal/front/9/d/9d68ea02-66d3-4cca-ba0c-96f4340f683c.jpg?1542681228',
+        'https://img.scryfall.com/cards/normal/front/9/d/9d68ea02-66d3-4cca-ba0c-96f4340f683c.jpg?1547518109',
        large:
-        'https://img.scryfall.com/cards/large/front/9/d/9d68ea02-66d3-4cca-ba0c-96f4340f683c.jpg?1542681228',
+        'https://img.scryfall.com/cards/large/front/9/d/9d68ea02-66d3-4cca-ba0c-96f4340f683c.jpg?1547518109',
        png:
-        'https://img.scryfall.com/cards/png/front/9/d/9d68ea02-66d3-4cca-ba0c-96f4340f683c.png?1542681228',
+        'https://img.scryfall.com/cards/png/front/9/d/9d68ea02-66d3-4cca-ba0c-96f4340f683c.png?1547518109',
        art_crop:
-        'https://img.scryfall.com/cards/art_crop/front/9/d/9d68ea02-66d3-4cca-ba0c-96f4340f683c.jpg?1542681228',
+        'https://img.scryfall.com/cards/art_crop/front/9/d/9d68ea02-66d3-4cca-ba0c-96f4340f683c.jpg?1547518109',
        border_crop:
-        'https://img.scryfall.com/cards/border_crop/front/9/d/9d68ea02-66d3-4cca-ba0c-96f4340f683c.jpg?1542681228' },
+        'https://img.scryfall.com/cards/border_crop/front/9/d/9d68ea02-66d3-4cca-ba0c-96f4340f683c.jpg?1547518109' },
     mana_cost: '{4}{W}{U}',
     cmc: 6,
     type_line: 'Creature — Spirit',
@@ -4207,11 +4160,10 @@ module.exports = [ { object: 'card',
        legacy: 'legal',
        pauper: 'not_legal',
        vintage: 'legal',
-       penny: 'not_legal',
+       penny: 'legal',
        commander: 'legal',
-       '1v1': 'legal',
        duel: 'legal',
-       brawl: 'not_legal' },
+       oldschool: 'not_legal' },
     games: [ 'mtgo', 'paper' ],
     reserved: false,
     foil: true,
@@ -4240,7 +4192,7 @@ module.exports = [ { object: 'card',
     frame_effect: '',
     full_art: false,
     story_spotlight: false,
-    edhrec_rank: 2640,
+    edhrec_rank: 2673,
     related_uris:
      { gatherer:
         'http://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=456803',
@@ -4268,22 +4220,22 @@ module.exports = [ { object: 'card',
     highres_image: true,
     image_uris:
      { small:
-        'https://img.scryfall.com/cards/small/front/f/c/fcac0cff-efa6-4068-a69c-67ea4e7acea0.jpg?1545074181',
+        'https://img.scryfall.com/cards/small/front/f/c/fcac0cff-efa6-4068-a69c-67ea4e7acea0.jpg?1547518098',
        normal:
-        'https://img.scryfall.com/cards/normal/front/f/c/fcac0cff-efa6-4068-a69c-67ea4e7acea0.jpg?1545074181',
+        'https://img.scryfall.com/cards/normal/front/f/c/fcac0cff-efa6-4068-a69c-67ea4e7acea0.jpg?1547518098',
        large:
-        'https://img.scryfall.com/cards/large/front/f/c/fcac0cff-efa6-4068-a69c-67ea4e7acea0.jpg?1545074181',
+        'https://img.scryfall.com/cards/large/front/f/c/fcac0cff-efa6-4068-a69c-67ea4e7acea0.jpg?1547518098',
        png:
-        'https://img.scryfall.com/cards/png/front/f/c/fcac0cff-efa6-4068-a69c-67ea4e7acea0.png?1545074181',
+        'https://img.scryfall.com/cards/png/front/f/c/fcac0cff-efa6-4068-a69c-67ea4e7acea0.png?1547518098',
        art_crop:
-        'https://img.scryfall.com/cards/art_crop/front/f/c/fcac0cff-efa6-4068-a69c-67ea4e7acea0.jpg?1545074181',
+        'https://img.scryfall.com/cards/art_crop/front/f/c/fcac0cff-efa6-4068-a69c-67ea4e7acea0.jpg?1547518098',
        border_crop:
-        'https://img.scryfall.com/cards/border_crop/front/f/c/fcac0cff-efa6-4068-a69c-67ea4e7acea0.jpg?1545074181' },
+        'https://img.scryfall.com/cards/border_crop/front/f/c/fcac0cff-efa6-4068-a69c-67ea4e7acea0.jpg?1547518098' },
     mana_cost: '{2}{G}{W}{W}',
     cmc: 5,
     type_line: 'Legendary Creature — Angel',
     oracle_text:
-     'Flying, hexproof\nSpells and abilities your opponents control can\'t cause you to sacrifice permanents.',
+     "Flying, hexproof\nSpells and abilities your opponents control can't cause you to sacrifice permanents.",
     power: '5',
     toughness: '5',
     colors: [ 'G', 'W' ],
@@ -4298,9 +4250,8 @@ module.exports = [ { object: 'card',
        vintage: 'legal',
        penny: 'not_legal',
        commander: 'legal',
-       '1v1': 'legal',
        duel: 'legal',
-       brawl: 'not_legal' },
+       oldschool: 'not_legal' },
     games: [ 'mtgo', 'paper' ],
     reserved: false,
     foil: true,
@@ -4330,7 +4281,7 @@ module.exports = [ { object: 'card',
     frame_effect: '',
     full_art: false,
     story_spotlight: false,
-    edhrec_rank: 2149,
+    edhrec_rank: 2189,
     related_uris:
      { gatherer:
         'http://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=456802',
@@ -4354,25 +4305,25 @@ module.exports = [ { object: 'card',
     scryfall_uri:
      'https://scryfall.com/card/uma/205/reviving-vapors?utm_source=api',
     layout: 'normal',
-    highres_image: false,
+    highres_image: true,
     image_uris:
      { small:
-        'https://img.scryfall.com/cards/small/front/b/7/b7a6c902-4705-4210-8e5e-08d6a6f67573.jpg?1542805588',
+        'https://img.scryfall.com/cards/small/front/b/7/b7a6c902-4705-4210-8e5e-08d6a6f67573.jpg?1547518089',
        normal:
-        'https://img.scryfall.com/cards/normal/front/b/7/b7a6c902-4705-4210-8e5e-08d6a6f67573.jpg?1542805588',
+        'https://img.scryfall.com/cards/normal/front/b/7/b7a6c902-4705-4210-8e5e-08d6a6f67573.jpg?1547518089',
        large:
-        'https://img.scryfall.com/cards/large/front/b/7/b7a6c902-4705-4210-8e5e-08d6a6f67573.jpg?1542805588',
+        'https://img.scryfall.com/cards/large/front/b/7/b7a6c902-4705-4210-8e5e-08d6a6f67573.jpg?1547518089',
        png:
-        'https://img.scryfall.com/cards/png/front/b/7/b7a6c902-4705-4210-8e5e-08d6a6f67573.png?1542805588',
+        'https://img.scryfall.com/cards/png/front/b/7/b7a6c902-4705-4210-8e5e-08d6a6f67573.png?1547518089',
        art_crop:
-        'https://img.scryfall.com/cards/art_crop/front/b/7/b7a6c902-4705-4210-8e5e-08d6a6f67573.jpg?1542805588',
+        'https://img.scryfall.com/cards/art_crop/front/b/7/b7a6c902-4705-4210-8e5e-08d6a6f67573.jpg?1547518089',
        border_crop:
-        'https://img.scryfall.com/cards/border_crop/front/b/7/b7a6c902-4705-4210-8e5e-08d6a6f67573.jpg?1542805588' },
+        'https://img.scryfall.com/cards/border_crop/front/b/7/b7a6c902-4705-4210-8e5e-08d6a6f67573.jpg?1547518089' },
     mana_cost: '{2}{W}{U}',
     cmc: 4,
     type_line: 'Instant',
     oracle_text:
-     'Reveal the top three cards of your library and put one of them into your hand. You gain life equal to that card\'s converted mana cost. Put all other cards revealed this way into your graveyard.',
+     "Reveal the top three cards of your library and put one of them into your hand. You gain life equal to that card's converted mana cost. Put all other cards revealed this way into your graveyard.",
     colors: [ 'U', 'W' ],
     color_identity: [ 'U', 'W' ],
     legalities:
@@ -4385,9 +4336,8 @@ module.exports = [ { object: 'card',
        vintage: 'legal',
        penny: 'legal',
        commander: 'legal',
-       '1v1': 'legal',
        duel: 'legal',
-       brawl: 'not_legal' },
+       oldschool: 'not_legal' },
     games: [ 'mtgo', 'paper' ],
     reserved: false,
     foil: true,
@@ -4416,7 +4366,7 @@ module.exports = [ { object: 'card',
     frame_effect: '',
     full_art: false,
     story_spotlight: false,
-    edhrec_rank: 14899,
+    edhrec_rank: 15112,
     related_uris:
      { gatherer:
         'http://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=456801',
@@ -4444,17 +4394,17 @@ module.exports = [ { object: 'card',
     highres_image: true,
     image_uris:
      { small:
-        'https://img.scryfall.com/cards/small/front/d/3/d30ea59f-c582-4044-b639-dce6fc429b72.jpg?1545070078',
+        'https://img.scryfall.com/cards/small/front/d/3/d30ea59f-c582-4044-b639-dce6fc429b72.jpg?1547518078',
        normal:
-        'https://img.scryfall.com/cards/normal/front/d/3/d30ea59f-c582-4044-b639-dce6fc429b72.jpg?1545070078',
+        'https://img.scryfall.com/cards/normal/front/d/3/d30ea59f-c582-4044-b639-dce6fc429b72.jpg?1547518078',
        large:
-        'https://img.scryfall.com/cards/large/front/d/3/d30ea59f-c582-4044-b639-dce6fc429b72.jpg?1545070078',
+        'https://img.scryfall.com/cards/large/front/d/3/d30ea59f-c582-4044-b639-dce6fc429b72.jpg?1547518078',
        png:
-        'https://img.scryfall.com/cards/png/front/d/3/d30ea59f-c582-4044-b639-dce6fc429b72.png?1545070078',
+        'https://img.scryfall.com/cards/png/front/d/3/d30ea59f-c582-4044-b639-dce6fc429b72.png?1547518078',
        art_crop:
-        'https://img.scryfall.com/cards/art_crop/front/d/3/d30ea59f-c582-4044-b639-dce6fc429b72.jpg?1545070078',
+        'https://img.scryfall.com/cards/art_crop/front/d/3/d30ea59f-c582-4044-b639-dce6fc429b72.jpg?1547518078',
        border_crop:
-        'https://img.scryfall.com/cards/border_crop/front/d/3/d30ea59f-c582-4044-b639-dce6fc429b72.jpg?1545070078' },
+        'https://img.scryfall.com/cards/border_crop/front/d/3/d30ea59f-c582-4044-b639-dce6fc429b72.jpg?1547518078' },
     mana_cost: '{1}{B}{G}',
     cmc: 3,
     type_line: 'Sorcery',
@@ -4472,9 +4422,8 @@ module.exports = [ { object: 'card',
        vintage: 'legal',
        penny: 'not_legal',
        commander: 'legal',
-       '1v1': 'legal',
        duel: 'legal',
-       brawl: 'not_legal' },
+       oldschool: 'not_legal' },
     games: [ 'mtgo', 'paper' ],
     reserved: false,
     foil: true,
@@ -4505,7 +4454,7 @@ module.exports = [ { object: 'card',
     frame_effect: '',
     full_art: false,
     story_spotlight: false,
-    edhrec_rank: 1394,
+    edhrec_rank: 1392,
     related_uris:
      { gatherer:
         'http://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=456800',
@@ -4533,22 +4482,22 @@ module.exports = [ { object: 'card',
     highres_image: true,
     image_uris:
      { small:
-        'https://img.scryfall.com/cards/small/front/8/8/8862c680-01ed-4794-bc75-47dd840778a6.jpg?1545069877',
+        'https://img.scryfall.com/cards/small/front/8/8/8862c680-01ed-4794-bc75-47dd840778a6.jpg?1547518069',
        normal:
-        'https://img.scryfall.com/cards/normal/front/8/8/8862c680-01ed-4794-bc75-47dd840778a6.jpg?1545069877',
+        'https://img.scryfall.com/cards/normal/front/8/8/8862c680-01ed-4794-bc75-47dd840778a6.jpg?1547518069',
        large:
-        'https://img.scryfall.com/cards/large/front/8/8/8862c680-01ed-4794-bc75-47dd840778a6.jpg?1545069877',
+        'https://img.scryfall.com/cards/large/front/8/8/8862c680-01ed-4794-bc75-47dd840778a6.jpg?1547518069',
        png:
-        'https://img.scryfall.com/cards/png/front/8/8/8862c680-01ed-4794-bc75-47dd840778a6.png?1545069877',
+        'https://img.scryfall.com/cards/png/front/8/8/8862c680-01ed-4794-bc75-47dd840778a6.png?1547518069',
        art_crop:
-        'https://img.scryfall.com/cards/art_crop/front/8/8/8862c680-01ed-4794-bc75-47dd840778a6.jpg?1545069877',
+        'https://img.scryfall.com/cards/art_crop/front/8/8/8862c680-01ed-4794-bc75-47dd840778a6.jpg?1547518069',
        border_crop:
-        'https://img.scryfall.com/cards/border_crop/front/8/8/8862c680-01ed-4794-bc75-47dd840778a6.jpg?1545069877' },
+        'https://img.scryfall.com/cards/border_crop/front/8/8/8862c680-01ed-4794-bc75-47dd840778a6.jpg?1547518069' },
     mana_cost: '{3}{B}{G}',
     cmc: 5,
     type_line: 'Creature — Elemental',
     oracle_text:
-     'Lord of Extinction\'s power and toughness are each equal to the number of cards in all graveyards.',
+     "Lord of Extinction's power and toughness are each equal to the number of cards in all graveyards.",
     power: '*',
     toughness: '*',
     colors: [ 'B', 'G' ],
@@ -4563,9 +4512,8 @@ module.exports = [ { object: 'card',
        vintage: 'legal',
        penny: 'not_legal',
        commander: 'legal',
-       '1v1': 'legal',
        duel: 'legal',
-       brawl: 'not_legal' },
+       oldschool: 'not_legal' },
     games: [ 'mtgo', 'paper' ],
     reserved: false,
     foil: true,
@@ -4595,7 +4543,7 @@ module.exports = [ { object: 'card',
     frame_effect: '',
     full_art: false,
     story_spotlight: false,
-    edhrec_rank: 2373,
+    edhrec_rank: 2414,
     related_uris:
      { gatherer:
         'http://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=456799',
@@ -4623,22 +4571,22 @@ module.exports = [ { object: 'card',
     highres_image: true,
     image_uris:
      { small:
-        'https://img.scryfall.com/cards/small/front/c/e/cedfc5b7-9242-4680-b284-debc8b5a9bc7.jpg?1545069685',
+        'https://img.scryfall.com/cards/small/front/c/e/cedfc5b7-9242-4680-b284-debc8b5a9bc7.jpg?1547518052',
        normal:
-        'https://img.scryfall.com/cards/normal/front/c/e/cedfc5b7-9242-4680-b284-debc8b5a9bc7.jpg?1545069685',
+        'https://img.scryfall.com/cards/normal/front/c/e/cedfc5b7-9242-4680-b284-debc8b5a9bc7.jpg?1547518052',
        large:
-        'https://img.scryfall.com/cards/large/front/c/e/cedfc5b7-9242-4680-b284-debc8b5a9bc7.jpg?1545069685',
+        'https://img.scryfall.com/cards/large/front/c/e/cedfc5b7-9242-4680-b284-debc8b5a9bc7.jpg?1547518052',
        png:
-        'https://img.scryfall.com/cards/png/front/c/e/cedfc5b7-9242-4680-b284-debc8b5a9bc7.png?1545069685',
+        'https://img.scryfall.com/cards/png/front/c/e/cedfc5b7-9242-4680-b284-debc8b5a9bc7.png?1547518052',
        art_crop:
-        'https://img.scryfall.com/cards/art_crop/front/c/e/cedfc5b7-9242-4680-b284-debc8b5a9bc7.jpg?1545069685',
+        'https://img.scryfall.com/cards/art_crop/front/c/e/cedfc5b7-9242-4680-b284-debc8b5a9bc7.jpg?1547518052',
        border_crop:
-        'https://img.scryfall.com/cards/border_crop/front/c/e/cedfc5b7-9242-4680-b284-debc8b5a9bc7.jpg?1545069685' },
+        'https://img.scryfall.com/cards/border_crop/front/c/e/cedfc5b7-9242-4680-b284-debc8b5a9bc7.jpg?1547518052' },
     mana_cost: '{B}{G}{U}',
     cmc: 3,
     type_line: 'Legendary Creature — Elf Advisor',
     oracle_text:
-     'Each opponent can\'t draw more than one card each turn.\nWhenever you or a permanent you control becomes the target of a spell or ability an opponent controls, you may draw a card.',
+     "Each opponent can't draw more than one card each turn.\nWhenever you or a permanent you control becomes the target of a spell or ability an opponent controls, you may draw a card.",
     power: '3',
     toughness: '3',
     colors: [ 'B', 'G', 'U' ],
@@ -4653,9 +4601,8 @@ module.exports = [ { object: 'card',
        vintage: 'legal',
        penny: 'not_legal',
        commander: 'banned',
-       '1v1': 'legal',
        duel: 'legal',
-       brawl: 'not_legal' },
+       oldschool: 'not_legal' },
     games: [ 'mtgo', 'paper' ],
     reserved: false,
     foil: true,
@@ -4677,7 +4624,7 @@ module.exports = [ { object: 'card',
     collector_number: '202',
     digital: false,
     rarity: 'mythic',
-    flavor_text: '"I\'m sure we can come to an arrangement."',
+    flavor_text: `"I'm sure we can come to an arrangement."`,
     illustration_id: 'a98039f5-c10a-4228-a054-c32d3363293c',
     artist: 'Magali Villeneuve',
     border_color: 'black',
@@ -4685,7 +4632,7 @@ module.exports = [ { object: 'card',
     frame_effect: '',
     full_art: false,
     story_spotlight: false,
-    edhrec_rank: 4583,
+    edhrec_rank: 4820,
     related_uris:
      { gatherer:
         'http://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=456798',
@@ -4709,20 +4656,20 @@ module.exports = [ { object: 'card',
     scryfall_uri:
      'https://scryfall.com/card/uma/201/golgari-charm?utm_source=api',
     layout: 'normal',
-    highres_image: false,
+    highres_image: true,
     image_uris:
      { small:
-        'https://img.scryfall.com/cards/small/front/9/d/9d467e61-bbec-4cea-bd5d-f10555910c9d.jpg?1542805497',
+        'https://img.scryfall.com/cards/small/front/9/d/9d467e61-bbec-4cea-bd5d-f10555910c9d.jpg?1547518043',
        normal:
-        'https://img.scryfall.com/cards/normal/front/9/d/9d467e61-bbec-4cea-bd5d-f10555910c9d.jpg?1542805497',
+        'https://img.scryfall.com/cards/normal/front/9/d/9d467e61-bbec-4cea-bd5d-f10555910c9d.jpg?1547518043',
        large:
-        'https://img.scryfall.com/cards/large/front/9/d/9d467e61-bbec-4cea-bd5d-f10555910c9d.jpg?1542805497',
+        'https://img.scryfall.com/cards/large/front/9/d/9d467e61-bbec-4cea-bd5d-f10555910c9d.jpg?1547518043',
        png:
-        'https://img.scryfall.com/cards/png/front/9/d/9d467e61-bbec-4cea-bd5d-f10555910c9d.png?1542805497',
+        'https://img.scryfall.com/cards/png/front/9/d/9d467e61-bbec-4cea-bd5d-f10555910c9d.png?1547518043',
        art_crop:
-        'https://img.scryfall.com/cards/art_crop/front/9/d/9d467e61-bbec-4cea-bd5d-f10555910c9d.jpg?1542805497',
+        'https://img.scryfall.com/cards/art_crop/front/9/d/9d467e61-bbec-4cea-bd5d-f10555910c9d.jpg?1547518043',
        border_crop:
-        'https://img.scryfall.com/cards/border_crop/front/9/d/9d467e61-bbec-4cea-bd5d-f10555910c9d.jpg?1542805497' },
+        'https://img.scryfall.com/cards/border_crop/front/9/d/9d467e61-bbec-4cea-bd5d-f10555910c9d.jpg?1547518043' },
     mana_cost: '{B}{G}',
     cmc: 2,
     type_line: 'Instant',
@@ -4740,9 +4687,8 @@ module.exports = [ { object: 'card',
        vintage: 'legal',
        penny: 'not_legal',
        commander: 'legal',
-       '1v1': 'legal',
        duel: 'legal',
-       brawl: 'not_legal' },
+       oldschool: 'not_legal' },
     games: [ 'mtgo', 'paper' ],
     reserved: false,
     foil: true,
@@ -4773,7 +4719,7 @@ module.exports = [ { object: 'card',
     frame_effect: '',
     full_art: false,
     story_spotlight: false,
-    edhrec_rank: 1130,
+    edhrec_rank: 1116,
     related_uris:
      { gatherer:
         'http://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=456797',
@@ -4797,20 +4743,20 @@ module.exports = [ { object: 'card',
     scryfall_uri:
      'https://scryfall.com/card/uma/200/garna-the-bloodflame?utm_source=api',
     layout: 'normal',
-    highres_image: false,
+    highres_image: true,
     image_uris:
      { small:
-        'https://img.scryfall.com/cards/small/front/c/c/cc84b7cf-5c68-4bb1-a1dc-2a5fae3baf04.jpg?1542805458',
+        'https://img.scryfall.com/cards/small/front/c/c/cc84b7cf-5c68-4bb1-a1dc-2a5fae3baf04.jpg?1547518029',
        normal:
-        'https://img.scryfall.com/cards/normal/front/c/c/cc84b7cf-5c68-4bb1-a1dc-2a5fae3baf04.jpg?1542805458',
+        'https://img.scryfall.com/cards/normal/front/c/c/cc84b7cf-5c68-4bb1-a1dc-2a5fae3baf04.jpg?1547518029',
        large:
-        'https://img.scryfall.com/cards/large/front/c/c/cc84b7cf-5c68-4bb1-a1dc-2a5fae3baf04.jpg?1542805458',
+        'https://img.scryfall.com/cards/large/front/c/c/cc84b7cf-5c68-4bb1-a1dc-2a5fae3baf04.jpg?1547518029',
        png:
-        'https://img.scryfall.com/cards/png/front/c/c/cc84b7cf-5c68-4bb1-a1dc-2a5fae3baf04.png?1542805458',
+        'https://img.scryfall.com/cards/png/front/c/c/cc84b7cf-5c68-4bb1-a1dc-2a5fae3baf04.png?1547518029',
        art_crop:
-        'https://img.scryfall.com/cards/art_crop/front/c/c/cc84b7cf-5c68-4bb1-a1dc-2a5fae3baf04.jpg?1542805458',
+        'https://img.scryfall.com/cards/art_crop/front/c/c/cc84b7cf-5c68-4bb1-a1dc-2a5fae3baf04.jpg?1547518029',
        border_crop:
-        'https://img.scryfall.com/cards/border_crop/front/c/c/cc84b7cf-5c68-4bb1-a1dc-2a5fae3baf04.jpg?1542805458' },
+        'https://img.scryfall.com/cards/border_crop/front/c/c/cc84b7cf-5c68-4bb1-a1dc-2a5fae3baf04.jpg?1547518029' },
     mana_cost: '{3}{B}{R}',
     cmc: 5,
     type_line: 'Legendary Creature — Human Warrior',
@@ -4830,9 +4776,8 @@ module.exports = [ { object: 'card',
        vintage: 'legal',
        penny: 'legal',
        commander: 'legal',
-       '1v1': 'legal',
        duel: 'legal',
-       brawl: 'legal' },
+       oldschool: 'not_legal' },
     games: [ 'mtgo', 'paper' ],
     reserved: false,
     foil: true,
@@ -4861,7 +4806,7 @@ module.exports = [ { object: 'card',
     frame_effect: '',
     full_art: false,
     story_spotlight: false,
-    edhrec_rank: 2949,
+    edhrec_rank: 2993,
     related_uris:
      { gatherer:
         'http://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=456796',
@@ -4889,22 +4834,22 @@ module.exports = [ { object: 'card',
     highres_image: true,
     image_uris:
      { small:
-        'https://img.scryfall.com/cards/small/front/f/4/f40cfba1-08b5-4241-bd36-8ae18e584557.jpg?1545068911',
+        'https://img.scryfall.com/cards/small/front/f/4/f40cfba1-08b5-4241-bd36-8ae18e584557.jpg?1547518020',
        normal:
-        'https://img.scryfall.com/cards/normal/front/f/4/f40cfba1-08b5-4241-bd36-8ae18e584557.jpg?1545068911',
+        'https://img.scryfall.com/cards/normal/front/f/4/f40cfba1-08b5-4241-bd36-8ae18e584557.jpg?1547518020',
        large:
-        'https://img.scryfall.com/cards/large/front/f/4/f40cfba1-08b5-4241-bd36-8ae18e584557.jpg?1545068911',
+        'https://img.scryfall.com/cards/large/front/f/4/f40cfba1-08b5-4241-bd36-8ae18e584557.jpg?1547518020',
        png:
-        'https://img.scryfall.com/cards/png/front/f/4/f40cfba1-08b5-4241-bd36-8ae18e584557.png?1545068911',
+        'https://img.scryfall.com/cards/png/front/f/4/f40cfba1-08b5-4241-bd36-8ae18e584557.png?1547518020',
        art_crop:
-        'https://img.scryfall.com/cards/art_crop/front/f/4/f40cfba1-08b5-4241-bd36-8ae18e584557.jpg?1545068911',
+        'https://img.scryfall.com/cards/art_crop/front/f/4/f40cfba1-08b5-4241-bd36-8ae18e584557.jpg?1547518020',
        border_crop:
-        'https://img.scryfall.com/cards/border_crop/front/f/4/f40cfba1-08b5-4241-bd36-8ae18e584557.jpg?1545068911' },
+        'https://img.scryfall.com/cards/border_crop/front/f/4/f40cfba1-08b5-4241-bd36-8ae18e584557.jpg?1547518020' },
     mana_cost: '{G}{W}',
     cmc: 2,
     type_line: 'Legendary Creature — Kithkin Advisor',
     oracle_text:
-     'Noncreature spells with converted mana cost 4 or greater can\'t be cast.\nNoncreature spells with {X} in their mana costs can\'t be cast.',
+     "Noncreature spells with converted mana cost 4 or greater can't be cast.\nNoncreature spells with {X} in their mana costs can't be cast.",
     power: '2',
     toughness: '2',
     colors: [ 'G', 'W' ],
@@ -4919,9 +4864,8 @@ module.exports = [ { object: 'card',
        vintage: 'legal',
        penny: 'not_legal',
        commander: 'legal',
-       '1v1': 'legal',
        duel: 'legal',
-       brawl: 'not_legal' },
+       oldschool: 'not_legal' },
     games: [ 'mtgo', 'paper' ],
     reserved: false,
     foil: true,
@@ -4952,7 +4896,7 @@ module.exports = [ { object: 'card',
     frame_effect: '',
     full_art: false,
     story_spotlight: false,
-    edhrec_rank: 3814,
+    edhrec_rank: 3867,
     related_uris:
      { gatherer:
         'http://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=456795',
@@ -4976,20 +4920,20 @@ module.exports = [ { object: 'card',
     scryfall_uri:
      'https://scryfall.com/card/uma/198/countersquall?utm_source=api',
     layout: 'normal',
-    highres_image: false,
+    highres_image: true,
     image_uris:
      { small:
-        'https://img.scryfall.com/cards/small/front/f/9/f99f864e-a10f-47f4-94c5-4571b5c11b3b.jpg?1542805404',
+        'https://img.scryfall.com/cards/small/front/f/9/f99f864e-a10f-47f4-94c5-4571b5c11b3b.jpg?1547518010',
        normal:
-        'https://img.scryfall.com/cards/normal/front/f/9/f99f864e-a10f-47f4-94c5-4571b5c11b3b.jpg?1542805404',
+        'https://img.scryfall.com/cards/normal/front/f/9/f99f864e-a10f-47f4-94c5-4571b5c11b3b.jpg?1547518010',
        large:
-        'https://img.scryfall.com/cards/large/front/f/9/f99f864e-a10f-47f4-94c5-4571b5c11b3b.jpg?1542805404',
+        'https://img.scryfall.com/cards/large/front/f/9/f99f864e-a10f-47f4-94c5-4571b5c11b3b.jpg?1547518010',
        png:
-        'https://img.scryfall.com/cards/png/front/f/9/f99f864e-a10f-47f4-94c5-4571b5c11b3b.png?1542805404',
+        'https://img.scryfall.com/cards/png/front/f/9/f99f864e-a10f-47f4-94c5-4571b5c11b3b.png?1547518010',
        art_crop:
-        'https://img.scryfall.com/cards/art_crop/front/f/9/f99f864e-a10f-47f4-94c5-4571b5c11b3b.jpg?1542805404',
+        'https://img.scryfall.com/cards/art_crop/front/f/9/f99f864e-a10f-47f4-94c5-4571b5c11b3b.jpg?1547518010',
        border_crop:
-        'https://img.scryfall.com/cards/border_crop/front/f/9/f99f864e-a10f-47f4-94c5-4571b5c11b3b.jpg?1542805404' },
+        'https://img.scryfall.com/cards/border_crop/front/f/9/f99f864e-a10f-47f4-94c5-4571b5c11b3b.jpg?1547518010' },
     mana_cost: '{U}{B}',
     cmc: 2,
     type_line: 'Instant',
@@ -5007,9 +4951,8 @@ module.exports = [ { object: 'card',
        vintage: 'legal',
        penny: 'not_legal',
        commander: 'legal',
-       '1v1': 'legal',
        duel: 'legal',
-       brawl: 'not_legal' },
+       oldschool: 'not_legal' },
     games: [ 'mtgo', 'paper' ],
     reserved: false,
     foil: true,
@@ -5040,7 +4983,7 @@ module.exports = [ { object: 'card',
     frame_effect: '',
     full_art: false,
     story_spotlight: false,
-    edhrec_rank: 2723,
+    edhrec_rank: 2686,
     related_uris:
      { gatherer:
         'http://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=456794',
@@ -5064,25 +5007,25 @@ module.exports = [ { object: 'card',
     scryfall_uri:
      'https://scryfall.com/card/uma/197/blast-of-genius?utm_source=api',
     layout: 'normal',
-    highres_image: false,
+    highres_image: true,
     image_uris:
      { small:
-        'https://img.scryfall.com/cards/small/front/7/a/7a97c6e7-affd-455a-925c-332ca6b7a6a5.jpg?1542805339',
+        'https://img.scryfall.com/cards/small/front/7/a/7a97c6e7-affd-455a-925c-332ca6b7a6a5.jpg?1547518000',
        normal:
-        'https://img.scryfall.com/cards/normal/front/7/a/7a97c6e7-affd-455a-925c-332ca6b7a6a5.jpg?1542805339',
+        'https://img.scryfall.com/cards/normal/front/7/a/7a97c6e7-affd-455a-925c-332ca6b7a6a5.jpg?1547518000',
        large:
-        'https://img.scryfall.com/cards/large/front/7/a/7a97c6e7-affd-455a-925c-332ca6b7a6a5.jpg?1542805339',
+        'https://img.scryfall.com/cards/large/front/7/a/7a97c6e7-affd-455a-925c-332ca6b7a6a5.jpg?1547518000',
        png:
-        'https://img.scryfall.com/cards/png/front/7/a/7a97c6e7-affd-455a-925c-332ca6b7a6a5.png?1542805339',
+        'https://img.scryfall.com/cards/png/front/7/a/7a97c6e7-affd-455a-925c-332ca6b7a6a5.png?1547518000',
        art_crop:
-        'https://img.scryfall.com/cards/art_crop/front/7/a/7a97c6e7-affd-455a-925c-332ca6b7a6a5.jpg?1542805339',
+        'https://img.scryfall.com/cards/art_crop/front/7/a/7a97c6e7-affd-455a-925c-332ca6b7a6a5.jpg?1547518000',
        border_crop:
-        'https://img.scryfall.com/cards/border_crop/front/7/a/7a97c6e7-affd-455a-925c-332ca6b7a6a5.jpg?1542805339' },
+        'https://img.scryfall.com/cards/border_crop/front/7/a/7a97c6e7-affd-455a-925c-332ca6b7a6a5.jpg?1547518000' },
     mana_cost: '{4}{U}{R}',
     cmc: 6,
     type_line: 'Sorcery',
     oracle_text:
-     'Choose any target. Draw three cards, then discard a card. Blast of Genius deals damage equal to the discarded card\'s converted mana cost to that permanent or player.',
+     "Choose any target. Draw three cards, then discard a card. Blast of Genius deals damage equal to the discarded card's converted mana cost to that permanent or player.",
     colors: [ 'R', 'U' ],
     color_identity: [ 'R', 'U' ],
     legalities:
@@ -5095,9 +5038,8 @@ module.exports = [ { object: 'card',
        vintage: 'legal',
        penny: 'legal',
        commander: 'legal',
-       '1v1': 'legal',
        duel: 'legal',
-       brawl: 'not_legal' },
+       oldschool: 'not_legal' },
     games: [ 'mtgo', 'paper' ],
     reserved: false,
     foil: true,
@@ -5120,7 +5062,7 @@ module.exports = [ { object: 'card',
     digital: false,
     rarity: 'uncommon',
     flavor_text:
-     'Ral Zarek\'s brainstorms bring actual thunder and lightning.',
+     "Ral Zarek's brainstorms bring actual thunder and lightning.",
     illustration_id: '6b7916c5-8f47-4573-a855-ca778c54e90e',
     artist: 'Terese Nielsen',
     border_color: 'black',
@@ -5128,7 +5070,7 @@ module.exports = [ { object: 'card',
     frame_effect: '',
     full_art: false,
     story_spotlight: false,
-    edhrec_rank: 5664,
+    edhrec_rank: 5780,
     related_uris:
      { gatherer:
         'http://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=456793',
@@ -5152,20 +5094,20 @@ module.exports = [ { object: 'card',
     scryfall_uri:
      'https://scryfall.com/card/uma/196/angel-of-despair?utm_source=api',
     layout: 'normal',
-    highres_image: false,
+    highres_image: true,
     image_uris:
      { small:
-        'https://img.scryfall.com/cards/small/front/a/0/a07809b2-dabe-4242-84c3-fd640d7d5998.jpg?1542727845',
+        'https://img.scryfall.com/cards/small/front/a/0/a07809b2-dabe-4242-84c3-fd640d7d5998.jpg?1547517989',
        normal:
-        'https://img.scryfall.com/cards/normal/front/a/0/a07809b2-dabe-4242-84c3-fd640d7d5998.jpg?1542727845',
+        'https://img.scryfall.com/cards/normal/front/a/0/a07809b2-dabe-4242-84c3-fd640d7d5998.jpg?1547517989',
        large:
-        'https://img.scryfall.com/cards/large/front/a/0/a07809b2-dabe-4242-84c3-fd640d7d5998.jpg?1542727845',
+        'https://img.scryfall.com/cards/large/front/a/0/a07809b2-dabe-4242-84c3-fd640d7d5998.jpg?1547517989',
        png:
-        'https://img.scryfall.com/cards/png/front/a/0/a07809b2-dabe-4242-84c3-fd640d7d5998.png?1542727845',
+        'https://img.scryfall.com/cards/png/front/a/0/a07809b2-dabe-4242-84c3-fd640d7d5998.png?1547517989',
        art_crop:
-        'https://img.scryfall.com/cards/art_crop/front/a/0/a07809b2-dabe-4242-84c3-fd640d7d5998.jpg?1542727845',
+        'https://img.scryfall.com/cards/art_crop/front/a/0/a07809b2-dabe-4242-84c3-fd640d7d5998.jpg?1547517989',
        border_crop:
-        'https://img.scryfall.com/cards/border_crop/front/a/0/a07809b2-dabe-4242-84c3-fd640d7d5998.jpg?1542727845' },
+        'https://img.scryfall.com/cards/border_crop/front/a/0/a07809b2-dabe-4242-84c3-fd640d7d5998.jpg?1547517989' },
     mana_cost: '{3}{W}{W}{B}{B}',
     cmc: 7,
     type_line: 'Creature — Angel',
@@ -5183,11 +5125,10 @@ module.exports = [ { object: 'card',
        legacy: 'legal',
        pauper: 'not_legal',
        vintage: 'legal',
-       penny: 'not_legal',
+       penny: 'legal',
        commander: 'legal',
-       '1v1': 'legal',
        duel: 'legal',
-       brawl: 'not_legal' },
+       oldschool: 'not_legal' },
     games: [ 'mtgo', 'paper' ],
     reserved: false,
     foil: true,
@@ -5218,7 +5159,7 @@ module.exports = [ { object: 'card',
     frame_effect: '',
     full_art: false,
     story_spotlight: false,
-    edhrec_rank: 1732,
+    edhrec_rank: 1740,
     related_uris:
      { gatherer:
         'http://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=456792',
@@ -5242,25 +5183,25 @@ module.exports = [ { object: 'card',
     scryfall_uri:
      'https://scryfall.com/card/uma/195/woodfall-primus?utm_source=api',
     layout: 'normal',
-    highres_image: false,
+    highres_image: true,
     image_uris:
      { small:
-        'https://img.scryfall.com/cards/small/front/5/d/5da88d23-8650-4b55-a3f9-e964427660ed.jpg?1542721430',
+        'https://img.scryfall.com/cards/small/front/5/d/5da88d23-8650-4b55-a3f9-e964427660ed.jpg?1547517981',
        normal:
-        'https://img.scryfall.com/cards/normal/front/5/d/5da88d23-8650-4b55-a3f9-e964427660ed.jpg?1542721430',
+        'https://img.scryfall.com/cards/normal/front/5/d/5da88d23-8650-4b55-a3f9-e964427660ed.jpg?1547517981',
        large:
-        'https://img.scryfall.com/cards/large/front/5/d/5da88d23-8650-4b55-a3f9-e964427660ed.jpg?1542721430',
+        'https://img.scryfall.com/cards/large/front/5/d/5da88d23-8650-4b55-a3f9-e964427660ed.jpg?1547517981',
        png:
-        'https://img.scryfall.com/cards/png/front/5/d/5da88d23-8650-4b55-a3f9-e964427660ed.png?1542721430',
+        'https://img.scryfall.com/cards/png/front/5/d/5da88d23-8650-4b55-a3f9-e964427660ed.png?1547517981',
        art_crop:
-        'https://img.scryfall.com/cards/art_crop/front/5/d/5da88d23-8650-4b55-a3f9-e964427660ed.jpg?1542721430',
+        'https://img.scryfall.com/cards/art_crop/front/5/d/5da88d23-8650-4b55-a3f9-e964427660ed.jpg?1547517981',
        border_crop:
-        'https://img.scryfall.com/cards/border_crop/front/5/d/5da88d23-8650-4b55-a3f9-e964427660ed.jpg?1542721430' },
+        'https://img.scryfall.com/cards/border_crop/front/5/d/5da88d23-8650-4b55-a3f9-e964427660ed.jpg?1547517981' },
     mana_cost: '{5}{G}{G}{G}',
     cmc: 8,
     type_line: 'Creature — Treefolk Shaman',
     oracle_text:
-     'Trample\nWhen Woodfall Primus enters the battlefield, destroy target noncreature permanent.\nPersist (When this creature dies, if it had no -1/-1 counters on it, return it to the battlefield under its owner\'s control with a -1/-1 counter on it.)',
+     "Trample\nWhen Woodfall Primus enters the battlefield, destroy target noncreature permanent.\nPersist (When this creature dies, if it had no -1/-1 counters on it, return it to the battlefield under its owner's control with a -1/-1 counter on it.)",
     power: '6',
     toughness: '6',
     colors: [ 'G' ],
@@ -5275,9 +5216,8 @@ module.exports = [ { object: 'card',
        vintage: 'legal',
        penny: 'not_legal',
        commander: 'legal',
-       '1v1': 'legal',
        duel: 'legal',
-       brawl: 'not_legal' },
+       oldschool: 'not_legal' },
     games: [ 'mtgo', 'paper' ],
     reserved: false,
     foil: true,
@@ -5306,7 +5246,7 @@ module.exports = [ { object: 'card',
     frame_effect: '',
     full_art: false,
     story_spotlight: false,
-    edhrec_rank: 673,
+    edhrec_rank: 661,
     related_uris:
      { gatherer:
         'http://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=456791',
@@ -5330,20 +5270,20 @@ module.exports = [ { object: 'card',
     scryfall_uri:
      'https://scryfall.com/card/uma/194/wild-mongrel?utm_source=api',
     layout: 'normal',
-    highres_image: false,
+    highres_image: true,
     image_uris:
      { small:
-        'https://img.scryfall.com/cards/small/front/4/d/4d5be4ab-f85a-4272-ac08-99cb0105eb11.jpg?1542634503',
+        'https://img.scryfall.com/cards/small/front/4/d/4d5be4ab-f85a-4272-ac08-99cb0105eb11.jpg?1547517969',
        normal:
-        'https://img.scryfall.com/cards/normal/front/4/d/4d5be4ab-f85a-4272-ac08-99cb0105eb11.jpg?1542634503',
+        'https://img.scryfall.com/cards/normal/front/4/d/4d5be4ab-f85a-4272-ac08-99cb0105eb11.jpg?1547517969',
        large:
-        'https://img.scryfall.com/cards/large/front/4/d/4d5be4ab-f85a-4272-ac08-99cb0105eb11.jpg?1542634503',
+        'https://img.scryfall.com/cards/large/front/4/d/4d5be4ab-f85a-4272-ac08-99cb0105eb11.jpg?1547517969',
        png:
-        'https://img.scryfall.com/cards/png/front/4/d/4d5be4ab-f85a-4272-ac08-99cb0105eb11.png?1542634503',
+        'https://img.scryfall.com/cards/png/front/4/d/4d5be4ab-f85a-4272-ac08-99cb0105eb11.png?1547517969',
        art_crop:
-        'https://img.scryfall.com/cards/art_crop/front/4/d/4d5be4ab-f85a-4272-ac08-99cb0105eb11.jpg?1542634503',
+        'https://img.scryfall.com/cards/art_crop/front/4/d/4d5be4ab-f85a-4272-ac08-99cb0105eb11.jpg?1547517969',
        border_crop:
-        'https://img.scryfall.com/cards/border_crop/front/4/d/4d5be4ab-f85a-4272-ac08-99cb0105eb11.jpg?1542634503' },
+        'https://img.scryfall.com/cards/border_crop/front/4/d/4d5be4ab-f85a-4272-ac08-99cb0105eb11.jpg?1547517969' },
     mana_cost: '{1}{G}',
     cmc: 2,
     type_line: 'Creature — Hound',
@@ -5361,11 +5301,10 @@ module.exports = [ { object: 'card',
        legacy: 'legal',
        pauper: 'legal',
        vintage: 'legal',
-       penny: 'not_legal',
+       penny: 'legal',
        commander: 'legal',
-       '1v1': 'legal',
        duel: 'legal',
-       brawl: 'not_legal' },
+       oldschool: 'not_legal' },
     games: [ 'mtgo', 'paper' ],
     reserved: false,
     foil: true,
@@ -5395,7 +5334,7 @@ module.exports = [ { object: 'card',
     frame_effect: '',
     full_art: false,
     story_spotlight: false,
-    edhrec_rank: 5694,
+    edhrec_rank: 5771,
     related_uris:
      { gatherer:
         'http://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=456790',
@@ -5419,20 +5358,20 @@ module.exports = [ { object: 'card',
     scryfall_uri:
      'https://scryfall.com/card/uma/193/wild-hunger?utm_source=api',
     layout: 'normal',
-    highres_image: false,
+    highres_image: true,
     image_uris:
      { small:
-        'https://img.scryfall.com/cards/small/front/9/b/9bacc50a-71d7-4660-be1d-4db10c9b8fa8.jpg?1542805553',
+        'https://img.scryfall.com/cards/small/front/9/b/9bacc50a-71d7-4660-be1d-4db10c9b8fa8.jpg?1547517957',
        normal:
-        'https://img.scryfall.com/cards/normal/front/9/b/9bacc50a-71d7-4660-be1d-4db10c9b8fa8.jpg?1542805553',
+        'https://img.scryfall.com/cards/normal/front/9/b/9bacc50a-71d7-4660-be1d-4db10c9b8fa8.jpg?1547517957',
        large:
-        'https://img.scryfall.com/cards/large/front/9/b/9bacc50a-71d7-4660-be1d-4db10c9b8fa8.jpg?1542805553',
+        'https://img.scryfall.com/cards/large/front/9/b/9bacc50a-71d7-4660-be1d-4db10c9b8fa8.jpg?1547517957',
        png:
-        'https://img.scryfall.com/cards/png/front/9/b/9bacc50a-71d7-4660-be1d-4db10c9b8fa8.png?1542805553',
+        'https://img.scryfall.com/cards/png/front/9/b/9bacc50a-71d7-4660-be1d-4db10c9b8fa8.png?1547517957',
        art_crop:
-        'https://img.scryfall.com/cards/art_crop/front/9/b/9bacc50a-71d7-4660-be1d-4db10c9b8fa8.jpg?1542805553',
+        'https://img.scryfall.com/cards/art_crop/front/9/b/9bacc50a-71d7-4660-be1d-4db10c9b8fa8.jpg?1547517957',
        border_crop:
-        'https://img.scryfall.com/cards/border_crop/front/9/b/9bacc50a-71d7-4660-be1d-4db10c9b8fa8.jpg?1542805553' },
+        'https://img.scryfall.com/cards/border_crop/front/9/b/9bacc50a-71d7-4660-be1d-4db10c9b8fa8.jpg?1547517957' },
     mana_cost: '{2}{G}',
     cmc: 3,
     type_line: 'Instant',
@@ -5450,9 +5389,8 @@ module.exports = [ { object: 'card',
        vintage: 'legal',
        penny: 'legal',
        commander: 'legal',
-       '1v1': 'legal',
        duel: 'legal',
-       brawl: 'not_legal' },
+       oldschool: 'not_legal' },
     games: [ 'mtgo', 'paper' ],
     reserved: false,
     foil: true,
@@ -5483,7 +5421,7 @@ module.exports = [ { object: 'card',
     frame_effect: '',
     full_art: false,
     story_spotlight: false,
-    edhrec_rank: 13375,
+    edhrec_rank: 13630,
     related_uris:
      { gatherer:
         'http://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=456789',
@@ -5507,20 +5445,20 @@ module.exports = [ { object: 'card',
     scryfall_uri:
      'https://scryfall.com/card/uma/192/wickerbough-elder?utm_source=api',
     layout: 'normal',
-    highres_image: false,
+    highres_image: true,
     image_uris:
      { small:
-        'https://img.scryfall.com/cards/small/front/8/3/833dff5c-63b4-413c-9956-67c84d036c2e.jpg?1542805541',
+        'https://img.scryfall.com/cards/small/front/8/3/833dff5c-63b4-413c-9956-67c84d036c2e.jpg?1547517940',
        normal:
-        'https://img.scryfall.com/cards/normal/front/8/3/833dff5c-63b4-413c-9956-67c84d036c2e.jpg?1542805541',
+        'https://img.scryfall.com/cards/normal/front/8/3/833dff5c-63b4-413c-9956-67c84d036c2e.jpg?1547517940',
        large:
-        'https://img.scryfall.com/cards/large/front/8/3/833dff5c-63b4-413c-9956-67c84d036c2e.jpg?1542805541',
+        'https://img.scryfall.com/cards/large/front/8/3/833dff5c-63b4-413c-9956-67c84d036c2e.jpg?1547517940',
        png:
-        'https://img.scryfall.com/cards/png/front/8/3/833dff5c-63b4-413c-9956-67c84d036c2e.png?1542805541',
+        'https://img.scryfall.com/cards/png/front/8/3/833dff5c-63b4-413c-9956-67c84d036c2e.png?1547517940',
        art_crop:
-        'https://img.scryfall.com/cards/art_crop/front/8/3/833dff5c-63b4-413c-9956-67c84d036c2e.jpg?1542805541',
+        'https://img.scryfall.com/cards/art_crop/front/8/3/833dff5c-63b4-413c-9956-67c84d036c2e.jpg?1547517940',
        border_crop:
-        'https://img.scryfall.com/cards/border_crop/front/8/3/833dff5c-63b4-413c-9956-67c84d036c2e.jpg?1542805541' },
+        'https://img.scryfall.com/cards/border_crop/front/8/3/833dff5c-63b4-413c-9956-67c84d036c2e.jpg?1547517940' },
     mana_cost: '{3}{G}',
     cmc: 4,
     type_line: 'Creature — Treefolk Shaman',
@@ -5540,9 +5478,8 @@ module.exports = [ { object: 'card',
        vintage: 'legal',
        penny: 'not_legal',
        commander: 'legal',
-       '1v1': 'legal',
        duel: 'legal',
-       brawl: 'not_legal' },
+       oldschool: 'not_legal' },
     games: [ 'mtgo', 'paper' ],
     reserved: false,
     foil: true,
@@ -5573,7 +5510,7 @@ module.exports = [ { object: 'card',
     frame_effect: '',
     full_art: false,
     story_spotlight: false,
-    edhrec_rank: 2621,
+    edhrec_rank: 2628,
     related_uris:
      { gatherer:
         'http://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=456788',
@@ -5597,25 +5534,25 @@ module.exports = [ { object: 'card',
     scryfall_uri:
      'https://scryfall.com/card/uma/191/walker-of-the-grove?utm_source=api',
     layout: 'normal',
-    highres_image: false,
+    highres_image: true,
     image_uris:
      { small:
-        'https://img.scryfall.com/cards/small/front/a/b/ab879034-2400-4451-9ba2-0325f61db537.jpg?1542806228',
+        'https://img.scryfall.com/cards/small/front/a/b/ab879034-2400-4451-9ba2-0325f61db537.jpg?1547517932',
        normal:
-        'https://img.scryfall.com/cards/normal/front/a/b/ab879034-2400-4451-9ba2-0325f61db537.jpg?1542806228',
+        'https://img.scryfall.com/cards/normal/front/a/b/ab879034-2400-4451-9ba2-0325f61db537.jpg?1547517932',
        large:
-        'https://img.scryfall.com/cards/large/front/a/b/ab879034-2400-4451-9ba2-0325f61db537.jpg?1542806228',
+        'https://img.scryfall.com/cards/large/front/a/b/ab879034-2400-4451-9ba2-0325f61db537.jpg?1547517932',
        png:
-        'https://img.scryfall.com/cards/png/front/a/b/ab879034-2400-4451-9ba2-0325f61db537.png?1542806228',
+        'https://img.scryfall.com/cards/png/front/a/b/ab879034-2400-4451-9ba2-0325f61db537.png?1547517932',
        art_crop:
-        'https://img.scryfall.com/cards/art_crop/front/a/b/ab879034-2400-4451-9ba2-0325f61db537.jpg?1542806228',
+        'https://img.scryfall.com/cards/art_crop/front/a/b/ab879034-2400-4451-9ba2-0325f61db537.jpg?1547517932',
        border_crop:
-        'https://img.scryfall.com/cards/border_crop/front/a/b/ab879034-2400-4451-9ba2-0325f61db537.jpg?1542806228' },
+        'https://img.scryfall.com/cards/border_crop/front/a/b/ab879034-2400-4451-9ba2-0325f61db537.jpg?1547517932' },
     mana_cost: '{6}{G}{G}',
     cmc: 8,
     type_line: 'Creature — Elemental',
     oracle_text:
-     'When Walker of the Grove leaves the battlefield, create a 4/4 green Elemental creature token.\nEvoke {4}{G} (You may cast this spell for its evoke cost. If you do, it\'s sacrificed when it enters the battlefield.)',
+     "When Walker of the Grove leaves the battlefield, create a 4/4 green Elemental creature token.\nEvoke {4}{G} (You may cast this spell for its evoke cost. If you do, it's sacrificed when it enters the battlefield.)",
     power: '7',
     toughness: '7',
     colors: [ 'G' ],
@@ -5645,9 +5582,8 @@ module.exports = [ { object: 'card',
        vintage: 'legal',
        penny: 'legal',
        commander: 'legal',
-       '1v1': 'legal',
        duel: 'legal',
-       brawl: 'not_legal' },
+       oldschool: 'not_legal' },
     games: [ 'mtgo', 'paper' ],
     reserved: false,
     foil: true,
@@ -5676,7 +5612,7 @@ module.exports = [ { object: 'card',
     frame_effect: '',
     full_art: false,
     story_spotlight: false,
-    edhrec_rank: 7633,
+    edhrec_rank: 7746,
     related_uris:
      { gatherer:
         'http://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=456787',
@@ -5700,20 +5636,20 @@ module.exports = [ { object: 'card',
     scryfall_uri:
      'https://scryfall.com/card/uma/190/verdant-eidolon?utm_source=api',
     layout: 'normal',
-    highres_image: false,
+    highres_image: true,
     image_uris:
      { small:
-        'https://img.scryfall.com/cards/small/front/0/8/0878d18d-aff7-4b49-b849-9dab0e4949ca.jpg?1542805513',
+        'https://img.scryfall.com/cards/small/front/0/8/0878d18d-aff7-4b49-b849-9dab0e4949ca.jpg?1547517919',
        normal:
-        'https://img.scryfall.com/cards/normal/front/0/8/0878d18d-aff7-4b49-b849-9dab0e4949ca.jpg?1542805513',
+        'https://img.scryfall.com/cards/normal/front/0/8/0878d18d-aff7-4b49-b849-9dab0e4949ca.jpg?1547517919',
        large:
-        'https://img.scryfall.com/cards/large/front/0/8/0878d18d-aff7-4b49-b849-9dab0e4949ca.jpg?1542805513',
+        'https://img.scryfall.com/cards/large/front/0/8/0878d18d-aff7-4b49-b849-9dab0e4949ca.jpg?1547517919',
        png:
-        'https://img.scryfall.com/cards/png/front/0/8/0878d18d-aff7-4b49-b849-9dab0e4949ca.png?1542805513',
+        'https://img.scryfall.com/cards/png/front/0/8/0878d18d-aff7-4b49-b849-9dab0e4949ca.png?1547517919',
        art_crop:
-        'https://img.scryfall.com/cards/art_crop/front/0/8/0878d18d-aff7-4b49-b849-9dab0e4949ca.jpg?1542805513',
+        'https://img.scryfall.com/cards/art_crop/front/0/8/0878d18d-aff7-4b49-b849-9dab0e4949ca.jpg?1547517919',
        border_crop:
-        'https://img.scryfall.com/cards/border_crop/front/0/8/0878d18d-aff7-4b49-b849-9dab0e4949ca.jpg?1542805513' },
+        'https://img.scryfall.com/cards/border_crop/front/0/8/0878d18d-aff7-4b49-b849-9dab0e4949ca.jpg?1547517919' },
     mana_cost: '{3}{G}',
     cmc: 4,
     type_line: 'Creature — Spirit',
@@ -5733,9 +5669,8 @@ module.exports = [ { object: 'card',
        vintage: 'legal',
        penny: 'legal',
        commander: 'legal',
-       '1v1': 'legal',
        duel: 'legal',
-       brawl: 'not_legal' },
+       oldschool: 'not_legal' },
     games: [ 'mtgo', 'paper' ],
     reserved: false,
     foil: true,
@@ -5764,7 +5699,7 @@ module.exports = [ { object: 'card',
     frame_effect: '',
     full_art: false,
     story_spotlight: false,
-    edhrec_rank: 11637,
+    edhrec_rank: 11701,
     related_uris:
      { gatherer:
         'http://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=456786',
@@ -5791,22 +5726,22 @@ module.exports = [ { object: 'card',
     highres_image: true,
     image_uris:
      { small:
-        'https://img.scryfall.com/cards/small/front/4/b/4b205bc3-379a-4790-90a0-c589bbbb1803.jpg?1545071899',
+        'https://img.scryfall.com/cards/small/front/4/b/4b205bc3-379a-4790-90a0-c589bbbb1803.jpg?1547517901',
        normal:
-        'https://img.scryfall.com/cards/normal/front/4/b/4b205bc3-379a-4790-90a0-c589bbbb1803.jpg?1545071899',
+        'https://img.scryfall.com/cards/normal/front/4/b/4b205bc3-379a-4790-90a0-c589bbbb1803.jpg?1547517901',
        large:
-        'https://img.scryfall.com/cards/large/front/4/b/4b205bc3-379a-4790-90a0-c589bbbb1803.jpg?1545071899',
+        'https://img.scryfall.com/cards/large/front/4/b/4b205bc3-379a-4790-90a0-c589bbbb1803.jpg?1547517901',
        png:
-        'https://img.scryfall.com/cards/png/front/4/b/4b205bc3-379a-4790-90a0-c589bbbb1803.png?1545071899',
+        'https://img.scryfall.com/cards/png/front/4/b/4b205bc3-379a-4790-90a0-c589bbbb1803.png?1547517901',
        art_crop:
-        'https://img.scryfall.com/cards/art_crop/front/4/b/4b205bc3-379a-4790-90a0-c589bbbb1803.jpg?1545071899',
+        'https://img.scryfall.com/cards/art_crop/front/4/b/4b205bc3-379a-4790-90a0-c589bbbb1803.jpg?1547517901',
        border_crop:
-        'https://img.scryfall.com/cards/border_crop/front/4/b/4b205bc3-379a-4790-90a0-c589bbbb1803.jpg?1545071899' },
+        'https://img.scryfall.com/cards/border_crop/front/4/b/4b205bc3-379a-4790-90a0-c589bbbb1803.jpg?1547517901' },
     mana_cost: '{2}{G}{G}',
     cmc: 4,
     type_line: 'Creature — Elemental',
     oracle_text:
-     'Haste\nWhenever you cast a spell, if it\'s the second creature spell you cast this turn, you may return Vengevine from your graveyard to the battlefield.',
+     "Haste\nWhenever you cast a spell, if it's the second creature spell you cast this turn, you may return Vengevine from your graveyard to the battlefield.",
     power: '4',
     toughness: '3',
     colors: [ 'G' ],
@@ -5821,9 +5756,8 @@ module.exports = [ { object: 'card',
        vintage: 'legal',
        penny: 'not_legal',
        commander: 'legal',
-       '1v1': 'legal',
        duel: 'legal',
-       brawl: 'not_legal' },
+       oldschool: 'not_legal' },
     games: [ 'mtgo', 'paper' ],
     reserved: false,
     foil: true,
@@ -5854,7 +5788,7 @@ module.exports = [ { object: 'card',
     frame_effect: '',
     full_art: false,
     story_spotlight: false,
-    edhrec_rank: 7457,
+    edhrec_rank: 7566,
     related_uris:
      { gatherer:
         'http://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=456785',
@@ -5878,20 +5812,20 @@ module.exports = [ { object: 'card',
     scryfall_uri:
      'https://scryfall.com/card/uma/188/travel-preparations?utm_source=api',
     layout: 'normal',
-    highres_image: false,
+    highres_image: true,
     image_uris:
      { small:
-        'https://img.scryfall.com/cards/small/front/c/b/cb41317e-9263-49a1-92d4-323613677e34.jpg?1542722521',
+        'https://img.scryfall.com/cards/small/front/c/b/cb41317e-9263-49a1-92d4-323613677e34.jpg?1547517889',
        normal:
-        'https://img.scryfall.com/cards/normal/front/c/b/cb41317e-9263-49a1-92d4-323613677e34.jpg?1542722521',
+        'https://img.scryfall.com/cards/normal/front/c/b/cb41317e-9263-49a1-92d4-323613677e34.jpg?1547517889',
        large:
-        'https://img.scryfall.com/cards/large/front/c/b/cb41317e-9263-49a1-92d4-323613677e34.jpg?1542722521',
+        'https://img.scryfall.com/cards/large/front/c/b/cb41317e-9263-49a1-92d4-323613677e34.jpg?1547517889',
        png:
-        'https://img.scryfall.com/cards/png/front/c/b/cb41317e-9263-49a1-92d4-323613677e34.png?1542722521',
+        'https://img.scryfall.com/cards/png/front/c/b/cb41317e-9263-49a1-92d4-323613677e34.png?1547517889',
        art_crop:
-        'https://img.scryfall.com/cards/art_crop/front/c/b/cb41317e-9263-49a1-92d4-323613677e34.jpg?1542722521',
+        'https://img.scryfall.com/cards/art_crop/front/c/b/cb41317e-9263-49a1-92d4-323613677e34.jpg?1547517889',
        border_crop:
-        'https://img.scryfall.com/cards/border_crop/front/c/b/cb41317e-9263-49a1-92d4-323613677e34.jpg?1542722521' },
+        'https://img.scryfall.com/cards/border_crop/front/c/b/cb41317e-9263-49a1-92d4-323613677e34.jpg?1547517889' },
     mana_cost: '{1}{G}',
     cmc: 2,
     type_line: 'Sorcery',
@@ -5909,9 +5843,8 @@ module.exports = [ { object: 'card',
        vintage: 'legal',
        penny: 'legal',
        commander: 'legal',
-       '1v1': 'legal',
        duel: 'legal',
-       brawl: 'not_legal' },
+       oldschool: 'not_legal' },
     games: [ 'mtgo', 'paper' ],
     reserved: false,
     foil: true,
@@ -5942,7 +5875,7 @@ module.exports = [ { object: 'card',
     frame_effect: '',
     full_art: false,
     story_spotlight: false,
-    edhrec_rank: 12195,
+    edhrec_rank: 12156,
     related_uris:
      { gatherer:
         'http://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=456784',
@@ -5969,22 +5902,22 @@ module.exports = [ { object: 'card',
     highres_image: true,
     image_uris:
      { small:
-        'https://img.scryfall.com/cards/small/front/4/2/42e56220-81c3-4440-9f97-8616d630a8ee.jpg?1545071618',
+        'https://img.scryfall.com/cards/small/front/4/2/42e56220-81c3-4440-9f97-8616d630a8ee.jpg?1547517874',
        normal:
-        'https://img.scryfall.com/cards/normal/front/4/2/42e56220-81c3-4440-9f97-8616d630a8ee.jpg?1545071618',
+        'https://img.scryfall.com/cards/normal/front/4/2/42e56220-81c3-4440-9f97-8616d630a8ee.jpg?1547517874',
        large:
-        'https://img.scryfall.com/cards/large/front/4/2/42e56220-81c3-4440-9f97-8616d630a8ee.jpg?1545071618',
+        'https://img.scryfall.com/cards/large/front/4/2/42e56220-81c3-4440-9f97-8616d630a8ee.jpg?1547517874',
        png:
-        'https://img.scryfall.com/cards/png/front/4/2/42e56220-81c3-4440-9f97-8616d630a8ee.png?1545071618',
+        'https://img.scryfall.com/cards/png/front/4/2/42e56220-81c3-4440-9f97-8616d630a8ee.png?1547517874',
        art_crop:
-        'https://img.scryfall.com/cards/art_crop/front/4/2/42e56220-81c3-4440-9f97-8616d630a8ee.jpg?1545071618',
+        'https://img.scryfall.com/cards/art_crop/front/4/2/42e56220-81c3-4440-9f97-8616d630a8ee.jpg?1547517874',
        border_crop:
-        'https://img.scryfall.com/cards/border_crop/front/4/2/42e56220-81c3-4440-9f97-8616d630a8ee.jpg?1545071618' },
+        'https://img.scryfall.com/cards/border_crop/front/4/2/42e56220-81c3-4440-9f97-8616d630a8ee.jpg?1547517874' },
     mana_cost: '{1}{G}',
     cmc: 2,
     type_line: 'Creature — Lhurgoyf',
     oracle_text:
-     'Tarmogoyf\'s power is equal to the number of card types among cards in all graveyards and its toughness is equal to that number plus 1.',
+     "Tarmogoyf's power is equal to the number of card types among cards in all graveyards and its toughness is equal to that number plus 1.",
     power: '*',
     toughness: '1+*',
     colors: [ 'G' ],
@@ -5999,9 +5932,8 @@ module.exports = [ { object: 'card',
        vintage: 'legal',
        penny: 'not_legal',
        commander: 'legal',
-       '1v1': 'legal',
        duel: 'legal',
-       brawl: 'not_legal' },
+       oldschool: 'not_legal' },
     games: [ 'mtgo', 'paper' ],
     reserved: false,
     foil: true,
@@ -6024,7 +5956,7 @@ module.exports = [ { object: 'card',
     digital: false,
     rarity: 'mythic',
     flavor_text:
-     'What doesn\'t grow, dies. And what dies grows the tarmogoyf.',
+     "What doesn't grow, dies. And what dies grows the tarmogoyf.",
     illustration_id: 'c32c2488-d604-46ad-b8bc-62782ff1f222',
     artist: 'Filip Burburan',
     border_color: 'black',
@@ -6032,7 +5964,7 @@ module.exports = [ { object: 'card',
     frame_effect: '',
     full_art: false,
     story_spotlight: false,
-    edhrec_rank: 7545,
+    edhrec_rank: 7656,
     related_uris:
      { gatherer:
         'http://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=456783',
@@ -6056,20 +5988,20 @@ module.exports = [ { object: 'card',
     scryfall_uri:
      'https://scryfall.com/card/uma/186/stingerfling-spider?utm_source=api',
     layout: 'normal',
-    highres_image: false,
+    highres_image: true,
     image_uris:
      { small:
-        'https://img.scryfall.com/cards/small/front/9/5/9596be71-290a-4955-aa34-dcffa9422664.jpg?1542805482',
+        'https://img.scryfall.com/cards/small/front/9/5/9596be71-290a-4955-aa34-dcffa9422664.jpg?1547517860',
        normal:
-        'https://img.scryfall.com/cards/normal/front/9/5/9596be71-290a-4955-aa34-dcffa9422664.jpg?1542805482',
+        'https://img.scryfall.com/cards/normal/front/9/5/9596be71-290a-4955-aa34-dcffa9422664.jpg?1547517860',
        large:
-        'https://img.scryfall.com/cards/large/front/9/5/9596be71-290a-4955-aa34-dcffa9422664.jpg?1542805482',
+        'https://img.scryfall.com/cards/large/front/9/5/9596be71-290a-4955-aa34-dcffa9422664.jpg?1547517860',
        png:
-        'https://img.scryfall.com/cards/png/front/9/5/9596be71-290a-4955-aa34-dcffa9422664.png?1542805482',
+        'https://img.scryfall.com/cards/png/front/9/5/9596be71-290a-4955-aa34-dcffa9422664.png?1547517860',
        art_crop:
-        'https://img.scryfall.com/cards/art_crop/front/9/5/9596be71-290a-4955-aa34-dcffa9422664.jpg?1542805482',
+        'https://img.scryfall.com/cards/art_crop/front/9/5/9596be71-290a-4955-aa34-dcffa9422664.jpg?1547517860',
        border_crop:
-        'https://img.scryfall.com/cards/border_crop/front/9/5/9596be71-290a-4955-aa34-dcffa9422664.jpg?1542805482' },
+        'https://img.scryfall.com/cards/border_crop/front/9/5/9596be71-290a-4955-aa34-dcffa9422664.jpg?1547517860' },
     mana_cost: '{4}{G}',
     cmc: 5,
     type_line: 'Creature — Spider',
@@ -6089,9 +6021,8 @@ module.exports = [ { object: 'card',
        vintage: 'legal',
        penny: 'legal',
        commander: 'legal',
-       '1v1': 'legal',
        duel: 'legal',
-       brawl: 'not_legal' },
+       oldschool: 'not_legal' },
     games: [ 'mtgo', 'paper' ],
     reserved: false,
     foil: true,
@@ -6122,7 +6053,7 @@ module.exports = [ { object: 'card',
     frame_effect: '',
     full_art: false,
     story_spotlight: false,
-    edhrec_rank: 4953,
+    edhrec_rank: 5083,
     related_uris:
      { gatherer:
         'http://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=456782',
@@ -6146,20 +6077,20 @@ module.exports = [ { object: 'card',
     scryfall_uri:
      'https://scryfall.com/card/uma/185/staunch-hearted-warrior?utm_source=api',
     layout: 'normal',
-    highres_image: false,
+    highres_image: true,
     image_uris:
      { small:
-        'https://img.scryfall.com/cards/small/front/c/7/c754202d-adc9-4d02-b1b3-ec253f7e637a.jpg?1542805466',
+        'https://img.scryfall.com/cards/small/front/c/7/c754202d-adc9-4d02-b1b3-ec253f7e637a.jpg?1547517851',
        normal:
-        'https://img.scryfall.com/cards/normal/front/c/7/c754202d-adc9-4d02-b1b3-ec253f7e637a.jpg?1542805466',
+        'https://img.scryfall.com/cards/normal/front/c/7/c754202d-adc9-4d02-b1b3-ec253f7e637a.jpg?1547517851',
        large:
-        'https://img.scryfall.com/cards/large/front/c/7/c754202d-adc9-4d02-b1b3-ec253f7e637a.jpg?1542805466',
+        'https://img.scryfall.com/cards/large/front/c/7/c754202d-adc9-4d02-b1b3-ec253f7e637a.jpg?1547517851',
        png:
-        'https://img.scryfall.com/cards/png/front/c/7/c754202d-adc9-4d02-b1b3-ec253f7e637a.png?1542805466',
+        'https://img.scryfall.com/cards/png/front/c/7/c754202d-adc9-4d02-b1b3-ec253f7e637a.png?1547517851',
        art_crop:
-        'https://img.scryfall.com/cards/art_crop/front/c/7/c754202d-adc9-4d02-b1b3-ec253f7e637a.jpg?1542805466',
+        'https://img.scryfall.com/cards/art_crop/front/c/7/c754202d-adc9-4d02-b1b3-ec253f7e637a.jpg?1547517851',
        border_crop:
-        'https://img.scryfall.com/cards/border_crop/front/c/7/c754202d-adc9-4d02-b1b3-ec253f7e637a.jpg?1542805466' },
+        'https://img.scryfall.com/cards/border_crop/front/c/7/c754202d-adc9-4d02-b1b3-ec253f7e637a.jpg?1547517851' },
     mana_cost: '{3}{G}',
     cmc: 4,
     type_line: 'Creature — Human Warrior',
@@ -6179,9 +6110,8 @@ module.exports = [ { object: 'card',
        vintage: 'legal',
        penny: 'legal',
        commander: 'legal',
-       '1v1': 'legal',
        duel: 'legal',
-       brawl: 'not_legal' },
+       oldschool: 'not_legal' },
     games: [ 'mtgo', 'paper' ],
     reserved: false,
     foil: true,
@@ -6212,7 +6142,7 @@ module.exports = [ { object: 'card',
     frame_effect: '',
     full_art: false,
     story_spotlight: false,
-    edhrec_rank: 14049,
+    edhrec_rank: 14336,
     related_uris:
      { gatherer:
         'http://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=456781',
@@ -6236,20 +6166,20 @@ module.exports = [ { object: 'card',
     scryfall_uri:
      'https://scryfall.com/card/uma/184/spider-umbra?utm_source=api',
     layout: 'normal',
-    highres_image: false,
+    highres_image: true,
     image_uris:
      { small:
-        'https://img.scryfall.com/cards/small/front/7/6/762b8d61-53c9-41e1-aaa7-098b91d9b938.jpg?1542722946',
+        'https://img.scryfall.com/cards/small/front/7/6/762b8d61-53c9-41e1-aaa7-098b91d9b938.jpg?1547517840',
        normal:
-        'https://img.scryfall.com/cards/normal/front/7/6/762b8d61-53c9-41e1-aaa7-098b91d9b938.jpg?1542722946',
+        'https://img.scryfall.com/cards/normal/front/7/6/762b8d61-53c9-41e1-aaa7-098b91d9b938.jpg?1547517840',
        large:
-        'https://img.scryfall.com/cards/large/front/7/6/762b8d61-53c9-41e1-aaa7-098b91d9b938.jpg?1542722946',
+        'https://img.scryfall.com/cards/large/front/7/6/762b8d61-53c9-41e1-aaa7-098b91d9b938.jpg?1547517840',
        png:
-        'https://img.scryfall.com/cards/png/front/7/6/762b8d61-53c9-41e1-aaa7-098b91d9b938.png?1542722946',
+        'https://img.scryfall.com/cards/png/front/7/6/762b8d61-53c9-41e1-aaa7-098b91d9b938.png?1547517840',
        art_crop:
-        'https://img.scryfall.com/cards/art_crop/front/7/6/762b8d61-53c9-41e1-aaa7-098b91d9b938.jpg?1542722946',
+        'https://img.scryfall.com/cards/art_crop/front/7/6/762b8d61-53c9-41e1-aaa7-098b91d9b938.jpg?1547517840',
        border_crop:
-        'https://img.scryfall.com/cards/border_crop/front/7/6/762b8d61-53c9-41e1-aaa7-098b91d9b938.jpg?1542722946' },
+        'https://img.scryfall.com/cards/border_crop/front/7/6/762b8d61-53c9-41e1-aaa7-098b91d9b938.jpg?1547517840' },
     mana_cost: '{G}',
     cmc: 1,
     type_line: 'Enchantment — Aura',
@@ -6267,9 +6197,8 @@ module.exports = [ { object: 'card',
        vintage: 'legal',
        penny: 'not_legal',
        commander: 'legal',
-       '1v1': 'legal',
        duel: 'legal',
-       brawl: 'not_legal' },
+       oldschool: 'not_legal' },
     games: [ 'mtgo', 'paper' ],
     reserved: false,
     foil: true,
@@ -6298,7 +6227,7 @@ module.exports = [ { object: 'card',
     frame_effect: '',
     full_art: false,
     story_spotlight: false,
-    edhrec_rank: 4891,
+    edhrec_rank: 4921,
     related_uris:
      { gatherer:
         'http://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=456780',
@@ -6322,20 +6251,20 @@ module.exports = [ { object: 'card',
     scryfall_uri:
      'https://scryfall.com/card/uma/183/spider-spawning?utm_source=api',
     layout: 'normal',
-    highres_image: false,
+    highres_image: true,
     image_uris:
      { small:
-        'https://img.scryfall.com/cards/small/front/e/e/eef12c5a-deb9-48dd-9805-cba89aab51c1.jpg?1542805441',
+        'https://img.scryfall.com/cards/small/front/e/e/eef12c5a-deb9-48dd-9805-cba89aab51c1.jpg?1547517817',
        normal:
-        'https://img.scryfall.com/cards/normal/front/e/e/eef12c5a-deb9-48dd-9805-cba89aab51c1.jpg?1542805441',
+        'https://img.scryfall.com/cards/normal/front/e/e/eef12c5a-deb9-48dd-9805-cba89aab51c1.jpg?1547517817',
        large:
-        'https://img.scryfall.com/cards/large/front/e/e/eef12c5a-deb9-48dd-9805-cba89aab51c1.jpg?1542805441',
+        'https://img.scryfall.com/cards/large/front/e/e/eef12c5a-deb9-48dd-9805-cba89aab51c1.jpg?1547517817',
        png:
-        'https://img.scryfall.com/cards/png/front/e/e/eef12c5a-deb9-48dd-9805-cba89aab51c1.png?1542805441',
+        'https://img.scryfall.com/cards/png/front/e/e/eef12c5a-deb9-48dd-9805-cba89aab51c1.png?1547517817',
        art_crop:
-        'https://img.scryfall.com/cards/art_crop/front/e/e/eef12c5a-deb9-48dd-9805-cba89aab51c1.jpg?1542805441',
+        'https://img.scryfall.com/cards/art_crop/front/e/e/eef12c5a-deb9-48dd-9805-cba89aab51c1.jpg?1547517817',
        border_crop:
-        'https://img.scryfall.com/cards/border_crop/front/e/e/eef12c5a-deb9-48dd-9805-cba89aab51c1.jpg?1542805441' },
+        'https://img.scryfall.com/cards/border_crop/front/e/e/eef12c5a-deb9-48dd-9805-cba89aab51c1.jpg?1547517817' },
     mana_cost: '{4}{G}',
     cmc: 5,
     type_line: 'Sorcery',
@@ -6368,9 +6297,8 @@ module.exports = [ { object: 'card',
        vintage: 'legal',
        penny: 'legal',
        commander: 'legal',
-       '1v1': 'legal',
        duel: 'legal',
-       brawl: 'not_legal' },
+       oldschool: 'not_legal' },
     games: [ 'mtgo', 'paper' ],
     reserved: false,
     foil: true,
@@ -6399,7 +6327,7 @@ module.exports = [ { object: 'card',
     frame_effect: '',
     full_art: false,
     story_spotlight: false,
-    edhrec_rank: 3477,
+    edhrec_rank: 3556,
     related_uris:
      { gatherer:
         'http://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=456779',
@@ -6423,20 +6351,20 @@ module.exports = [ { object: 'card',
     scryfall_uri:
      'https://scryfall.com/card/uma/182/snake-umbra?utm_source=api',
     layout: 'normal',
-    highres_image: false,
+    highres_image: true,
     image_uris:
      { small:
-        'https://img.scryfall.com/cards/small/front/e/3/e3071a8b-05b1-490c-89f6-4bf97c02833b.jpg?1542805414',
+        'https://img.scryfall.com/cards/small/front/e/3/e3071a8b-05b1-490c-89f6-4bf97c02833b.jpg?1547517804',
        normal:
-        'https://img.scryfall.com/cards/normal/front/e/3/e3071a8b-05b1-490c-89f6-4bf97c02833b.jpg?1542805414',
+        'https://img.scryfall.com/cards/normal/front/e/3/e3071a8b-05b1-490c-89f6-4bf97c02833b.jpg?1547517804',
        large:
-        'https://img.scryfall.com/cards/large/front/e/3/e3071a8b-05b1-490c-89f6-4bf97c02833b.jpg?1542805414',
+        'https://img.scryfall.com/cards/large/front/e/3/e3071a8b-05b1-490c-89f6-4bf97c02833b.jpg?1547517804',
        png:
-        'https://img.scryfall.com/cards/png/front/e/3/e3071a8b-05b1-490c-89f6-4bf97c02833b.png?1542805414',
+        'https://img.scryfall.com/cards/png/front/e/3/e3071a8b-05b1-490c-89f6-4bf97c02833b.png?1547517804',
        art_crop:
-        'https://img.scryfall.com/cards/art_crop/front/e/3/e3071a8b-05b1-490c-89f6-4bf97c02833b.jpg?1542805414',
+        'https://img.scryfall.com/cards/art_crop/front/e/3/e3071a8b-05b1-490c-89f6-4bf97c02833b.jpg?1547517804',
        border_crop:
-        'https://img.scryfall.com/cards/border_crop/front/e/3/e3071a8b-05b1-490c-89f6-4bf97c02833b.jpg?1542805414' },
+        'https://img.scryfall.com/cards/border_crop/front/e/3/e3071a8b-05b1-490c-89f6-4bf97c02833b.jpg?1547517804' },
     mana_cost: '{2}{G}',
     cmc: 3,
     type_line: 'Enchantment — Aura',
@@ -6452,11 +6380,10 @@ module.exports = [ { object: 'card',
        legacy: 'legal',
        pauper: 'legal',
        vintage: 'legal',
-       penny: 'not_legal',
+       penny: 'legal',
        commander: 'legal',
-       '1v1': 'legal',
        duel: 'legal',
-       brawl: 'not_legal' },
+       oldschool: 'not_legal' },
     games: [ 'mtgo', 'paper' ],
     reserved: false,
     foil: true,
@@ -6485,7 +6412,7 @@ module.exports = [ { object: 'card',
     frame_effect: '',
     full_art: false,
     story_spotlight: false,
-    edhrec_rank: 2419,
+    edhrec_rank: 2410,
     related_uris:
      { gatherer:
         'http://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=456778',
@@ -6509,20 +6436,20 @@ module.exports = [ { object: 'card',
     scryfall_uri:
      'https://scryfall.com/card/uma/181/shed-weakness?utm_source=api',
     layout: 'normal',
-    highres_image: false,
+    highres_image: true,
     image_uris:
      { small:
-        'https://img.scryfall.com/cards/small/front/4/6/467d9e99-5624-44ac-ab33-c4ebb338e6bf.jpg?1542805396',
+        'https://img.scryfall.com/cards/small/front/4/6/467d9e99-5624-44ac-ab33-c4ebb338e6bf.jpg?1547517785',
        normal:
-        'https://img.scryfall.com/cards/normal/front/4/6/467d9e99-5624-44ac-ab33-c4ebb338e6bf.jpg?1542805396',
+        'https://img.scryfall.com/cards/normal/front/4/6/467d9e99-5624-44ac-ab33-c4ebb338e6bf.jpg?1547517785',
        large:
-        'https://img.scryfall.com/cards/large/front/4/6/467d9e99-5624-44ac-ab33-c4ebb338e6bf.jpg?1542805396',
+        'https://img.scryfall.com/cards/large/front/4/6/467d9e99-5624-44ac-ab33-c4ebb338e6bf.jpg?1547517785',
        png:
-        'https://img.scryfall.com/cards/png/front/4/6/467d9e99-5624-44ac-ab33-c4ebb338e6bf.png?1542805396',
+        'https://img.scryfall.com/cards/png/front/4/6/467d9e99-5624-44ac-ab33-c4ebb338e6bf.png?1547517785',
        art_crop:
-        'https://img.scryfall.com/cards/art_crop/front/4/6/467d9e99-5624-44ac-ab33-c4ebb338e6bf.jpg?1542805396',
+        'https://img.scryfall.com/cards/art_crop/front/4/6/467d9e99-5624-44ac-ab33-c4ebb338e6bf.jpg?1547517785',
        border_crop:
-        'https://img.scryfall.com/cards/border_crop/front/4/6/467d9e99-5624-44ac-ab33-c4ebb338e6bf.jpg?1542805396' },
+        'https://img.scryfall.com/cards/border_crop/front/4/6/467d9e99-5624-44ac-ab33-c4ebb338e6bf.jpg?1547517785' },
     mana_cost: '{G}',
     cmc: 1,
     type_line: 'Instant',
@@ -6540,9 +6467,8 @@ module.exports = [ { object: 'card',
        vintage: 'legal',
        penny: 'legal',
        commander: 'legal',
-       '1v1': 'legal',
        duel: 'legal',
-       brawl: 'not_legal' },
+       oldschool: 'not_legal' },
     games: [ 'mtgo', 'paper' ],
     reserved: false,
     foil: true,
@@ -6573,7 +6499,7 @@ module.exports = [ { object: 'card',
     frame_effect: '',
     full_art: false,
     story_spotlight: false,
-    edhrec_rank: 10013,
+    edhrec_rank: 10436,
     related_uris:
      { gatherer:
         'http://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=456777',
@@ -6597,20 +6523,20 @@ module.exports = [ { object: 'card',
     scryfall_uri:
      'https://scryfall.com/card/uma/180/satyr-wayfinder?utm_source=api',
     layout: 'normal',
-    highres_image: false,
+    highres_image: true,
     image_uris:
      { small:
-        'https://img.scryfall.com/cards/small/front/9/5/95702caa-c9eb-4538-83ff-3b015c6b1349.jpg?1542805344',
+        'https://img.scryfall.com/cards/small/front/9/5/95702caa-c9eb-4538-83ff-3b015c6b1349.jpg?1547517768',
        normal:
-        'https://img.scryfall.com/cards/normal/front/9/5/95702caa-c9eb-4538-83ff-3b015c6b1349.jpg?1542805344',
+        'https://img.scryfall.com/cards/normal/front/9/5/95702caa-c9eb-4538-83ff-3b015c6b1349.jpg?1547517768',
        large:
-        'https://img.scryfall.com/cards/large/front/9/5/95702caa-c9eb-4538-83ff-3b015c6b1349.jpg?1542805344',
+        'https://img.scryfall.com/cards/large/front/9/5/95702caa-c9eb-4538-83ff-3b015c6b1349.jpg?1547517768',
        png:
-        'https://img.scryfall.com/cards/png/front/9/5/95702caa-c9eb-4538-83ff-3b015c6b1349.png?1542805344',
+        'https://img.scryfall.com/cards/png/front/9/5/95702caa-c9eb-4538-83ff-3b015c6b1349.png?1547517768',
        art_crop:
-        'https://img.scryfall.com/cards/art_crop/front/9/5/95702caa-c9eb-4538-83ff-3b015c6b1349.jpg?1542805344',
+        'https://img.scryfall.com/cards/art_crop/front/9/5/95702caa-c9eb-4538-83ff-3b015c6b1349.jpg?1547517768',
        border_crop:
-        'https://img.scryfall.com/cards/border_crop/front/9/5/95702caa-c9eb-4538-83ff-3b015c6b1349.jpg?1542805344' },
+        'https://img.scryfall.com/cards/border_crop/front/9/5/95702caa-c9eb-4538-83ff-3b015c6b1349.jpg?1547517768' },
     mana_cost: '{1}{G}',
     cmc: 2,
     type_line: 'Creature — Satyr',
@@ -6630,9 +6556,8 @@ module.exports = [ { object: 'card',
        vintage: 'legal',
        penny: 'not_legal',
        commander: 'legal',
-       '1v1': 'legal',
        duel: 'legal',
-       brawl: 'not_legal' },
+       oldschool: 'not_legal' },
     games: [ 'mtgo', 'paper' ],
     reserved: false,
     foil: true,
@@ -6663,7 +6588,7 @@ module.exports = [ { object: 'card',
     frame_effect: '',
     full_art: false,
     story_spotlight: false,
-    edhrec_rank: 982,
+    edhrec_rank: 963,
     related_uris:
      { gatherer:
         'http://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=456776',
@@ -6687,25 +6612,25 @@ module.exports = [ { object: 'card',
     scryfall_uri:
      'https://scryfall.com/card/uma/179/pulse-of-murasa?utm_source=api',
     layout: 'normal',
-    highres_image: false,
+    highres_image: true,
     image_uris:
      { small:
-        'https://img.scryfall.com/cards/small/front/8/8/88143d08-081f-4463-aef8-aedd47f86898.jpg?1542805331',
+        'https://img.scryfall.com/cards/small/front/8/8/88143d08-081f-4463-aef8-aedd47f86898.jpg?1547517744',
        normal:
-        'https://img.scryfall.com/cards/normal/front/8/8/88143d08-081f-4463-aef8-aedd47f86898.jpg?1542805331',
+        'https://img.scryfall.com/cards/normal/front/8/8/88143d08-081f-4463-aef8-aedd47f86898.jpg?1547517744',
        large:
-        'https://img.scryfall.com/cards/large/front/8/8/88143d08-081f-4463-aef8-aedd47f86898.jpg?1542805331',
+        'https://img.scryfall.com/cards/large/front/8/8/88143d08-081f-4463-aef8-aedd47f86898.jpg?1547517744',
        png:
-        'https://img.scryfall.com/cards/png/front/8/8/88143d08-081f-4463-aef8-aedd47f86898.png?1542805331',
+        'https://img.scryfall.com/cards/png/front/8/8/88143d08-081f-4463-aef8-aedd47f86898.png?1547517744',
        art_crop:
-        'https://img.scryfall.com/cards/art_crop/front/8/8/88143d08-081f-4463-aef8-aedd47f86898.jpg?1542805331',
+        'https://img.scryfall.com/cards/art_crop/front/8/8/88143d08-081f-4463-aef8-aedd47f86898.jpg?1547517744',
        border_crop:
-        'https://img.scryfall.com/cards/border_crop/front/8/8/88143d08-081f-4463-aef8-aedd47f86898.jpg?1542805331' },
+        'https://img.scryfall.com/cards/border_crop/front/8/8/88143d08-081f-4463-aef8-aedd47f86898.jpg?1547517744' },
     mana_cost: '{2}{G}',
     cmc: 3,
     type_line: 'Instant',
     oracle_text:
-     'Return target creature or land card from a graveyard to its owner\'s hand. You gain 6 life.',
+     "Return target creature or land card from a graveyard to its owner's hand. You gain 6 life.",
     colors: [ 'G' ],
     color_identity: [ 'G' ],
     legalities:
@@ -6718,9 +6643,8 @@ module.exports = [ { object: 'card',
        vintage: 'legal',
        penny: 'not_legal',
        commander: 'legal',
-       '1v1': 'legal',
        duel: 'legal',
-       brawl: 'not_legal' },
+       oldschool: 'not_legal' },
     games: [ 'mtgo', 'paper' ],
     reserved: false,
     foil: true,
@@ -6751,7 +6675,7 @@ module.exports = [ { object: 'card',
     frame_effect: '',
     full_art: false,
     story_spotlight: false,
-    edhrec_rank: 4170,
+    edhrec_rank: 4263,
     related_uris:
      { gatherer:
         'http://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=456775',
@@ -6774,25 +6698,25 @@ module.exports = [ { object: 'card',
      'https://api.scryfall.com/cards/0eb1b036-0856-4cfb-ace5-2731f13696bd',
     scryfall_uri: 'https://scryfall.com/card/uma/178/prey-upon?utm_source=api',
     layout: 'normal',
-    highres_image: false,
+    highres_image: true,
     image_uris:
      { small:
-        'https://img.scryfall.com/cards/small/front/0/e/0eb1b036-0856-4cfb-ace5-2731f13696bd.jpg?1542805316',
+        'https://img.scryfall.com/cards/small/front/0/e/0eb1b036-0856-4cfb-ace5-2731f13696bd.jpg?1547517733',
        normal:
-        'https://img.scryfall.com/cards/normal/front/0/e/0eb1b036-0856-4cfb-ace5-2731f13696bd.jpg?1542805316',
+        'https://img.scryfall.com/cards/normal/front/0/e/0eb1b036-0856-4cfb-ace5-2731f13696bd.jpg?1547517733',
        large:
-        'https://img.scryfall.com/cards/large/front/0/e/0eb1b036-0856-4cfb-ace5-2731f13696bd.jpg?1542805316',
+        'https://img.scryfall.com/cards/large/front/0/e/0eb1b036-0856-4cfb-ace5-2731f13696bd.jpg?1547517733',
        png:
-        'https://img.scryfall.com/cards/png/front/0/e/0eb1b036-0856-4cfb-ace5-2731f13696bd.png?1542805316',
+        'https://img.scryfall.com/cards/png/front/0/e/0eb1b036-0856-4cfb-ace5-2731f13696bd.png?1547517733',
        art_crop:
-        'https://img.scryfall.com/cards/art_crop/front/0/e/0eb1b036-0856-4cfb-ace5-2731f13696bd.jpg?1542805316',
+        'https://img.scryfall.com/cards/art_crop/front/0/e/0eb1b036-0856-4cfb-ace5-2731f13696bd.jpg?1547517733',
        border_crop:
-        'https://img.scryfall.com/cards/border_crop/front/0/e/0eb1b036-0856-4cfb-ace5-2731f13696bd.jpg?1542805316' },
+        'https://img.scryfall.com/cards/border_crop/front/0/e/0eb1b036-0856-4cfb-ace5-2731f13696bd.jpg?1547517733' },
     mana_cost: '{G}',
     cmc: 1,
     type_line: 'Sorcery',
     oracle_text:
-     'Target creature you control fights target creature you don\'t control. (Each deals damage equal to its power to the other.)',
+     "Target creature you control fights target creature you don't control. (Each deals damage equal to its power to the other.)",
     colors: [ 'G' ],
     color_identity: [ 'G' ],
     legalities:
@@ -6805,9 +6729,8 @@ module.exports = [ { object: 'card',
        vintage: 'legal',
        penny: 'legal',
        commander: 'legal',
-       '1v1': 'legal',
        duel: 'legal',
-       brawl: 'legal' },
+       oldschool: 'not_legal' },
     games: [ 'mtgo', 'paper' ],
     reserved: false,
     foil: true,
@@ -6830,7 +6753,7 @@ module.exports = [ { object: 'card',
     digital: false,
     rarity: 'common',
     flavor_text:
-     '"You don\'t find many old werewolf hunters."\n—Paulin, trapper of Somberwald',
+     `"You don't find many old werewolf hunters."\n—Paulin, trapper of Somberwald`,
     illustration_id: '18631346-c504-4dd4-a862-1aad25e32678',
     artist: 'Dave Kendall',
     border_color: 'black',
@@ -6838,7 +6761,7 @@ module.exports = [ { object: 'card',
     frame_effect: '',
     full_art: false,
     story_spotlight: false,
-    edhrec_rank: 3768,
+    edhrec_rank: 3785,
     related_uris:
      { gatherer:
         'http://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=456774',
@@ -6862,20 +6785,20 @@ module.exports = [ { object: 'card',
     scryfall_uri:
      'https://scryfall.com/card/uma/177/penumbra-wurm?utm_source=api',
     layout: 'normal',
-    highres_image: false,
+    highres_image: true,
     image_uris:
      { small:
-        'https://img.scryfall.com/cards/small/front/d/e/de4ce98d-0a19-42c5-9ef9-32408da1d2a1.jpg?1542805300',
+        'https://img.scryfall.com/cards/small/front/d/e/de4ce98d-0a19-42c5-9ef9-32408da1d2a1.jpg?1547517719',
        normal:
-        'https://img.scryfall.com/cards/normal/front/d/e/de4ce98d-0a19-42c5-9ef9-32408da1d2a1.jpg?1542805300',
+        'https://img.scryfall.com/cards/normal/front/d/e/de4ce98d-0a19-42c5-9ef9-32408da1d2a1.jpg?1547517719',
        large:
-        'https://img.scryfall.com/cards/large/front/d/e/de4ce98d-0a19-42c5-9ef9-32408da1d2a1.jpg?1542805300',
+        'https://img.scryfall.com/cards/large/front/d/e/de4ce98d-0a19-42c5-9ef9-32408da1d2a1.jpg?1547517719',
        png:
-        'https://img.scryfall.com/cards/png/front/d/e/de4ce98d-0a19-42c5-9ef9-32408da1d2a1.png?1542805300',
+        'https://img.scryfall.com/cards/png/front/d/e/de4ce98d-0a19-42c5-9ef9-32408da1d2a1.png?1547517719',
        art_crop:
-        'https://img.scryfall.com/cards/art_crop/front/d/e/de4ce98d-0a19-42c5-9ef9-32408da1d2a1.jpg?1542805300',
+        'https://img.scryfall.com/cards/art_crop/front/d/e/de4ce98d-0a19-42c5-9ef9-32408da1d2a1.jpg?1547517719',
        border_crop:
-        'https://img.scryfall.com/cards/border_crop/front/d/e/de4ce98d-0a19-42c5-9ef9-32408da1d2a1.jpg?1542805300' },
+        'https://img.scryfall.com/cards/border_crop/front/d/e/de4ce98d-0a19-42c5-9ef9-32408da1d2a1.jpg?1547517719' },
     mana_cost: '{5}{G}{G}',
     cmc: 7,
     type_line: 'Creature — Wurm',
@@ -6885,6 +6808,21 @@ module.exports = [ { object: 'card',
     toughness: '6',
     colors: [ 'G' ],
     color_identity: [ 'G' ],
+    all_parts:
+     [ { object: 'related_card',
+         id: 'de4ce98d-0a19-42c5-9ef9-32408da1d2a1',
+         component: 'combo_piece',
+         name: 'Penumbra Wurm',
+         type_line: 'Creature — Wurm',
+         uri:
+          'https://api.scryfall.com/cards/de4ce98d-0a19-42c5-9ef9-32408da1d2a1' },
+       { object: 'related_card',
+         id: '31107acf-5969-42ff-a805-9152f439b7fa',
+         component: 'token',
+         name: 'Wurm',
+         type_line: 'Token Creature — Wurm',
+         uri:
+          'https://api.scryfall.com/cards/31107acf-5969-42ff-a805-9152f439b7fa' } ],
     legalities:
      { standard: 'not_legal',
        future: 'not_legal',
@@ -6895,9 +6833,8 @@ module.exports = [ { object: 'card',
        vintage: 'legal',
        penny: 'legal',
        commander: 'legal',
-       '1v1': 'legal',
        duel: 'legal',
-       brawl: 'not_legal' },
+       oldschool: 'not_legal' },
     games: [ 'mtgo', 'paper' ],
     reserved: false,
     foil: true,
@@ -6927,7 +6864,7 @@ module.exports = [ { object: 'card',
     frame_effect: '',
     full_art: false,
     story_spotlight: false,
-    edhrec_rank: 8431,
+    edhrec_rank: 8508,
     related_uris:
      { gatherer:
         'http://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=456773',
@@ -6951,25 +6888,25 @@ module.exports = [ { object: 'card',
     scryfall_uri:
      'https://scryfall.com/card/uma/176/pattern-of-rebirth?utm_source=api',
     layout: 'normal',
-    highres_image: false,
+    highres_image: true,
     image_uris:
      { small:
-        'https://img.scryfall.com/cards/small/front/c/0/c0e34219-9fd9-4f11-a244-670fb75ef938.jpg?1542805264',
+        'https://img.scryfall.com/cards/small/front/c/0/c0e34219-9fd9-4f11-a244-670fb75ef938.jpg?1547517704',
        normal:
-        'https://img.scryfall.com/cards/normal/front/c/0/c0e34219-9fd9-4f11-a244-670fb75ef938.jpg?1542805264',
+        'https://img.scryfall.com/cards/normal/front/c/0/c0e34219-9fd9-4f11-a244-670fb75ef938.jpg?1547517704',
        large:
-        'https://img.scryfall.com/cards/large/front/c/0/c0e34219-9fd9-4f11-a244-670fb75ef938.jpg?1542805264',
+        'https://img.scryfall.com/cards/large/front/c/0/c0e34219-9fd9-4f11-a244-670fb75ef938.jpg?1547517704',
        png:
-        'https://img.scryfall.com/cards/png/front/c/0/c0e34219-9fd9-4f11-a244-670fb75ef938.png?1542805264',
+        'https://img.scryfall.com/cards/png/front/c/0/c0e34219-9fd9-4f11-a244-670fb75ef938.png?1547517704',
        art_crop:
-        'https://img.scryfall.com/cards/art_crop/front/c/0/c0e34219-9fd9-4f11-a244-670fb75ef938.jpg?1542805264',
+        'https://img.scryfall.com/cards/art_crop/front/c/0/c0e34219-9fd9-4f11-a244-670fb75ef938.jpg?1547517704',
        border_crop:
-        'https://img.scryfall.com/cards/border_crop/front/c/0/c0e34219-9fd9-4f11-a244-670fb75ef938.jpg?1542805264' },
+        'https://img.scryfall.com/cards/border_crop/front/c/0/c0e34219-9fd9-4f11-a244-670fb75ef938.jpg?1547517704' },
     mana_cost: '{3}{G}',
     cmc: 4,
     type_line: 'Enchantment — Aura',
     oracle_text:
-     'Enchant creature\nWhen enchanted creature dies, that creature\'s controller may search their library for a creature card, put that card onto the battlefield, then shuffle their library.',
+     "Enchant creature\nWhen enchanted creature dies, that creature's controller may search their library for a creature card, put that card onto the battlefield, then shuffle their library.",
     colors: [ 'G' ],
     color_identity: [ 'G' ],
     legalities:
@@ -6982,9 +6919,8 @@ module.exports = [ { object: 'card',
        vintage: 'legal',
        penny: 'not_legal',
        commander: 'legal',
-       '1v1': 'legal',
        duel: 'legal',
-       brawl: 'not_legal' },
+       oldschool: 'not_legal' },
     games: [ 'mtgo', 'paper' ],
     reserved: false,
     foil: true,
@@ -7037,25 +6973,25 @@ module.exports = [ { object: 'card',
     scryfall_uri:
      'https://scryfall.com/card/uma/175/nourishing-shoal?utm_source=api',
     layout: 'normal',
-    highres_image: false,
+    highres_image: true,
     image_uris:
      { small:
-        'https://img.scryfall.com/cards/small/front/9/4/9472cd09-0b0a-49c9-ab10-ec5b73ddb74b.jpg?1542806319',
+        'https://img.scryfall.com/cards/small/front/9/4/9472cd09-0b0a-49c9-ab10-ec5b73ddb74b.jpg?1547517693',
        normal:
-        'https://img.scryfall.com/cards/normal/front/9/4/9472cd09-0b0a-49c9-ab10-ec5b73ddb74b.jpg?1542806319',
+        'https://img.scryfall.com/cards/normal/front/9/4/9472cd09-0b0a-49c9-ab10-ec5b73ddb74b.jpg?1547517693',
        large:
-        'https://img.scryfall.com/cards/large/front/9/4/9472cd09-0b0a-49c9-ab10-ec5b73ddb74b.jpg?1542806319',
+        'https://img.scryfall.com/cards/large/front/9/4/9472cd09-0b0a-49c9-ab10-ec5b73ddb74b.jpg?1547517693',
        png:
-        'https://img.scryfall.com/cards/png/front/9/4/9472cd09-0b0a-49c9-ab10-ec5b73ddb74b.png?1542806319',
+        'https://img.scryfall.com/cards/png/front/9/4/9472cd09-0b0a-49c9-ab10-ec5b73ddb74b.png?1547517693',
        art_crop:
-        'https://img.scryfall.com/cards/art_crop/front/9/4/9472cd09-0b0a-49c9-ab10-ec5b73ddb74b.jpg?1542806319',
+        'https://img.scryfall.com/cards/art_crop/front/9/4/9472cd09-0b0a-49c9-ab10-ec5b73ddb74b.jpg?1547517693',
        border_crop:
-        'https://img.scryfall.com/cards/border_crop/front/9/4/9472cd09-0b0a-49c9-ab10-ec5b73ddb74b.jpg?1542806319' },
+        'https://img.scryfall.com/cards/border_crop/front/9/4/9472cd09-0b0a-49c9-ab10-ec5b73ddb74b.jpg?1547517693' },
     mana_cost: '{X}{G}{G}',
     cmc: 2,
     type_line: 'Instant — Arcane',
     oracle_text:
-     'You may exile a green card with converted mana cost X from your hand rather than pay this spell\'s mana cost.\nYou gain X life.',
+     "You may exile a green card with converted mana cost X from your hand rather than pay this spell's mana cost.\nYou gain X life.",
     colors: [ 'G' ],
     color_identity: [ 'G' ],
     legalities:
@@ -7068,9 +7004,8 @@ module.exports = [ { object: 'card',
        vintage: 'legal',
        penny: 'not_legal',
        commander: 'legal',
-       '1v1': 'legal',
        duel: 'legal',
-       brawl: 'not_legal' },
+       oldschool: 'not_legal' },
     games: [ 'mtgo', 'paper' ],
     reserved: false,
     foil: true,
@@ -7099,7 +7034,7 @@ module.exports = [ { object: 'card',
     frame_effect: '',
     full_art: false,
     story_spotlight: false,
-    edhrec_rank: 11859,
+    edhrec_rank: 12102,
     related_uris:
      { gatherer:
         'http://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=456771',
@@ -7127,17 +7062,17 @@ module.exports = [ { object: 'card',
     highres_image: true,
     image_uris:
      { small:
-        'https://img.scryfall.com/cards/small/front/f/f/ff782973-e33c-4edd-bbd7-5c8dc8d59554.jpg?1545071267',
+        'https://img.scryfall.com/cards/small/front/f/f/ff782973-e33c-4edd-bbd7-5c8dc8d59554.jpg?1547517681',
        normal:
-        'https://img.scryfall.com/cards/normal/front/f/f/ff782973-e33c-4edd-bbd7-5c8dc8d59554.jpg?1545071267',
+        'https://img.scryfall.com/cards/normal/front/f/f/ff782973-e33c-4edd-bbd7-5c8dc8d59554.jpg?1547517681',
        large:
-        'https://img.scryfall.com/cards/large/front/f/f/ff782973-e33c-4edd-bbd7-5c8dc8d59554.jpg?1545071267',
+        'https://img.scryfall.com/cards/large/front/f/f/ff782973-e33c-4edd-bbd7-5c8dc8d59554.jpg?1547517681',
        png:
-        'https://img.scryfall.com/cards/png/front/f/f/ff782973-e33c-4edd-bbd7-5c8dc8d59554.png?1545071267',
+        'https://img.scryfall.com/cards/png/front/f/f/ff782973-e33c-4edd-bbd7-5c8dc8d59554.png?1547517681',
        art_crop:
-        'https://img.scryfall.com/cards/art_crop/front/f/f/ff782973-e33c-4edd-bbd7-5c8dc8d59554.jpg?1545071267',
+        'https://img.scryfall.com/cards/art_crop/front/f/f/ff782973-e33c-4edd-bbd7-5c8dc8d59554.jpg?1547517681',
        border_crop:
-        'https://img.scryfall.com/cards/border_crop/front/f/f/ff782973-e33c-4edd-bbd7-5c8dc8d59554.jpg?1545071267' },
+        'https://img.scryfall.com/cards/border_crop/front/f/f/ff782973-e33c-4edd-bbd7-5c8dc8d59554.jpg?1547517681' },
     mana_cost: '{G}',
     cmc: 1,
     type_line: 'Creature — Human Druid',
@@ -7157,9 +7092,8 @@ module.exports = [ { object: 'card',
        vintage: 'legal',
        penny: 'not_legal',
        commander: 'legal',
-       '1v1': 'legal',
        duel: 'legal',
-       brawl: 'not_legal' },
+       oldschool: 'not_legal' },
     games: [ 'mtgo', 'paper' ],
     reserved: false,
     foil: true,
@@ -7190,7 +7124,7 @@ module.exports = [ { object: 'card',
     frame_effect: '',
     full_art: false,
     story_spotlight: false,
-    edhrec_rank: 2389,
+    edhrec_rank: 2383,
     related_uris:
      { gatherer:
         'http://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=456770',
@@ -7214,20 +7148,20 @@ module.exports = [ { object: 'card',
     scryfall_uri:
      'https://scryfall.com/card/uma/173/miming-slime?utm_source=api',
     layout: 'normal',
-    highres_image: false,
+    highres_image: true,
     image_uris:
      { small:
-        'https://img.scryfall.com/cards/small/front/8/0/80d816cd-9ca6-4118-893e-5c6b167d9d81.jpg?1542722667',
+        'https://img.scryfall.com/cards/small/front/8/0/80d816cd-9ca6-4118-893e-5c6b167d9d81.jpg?1547517667',
        normal:
-        'https://img.scryfall.com/cards/normal/front/8/0/80d816cd-9ca6-4118-893e-5c6b167d9d81.jpg?1542722667',
+        'https://img.scryfall.com/cards/normal/front/8/0/80d816cd-9ca6-4118-893e-5c6b167d9d81.jpg?1547517667',
        large:
-        'https://img.scryfall.com/cards/large/front/8/0/80d816cd-9ca6-4118-893e-5c6b167d9d81.jpg?1542722667',
+        'https://img.scryfall.com/cards/large/front/8/0/80d816cd-9ca6-4118-893e-5c6b167d9d81.jpg?1547517667',
        png:
-        'https://img.scryfall.com/cards/png/front/8/0/80d816cd-9ca6-4118-893e-5c6b167d9d81.png?1542722667',
+        'https://img.scryfall.com/cards/png/front/8/0/80d816cd-9ca6-4118-893e-5c6b167d9d81.png?1547517667',
        art_crop:
-        'https://img.scryfall.com/cards/art_crop/front/8/0/80d816cd-9ca6-4118-893e-5c6b167d9d81.jpg?1542722667',
+        'https://img.scryfall.com/cards/art_crop/front/8/0/80d816cd-9ca6-4118-893e-5c6b167d9d81.jpg?1547517667',
        border_crop:
-        'https://img.scryfall.com/cards/border_crop/front/8/0/80d816cd-9ca6-4118-893e-5c6b167d9d81.jpg?1542722667' },
+        'https://img.scryfall.com/cards/border_crop/front/8/0/80d816cd-9ca6-4118-893e-5c6b167d9d81.jpg?1547517667' },
     mana_cost: '{2}{G}',
     cmc: 3,
     type_line: 'Sorcery',
@@ -7260,9 +7194,8 @@ module.exports = [ { object: 'card',
        vintage: 'legal',
        penny: 'legal',
        commander: 'legal',
-       '1v1': 'legal',
        duel: 'legal',
-       brawl: 'not_legal' },
+       oldschool: 'not_legal' },
     games: [ 'mtgo', 'paper' ],
     reserved: false,
     foil: true,
@@ -7293,7 +7226,7 @@ module.exports = [ { object: 'card',
     frame_effect: '',
     full_art: false,
     story_spotlight: false,
-    edhrec_rank: 8602,
+    edhrec_rank: 8551,
     related_uris:
      { gatherer:
         'http://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=456769',
@@ -7321,17 +7254,17 @@ module.exports = [ { object: 'card',
     highres_image: true,
     image_uris:
      { small:
-        'https://img.scryfall.com/cards/small/front/d/7/d7447c11-05a1-44e4-831a-0bacf97d447d.jpg?1545069739',
+        'https://img.scryfall.com/cards/small/front/d/7/d7447c11-05a1-44e4-831a-0bacf97d447d.jpg?1547517654',
        normal:
-        'https://img.scryfall.com/cards/normal/front/d/7/d7447c11-05a1-44e4-831a-0bacf97d447d.jpg?1545069739',
+        'https://img.scryfall.com/cards/normal/front/d/7/d7447c11-05a1-44e4-831a-0bacf97d447d.jpg?1547517654',
        large:
-        'https://img.scryfall.com/cards/large/front/d/7/d7447c11-05a1-44e4-831a-0bacf97d447d.jpg?1545069739',
+        'https://img.scryfall.com/cards/large/front/d/7/d7447c11-05a1-44e4-831a-0bacf97d447d.jpg?1547517654',
        png:
-        'https://img.scryfall.com/cards/png/front/d/7/d7447c11-05a1-44e4-831a-0bacf97d447d.png?1545069739',
+        'https://img.scryfall.com/cards/png/front/d/7/d7447c11-05a1-44e4-831a-0bacf97d447d.png?1547517654',
        art_crop:
-        'https://img.scryfall.com/cards/art_crop/front/d/7/d7447c11-05a1-44e4-831a-0bacf97d447d.jpg?1545069739',
+        'https://img.scryfall.com/cards/art_crop/front/d/7/d7447c11-05a1-44e4-831a-0bacf97d447d.jpg?1547517654',
        border_crop:
-        'https://img.scryfall.com/cards/border_crop/front/d/7/d7447c11-05a1-44e4-831a-0bacf97d447d.jpg?1545069739' },
+        'https://img.scryfall.com/cards/border_crop/front/d/7/d7447c11-05a1-44e4-831a-0bacf97d447d.jpg?1547517654' },
     mana_cost: '{1}{G}',
     cmc: 2,
     type_line: 'Sorcery',
@@ -7349,9 +7282,8 @@ module.exports = [ { object: 'card',
        vintage: 'legal',
        penny: 'not_legal',
        commander: 'legal',
-       '1v1': 'legal',
        duel: 'legal',
-       brawl: 'not_legal' },
+       oldschool: 'not_legal' },
     games: [ 'mtgo', 'paper' ],
     reserved: false,
     foil: true,
@@ -7380,7 +7312,7 @@ module.exports = [ { object: 'card',
     frame_effect: '',
     full_art: false,
     story_spotlight: false,
-    edhrec_rank: 484,
+    edhrec_rank: 477,
     related_uris:
      { gatherer:
         'http://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=456768',
@@ -7396,7 +7328,7 @@ module.exports = [ { object: 'card',
     multiverse_ids: [ 456767 ],
     mtgo_id: 70415,
     tcgplayer_id: 180972,
-    name: 'Kodama\'s Reach',
+    name: "Kodama's Reach",
     lang: 'en',
     released_at: '2018-12-07',
     uri:
@@ -7404,20 +7336,20 @@ module.exports = [ { object: 'card',
     scryfall_uri:
      'https://scryfall.com/card/uma/171/kodamas-reach?utm_source=api',
     layout: 'normal',
-    highres_image: false,
+    highres_image: true,
     image_uris:
      { small:
-        'https://img.scryfall.com/cards/small/front/1/0/102d20e6-5179-44b7-9abd-f1defc15ca6a.jpg?1542805246',
+        'https://img.scryfall.com/cards/small/front/1/0/102d20e6-5179-44b7-9abd-f1defc15ca6a.jpg?1547517639',
        normal:
-        'https://img.scryfall.com/cards/normal/front/1/0/102d20e6-5179-44b7-9abd-f1defc15ca6a.jpg?1542805246',
+        'https://img.scryfall.com/cards/normal/front/1/0/102d20e6-5179-44b7-9abd-f1defc15ca6a.jpg?1547517639',
        large:
-        'https://img.scryfall.com/cards/large/front/1/0/102d20e6-5179-44b7-9abd-f1defc15ca6a.jpg?1542805246',
+        'https://img.scryfall.com/cards/large/front/1/0/102d20e6-5179-44b7-9abd-f1defc15ca6a.jpg?1547517639',
        png:
-        'https://img.scryfall.com/cards/png/front/1/0/102d20e6-5179-44b7-9abd-f1defc15ca6a.png?1542805246',
+        'https://img.scryfall.com/cards/png/front/1/0/102d20e6-5179-44b7-9abd-f1defc15ca6a.png?1547517639',
        art_crop:
-        'https://img.scryfall.com/cards/art_crop/front/1/0/102d20e6-5179-44b7-9abd-f1defc15ca6a.jpg?1542805246',
+        'https://img.scryfall.com/cards/art_crop/front/1/0/102d20e6-5179-44b7-9abd-f1defc15ca6a.jpg?1547517639',
        border_crop:
-        'https://img.scryfall.com/cards/border_crop/front/1/0/102d20e6-5179-44b7-9abd-f1defc15ca6a.jpg?1542805246' },
+        'https://img.scryfall.com/cards/border_crop/front/1/0/102d20e6-5179-44b7-9abd-f1defc15ca6a.jpg?1547517639' },
     mana_cost: '{2}{G}',
     cmc: 3,
     type_line: 'Sorcery — Arcane',
@@ -7435,9 +7367,8 @@ module.exports = [ { object: 'card',
        vintage: 'legal',
        penny: 'not_legal',
        commander: 'legal',
-       '1v1': 'legal',
        duel: 'legal',
-       brawl: 'not_legal' },
+       oldschool: 'not_legal' },
     games: [ 'mtgo', 'paper' ],
     reserved: false,
     foil: true,
@@ -7468,7 +7399,7 @@ module.exports = [ { object: 'card',
     frame_effect: '',
     full_art: false,
     story_spotlight: false,
-    edhrec_rank: 26,
+    edhrec_rank: 24,
     related_uris:
      { gatherer:
         'http://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=456767',
@@ -7492,20 +7423,20 @@ module.exports = [ { object: 'card',
     scryfall_uri:
      'https://scryfall.com/card/uma/170/hooting-mandrills?utm_source=api',
     layout: 'normal',
-    highres_image: false,
+    highres_image: true,
     image_uris:
      { small:
-        'https://img.scryfall.com/cards/small/front/6/d/6dfbd094-1d59-4539-80e1-595227d3e64d.jpg?1542805186',
+        'https://img.scryfall.com/cards/small/front/6/d/6dfbd094-1d59-4539-80e1-595227d3e64d.jpg?1547517629',
        normal:
-        'https://img.scryfall.com/cards/normal/front/6/d/6dfbd094-1d59-4539-80e1-595227d3e64d.jpg?1542805186',
+        'https://img.scryfall.com/cards/normal/front/6/d/6dfbd094-1d59-4539-80e1-595227d3e64d.jpg?1547517629',
        large:
-        'https://img.scryfall.com/cards/large/front/6/d/6dfbd094-1d59-4539-80e1-595227d3e64d.jpg?1542805186',
+        'https://img.scryfall.com/cards/large/front/6/d/6dfbd094-1d59-4539-80e1-595227d3e64d.jpg?1547517629',
        png:
-        'https://img.scryfall.com/cards/png/front/6/d/6dfbd094-1d59-4539-80e1-595227d3e64d.png?1542805186',
+        'https://img.scryfall.com/cards/png/front/6/d/6dfbd094-1d59-4539-80e1-595227d3e64d.png?1547517629',
        art_crop:
-        'https://img.scryfall.com/cards/art_crop/front/6/d/6dfbd094-1d59-4539-80e1-595227d3e64d.jpg?1542805186',
+        'https://img.scryfall.com/cards/art_crop/front/6/d/6dfbd094-1d59-4539-80e1-595227d3e64d.jpg?1547517629',
        border_crop:
-        'https://img.scryfall.com/cards/border_crop/front/6/d/6dfbd094-1d59-4539-80e1-595227d3e64d.jpg?1542805186' },
+        'https://img.scryfall.com/cards/border_crop/front/6/d/6dfbd094-1d59-4539-80e1-595227d3e64d.jpg?1547517629' },
     mana_cost: '{5}{G}',
     cmc: 6,
     type_line: 'Creature — Ape',
@@ -7525,9 +7456,8 @@ module.exports = [ { object: 'card',
        vintage: 'legal',
        penny: 'legal',
        commander: 'legal',
-       '1v1': 'legal',
        duel: 'legal',
-       brawl: 'not_legal' },
+       oldschool: 'not_legal' },
     games: [ 'mtgo', 'paper' ],
     reserved: false,
     foil: true,
@@ -7558,7 +7488,7 @@ module.exports = [ { object: 'card',
     frame_effect: '',
     full_art: false,
     story_spotlight: false,
-    edhrec_rank: 10776,
+    edhrec_rank: 11053,
     related_uris:
      { gatherer:
         'http://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=456766',
@@ -7582,20 +7512,20 @@ module.exports = [ { object: 'card',
     scryfall_uri:
      'https://scryfall.com/card/uma/169/hero-of-leina-tower?utm_source=api',
     layout: 'normal',
-    highres_image: false,
+    highres_image: true,
     image_uris:
      { small:
-        'https://img.scryfall.com/cards/small/front/9/3/93f3f0ce-e8f5-4020-b8db-23a6aa7f7cb5.jpg?1542722465',
+        'https://img.scryfall.com/cards/small/front/9/3/93f3f0ce-e8f5-4020-b8db-23a6aa7f7cb5.jpg?1547517614',
        normal:
-        'https://img.scryfall.com/cards/normal/front/9/3/93f3f0ce-e8f5-4020-b8db-23a6aa7f7cb5.jpg?1542722465',
+        'https://img.scryfall.com/cards/normal/front/9/3/93f3f0ce-e8f5-4020-b8db-23a6aa7f7cb5.jpg?1547517614',
        large:
-        'https://img.scryfall.com/cards/large/front/9/3/93f3f0ce-e8f5-4020-b8db-23a6aa7f7cb5.jpg?1542722465',
+        'https://img.scryfall.com/cards/large/front/9/3/93f3f0ce-e8f5-4020-b8db-23a6aa7f7cb5.jpg?1547517614',
        png:
-        'https://img.scryfall.com/cards/png/front/9/3/93f3f0ce-e8f5-4020-b8db-23a6aa7f7cb5.png?1542722465',
+        'https://img.scryfall.com/cards/png/front/9/3/93f3f0ce-e8f5-4020-b8db-23a6aa7f7cb5.png?1547517614',
        art_crop:
-        'https://img.scryfall.com/cards/art_crop/front/9/3/93f3f0ce-e8f5-4020-b8db-23a6aa7f7cb5.jpg?1542722465',
+        'https://img.scryfall.com/cards/art_crop/front/9/3/93f3f0ce-e8f5-4020-b8db-23a6aa7f7cb5.jpg?1547517614',
        border_crop:
-        'https://img.scryfall.com/cards/border_crop/front/9/3/93f3f0ce-e8f5-4020-b8db-23a6aa7f7cb5.jpg?1542722465' },
+        'https://img.scryfall.com/cards/border_crop/front/9/3/93f3f0ce-e8f5-4020-b8db-23a6aa7f7cb5.jpg?1547517614' },
     mana_cost: '{G}',
     cmc: 1,
     type_line: 'Creature — Human Warrior',
@@ -7615,9 +7545,8 @@ module.exports = [ { object: 'card',
        vintage: 'legal',
        penny: 'legal',
        commander: 'legal',
-       '1v1': 'legal',
        duel: 'legal',
-       brawl: 'not_legal' },
+       oldschool: 'not_legal' },
     games: [ 'mtgo', 'paper' ],
     reserved: false,
     foil: true,
@@ -7648,7 +7577,7 @@ module.exports = [ { object: 'card',
     frame_effect: '',
     full_art: false,
     story_spotlight: false,
-    edhrec_rank: 10599,
+    edhrec_rank: 10838,
     related_uris:
      { gatherer:
         'http://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=456765',
@@ -7672,20 +7601,20 @@ module.exports = [ { object: 'card',
     scryfall_uri:
      'https://scryfall.com/card/uma/168/groundskeeper?utm_source=api',
     layout: 'normal',
-    highres_image: false,
+    highres_image: true,
     image_uris:
      { small:
-        'https://img.scryfall.com/cards/small/front/9/6/9625498e-82e5-49e2-a7fa-f4ea0bb838db.jpg?1542805157',
+        'https://img.scryfall.com/cards/small/front/9/6/9625498e-82e5-49e2-a7fa-f4ea0bb838db.jpg?1547517604',
        normal:
-        'https://img.scryfall.com/cards/normal/front/9/6/9625498e-82e5-49e2-a7fa-f4ea0bb838db.jpg?1542805157',
+        'https://img.scryfall.com/cards/normal/front/9/6/9625498e-82e5-49e2-a7fa-f4ea0bb838db.jpg?1547517604',
        large:
-        'https://img.scryfall.com/cards/large/front/9/6/9625498e-82e5-49e2-a7fa-f4ea0bb838db.jpg?1542805157',
+        'https://img.scryfall.com/cards/large/front/9/6/9625498e-82e5-49e2-a7fa-f4ea0bb838db.jpg?1547517604',
        png:
-        'https://img.scryfall.com/cards/png/front/9/6/9625498e-82e5-49e2-a7fa-f4ea0bb838db.png?1542805157',
+        'https://img.scryfall.com/cards/png/front/9/6/9625498e-82e5-49e2-a7fa-f4ea0bb838db.png?1547517604',
        art_crop:
-        'https://img.scryfall.com/cards/art_crop/front/9/6/9625498e-82e5-49e2-a7fa-f4ea0bb838db.jpg?1542805157',
+        'https://img.scryfall.com/cards/art_crop/front/9/6/9625498e-82e5-49e2-a7fa-f4ea0bb838db.jpg?1547517604',
        border_crop:
-        'https://img.scryfall.com/cards/border_crop/front/9/6/9625498e-82e5-49e2-a7fa-f4ea0bb838db.jpg?1542805157' },
+        'https://img.scryfall.com/cards/border_crop/front/9/6/9625498e-82e5-49e2-a7fa-f4ea0bb838db.jpg?1547517604' },
     mana_cost: '{G}',
     cmc: 1,
     type_line: 'Creature — Human Druid',
@@ -7705,9 +7634,8 @@ module.exports = [ { object: 'card',
        vintage: 'legal',
        penny: 'legal',
        commander: 'legal',
-       '1v1': 'legal',
        duel: 'legal',
-       brawl: 'not_legal' },
+       oldschool: 'not_legal' },
     games: [ 'mtgo', 'paper' ],
     reserved: false,
     foil: true,
@@ -7738,7 +7666,7 @@ module.exports = [ { object: 'card',
     frame_effect: '',
     full_art: false,
     story_spotlight: false,
-    edhrec_rank: 3192,
+    edhrec_rank: 3245,
     related_uris:
      { gatherer:
         'http://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=456764',
@@ -7762,20 +7690,20 @@ module.exports = [ { object: 'card',
     scryfall_uri:
      'https://scryfall.com/card/uma/167/golgari-grave-troll?utm_source=api',
     layout: 'normal',
-    highres_image: false,
+    highres_image: true,
     image_uris:
      { small:
-        'https://img.scryfall.com/cards/small/front/8/a/8a065808-643e-4123-a1ae-f65d62223106.jpg?1542806288',
+        'https://img.scryfall.com/cards/small/front/8/a/8a065808-643e-4123-a1ae-f65d62223106.jpg?1547517594',
        normal:
-        'https://img.scryfall.com/cards/normal/front/8/a/8a065808-643e-4123-a1ae-f65d62223106.jpg?1542806288',
+        'https://img.scryfall.com/cards/normal/front/8/a/8a065808-643e-4123-a1ae-f65d62223106.jpg?1547517594',
        large:
-        'https://img.scryfall.com/cards/large/front/8/a/8a065808-643e-4123-a1ae-f65d62223106.jpg?1542806288',
+        'https://img.scryfall.com/cards/large/front/8/a/8a065808-643e-4123-a1ae-f65d62223106.jpg?1547517594',
        png:
-        'https://img.scryfall.com/cards/png/front/8/a/8a065808-643e-4123-a1ae-f65d62223106.png?1542806288',
+        'https://img.scryfall.com/cards/png/front/8/a/8a065808-643e-4123-a1ae-f65d62223106.png?1547517594',
        art_crop:
-        'https://img.scryfall.com/cards/art_crop/front/8/a/8a065808-643e-4123-a1ae-f65d62223106.jpg?1542806288',
+        'https://img.scryfall.com/cards/art_crop/front/8/a/8a065808-643e-4123-a1ae-f65d62223106.jpg?1547517594',
        border_crop:
-        'https://img.scryfall.com/cards/border_crop/front/8/a/8a065808-643e-4123-a1ae-f65d62223106.jpg?1542806288' },
+        'https://img.scryfall.com/cards/border_crop/front/8/a/8a065808-643e-4123-a1ae-f65d62223106.jpg?1547517594' },
     mana_cost: '{4}{G}',
     cmc: 5,
     type_line: 'Creature — Troll Skeleton',
@@ -7795,9 +7723,8 @@ module.exports = [ { object: 'card',
        vintage: 'legal',
        penny: 'not_legal',
        commander: 'legal',
-       '1v1': 'legal',
        duel: 'legal',
-       brawl: 'not_legal' },
+       oldschool: 'not_legal' },
     games: [ 'mtgo', 'paper' ],
     reserved: false,
     foil: true,
@@ -7826,7 +7753,7 @@ module.exports = [ { object: 'card',
     frame_effect: '',
     full_art: false,
     story_spotlight: false,
-    edhrec_rank: 1653,
+    edhrec_rank: 1634,
     related_uris:
      { gatherer:
         'http://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=456763',
@@ -7850,20 +7777,20 @@ module.exports = [ { object: 'card',
     scryfall_uri:
      'https://scryfall.com/card/uma/166/golgari-brownscale?utm_source=api',
     layout: 'normal',
-    highres_image: false,
+    highres_image: true,
     image_uris:
      { small:
-        'https://img.scryfall.com/cards/small/front/e/4/e41f3323-f702-46a6-92db-33ec0afd75d2.jpg?1542805141',
+        'https://img.scryfall.com/cards/small/front/e/4/e41f3323-f702-46a6-92db-33ec0afd75d2.jpg?1547517583',
        normal:
-        'https://img.scryfall.com/cards/normal/front/e/4/e41f3323-f702-46a6-92db-33ec0afd75d2.jpg?1542805141',
+        'https://img.scryfall.com/cards/normal/front/e/4/e41f3323-f702-46a6-92db-33ec0afd75d2.jpg?1547517583',
        large:
-        'https://img.scryfall.com/cards/large/front/e/4/e41f3323-f702-46a6-92db-33ec0afd75d2.jpg?1542805141',
+        'https://img.scryfall.com/cards/large/front/e/4/e41f3323-f702-46a6-92db-33ec0afd75d2.jpg?1547517583',
        png:
-        'https://img.scryfall.com/cards/png/front/e/4/e41f3323-f702-46a6-92db-33ec0afd75d2.png?1542805141',
+        'https://img.scryfall.com/cards/png/front/e/4/e41f3323-f702-46a6-92db-33ec0afd75d2.png?1547517583',
        art_crop:
-        'https://img.scryfall.com/cards/art_crop/front/e/4/e41f3323-f702-46a6-92db-33ec0afd75d2.jpg?1542805141',
+        'https://img.scryfall.com/cards/art_crop/front/e/4/e41f3323-f702-46a6-92db-33ec0afd75d2.jpg?1547517583',
        border_crop:
-        'https://img.scryfall.com/cards/border_crop/front/e/4/e41f3323-f702-46a6-92db-33ec0afd75d2.jpg?1542805141' },
+        'https://img.scryfall.com/cards/border_crop/front/e/4/e41f3323-f702-46a6-92db-33ec0afd75d2.jpg?1547517583' },
     mana_cost: '{1}{G}{G}',
     cmc: 3,
     type_line: 'Creature — Lizard',
@@ -7881,11 +7808,10 @@ module.exports = [ { object: 'card',
        legacy: 'legal',
        pauper: 'legal',
        vintage: 'legal',
-       penny: 'not_legal',
+       penny: 'legal',
        commander: 'legal',
-       '1v1': 'legal',
        duel: 'legal',
-       brawl: 'not_legal' },
+       oldschool: 'not_legal' },
     games: [ 'mtgo', 'paper' ],
     reserved: false,
     foil: true,
@@ -7914,7 +7840,7 @@ module.exports = [ { object: 'card',
     frame_effect: '',
     full_art: false,
     story_spotlight: false,
-    edhrec_rank: 7930,
+    edhrec_rank: 7995,
     related_uris:
      { gatherer:
         'http://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=456762',
@@ -7937,25 +7863,25 @@ module.exports = [ { object: 'card',
      'https://api.scryfall.com/cards/b979578b-a82f-4d5e-8871-9e45401038a8',
     scryfall_uri: 'https://scryfall.com/card/uma/165/fecundity?utm_source=api',
     layout: 'normal',
-    highres_image: false,
+    highres_image: true,
     image_uris:
      { small:
-        'https://img.scryfall.com/cards/small/front/b/9/b979578b-a82f-4d5e-8871-9e45401038a8.jpg?1542626123',
+        'https://img.scryfall.com/cards/small/front/b/9/b979578b-a82f-4d5e-8871-9e45401038a8.jpg?1547517576',
        normal:
-        'https://img.scryfall.com/cards/normal/front/b/9/b979578b-a82f-4d5e-8871-9e45401038a8.jpg?1542626123',
+        'https://img.scryfall.com/cards/normal/front/b/9/b979578b-a82f-4d5e-8871-9e45401038a8.jpg?1547517576',
        large:
-        'https://img.scryfall.com/cards/large/front/b/9/b979578b-a82f-4d5e-8871-9e45401038a8.jpg?1542626123',
+        'https://img.scryfall.com/cards/large/front/b/9/b979578b-a82f-4d5e-8871-9e45401038a8.jpg?1547517576',
        png:
-        'https://img.scryfall.com/cards/png/front/b/9/b979578b-a82f-4d5e-8871-9e45401038a8.png?1542626123',
+        'https://img.scryfall.com/cards/png/front/b/9/b979578b-a82f-4d5e-8871-9e45401038a8.png?1547517576',
        art_crop:
-        'https://img.scryfall.com/cards/art_crop/front/b/9/b979578b-a82f-4d5e-8871-9e45401038a8.jpg?1542626123',
+        'https://img.scryfall.com/cards/art_crop/front/b/9/b979578b-a82f-4d5e-8871-9e45401038a8.jpg?1547517576',
        border_crop:
-        'https://img.scryfall.com/cards/border_crop/front/b/9/b979578b-a82f-4d5e-8871-9e45401038a8.jpg?1542626123' },
+        'https://img.scryfall.com/cards/border_crop/front/b/9/b979578b-a82f-4d5e-8871-9e45401038a8.jpg?1547517576' },
     mana_cost: '{2}{G}',
     cmc: 3,
     type_line: 'Enchantment',
     oracle_text:
-     'Whenever a creature dies, that creature\'s controller may draw a card.',
+     "Whenever a creature dies, that creature's controller may draw a card.",
     colors: [ 'G' ],
     color_identity: [ 'G' ],
     legalities:
@@ -7968,9 +7894,8 @@ module.exports = [ { object: 'card',
        vintage: 'legal',
        penny: 'not_legal',
        commander: 'legal',
-       '1v1': 'legal',
        duel: 'legal',
-       brawl: 'not_legal' },
+       oldschool: 'not_legal' },
     games: [ 'mtgo', 'paper' ],
     reserved: false,
     foil: true,
@@ -8000,7 +7925,7 @@ module.exports = [ { object: 'card',
     frame_effect: '',
     full_art: false,
     story_spotlight: false,
-    edhrec_rank: 1423,
+    edhrec_rank: 1418,
     related_uris:
      { gatherer:
         'http://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=456761',
@@ -8024,20 +7949,20 @@ module.exports = [ { object: 'card',
     scryfall_uri:
      'https://scryfall.com/card/uma/164/fauna-shaman?utm_source=api',
     layout: 'normal',
-    highres_image: false,
+    highres_image: true,
     image_uris:
      { small:
-        'https://img.scryfall.com/cards/small/front/b/d/bddcec63-a60a-4d73-af6d-9ac978703811.jpg?1542805128',
+        'https://img.scryfall.com/cards/small/front/b/d/bddcec63-a60a-4d73-af6d-9ac978703811.jpg?1547517568',
        normal:
-        'https://img.scryfall.com/cards/normal/front/b/d/bddcec63-a60a-4d73-af6d-9ac978703811.jpg?1542805128',
+        'https://img.scryfall.com/cards/normal/front/b/d/bddcec63-a60a-4d73-af6d-9ac978703811.jpg?1547517568',
        large:
-        'https://img.scryfall.com/cards/large/front/b/d/bddcec63-a60a-4d73-af6d-9ac978703811.jpg?1542805128',
+        'https://img.scryfall.com/cards/large/front/b/d/bddcec63-a60a-4d73-af6d-9ac978703811.jpg?1547517568',
        png:
-        'https://img.scryfall.com/cards/png/front/b/d/bddcec63-a60a-4d73-af6d-9ac978703811.png?1542805128',
+        'https://img.scryfall.com/cards/png/front/b/d/bddcec63-a60a-4d73-af6d-9ac978703811.png?1547517568',
        art_crop:
-        'https://img.scryfall.com/cards/art_crop/front/b/d/bddcec63-a60a-4d73-af6d-9ac978703811.jpg?1542805128',
+        'https://img.scryfall.com/cards/art_crop/front/b/d/bddcec63-a60a-4d73-af6d-9ac978703811.jpg?1547517568',
        border_crop:
-        'https://img.scryfall.com/cards/border_crop/front/b/d/bddcec63-a60a-4d73-af6d-9ac978703811.jpg?1542805128' },
+        'https://img.scryfall.com/cards/border_crop/front/b/d/bddcec63-a60a-4d73-af6d-9ac978703811.jpg?1547517568' },
     mana_cost: '{1}{G}',
     cmc: 2,
     type_line: 'Creature — Elf Shaman',
@@ -8057,9 +7982,8 @@ module.exports = [ { object: 'card',
        vintage: 'legal',
        penny: 'not_legal',
        commander: 'legal',
-       '1v1': 'legal',
        duel: 'legal',
-       brawl: 'not_legal' },
+       oldschool: 'not_legal' },
     games: [ 'mtgo', 'paper' ],
     reserved: false,
     foil: true,
@@ -8089,7 +8013,7 @@ module.exports = [ { object: 'card',
     frame_effect: '',
     full_art: false,
     story_spotlight: false,
-    edhrec_rank: 590,
+    edhrec_rank: 571,
     related_uris:
      { gatherer:
         'http://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=456760',
@@ -8114,20 +8038,20 @@ module.exports = [ { object: 'card',
     scryfall_uri:
      'https://scryfall.com/card/uma/163/eternal-witness?utm_source=api',
     layout: 'normal',
-    highres_image: false,
+    highres_image: true,
     image_uris:
      { small:
-        'https://img.scryfall.com/cards/small/front/d/4/d4448f49-ebe8-43f1-958f-308c4c20a01f.jpg?1545068793',
+        'https://img.scryfall.com/cards/small/front/d/4/d4448f49-ebe8-43f1-958f-308c4c20a01f.jpg?1547517559',
        normal:
-        'https://img.scryfall.com/cards/normal/front/d/4/d4448f49-ebe8-43f1-958f-308c4c20a01f.jpg?1545068793',
+        'https://img.scryfall.com/cards/normal/front/d/4/d4448f49-ebe8-43f1-958f-308c4c20a01f.jpg?1547517559',
        large:
-        'https://img.scryfall.com/cards/large/front/d/4/d4448f49-ebe8-43f1-958f-308c4c20a01f.jpg?1545068793',
+        'https://img.scryfall.com/cards/large/front/d/4/d4448f49-ebe8-43f1-958f-308c4c20a01f.jpg?1547517559',
        png:
-        'https://img.scryfall.com/cards/png/front/d/4/d4448f49-ebe8-43f1-958f-308c4c20a01f.png?1545068793',
+        'https://img.scryfall.com/cards/png/front/d/4/d4448f49-ebe8-43f1-958f-308c4c20a01f.png?1547517559',
        art_crop:
-        'https://img.scryfall.com/cards/art_crop/front/d/4/d4448f49-ebe8-43f1-958f-308c4c20a01f.jpg?1545068793',
+        'https://img.scryfall.com/cards/art_crop/front/d/4/d4448f49-ebe8-43f1-958f-308c4c20a01f.jpg?1547517559',
        border_crop:
-        'https://img.scryfall.com/cards/border_crop/front/d/4/d4448f49-ebe8-43f1-958f-308c4c20a01f.jpg?1545068793' },
+        'https://img.scryfall.com/cards/border_crop/front/d/4/d4448f49-ebe8-43f1-958f-308c4c20a01f.jpg?1547517559' },
     mana_cost: '{1}{G}{G}',
     cmc: 3,
     type_line: 'Creature — Human Shaman',
@@ -8147,9 +8071,8 @@ module.exports = [ { object: 'card',
        vintage: 'legal',
        penny: 'not_legal',
        commander: 'legal',
-       '1v1': 'legal',
        duel: 'legal',
-       brawl: 'not_legal' },
+       oldschool: 'not_legal' },
     games: [ 'mtgo', 'paper' ],
     reserved: false,
     foil: true,
@@ -8172,7 +8095,7 @@ module.exports = [ { object: 'card',
     digital: false,
     rarity: 'uncommon',
     flavor_text:
-     'She remembers every word spoken, from the hero\'s oath to the baby\'s cry.',
+     "She remembers every word spoken, from the hero's oath to the baby's cry.",
     illustration_id: 'a2581942-d335-4d28-b1d5-345ea7bc056d',
     artist: 'Chris Rahn',
     border_color: 'black',
@@ -8180,7 +8103,7 @@ module.exports = [ { object: 'card',
     frame_effect: '',
     full_art: false,
     story_spotlight: false,
-    edhrec_rank: 25,
+    edhrec_rank: 23,
     related_uris:
      { gatherer:
         'http://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=456759',
@@ -8204,20 +8127,20 @@ module.exports = [ { object: 'card',
     scryfall_uri:
      'https://scryfall.com/card/uma/162/devoted-druid?utm_source=api',
     layout: 'normal',
-    highres_image: false,
+    highres_image: true,
     image_uris:
      { small:
-        'https://img.scryfall.com/cards/small/front/5/c/5c8a8dbb-cba7-4e1d-8888-73ab6f4aff07.jpg?1542729510',
+        'https://img.scryfall.com/cards/small/front/5/c/5c8a8dbb-cba7-4e1d-8888-73ab6f4aff07.jpg?1547517549',
        normal:
-        'https://img.scryfall.com/cards/normal/front/5/c/5c8a8dbb-cba7-4e1d-8888-73ab6f4aff07.jpg?1542729510',
+        'https://img.scryfall.com/cards/normal/front/5/c/5c8a8dbb-cba7-4e1d-8888-73ab6f4aff07.jpg?1547517549',
        large:
-        'https://img.scryfall.com/cards/large/front/5/c/5c8a8dbb-cba7-4e1d-8888-73ab6f4aff07.jpg?1542729510',
+        'https://img.scryfall.com/cards/large/front/5/c/5c8a8dbb-cba7-4e1d-8888-73ab6f4aff07.jpg?1547517549',
        png:
-        'https://img.scryfall.com/cards/png/front/5/c/5c8a8dbb-cba7-4e1d-8888-73ab6f4aff07.png?1542729510',
+        'https://img.scryfall.com/cards/png/front/5/c/5c8a8dbb-cba7-4e1d-8888-73ab6f4aff07.png?1547517549',
        art_crop:
-        'https://img.scryfall.com/cards/art_crop/front/5/c/5c8a8dbb-cba7-4e1d-8888-73ab6f4aff07.jpg?1542729510',
+        'https://img.scryfall.com/cards/art_crop/front/5/c/5c8a8dbb-cba7-4e1d-8888-73ab6f4aff07.jpg?1547517549',
        border_crop:
-        'https://img.scryfall.com/cards/border_crop/front/5/c/5c8a8dbb-cba7-4e1d-8888-73ab6f4aff07.jpg?1542729510' },
+        'https://img.scryfall.com/cards/border_crop/front/5/c/5c8a8dbb-cba7-4e1d-8888-73ab6f4aff07.jpg?1547517549' },
     mana_cost: '{1}{G}',
     cmc: 2,
     type_line: 'Creature — Elf Druid',
@@ -8237,9 +8160,8 @@ module.exports = [ { object: 'card',
        vintage: 'legal',
        penny: 'not_legal',
        commander: 'legal',
-       '1v1': 'legal',
        duel: 'legal',
-       brawl: 'not_legal' },
+       oldschool: 'not_legal' },
     games: [ 'mtgo', 'paper' ],
     reserved: false,
     foil: true,
@@ -8262,7 +8184,7 @@ module.exports = [ { object: 'card',
     digital: false,
     rarity: 'uncommon',
     flavor_text:
-     '"Mana lurks in all things, even in the depths of one\'s own heart."',
+     `"Mana lurks in all things, even in the depths of one's own heart."`,
     illustration_id: '546554d1-777e-4be9-8740-23561e673c97',
     artist: 'Kimonas Theodossiou',
     border_color: 'black',
@@ -8270,7 +8192,7 @@ module.exports = [ { object: 'card',
     frame_effect: '',
     full_art: false,
     story_spotlight: false,
-    edhrec_rank: 1738,
+    edhrec_rank: 1702,
     related_uris:
      { gatherer:
         'http://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=456758',
@@ -8294,20 +8216,20 @@ module.exports = [ { object: 'card',
     scryfall_uri:
      'https://scryfall.com/card/uma/161/crushing-canopy?utm_source=api',
     layout: 'normal',
-    highres_image: false,
+    highres_image: true,
     image_uris:
      { small:
-        'https://img.scryfall.com/cards/small/front/8/4/84c2b20b-6255-450d-a848-f7aaf0d80721.jpg?1542805112',
+        'https://img.scryfall.com/cards/small/front/8/4/84c2b20b-6255-450d-a848-f7aaf0d80721.jpg?1547517537',
        normal:
-        'https://img.scryfall.com/cards/normal/front/8/4/84c2b20b-6255-450d-a848-f7aaf0d80721.jpg?1542805112',
+        'https://img.scryfall.com/cards/normal/front/8/4/84c2b20b-6255-450d-a848-f7aaf0d80721.jpg?1547517537',
        large:
-        'https://img.scryfall.com/cards/large/front/8/4/84c2b20b-6255-450d-a848-f7aaf0d80721.jpg?1542805112',
+        'https://img.scryfall.com/cards/large/front/8/4/84c2b20b-6255-450d-a848-f7aaf0d80721.jpg?1547517537',
        png:
-        'https://img.scryfall.com/cards/png/front/8/4/84c2b20b-6255-450d-a848-f7aaf0d80721.png?1542805112',
+        'https://img.scryfall.com/cards/png/front/8/4/84c2b20b-6255-450d-a848-f7aaf0d80721.png?1547517537',
        art_crop:
-        'https://img.scryfall.com/cards/art_crop/front/8/4/84c2b20b-6255-450d-a848-f7aaf0d80721.jpg?1542805112',
+        'https://img.scryfall.com/cards/art_crop/front/8/4/84c2b20b-6255-450d-a848-f7aaf0d80721.jpg?1547517537',
        border_crop:
-        'https://img.scryfall.com/cards/border_crop/front/8/4/84c2b20b-6255-450d-a848-f7aaf0d80721.jpg?1542805112' },
+        'https://img.scryfall.com/cards/border_crop/front/8/4/84c2b20b-6255-450d-a848-f7aaf0d80721.jpg?1547517537' },
     mana_cost: '{2}{G}',
     cmc: 3,
     type_line: 'Instant',
@@ -8325,9 +8247,8 @@ module.exports = [ { object: 'card',
        vintage: 'legal',
        penny: 'legal',
        commander: 'legal',
-       '1v1': 'legal',
        duel: 'legal',
-       brawl: 'legal' },
+       oldschool: 'not_legal' },
     games: [ 'mtgo', 'paper' ],
     reserved: false,
     foil: true,
@@ -8358,7 +8279,7 @@ module.exports = [ { object: 'card',
     frame_effect: '',
     full_art: false,
     story_spotlight: false,
-    edhrec_rank: 6417,
+    edhrec_rank: 6268,
     related_uris:
      { gatherer:
         'http://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=456757',
@@ -8381,20 +8302,20 @@ module.exports = [ { object: 'card',
      'https://api.scryfall.com/cards/ab7c517b-4b29-45c5-b985-32dd7af8cfcd',
     scryfall_uri: 'https://scryfall.com/card/uma/160/brawn?utm_source=api',
     layout: 'normal',
-    highres_image: false,
+    highres_image: true,
     image_uris:
      { small:
-        'https://img.scryfall.com/cards/small/front/a/b/ab7c517b-4b29-45c5-b985-32dd7af8cfcd.jpg?1542805092',
+        'https://img.scryfall.com/cards/small/front/a/b/ab7c517b-4b29-45c5-b985-32dd7af8cfcd.jpg?1547517527',
        normal:
-        'https://img.scryfall.com/cards/normal/front/a/b/ab7c517b-4b29-45c5-b985-32dd7af8cfcd.jpg?1542805092',
+        'https://img.scryfall.com/cards/normal/front/a/b/ab7c517b-4b29-45c5-b985-32dd7af8cfcd.jpg?1547517527',
        large:
-        'https://img.scryfall.com/cards/large/front/a/b/ab7c517b-4b29-45c5-b985-32dd7af8cfcd.jpg?1542805092',
+        'https://img.scryfall.com/cards/large/front/a/b/ab7c517b-4b29-45c5-b985-32dd7af8cfcd.jpg?1547517527',
        png:
-        'https://img.scryfall.com/cards/png/front/a/b/ab7c517b-4b29-45c5-b985-32dd7af8cfcd.png?1542805092',
+        'https://img.scryfall.com/cards/png/front/a/b/ab7c517b-4b29-45c5-b985-32dd7af8cfcd.png?1547517527',
        art_crop:
-        'https://img.scryfall.com/cards/art_crop/front/a/b/ab7c517b-4b29-45c5-b985-32dd7af8cfcd.jpg?1542805092',
+        'https://img.scryfall.com/cards/art_crop/front/a/b/ab7c517b-4b29-45c5-b985-32dd7af8cfcd.jpg?1547517527',
        border_crop:
-        'https://img.scryfall.com/cards/border_crop/front/a/b/ab7c517b-4b29-45c5-b985-32dd7af8cfcd.jpg?1542805092' },
+        'https://img.scryfall.com/cards/border_crop/front/a/b/ab7c517b-4b29-45c5-b985-32dd7af8cfcd.jpg?1547517527' },
     mana_cost: '{3}{G}',
     cmc: 4,
     type_line: 'Creature — Incarnation',
@@ -8412,11 +8333,10 @@ module.exports = [ { object: 'card',
        legacy: 'legal',
        pauper: 'not_legal',
        vintage: 'legal',
-       penny: 'legal',
+       penny: 'not_legal',
        commander: 'legal',
-       '1v1': 'legal',
        duel: 'legal',
-       brawl: 'not_legal' },
+       oldschool: 'not_legal' },
     games: [ 'mtgo', 'paper' ],
     reserved: false,
     foil: true,
@@ -8439,7 +8359,7 @@ module.exports = [ { object: 'card',
     digital: false,
     rarity: 'uncommon',
     flavor_text:
-     '"\'I have arrived,\' bellowed Brawn, and the plane shuddered."\n—*Scroll of Beginnings*',
+     `"'I have arrived,' bellowed Brawn, and the plane shuddered."\n—*Scroll of Beginnings*`,
     illustration_id: '80cc1f94-2689-4dea-a4f3-2f0cb221971c',
     artist: 'Matt Cavotta',
     border_color: 'black',
@@ -8447,7 +8367,7 @@ module.exports = [ { object: 'card',
     frame_effect: '',
     full_art: false,
     story_spotlight: false,
-    edhrec_rank: 1711,
+    edhrec_rank: 1714,
     related_uris:
      { gatherer:
         'http://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=456756',
@@ -8471,25 +8391,25 @@ module.exports = [ { object: 'card',
     scryfall_uri:
      'https://scryfall.com/card/uma/159/boneyard-wurm?utm_source=api',
     layout: 'normal',
-    highres_image: false,
+    highres_image: true,
     image_uris:
      { small:
-        'https://img.scryfall.com/cards/small/front/6/0/605038e9-2840-4c2d-bd7a-1004ae210e2a.jpg?1542805075',
+        'https://img.scryfall.com/cards/small/front/6/0/605038e9-2840-4c2d-bd7a-1004ae210e2a.jpg?1547517517',
        normal:
-        'https://img.scryfall.com/cards/normal/front/6/0/605038e9-2840-4c2d-bd7a-1004ae210e2a.jpg?1542805075',
+        'https://img.scryfall.com/cards/normal/front/6/0/605038e9-2840-4c2d-bd7a-1004ae210e2a.jpg?1547517517',
        large:
-        'https://img.scryfall.com/cards/large/front/6/0/605038e9-2840-4c2d-bd7a-1004ae210e2a.jpg?1542805075',
+        'https://img.scryfall.com/cards/large/front/6/0/605038e9-2840-4c2d-bd7a-1004ae210e2a.jpg?1547517517',
        png:
-        'https://img.scryfall.com/cards/png/front/6/0/605038e9-2840-4c2d-bd7a-1004ae210e2a.png?1542805075',
+        'https://img.scryfall.com/cards/png/front/6/0/605038e9-2840-4c2d-bd7a-1004ae210e2a.png?1547517517',
        art_crop:
-        'https://img.scryfall.com/cards/art_crop/front/6/0/605038e9-2840-4c2d-bd7a-1004ae210e2a.jpg?1542805075',
+        'https://img.scryfall.com/cards/art_crop/front/6/0/605038e9-2840-4c2d-bd7a-1004ae210e2a.jpg?1547517517',
        border_crop:
-        'https://img.scryfall.com/cards/border_crop/front/6/0/605038e9-2840-4c2d-bd7a-1004ae210e2a.jpg?1542805075' },
+        'https://img.scryfall.com/cards/border_crop/front/6/0/605038e9-2840-4c2d-bd7a-1004ae210e2a.jpg?1547517517' },
     mana_cost: '{1}{G}',
     cmc: 2,
     type_line: 'Creature — Wurm',
     oracle_text:
-     'Boneyard Wurm\'s power and toughness are each equal to the number of creature cards in your graveyard.',
+     "Boneyard Wurm's power and toughness are each equal to the number of creature cards in your graveyard.",
     power: '*',
     toughness: '*',
     colors: [ 'G' ],
@@ -8504,9 +8424,8 @@ module.exports = [ { object: 'card',
        vintage: 'legal',
        penny: 'legal',
        commander: 'legal',
-       '1v1': 'legal',
        duel: 'legal',
-       brawl: 'not_legal' },
+       oldschool: 'not_legal' },
     games: [ 'mtgo', 'paper' ],
     reserved: false,
     foil: true,
@@ -8537,7 +8456,7 @@ module.exports = [ { object: 'card',
     frame_effect: '',
     full_art: false,
     story_spotlight: false,
-    edhrec_rank: 6364,
+    edhrec_rank: 6441,
     related_uris:
      { gatherer:
         'http://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=456755',
@@ -8561,20 +8480,20 @@ module.exports = [ { object: 'card',
     scryfall_uri:
      'https://scryfall.com/card/uma/158/boar-umbra?utm_source=api',
     layout: 'normal',
-    highres_image: false,
+    highres_image: true,
     image_uris:
      { small:
-        'https://img.scryfall.com/cards/small/front/4/a/4a8ce72b-605c-4a05-93d2-64fa65308d96.jpg?1542805051',
+        'https://img.scryfall.com/cards/small/front/4/a/4a8ce72b-605c-4a05-93d2-64fa65308d96.jpg?1547517504',
        normal:
-        'https://img.scryfall.com/cards/normal/front/4/a/4a8ce72b-605c-4a05-93d2-64fa65308d96.jpg?1542805051',
+        'https://img.scryfall.com/cards/normal/front/4/a/4a8ce72b-605c-4a05-93d2-64fa65308d96.jpg?1547517504',
        large:
-        'https://img.scryfall.com/cards/large/front/4/a/4a8ce72b-605c-4a05-93d2-64fa65308d96.jpg?1542805051',
+        'https://img.scryfall.com/cards/large/front/4/a/4a8ce72b-605c-4a05-93d2-64fa65308d96.jpg?1547517504',
        png:
-        'https://img.scryfall.com/cards/png/front/4/a/4a8ce72b-605c-4a05-93d2-64fa65308d96.png?1542805051',
+        'https://img.scryfall.com/cards/png/front/4/a/4a8ce72b-605c-4a05-93d2-64fa65308d96.png?1547517504',
        art_crop:
-        'https://img.scryfall.com/cards/art_crop/front/4/a/4a8ce72b-605c-4a05-93d2-64fa65308d96.jpg?1542805051',
+        'https://img.scryfall.com/cards/art_crop/front/4/a/4a8ce72b-605c-4a05-93d2-64fa65308d96.jpg?1547517504',
        border_crop:
-        'https://img.scryfall.com/cards/border_crop/front/4/a/4a8ce72b-605c-4a05-93d2-64fa65308d96.jpg?1542805051' },
+        'https://img.scryfall.com/cards/border_crop/front/4/a/4a8ce72b-605c-4a05-93d2-64fa65308d96.jpg?1547517504' },
     mana_cost: '{2}{G}',
     cmc: 3,
     type_line: 'Enchantment — Aura',
@@ -8592,9 +8511,8 @@ module.exports = [ { object: 'card',
        vintage: 'legal',
        penny: 'legal',
        commander: 'legal',
-       '1v1': 'legal',
        duel: 'legal',
-       brawl: 'not_legal' },
+       oldschool: 'not_legal' },
     games: [ 'mtgo', 'paper' ],
     reserved: false,
     foil: true,
@@ -8624,7 +8542,7 @@ module.exports = [ { object: 'card',
     frame_effect: '',
     full_art: false,
     story_spotlight: false,
-    edhrec_rank: 5134,
+    edhrec_rank: 5209,
     related_uris:
      { gatherer:
         'http://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=456754',
@@ -8648,20 +8566,20 @@ module.exports = [ { object: 'card',
     scryfall_uri:
      'https://scryfall.com/card/uma/157/become-immense?utm_source=api',
     layout: 'normal',
-    highres_image: false,
+    highres_image: true,
     image_uris:
      { small:
-        'https://img.scryfall.com/cards/small/front/5/7/573e1673-3ab5-4b28-9cf1-b0d43cad5ef3.jpg?1542806176',
+        'https://img.scryfall.com/cards/small/front/5/7/573e1673-3ab5-4b28-9cf1-b0d43cad5ef3.jpg?1547517493',
        normal:
-        'https://img.scryfall.com/cards/normal/front/5/7/573e1673-3ab5-4b28-9cf1-b0d43cad5ef3.jpg?1542806176',
+        'https://img.scryfall.com/cards/normal/front/5/7/573e1673-3ab5-4b28-9cf1-b0d43cad5ef3.jpg?1547517493',
        large:
-        'https://img.scryfall.com/cards/large/front/5/7/573e1673-3ab5-4b28-9cf1-b0d43cad5ef3.jpg?1542806176',
+        'https://img.scryfall.com/cards/large/front/5/7/573e1673-3ab5-4b28-9cf1-b0d43cad5ef3.jpg?1547517493',
        png:
-        'https://img.scryfall.com/cards/png/front/5/7/573e1673-3ab5-4b28-9cf1-b0d43cad5ef3.png?1542806176',
+        'https://img.scryfall.com/cards/png/front/5/7/573e1673-3ab5-4b28-9cf1-b0d43cad5ef3.png?1547517493',
        art_crop:
-        'https://img.scryfall.com/cards/art_crop/front/5/7/573e1673-3ab5-4b28-9cf1-b0d43cad5ef3.jpg?1542806176',
+        'https://img.scryfall.com/cards/art_crop/front/5/7/573e1673-3ab5-4b28-9cf1-b0d43cad5ef3.jpg?1547517493',
        border_crop:
-        'https://img.scryfall.com/cards/border_crop/front/5/7/573e1673-3ab5-4b28-9cf1-b0d43cad5ef3.jpg?1542806176' },
+        'https://img.scryfall.com/cards/border_crop/front/5/7/573e1673-3ab5-4b28-9cf1-b0d43cad5ef3.jpg?1547517493' },
     mana_cost: '{5}{G}',
     cmc: 6,
     type_line: 'Instant',
@@ -8679,9 +8597,8 @@ module.exports = [ { object: 'card',
        vintage: 'legal',
        penny: 'not_legal',
        commander: 'legal',
-       '1v1': 'legal',
        duel: 'legal',
-       brawl: 'not_legal' },
+       oldschool: 'not_legal' },
     games: [ 'mtgo', 'paper' ],
     reserved: false,
     foil: true,
@@ -8710,7 +8627,7 @@ module.exports = [ { object: 'card',
     frame_effect: '',
     full_art: false,
     story_spotlight: false,
-    edhrec_rank: 5007,
+    edhrec_rank: 5123,
     related_uris:
      { gatherer:
         'http://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=456753',
@@ -8734,20 +8651,20 @@ module.exports = [ { object: 'card',
     scryfall_uri:
      'https://scryfall.com/card/uma/156/basking-rootwalla?utm_source=api',
     layout: 'normal',
-    highres_image: false,
+    highres_image: true,
     image_uris:
      { small:
-        'https://img.scryfall.com/cards/small/front/2/6/26bfde99-7761-48e1-851a-522f888d0f6c.jpg?1542805022',
+        'https://img.scryfall.com/cards/small/front/2/6/26bfde99-7761-48e1-851a-522f888d0f6c.jpg?1547517482',
        normal:
-        'https://img.scryfall.com/cards/normal/front/2/6/26bfde99-7761-48e1-851a-522f888d0f6c.jpg?1542805022',
+        'https://img.scryfall.com/cards/normal/front/2/6/26bfde99-7761-48e1-851a-522f888d0f6c.jpg?1547517482',
        large:
-        'https://img.scryfall.com/cards/large/front/2/6/26bfde99-7761-48e1-851a-522f888d0f6c.jpg?1542805022',
+        'https://img.scryfall.com/cards/large/front/2/6/26bfde99-7761-48e1-851a-522f888d0f6c.jpg?1547517482',
        png:
-        'https://img.scryfall.com/cards/png/front/2/6/26bfde99-7761-48e1-851a-522f888d0f6c.png?1542805022',
+        'https://img.scryfall.com/cards/png/front/2/6/26bfde99-7761-48e1-851a-522f888d0f6c.png?1547517482',
        art_crop:
-        'https://img.scryfall.com/cards/art_crop/front/2/6/26bfde99-7761-48e1-851a-522f888d0f6c.jpg?1542805022',
+        'https://img.scryfall.com/cards/art_crop/front/2/6/26bfde99-7761-48e1-851a-522f888d0f6c.jpg?1547517482',
        border_crop:
-        'https://img.scryfall.com/cards/border_crop/front/2/6/26bfde99-7761-48e1-851a-522f888d0f6c.jpg?1542805022' },
+        'https://img.scryfall.com/cards/border_crop/front/2/6/26bfde99-7761-48e1-851a-522f888d0f6c.jpg?1547517482' },
     mana_cost: '{G}',
     cmc: 1,
     type_line: 'Creature — Lizard',
@@ -8767,9 +8684,8 @@ module.exports = [ { object: 'card',
        vintage: 'legal',
        penny: 'legal',
        commander: 'legal',
-       '1v1': 'legal',
        duel: 'legal',
-       brawl: 'not_legal' },
+       oldschool: 'not_legal' },
     games: [ 'mtgo', 'paper' ],
     reserved: false,
     foil: true,
@@ -8798,7 +8714,7 @@ module.exports = [ { object: 'card',
     frame_effect: '',
     full_art: false,
     story_spotlight: false,
-    edhrec_rank: 12659,
+    edhrec_rank: 12868,
     related_uris:
      { gatherer:
         'http://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=456752',
@@ -8822,20 +8738,20 @@ module.exports = [ { object: 'card',
     scryfall_uri:
      'https://scryfall.com/card/uma/155/young-pyromancer?utm_source=api',
     layout: 'normal',
-    highres_image: false,
+    highres_image: true,
     image_uris:
      { small:
-        'https://img.scryfall.com/cards/small/front/9/c/9c1f44d0-7fb2-40f5-93a9-1a465372dd82.jpg?1542805054',
+        'https://img.scryfall.com/cards/small/front/9/c/9c1f44d0-7fb2-40f5-93a9-1a465372dd82.jpg?1547517473',
        normal:
-        'https://img.scryfall.com/cards/normal/front/9/c/9c1f44d0-7fb2-40f5-93a9-1a465372dd82.jpg?1542805054',
+        'https://img.scryfall.com/cards/normal/front/9/c/9c1f44d0-7fb2-40f5-93a9-1a465372dd82.jpg?1547517473',
        large:
-        'https://img.scryfall.com/cards/large/front/9/c/9c1f44d0-7fb2-40f5-93a9-1a465372dd82.jpg?1542805054',
+        'https://img.scryfall.com/cards/large/front/9/c/9c1f44d0-7fb2-40f5-93a9-1a465372dd82.jpg?1547517473',
        png:
-        'https://img.scryfall.com/cards/png/front/9/c/9c1f44d0-7fb2-40f5-93a9-1a465372dd82.png?1542805054',
+        'https://img.scryfall.com/cards/png/front/9/c/9c1f44d0-7fb2-40f5-93a9-1a465372dd82.png?1547517473',
        art_crop:
-        'https://img.scryfall.com/cards/art_crop/front/9/c/9c1f44d0-7fb2-40f5-93a9-1a465372dd82.jpg?1542805054',
+        'https://img.scryfall.com/cards/art_crop/front/9/c/9c1f44d0-7fb2-40f5-93a9-1a465372dd82.jpg?1547517473',
        border_crop:
-        'https://img.scryfall.com/cards/border_crop/front/9/c/9c1f44d0-7fb2-40f5-93a9-1a465372dd82.jpg?1542805054' },
+        'https://img.scryfall.com/cards/border_crop/front/9/c/9c1f44d0-7fb2-40f5-93a9-1a465372dd82.jpg?1547517473' },
     mana_cost: '{1}{R}',
     cmc: 2,
     type_line: 'Creature — Human Shaman',
@@ -8854,12 +8770,12 @@ module.exports = [ { object: 'card',
          uri:
           'https://api.scryfall.com/cards/9c1f44d0-7fb2-40f5-93a9-1a465372dd82' },
        { object: 'related_card',
-         id: '7ae1c136-7319-45d1-882a-3d838b344773',
+         id: '0f7cb791-ac35-4c69-aa85-23e14b821c6a',
          component: 'token',
          name: 'Elemental',
          type_line: 'Token Creature — Elemental',
          uri:
-          'https://api.scryfall.com/cards/7ae1c136-7319-45d1-882a-3d838b344773' } ],
+          'https://api.scryfall.com/cards/0f7cb791-ac35-4c69-aa85-23e14b821c6a' } ],
     legalities:
      { standard: 'not_legal',
        future: 'not_legal',
@@ -8870,9 +8786,8 @@ module.exports = [ { object: 'card',
        vintage: 'legal',
        penny: 'not_legal',
        commander: 'legal',
-       '1v1': 'legal',
        duel: 'legal',
-       brawl: 'not_legal' },
+       oldschool: 'not_legal' },
     games: [ 'mtgo', 'paper' ],
     reserved: false,
     foil: true,
@@ -8902,7 +8817,7 @@ module.exports = [ { object: 'card',
     frame_effect: '',
     full_art: false,
     story_spotlight: false,
-    edhrec_rank: 1153,
+    edhrec_rank: 1140,
     related_uris:
      { gatherer:
         'http://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=456751',
@@ -8926,20 +8841,20 @@ module.exports = [ { object: 'card',
     scryfall_uri:
      'https://scryfall.com/card/uma/154/vexing-devil?utm_source=api',
     layout: 'normal',
-    highres_image: false,
+    highres_image: true,
     image_uris:
      { small:
-        'https://img.scryfall.com/cards/small/front/a/5/a5ebb551-6b0d-45fa-88c8-3746214094f6.jpg?1542626166',
+        'https://img.scryfall.com/cards/small/front/a/5/a5ebb551-6b0d-45fa-88c8-3746214094f6.jpg?1547517462',
        normal:
-        'https://img.scryfall.com/cards/normal/front/a/5/a5ebb551-6b0d-45fa-88c8-3746214094f6.jpg?1542626166',
+        'https://img.scryfall.com/cards/normal/front/a/5/a5ebb551-6b0d-45fa-88c8-3746214094f6.jpg?1547517462',
        large:
-        'https://img.scryfall.com/cards/large/front/a/5/a5ebb551-6b0d-45fa-88c8-3746214094f6.jpg?1542626166',
+        'https://img.scryfall.com/cards/large/front/a/5/a5ebb551-6b0d-45fa-88c8-3746214094f6.jpg?1547517462',
        png:
-        'https://img.scryfall.com/cards/png/front/a/5/a5ebb551-6b0d-45fa-88c8-3746214094f6.png?1542626166',
+        'https://img.scryfall.com/cards/png/front/a/5/a5ebb551-6b0d-45fa-88c8-3746214094f6.png?1547517462',
        art_crop:
-        'https://img.scryfall.com/cards/art_crop/front/a/5/a5ebb551-6b0d-45fa-88c8-3746214094f6.jpg?1542626166',
+        'https://img.scryfall.com/cards/art_crop/front/a/5/a5ebb551-6b0d-45fa-88c8-3746214094f6.jpg?1547517462',
        border_crop:
-        'https://img.scryfall.com/cards/border_crop/front/a/5/a5ebb551-6b0d-45fa-88c8-3746214094f6.jpg?1542626166' },
+        'https://img.scryfall.com/cards/border_crop/front/a/5/a5ebb551-6b0d-45fa-88c8-3746214094f6.jpg?1547517462' },
     mana_cost: '{R}',
     cmc: 1,
     type_line: 'Creature — Devil',
@@ -8959,9 +8874,8 @@ module.exports = [ { object: 'card',
        vintage: 'legal',
        penny: 'not_legal',
        commander: 'legal',
-       '1v1': 'legal',
        duel: 'legal',
-       brawl: 'not_legal' },
+       oldschool: 'not_legal' },
     games: [ 'mtgo', 'paper' ],
     reserved: false,
     foil: true,
@@ -8983,7 +8897,7 @@ module.exports = [ { object: 'card',
     collector_number: '154',
     digital: false,
     rarity: 'rare',
-    flavor_text: 'It\'s not any fun until someone loses an eye.',
+    flavor_text: "It's not any fun until someone loses an eye.",
     illustration_id: '58c3ac80-3359-44f1-b7f3-542926fdce1f',
     artist: 'Lucas Graciano',
     border_color: 'black',
@@ -8991,7 +8905,7 @@ module.exports = [ { object: 'card',
     frame_effect: '',
     full_art: false,
     story_spotlight: false,
-    edhrec_rank: 7059,
+    edhrec_rank: 7087,
     related_uris:
      { gatherer:
         'http://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=456750',
@@ -9015,25 +8929,25 @@ module.exports = [ { object: 'card',
     scryfall_uri:
      'https://scryfall.com/card/uma/153/undying-rage?utm_source=api',
     layout: 'normal',
-    highres_image: false,
+    highres_image: true,
     image_uris:
      { small:
-        'https://img.scryfall.com/cards/small/front/0/6/06e987d8-b80e-49cd-9e9d-068027556b83.jpg?1542805003',
+        'https://img.scryfall.com/cards/small/front/0/6/06e987d8-b80e-49cd-9e9d-068027556b83.jpg?1547517452',
        normal:
-        'https://img.scryfall.com/cards/normal/front/0/6/06e987d8-b80e-49cd-9e9d-068027556b83.jpg?1542805003',
+        'https://img.scryfall.com/cards/normal/front/0/6/06e987d8-b80e-49cd-9e9d-068027556b83.jpg?1547517452',
        large:
-        'https://img.scryfall.com/cards/large/front/0/6/06e987d8-b80e-49cd-9e9d-068027556b83.jpg?1542805003',
+        'https://img.scryfall.com/cards/large/front/0/6/06e987d8-b80e-49cd-9e9d-068027556b83.jpg?1547517452',
        png:
-        'https://img.scryfall.com/cards/png/front/0/6/06e987d8-b80e-49cd-9e9d-068027556b83.png?1542805003',
+        'https://img.scryfall.com/cards/png/front/0/6/06e987d8-b80e-49cd-9e9d-068027556b83.png?1547517452',
        art_crop:
-        'https://img.scryfall.com/cards/art_crop/front/0/6/06e987d8-b80e-49cd-9e9d-068027556b83.jpg?1542805003',
+        'https://img.scryfall.com/cards/art_crop/front/0/6/06e987d8-b80e-49cd-9e9d-068027556b83.jpg?1547517452',
        border_crop:
-        'https://img.scryfall.com/cards/border_crop/front/0/6/06e987d8-b80e-49cd-9e9d-068027556b83.jpg?1542805003' },
+        'https://img.scryfall.com/cards/border_crop/front/0/6/06e987d8-b80e-49cd-9e9d-068027556b83.jpg?1547517452' },
     mana_cost: '{2}{R}',
     cmc: 3,
     type_line: 'Enchantment — Aura',
     oracle_text:
-     'Enchant creature\nEnchanted creature gets +2/+2 and can\'t block.\nWhen Undying Rage is put into a graveyard from the battlefield, return Undying Rage to its owner\'s hand.',
+     "Enchant creature\nEnchanted creature gets +2/+2 and can't block.\nWhen Undying Rage is put into a graveyard from the battlefield, return Undying Rage to its owner's hand.",
     colors: [ 'R' ],
     color_identity: [ 'R' ],
     legalities:
@@ -9046,9 +8960,8 @@ module.exports = [ { object: 'card',
        vintage: 'legal',
        penny: 'legal',
        commander: 'legal',
-       '1v1': 'legal',
        duel: 'legal',
-       brawl: 'not_legal' },
+       oldschool: 'not_legal' },
     games: [ 'mtgo', 'paper' ],
     reserved: false,
     foil: true,
@@ -9077,7 +8990,7 @@ module.exports = [ { object: 'card',
     frame_effect: '',
     full_art: false,
     story_spotlight: false,
-    edhrec_rank: 10925,
+    edhrec_rank: 11145,
     related_uris:
      { gatherer:
         'http://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=456749',
@@ -9105,22 +9018,22 @@ module.exports = [ { object: 'card',
     highres_image: true,
     image_uris:
      { small:
-        'https://img.scryfall.com/cards/small/front/0/8/088dab4a-0090-4509-a851-25d916b30236.jpg?1545071761',
+        'https://img.scryfall.com/cards/small/front/0/8/088dab4a-0090-4509-a851-25d916b30236.jpg?1547517440',
        normal:
-        'https://img.scryfall.com/cards/normal/front/0/8/088dab4a-0090-4509-a851-25d916b30236.jpg?1545071761',
+        'https://img.scryfall.com/cards/normal/front/0/8/088dab4a-0090-4509-a851-25d916b30236.jpg?1547517440',
        large:
-        'https://img.scryfall.com/cards/large/front/0/8/088dab4a-0090-4509-a851-25d916b30236.jpg?1545071761',
+        'https://img.scryfall.com/cards/large/front/0/8/088dab4a-0090-4509-a851-25d916b30236.jpg?1547517440',
        png:
-        'https://img.scryfall.com/cards/png/front/0/8/088dab4a-0090-4509-a851-25d916b30236.png?1545071761',
+        'https://img.scryfall.com/cards/png/front/0/8/088dab4a-0090-4509-a851-25d916b30236.png?1547517440',
        art_crop:
-        'https://img.scryfall.com/cards/art_crop/front/0/8/088dab4a-0090-4509-a851-25d916b30236.jpg?1545071761',
+        'https://img.scryfall.com/cards/art_crop/front/0/8/088dab4a-0090-4509-a851-25d916b30236.jpg?1547517440',
        border_crop:
-        'https://img.scryfall.com/cards/border_crop/front/0/8/088dab4a-0090-4509-a851-25d916b30236.jpg?1545071761' },
+        'https://img.scryfall.com/cards/border_crop/front/0/8/088dab4a-0090-4509-a851-25d916b30236.jpg?1547517440' },
     mana_cost: '{4}{R}',
     cmc: 5,
     type_line: 'Instant — Arcane',
     oracle_text:
-     'You may put a creature card from your hand onto the battlefield. That creature gains haste. Sacrifice that creature at the beginning of the next end step.\nSplice onto Arcane {2}{R}{R} (As you cast an Arcane spell, you may reveal this card from your hand and pay its splice cost. If you do, add this card\'s effects to that spell.)',
+     "You may put a creature card from your hand onto the battlefield. That creature gains haste. Sacrifice that creature at the beginning of the next end step.\nSplice onto Arcane {2}{R}{R} (As you cast an Arcane spell, you may reveal this card from your hand and pay its splice cost. If you do, add this card's effects to that spell.)",
     colors: [ 'R' ],
     color_identity: [ 'R' ],
     legalities:
@@ -9133,9 +9046,8 @@ module.exports = [ { object: 'card',
        vintage: 'legal',
        penny: 'not_legal',
        commander: 'legal',
-       '1v1': 'legal',
        duel: 'legal',
-       brawl: 'not_legal' },
+       oldschool: 'not_legal' },
     games: [ 'mtgo', 'paper' ],
     reserved: false,
     foil: true,
@@ -9164,7 +9076,7 @@ module.exports = [ { object: 'card',
     frame_effect: '',
     full_art: false,
     story_spotlight: false,
-    edhrec_rank: 11033,
+    edhrec_rank: 11149,
     related_uris:
      { gatherer:
         'http://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=456748',
@@ -9188,20 +9100,20 @@ module.exports = [ { object: 'card',
     scryfall_uri:
      'https://scryfall.com/card/uma/151/thermo-alchemist?utm_source=api',
     layout: 'normal',
-    highres_image: false,
+    highres_image: true,
     image_uris:
      { small:
-        'https://img.scryfall.com/cards/small/front/c/9/c9cac6a6-ded0-47cb-88d2-8838db9cc6b2.jpg?1542804947',
+        'https://img.scryfall.com/cards/small/front/c/9/c9cac6a6-ded0-47cb-88d2-8838db9cc6b2.jpg?1547517429',
        normal:
-        'https://img.scryfall.com/cards/normal/front/c/9/c9cac6a6-ded0-47cb-88d2-8838db9cc6b2.jpg?1542804947',
+        'https://img.scryfall.com/cards/normal/front/c/9/c9cac6a6-ded0-47cb-88d2-8838db9cc6b2.jpg?1547517429',
        large:
-        'https://img.scryfall.com/cards/large/front/c/9/c9cac6a6-ded0-47cb-88d2-8838db9cc6b2.jpg?1542804947',
+        'https://img.scryfall.com/cards/large/front/c/9/c9cac6a6-ded0-47cb-88d2-8838db9cc6b2.jpg?1547517429',
        png:
-        'https://img.scryfall.com/cards/png/front/c/9/c9cac6a6-ded0-47cb-88d2-8838db9cc6b2.png?1542804947',
+        'https://img.scryfall.com/cards/png/front/c/9/c9cac6a6-ded0-47cb-88d2-8838db9cc6b2.png?1547517429',
        art_crop:
-        'https://img.scryfall.com/cards/art_crop/front/c/9/c9cac6a6-ded0-47cb-88d2-8838db9cc6b2.jpg?1542804947',
+        'https://img.scryfall.com/cards/art_crop/front/c/9/c9cac6a6-ded0-47cb-88d2-8838db9cc6b2.jpg?1547517429',
        border_crop:
-        'https://img.scryfall.com/cards/border_crop/front/c/9/c9cac6a6-ded0-47cb-88d2-8838db9cc6b2.jpg?1542804947' },
+        'https://img.scryfall.com/cards/border_crop/front/c/9/c9cac6a6-ded0-47cb-88d2-8838db9cc6b2.jpg?1547517429' },
     mana_cost: '{1}{R}',
     cmc: 2,
     type_line: 'Creature — Human Shaman',
@@ -9221,9 +9133,8 @@ module.exports = [ { object: 'card',
        vintage: 'legal',
        penny: 'not_legal',
        commander: 'legal',
-       '1v1': 'legal',
        duel: 'legal',
-       brawl: 'not_legal' },
+       oldschool: 'not_legal' },
     games: [ 'mtgo', 'paper' ],
     reserved: false,
     foil: true,
@@ -9245,7 +9156,7 @@ module.exports = [ { object: 'card',
     collector_number: '151',
     digital: false,
     rarity: 'common',
-    flavor_text: '"Madness can\'t touch a mind ignited by genius."',
+    flavor_text: `"Madness can't touch a mind ignited by genius."`,
     illustration_id: '65ae0ce4-58c2-410a-9eac-79339d26d5f9',
     artist: 'Raymond Swanland',
     border_color: 'black',
@@ -9253,7 +9164,7 @@ module.exports = [ { object: 'card',
     frame_effect: '',
     full_art: false,
     story_spotlight: false,
-    edhrec_rank: 2397,
+    edhrec_rank: 2385,
     related_uris:
      { gatherer:
         'http://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=456747',
@@ -9277,20 +9188,20 @@ module.exports = [ { object: 'card',
     scryfall_uri:
      'https://scryfall.com/card/uma/150/squee-goblin-nabob?utm_source=api',
     layout: 'normal',
-    highres_image: false,
+    highres_image: true,
     image_uris:
      { small:
-        'https://img.scryfall.com/cards/small/front/f/7/f7fa9fdb-1458-4e34-8d2a-dfc083a7a223.jpg?1542625977',
+        'https://img.scryfall.com/cards/small/front/f/7/f7fa9fdb-1458-4e34-8d2a-dfc083a7a223.jpg?1547517421',
        normal:
-        'https://img.scryfall.com/cards/normal/front/f/7/f7fa9fdb-1458-4e34-8d2a-dfc083a7a223.jpg?1542625977',
+        'https://img.scryfall.com/cards/normal/front/f/7/f7fa9fdb-1458-4e34-8d2a-dfc083a7a223.jpg?1547517421',
        large:
-        'https://img.scryfall.com/cards/large/front/f/7/f7fa9fdb-1458-4e34-8d2a-dfc083a7a223.jpg?1542625977',
+        'https://img.scryfall.com/cards/large/front/f/7/f7fa9fdb-1458-4e34-8d2a-dfc083a7a223.jpg?1547517421',
        png:
-        'https://img.scryfall.com/cards/png/front/f/7/f7fa9fdb-1458-4e34-8d2a-dfc083a7a223.png?1542625977',
+        'https://img.scryfall.com/cards/png/front/f/7/f7fa9fdb-1458-4e34-8d2a-dfc083a7a223.png?1547517421',
        art_crop:
-        'https://img.scryfall.com/cards/art_crop/front/f/7/f7fa9fdb-1458-4e34-8d2a-dfc083a7a223.jpg?1542625977',
+        'https://img.scryfall.com/cards/art_crop/front/f/7/f7fa9fdb-1458-4e34-8d2a-dfc083a7a223.jpg?1547517421',
        border_crop:
-        'https://img.scryfall.com/cards/border_crop/front/f/7/f7fa9fdb-1458-4e34-8d2a-dfc083a7a223.jpg?1542625977' },
+        'https://img.scryfall.com/cards/border_crop/front/f/7/f7fa9fdb-1458-4e34-8d2a-dfc083a7a223.jpg?1547517421' },
     mana_cost: '{2}{R}',
     cmc: 3,
     type_line: 'Legendary Creature — Goblin',
@@ -9310,9 +9221,8 @@ module.exports = [ { object: 'card',
        vintage: 'legal',
        penny: 'not_legal',
        commander: 'legal',
-       '1v1': 'legal',
        duel: 'legal',
-       brawl: 'not_legal' },
+       oldschool: 'not_legal' },
     games: [ 'mtgo', 'paper' ],
     reserved: false,
     foil: true,
@@ -9335,7 +9245,7 @@ module.exports = [ { object: 'card',
     digital: false,
     rarity: 'rare',
     flavor_text:
-     '"If Yawgmoth meant Squee\'s immortality as a curse, no one ever told Squee."\n—Karn',
+     `"If Yawgmoth meant Squee's immortality as a curse, no one ever told Squee."\n—Karn`,
     illustration_id: '94d0e602-c599-4427-863d-800619ea51ed',
     artist: 'Greg Staples',
     border_color: 'black',
@@ -9343,7 +9253,7 @@ module.exports = [ { object: 'card',
     frame_effect: '',
     full_art: false,
     story_spotlight: false,
-    edhrec_rank: 4469,
+    edhrec_rank: 4525,
     related_uris:
      { gatherer:
         'http://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=456746',
@@ -9367,20 +9277,20 @@ module.exports = [ { object: 'card',
     scryfall_uri:
      'https://scryfall.com/card/uma/149/sparkspitter?utm_source=api',
     layout: 'normal',
-    highres_image: false,
+    highres_image: true,
     image_uris:
      { small:
-        'https://img.scryfall.com/cards/small/front/9/1/91e67cab-496b-4b07-a045-b332d378ae74.jpg?1542804875',
+        'https://img.scryfall.com/cards/small/front/9/1/91e67cab-496b-4b07-a045-b332d378ae74.jpg?1547517413',
        normal:
-        'https://img.scryfall.com/cards/normal/front/9/1/91e67cab-496b-4b07-a045-b332d378ae74.jpg?1542804875',
+        'https://img.scryfall.com/cards/normal/front/9/1/91e67cab-496b-4b07-a045-b332d378ae74.jpg?1547517413',
        large:
-        'https://img.scryfall.com/cards/large/front/9/1/91e67cab-496b-4b07-a045-b332d378ae74.jpg?1542804875',
+        'https://img.scryfall.com/cards/large/front/9/1/91e67cab-496b-4b07-a045-b332d378ae74.jpg?1547517413',
        png:
-        'https://img.scryfall.com/cards/png/front/9/1/91e67cab-496b-4b07-a045-b332d378ae74.png?1542804875',
+        'https://img.scryfall.com/cards/png/front/9/1/91e67cab-496b-4b07-a045-b332d378ae74.png?1547517413',
        art_crop:
-        'https://img.scryfall.com/cards/art_crop/front/9/1/91e67cab-496b-4b07-a045-b332d378ae74.jpg?1542804875',
+        'https://img.scryfall.com/cards/art_crop/front/9/1/91e67cab-496b-4b07-a045-b332d378ae74.jpg?1547517413',
        border_crop:
-        'https://img.scryfall.com/cards/border_crop/front/9/1/91e67cab-496b-4b07-a045-b332d378ae74.jpg?1542804875' },
+        'https://img.scryfall.com/cards/border_crop/front/9/1/91e67cab-496b-4b07-a045-b332d378ae74.jpg?1547517413' },
     mana_cost: '{2}{R}',
     cmc: 3,
     type_line: 'Creature — Elemental Spellshaper',
@@ -9400,9 +9310,8 @@ module.exports = [ { object: 'card',
        vintage: 'legal',
        penny: 'legal',
        commander: 'legal',
-       '1v1': 'legal',
        duel: 'legal',
-       brawl: 'not_legal' },
+       oldschool: 'not_legal' },
     games: [ 'mtgo', 'paper' ],
     reserved: false,
     foil: true,
@@ -9431,7 +9340,7 @@ module.exports = [ { object: 'card',
     frame_effect: '',
     full_art: false,
     story_spotlight: false,
-    edhrec_rank: 12290,
+    edhrec_rank: 12477,
     related_uris:
      { gatherer:
         'http://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=456745',
@@ -9447,7 +9356,7 @@ module.exports = [ { object: 'card',
     multiverse_ids: [ 456744 ],
     mtgo_id: 70369,
     tcgplayer_id: 180961,
-    name: 'Soul\'s Fire',
+    name: "Soul's Fire",
     lang: 'en',
     released_at: '2018-12-07',
     uri:
@@ -9455,20 +9364,20 @@ module.exports = [ { object: 'card',
     scryfall_uri:
      'https://scryfall.com/card/uma/148/souls-fire?utm_source=api',
     layout: 'normal',
-    highres_image: false,
+    highres_image: true,
     image_uris:
      { small:
-        'https://img.scryfall.com/cards/small/front/1/1/11217e72-9009-40c7-a9eb-98e10b41667b.jpg?1542804826',
+        'https://img.scryfall.com/cards/small/front/1/1/11217e72-9009-40c7-a9eb-98e10b41667b.jpg?1547517405',
        normal:
-        'https://img.scryfall.com/cards/normal/front/1/1/11217e72-9009-40c7-a9eb-98e10b41667b.jpg?1542804826',
+        'https://img.scryfall.com/cards/normal/front/1/1/11217e72-9009-40c7-a9eb-98e10b41667b.jpg?1547517405',
        large:
-        'https://img.scryfall.com/cards/large/front/1/1/11217e72-9009-40c7-a9eb-98e10b41667b.jpg?1542804826',
+        'https://img.scryfall.com/cards/large/front/1/1/11217e72-9009-40c7-a9eb-98e10b41667b.jpg?1547517405',
        png:
-        'https://img.scryfall.com/cards/png/front/1/1/11217e72-9009-40c7-a9eb-98e10b41667b.png?1542804826',
+        'https://img.scryfall.com/cards/png/front/1/1/11217e72-9009-40c7-a9eb-98e10b41667b.png?1547517405',
        art_crop:
-        'https://img.scryfall.com/cards/art_crop/front/1/1/11217e72-9009-40c7-a9eb-98e10b41667b.jpg?1542804826',
+        'https://img.scryfall.com/cards/art_crop/front/1/1/11217e72-9009-40c7-a9eb-98e10b41667b.jpg?1547517405',
        border_crop:
-        'https://img.scryfall.com/cards/border_crop/front/1/1/11217e72-9009-40c7-a9eb-98e10b41667b.jpg?1542804826' },
+        'https://img.scryfall.com/cards/border_crop/front/1/1/11217e72-9009-40c7-a9eb-98e10b41667b.jpg?1547517405' },
     mana_cost: '{2}{R}',
     cmc: 3,
     type_line: 'Instant',
@@ -9486,9 +9395,8 @@ module.exports = [ { object: 'card',
        vintage: 'legal',
        penny: 'legal',
        commander: 'legal',
-       '1v1': 'legal',
        duel: 'legal',
-       brawl: 'not_legal' },
+       oldschool: 'not_legal' },
     games: [ 'mtgo', 'paper' ],
     reserved: false,
     foil: true,
@@ -9518,7 +9426,7 @@ module.exports = [ { object: 'card',
     frame_effect: '',
     full_art: false,
     story_spotlight: false,
-    edhrec_rank: 4180,
+    edhrec_rank: 4247,
     related_uris:
      { gatherer:
         'http://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=456744',
@@ -9542,20 +9450,20 @@ module.exports = [ { object: 'card',
     scryfall_uri:
      'https://scryfall.com/card/uma/147/seize-the-day?utm_source=api',
     layout: 'normal',
-    highres_image: false,
+    highres_image: true,
     image_uris:
      { small:
-        'https://img.scryfall.com/cards/small/front/0/e/0ee67808-abe3-4755-83a0-03681ad5f82f.jpg?1542747811',
+        'https://img.scryfall.com/cards/small/front/0/e/0ee67808-abe3-4755-83a0-03681ad5f82f.jpg?1547517395',
        normal:
-        'https://img.scryfall.com/cards/normal/front/0/e/0ee67808-abe3-4755-83a0-03681ad5f82f.jpg?1542747811',
+        'https://img.scryfall.com/cards/normal/front/0/e/0ee67808-abe3-4755-83a0-03681ad5f82f.jpg?1547517395',
        large:
-        'https://img.scryfall.com/cards/large/front/0/e/0ee67808-abe3-4755-83a0-03681ad5f82f.jpg?1542747811',
+        'https://img.scryfall.com/cards/large/front/0/e/0ee67808-abe3-4755-83a0-03681ad5f82f.jpg?1547517395',
        png:
-        'https://img.scryfall.com/cards/png/front/0/e/0ee67808-abe3-4755-83a0-03681ad5f82f.png?1542747811',
+        'https://img.scryfall.com/cards/png/front/0/e/0ee67808-abe3-4755-83a0-03681ad5f82f.png?1547517395',
        art_crop:
-        'https://img.scryfall.com/cards/art_crop/front/0/e/0ee67808-abe3-4755-83a0-03681ad5f82f.jpg?1542747811',
+        'https://img.scryfall.com/cards/art_crop/front/0/e/0ee67808-abe3-4755-83a0-03681ad5f82f.jpg?1547517395',
        border_crop:
-        'https://img.scryfall.com/cards/border_crop/front/0/e/0ee67808-abe3-4755-83a0-03681ad5f82f.jpg?1542747811' },
+        'https://img.scryfall.com/cards/border_crop/front/0/e/0ee67808-abe3-4755-83a0-03681ad5f82f.jpg?1547517395' },
     mana_cost: '{3}{R}',
     cmc: 4,
     type_line: 'Sorcery',
@@ -9573,9 +9481,8 @@ module.exports = [ { object: 'card',
        vintage: 'legal',
        penny: 'not_legal',
        commander: 'legal',
-       '1v1': 'legal',
        duel: 'legal',
-       brawl: 'not_legal' },
+       oldschool: 'not_legal' },
     games: [ 'mtgo', 'paper' ],
     reserved: false,
     foil: true,
@@ -9604,7 +9511,7 @@ module.exports = [ { object: 'card',
     frame_effect: '',
     full_art: false,
     story_spotlight: false,
-    edhrec_rank: 1885,
+    edhrec_rank: 1882,
     related_uris:
      { gatherer:
         'http://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=456743',
@@ -9628,20 +9535,20 @@ module.exports = [ { object: 'card',
     scryfall_uri:
      'https://scryfall.com/card/uma/146/seismic-assault?utm_source=api',
     layout: 'normal',
-    highres_image: false,
+    highres_image: true,
     image_uris:
      { small:
-        'https://img.scryfall.com/cards/small/front/6/b/6b2eb4e6-4ce1-4f72-9b3d-b6a44b22bd2e.jpg?1542729686',
+        'https://img.scryfall.com/cards/small/front/6/b/6b2eb4e6-4ce1-4f72-9b3d-b6a44b22bd2e.jpg?1547517387',
        normal:
-        'https://img.scryfall.com/cards/normal/front/6/b/6b2eb4e6-4ce1-4f72-9b3d-b6a44b22bd2e.jpg?1542729686',
+        'https://img.scryfall.com/cards/normal/front/6/b/6b2eb4e6-4ce1-4f72-9b3d-b6a44b22bd2e.jpg?1547517387',
        large:
-        'https://img.scryfall.com/cards/large/front/6/b/6b2eb4e6-4ce1-4f72-9b3d-b6a44b22bd2e.jpg?1542729686',
+        'https://img.scryfall.com/cards/large/front/6/b/6b2eb4e6-4ce1-4f72-9b3d-b6a44b22bd2e.jpg?1547517387',
        png:
-        'https://img.scryfall.com/cards/png/front/6/b/6b2eb4e6-4ce1-4f72-9b3d-b6a44b22bd2e.png?1542729686',
+        'https://img.scryfall.com/cards/png/front/6/b/6b2eb4e6-4ce1-4f72-9b3d-b6a44b22bd2e.png?1547517387',
        art_crop:
-        'https://img.scryfall.com/cards/art_crop/front/6/b/6b2eb4e6-4ce1-4f72-9b3d-b6a44b22bd2e.jpg?1542729686',
+        'https://img.scryfall.com/cards/art_crop/front/6/b/6b2eb4e6-4ce1-4f72-9b3d-b6a44b22bd2e.jpg?1547517387',
        border_crop:
-        'https://img.scryfall.com/cards/border_crop/front/6/b/6b2eb4e6-4ce1-4f72-9b3d-b6a44b22bd2e.jpg?1542729686' },
+        'https://img.scryfall.com/cards/border_crop/front/6/b/6b2eb4e6-4ce1-4f72-9b3d-b6a44b22bd2e.jpg?1547517387' },
     mana_cost: '{R}{R}{R}',
     cmc: 3,
     type_line: 'Enchantment',
@@ -9657,11 +9564,10 @@ module.exports = [ { object: 'card',
        legacy: 'legal',
        pauper: 'not_legal',
        vintage: 'legal',
-       penny: 'not_legal',
+       penny: 'legal',
        commander: 'legal',
-       '1v1': 'legal',
        duel: 'legal',
-       brawl: 'not_legal' },
+       oldschool: 'not_legal' },
     games: [ 'mtgo', 'paper' ],
     reserved: false,
     foil: true,
@@ -9692,7 +9598,7 @@ module.exports = [ { object: 'card',
     frame_effect: '',
     full_art: false,
     story_spotlight: false,
-    edhrec_rank: 6007,
+    edhrec_rank: 6096,
     related_uris:
      { gatherer:
         'http://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=456742',
@@ -9716,20 +9622,20 @@ module.exports = [ { object: 'card',
     scryfall_uri:
      'https://scryfall.com/card/uma/145/rolling-temblor?utm_source=api',
     layout: 'normal',
-    highres_image: false,
+    highres_image: true,
     image_uris:
      { small:
-        'https://img.scryfall.com/cards/small/front/1/5/15ebe6be-6d36-4ed4-a23d-770faed22e15.jpg?1542804754',
+        'https://img.scryfall.com/cards/small/front/1/5/15ebe6be-6d36-4ed4-a23d-770faed22e15.jpg?1547517380',
        normal:
-        'https://img.scryfall.com/cards/normal/front/1/5/15ebe6be-6d36-4ed4-a23d-770faed22e15.jpg?1542804754',
+        'https://img.scryfall.com/cards/normal/front/1/5/15ebe6be-6d36-4ed4-a23d-770faed22e15.jpg?1547517380',
        large:
-        'https://img.scryfall.com/cards/large/front/1/5/15ebe6be-6d36-4ed4-a23d-770faed22e15.jpg?1542804754',
+        'https://img.scryfall.com/cards/large/front/1/5/15ebe6be-6d36-4ed4-a23d-770faed22e15.jpg?1547517380',
        png:
-        'https://img.scryfall.com/cards/png/front/1/5/15ebe6be-6d36-4ed4-a23d-770faed22e15.png?1542804754',
+        'https://img.scryfall.com/cards/png/front/1/5/15ebe6be-6d36-4ed4-a23d-770faed22e15.png?1547517380',
        art_crop:
-        'https://img.scryfall.com/cards/art_crop/front/1/5/15ebe6be-6d36-4ed4-a23d-770faed22e15.jpg?1542804754',
+        'https://img.scryfall.com/cards/art_crop/front/1/5/15ebe6be-6d36-4ed4-a23d-770faed22e15.jpg?1547517380',
        border_crop:
-        'https://img.scryfall.com/cards/border_crop/front/1/5/15ebe6be-6d36-4ed4-a23d-770faed22e15.jpg?1542804754' },
+        'https://img.scryfall.com/cards/border_crop/front/1/5/15ebe6be-6d36-4ed4-a23d-770faed22e15.jpg?1547517380' },
     mana_cost: '{2}{R}',
     cmc: 3,
     type_line: 'Sorcery',
@@ -9747,9 +9653,8 @@ module.exports = [ { object: 'card',
        vintage: 'legal',
        penny: 'legal',
        commander: 'legal',
-       '1v1': 'legal',
        duel: 'legal',
-       brawl: 'not_legal' },
+       oldschool: 'not_legal' },
     games: [ 'mtgo', 'paper' ],
     reserved: false,
     foil: true,
@@ -9772,7 +9677,7 @@ module.exports = [ { object: 'card',
     digital: false,
     rarity: 'uncommon',
     flavor_text:
-     'When demons open a path to your front door, it\'s time to move.',
+     "When demons open a path to your front door, it's time to move.",
     illustration_id: '83ec0854-37df-4f85-87a2-6d2c606138ba',
     artist: 'Cliff Childs',
     border_color: 'black',
@@ -9780,7 +9685,7 @@ module.exports = [ { object: 'card',
     frame_effect: '',
     full_art: false,
     story_spotlight: false,
-    edhrec_rank: 12051,
+    edhrec_rank: 12087,
     related_uris:
      { gatherer:
         'http://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=456741',
@@ -9804,20 +9709,20 @@ module.exports = [ { object: 'card',
     scryfall_uri:
      'https://scryfall.com/card/uma/144/reckless-wurm?utm_source=api',
     layout: 'normal',
-    highres_image: false,
+    highres_image: true,
     image_uris:
      { small:
-        'https://img.scryfall.com/cards/small/front/8/b/8b3aa26a-ae7b-4239-948d-ce12d7f3ea41.jpg?1542634478',
+        'https://img.scryfall.com/cards/small/front/8/b/8b3aa26a-ae7b-4239-948d-ce12d7f3ea41.jpg?1547517373',
        normal:
-        'https://img.scryfall.com/cards/normal/front/8/b/8b3aa26a-ae7b-4239-948d-ce12d7f3ea41.jpg?1542634478',
+        'https://img.scryfall.com/cards/normal/front/8/b/8b3aa26a-ae7b-4239-948d-ce12d7f3ea41.jpg?1547517373',
        large:
-        'https://img.scryfall.com/cards/large/front/8/b/8b3aa26a-ae7b-4239-948d-ce12d7f3ea41.jpg?1542634478',
+        'https://img.scryfall.com/cards/large/front/8/b/8b3aa26a-ae7b-4239-948d-ce12d7f3ea41.jpg?1547517373',
        png:
-        'https://img.scryfall.com/cards/png/front/8/b/8b3aa26a-ae7b-4239-948d-ce12d7f3ea41.png?1542634478',
+        'https://img.scryfall.com/cards/png/front/8/b/8b3aa26a-ae7b-4239-948d-ce12d7f3ea41.png?1547517373',
        art_crop:
-        'https://img.scryfall.com/cards/art_crop/front/8/b/8b3aa26a-ae7b-4239-948d-ce12d7f3ea41.jpg?1542634478',
+        'https://img.scryfall.com/cards/art_crop/front/8/b/8b3aa26a-ae7b-4239-948d-ce12d7f3ea41.jpg?1547517373',
        border_crop:
-        'https://img.scryfall.com/cards/border_crop/front/8/b/8b3aa26a-ae7b-4239-948d-ce12d7f3ea41.jpg?1542634478' },
+        'https://img.scryfall.com/cards/border_crop/front/8/b/8b3aa26a-ae7b-4239-948d-ce12d7f3ea41.jpg?1547517373' },
     mana_cost: '{3}{R}{R}',
     cmc: 5,
     type_line: 'Creature — Wurm',
@@ -9837,9 +9742,8 @@ module.exports = [ { object: 'card',
        vintage: 'legal',
        penny: 'legal',
        commander: 'legal',
-       '1v1': 'legal',
        duel: 'legal',
-       brawl: 'not_legal' },
+       oldschool: 'not_legal' },
     games: [ 'mtgo', 'paper' ],
     reserved: false,
     foil: true,
@@ -9870,7 +9774,7 @@ module.exports = [ { object: 'card',
     frame_effect: '',
     full_art: false,
     story_spotlight: false,
-    edhrec_rank: 10987,
+    edhrec_rank: 11206,
     related_uris:
      { gatherer:
         'http://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=456740',
@@ -9894,20 +9798,20 @@ module.exports = [ { object: 'card',
     scryfall_uri:
      'https://scryfall.com/card/uma/143/reckless-charge?utm_source=api',
     layout: 'normal',
-    highres_image: false,
+    highres_image: true,
     image_uris:
      { small:
-        'https://img.scryfall.com/cards/small/front/d/9/d9275605-15a0-4db6-bd7d-66755138e8d7.jpg?1542804695',
+        'https://img.scryfall.com/cards/small/front/d/9/d9275605-15a0-4db6-bd7d-66755138e8d7.jpg?1547517362',
        normal:
-        'https://img.scryfall.com/cards/normal/front/d/9/d9275605-15a0-4db6-bd7d-66755138e8d7.jpg?1542804695',
+        'https://img.scryfall.com/cards/normal/front/d/9/d9275605-15a0-4db6-bd7d-66755138e8d7.jpg?1547517362',
        large:
-        'https://img.scryfall.com/cards/large/front/d/9/d9275605-15a0-4db6-bd7d-66755138e8d7.jpg?1542804695',
+        'https://img.scryfall.com/cards/large/front/d/9/d9275605-15a0-4db6-bd7d-66755138e8d7.jpg?1547517362',
        png:
-        'https://img.scryfall.com/cards/png/front/d/9/d9275605-15a0-4db6-bd7d-66755138e8d7.png?1542804695',
+        'https://img.scryfall.com/cards/png/front/d/9/d9275605-15a0-4db6-bd7d-66755138e8d7.png?1547517362',
        art_crop:
-        'https://img.scryfall.com/cards/art_crop/front/d/9/d9275605-15a0-4db6-bd7d-66755138e8d7.jpg?1542804695',
+        'https://img.scryfall.com/cards/art_crop/front/d/9/d9275605-15a0-4db6-bd7d-66755138e8d7.jpg?1547517362',
        border_crop:
-        'https://img.scryfall.com/cards/border_crop/front/d/9/d9275605-15a0-4db6-bd7d-66755138e8d7.jpg?1542804695' },
+        'https://img.scryfall.com/cards/border_crop/front/d/9/d9275605-15a0-4db6-bd7d-66755138e8d7.jpg?1547517362' },
     mana_cost: '{R}',
     cmc: 1,
     type_line: 'Sorcery',
@@ -9925,9 +9829,8 @@ module.exports = [ { object: 'card',
        vintage: 'legal',
        penny: 'legal',
        commander: 'legal',
-       '1v1': 'legal',
        duel: 'legal',
-       brawl: 'not_legal' },
+       oldschool: 'not_legal' },
     games: [ 'mtgo', 'paper' ],
     reserved: false,
     foil: true,
@@ -9956,7 +9859,7 @@ module.exports = [ { object: 'card',
     frame_effect: '',
     full_art: false,
     story_spotlight: false,
-    edhrec_rank: 3779,
+    edhrec_rank: 3819,
     related_uris:
      { gatherer:
         'http://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=456739',
@@ -9980,20 +9883,20 @@ module.exports = [ { object: 'card',
     scryfall_uri:
      'https://scryfall.com/card/uma/142/raid-bombardment?utm_source=api',
     layout: 'normal',
-    highres_image: false,
+    highres_image: true,
     image_uris:
      { small:
-        'https://img.scryfall.com/cards/small/front/c/a/ca75d458-4947-4075-89b6-e93936c67370.jpg?1542804637',
+        'https://img.scryfall.com/cards/small/front/c/a/ca75d458-4947-4075-89b6-e93936c67370.jpg?1547517351',
        normal:
-        'https://img.scryfall.com/cards/normal/front/c/a/ca75d458-4947-4075-89b6-e93936c67370.jpg?1542804637',
+        'https://img.scryfall.com/cards/normal/front/c/a/ca75d458-4947-4075-89b6-e93936c67370.jpg?1547517351',
        large:
-        'https://img.scryfall.com/cards/large/front/c/a/ca75d458-4947-4075-89b6-e93936c67370.jpg?1542804637',
+        'https://img.scryfall.com/cards/large/front/c/a/ca75d458-4947-4075-89b6-e93936c67370.jpg?1547517351',
        png:
-        'https://img.scryfall.com/cards/png/front/c/a/ca75d458-4947-4075-89b6-e93936c67370.png?1542804637',
+        'https://img.scryfall.com/cards/png/front/c/a/ca75d458-4947-4075-89b6-e93936c67370.png?1547517351',
        art_crop:
-        'https://img.scryfall.com/cards/art_crop/front/c/a/ca75d458-4947-4075-89b6-e93936c67370.jpg?1542804637',
+        'https://img.scryfall.com/cards/art_crop/front/c/a/ca75d458-4947-4075-89b6-e93936c67370.jpg?1547517351',
        border_crop:
-        'https://img.scryfall.com/cards/border_crop/front/c/a/ca75d458-4947-4075-89b6-e93936c67370.jpg?1542804637' },
+        'https://img.scryfall.com/cards/border_crop/front/c/a/ca75d458-4947-4075-89b6-e93936c67370.jpg?1547517351' },
     mana_cost: '{2}{R}',
     cmc: 3,
     type_line: 'Enchantment',
@@ -10011,9 +9914,8 @@ module.exports = [ { object: 'card',
        vintage: 'legal',
        penny: 'legal',
        commander: 'legal',
-       '1v1': 'legal',
        duel: 'legal',
-       brawl: 'not_legal' },
+       oldschool: 'not_legal' },
     games: [ 'mtgo', 'paper' ],
     reserved: false,
     foil: true,
@@ -10044,7 +9946,7 @@ module.exports = [ { object: 'card',
     frame_effect: '',
     full_art: false,
     story_spotlight: false,
-    edhrec_rank: 7177,
+    edhrec_rank: 7230,
     related_uris:
      { gatherer:
         'http://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=456738',
@@ -10060,7 +9962,7 @@ module.exports = [ { object: 'card',
     multiverse_ids: [ 456737 ],
     mtgo_id: 70355,
     tcgplayer_id: 180952,
-    name: 'Nightbird\'s Clutches',
+    name: "Nightbird's Clutches",
     lang: 'en',
     released_at: '2018-12-07',
     uri:
@@ -10068,25 +9970,25 @@ module.exports = [ { object: 'card',
     scryfall_uri:
      'https://scryfall.com/card/uma/141/nightbirds-clutches?utm_source=api',
     layout: 'normal',
-    highres_image: false,
+    highres_image: true,
     image_uris:
      { small:
-        'https://img.scryfall.com/cards/small/front/f/8/f8952ef0-d81e-491e-a137-be08a74ed005.jpg?1542804572',
+        'https://img.scryfall.com/cards/small/front/f/8/f8952ef0-d81e-491e-a137-be08a74ed005.jpg?1547517342',
        normal:
-        'https://img.scryfall.com/cards/normal/front/f/8/f8952ef0-d81e-491e-a137-be08a74ed005.jpg?1542804572',
+        'https://img.scryfall.com/cards/normal/front/f/8/f8952ef0-d81e-491e-a137-be08a74ed005.jpg?1547517342',
        large:
-        'https://img.scryfall.com/cards/large/front/f/8/f8952ef0-d81e-491e-a137-be08a74ed005.jpg?1542804572',
+        'https://img.scryfall.com/cards/large/front/f/8/f8952ef0-d81e-491e-a137-be08a74ed005.jpg?1547517342',
        png:
-        'https://img.scryfall.com/cards/png/front/f/8/f8952ef0-d81e-491e-a137-be08a74ed005.png?1542804572',
+        'https://img.scryfall.com/cards/png/front/f/8/f8952ef0-d81e-491e-a137-be08a74ed005.png?1547517342',
        art_crop:
-        'https://img.scryfall.com/cards/art_crop/front/f/8/f8952ef0-d81e-491e-a137-be08a74ed005.jpg?1542804572',
+        'https://img.scryfall.com/cards/art_crop/front/f/8/f8952ef0-d81e-491e-a137-be08a74ed005.jpg?1547517342',
        border_crop:
-        'https://img.scryfall.com/cards/border_crop/front/f/8/f8952ef0-d81e-491e-a137-be08a74ed005.jpg?1542804572' },
+        'https://img.scryfall.com/cards/border_crop/front/f/8/f8952ef0-d81e-491e-a137-be08a74ed005.jpg?1547517342' },
     mana_cost: '{1}{R}',
     cmc: 2,
     type_line: 'Sorcery',
     oracle_text:
-     'Up to two target creatures can\'t block this turn.\nFlashback {3}{R} (You may cast this card from your graveyard for its flashback cost. Then exile it.)',
+     "Up to two target creatures can't block this turn.\nFlashback {3}{R} (You may cast this card from your graveyard for its flashback cost. Then exile it.)",
     colors: [ 'R' ],
     color_identity: [ 'R' ],
     legalities:
@@ -10099,9 +10001,8 @@ module.exports = [ { object: 'card',
        vintage: 'legal',
        penny: 'legal',
        commander: 'legal',
-       '1v1': 'legal',
        duel: 'legal',
-       brawl: 'not_legal' },
+       oldschool: 'not_legal' },
     games: [ 'mtgo', 'paper' ],
     reserved: false,
     foil: true,
@@ -10132,7 +10033,7 @@ module.exports = [ { object: 'card',
     frame_effect: '',
     full_art: false,
     story_spotlight: false,
-    edhrec_rank: 14379,
+    edhrec_rank: 14616,
     related_uris:
      { gatherer:
         'http://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=456737',
@@ -10156,25 +10057,25 @@ module.exports = [ { object: 'card',
     scryfall_uri:
      'https://scryfall.com/card/uma/140/molten-birth?utm_source=api',
     layout: 'normal',
-    highres_image: false,
+    highres_image: true,
     image_uris:
      { small:
-        'https://img.scryfall.com/cards/small/front/f/d/fd7ea3f3-900e-4dc5-ad83-1d5c5320d031.jpg?1542804527',
+        'https://img.scryfall.com/cards/small/front/f/d/fd7ea3f3-900e-4dc5-ad83-1d5c5320d031.jpg?1547517333',
        normal:
-        'https://img.scryfall.com/cards/normal/front/f/d/fd7ea3f3-900e-4dc5-ad83-1d5c5320d031.jpg?1542804527',
+        'https://img.scryfall.com/cards/normal/front/f/d/fd7ea3f3-900e-4dc5-ad83-1d5c5320d031.jpg?1547517333',
        large:
-        'https://img.scryfall.com/cards/large/front/f/d/fd7ea3f3-900e-4dc5-ad83-1d5c5320d031.jpg?1542804527',
+        'https://img.scryfall.com/cards/large/front/f/d/fd7ea3f3-900e-4dc5-ad83-1d5c5320d031.jpg?1547517333',
        png:
-        'https://img.scryfall.com/cards/png/front/f/d/fd7ea3f3-900e-4dc5-ad83-1d5c5320d031.png?1542804527',
+        'https://img.scryfall.com/cards/png/front/f/d/fd7ea3f3-900e-4dc5-ad83-1d5c5320d031.png?1547517333',
        art_crop:
-        'https://img.scryfall.com/cards/art_crop/front/f/d/fd7ea3f3-900e-4dc5-ad83-1d5c5320d031.jpg?1542804527',
+        'https://img.scryfall.com/cards/art_crop/front/f/d/fd7ea3f3-900e-4dc5-ad83-1d5c5320d031.jpg?1547517333',
        border_crop:
-        'https://img.scryfall.com/cards/border_crop/front/f/d/fd7ea3f3-900e-4dc5-ad83-1d5c5320d031.jpg?1542804527' },
+        'https://img.scryfall.com/cards/border_crop/front/f/d/fd7ea3f3-900e-4dc5-ad83-1d5c5320d031.jpg?1547517333' },
     mana_cost: '{1}{R}{R}',
     cmc: 3,
     type_line: 'Sorcery',
     oracle_text:
-     'Create two 1/1 red Elemental creature tokens, then flip a coin. If you win the flip, return Molten Birth to its owner\'s hand.',
+     "Create two 1/1 red Elemental creature tokens, then flip a coin. If you win the flip, return Molten Birth to its owner's hand.",
     colors: [ 'R' ],
     color_identity: [ 'R' ],
     all_parts:
@@ -10186,12 +10087,12 @@ module.exports = [ { object: 'card',
          uri:
           'https://api.scryfall.com/cards/fd7ea3f3-900e-4dc5-ad83-1d5c5320d031' },
        { object: 'related_card',
-         id: '7ae1c136-7319-45d1-882a-3d838b344773',
+         id: '0f7cb791-ac35-4c69-aa85-23e14b821c6a',
          component: 'token',
          name: 'Elemental',
          type_line: 'Token Creature — Elemental',
          uri:
-          'https://api.scryfall.com/cards/7ae1c136-7319-45d1-882a-3d838b344773' } ],
+          'https://api.scryfall.com/cards/0f7cb791-ac35-4c69-aa85-23e14b821c6a' } ],
     legalities:
      { standard: 'not_legal',
        future: 'not_legal',
@@ -10200,11 +10101,10 @@ module.exports = [ { object: 'card',
        legacy: 'legal',
        pauper: 'legal',
        vintage: 'legal',
-       penny: 'not_legal',
+       penny: 'legal',
        commander: 'legal',
-       '1v1': 'legal',
        duel: 'legal',
-       brawl: 'not_legal' },
+       oldschool: 'not_legal' },
     games: [ 'mtgo', 'paper' ],
     reserved: false,
     foil: true,
@@ -10235,7 +10135,7 @@ module.exports = [ { object: 'card',
     frame_effect: '',
     full_art: false,
     story_spotlight: false,
-    edhrec_rank: 3877,
+    edhrec_rank: 3901,
     related_uris:
      { gatherer:
         'http://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=456736',
@@ -10259,20 +10159,20 @@ module.exports = [ { object: 'card',
     scryfall_uri:
      'https://scryfall.com/card/uma/139/malevolent-whispers?utm_source=api',
     layout: 'normal',
-    highres_image: false,
+    highres_image: true,
     image_uris:
      { small:
-        'https://img.scryfall.com/cards/small/front/c/5/c5b781ed-9f16-4cef-8b97-7a3e90abfdb3.jpg?1542804449',
+        'https://img.scryfall.com/cards/small/front/c/5/c5b781ed-9f16-4cef-8b97-7a3e90abfdb3.jpg?1547517324',
        normal:
-        'https://img.scryfall.com/cards/normal/front/c/5/c5b781ed-9f16-4cef-8b97-7a3e90abfdb3.jpg?1542804449',
+        'https://img.scryfall.com/cards/normal/front/c/5/c5b781ed-9f16-4cef-8b97-7a3e90abfdb3.jpg?1547517324',
        large:
-        'https://img.scryfall.com/cards/large/front/c/5/c5b781ed-9f16-4cef-8b97-7a3e90abfdb3.jpg?1542804449',
+        'https://img.scryfall.com/cards/large/front/c/5/c5b781ed-9f16-4cef-8b97-7a3e90abfdb3.jpg?1547517324',
        png:
-        'https://img.scryfall.com/cards/png/front/c/5/c5b781ed-9f16-4cef-8b97-7a3e90abfdb3.png?1542804449',
+        'https://img.scryfall.com/cards/png/front/c/5/c5b781ed-9f16-4cef-8b97-7a3e90abfdb3.png?1547517324',
        art_crop:
-        'https://img.scryfall.com/cards/art_crop/front/c/5/c5b781ed-9f16-4cef-8b97-7a3e90abfdb3.jpg?1542804449',
+        'https://img.scryfall.com/cards/art_crop/front/c/5/c5b781ed-9f16-4cef-8b97-7a3e90abfdb3.jpg?1547517324',
        border_crop:
-        'https://img.scryfall.com/cards/border_crop/front/c/5/c5b781ed-9f16-4cef-8b97-7a3e90abfdb3.jpg?1542804449' },
+        'https://img.scryfall.com/cards/border_crop/front/c/5/c5b781ed-9f16-4cef-8b97-7a3e90abfdb3.jpg?1547517324' },
     mana_cost: '{3}{R}',
     cmc: 4,
     type_line: 'Sorcery',
@@ -10288,11 +10188,10 @@ module.exports = [ { object: 'card',
        legacy: 'legal',
        pauper: 'not_legal',
        vintage: 'legal',
-       penny: 'legal',
+       penny: 'not_legal',
        commander: 'legal',
-       '1v1': 'legal',
        duel: 'legal',
-       brawl: 'not_legal' },
+       oldschool: 'not_legal' },
     games: [ 'mtgo', 'paper' ],
     reserved: false,
     foil: true,
@@ -10321,7 +10220,7 @@ module.exports = [ { object: 'card',
     frame_effect: '',
     full_art: false,
     story_spotlight: false,
-    edhrec_rank: 7137,
+    edhrec_rank: 7229,
     related_uris:
      { gatherer:
         'http://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=456735',
@@ -10344,20 +10243,20 @@ module.exports = [ { object: 'card',
      'https://api.scryfall.com/cards/08c571fe-54ef-4234-98c3-5d4a7b07e7d2',
     scryfall_uri: 'https://scryfall.com/card/uma/138/magmaw?utm_source=api',
     layout: 'normal',
-    highres_image: false,
+    highres_image: true,
     image_uris:
      { small:
-        'https://img.scryfall.com/cards/small/front/0/8/08c571fe-54ef-4234-98c3-5d4a7b07e7d2.jpg?1542722390',
+        'https://img.scryfall.com/cards/small/front/0/8/08c571fe-54ef-4234-98c3-5d4a7b07e7d2.jpg?1547517315',
        normal:
-        'https://img.scryfall.com/cards/normal/front/0/8/08c571fe-54ef-4234-98c3-5d4a7b07e7d2.jpg?1542722390',
+        'https://img.scryfall.com/cards/normal/front/0/8/08c571fe-54ef-4234-98c3-5d4a7b07e7d2.jpg?1547517315',
        large:
-        'https://img.scryfall.com/cards/large/front/0/8/08c571fe-54ef-4234-98c3-5d4a7b07e7d2.jpg?1542722390',
+        'https://img.scryfall.com/cards/large/front/0/8/08c571fe-54ef-4234-98c3-5d4a7b07e7d2.jpg?1547517315',
        png:
-        'https://img.scryfall.com/cards/png/front/0/8/08c571fe-54ef-4234-98c3-5d4a7b07e7d2.png?1542722390',
+        'https://img.scryfall.com/cards/png/front/0/8/08c571fe-54ef-4234-98c3-5d4a7b07e7d2.png?1547517315',
        art_crop:
-        'https://img.scryfall.com/cards/art_crop/front/0/8/08c571fe-54ef-4234-98c3-5d4a7b07e7d2.jpg?1542722390',
+        'https://img.scryfall.com/cards/art_crop/front/0/8/08c571fe-54ef-4234-98c3-5d4a7b07e7d2.jpg?1547517315',
        border_crop:
-        'https://img.scryfall.com/cards/border_crop/front/0/8/08c571fe-54ef-4234-98c3-5d4a7b07e7d2.jpg?1542722390' },
+        'https://img.scryfall.com/cards/border_crop/front/0/8/08c571fe-54ef-4234-98c3-5d4a7b07e7d2.jpg?1547517315' },
     mana_cost: '{3}{R}{R}',
     cmc: 5,
     type_line: 'Creature — Elemental',
@@ -10377,9 +10276,8 @@ module.exports = [ { object: 'card',
        vintage: 'legal',
        penny: 'legal',
        commander: 'legal',
-       '1v1': 'legal',
        duel: 'legal',
-       brawl: 'not_legal' },
+       oldschool: 'not_legal' },
     games: [ 'mtgo', 'paper' ],
     reserved: false,
     foil: true,
@@ -10410,7 +10308,7 @@ module.exports = [ { object: 'card',
     frame_effect: '',
     full_art: false,
     story_spotlight: false,
-    edhrec_rank: 8002,
+    edhrec_rank: 8219,
     related_uris:
      { gatherer:
         'http://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=456734',
@@ -10434,20 +10332,20 @@ module.exports = [ { object: 'card',
     scryfall_uri:
      'https://scryfall.com/card/uma/137/mad-prophet?utm_source=api',
     layout: 'normal',
-    highres_image: false,
+    highres_image: true,
     image_uris:
      { small:
-        'https://img.scryfall.com/cards/small/front/8/9/89a62145-8dad-4385-9c6d-8cf8bfdad681.jpg?1542804393',
+        'https://img.scryfall.com/cards/small/front/8/9/89a62145-8dad-4385-9c6d-8cf8bfdad681.jpg?1547517306',
        normal:
-        'https://img.scryfall.com/cards/normal/front/8/9/89a62145-8dad-4385-9c6d-8cf8bfdad681.jpg?1542804393',
+        'https://img.scryfall.com/cards/normal/front/8/9/89a62145-8dad-4385-9c6d-8cf8bfdad681.jpg?1547517306',
        large:
-        'https://img.scryfall.com/cards/large/front/8/9/89a62145-8dad-4385-9c6d-8cf8bfdad681.jpg?1542804393',
+        'https://img.scryfall.com/cards/large/front/8/9/89a62145-8dad-4385-9c6d-8cf8bfdad681.jpg?1547517306',
        png:
-        'https://img.scryfall.com/cards/png/front/8/9/89a62145-8dad-4385-9c6d-8cf8bfdad681.png?1542804393',
+        'https://img.scryfall.com/cards/png/front/8/9/89a62145-8dad-4385-9c6d-8cf8bfdad681.png?1547517306',
        art_crop:
-        'https://img.scryfall.com/cards/art_crop/front/8/9/89a62145-8dad-4385-9c6d-8cf8bfdad681.jpg?1542804393',
+        'https://img.scryfall.com/cards/art_crop/front/8/9/89a62145-8dad-4385-9c6d-8cf8bfdad681.jpg?1547517306',
        border_crop:
-        'https://img.scryfall.com/cards/border_crop/front/8/9/89a62145-8dad-4385-9c6d-8cf8bfdad681.jpg?1542804393' },
+        'https://img.scryfall.com/cards/border_crop/front/8/9/89a62145-8dad-4385-9c6d-8cf8bfdad681.jpg?1547517306' },
     mana_cost: '{3}{R}',
     cmc: 4,
     type_line: 'Creature — Human Shaman',
@@ -10466,9 +10364,8 @@ module.exports = [ { object: 'card',
        vintage: 'legal',
        penny: 'legal',
        commander: 'legal',
-       '1v1': 'legal',
        duel: 'legal',
-       brawl: 'not_legal' },
+       oldschool: 'not_legal' },
     games: [ 'mtgo', 'paper' ],
     reserved: false,
     foil: true,
@@ -10499,7 +10396,7 @@ module.exports = [ { object: 'card',
     frame_effect: '',
     full_art: false,
     story_spotlight: false,
-    edhrec_rank: 6247,
+    edhrec_rank: 6347,
     related_uris:
      { gatherer:
         'http://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=456733',
@@ -10523,20 +10420,20 @@ module.exports = [ { object: 'card',
     scryfall_uri:
      'https://scryfall.com/card/uma/136/lava-spike?utm_source=api',
     layout: 'normal',
-    highres_image: false,
+    highres_image: true,
     image_uris:
      { small:
-        'https://img.scryfall.com/cards/small/front/7/9/79c21c1f-eaa4-454d-a1c7-b41466d0a428.jpg?1542723374',
+        'https://img.scryfall.com/cards/small/front/7/9/79c21c1f-eaa4-454d-a1c7-b41466d0a428.jpg?1547517298',
        normal:
-        'https://img.scryfall.com/cards/normal/front/7/9/79c21c1f-eaa4-454d-a1c7-b41466d0a428.jpg?1542723374',
+        'https://img.scryfall.com/cards/normal/front/7/9/79c21c1f-eaa4-454d-a1c7-b41466d0a428.jpg?1547517298',
        large:
-        'https://img.scryfall.com/cards/large/front/7/9/79c21c1f-eaa4-454d-a1c7-b41466d0a428.jpg?1542723374',
+        'https://img.scryfall.com/cards/large/front/7/9/79c21c1f-eaa4-454d-a1c7-b41466d0a428.jpg?1547517298',
        png:
-        'https://img.scryfall.com/cards/png/front/7/9/79c21c1f-eaa4-454d-a1c7-b41466d0a428.png?1542723374',
+        'https://img.scryfall.com/cards/png/front/7/9/79c21c1f-eaa4-454d-a1c7-b41466d0a428.png?1547517298',
        art_crop:
-        'https://img.scryfall.com/cards/art_crop/front/7/9/79c21c1f-eaa4-454d-a1c7-b41466d0a428.jpg?1542723374',
+        'https://img.scryfall.com/cards/art_crop/front/7/9/79c21c1f-eaa4-454d-a1c7-b41466d0a428.jpg?1547517298',
        border_crop:
-        'https://img.scryfall.com/cards/border_crop/front/7/9/79c21c1f-eaa4-454d-a1c7-b41466d0a428.jpg?1542723374' },
+        'https://img.scryfall.com/cards/border_crop/front/7/9/79c21c1f-eaa4-454d-a1c7-b41466d0a428.jpg?1547517298' },
     mana_cost: '{R}',
     cmc: 1,
     type_line: 'Sorcery — Arcane',
@@ -10554,9 +10451,8 @@ module.exports = [ { object: 'card',
        vintage: 'legal',
        penny: 'not_legal',
        commander: 'legal',
-       '1v1': 'legal',
        duel: 'legal',
-       brawl: 'not_legal' },
+       oldschool: 'not_legal' },
     games: [ 'mtgo', 'paper' ],
     reserved: false,
     foil: true,
@@ -10579,7 +10475,7 @@ module.exports = [ { object: 'card',
     digital: false,
     rarity: 'uncommon',
     flavor_text:
-     'It\'s not the most subtle incantation, but it gets the point across.',
+     "It's not the most subtle incantation, but it gets the point across.",
     illustration_id: '028b4235-0eaa-4b62-8073-e46fdef37acf',
     artist: 'Igor Kieryluk',
     border_color: 'black',
@@ -10587,7 +10483,7 @@ module.exports = [ { object: 'card',
     frame_effect: '',
     full_art: false,
     story_spotlight: false,
-    edhrec_rank: 6740,
+    edhrec_rank: 6748,
     related_uris:
      { gatherer:
         'http://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=456732',
@@ -10611,25 +10507,25 @@ module.exports = [ { object: 'card',
     scryfall_uri:
      'https://scryfall.com/card/uma/135/ingot-chewer?utm_source=api',
     layout: 'normal',
-    highres_image: false,
+    highres_image: true,
     image_uris:
      { small:
-        'https://img.scryfall.com/cards/small/front/f/8/f84b4b61-0e92-4ca2-b4e0-ae846a2a8e37.jpg?1542804321',
+        'https://img.scryfall.com/cards/small/front/f/8/f84b4b61-0e92-4ca2-b4e0-ae846a2a8e37.jpg?1547517288',
        normal:
-        'https://img.scryfall.com/cards/normal/front/f/8/f84b4b61-0e92-4ca2-b4e0-ae846a2a8e37.jpg?1542804321',
+        'https://img.scryfall.com/cards/normal/front/f/8/f84b4b61-0e92-4ca2-b4e0-ae846a2a8e37.jpg?1547517288',
        large:
-        'https://img.scryfall.com/cards/large/front/f/8/f84b4b61-0e92-4ca2-b4e0-ae846a2a8e37.jpg?1542804321',
+        'https://img.scryfall.com/cards/large/front/f/8/f84b4b61-0e92-4ca2-b4e0-ae846a2a8e37.jpg?1547517288',
        png:
-        'https://img.scryfall.com/cards/png/front/f/8/f84b4b61-0e92-4ca2-b4e0-ae846a2a8e37.png?1542804321',
+        'https://img.scryfall.com/cards/png/front/f/8/f84b4b61-0e92-4ca2-b4e0-ae846a2a8e37.png?1547517288',
        art_crop:
-        'https://img.scryfall.com/cards/art_crop/front/f/8/f84b4b61-0e92-4ca2-b4e0-ae846a2a8e37.jpg?1542804321',
+        'https://img.scryfall.com/cards/art_crop/front/f/8/f84b4b61-0e92-4ca2-b4e0-ae846a2a8e37.jpg?1547517288',
        border_crop:
-        'https://img.scryfall.com/cards/border_crop/front/f/8/f84b4b61-0e92-4ca2-b4e0-ae846a2a8e37.jpg?1542804321' },
+        'https://img.scryfall.com/cards/border_crop/front/f/8/f84b4b61-0e92-4ca2-b4e0-ae846a2a8e37.jpg?1547517288' },
     mana_cost: '{4}{R}',
     cmc: 5,
     type_line: 'Creature — Elemental',
     oracle_text:
-     'When Ingot Chewer enters the battlefield, destroy target artifact.\nEvoke {R} (You may cast this spell for its evoke cost. If you do, it\'s sacrificed when it enters the battlefield.)',
+     "When Ingot Chewer enters the battlefield, destroy target artifact.\nEvoke {R} (You may cast this spell for its evoke cost. If you do, it's sacrificed when it enters the battlefield.)",
     power: '3',
     toughness: '3',
     colors: [ 'R' ],
@@ -10644,9 +10540,8 @@ module.exports = [ { object: 'card',
        vintage: 'legal',
        penny: 'not_legal',
        commander: 'legal',
-       '1v1': 'legal',
        duel: 'legal',
-       brawl: 'not_legal' },
+       oldschool: 'not_legal' },
     games: [ 'mtgo', 'paper' ],
     reserved: false,
     foil: true,
@@ -10677,7 +10572,7 @@ module.exports = [ { object: 'card',
     frame_effect: '',
     full_art: false,
     story_spotlight: false,
-    edhrec_rank: 2456,
+    edhrec_rank: 2504,
     related_uris:
      { gatherer:
         'http://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=456731',
@@ -10701,20 +10596,20 @@ module.exports = [ { object: 'card',
     scryfall_uri:
      'https://scryfall.com/card/uma/134/hissing-iguanar?utm_source=api',
     layout: 'normal',
-    highres_image: false,
+    highres_image: true,
     image_uris:
      { small:
-        'https://img.scryfall.com/cards/small/front/e/5/e549b7d4-0120-44d1-8692-e5e997d26535.jpg?1545258716',
+        'https://img.scryfall.com/cards/small/front/e/5/e549b7d4-0120-44d1-8692-e5e997d26535.jpg?1547517279',
        normal:
-        'https://img.scryfall.com/cards/normal/front/e/5/e549b7d4-0120-44d1-8692-e5e997d26535.jpg?1545258716',
+        'https://img.scryfall.com/cards/normal/front/e/5/e549b7d4-0120-44d1-8692-e5e997d26535.jpg?1547517279',
        large:
-        'https://img.scryfall.com/cards/large/front/e/5/e549b7d4-0120-44d1-8692-e5e997d26535.jpg?1545258716',
+        'https://img.scryfall.com/cards/large/front/e/5/e549b7d4-0120-44d1-8692-e5e997d26535.jpg?1547517279',
        png:
-        'https://img.scryfall.com/cards/png/front/e/5/e549b7d4-0120-44d1-8692-e5e997d26535.png?1545258716',
+        'https://img.scryfall.com/cards/png/front/e/5/e549b7d4-0120-44d1-8692-e5e997d26535.png?1547517279',
        art_crop:
-        'https://img.scryfall.com/cards/art_crop/front/e/5/e549b7d4-0120-44d1-8692-e5e997d26535.jpg?1545258716',
+        'https://img.scryfall.com/cards/art_crop/front/e/5/e549b7d4-0120-44d1-8692-e5e997d26535.jpg?1547517279',
        border_crop:
-        'https://img.scryfall.com/cards/border_crop/front/e/5/e549b7d4-0120-44d1-8692-e5e997d26535.jpg?1545258716' },
+        'https://img.scryfall.com/cards/border_crop/front/e/5/e549b7d4-0120-44d1-8692-e5e997d26535.jpg?1547517279' },
     mana_cost: '{2}{R}',
     cmc: 3,
     type_line: 'Creature — Lizard',
@@ -10734,9 +10629,8 @@ module.exports = [ { object: 'card',
        vintage: 'legal',
        penny: 'legal',
        commander: 'legal',
-       '1v1': 'legal',
        duel: 'legal',
-       brawl: 'not_legal' },
+       oldschool: 'not_legal' },
     games: [ 'mtgo', 'paper' ],
     reserved: false,
     foil: true,
@@ -10758,7 +10652,7 @@ module.exports = [ { object: 'card',
     collector_number: '134',
     digital: false,
     rarity: 'common',
-    flavor_text: 'It\'s pretty cute\u000f–from a distance.',
+    flavor_text: "It's pretty cute\u000f—from a distance.",
     illustration_id: 'b8e056fe-8c34-4fa3-92ce-74018fbea484',
     artist: 'Zoltan Boros',
     border_color: 'black',
@@ -10766,7 +10660,7 @@ module.exports = [ { object: 'card',
     frame_effect: '',
     full_art: false,
     story_spotlight: false,
-    edhrec_rank: 7463,
+    edhrec_rank: 7538,
     related_uris:
      { gatherer:
         'http://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=456730',
@@ -10790,20 +10684,20 @@ module.exports = [ { object: 'card',
     scryfall_uri:
      'https://scryfall.com/card/uma/133/generator-servant?utm_source=api',
     layout: 'normal',
-    highres_image: false,
+    highres_image: true,
     image_uris:
      { small:
-        'https://img.scryfall.com/cards/small/front/5/e/5ea15262-c00f-4865-bb6a-37ccb2ef62bd.jpg?1542804159',
+        'https://img.scryfall.com/cards/small/front/5/e/5ea15262-c00f-4865-bb6a-37ccb2ef62bd.jpg?1547517270',
        normal:
-        'https://img.scryfall.com/cards/normal/front/5/e/5ea15262-c00f-4865-bb6a-37ccb2ef62bd.jpg?1542804159',
+        'https://img.scryfall.com/cards/normal/front/5/e/5ea15262-c00f-4865-bb6a-37ccb2ef62bd.jpg?1547517270',
        large:
-        'https://img.scryfall.com/cards/large/front/5/e/5ea15262-c00f-4865-bb6a-37ccb2ef62bd.jpg?1542804159',
+        'https://img.scryfall.com/cards/large/front/5/e/5ea15262-c00f-4865-bb6a-37ccb2ef62bd.jpg?1547517270',
        png:
-        'https://img.scryfall.com/cards/png/front/5/e/5ea15262-c00f-4865-bb6a-37ccb2ef62bd.png?1542804159',
+        'https://img.scryfall.com/cards/png/front/5/e/5ea15262-c00f-4865-bb6a-37ccb2ef62bd.png?1547517270',
        art_crop:
-        'https://img.scryfall.com/cards/art_crop/front/5/e/5ea15262-c00f-4865-bb6a-37ccb2ef62bd.jpg?1542804159',
+        'https://img.scryfall.com/cards/art_crop/front/5/e/5ea15262-c00f-4865-bb6a-37ccb2ef62bd.jpg?1547517270',
        border_crop:
-        'https://img.scryfall.com/cards/border_crop/front/5/e/5ea15262-c00f-4865-bb6a-37ccb2ef62bd.jpg?1542804159' },
+        'https://img.scryfall.com/cards/border_crop/front/5/e/5ea15262-c00f-4865-bb6a-37ccb2ef62bd.jpg?1547517270' },
     mana_cost: '{1}{R}',
     cmc: 2,
     type_line: 'Creature — Elemental',
@@ -10821,11 +10715,10 @@ module.exports = [ { object: 'card',
        legacy: 'legal',
        pauper: 'legal',
        vintage: 'legal',
-       penny: 'not_legal',
+       penny: 'legal',
        commander: 'legal',
-       '1v1': 'legal',
        duel: 'legal',
-       brawl: 'not_legal' },
+       oldschool: 'not_legal' },
     games: [ 'mtgo', 'paper' ],
     reserved: false,
     foil: true,
@@ -10855,7 +10748,7 @@ module.exports = [ { object: 'card',
     frame_effect: '',
     full_art: false,
     story_spotlight: false,
-    edhrec_rank: 3322,
+    edhrec_rank: 3360,
     related_uris:
      { gatherer:
         'http://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=456729',
@@ -10878,20 +10771,20 @@ module.exports = [ { object: 'card',
      'https://api.scryfall.com/cards/c01c9474-90a1-4c2e-bd90-471ff4fd04e5',
     scryfall_uri: 'https://scryfall.com/card/uma/132/gamble?utm_source=api',
     layout: 'normal',
-    highres_image: false,
+    highres_image: true,
     image_uris:
      { small:
-        'https://img.scryfall.com/cards/small/front/c/0/c01c9474-90a1-4c2e-bd90-471ff4fd04e5.jpg?1542625920',
+        'https://img.scryfall.com/cards/small/front/c/0/c01c9474-90a1-4c2e-bd90-471ff4fd04e5.jpg?1547517257',
        normal:
-        'https://img.scryfall.com/cards/normal/front/c/0/c01c9474-90a1-4c2e-bd90-471ff4fd04e5.jpg?1542625920',
+        'https://img.scryfall.com/cards/normal/front/c/0/c01c9474-90a1-4c2e-bd90-471ff4fd04e5.jpg?1547517257',
        large:
-        'https://img.scryfall.com/cards/large/front/c/0/c01c9474-90a1-4c2e-bd90-471ff4fd04e5.jpg?1542625920',
+        'https://img.scryfall.com/cards/large/front/c/0/c01c9474-90a1-4c2e-bd90-471ff4fd04e5.jpg?1547517257',
        png:
-        'https://img.scryfall.com/cards/png/front/c/0/c01c9474-90a1-4c2e-bd90-471ff4fd04e5.png?1542625920',
+        'https://img.scryfall.com/cards/png/front/c/0/c01c9474-90a1-4c2e-bd90-471ff4fd04e5.png?1547517257',
        art_crop:
-        'https://img.scryfall.com/cards/art_crop/front/c/0/c01c9474-90a1-4c2e-bd90-471ff4fd04e5.jpg?1542625920',
+        'https://img.scryfall.com/cards/art_crop/front/c/0/c01c9474-90a1-4c2e-bd90-471ff4fd04e5.jpg?1547517257',
        border_crop:
-        'https://img.scryfall.com/cards/border_crop/front/c/0/c01c9474-90a1-4c2e-bd90-471ff4fd04e5.jpg?1542625920' },
+        'https://img.scryfall.com/cards/border_crop/front/c/0/c01c9474-90a1-4c2e-bd90-471ff4fd04e5.jpg?1547517257' },
     mana_cost: '{R}',
     cmc: 1,
     type_line: 'Sorcery',
@@ -10909,9 +10802,8 @@ module.exports = [ { object: 'card',
        vintage: 'legal',
        penny: 'not_legal',
        commander: 'legal',
-       '1v1': 'legal',
        duel: 'legal',
-       brawl: 'not_legal' },
+       oldschool: 'not_legal' },
     games: [ 'mtgo', 'paper' ],
     reserved: false,
     foil: true,
@@ -10942,7 +10834,7 @@ module.exports = [ { object: 'card',
     frame_effect: '',
     full_art: false,
     story_spotlight: false,
-    edhrec_rank: 527,
+    edhrec_rank: 510,
     related_uris:
      { gatherer:
         'http://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=456728',
@@ -10966,20 +10858,20 @@ module.exports = [ { object: 'card',
     scryfall_uri:
      'https://scryfall.com/card/uma/131/furnace-celebration?utm_source=api',
     layout: 'normal',
-    highres_image: false,
+    highres_image: true,
     image_uris:
      { small:
-        'https://img.scryfall.com/cards/small/front/c/5/c5879ce5-7bc0-4688-a506-8b0796a00485.jpg?1542804048',
+        'https://img.scryfall.com/cards/small/front/c/5/c5879ce5-7bc0-4688-a506-8b0796a00485.jpg?1547517249',
        normal:
-        'https://img.scryfall.com/cards/normal/front/c/5/c5879ce5-7bc0-4688-a506-8b0796a00485.jpg?1542804048',
+        'https://img.scryfall.com/cards/normal/front/c/5/c5879ce5-7bc0-4688-a506-8b0796a00485.jpg?1547517249',
        large:
-        'https://img.scryfall.com/cards/large/front/c/5/c5879ce5-7bc0-4688-a506-8b0796a00485.jpg?1542804048',
+        'https://img.scryfall.com/cards/large/front/c/5/c5879ce5-7bc0-4688-a506-8b0796a00485.jpg?1547517249',
        png:
-        'https://img.scryfall.com/cards/png/front/c/5/c5879ce5-7bc0-4688-a506-8b0796a00485.png?1542804048',
+        'https://img.scryfall.com/cards/png/front/c/5/c5879ce5-7bc0-4688-a506-8b0796a00485.png?1547517249',
        art_crop:
-        'https://img.scryfall.com/cards/art_crop/front/c/5/c5879ce5-7bc0-4688-a506-8b0796a00485.jpg?1542804048',
+        'https://img.scryfall.com/cards/art_crop/front/c/5/c5879ce5-7bc0-4688-a506-8b0796a00485.jpg?1547517249',
        border_crop:
-        'https://img.scryfall.com/cards/border_crop/front/c/5/c5879ce5-7bc0-4688-a506-8b0796a00485.jpg?1542804048' },
+        'https://img.scryfall.com/cards/border_crop/front/c/5/c5879ce5-7bc0-4688-a506-8b0796a00485.jpg?1547517249' },
     mana_cost: '{1}{R}{R}',
     cmc: 3,
     type_line: 'Enchantment',
@@ -10997,9 +10889,8 @@ module.exports = [ { object: 'card',
        vintage: 'legal',
        penny: 'legal',
        commander: 'legal',
-       '1v1': 'legal',
        duel: 'legal',
-       brawl: 'not_legal' },
+       oldschool: 'not_legal' },
     games: [ 'mtgo', 'paper' ],
     reserved: false,
     foil: true,
@@ -11022,7 +10913,7 @@ module.exports = [ { object: 'card',
     digital: false,
     rarity: 'uncommon',
     flavor_text:
-     'Nothing impresses goblins more than something that\'s bound to kill them.',
+     "Nothing impresses goblins more than something that's bound to kill them.",
     illustration_id: 'cd24b76b-1e8f-4116-95a5-5d3ca5ee00c3',
     artist: 'Svetlin Velinov',
     border_color: 'black',
@@ -11030,7 +10921,7 @@ module.exports = [ { object: 'card',
     frame_effect: '',
     full_art: false,
     story_spotlight: false,
-    edhrec_rank: 8862,
+    edhrec_rank: 9024,
     related_uris:
      { gatherer:
         'http://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=456727',
@@ -11054,20 +10945,20 @@ module.exports = [ { object: 'card',
     scryfall_uri:
      'https://scryfall.com/card/uma/130/firewing-phoenix?utm_source=api',
     layout: 'normal',
-    highres_image: false,
+    highres_image: true,
     image_uris:
      { small:
-        'https://img.scryfall.com/cards/small/front/0/8/08d7c90a-b999-4e0b-87df-7355d6c36fb1.jpg?1542722308',
+        'https://img.scryfall.com/cards/small/front/0/8/08d7c90a-b999-4e0b-87df-7355d6c36fb1.jpg?1547517241',
        normal:
-        'https://img.scryfall.com/cards/normal/front/0/8/08d7c90a-b999-4e0b-87df-7355d6c36fb1.jpg?1542722308',
+        'https://img.scryfall.com/cards/normal/front/0/8/08d7c90a-b999-4e0b-87df-7355d6c36fb1.jpg?1547517241',
        large:
-        'https://img.scryfall.com/cards/large/front/0/8/08d7c90a-b999-4e0b-87df-7355d6c36fb1.jpg?1542722308',
+        'https://img.scryfall.com/cards/large/front/0/8/08d7c90a-b999-4e0b-87df-7355d6c36fb1.jpg?1547517241',
        png:
-        'https://img.scryfall.com/cards/png/front/0/8/08d7c90a-b999-4e0b-87df-7355d6c36fb1.png?1542722308',
+        'https://img.scryfall.com/cards/png/front/0/8/08d7c90a-b999-4e0b-87df-7355d6c36fb1.png?1547517241',
        art_crop:
-        'https://img.scryfall.com/cards/art_crop/front/0/8/08d7c90a-b999-4e0b-87df-7355d6c36fb1.jpg?1542722308',
+        'https://img.scryfall.com/cards/art_crop/front/0/8/08d7c90a-b999-4e0b-87df-7355d6c36fb1.jpg?1547517241',
        border_crop:
-        'https://img.scryfall.com/cards/border_crop/front/0/8/08d7c90a-b999-4e0b-87df-7355d6c36fb1.jpg?1542722308' },
+        'https://img.scryfall.com/cards/border_crop/front/0/8/08d7c90a-b999-4e0b-87df-7355d6c36fb1.jpg?1547517241' },
     mana_cost: '{3}{R}',
     cmc: 4,
     type_line: 'Creature — Phoenix',
@@ -11087,9 +10978,8 @@ module.exports = [ { object: 'card',
        vintage: 'legal',
        penny: 'legal',
        commander: 'legal',
-       '1v1': 'legal',
        duel: 'legal',
-       brawl: 'not_legal' },
+       oldschool: 'not_legal' },
     games: [ 'mtgo', 'paper' ],
     reserved: false,
     foil: true,
@@ -11120,7 +11010,7 @@ module.exports = [ { object: 'card',
     frame_effect: '',
     full_art: false,
     story_spotlight: false,
-    edhrec_rank: 8787,
+    edhrec_rank: 8952,
     related_uris:
      { gatherer:
         'http://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=456726',
@@ -11144,20 +11034,20 @@ module.exports = [ { object: 'card',
     scryfall_uri:
      'https://scryfall.com/card/uma/129/fiery-temper?utm_source=api',
     layout: 'normal',
-    highres_image: false,
+    highres_image: true,
     image_uris:
      { small:
-        'https://img.scryfall.com/cards/small/front/2/6/2610d0e0-2824-4d40-816b-e487ac8f0e03.jpg?1543000954',
+        'https://img.scryfall.com/cards/small/front/2/6/2610d0e0-2824-4d40-816b-e487ac8f0e03.jpg?1547517232',
        normal:
-        'https://img.scryfall.com/cards/normal/front/2/6/2610d0e0-2824-4d40-816b-e487ac8f0e03.jpg?1543000954',
+        'https://img.scryfall.com/cards/normal/front/2/6/2610d0e0-2824-4d40-816b-e487ac8f0e03.jpg?1547517232',
        large:
-        'https://img.scryfall.com/cards/large/front/2/6/2610d0e0-2824-4d40-816b-e487ac8f0e03.jpg?1543000954',
+        'https://img.scryfall.com/cards/large/front/2/6/2610d0e0-2824-4d40-816b-e487ac8f0e03.jpg?1547517232',
        png:
-        'https://img.scryfall.com/cards/png/front/2/6/2610d0e0-2824-4d40-816b-e487ac8f0e03.png?1543000954',
+        'https://img.scryfall.com/cards/png/front/2/6/2610d0e0-2824-4d40-816b-e487ac8f0e03.png?1547517232',
        art_crop:
-        'https://img.scryfall.com/cards/art_crop/front/2/6/2610d0e0-2824-4d40-816b-e487ac8f0e03.jpg?1543000954',
+        'https://img.scryfall.com/cards/art_crop/front/2/6/2610d0e0-2824-4d40-816b-e487ac8f0e03.jpg?1547517232',
        border_crop:
-        'https://img.scryfall.com/cards/border_crop/front/2/6/2610d0e0-2824-4d40-816b-e487ac8f0e03.jpg?1543000954' },
+        'https://img.scryfall.com/cards/border_crop/front/2/6/2610d0e0-2824-4d40-816b-e487ac8f0e03.jpg?1547517232' },
     mana_cost: '{1}{R}{R}',
     cmc: 3,
     type_line: 'Instant',
@@ -11173,11 +11063,10 @@ module.exports = [ { object: 'card',
        legacy: 'legal',
        pauper: 'legal',
        vintage: 'legal',
-       penny: 'not_legal',
+       penny: 'legal',
        commander: 'legal',
-       '1v1': 'legal',
        duel: 'legal',
-       brawl: 'not_legal' },
+       oldschool: 'not_legal' },
     games: [ 'mtgo', 'paper' ],
     reserved: false,
     foil: true,
@@ -11207,7 +11096,7 @@ module.exports = [ { object: 'card',
     frame_effect: '',
     full_art: false,
     story_spotlight: false,
-    edhrec_rank: 5893,
+    edhrec_rank: 6054,
     related_uris:
      { gatherer:
         'http://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=456725',
@@ -11231,20 +11120,20 @@ module.exports = [ { object: 'card',
     scryfall_uri:
      'https://scryfall.com/card/uma/128/faithless-looting?utm_source=api',
     layout: 'normal',
-    highres_image: false,
+    highres_image: true,
     image_uris:
      { small:
-        'https://img.scryfall.com/cards/small/front/4/e/4e0865d7-3325-489f-bbe6-b7d2a43c23af.jpg?1542634460',
+        'https://img.scryfall.com/cards/small/front/4/e/4e0865d7-3325-489f-bbe6-b7d2a43c23af.jpg?1547517220',
        normal:
-        'https://img.scryfall.com/cards/normal/front/4/e/4e0865d7-3325-489f-bbe6-b7d2a43c23af.jpg?1542634460',
+        'https://img.scryfall.com/cards/normal/front/4/e/4e0865d7-3325-489f-bbe6-b7d2a43c23af.jpg?1547517220',
        large:
-        'https://img.scryfall.com/cards/large/front/4/e/4e0865d7-3325-489f-bbe6-b7d2a43c23af.jpg?1542634460',
+        'https://img.scryfall.com/cards/large/front/4/e/4e0865d7-3325-489f-bbe6-b7d2a43c23af.jpg?1547517220',
        png:
-        'https://img.scryfall.com/cards/png/front/4/e/4e0865d7-3325-489f-bbe6-b7d2a43c23af.png?1542634460',
+        'https://img.scryfall.com/cards/png/front/4/e/4e0865d7-3325-489f-bbe6-b7d2a43c23af.png?1547517220',
        art_crop:
-        'https://img.scryfall.com/cards/art_crop/front/4/e/4e0865d7-3325-489f-bbe6-b7d2a43c23af.jpg?1542634460',
+        'https://img.scryfall.com/cards/art_crop/front/4/e/4e0865d7-3325-489f-bbe6-b7d2a43c23af.jpg?1547517220',
        border_crop:
-        'https://img.scryfall.com/cards/border_crop/front/4/e/4e0865d7-3325-489f-bbe6-b7d2a43c23af.jpg?1542634460' },
+        'https://img.scryfall.com/cards/border_crop/front/4/e/4e0865d7-3325-489f-bbe6-b7d2a43c23af.jpg?1547517220' },
     mana_cost: '{R}',
     cmc: 1,
     type_line: 'Sorcery',
@@ -11262,9 +11151,8 @@ module.exports = [ { object: 'card',
        vintage: 'legal',
        penny: 'not_legal',
        commander: 'legal',
-       '1v1': 'legal',
        duel: 'legal',
-       brawl: 'not_legal' },
+       oldschool: 'not_legal' },
     games: [ 'mtgo', 'paper' ],
     reserved: false,
     foil: true,
@@ -11295,7 +11183,7 @@ module.exports = [ { object: 'card',
     frame_effect: '',
     full_art: false,
     story_spotlight: false,
-    edhrec_rank: 293,
+    edhrec_rank: 280,
     related_uris:
      { gatherer:
         'http://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=456724',
@@ -11319,25 +11207,25 @@ module.exports = [ { object: 'card',
     scryfall_uri:
      'https://scryfall.com/card/uma/127/desperate-ritual?utm_source=api',
     layout: 'normal',
-    highres_image: false,
+    highres_image: true,
     image_uris:
      { small:
-        'https://img.scryfall.com/cards/small/front/3/8/3825b85d-07df-43b9-a8d8-930863262d83.jpg?1542803982',
+        'https://img.scryfall.com/cards/small/front/3/8/3825b85d-07df-43b9-a8d8-930863262d83.jpg?1547517210',
        normal:
-        'https://img.scryfall.com/cards/normal/front/3/8/3825b85d-07df-43b9-a8d8-930863262d83.jpg?1542803982',
+        'https://img.scryfall.com/cards/normal/front/3/8/3825b85d-07df-43b9-a8d8-930863262d83.jpg?1547517210',
        large:
-        'https://img.scryfall.com/cards/large/front/3/8/3825b85d-07df-43b9-a8d8-930863262d83.jpg?1542803982',
+        'https://img.scryfall.com/cards/large/front/3/8/3825b85d-07df-43b9-a8d8-930863262d83.jpg?1547517210',
        png:
-        'https://img.scryfall.com/cards/png/front/3/8/3825b85d-07df-43b9-a8d8-930863262d83.png?1542803982',
+        'https://img.scryfall.com/cards/png/front/3/8/3825b85d-07df-43b9-a8d8-930863262d83.png?1547517210',
        art_crop:
-        'https://img.scryfall.com/cards/art_crop/front/3/8/3825b85d-07df-43b9-a8d8-930863262d83.jpg?1542803982',
+        'https://img.scryfall.com/cards/art_crop/front/3/8/3825b85d-07df-43b9-a8d8-930863262d83.jpg?1547517210',
        border_crop:
-        'https://img.scryfall.com/cards/border_crop/front/3/8/3825b85d-07df-43b9-a8d8-930863262d83.jpg?1542803982' },
+        'https://img.scryfall.com/cards/border_crop/front/3/8/3825b85d-07df-43b9-a8d8-930863262d83.jpg?1547517210' },
     mana_cost: '{1}{R}',
     cmc: 2,
     type_line: 'Instant — Arcane',
     oracle_text:
-     'Add {R}{R}{R}.\nSplice onto Arcane {1}{R} (As you cast an Arcane spell, you may reveal this card from your hand and pay its splice cost. If you do, add this card\'s effects to that spell.)',
+     "Add {R}{R}{R}.\nSplice onto Arcane {1}{R} (As you cast an Arcane spell, you may reveal this card from your hand and pay its splice cost. If you do, add this card's effects to that spell.)",
     colors: [ 'R' ],
     color_identity: [ 'R' ],
     legalities:
@@ -11350,9 +11238,8 @@ module.exports = [ { object: 'card',
        vintage: 'legal',
        penny: 'not_legal',
        commander: 'legal',
-       '1v1': 'legal',
        duel: 'legal',
-       brawl: 'not_legal' },
+       oldschool: 'not_legal' },
     games: [ 'mtgo', 'paper' ],
     reserved: false,
     foil: true,
@@ -11381,7 +11268,7 @@ module.exports = [ { object: 'card',
     frame_effect: '',
     full_art: false,
     story_spotlight: false,
-    edhrec_rank: 3030,
+    edhrec_rank: 3064,
     related_uris:
      { gatherer:
         'http://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=456723',
@@ -11405,20 +11292,20 @@ module.exports = [ { object: 'card',
     scryfall_uri:
      'https://scryfall.com/card/uma/126/conflagrate?utm_source=api',
     layout: 'normal',
-    highres_image: false,
+    highres_image: true,
     image_uris:
      { small:
-        'https://img.scryfall.com/cards/small/front/b/7/b782ffb4-3c9d-4d5c-a927-8988166c2d94.jpg?1542753875',
+        'https://img.scryfall.com/cards/small/front/b/7/b782ffb4-3c9d-4d5c-a927-8988166c2d94.jpg?1547517199',
        normal:
-        'https://img.scryfall.com/cards/normal/front/b/7/b782ffb4-3c9d-4d5c-a927-8988166c2d94.jpg?1542753875',
+        'https://img.scryfall.com/cards/normal/front/b/7/b782ffb4-3c9d-4d5c-a927-8988166c2d94.jpg?1547517199',
        large:
-        'https://img.scryfall.com/cards/large/front/b/7/b782ffb4-3c9d-4d5c-a927-8988166c2d94.jpg?1542753875',
+        'https://img.scryfall.com/cards/large/front/b/7/b782ffb4-3c9d-4d5c-a927-8988166c2d94.jpg?1547517199',
        png:
-        'https://img.scryfall.com/cards/png/front/b/7/b782ffb4-3c9d-4d5c-a927-8988166c2d94.png?1542753875',
+        'https://img.scryfall.com/cards/png/front/b/7/b782ffb4-3c9d-4d5c-a927-8988166c2d94.png?1547517199',
        art_crop:
-        'https://img.scryfall.com/cards/art_crop/front/b/7/b782ffb4-3c9d-4d5c-a927-8988166c2d94.jpg?1542753875',
+        'https://img.scryfall.com/cards/art_crop/front/b/7/b782ffb4-3c9d-4d5c-a927-8988166c2d94.jpg?1547517199',
        border_crop:
-        'https://img.scryfall.com/cards/border_crop/front/b/7/b782ffb4-3c9d-4d5c-a927-8988166c2d94.jpg?1542753875' },
+        'https://img.scryfall.com/cards/border_crop/front/b/7/b782ffb4-3c9d-4d5c-a927-8988166c2d94.jpg?1547517199' },
     mana_cost: '{X}{X}{R}',
     cmc: 1,
     type_line: 'Sorcery',
@@ -11436,9 +11323,8 @@ module.exports = [ { object: 'card',
        vintage: 'legal',
        penny: 'not_legal',
        commander: 'legal',
-       '1v1': 'legal',
        duel: 'legal',
-       brawl: 'not_legal' },
+       oldschool: 'not_legal' },
     games: [ 'mtgo', 'paper' ],
     reserved: false,
     foil: true,
@@ -11467,7 +11353,7 @@ module.exports = [ { object: 'card',
     frame_effect: '',
     full_art: false,
     story_spotlight: false,
-    edhrec_rank: 9559,
+    edhrec_rank: 9650,
     related_uris:
      { gatherer:
         'http://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=456722',
@@ -11491,20 +11377,20 @@ module.exports = [ { object: 'card',
     scryfall_uri:
      'https://scryfall.com/card/uma/125/brazen-scourge?utm_source=api',
     layout: 'normal',
-    highres_image: false,
+    highres_image: true,
     image_uris:
      { small:
-        'https://img.scryfall.com/cards/small/front/f/7/f7e987cd-94a0-4332-89c4-c7662c8dc001.jpg?1542803843',
+        'https://img.scryfall.com/cards/small/front/f/7/f7e987cd-94a0-4332-89c4-c7662c8dc001.jpg?1547517190',
        normal:
-        'https://img.scryfall.com/cards/normal/front/f/7/f7e987cd-94a0-4332-89c4-c7662c8dc001.jpg?1542803843',
+        'https://img.scryfall.com/cards/normal/front/f/7/f7e987cd-94a0-4332-89c4-c7662c8dc001.jpg?1547517190',
        large:
-        'https://img.scryfall.com/cards/large/front/f/7/f7e987cd-94a0-4332-89c4-c7662c8dc001.jpg?1542803843',
+        'https://img.scryfall.com/cards/large/front/f/7/f7e987cd-94a0-4332-89c4-c7662c8dc001.jpg?1547517190',
        png:
-        'https://img.scryfall.com/cards/png/front/f/7/f7e987cd-94a0-4332-89c4-c7662c8dc001.png?1542803843',
+        'https://img.scryfall.com/cards/png/front/f/7/f7e987cd-94a0-4332-89c4-c7662c8dc001.png?1547517190',
        art_crop:
-        'https://img.scryfall.com/cards/art_crop/front/f/7/f7e987cd-94a0-4332-89c4-c7662c8dc001.jpg?1542803843',
+        'https://img.scryfall.com/cards/art_crop/front/f/7/f7e987cd-94a0-4332-89c4-c7662c8dc001.jpg?1547517190',
        border_crop:
-        'https://img.scryfall.com/cards/border_crop/front/f/7/f7e987cd-94a0-4332-89c4-c7662c8dc001.jpg?1542803843' },
+        'https://img.scryfall.com/cards/border_crop/front/f/7/f7e987cd-94a0-4332-89c4-c7662c8dc001.jpg?1547517190' },
     mana_cost: '{1}{R}{R}',
     cmc: 3,
     type_line: 'Creature — Gremlin',
@@ -11523,9 +11409,8 @@ module.exports = [ { object: 'card',
        vintage: 'legal',
        penny: 'legal',
        commander: 'legal',
-       '1v1': 'legal',
        duel: 'legal',
-       brawl: 'not_legal' },
+       oldschool: 'not_legal' },
     games: [ 'mtgo', 'paper' ],
     reserved: false,
     foil: true,
@@ -11556,7 +11441,7 @@ module.exports = [ { object: 'card',
     frame_effect: '',
     full_art: false,
     story_spotlight: false,
-    edhrec_rank: 11530,
+    edhrec_rank: 11767,
     related_uris:
      { gatherer:
         'http://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=456721',
@@ -11584,17 +11469,17 @@ module.exports = [ { object: 'card',
     highres_image: true,
     image_uris:
      { small:
-        'https://img.scryfall.com/cards/small/front/4/6/468d5308-2a6c-440e-a8d0-1c5e084afb82.jpg?1545067874',
+        'https://img.scryfall.com/cards/small/front/4/6/468d5308-2a6c-440e-a8d0-1c5e084afb82.jpg?1547517180',
        normal:
-        'https://img.scryfall.com/cards/normal/front/4/6/468d5308-2a6c-440e-a8d0-1c5e084afb82.jpg?1545067874',
+        'https://img.scryfall.com/cards/normal/front/4/6/468d5308-2a6c-440e-a8d0-1c5e084afb82.jpg?1547517180',
        large:
-        'https://img.scryfall.com/cards/large/front/4/6/468d5308-2a6c-440e-a8d0-1c5e084afb82.jpg?1545067874',
+        'https://img.scryfall.com/cards/large/front/4/6/468d5308-2a6c-440e-a8d0-1c5e084afb82.jpg?1547517180',
        png:
-        'https://img.scryfall.com/cards/png/front/4/6/468d5308-2a6c-440e-a8d0-1c5e084afb82.png?1545067874',
+        'https://img.scryfall.com/cards/png/front/4/6/468d5308-2a6c-440e-a8d0-1c5e084afb82.png?1547517180',
        art_crop:
-        'https://img.scryfall.com/cards/art_crop/front/4/6/468d5308-2a6c-440e-a8d0-1c5e084afb82.jpg?1545067874',
+        'https://img.scryfall.com/cards/art_crop/front/4/6/468d5308-2a6c-440e-a8d0-1c5e084afb82.jpg?1547517180',
        border_crop:
-        'https://img.scryfall.com/cards/border_crop/front/4/6/468d5308-2a6c-440e-a8d0-1c5e084afb82.jpg?1545067874' },
+        'https://img.scryfall.com/cards/border_crop/front/4/6/468d5308-2a6c-440e-a8d0-1c5e084afb82.jpg?1547517180' },
     mana_cost: '{5}{R}{R}',
     cmc: 7,
     type_line: 'Creature — Dragon',
@@ -11614,9 +11499,8 @@ module.exports = [ { object: 'card',
        vintage: 'legal',
        penny: 'not_legal',
        commander: 'legal',
-       '1v1': 'legal',
        duel: 'legal',
-       brawl: 'not_legal' },
+       oldschool: 'not_legal' },
     games: [ 'mtgo', 'paper' ],
     reserved: false,
     foil: true,
@@ -11647,7 +11531,7 @@ module.exports = [ { object: 'card',
     frame_effect: '',
     full_art: false,
     story_spotlight: false,
-    edhrec_rank: 687,
+    edhrec_rank: 671,
     related_uris:
      { gatherer:
         'http://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=456720',
@@ -11671,25 +11555,25 @@ module.exports = [ { object: 'card',
     scryfall_uri:
      'https://scryfall.com/card/uma/123/arena-athlete?utm_source=api',
     layout: 'normal',
-    highres_image: false,
+    highres_image: true,
     image_uris:
      { small:
-        'https://img.scryfall.com/cards/small/front/b/a/bacc2881-26b8-4199-9b7d-e12c75effe6e.jpg?1542803785',
+        'https://img.scryfall.com/cards/small/front/b/a/bacc2881-26b8-4199-9b7d-e12c75effe6e.jpg?1547517169',
        normal:
-        'https://img.scryfall.com/cards/normal/front/b/a/bacc2881-26b8-4199-9b7d-e12c75effe6e.jpg?1542803785',
+        'https://img.scryfall.com/cards/normal/front/b/a/bacc2881-26b8-4199-9b7d-e12c75effe6e.jpg?1547517169',
        large:
-        'https://img.scryfall.com/cards/large/front/b/a/bacc2881-26b8-4199-9b7d-e12c75effe6e.jpg?1542803785',
+        'https://img.scryfall.com/cards/large/front/b/a/bacc2881-26b8-4199-9b7d-e12c75effe6e.jpg?1547517169',
        png:
-        'https://img.scryfall.com/cards/png/front/b/a/bacc2881-26b8-4199-9b7d-e12c75effe6e.png?1542803785',
+        'https://img.scryfall.com/cards/png/front/b/a/bacc2881-26b8-4199-9b7d-e12c75effe6e.png?1547517169',
        art_crop:
-        'https://img.scryfall.com/cards/art_crop/front/b/a/bacc2881-26b8-4199-9b7d-e12c75effe6e.jpg?1542803785',
+        'https://img.scryfall.com/cards/art_crop/front/b/a/bacc2881-26b8-4199-9b7d-e12c75effe6e.jpg?1547517169',
        border_crop:
-        'https://img.scryfall.com/cards/border_crop/front/b/a/bacc2881-26b8-4199-9b7d-e12c75effe6e.jpg?1542803785' },
+        'https://img.scryfall.com/cards/border_crop/front/b/a/bacc2881-26b8-4199-9b7d-e12c75effe6e.jpg?1547517169' },
     mana_cost: '{1}{R}',
     cmc: 2,
     type_line: 'Creature — Human',
     oracle_text:
-     'Heroic — Whenever you cast a spell that targets Arena Athlete, target creature an opponent controls can\'t block this turn.',
+     "Heroic — Whenever you cast a spell that targets Arena Athlete, target creature an opponent controls can't block this turn.",
     power: '2',
     toughness: '1',
     colors: [ 'R' ],
@@ -11704,9 +11588,8 @@ module.exports = [ { object: 'card',
        vintage: 'legal',
        penny: 'legal',
        commander: 'legal',
-       '1v1': 'legal',
        duel: 'legal',
-       brawl: 'not_legal' },
+       oldschool: 'not_legal' },
     games: [ 'mtgo', 'paper' ],
     reserved: false,
     foil: true,
@@ -11737,7 +11620,7 @@ module.exports = [ { object: 'card',
     frame_effect: '',
     full_art: false,
     story_spotlight: false,
-    edhrec_rank: 12084,
+    edhrec_rank: 12242,
     related_uris:
      { gatherer:
         'http://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=456719',
@@ -11760,20 +11643,20 @@ module.exports = [ { object: 'card',
      'https://api.scryfall.com/cards/fd0768df-40c3-4b07-9274-e619cae3dd2b',
     scryfall_uri: 'https://scryfall.com/card/uma/122/anger?utm_source=api',
     layout: 'normal',
-    highres_image: false,
+    highres_image: true,
     image_uris:
      { small:
-        'https://img.scryfall.com/cards/small/front/f/d/fd0768df-40c3-4b07-9274-e619cae3dd2b.jpg?1542803736',
+        'https://img.scryfall.com/cards/small/front/f/d/fd0768df-40c3-4b07-9274-e619cae3dd2b.jpg?1547517159',
        normal:
-        'https://img.scryfall.com/cards/normal/front/f/d/fd0768df-40c3-4b07-9274-e619cae3dd2b.jpg?1542803736',
+        'https://img.scryfall.com/cards/normal/front/f/d/fd0768df-40c3-4b07-9274-e619cae3dd2b.jpg?1547517159',
        large:
-        'https://img.scryfall.com/cards/large/front/f/d/fd0768df-40c3-4b07-9274-e619cae3dd2b.jpg?1542803736',
+        'https://img.scryfall.com/cards/large/front/f/d/fd0768df-40c3-4b07-9274-e619cae3dd2b.jpg?1547517159',
        png:
-        'https://img.scryfall.com/cards/png/front/f/d/fd0768df-40c3-4b07-9274-e619cae3dd2b.png?1542803736',
+        'https://img.scryfall.com/cards/png/front/f/d/fd0768df-40c3-4b07-9274-e619cae3dd2b.png?1547517159',
        art_crop:
-        'https://img.scryfall.com/cards/art_crop/front/f/d/fd0768df-40c3-4b07-9274-e619cae3dd2b.jpg?1542803736',
+        'https://img.scryfall.com/cards/art_crop/front/f/d/fd0768df-40c3-4b07-9274-e619cae3dd2b.jpg?1547517159',
        border_crop:
-        'https://img.scryfall.com/cards/border_crop/front/f/d/fd0768df-40c3-4b07-9274-e619cae3dd2b.jpg?1542803736' },
+        'https://img.scryfall.com/cards/border_crop/front/f/d/fd0768df-40c3-4b07-9274-e619cae3dd2b.jpg?1547517159' },
     mana_cost: '{3}{R}',
     cmc: 4,
     type_line: 'Creature — Incarnation',
@@ -11793,9 +11676,8 @@ module.exports = [ { object: 'card',
        vintage: 'legal',
        penny: 'not_legal',
        commander: 'legal',
-       '1v1': 'legal',
        duel: 'legal',
-       brawl: 'not_legal' },
+       oldschool: 'not_legal' },
     games: [ 'mtgo', 'paper' ],
     reserved: false,
     foil: true,
@@ -11826,7 +11708,7 @@ module.exports = [ { object: 'card',
     frame_effect: '',
     full_art: false,
     story_spotlight: false,
-    edhrec_rank: 526,
+    edhrec_rank: 513,
     related_uris:
      { gatherer:
         'http://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=456718',
@@ -11850,20 +11732,20 @@ module.exports = [ { object: 'card',
     scryfall_uri:
      'https://scryfall.com/card/uma/121/akroan-crusader?utm_source=api',
     layout: 'normal',
-    highres_image: false,
+    highres_image: true,
     image_uris:
      { small:
-        'https://img.scryfall.com/cards/small/front/7/3/73d295ac-3c83-47db-a324-aa4907bcefdd.jpg?1542803643',
+        'https://img.scryfall.com/cards/small/front/7/3/73d295ac-3c83-47db-a324-aa4907bcefdd.jpg?1547517140',
        normal:
-        'https://img.scryfall.com/cards/normal/front/7/3/73d295ac-3c83-47db-a324-aa4907bcefdd.jpg?1542803643',
+        'https://img.scryfall.com/cards/normal/front/7/3/73d295ac-3c83-47db-a324-aa4907bcefdd.jpg?1547517140',
        large:
-        'https://img.scryfall.com/cards/large/front/7/3/73d295ac-3c83-47db-a324-aa4907bcefdd.jpg?1542803643',
+        'https://img.scryfall.com/cards/large/front/7/3/73d295ac-3c83-47db-a324-aa4907bcefdd.jpg?1547517140',
        png:
-        'https://img.scryfall.com/cards/png/front/7/3/73d295ac-3c83-47db-a324-aa4907bcefdd.png?1542803643',
+        'https://img.scryfall.com/cards/png/front/7/3/73d295ac-3c83-47db-a324-aa4907bcefdd.png?1547517140',
        art_crop:
-        'https://img.scryfall.com/cards/art_crop/front/7/3/73d295ac-3c83-47db-a324-aa4907bcefdd.jpg?1542803643',
+        'https://img.scryfall.com/cards/art_crop/front/7/3/73d295ac-3c83-47db-a324-aa4907bcefdd.jpg?1547517140',
        border_crop:
-        'https://img.scryfall.com/cards/border_crop/front/7/3/73d295ac-3c83-47db-a324-aa4907bcefdd.jpg?1542803643' },
+        'https://img.scryfall.com/cards/border_crop/front/7/3/73d295ac-3c83-47db-a324-aa4907bcefdd.jpg?1547517140' },
     mana_cost: '{R}',
     cmc: 1,
     type_line: 'Creature — Human Soldier',
@@ -11898,9 +11780,8 @@ module.exports = [ { object: 'card',
        vintage: 'legal',
        penny: 'legal',
        commander: 'legal',
-       '1v1': 'legal',
        duel: 'legal',
-       brawl: 'not_legal' },
+       oldschool: 'not_legal' },
     games: [ 'mtgo', 'paper' ],
     reserved: false,
     foil: true,
@@ -11923,7 +11804,7 @@ module.exports = [ { object: 'card',
     digital: false,
     rarity: 'common',
     flavor_text:
-     'An Akroan soldier\'s worth is measured by the number of swords raised by his battle cry.',
+     "An Akroan soldier's worth is measured by the number of swords raised by his battle cry.",
     illustration_id: 'acb66454-1cbe-4c5e-960c-fc9dc4b268f5',
     artist: 'Johann Bodin',
     border_color: 'black',
@@ -11931,7 +11812,7 @@ module.exports = [ { object: 'card',
     frame_effect: '',
     full_art: false,
     story_spotlight: false,
-    edhrec_rank: 7025,
+    edhrec_rank: 7142,
     related_uris:
      { gatherer:
         'http://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=456717',
@@ -11955,20 +11836,20 @@ module.exports = [ { object: 'card',
     scryfall_uri:
      'https://scryfall.com/card/uma/120/unholy-hunger?utm_source=api',
     layout: 'normal',
-    highres_image: false,
+    highres_image: true,
     image_uris:
      { small:
-        'https://img.scryfall.com/cards/small/front/c/6/c6883e3c-265e-408a-b733-35b89b66dabd.jpg?1542801756',
+        'https://img.scryfall.com/cards/small/front/c/6/c6883e3c-265e-408a-b733-35b89b66dabd.jpg?1547517125',
        normal:
-        'https://img.scryfall.com/cards/normal/front/c/6/c6883e3c-265e-408a-b733-35b89b66dabd.jpg?1542801756',
+        'https://img.scryfall.com/cards/normal/front/c/6/c6883e3c-265e-408a-b733-35b89b66dabd.jpg?1547517125',
        large:
-        'https://img.scryfall.com/cards/large/front/c/6/c6883e3c-265e-408a-b733-35b89b66dabd.jpg?1542801756',
+        'https://img.scryfall.com/cards/large/front/c/6/c6883e3c-265e-408a-b733-35b89b66dabd.jpg?1547517125',
        png:
-        'https://img.scryfall.com/cards/png/front/c/6/c6883e3c-265e-408a-b733-35b89b66dabd.png?1542801756',
+        'https://img.scryfall.com/cards/png/front/c/6/c6883e3c-265e-408a-b733-35b89b66dabd.png?1547517125',
        art_crop:
-        'https://img.scryfall.com/cards/art_crop/front/c/6/c6883e3c-265e-408a-b733-35b89b66dabd.jpg?1542801756',
+        'https://img.scryfall.com/cards/art_crop/front/c/6/c6883e3c-265e-408a-b733-35b89b66dabd.jpg?1547517125',
        border_crop:
-        'https://img.scryfall.com/cards/border_crop/front/c/6/c6883e3c-265e-408a-b733-35b89b66dabd.jpg?1542801756' },
+        'https://img.scryfall.com/cards/border_crop/front/c/6/c6883e3c-265e-408a-b733-35b89b66dabd.jpg?1547517125' },
     mana_cost: '{3}{B}{B}',
     cmc: 5,
     type_line: 'Instant',
@@ -11986,9 +11867,8 @@ module.exports = [ { object: 'card',
        vintage: 'legal',
        penny: 'legal',
        commander: 'legal',
-       '1v1': 'legal',
        duel: 'legal',
-       brawl: 'not_legal' },
+       oldschool: 'not_legal' },
     games: [ 'mtgo', 'paper' ],
     reserved: false,
     foil: true,
@@ -12019,7 +11899,7 @@ module.exports = [ { object: 'card',
     frame_effect: '',
     full_art: false,
     story_spotlight: false,
-    edhrec_rank: 10508,
+    edhrec_rank: 10615,
     related_uris:
      { gatherer:
         'http://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=456716',
@@ -12043,20 +11923,20 @@ module.exports = [ { object: 'card',
     scryfall_uri:
      'https://scryfall.com/card/uma/119/unburial-rites?utm_source=api',
     layout: 'normal',
-    highres_image: false,
+    highres_image: true,
     image_uris:
      { small:
-        'https://img.scryfall.com/cards/small/front/f/a/faffb7ad-4d85-48de-80c8-dcf2ebf190fd.jpg?1542801632',
+        'https://img.scryfall.com/cards/small/front/f/a/faffb7ad-4d85-48de-80c8-dcf2ebf190fd.jpg?1547517115',
        normal:
-        'https://img.scryfall.com/cards/normal/front/f/a/faffb7ad-4d85-48de-80c8-dcf2ebf190fd.jpg?1542801632',
+        'https://img.scryfall.com/cards/normal/front/f/a/faffb7ad-4d85-48de-80c8-dcf2ebf190fd.jpg?1547517115',
        large:
-        'https://img.scryfall.com/cards/large/front/f/a/faffb7ad-4d85-48de-80c8-dcf2ebf190fd.jpg?1542801632',
+        'https://img.scryfall.com/cards/large/front/f/a/faffb7ad-4d85-48de-80c8-dcf2ebf190fd.jpg?1547517115',
        png:
-        'https://img.scryfall.com/cards/png/front/f/a/faffb7ad-4d85-48de-80c8-dcf2ebf190fd.png?1542801632',
+        'https://img.scryfall.com/cards/png/front/f/a/faffb7ad-4d85-48de-80c8-dcf2ebf190fd.png?1547517115',
        art_crop:
-        'https://img.scryfall.com/cards/art_crop/front/f/a/faffb7ad-4d85-48de-80c8-dcf2ebf190fd.jpg?1542801632',
+        'https://img.scryfall.com/cards/art_crop/front/f/a/faffb7ad-4d85-48de-80c8-dcf2ebf190fd.jpg?1547517115',
        border_crop:
-        'https://img.scryfall.com/cards/border_crop/front/f/a/faffb7ad-4d85-48de-80c8-dcf2ebf190fd.jpg?1542801632' },
+        'https://img.scryfall.com/cards/border_crop/front/f/a/faffb7ad-4d85-48de-80c8-dcf2ebf190fd.jpg?1547517115' },
     mana_cost: '{4}{B}',
     cmc: 5,
     type_line: 'Sorcery',
@@ -12074,9 +11954,8 @@ module.exports = [ { object: 'card',
        vintage: 'legal',
        penny: 'not_legal',
        commander: 'legal',
-       '1v1': 'legal',
        duel: 'legal',
-       brawl: 'not_legal' },
+       oldschool: 'not_legal' },
     games: [ 'mtgo', 'paper' ],
     reserved: false,
     foil: true,
@@ -12130,20 +12009,20 @@ module.exports = [ { object: 'card',
     scryfall_uri:
      'https://scryfall.com/card/uma/118/twins-of-maurer-estate?utm_source=api',
     layout: 'normal',
-    highres_image: false,
+    highres_image: true,
     image_uris:
      { small:
-        'https://img.scryfall.com/cards/small/front/f/6/f689e20a-2c24-44a3-9e1b-7717df3d1948.jpg?1542801586',
+        'https://img.scryfall.com/cards/small/front/f/6/f689e20a-2c24-44a3-9e1b-7717df3d1948.jpg?1547517103',
        normal:
-        'https://img.scryfall.com/cards/normal/front/f/6/f689e20a-2c24-44a3-9e1b-7717df3d1948.jpg?1542801586',
+        'https://img.scryfall.com/cards/normal/front/f/6/f689e20a-2c24-44a3-9e1b-7717df3d1948.jpg?1547517103',
        large:
-        'https://img.scryfall.com/cards/large/front/f/6/f689e20a-2c24-44a3-9e1b-7717df3d1948.jpg?1542801586',
+        'https://img.scryfall.com/cards/large/front/f/6/f689e20a-2c24-44a3-9e1b-7717df3d1948.jpg?1547517103',
        png:
-        'https://img.scryfall.com/cards/png/front/f/6/f689e20a-2c24-44a3-9e1b-7717df3d1948.png?1542801586',
+        'https://img.scryfall.com/cards/png/front/f/6/f689e20a-2c24-44a3-9e1b-7717df3d1948.png?1547517103',
        art_crop:
-        'https://img.scryfall.com/cards/art_crop/front/f/6/f689e20a-2c24-44a3-9e1b-7717df3d1948.jpg?1542801586',
+        'https://img.scryfall.com/cards/art_crop/front/f/6/f689e20a-2c24-44a3-9e1b-7717df3d1948.jpg?1547517103',
        border_crop:
-        'https://img.scryfall.com/cards/border_crop/front/f/6/f689e20a-2c24-44a3-9e1b-7717df3d1948.jpg?1542801586' },
+        'https://img.scryfall.com/cards/border_crop/front/f/6/f689e20a-2c24-44a3-9e1b-7717df3d1948.jpg?1547517103' },
     mana_cost: '{4}{B}',
     cmc: 5,
     type_line: 'Creature — Vampire',
@@ -12163,9 +12042,8 @@ module.exports = [ { object: 'card',
        vintage: 'legal',
        penny: 'legal',
        commander: 'legal',
-       '1v1': 'legal',
        duel: 'legal',
-       brawl: 'not_legal' },
+       oldschool: 'not_legal' },
     games: [ 'mtgo', 'paper' ],
     reserved: false,
     foil: true,
@@ -12196,7 +12074,7 @@ module.exports = [ { object: 'card',
     frame_effect: '',
     full_art: false,
     story_spotlight: false,
-    edhrec_rank: 8661,
+    edhrec_rank: 8852,
     related_uris:
      { gatherer:
         'http://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=456714',
@@ -12224,22 +12102,22 @@ module.exports = [ { object: 'card',
     highres_image: true,
     image_uris:
      { small:
-        'https://img.scryfall.com/cards/small/front/d/7/d7b7d726-c395-4af4-aa6a-e8e0c0582a1f.jpg?1545071676',
+        'https://img.scryfall.com/cards/small/front/d/7/d7b7d726-c395-4af4-aa6a-e8e0c0582a1f.jpg?1547517092',
        normal:
-        'https://img.scryfall.com/cards/normal/front/d/7/d7b7d726-c395-4af4-aa6a-e8e0c0582a1f.jpg?1545071676',
+        'https://img.scryfall.com/cards/normal/front/d/7/d7b7d726-c395-4af4-aa6a-e8e0c0582a1f.jpg?1547517092',
        large:
-        'https://img.scryfall.com/cards/large/front/d/7/d7b7d726-c395-4af4-aa6a-e8e0c0582a1f.jpg?1545071676',
+        'https://img.scryfall.com/cards/large/front/d/7/d7b7d726-c395-4af4-aa6a-e8e0c0582a1f.jpg?1547517092',
        png:
-        'https://img.scryfall.com/cards/png/front/d/7/d7b7d726-c395-4af4-aa6a-e8e0c0582a1f.png?1545071676',
+        'https://img.scryfall.com/cards/png/front/d/7/d7b7d726-c395-4af4-aa6a-e8e0c0582a1f.png?1547517092',
        art_crop:
-        'https://img.scryfall.com/cards/art_crop/front/d/7/d7b7d726-c395-4af4-aa6a-e8e0c0582a1f.jpg?1545071676',
+        'https://img.scryfall.com/cards/art_crop/front/d/7/d7b7d726-c395-4af4-aa6a-e8e0c0582a1f.jpg?1547517092',
        border_crop:
-        'https://img.scryfall.com/cards/border_crop/front/d/7/d7b7d726-c395-4af4-aa6a-e8e0c0582a1f.jpg?1545071676' },
+        'https://img.scryfall.com/cards/border_crop/front/d/7/d7b7d726-c395-4af4-aa6a-e8e0c0582a1f.jpg?1547517092' },
     mana_cost: '{5}{B}',
     cmc: 6,
     type_line: 'Legendary Creature — Human Shaman',
     oracle_text:
-     'Delve (Each card you exile from your graveyard while casting this spell pays for {1}.)\n{2}{G/U}{G/U}: Put the top two cards of your library into your graveyard, then return a nonland card of an opponent\'s choice from your graveyard to your hand.',
+     "Delve (Each card you exile from your graveyard while casting this spell pays for {1}.)\n{2}{G/U}{G/U}: Put the top two cards of your library into your graveyard, then return a nonland card of an opponent's choice from your graveyard to your hand.",
     power: '4',
     toughness: '5',
     colors: [ 'B' ],
@@ -12254,9 +12132,8 @@ module.exports = [ { object: 'card',
        vintage: 'legal',
        penny: 'not_legal',
        commander: 'legal',
-       '1v1': 'legal',
        duel: 'restricted',
-       brawl: 'not_legal' },
+       oldschool: 'not_legal' },
     games: [ 'mtgo', 'paper' ],
     reserved: false,
     foil: true,
@@ -12285,7 +12162,7 @@ module.exports = [ { object: 'card',
     frame_effect: '',
     full_art: false,
     story_spotlight: false,
-    edhrec_rank: 3011,
+    edhrec_rank: 3079,
     related_uris:
      { gatherer:
         'http://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=456713',
@@ -12309,20 +12186,20 @@ module.exports = [ { object: 'card',
     scryfall_uri:
      'https://scryfall.com/card/uma/116/spoils-of-the-vault?utm_source=api',
     layout: 'normal',
-    highres_image: false,
+    highres_image: true,
     image_uris:
      { small:
-        'https://img.scryfall.com/cards/small/front/6/e/6eb97a96-2c56-4638-b971-00cdf1eafd43.jpg?1542806337',
+        'https://img.scryfall.com/cards/small/front/6/e/6eb97a96-2c56-4638-b971-00cdf1eafd43.jpg?1547517076',
        normal:
-        'https://img.scryfall.com/cards/normal/front/6/e/6eb97a96-2c56-4638-b971-00cdf1eafd43.jpg?1542806337',
+        'https://img.scryfall.com/cards/normal/front/6/e/6eb97a96-2c56-4638-b971-00cdf1eafd43.jpg?1547517076',
        large:
-        'https://img.scryfall.com/cards/large/front/6/e/6eb97a96-2c56-4638-b971-00cdf1eafd43.jpg?1542806337',
+        'https://img.scryfall.com/cards/large/front/6/e/6eb97a96-2c56-4638-b971-00cdf1eafd43.jpg?1547517076',
        png:
-        'https://img.scryfall.com/cards/png/front/6/e/6eb97a96-2c56-4638-b971-00cdf1eafd43.png?1542806337',
+        'https://img.scryfall.com/cards/png/front/6/e/6eb97a96-2c56-4638-b971-00cdf1eafd43.png?1547517076',
        art_crop:
-        'https://img.scryfall.com/cards/art_crop/front/6/e/6eb97a96-2c56-4638-b971-00cdf1eafd43.jpg?1542806337',
+        'https://img.scryfall.com/cards/art_crop/front/6/e/6eb97a96-2c56-4638-b971-00cdf1eafd43.jpg?1547517076',
        border_crop:
-        'https://img.scryfall.com/cards/border_crop/front/6/e/6eb97a96-2c56-4638-b971-00cdf1eafd43.jpg?1542806337' },
+        'https://img.scryfall.com/cards/border_crop/front/6/e/6eb97a96-2c56-4638-b971-00cdf1eafd43.jpg?1547517076' },
     mana_cost: '{B}',
     cmc: 1,
     type_line: 'Instant',
@@ -12340,9 +12217,8 @@ module.exports = [ { object: 'card',
        vintage: 'legal',
        penny: 'not_legal',
        commander: 'legal',
-       '1v1': 'legal',
        duel: 'legal',
-       brawl: 'not_legal' },
+       oldschool: 'not_legal' },
     games: [ 'mtgo', 'paper' ],
     reserved: false,
     foil: true,
@@ -12371,7 +12247,7 @@ module.exports = [ { object: 'card',
     frame_effect: '',
     full_art: false,
     story_spotlight: false,
-    edhrec_rank: 13118,
+    edhrec_rank: 13224,
     related_uris:
      { gatherer:
         'http://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=456712',
@@ -12395,20 +12271,20 @@ module.exports = [ { object: 'card',
     scryfall_uri:
      'https://scryfall.com/card/uma/115/songs-of-the-damned?utm_source=api',
     layout: 'normal',
-    highres_image: false,
+    highres_image: true,
     image_uris:
      { small:
-        'https://img.scryfall.com/cards/small/front/9/1/9133b267-295d-4987-b1d6-f32a85b66081.jpg?1542809113',
+        'https://img.scryfall.com/cards/small/front/9/1/9133b267-295d-4987-b1d6-f32a85b66081.jpg?1547517061',
        normal:
-        'https://img.scryfall.com/cards/normal/front/9/1/9133b267-295d-4987-b1d6-f32a85b66081.jpg?1542809113',
+        'https://img.scryfall.com/cards/normal/front/9/1/9133b267-295d-4987-b1d6-f32a85b66081.jpg?1547517061',
        large:
-        'https://img.scryfall.com/cards/large/front/9/1/9133b267-295d-4987-b1d6-f32a85b66081.jpg?1542809113',
+        'https://img.scryfall.com/cards/large/front/9/1/9133b267-295d-4987-b1d6-f32a85b66081.jpg?1547517061',
        png:
-        'https://img.scryfall.com/cards/png/front/9/1/9133b267-295d-4987-b1d6-f32a85b66081.png?1542809113',
+        'https://img.scryfall.com/cards/png/front/9/1/9133b267-295d-4987-b1d6-f32a85b66081.png?1547517061',
        art_crop:
-        'https://img.scryfall.com/cards/art_crop/front/9/1/9133b267-295d-4987-b1d6-f32a85b66081.jpg?1542809113',
+        'https://img.scryfall.com/cards/art_crop/front/9/1/9133b267-295d-4987-b1d6-f32a85b66081.jpg?1547517061',
        border_crop:
-        'https://img.scryfall.com/cards/border_crop/front/9/1/9133b267-295d-4987-b1d6-f32a85b66081.jpg?1542809113' },
+        'https://img.scryfall.com/cards/border_crop/front/9/1/9133b267-295d-4987-b1d6-f32a85b66081.jpg?1547517061' },
     mana_cost: '{B}',
     cmc: 1,
     type_line: 'Instant',
@@ -12425,9 +12301,8 @@ module.exports = [ { object: 'card',
        vintage: 'legal',
        penny: 'not_legal',
        commander: 'legal',
-       '1v1': 'legal',
        duel: 'legal',
-       brawl: 'not_legal' },
+       oldschool: 'not_legal' },
     games: [ 'mtgo', 'paper' ],
     reserved: false,
     foil: true,
@@ -12457,7 +12332,7 @@ module.exports = [ { object: 'card',
     frame_effect: '',
     full_art: false,
     story_spotlight: false,
-    edhrec_rank: 5475,
+    edhrec_rank: 5513,
     related_uris:
      { gatherer:
         'http://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=456711',
@@ -12481,20 +12356,20 @@ module.exports = [ { object: 'card',
     scryfall_uri:
      'https://scryfall.com/card/uma/114/slum-reaper?utm_source=api',
     layout: 'normal',
-    highres_image: false,
+    highres_image: true,
     image_uris:
      { small:
-        'https://img.scryfall.com/cards/small/front/4/7/475690db-4934-4c2e-b869-a6499d86a9c5.jpg?1542722765',
+        'https://img.scryfall.com/cards/small/front/4/7/475690db-4934-4c2e-b869-a6499d86a9c5.jpg?1547517048',
        normal:
-        'https://img.scryfall.com/cards/normal/front/4/7/475690db-4934-4c2e-b869-a6499d86a9c5.jpg?1542722765',
+        'https://img.scryfall.com/cards/normal/front/4/7/475690db-4934-4c2e-b869-a6499d86a9c5.jpg?1547517048',
        large:
-        'https://img.scryfall.com/cards/large/front/4/7/475690db-4934-4c2e-b869-a6499d86a9c5.jpg?1542722765',
+        'https://img.scryfall.com/cards/large/front/4/7/475690db-4934-4c2e-b869-a6499d86a9c5.jpg?1547517048',
        png:
-        'https://img.scryfall.com/cards/png/front/4/7/475690db-4934-4c2e-b869-a6499d86a9c5.png?1542722765',
+        'https://img.scryfall.com/cards/png/front/4/7/475690db-4934-4c2e-b869-a6499d86a9c5.png?1547517048',
        art_crop:
-        'https://img.scryfall.com/cards/art_crop/front/4/7/475690db-4934-4c2e-b869-a6499d86a9c5.jpg?1542722765',
+        'https://img.scryfall.com/cards/art_crop/front/4/7/475690db-4934-4c2e-b869-a6499d86a9c5.jpg?1547517048',
        border_crop:
-        'https://img.scryfall.com/cards/border_crop/front/4/7/475690db-4934-4c2e-b869-a6499d86a9c5.jpg?1542722765' },
+        'https://img.scryfall.com/cards/border_crop/front/4/7/475690db-4934-4c2e-b869-a6499d86a9c5.jpg?1547517048' },
     mana_cost: '{3}{B}',
     cmc: 4,
     type_line: 'Creature — Horror',
@@ -12514,9 +12389,8 @@ module.exports = [ { object: 'card',
        vintage: 'legal',
        penny: 'legal',
        commander: 'legal',
-       '1v1': 'legal',
        duel: 'legal',
-       brawl: 'not_legal' },
+       oldschool: 'not_legal' },
     games: [ 'mtgo', 'paper' ],
     reserved: false,
     foil: true,
@@ -12539,7 +12413,7 @@ module.exports = [ { object: 'card',
     digital: false,
     rarity: 'common',
     flavor_text:
-     'It\'s sent into unguilded districts by the Orzhov to collect the souls of those no one will miss.',
+     "It's sent into unguilded districts by the Orzhov to collect the souls of those no one will miss.",
     illustration_id: '2202ff85-27de-4ff8-937b-28c7fce12bf1',
     artist: 'Karl Kopinski',
     border_color: 'black',
@@ -12547,7 +12421,7 @@ module.exports = [ { object: 'card',
     frame_effect: '',
     full_art: false,
     story_spotlight: false,
-    edhrec_rank: 3609,
+    edhrec_rank: 3651,
     related_uris:
      { gatherer:
         'http://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=456710',
@@ -12570,25 +12444,25 @@ module.exports = [ { object: 'card',
      'https://api.scryfall.com/cards/8ce5b89f-ec60-46b5-9160-9255cbb858a9',
     scryfall_uri: 'https://scryfall.com/card/uma/113/shriekmaw?utm_source=api',
     layout: 'normal',
-    highres_image: false,
+    highres_image: true,
     image_uris:
      { small:
-        'https://img.scryfall.com/cards/small/front/8/c/8ce5b89f-ec60-46b5-9160-9255cbb858a9.jpg?1542801463',
+        'https://img.scryfall.com/cards/small/front/8/c/8ce5b89f-ec60-46b5-9160-9255cbb858a9.jpg?1547517034',
        normal:
-        'https://img.scryfall.com/cards/normal/front/8/c/8ce5b89f-ec60-46b5-9160-9255cbb858a9.jpg?1542801463',
+        'https://img.scryfall.com/cards/normal/front/8/c/8ce5b89f-ec60-46b5-9160-9255cbb858a9.jpg?1547517034',
        large:
-        'https://img.scryfall.com/cards/large/front/8/c/8ce5b89f-ec60-46b5-9160-9255cbb858a9.jpg?1542801463',
+        'https://img.scryfall.com/cards/large/front/8/c/8ce5b89f-ec60-46b5-9160-9255cbb858a9.jpg?1547517034',
        png:
-        'https://img.scryfall.com/cards/png/front/8/c/8ce5b89f-ec60-46b5-9160-9255cbb858a9.png?1542801463',
+        'https://img.scryfall.com/cards/png/front/8/c/8ce5b89f-ec60-46b5-9160-9255cbb858a9.png?1547517034',
        art_crop:
-        'https://img.scryfall.com/cards/art_crop/front/8/c/8ce5b89f-ec60-46b5-9160-9255cbb858a9.jpg?1542801463',
+        'https://img.scryfall.com/cards/art_crop/front/8/c/8ce5b89f-ec60-46b5-9160-9255cbb858a9.jpg?1547517034',
        border_crop:
-        'https://img.scryfall.com/cards/border_crop/front/8/c/8ce5b89f-ec60-46b5-9160-9255cbb858a9.jpg?1542801463' },
+        'https://img.scryfall.com/cards/border_crop/front/8/c/8ce5b89f-ec60-46b5-9160-9255cbb858a9.jpg?1547517034' },
     mana_cost: '{4}{B}',
     cmc: 5,
     type_line: 'Creature — Elemental',
     oracle_text:
-     'Fear (This creature can\'t be blocked except by artifact creatures and/or black creatures.)\nWhen Shriekmaw enters the battlefield, destroy target nonartifact, nonblack creature.\nEvoke {1}{B} (You may cast this spell for its evoke cost. If you do, it\'s sacrificed when it enters the battlefield.)',
+     "Fear (This creature can't be blocked except by artifact creatures and/or black creatures.)\nWhen Shriekmaw enters the battlefield, destroy target nonartifact, nonblack creature.\nEvoke {1}{B} (You may cast this spell for its evoke cost. If you do, it's sacrificed when it enters the battlefield.)",
     power: '3',
     toughness: '2',
     colors: [ 'B' ],
@@ -12603,9 +12477,8 @@ module.exports = [ { object: 'card',
        vintage: 'legal',
        penny: 'not_legal',
        commander: 'legal',
-       '1v1': 'legal',
        duel: 'legal',
-       brawl: 'not_legal' },
+       oldschool: 'not_legal' },
     games: [ 'mtgo', 'paper' ],
     reserved: false,
     foil: true,
@@ -12634,7 +12507,7 @@ module.exports = [ { object: 'card',
     frame_effect: '',
     full_art: false,
     story_spotlight: false,
-    edhrec_rank: 422,
+    edhrec_rank: 420,
     related_uris:
      { gatherer:
         'http://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=456709',
@@ -12650,7 +12523,7 @@ module.exports = [ { object: 'card',
     multiverse_ids: [ 456708 ],
     mtgo_id: 70297,
     tcgplayer_id: 180779,
-    name: 'Shirei, Shizo\'s Caretaker',
+    name: "Shirei, Shizo's Caretaker",
     lang: 'en',
     released_at: '2018-12-07',
     uri:
@@ -12658,25 +12531,25 @@ module.exports = [ { object: 'card',
     scryfall_uri:
      'https://scryfall.com/card/uma/112/shirei-shizos-caretaker?utm_source=api',
     layout: 'normal',
-    highres_image: false,
+    highres_image: true,
     image_uris:
      { small:
-        'https://img.scryfall.com/cards/small/front/0/7/0757cb66-7aa2-41a2-8efc-f3f35b70ab9e.jpg?1542655555',
+        'https://img.scryfall.com/cards/small/front/0/7/0757cb66-7aa2-41a2-8efc-f3f35b70ab9e.jpg?1547517025',
        normal:
-        'https://img.scryfall.com/cards/normal/front/0/7/0757cb66-7aa2-41a2-8efc-f3f35b70ab9e.jpg?1542655555',
+        'https://img.scryfall.com/cards/normal/front/0/7/0757cb66-7aa2-41a2-8efc-f3f35b70ab9e.jpg?1547517025',
        large:
-        'https://img.scryfall.com/cards/large/front/0/7/0757cb66-7aa2-41a2-8efc-f3f35b70ab9e.jpg?1542655555',
+        'https://img.scryfall.com/cards/large/front/0/7/0757cb66-7aa2-41a2-8efc-f3f35b70ab9e.jpg?1547517025',
        png:
-        'https://img.scryfall.com/cards/png/front/0/7/0757cb66-7aa2-41a2-8efc-f3f35b70ab9e.png?1542655555',
+        'https://img.scryfall.com/cards/png/front/0/7/0757cb66-7aa2-41a2-8efc-f3f35b70ab9e.png?1547517025',
        art_crop:
-        'https://img.scryfall.com/cards/art_crop/front/0/7/0757cb66-7aa2-41a2-8efc-f3f35b70ab9e.jpg?1542655555',
+        'https://img.scryfall.com/cards/art_crop/front/0/7/0757cb66-7aa2-41a2-8efc-f3f35b70ab9e.jpg?1547517025',
        border_crop:
-        'https://img.scryfall.com/cards/border_crop/front/0/7/0757cb66-7aa2-41a2-8efc-f3f35b70ab9e.jpg?1542655555' },
+        'https://img.scryfall.com/cards/border_crop/front/0/7/0757cb66-7aa2-41a2-8efc-f3f35b70ab9e.jpg?1547517025' },
     mana_cost: '{4}{B}',
     cmc: 5,
     type_line: 'Legendary Creature — Spirit',
     oracle_text:
-     'Whenever a creature with power 1 or less is put into your graveyard from the battlefield, you may return that card to the battlefield at the beginning of the next end step if Shirei, Shizo\'s Caretaker is still on the battlefield.',
+     "Whenever a creature with power 1 or less is put into your graveyard from the battlefield, you may return that card to the battlefield at the beginning of the next end step if Shirei, Shizo's Caretaker is still on the battlefield.",
     power: '2',
     toughness: '2',
     colors: [ 'B' ],
@@ -12691,9 +12564,8 @@ module.exports = [ { object: 'card',
        vintage: 'legal',
        penny: 'legal',
        commander: 'legal',
-       '1v1': 'legal',
        duel: 'legal',
-       brawl: 'not_legal' },
+       oldschool: 'not_legal' },
     games: [ 'mtgo', 'paper' ],
     reserved: false,
     foil: true,
@@ -12722,7 +12594,7 @@ module.exports = [ { object: 'card',
     frame_effect: '',
     full_art: false,
     story_spotlight: false,
-    edhrec_rank: 6913,
+    edhrec_rank: 6910,
     related_uris:
      { gatherer:
         'http://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=456708',
@@ -12746,20 +12618,20 @@ module.exports = [ { object: 'card',
     scryfall_uri:
      'https://scryfall.com/card/uma/111/sanitarium-skeleton?utm_source=api',
     layout: 'normal',
-    highres_image: false,
+    highres_image: true,
     image_uris:
      { small:
-        'https://img.scryfall.com/cards/small/front/3/d/3d79c616-32d7-4d20-8dd8-8f56f5c04a0a.jpg?1542801407',
+        'https://img.scryfall.com/cards/small/front/3/d/3d79c616-32d7-4d20-8dd8-8f56f5c04a0a.jpg?1547517005',
        normal:
-        'https://img.scryfall.com/cards/normal/front/3/d/3d79c616-32d7-4d20-8dd8-8f56f5c04a0a.jpg?1542801407',
+        'https://img.scryfall.com/cards/normal/front/3/d/3d79c616-32d7-4d20-8dd8-8f56f5c04a0a.jpg?1547517005',
        large:
-        'https://img.scryfall.com/cards/large/front/3/d/3d79c616-32d7-4d20-8dd8-8f56f5c04a0a.jpg?1542801407',
+        'https://img.scryfall.com/cards/large/front/3/d/3d79c616-32d7-4d20-8dd8-8f56f5c04a0a.jpg?1547517005',
        png:
-        'https://img.scryfall.com/cards/png/front/3/d/3d79c616-32d7-4d20-8dd8-8f56f5c04a0a.png?1542801407',
+        'https://img.scryfall.com/cards/png/front/3/d/3d79c616-32d7-4d20-8dd8-8f56f5c04a0a.png?1547517005',
        art_crop:
-        'https://img.scryfall.com/cards/art_crop/front/3/d/3d79c616-32d7-4d20-8dd8-8f56f5c04a0a.jpg?1542801407',
+        'https://img.scryfall.com/cards/art_crop/front/3/d/3d79c616-32d7-4d20-8dd8-8f56f5c04a0a.jpg?1547517005',
        border_crop:
-        'https://img.scryfall.com/cards/border_crop/front/3/d/3d79c616-32d7-4d20-8dd8-8f56f5c04a0a.jpg?1542801407' },
+        'https://img.scryfall.com/cards/border_crop/front/3/d/3d79c616-32d7-4d20-8dd8-8f56f5c04a0a.jpg?1547517005' },
     mana_cost: '{B}',
     cmc: 1,
     type_line: 'Creature — Skeleton',
@@ -12779,9 +12651,8 @@ module.exports = [ { object: 'card',
        vintage: 'legal',
        penny: 'legal',
        commander: 'legal',
-       '1v1': 'legal',
        duel: 'legal',
-       brawl: 'not_legal' },
+       oldschool: 'not_legal' },
     games: [ 'mtgo', 'paper' ],
     reserved: false,
     foil: true,
@@ -12811,7 +12682,7 @@ module.exports = [ { object: 'card',
     frame_effect: '',
     full_art: false,
     story_spotlight: false,
-    edhrec_rank: 6956,
+    edhrec_rank: 7098,
     related_uris:
      { gatherer:
         'http://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=456707',
@@ -12838,17 +12709,17 @@ module.exports = [ { object: 'card',
     highres_image: true,
     image_uris:
      { small:
-        'https://img.scryfall.com/cards/small/front/0/4/04fc99dc-bfbe-4567-b791-6b1db96471ec.jpg?1545071428',
+        'https://img.scryfall.com/cards/small/front/0/4/04fc99dc-bfbe-4567-b791-6b1db96471ec.jpg?1547516995',
        normal:
-        'https://img.scryfall.com/cards/normal/front/0/4/04fc99dc-bfbe-4567-b791-6b1db96471ec.jpg?1545071428',
+        'https://img.scryfall.com/cards/normal/front/0/4/04fc99dc-bfbe-4567-b791-6b1db96471ec.jpg?1547516995',
        large:
-        'https://img.scryfall.com/cards/large/front/0/4/04fc99dc-bfbe-4567-b791-6b1db96471ec.jpg?1545071428',
+        'https://img.scryfall.com/cards/large/front/0/4/04fc99dc-bfbe-4567-b791-6b1db96471ec.jpg?1547516995',
        png:
-        'https://img.scryfall.com/cards/png/front/0/4/04fc99dc-bfbe-4567-b791-6b1db96471ec.png?1545071428',
+        'https://img.scryfall.com/cards/png/front/0/4/04fc99dc-bfbe-4567-b791-6b1db96471ec.png?1547516995',
        art_crop:
-        'https://img.scryfall.com/cards/art_crop/front/0/4/04fc99dc-bfbe-4567-b791-6b1db96471ec.jpg?1545071428',
+        'https://img.scryfall.com/cards/art_crop/front/0/4/04fc99dc-bfbe-4567-b791-6b1db96471ec.jpg?1547516995',
        border_crop:
-        'https://img.scryfall.com/cards/border_crop/front/0/4/04fc99dc-bfbe-4567-b791-6b1db96471ec.jpg?1545071428' },
+        'https://img.scryfall.com/cards/border_crop/front/0/4/04fc99dc-bfbe-4567-b791-6b1db96471ec.jpg?1547516995' },
     mana_cost: '{B}',
     cmc: 1,
     type_line: 'Sorcery',
@@ -12866,9 +12737,8 @@ module.exports = [ { object: 'card',
        vintage: 'legal',
        penny: 'not_legal',
        commander: 'legal',
-       '1v1': 'legal',
        duel: 'legal',
-       brawl: 'not_legal' },
+       oldschool: 'not_legal' },
     games: [ 'mtgo', 'paper' ],
     reserved: false,
     foil: true,
@@ -12890,7 +12760,7 @@ module.exports = [ { object: 'card',
     collector_number: '110',
     digital: false,
     rarity: 'rare',
-    flavor_text: '"You\'d better be worth it."\n—Liliana Vess',
+    flavor_text: `"You'd better be worth it."\n—Liliana Vess`,
     illustration_id: '05602716-fdf8-4273-9d5c-e87a56af890b',
     artist: 'Johann Bodin',
     border_color: 'black',
@@ -12898,7 +12768,7 @@ module.exports = [ { object: 'card',
     frame_effect: '',
     full_art: false,
     story_spotlight: false,
-    edhrec_rank: 406,
+    edhrec_rank: 399,
     related_uris:
      { gatherer:
         'http://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=456706',
@@ -12914,7 +12784,7 @@ module.exports = [ { object: 'card',
     multiverse_ids: [ 456705 ],
     mtgo_id: 70291,
     tcgplayer_id: 180930,
-    name: 'Olivia\'s Dragoon',
+    name: "Olivia's Dragoon",
     lang: 'en',
     released_at: '2018-12-07',
     uri:
@@ -12922,25 +12792,25 @@ module.exports = [ { object: 'card',
     scryfall_uri:
      'https://scryfall.com/card/uma/109/olivias-dragoon?utm_source=api',
     layout: 'normal',
-    highres_image: false,
+    highres_image: true,
     image_uris:
      { small:
-        'https://img.scryfall.com/cards/small/front/1/4/145d0f7a-8418-455a-aa0c-02e8c9ad7820.jpg?1542801348',
+        'https://img.scryfall.com/cards/small/front/1/4/145d0f7a-8418-455a-aa0c-02e8c9ad7820.jpg?1547516986',
        normal:
-        'https://img.scryfall.com/cards/normal/front/1/4/145d0f7a-8418-455a-aa0c-02e8c9ad7820.jpg?1542801348',
+        'https://img.scryfall.com/cards/normal/front/1/4/145d0f7a-8418-455a-aa0c-02e8c9ad7820.jpg?1547516986',
        large:
-        'https://img.scryfall.com/cards/large/front/1/4/145d0f7a-8418-455a-aa0c-02e8c9ad7820.jpg?1542801348',
+        'https://img.scryfall.com/cards/large/front/1/4/145d0f7a-8418-455a-aa0c-02e8c9ad7820.jpg?1547516986',
        png:
-        'https://img.scryfall.com/cards/png/front/1/4/145d0f7a-8418-455a-aa0c-02e8c9ad7820.png?1542801348',
+        'https://img.scryfall.com/cards/png/front/1/4/145d0f7a-8418-455a-aa0c-02e8c9ad7820.png?1547516986',
        art_crop:
-        'https://img.scryfall.com/cards/art_crop/front/1/4/145d0f7a-8418-455a-aa0c-02e8c9ad7820.jpg?1542801348',
+        'https://img.scryfall.com/cards/art_crop/front/1/4/145d0f7a-8418-455a-aa0c-02e8c9ad7820.jpg?1547516986',
        border_crop:
-        'https://img.scryfall.com/cards/border_crop/front/1/4/145d0f7a-8418-455a-aa0c-02e8c9ad7820.jpg?1542801348' },
+        'https://img.scryfall.com/cards/border_crop/front/1/4/145d0f7a-8418-455a-aa0c-02e8c9ad7820.jpg?1547516986' },
     mana_cost: '{1}{B}',
     cmc: 2,
     type_line: 'Creature — Vampire Berserker',
     oracle_text:
-     'Discard a card: Olivia\'s Dragoon gains flying until end of turn.',
+     "Discard a card: Olivia's Dragoon gains flying until end of turn.",
     power: '2',
     toughness: '2',
     colors: [ 'B' ],
@@ -12955,9 +12825,8 @@ module.exports = [ { object: 'card',
        vintage: 'legal',
        penny: 'legal',
        commander: 'legal',
-       '1v1': 'legal',
        duel: 'legal',
-       brawl: 'not_legal' },
+       oldschool: 'not_legal' },
     games: [ 'mtgo', 'paper' ],
     reserved: false,
     foil: true,
@@ -12988,7 +12857,7 @@ module.exports = [ { object: 'card',
     frame_effect: '',
     full_art: false,
     story_spotlight: false,
-    edhrec_rank: 9166,
+    edhrec_rank: 9140,
     related_uris:
      { gatherer:
         'http://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=456705',
@@ -13012,25 +12881,25 @@ module.exports = [ { object: 'card',
     scryfall_uri:
      'https://scryfall.com/card/uma/108/offalsnout?utm_source=api',
     layout: 'normal',
-    highres_image: false,
+    highres_image: true,
     image_uris:
      { small:
-        'https://img.scryfall.com/cards/small/front/7/3/737679bd-b38f-402e-a6b2-7964da0f8d2f.jpg?1542801295',
+        'https://img.scryfall.com/cards/small/front/7/3/737679bd-b38f-402e-a6b2-7964da0f8d2f.jpg?1547516978',
        normal:
-        'https://img.scryfall.com/cards/normal/front/7/3/737679bd-b38f-402e-a6b2-7964da0f8d2f.jpg?1542801295',
+        'https://img.scryfall.com/cards/normal/front/7/3/737679bd-b38f-402e-a6b2-7964da0f8d2f.jpg?1547516978',
        large:
-        'https://img.scryfall.com/cards/large/front/7/3/737679bd-b38f-402e-a6b2-7964da0f8d2f.jpg?1542801295',
+        'https://img.scryfall.com/cards/large/front/7/3/737679bd-b38f-402e-a6b2-7964da0f8d2f.jpg?1547516978',
        png:
-        'https://img.scryfall.com/cards/png/front/7/3/737679bd-b38f-402e-a6b2-7964da0f8d2f.png?1542801295',
+        'https://img.scryfall.com/cards/png/front/7/3/737679bd-b38f-402e-a6b2-7964da0f8d2f.png?1547516978',
        art_crop:
-        'https://img.scryfall.com/cards/art_crop/front/7/3/737679bd-b38f-402e-a6b2-7964da0f8d2f.jpg?1542801295',
+        'https://img.scryfall.com/cards/art_crop/front/7/3/737679bd-b38f-402e-a6b2-7964da0f8d2f.jpg?1547516978',
        border_crop:
-        'https://img.scryfall.com/cards/border_crop/front/7/3/737679bd-b38f-402e-a6b2-7964da0f8d2f.jpg?1542801295' },
+        'https://img.scryfall.com/cards/border_crop/front/7/3/737679bd-b38f-402e-a6b2-7964da0f8d2f.jpg?1547516978' },
     mana_cost: '{2}{B}',
     cmc: 3,
     type_line: 'Creature — Elemental',
     oracle_text:
-     'Flash\nWhen Offalsnout leaves the battlefield, exile target card from a graveyard.\nEvoke {B} (You may cast this spell for its evoke cost. If you do, it\'s sacrificed when it enters the battlefield.)',
+     "Flash\nWhen Offalsnout leaves the battlefield, exile target card from a graveyard.\nEvoke {B} (You may cast this spell for its evoke cost. If you do, it's sacrificed when it enters the battlefield.)",
     power: '2',
     toughness: '2',
     colors: [ 'B' ],
@@ -13045,9 +12914,8 @@ module.exports = [ { object: 'card',
        vintage: 'legal',
        penny: 'legal',
        commander: 'legal',
-       '1v1': 'legal',
        duel: 'legal',
-       brawl: 'not_legal' },
+       oldschool: 'not_legal' },
     games: [ 'mtgo', 'paper' ],
     reserved: false,
     foil: true,
@@ -13076,7 +12944,7 @@ module.exports = [ { object: 'card',
     frame_effect: '',
     full_art: false,
     story_spotlight: false,
-    edhrec_rank: 12734,
+    edhrec_rank: 12961,
     related_uris:
      { gatherer:
         'http://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=456704',
@@ -13100,20 +12968,20 @@ module.exports = [ { object: 'card',
     scryfall_uri:
      'https://scryfall.com/card/uma/107/moan-of-the-unhallowed?utm_source=api',
     layout: 'normal',
-    highres_image: false,
+    highres_image: true,
     image_uris:
      { small:
-        'https://img.scryfall.com/cards/small/front/2/a/2a1f42ee-7f4e-4b2a-b60b-750662878a5c.jpg?1542801162',
+        'https://img.scryfall.com/cards/small/front/2/a/2a1f42ee-7f4e-4b2a-b60b-750662878a5c.jpg?1547516972',
        normal:
-        'https://img.scryfall.com/cards/normal/front/2/a/2a1f42ee-7f4e-4b2a-b60b-750662878a5c.jpg?1542801162',
+        'https://img.scryfall.com/cards/normal/front/2/a/2a1f42ee-7f4e-4b2a-b60b-750662878a5c.jpg?1547516972',
        large:
-        'https://img.scryfall.com/cards/large/front/2/a/2a1f42ee-7f4e-4b2a-b60b-750662878a5c.jpg?1542801162',
+        'https://img.scryfall.com/cards/large/front/2/a/2a1f42ee-7f4e-4b2a-b60b-750662878a5c.jpg?1547516972',
        png:
-        'https://img.scryfall.com/cards/png/front/2/a/2a1f42ee-7f4e-4b2a-b60b-750662878a5c.png?1542801162',
+        'https://img.scryfall.com/cards/png/front/2/a/2a1f42ee-7f4e-4b2a-b60b-750662878a5c.png?1547516972',
        art_crop:
-        'https://img.scryfall.com/cards/art_crop/front/2/a/2a1f42ee-7f4e-4b2a-b60b-750662878a5c.jpg?1542801162',
+        'https://img.scryfall.com/cards/art_crop/front/2/a/2a1f42ee-7f4e-4b2a-b60b-750662878a5c.jpg?1547516972',
        border_crop:
-        'https://img.scryfall.com/cards/border_crop/front/2/a/2a1f42ee-7f4e-4b2a-b60b-750662878a5c.jpg?1542801162' },
+        'https://img.scryfall.com/cards/border_crop/front/2/a/2a1f42ee-7f4e-4b2a-b60b-750662878a5c.jpg?1547516972' },
     mana_cost: '{2}{B}{B}',
     cmc: 4,
     type_line: 'Sorcery',
@@ -13146,9 +13014,8 @@ module.exports = [ { object: 'card',
        vintage: 'legal',
        penny: 'legal',
        commander: 'legal',
-       '1v1': 'legal',
        duel: 'legal',
-       brawl: 'not_legal' },
+       oldschool: 'not_legal' },
     games: [ 'mtgo', 'paper' ],
     reserved: false,
     foil: true,
@@ -13179,7 +13046,7 @@ module.exports = [ { object: 'card',
     frame_effect: '',
     full_art: false,
     story_spotlight: false,
-    edhrec_rank: 6820,
+    edhrec_rank: 6933,
     related_uris:
      { gatherer:
         'http://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=456703',
@@ -13207,22 +13074,22 @@ module.exports = [ { object: 'card',
     highres_image: true,
     image_uris:
      { small:
-        'https://img.scryfall.com/cards/small/front/8/8/8879190f-d8ff-47ce-a5d8-6a481a67236a.jpg?1545071212',
+        'https://img.scryfall.com/cards/small/front/8/8/8879190f-d8ff-47ce-a5d8-6a481a67236a.jpg?1547516963',
        normal:
-        'https://img.scryfall.com/cards/normal/front/8/8/8879190f-d8ff-47ce-a5d8-6a481a67236a.jpg?1545071212',
+        'https://img.scryfall.com/cards/normal/front/8/8/8879190f-d8ff-47ce-a5d8-6a481a67236a.jpg?1547516963',
        large:
-        'https://img.scryfall.com/cards/large/front/8/8/8879190f-d8ff-47ce-a5d8-6a481a67236a.jpg?1545071212',
+        'https://img.scryfall.com/cards/large/front/8/8/8879190f-d8ff-47ce-a5d8-6a481a67236a.jpg?1547516963',
        png:
-        'https://img.scryfall.com/cards/png/front/8/8/8879190f-d8ff-47ce-a5d8-6a481a67236a.png?1545071212',
+        'https://img.scryfall.com/cards/png/front/8/8/8879190f-d8ff-47ce-a5d8-6a481a67236a.png?1547516963',
        art_crop:
-        'https://img.scryfall.com/cards/art_crop/front/8/8/8879190f-d8ff-47ce-a5d8-6a481a67236a.jpg?1545071212',
+        'https://img.scryfall.com/cards/art_crop/front/8/8/8879190f-d8ff-47ce-a5d8-6a481a67236a.jpg?1547516963',
        border_crop:
-        'https://img.scryfall.com/cards/border_crop/front/8/8/8879190f-d8ff-47ce-a5d8-6a481a67236a.jpg?1545071212' },
+        'https://img.scryfall.com/cards/border_crop/front/8/8/8879190f-d8ff-47ce-a5d8-6a481a67236a.jpg?1547516963' },
     mana_cost: '{3}{B}{B}{B}',
     cmc: 6,
     type_line: 'Legendary Creature — Zombie Cleric',
     oracle_text:
-     'Intimidate (This creature can\'t be blocked except by artifact creatures and/or creatures that share a color with it.)\nWhenever a Human deals damage to you, destroy it.\nOther non-Human creatures you control get +1/+1 and have undying. (When a creature with undying dies, if it had no +1/+1 counters on it, return it to the battlefield under its owner\'s control with a +1/+1 counter on it.)',
+     "Intimidate (This creature can't be blocked except by artifact creatures and/or creatures that share a color with it.)\nWhenever a Human deals damage to you, destroy it.\nOther non-Human creatures you control get +1/+1 and have undying. (When a creature with undying dies, if it had no +1/+1 counters on it, return it to the battlefield under its owner's control with a +1/+1 counter on it.)",
     power: '5',
     toughness: '5',
     colors: [ 'B' ],
@@ -13237,9 +13104,8 @@ module.exports = [ { object: 'card',
        vintage: 'legal',
        penny: 'not_legal',
        commander: 'legal',
-       '1v1': 'legal',
        duel: 'legal',
-       brawl: 'not_legal' },
+       oldschool: 'not_legal' },
     games: [ 'mtgo', 'paper' ],
     reserved: false,
     foil: true,
@@ -13268,7 +13134,7 @@ module.exports = [ { object: 'card',
     frame_effect: '',
     full_art: false,
     story_spotlight: false,
-    edhrec_rank: 1030,
+    edhrec_rank: 1028,
     related_uris:
      { gatherer:
         'http://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=456702',
@@ -13292,20 +13158,20 @@ module.exports = [ { object: 'card',
     scryfall_uri:
      'https://scryfall.com/card/uma/105/mark-of-the-vampire?utm_source=api',
     layout: 'normal',
-    highres_image: false,
+    highres_image: true,
     image_uris:
      { small:
-        'https://img.scryfall.com/cards/small/front/1/5/150090cc-27ac-4d18-b6e6-3ddaa40c822e.jpg?1542801003',
+        'https://img.scryfall.com/cards/small/front/1/5/150090cc-27ac-4d18-b6e6-3ddaa40c822e.jpg?1549764953',
        normal:
-        'https://img.scryfall.com/cards/normal/front/1/5/150090cc-27ac-4d18-b6e6-3ddaa40c822e.jpg?1542801003',
+        'https://img.scryfall.com/cards/normal/front/1/5/150090cc-27ac-4d18-b6e6-3ddaa40c822e.jpg?1549764953',
        large:
-        'https://img.scryfall.com/cards/large/front/1/5/150090cc-27ac-4d18-b6e6-3ddaa40c822e.jpg?1542801003',
+        'https://img.scryfall.com/cards/large/front/1/5/150090cc-27ac-4d18-b6e6-3ddaa40c822e.jpg?1549764953',
        png:
-        'https://img.scryfall.com/cards/png/front/1/5/150090cc-27ac-4d18-b6e6-3ddaa40c822e.png?1542801003',
+        'https://img.scryfall.com/cards/png/front/1/5/150090cc-27ac-4d18-b6e6-3ddaa40c822e.png?1549764953',
        art_crop:
-        'https://img.scryfall.com/cards/art_crop/front/1/5/150090cc-27ac-4d18-b6e6-3ddaa40c822e.jpg?1542801003',
+        'https://img.scryfall.com/cards/art_crop/front/1/5/150090cc-27ac-4d18-b6e6-3ddaa40c822e.jpg?1549764953',
        border_crop:
-        'https://img.scryfall.com/cards/border_crop/front/1/5/150090cc-27ac-4d18-b6e6-3ddaa40c822e.jpg?1542801003' },
+        'https://img.scryfall.com/cards/border_crop/front/1/5/150090cc-27ac-4d18-b6e6-3ddaa40c822e.jpg?1549764953' },
     mana_cost: '{3}{B}',
     cmc: 4,
     type_line: 'Enchantment — Aura',
@@ -13323,9 +13189,8 @@ module.exports = [ { object: 'card',
        vintage: 'legal',
        penny: 'legal',
        commander: 'legal',
-       '1v1': 'legal',
        duel: 'legal',
-       brawl: 'legal' },
+       oldschool: 'not_legal' },
     games: [ 'mtgo', 'paper' ],
     reserved: false,
     foil: true,
@@ -13348,7 +13213,7 @@ module.exports = [ { object: 'card',
     digital: false,
     rarity: 'common',
     flavor_text:
-     '"My \'condition\' is a trial. The weak are consumed by it. The strong transcend it." —Sorin Markov',
+     `"My 'condition' is a trial. The weak are consumed by it. The strong transcend it." —Sorin Markov`,
     illustration_id: 'eed43187-2156-4ce6-9a20-f73ad420f7ff',
     artist: 'Winona Nelson',
     border_color: 'black',
@@ -13356,7 +13221,7 @@ module.exports = [ { object: 'card',
     frame_effect: '',
     full_art: false,
     story_spotlight: false,
-    edhrec_rank: 8084,
+    edhrec_rank: 8242,
     related_uris:
      { gatherer:
         'http://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=456701',
@@ -13384,17 +13249,17 @@ module.exports = [ { object: 'card',
     highres_image: true,
     image_uris:
      { small:
-        'https://img.scryfall.com/cards/small/front/e/6/e653437e-2e56-4443-aec5-5bb7d8860238.jpg?1545069791',
+        'https://img.scryfall.com/cards/small/front/e/6/e653437e-2e56-4443-aec5-5bb7d8860238.jpg?1547516945',
        normal:
-        'https://img.scryfall.com/cards/normal/front/e/6/e653437e-2e56-4443-aec5-5bb7d8860238.jpg?1545069791',
+        'https://img.scryfall.com/cards/normal/front/e/6/e653437e-2e56-4443-aec5-5bb7d8860238.jpg?1547516945',
        large:
-        'https://img.scryfall.com/cards/large/front/e/6/e653437e-2e56-4443-aec5-5bb7d8860238.jpg?1545069791',
+        'https://img.scryfall.com/cards/large/front/e/6/e653437e-2e56-4443-aec5-5bb7d8860238.jpg?1547516945',
        png:
-        'https://img.scryfall.com/cards/png/front/e/6/e653437e-2e56-4443-aec5-5bb7d8860238.png?1545069791',
+        'https://img.scryfall.com/cards/png/front/e/6/e653437e-2e56-4443-aec5-5bb7d8860238.png?1547516945',
        art_crop:
-        'https://img.scryfall.com/cards/art_crop/front/e/6/e653437e-2e56-4443-aec5-5bb7d8860238.jpg?1545069791',
+        'https://img.scryfall.com/cards/art_crop/front/e/6/e653437e-2e56-4443-aec5-5bb7d8860238.jpg?1547516945',
        border_crop:
-        'https://img.scryfall.com/cards/border_crop/front/e/6/e653437e-2e56-4443-aec5-5bb7d8860238.jpg?1545069791' },
+        'https://img.scryfall.com/cards/border_crop/front/e/6/e653437e-2e56-4443-aec5-5bb7d8860238.jpg?1547516945' },
     mana_cost: '{1}{B}{B}',
     cmc: 3,
     type_line: 'Legendary Planeswalker — Liliana',
@@ -13413,9 +13278,8 @@ module.exports = [ { object: 'card',
        vintage: 'legal',
        penny: 'not_legal',
        commander: 'legal',
-       '1v1': 'legal',
        duel: 'legal',
-       brawl: 'not_legal' },
+       oldschool: 'not_legal' },
     games: [ 'mtgo', 'paper' ],
     reserved: false,
     foil: true,
@@ -13444,7 +13308,7 @@ module.exports = [ { object: 'card',
     frame_effect: '',
     full_art: false,
     story_spotlight: false,
-    edhrec_rank: 1698,
+    edhrec_rank: 1721,
     related_uris:
      { gatherer:
         'http://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=456700',
@@ -13467,20 +13331,20 @@ module.exports = [ { object: 'card',
      'https://api.scryfall.com/cards/2897581c-20ec-497e-9562-2d39ceca628e',
     scryfall_uri: 'https://scryfall.com/card/uma/103/last-gasp?utm_source=api',
     layout: 'normal',
-    highres_image: false,
+    highres_image: true,
     image_uris:
      { small:
-        'https://img.scryfall.com/cards/small/front/2/8/2897581c-20ec-497e-9562-2d39ceca628e.jpg?1542800920',
+        'https://img.scryfall.com/cards/small/front/2/8/2897581c-20ec-497e-9562-2d39ceca628e.jpg?1547516936',
        normal:
-        'https://img.scryfall.com/cards/normal/front/2/8/2897581c-20ec-497e-9562-2d39ceca628e.jpg?1542800920',
+        'https://img.scryfall.com/cards/normal/front/2/8/2897581c-20ec-497e-9562-2d39ceca628e.jpg?1547516936',
        large:
-        'https://img.scryfall.com/cards/large/front/2/8/2897581c-20ec-497e-9562-2d39ceca628e.jpg?1542800920',
+        'https://img.scryfall.com/cards/large/front/2/8/2897581c-20ec-497e-9562-2d39ceca628e.jpg?1547516936',
        png:
-        'https://img.scryfall.com/cards/png/front/2/8/2897581c-20ec-497e-9562-2d39ceca628e.png?1542800920',
+        'https://img.scryfall.com/cards/png/front/2/8/2897581c-20ec-497e-9562-2d39ceca628e.png?1547516936',
        art_crop:
-        'https://img.scryfall.com/cards/art_crop/front/2/8/2897581c-20ec-497e-9562-2d39ceca628e.jpg?1542800920',
+        'https://img.scryfall.com/cards/art_crop/front/2/8/2897581c-20ec-497e-9562-2d39ceca628e.jpg?1547516936',
        border_crop:
-        'https://img.scryfall.com/cards/border_crop/front/2/8/2897581c-20ec-497e-9562-2d39ceca628e.jpg?1542800920' },
+        'https://img.scryfall.com/cards/border_crop/front/2/8/2897581c-20ec-497e-9562-2d39ceca628e.jpg?1547516936' },
     mana_cost: '{1}{B}',
     cmc: 2,
     type_line: 'Instant',
@@ -13497,9 +13361,8 @@ module.exports = [ { object: 'card',
        vintage: 'legal',
        penny: 'legal',
        commander: 'legal',
-       '1v1': 'legal',
        duel: 'legal',
-       brawl: 'not_legal' },
+       oldschool: 'not_legal' },
     games: [ 'mtgo', 'paper' ],
     reserved: false,
     foil: true,
@@ -13522,7 +13385,7 @@ module.exports = [ { object: 'card',
     digital: false,
     rarity: 'common',
     flavor_text:
-     'Takedowns in Valor\'s Reach are never meant to be lethal, but that doesn\'t mean they won\'t be incredibly painful.',
+     "Takedowns in Valor's Reach are never meant to be lethal, but that doesn't mean they won't be incredibly painful.",
     illustration_id: '1bd65693-aaf7-4d31-b62f-9d9c14ec231c',
     artist: 'Jason A. Engle',
     border_color: 'black',
@@ -13530,7 +13393,7 @@ module.exports = [ { object: 'card',
     frame_effect: '',
     full_art: false,
     story_spotlight: false,
-    edhrec_rank: 12649,
+    edhrec_rank: 12739,
     related_uris:
      { gatherer:
         'http://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=456699',
@@ -13554,20 +13417,20 @@ module.exports = [ { object: 'card',
     scryfall_uri:
      'https://scryfall.com/card/uma/102/gurmag-angler?utm_source=api',
     layout: 'normal',
-    highres_image: false,
+    highres_image: true,
     image_uris:
      { small:
-        'https://img.scryfall.com/cards/small/front/c/e/cedd44eb-f381-46e1-bcb0-88416b4ce33d.jpg?1542629605',
+        'https://img.scryfall.com/cards/small/front/c/e/cedd44eb-f381-46e1-bcb0-88416b4ce33d.jpg?1547516928',
        normal:
-        'https://img.scryfall.com/cards/normal/front/c/e/cedd44eb-f381-46e1-bcb0-88416b4ce33d.jpg?1542629605',
+        'https://img.scryfall.com/cards/normal/front/c/e/cedd44eb-f381-46e1-bcb0-88416b4ce33d.jpg?1547516928',
        large:
-        'https://img.scryfall.com/cards/large/front/c/e/cedd44eb-f381-46e1-bcb0-88416b4ce33d.jpg?1542629605',
+        'https://img.scryfall.com/cards/large/front/c/e/cedd44eb-f381-46e1-bcb0-88416b4ce33d.jpg?1547516928',
        png:
-        'https://img.scryfall.com/cards/png/front/c/e/cedd44eb-f381-46e1-bcb0-88416b4ce33d.png?1542629605',
+        'https://img.scryfall.com/cards/png/front/c/e/cedd44eb-f381-46e1-bcb0-88416b4ce33d.png?1547516928',
        art_crop:
-        'https://img.scryfall.com/cards/art_crop/front/c/e/cedd44eb-f381-46e1-bcb0-88416b4ce33d.jpg?1542629605',
+        'https://img.scryfall.com/cards/art_crop/front/c/e/cedd44eb-f381-46e1-bcb0-88416b4ce33d.jpg?1547516928',
        border_crop:
-        'https://img.scryfall.com/cards/border_crop/front/c/e/cedd44eb-f381-46e1-bcb0-88416b4ce33d.jpg?1542629605' },
+        'https://img.scryfall.com/cards/border_crop/front/c/e/cedd44eb-f381-46e1-bcb0-88416b4ce33d.jpg?1547516928' },
     mana_cost: '{6}{B}',
     cmc: 7,
     type_line: 'Creature — Zombie Fish',
@@ -13587,9 +13450,8 @@ module.exports = [ { object: 'card',
        vintage: 'legal',
        penny: 'not_legal',
        commander: 'legal',
-       '1v1': 'legal',
        duel: 'legal',
-       brawl: 'not_legal' },
+       oldschool: 'not_legal' },
     games: [ 'mtgo', 'paper' ],
     reserved: false,
     foil: true,
@@ -13620,7 +13482,7 @@ module.exports = [ { object: 'card',
     frame_effect: '',
     full_art: false,
     story_spotlight: false,
-    edhrec_rank: 7515,
+    edhrec_rank: 7640,
     related_uris:
      { gatherer:
         'http://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=456698',
@@ -13644,20 +13506,20 @@ module.exports = [ { object: 'card',
     scryfall_uri:
      'https://scryfall.com/card/uma/101/grave-strength?utm_source=api',
     layout: 'normal',
-    highres_image: false,
+    highres_image: true,
     image_uris:
      { small:
-        'https://img.scryfall.com/cards/small/front/b/5/b51b6c19-d8f8-4249-83c8-f3c4fa12291e.jpg?1542800848',
+        'https://img.scryfall.com/cards/small/front/b/5/b51b6c19-d8f8-4249-83c8-f3c4fa12291e.jpg?1547516919',
        normal:
-        'https://img.scryfall.com/cards/normal/front/b/5/b51b6c19-d8f8-4249-83c8-f3c4fa12291e.jpg?1542800848',
+        'https://img.scryfall.com/cards/normal/front/b/5/b51b6c19-d8f8-4249-83c8-f3c4fa12291e.jpg?1547516919',
        large:
-        'https://img.scryfall.com/cards/large/front/b/5/b51b6c19-d8f8-4249-83c8-f3c4fa12291e.jpg?1542800848',
+        'https://img.scryfall.com/cards/large/front/b/5/b51b6c19-d8f8-4249-83c8-f3c4fa12291e.jpg?1547516919',
        png:
-        'https://img.scryfall.com/cards/png/front/b/5/b51b6c19-d8f8-4249-83c8-f3c4fa12291e.png?1542800848',
+        'https://img.scryfall.com/cards/png/front/b/5/b51b6c19-d8f8-4249-83c8-f3c4fa12291e.png?1547516919',
        art_crop:
-        'https://img.scryfall.com/cards/art_crop/front/b/5/b51b6c19-d8f8-4249-83c8-f3c4fa12291e.jpg?1542800848',
+        'https://img.scryfall.com/cards/art_crop/front/b/5/b51b6c19-d8f8-4249-83c8-f3c4fa12291e.jpg?1547516919',
        border_crop:
-        'https://img.scryfall.com/cards/border_crop/front/b/5/b51b6c19-d8f8-4249-83c8-f3c4fa12291e.jpg?1542800848' },
+        'https://img.scryfall.com/cards/border_crop/front/b/5/b51b6c19-d8f8-4249-83c8-f3c4fa12291e.jpg?1547516919' },
     mana_cost: '{1}{B}',
     cmc: 2,
     type_line: 'Sorcery',
@@ -13675,9 +13537,8 @@ module.exports = [ { object: 'card',
        vintage: 'legal',
        penny: 'legal',
        commander: 'legal',
-       '1v1': 'legal',
        duel: 'legal',
-       brawl: 'not_legal' },
+       oldschool: 'not_legal' },
     games: [ 'mtgo', 'paper' ],
     reserved: false,
     foil: true,
@@ -13708,7 +13569,7 @@ module.exports = [ { object: 'card',
     frame_effect: '',
     full_art: false,
     story_spotlight: false,
-    edhrec_rank: 8644,
+    edhrec_rank: 8847,
     related_uris:
      { gatherer:
         'http://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=456697',
@@ -13732,25 +13593,25 @@ module.exports = [ { object: 'card',
     scryfall_uri:
      'https://scryfall.com/card/uma/100/grave-scrabbler?utm_source=api',
     layout: 'normal',
-    highres_image: false,
+    highres_image: true,
     image_uris:
      { small:
-        'https://img.scryfall.com/cards/small/front/e/3/e30af93c-9cb6-48a2-92c2-92506969756a.jpg?1542800757',
+        'https://img.scryfall.com/cards/small/front/e/3/e30af93c-9cb6-48a2-92c2-92506969756a.jpg?1547516908',
        normal:
-        'https://img.scryfall.com/cards/normal/front/e/3/e30af93c-9cb6-48a2-92c2-92506969756a.jpg?1542800757',
+        'https://img.scryfall.com/cards/normal/front/e/3/e30af93c-9cb6-48a2-92c2-92506969756a.jpg?1547516908',
        large:
-        'https://img.scryfall.com/cards/large/front/e/3/e30af93c-9cb6-48a2-92c2-92506969756a.jpg?1542800757',
+        'https://img.scryfall.com/cards/large/front/e/3/e30af93c-9cb6-48a2-92c2-92506969756a.jpg?1547516908',
        png:
-        'https://img.scryfall.com/cards/png/front/e/3/e30af93c-9cb6-48a2-92c2-92506969756a.png?1542800757',
+        'https://img.scryfall.com/cards/png/front/e/3/e30af93c-9cb6-48a2-92c2-92506969756a.png?1547516908',
        art_crop:
-        'https://img.scryfall.com/cards/art_crop/front/e/3/e30af93c-9cb6-48a2-92c2-92506969756a.jpg?1542800757',
+        'https://img.scryfall.com/cards/art_crop/front/e/3/e30af93c-9cb6-48a2-92c2-92506969756a.jpg?1547516908',
        border_crop:
-        'https://img.scryfall.com/cards/border_crop/front/e/3/e30af93c-9cb6-48a2-92c2-92506969756a.jpg?1542800757' },
+        'https://img.scryfall.com/cards/border_crop/front/e/3/e30af93c-9cb6-48a2-92c2-92506969756a.jpg?1547516908' },
     mana_cost: '{3}{B}',
     cmc: 4,
     type_line: 'Creature — Zombie',
     oracle_text:
-     'Madness {1}{B} (If you discard this card, discard it into exile. When you do, cast it for its madness cost or put it into your graveyard.)\nWhen Grave Scrabbler enters the battlefield, if its madness cost was paid, you may return target creature card from a graveyard to its owner\'s hand.',
+     "Madness {1}{B} (If you discard this card, discard it into exile. When you do, cast it for its madness cost or put it into your graveyard.)\nWhen Grave Scrabbler enters the battlefield, if its madness cost was paid, you may return target creature card from a graveyard to its owner's hand.",
     power: '2',
     toughness: '2',
     colors: [ 'B' ],
@@ -13763,11 +13624,10 @@ module.exports = [ { object: 'card',
        legacy: 'legal',
        pauper: 'legal',
        vintage: 'legal',
-       penny: 'not_legal',
+       penny: 'legal',
        commander: 'legal',
-       '1v1': 'legal',
        duel: 'legal',
-       brawl: 'not_legal' },
+       oldschool: 'not_legal' },
     games: [ 'mtgo', 'paper' ],
     reserved: false,
     foil: true,
@@ -13796,7 +13656,7 @@ module.exports = [ { object: 'card',
     frame_effect: '',
     full_art: false,
     story_spotlight: false,
-    edhrec_rank: 7813,
+    edhrec_rank: 7865,
     related_uris:
      { gatherer:
         'http://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=456696',
@@ -13813,7 +13673,7 @@ module.exports = [ { object: 'card',
     mtgo_id: 70271,
     mtgo_foil_id: 70272,
     tcgplayer_id: 179463,
-    name: 'Goryo\'s Vengeance',
+    name: "Goryo's Vengeance",
     lang: 'en',
     released_at: '2018-12-07',
     uri:
@@ -13824,22 +13684,22 @@ module.exports = [ { object: 'card',
     highres_image: true,
     image_uris:
      { small:
-        'https://img.scryfall.com/cards/small/front/6/2/6261205d-3506-4f0a-98ce-690f40df7a5a.jpg?1545068958',
+        'https://img.scryfall.com/cards/small/front/6/2/6261205d-3506-4f0a-98ce-690f40df7a5a.jpg?1547516898',
        normal:
-        'https://img.scryfall.com/cards/normal/front/6/2/6261205d-3506-4f0a-98ce-690f40df7a5a.jpg?1545068958',
+        'https://img.scryfall.com/cards/normal/front/6/2/6261205d-3506-4f0a-98ce-690f40df7a5a.jpg?1547516898',
        large:
-        'https://img.scryfall.com/cards/large/front/6/2/6261205d-3506-4f0a-98ce-690f40df7a5a.jpg?1545068958',
+        'https://img.scryfall.com/cards/large/front/6/2/6261205d-3506-4f0a-98ce-690f40df7a5a.jpg?1547516898',
        png:
-        'https://img.scryfall.com/cards/png/front/6/2/6261205d-3506-4f0a-98ce-690f40df7a5a.png?1545068958',
+        'https://img.scryfall.com/cards/png/front/6/2/6261205d-3506-4f0a-98ce-690f40df7a5a.png?1547516898',
        art_crop:
-        'https://img.scryfall.com/cards/art_crop/front/6/2/6261205d-3506-4f0a-98ce-690f40df7a5a.jpg?1545068958',
+        'https://img.scryfall.com/cards/art_crop/front/6/2/6261205d-3506-4f0a-98ce-690f40df7a5a.jpg?1547516898',
        border_crop:
-        'https://img.scryfall.com/cards/border_crop/front/6/2/6261205d-3506-4f0a-98ce-690f40df7a5a.jpg?1545068958' },
+        'https://img.scryfall.com/cards/border_crop/front/6/2/6261205d-3506-4f0a-98ce-690f40df7a5a.jpg?1547516898' },
     mana_cost: '{1}{B}',
     cmc: 2,
     type_line: 'Instant — Arcane',
     oracle_text:
-     'Return target legendary creature card from your graveyard to the battlefield. That creature gains haste. Exile it at the beginning of the next end step.\nSplice onto Arcane {2}{B} (As you cast an Arcane spell, you may reveal this card from your hand and pay its splice cost. If you do, add this card\'s effects to that spell.)',
+     "Return target legendary creature card from your graveyard to the battlefield. That creature gains haste. Exile it at the beginning of the next end step.\nSplice onto Arcane {2}{B} (As you cast an Arcane spell, you may reveal this card from your hand and pay its splice cost. If you do, add this card's effects to that spell.)",
     colors: [ 'B' ],
     color_identity: [ 'B' ],
     legalities:
@@ -13852,9 +13712,8 @@ module.exports = [ { object: 'card',
        vintage: 'legal',
        penny: 'not_legal',
        commander: 'legal',
-       '1v1': 'legal',
        duel: 'legal',
-       brawl: 'not_legal' },
+       oldschool: 'not_legal' },
     games: [ 'mtgo', 'paper' ],
     reserved: false,
     foil: true,
@@ -13883,7 +13742,7 @@ module.exports = [ { object: 'card',
     frame_effect: '',
     full_art: false,
     story_spotlight: false,
-    edhrec_rank: 9628,
+    edhrec_rank: 9631,
     related_uris:
      { gatherer:
         'http://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=456695',
@@ -13907,20 +13766,20 @@ module.exports = [ { object: 'card',
     scryfall_uri:
      'https://scryfall.com/card/uma/98/golgari-thug?utm_source=api',
     layout: 'normal',
-    highres_image: false,
+    highres_image: true,
     image_uris:
      { small:
-        'https://img.scryfall.com/cards/small/front/8/e/8ecfb37f-aa3f-46ca-9bff-01a874f8cc59.jpg?1542800699',
+        'https://img.scryfall.com/cards/small/front/8/e/8ecfb37f-aa3f-46ca-9bff-01a874f8cc59.jpg?1547516887',
        normal:
-        'https://img.scryfall.com/cards/normal/front/8/e/8ecfb37f-aa3f-46ca-9bff-01a874f8cc59.jpg?1542800699',
+        'https://img.scryfall.com/cards/normal/front/8/e/8ecfb37f-aa3f-46ca-9bff-01a874f8cc59.jpg?1547516887',
        large:
-        'https://img.scryfall.com/cards/large/front/8/e/8ecfb37f-aa3f-46ca-9bff-01a874f8cc59.jpg?1542800699',
+        'https://img.scryfall.com/cards/large/front/8/e/8ecfb37f-aa3f-46ca-9bff-01a874f8cc59.jpg?1547516887',
        png:
-        'https://img.scryfall.com/cards/png/front/8/e/8ecfb37f-aa3f-46ca-9bff-01a874f8cc59.png?1542800699',
+        'https://img.scryfall.com/cards/png/front/8/e/8ecfb37f-aa3f-46ca-9bff-01a874f8cc59.png?1547516887',
        art_crop:
-        'https://img.scryfall.com/cards/art_crop/front/8/e/8ecfb37f-aa3f-46ca-9bff-01a874f8cc59.jpg?1542800699',
+        'https://img.scryfall.com/cards/art_crop/front/8/e/8ecfb37f-aa3f-46ca-9bff-01a874f8cc59.jpg?1547516887',
        border_crop:
-        'https://img.scryfall.com/cards/border_crop/front/8/e/8ecfb37f-aa3f-46ca-9bff-01a874f8cc59.jpg?1542800699' },
+        'https://img.scryfall.com/cards/border_crop/front/8/e/8ecfb37f-aa3f-46ca-9bff-01a874f8cc59.jpg?1547516887' },
     mana_cost: '{1}{B}',
     cmc: 2,
     type_line: 'Creature — Human Warrior',
@@ -13940,9 +13799,8 @@ module.exports = [ { object: 'card',
        vintage: 'legal',
        penny: 'not_legal',
        commander: 'legal',
-       '1v1': 'legal',
        duel: 'legal',
-       brawl: 'not_legal' },
+       oldschool: 'not_legal' },
     games: [ 'mtgo', 'paper' ],
     reserved: false,
     foil: true,
@@ -13971,7 +13829,7 @@ module.exports = [ { object: 'card',
     frame_effect: '',
     full_art: false,
     story_spotlight: false,
-    edhrec_rank: 2686,
+    edhrec_rank: 2669,
     related_uris:
      { gatherer:
         'http://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=456694',
@@ -13994,20 +13852,20 @@ module.exports = [ { object: 'card',
      'https://api.scryfall.com/cards/6b8f7cfd-88db-4cc1-b65f-3462332a2873',
     scryfall_uri: 'https://scryfall.com/card/uma/97/ghoulsteed?utm_source=api',
     layout: 'normal',
-    highres_image: false,
+    highres_image: true,
     image_uris:
      { small:
-        'https://img.scryfall.com/cards/small/front/6/b/6b8f7cfd-88db-4cc1-b65f-3462332a2873.jpg?1542800626',
+        'https://img.scryfall.com/cards/small/front/6/b/6b8f7cfd-88db-4cc1-b65f-3462332a2873.jpg?1547516879',
        normal:
-        'https://img.scryfall.com/cards/normal/front/6/b/6b8f7cfd-88db-4cc1-b65f-3462332a2873.jpg?1542800626',
+        'https://img.scryfall.com/cards/normal/front/6/b/6b8f7cfd-88db-4cc1-b65f-3462332a2873.jpg?1547516879',
        large:
-        'https://img.scryfall.com/cards/large/front/6/b/6b8f7cfd-88db-4cc1-b65f-3462332a2873.jpg?1542800626',
+        'https://img.scryfall.com/cards/large/front/6/b/6b8f7cfd-88db-4cc1-b65f-3462332a2873.jpg?1547516879',
        png:
-        'https://img.scryfall.com/cards/png/front/6/b/6b8f7cfd-88db-4cc1-b65f-3462332a2873.png?1542800626',
+        'https://img.scryfall.com/cards/png/front/6/b/6b8f7cfd-88db-4cc1-b65f-3462332a2873.png?1547516879',
        art_crop:
-        'https://img.scryfall.com/cards/art_crop/front/6/b/6b8f7cfd-88db-4cc1-b65f-3462332a2873.jpg?1542800626',
+        'https://img.scryfall.com/cards/art_crop/front/6/b/6b8f7cfd-88db-4cc1-b65f-3462332a2873.jpg?1547516879',
        border_crop:
-        'https://img.scryfall.com/cards/border_crop/front/6/b/6b8f7cfd-88db-4cc1-b65f-3462332a2873.jpg?1542800626' },
+        'https://img.scryfall.com/cards/border_crop/front/6/b/6b8f7cfd-88db-4cc1-b65f-3462332a2873.jpg?1547516879' },
     mana_cost: '{4}{B}',
     cmc: 5,
     type_line: 'Creature — Zombie Horse',
@@ -14027,9 +13885,8 @@ module.exports = [ { object: 'card',
        vintage: 'legal',
        penny: 'legal',
        commander: 'legal',
-       '1v1': 'legal',
        duel: 'legal',
-       brawl: 'not_legal' },
+       oldschool: 'not_legal' },
     games: [ 'mtgo', 'paper' ],
     reserved: false,
     foil: true,
@@ -14060,7 +13917,7 @@ module.exports = [ { object: 'card',
     frame_effect: '',
     full_art: false,
     story_spotlight: false,
-    edhrec_rank: 11168,
+    edhrec_rank: 11388,
     related_uris:
      { gatherer:
         'http://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=456693',
@@ -14076,7 +13933,7 @@ module.exports = [ { object: 'card',
     multiverse_ids: [ 456692 ],
     mtgo_id: 70265,
     tcgplayer_id: 180910,
-    name: 'Ghoulcaller\'s Accomplice',
+    name: "Ghoulcaller's Accomplice",
     lang: 'en',
     released_at: '2018-12-07',
     uri:
@@ -14084,25 +13941,25 @@ module.exports = [ { object: 'card',
     scryfall_uri:
      'https://scryfall.com/card/uma/96/ghoulcallers-accomplice?utm_source=api',
     layout: 'normal',
-    highres_image: false,
+    highres_image: true,
     image_uris:
      { small:
-        'https://img.scryfall.com/cards/small/front/4/e/4e27974c-1279-486f-8e14-b326cd90cb06.jpg?1542800566',
+        'https://img.scryfall.com/cards/small/front/4/e/4e27974c-1279-486f-8e14-b326cd90cb06.jpg?1547516869',
        normal:
-        'https://img.scryfall.com/cards/normal/front/4/e/4e27974c-1279-486f-8e14-b326cd90cb06.jpg?1542800566',
+        'https://img.scryfall.com/cards/normal/front/4/e/4e27974c-1279-486f-8e14-b326cd90cb06.jpg?1547516869',
        large:
-        'https://img.scryfall.com/cards/large/front/4/e/4e27974c-1279-486f-8e14-b326cd90cb06.jpg?1542800566',
+        'https://img.scryfall.com/cards/large/front/4/e/4e27974c-1279-486f-8e14-b326cd90cb06.jpg?1547516869',
        png:
-        'https://img.scryfall.com/cards/png/front/4/e/4e27974c-1279-486f-8e14-b326cd90cb06.png?1542800566',
+        'https://img.scryfall.com/cards/png/front/4/e/4e27974c-1279-486f-8e14-b326cd90cb06.png?1547516869',
        art_crop:
-        'https://img.scryfall.com/cards/art_crop/front/4/e/4e27974c-1279-486f-8e14-b326cd90cb06.jpg?1542800566',
+        'https://img.scryfall.com/cards/art_crop/front/4/e/4e27974c-1279-486f-8e14-b326cd90cb06.jpg?1547516869',
        border_crop:
-        'https://img.scryfall.com/cards/border_crop/front/4/e/4e27974c-1279-486f-8e14-b326cd90cb06.jpg?1542800566' },
+        'https://img.scryfall.com/cards/border_crop/front/4/e/4e27974c-1279-486f-8e14-b326cd90cb06.jpg?1547516869' },
     mana_cost: '{1}{B}',
     cmc: 2,
     type_line: 'Creature — Human Rogue',
     oracle_text:
-     '{3}{B}, Exile Ghoulcaller\'s Accomplice from your graveyard: Create a 2/2 black Zombie creature token. Activate this ability only any time you could cast a sorcery.',
+     "{3}{B}, Exile Ghoulcaller's Accomplice from your graveyard: Create a 2/2 black Zombie creature token. Activate this ability only any time you could cast a sorcery.",
     power: '2',
     toughness: '2',
     colors: [ 'B' ],
@@ -14111,7 +13968,7 @@ module.exports = [ { object: 'card',
      [ { object: 'related_card',
          id: '4e27974c-1279-486f-8e14-b326cd90cb06',
          component: 'combo_piece',
-         name: 'Ghoulcaller\'s Accomplice',
+         name: "Ghoulcaller's Accomplice",
          type_line: 'Creature — Human Rogue',
          uri:
           'https://api.scryfall.com/cards/4e27974c-1279-486f-8e14-b326cd90cb06' },
@@ -14132,9 +13989,8 @@ module.exports = [ { object: 'card',
        vintage: 'legal',
        penny: 'legal',
        commander: 'legal',
-       '1v1': 'legal',
        duel: 'legal',
-       brawl: 'not_legal' },
+       oldschool: 'not_legal' },
     games: [ 'mtgo', 'paper' ],
     reserved: false,
     foil: true,
@@ -14156,7 +14012,7 @@ module.exports = [ { object: 'card',
     collector_number: '96',
     digital: false,
     rarity: 'common',
-    flavor_text: '"Once in the box, we\'re all the same."',
+    flavor_text: `"Once in the box, we're all the same."`,
     illustration_id: '1c375911-5092-4753-9242-c55203dc3994',
     artist: 'Dave Kendall',
     border_color: 'black',
@@ -14164,7 +14020,7 @@ module.exports = [ { object: 'card',
     frame_effect: '',
     full_art: false,
     story_spotlight: false,
-    edhrec_rank: 12226,
+    edhrec_rank: 12502,
     related_uris:
      { gatherer:
         'http://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=456692',
@@ -14188,20 +14044,20 @@ module.exports = [ { object: 'card',
     scryfall_uri:
      'https://scryfall.com/card/uma/95/fume-spitter?utm_source=api',
     layout: 'normal',
-    highres_image: false,
+    highres_image: true,
     image_uris:
      { small:
-        'https://img.scryfall.com/cards/small/front/b/b/bb1ef824-306c-4975-abca-19f0bd77449f.jpg?1542800476',
+        'https://img.scryfall.com/cards/small/front/b/b/bb1ef824-306c-4975-abca-19f0bd77449f.jpg?1547516861',
        normal:
-        'https://img.scryfall.com/cards/normal/front/b/b/bb1ef824-306c-4975-abca-19f0bd77449f.jpg?1542800476',
+        'https://img.scryfall.com/cards/normal/front/b/b/bb1ef824-306c-4975-abca-19f0bd77449f.jpg?1547516861',
        large:
-        'https://img.scryfall.com/cards/large/front/b/b/bb1ef824-306c-4975-abca-19f0bd77449f.jpg?1542800476',
+        'https://img.scryfall.com/cards/large/front/b/b/bb1ef824-306c-4975-abca-19f0bd77449f.jpg?1547516861',
        png:
-        'https://img.scryfall.com/cards/png/front/b/b/bb1ef824-306c-4975-abca-19f0bd77449f.png?1542800476',
+        'https://img.scryfall.com/cards/png/front/b/b/bb1ef824-306c-4975-abca-19f0bd77449f.png?1547516861',
        art_crop:
-        'https://img.scryfall.com/cards/art_crop/front/b/b/bb1ef824-306c-4975-abca-19f0bd77449f.jpg?1542800476',
+        'https://img.scryfall.com/cards/art_crop/front/b/b/bb1ef824-306c-4975-abca-19f0bd77449f.jpg?1547516861',
        border_crop:
-        'https://img.scryfall.com/cards/border_crop/front/b/b/bb1ef824-306c-4975-abca-19f0bd77449f.jpg?1542800476' },
+        'https://img.scryfall.com/cards/border_crop/front/b/b/bb1ef824-306c-4975-abca-19f0bd77449f.jpg?1547516861' },
     mana_cost: '{B}',
     cmc: 1,
     type_line: 'Creature — Horror',
@@ -14219,11 +14075,10 @@ module.exports = [ { object: 'card',
        legacy: 'legal',
        pauper: 'legal',
        vintage: 'legal',
-       penny: 'not_legal',
+       penny: 'legal',
        commander: 'legal',
-       '1v1': 'legal',
        duel: 'legal',
-       brawl: 'not_legal' },
+       oldschool: 'not_legal' },
     games: [ 'mtgo', 'paper' ],
     reserved: false,
     foil: true,
@@ -14254,7 +14109,7 @@ module.exports = [ { object: 'card',
     frame_effect: '',
     full_art: false,
     story_spotlight: false,
-    edhrec_rank: 5779,
+    edhrec_rank: 5749,
     related_uris:
      { gatherer:
         'http://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=456691',
@@ -14277,20 +14132,20 @@ module.exports = [ { object: 'card',
      'https://api.scryfall.com/cards/d66f864b-b1bb-4596-93b8-3b4bfe6b1332',
     scryfall_uri: 'https://scryfall.com/card/uma/94/entomb?utm_source=api',
     layout: 'normal',
-    highres_image: false,
+    highres_image: true,
     image_uris:
      { small:
-        'https://img.scryfall.com/cards/small/front/d/6/d66f864b-b1bb-4596-93b8-3b4bfe6b1332.jpg?1541434581',
+        'https://img.scryfall.com/cards/small/front/d/6/d66f864b-b1bb-4596-93b8-3b4bfe6b1332.jpg?1547516853',
        normal:
-        'https://img.scryfall.com/cards/normal/front/d/6/d66f864b-b1bb-4596-93b8-3b4bfe6b1332.jpg?1541434581',
+        'https://img.scryfall.com/cards/normal/front/d/6/d66f864b-b1bb-4596-93b8-3b4bfe6b1332.jpg?1547516853',
        large:
-        'https://img.scryfall.com/cards/large/front/d/6/d66f864b-b1bb-4596-93b8-3b4bfe6b1332.jpg?1541434581',
+        'https://img.scryfall.com/cards/large/front/d/6/d66f864b-b1bb-4596-93b8-3b4bfe6b1332.jpg?1547516853',
        png:
-        'https://img.scryfall.com/cards/png/front/d/6/d66f864b-b1bb-4596-93b8-3b4bfe6b1332.png?1541434581',
+        'https://img.scryfall.com/cards/png/front/d/6/d66f864b-b1bb-4596-93b8-3b4bfe6b1332.png?1547516853',
        art_crop:
-        'https://img.scryfall.com/cards/art_crop/front/d/6/d66f864b-b1bb-4596-93b8-3b4bfe6b1332.jpg?1541434581',
+        'https://img.scryfall.com/cards/art_crop/front/d/6/d66f864b-b1bb-4596-93b8-3b4bfe6b1332.jpg?1547516853',
        border_crop:
-        'https://img.scryfall.com/cards/border_crop/front/d/6/d66f864b-b1bb-4596-93b8-3b4bfe6b1332.jpg?1541434581' },
+        'https://img.scryfall.com/cards/border_crop/front/d/6/d66f864b-b1bb-4596-93b8-3b4bfe6b1332.jpg?1547516853' },
     mana_cost: '{B}',
     cmc: 1,
     type_line: 'Instant',
@@ -14308,9 +14163,8 @@ module.exports = [ { object: 'card',
        vintage: 'legal',
        penny: 'not_legal',
        commander: 'legal',
-       '1v1': 'legal',
        duel: 'banned',
-       brawl: 'not_legal' },
+       oldschool: 'not_legal' },
     games: [ 'mtgo', 'paper' ],
     reserved: false,
     foil: true,
@@ -14332,7 +14186,7 @@ module.exports = [ { object: 'card',
     collector_number: '94',
     digital: false,
     rarity: 'rare',
-    flavor_text: '"I\'ll return once you\'ve ripened."\n—Ghoulcaller Gisa',
+    flavor_text: `"I'll return once you've ripened."\n—Ghoulcaller Gisa`,
     illustration_id: '0bab568f-b7f5-4502-83d8-190db88c71e8',
     artist: 'Seb McKinnon',
     border_color: 'black',
@@ -14340,7 +14194,7 @@ module.exports = [ { object: 'card',
     frame_effect: '',
     full_art: false,
     story_spotlight: false,
-    edhrec_rank: 471,
+    edhrec_rank: 457,
     related_uris:
      { gatherer:
         'http://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=456690',
@@ -14368,17 +14222,17 @@ module.exports = [ { object: 'card',
     highres_image: true,
     image_uris:
      { small:
-        'https://img.scryfall.com/cards/small/front/3/b/3bdbc231-5316-4abd-9d8d-d87cff2c9847.jpg?1545068655',
+        'https://img.scryfall.com/cards/small/front/3/b/3bdbc231-5316-4abd-9d8d-d87cff2c9847.jpg?1547516843',
        normal:
-        'https://img.scryfall.com/cards/normal/front/3/b/3bdbc231-5316-4abd-9d8d-d87cff2c9847.jpg?1545068655',
+        'https://img.scryfall.com/cards/normal/front/3/b/3bdbc231-5316-4abd-9d8d-d87cff2c9847.jpg?1547516843',
        large:
-        'https://img.scryfall.com/cards/large/front/3/b/3bdbc231-5316-4abd-9d8d-d87cff2c9847.jpg?1545068655',
+        'https://img.scryfall.com/cards/large/front/3/b/3bdbc231-5316-4abd-9d8d-d87cff2c9847.jpg?1547516843',
        png:
-        'https://img.scryfall.com/cards/png/front/3/b/3bdbc231-5316-4abd-9d8d-d87cff2c9847.png?1545068655',
+        'https://img.scryfall.com/cards/png/front/3/b/3bdbc231-5316-4abd-9d8d-d87cff2c9847.png?1547516843',
        art_crop:
-        'https://img.scryfall.com/cards/art_crop/front/3/b/3bdbc231-5316-4abd-9d8d-d87cff2c9847.jpg?1545068655',
+        'https://img.scryfall.com/cards/art_crop/front/3/b/3bdbc231-5316-4abd-9d8d-d87cff2c9847.jpg?1547516843',
        border_crop:
-        'https://img.scryfall.com/cards/border_crop/front/3/b/3bdbc231-5316-4abd-9d8d-d87cff2c9847.jpg?1545068655' },
+        'https://img.scryfall.com/cards/border_crop/front/3/b/3bdbc231-5316-4abd-9d8d-d87cff2c9847.jpg?1547516843' },
     mana_cost: '{1}{B}',
     cmc: 2,
     type_line: 'Sorcery',
@@ -14396,9 +14250,8 @@ module.exports = [ { object: 'card',
        vintage: 'restricted',
        penny: 'not_legal',
        commander: 'legal',
-       '1v1': 'legal',
        duel: 'legal',
-       brawl: 'not_legal' },
+       oldschool: 'not_legal' },
     games: [ 'mtgo', 'paper' ],
     reserved: false,
     foil: true,
@@ -14428,7 +14281,7 @@ module.exports = [ { object: 'card',
     frame_effect: '',
     full_art: false,
     story_spotlight: false,
-    edhrec_rank: 30,
+    edhrec_rank: 28,
     related_uris:
      { gatherer:
         'http://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=456689',
@@ -14452,20 +14305,20 @@ module.exports = [ { object: 'card',
     scryfall_uri:
      'https://scryfall.com/card/uma/92/death-denied?utm_source=api',
     layout: 'normal',
-    highres_image: false,
+    highres_image: true,
     image_uris:
      { small:
-        'https://img.scryfall.com/cards/small/front/7/3/73d0a239-4d45-4762-968a-d4b9479346d9.jpg?1542800377',
+        'https://img.scryfall.com/cards/small/front/7/3/73d0a239-4d45-4762-968a-d4b9479346d9.jpg?1547516831',
        normal:
-        'https://img.scryfall.com/cards/normal/front/7/3/73d0a239-4d45-4762-968a-d4b9479346d9.jpg?1542800377',
+        'https://img.scryfall.com/cards/normal/front/7/3/73d0a239-4d45-4762-968a-d4b9479346d9.jpg?1547516831',
        large:
-        'https://img.scryfall.com/cards/large/front/7/3/73d0a239-4d45-4762-968a-d4b9479346d9.jpg?1542800377',
+        'https://img.scryfall.com/cards/large/front/7/3/73d0a239-4d45-4762-968a-d4b9479346d9.jpg?1547516831',
        png:
-        'https://img.scryfall.com/cards/png/front/7/3/73d0a239-4d45-4762-968a-d4b9479346d9.png?1542800377',
+        'https://img.scryfall.com/cards/png/front/7/3/73d0a239-4d45-4762-968a-d4b9479346d9.png?1547516831',
        art_crop:
-        'https://img.scryfall.com/cards/art_crop/front/7/3/73d0a239-4d45-4762-968a-d4b9479346d9.jpg?1542800377',
+        'https://img.scryfall.com/cards/art_crop/front/7/3/73d0a239-4d45-4762-968a-d4b9479346d9.jpg?1547516831',
        border_crop:
-        'https://img.scryfall.com/cards/border_crop/front/7/3/73d0a239-4d45-4762-968a-d4b9479346d9.jpg?1542800377' },
+        'https://img.scryfall.com/cards/border_crop/front/7/3/73d0a239-4d45-4762-968a-d4b9479346d9.jpg?1547516831' },
     mana_cost: '{X}{B}{B}',
     cmc: 2,
     type_line: 'Instant — Arcane',
@@ -14483,9 +14336,8 @@ module.exports = [ { object: 'card',
        vintage: 'legal',
        penny: 'legal',
        commander: 'legal',
-       '1v1': 'legal',
        duel: 'legal',
-       brawl: 'not_legal' },
+       oldschool: 'not_legal' },
     games: [ 'mtgo', 'paper' ],
     reserved: false,
     foil: true,
@@ -14516,7 +14368,7 @@ module.exports = [ { object: 'card',
     frame_effect: '',
     full_art: false,
     story_spotlight: false,
-    edhrec_rank: 4691,
+    edhrec_rank: 4699,
     related_uris:
      { gatherer:
         'http://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=456688',
@@ -14540,25 +14392,25 @@ module.exports = [ { object: 'card',
     scryfall_uri:
      'https://scryfall.com/card/uma/91/dark-dabbling?utm_source=api',
     layout: 'normal',
-    highres_image: false,
+    highres_image: true,
     image_uris:
      { small:
-        'https://img.scryfall.com/cards/small/front/f/3/f320791b-a64f-4249-9a78-7b28cfe58743.jpg?1542800312',
+        'https://img.scryfall.com/cards/small/front/f/3/f320791b-a64f-4249-9a78-7b28cfe58743.jpg?1547516821',
        normal:
-        'https://img.scryfall.com/cards/normal/front/f/3/f320791b-a64f-4249-9a78-7b28cfe58743.jpg?1542800312',
+        'https://img.scryfall.com/cards/normal/front/f/3/f320791b-a64f-4249-9a78-7b28cfe58743.jpg?1547516821',
        large:
-        'https://img.scryfall.com/cards/large/front/f/3/f320791b-a64f-4249-9a78-7b28cfe58743.jpg?1542800312',
+        'https://img.scryfall.com/cards/large/front/f/3/f320791b-a64f-4249-9a78-7b28cfe58743.jpg?1547516821',
        png:
-        'https://img.scryfall.com/cards/png/front/f/3/f320791b-a64f-4249-9a78-7b28cfe58743.png?1542800312',
+        'https://img.scryfall.com/cards/png/front/f/3/f320791b-a64f-4249-9a78-7b28cfe58743.png?1547516821',
        art_crop:
-        'https://img.scryfall.com/cards/art_crop/front/f/3/f320791b-a64f-4249-9a78-7b28cfe58743.jpg?1542800312',
+        'https://img.scryfall.com/cards/art_crop/front/f/3/f320791b-a64f-4249-9a78-7b28cfe58743.jpg?1547516821',
        border_crop:
-        'https://img.scryfall.com/cards/border_crop/front/f/3/f320791b-a64f-4249-9a78-7b28cfe58743.jpg?1542800312' },
+        'https://img.scryfall.com/cards/border_crop/front/f/3/f320791b-a64f-4249-9a78-7b28cfe58743.jpg?1547516821' },
     mana_cost: '{2}{B}',
     cmc: 3,
     type_line: 'Instant',
     oracle_text:
-     'Regenerate target creature. Draw a card. (The next time the creature would be destroyed this turn, it isn\'t. Instead tap it, remove all damage from it, and remove it from combat.)\nSpell mastery — If there are two or more instant and/or sorcery cards in your graveyard, also regenerate each other creature you control.',
+     "Regenerate target creature. Draw a card. (The next time the creature would be destroyed this turn, it isn't. Instead tap it, remove all damage from it, and remove it from combat.)\nSpell mastery — If there are two or more instant and/or sorcery cards in your graveyard, also regenerate each other creature you control.",
     colors: [ 'B' ],
     color_identity: [ 'B' ],
     legalities:
@@ -14571,9 +14423,8 @@ module.exports = [ { object: 'card',
        vintage: 'legal',
        penny: 'legal',
        commander: 'legal',
-       '1v1': 'legal',
        duel: 'legal',
-       brawl: 'not_legal' },
+       oldschool: 'not_legal' },
     games: [ 'mtgo', 'paper' ],
     reserved: false,
     foil: true,
@@ -14602,7 +14453,7 @@ module.exports = [ { object: 'card',
     frame_effect: '',
     full_art: false,
     story_spotlight: false,
-    edhrec_rank: 8272,
+    edhrec_rank: 8385,
     related_uris:
      { gatherer:
         'http://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=456687',
@@ -14626,20 +14477,20 @@ module.exports = [ { object: 'card',
     scryfall_uri:
      'https://scryfall.com/card/uma/90/crow-of-dark-tidings?utm_source=api',
     layout: 'normal',
-    highres_image: false,
+    highres_image: true,
     image_uris:
      { small:
-        'https://img.scryfall.com/cards/small/front/e/a/ea7d66d3-03e1-4a6e-bb8e-7ad32faea2bc.jpg?1542800261',
+        'https://img.scryfall.com/cards/small/front/e/a/ea7d66d3-03e1-4a6e-bb8e-7ad32faea2bc.jpg?1547516811',
        normal:
-        'https://img.scryfall.com/cards/normal/front/e/a/ea7d66d3-03e1-4a6e-bb8e-7ad32faea2bc.jpg?1542800261',
+        'https://img.scryfall.com/cards/normal/front/e/a/ea7d66d3-03e1-4a6e-bb8e-7ad32faea2bc.jpg?1547516811',
        large:
-        'https://img.scryfall.com/cards/large/front/e/a/ea7d66d3-03e1-4a6e-bb8e-7ad32faea2bc.jpg?1542800261',
+        'https://img.scryfall.com/cards/large/front/e/a/ea7d66d3-03e1-4a6e-bb8e-7ad32faea2bc.jpg?1547516811',
        png:
-        'https://img.scryfall.com/cards/png/front/e/a/ea7d66d3-03e1-4a6e-bb8e-7ad32faea2bc.png?1542800261',
+        'https://img.scryfall.com/cards/png/front/e/a/ea7d66d3-03e1-4a6e-bb8e-7ad32faea2bc.png?1547516811',
        art_crop:
-        'https://img.scryfall.com/cards/art_crop/front/e/a/ea7d66d3-03e1-4a6e-bb8e-7ad32faea2bc.jpg?1542800261',
+        'https://img.scryfall.com/cards/art_crop/front/e/a/ea7d66d3-03e1-4a6e-bb8e-7ad32faea2bc.jpg?1547516811',
        border_crop:
-        'https://img.scryfall.com/cards/border_crop/front/e/a/ea7d66d3-03e1-4a6e-bb8e-7ad32faea2bc.jpg?1542800261' },
+        'https://img.scryfall.com/cards/border_crop/front/e/a/ea7d66d3-03e1-4a6e-bb8e-7ad32faea2bc.jpg?1547516811' },
     mana_cost: '{2}{B}',
     cmc: 3,
     type_line: 'Creature — Zombie Bird',
@@ -14659,9 +14510,8 @@ module.exports = [ { object: 'card',
        vintage: 'legal',
        penny: 'legal',
        commander: 'legal',
-       '1v1': 'legal',
        duel: 'legal',
-       brawl: 'not_legal' },
+       oldschool: 'not_legal' },
     games: [ 'mtgo', 'paper' ],
     reserved: false,
     foil: true,
@@ -14690,7 +14540,7 @@ module.exports = [ { object: 'card',
     frame_effect: '',
     full_art: false,
     story_spotlight: false,
-    edhrec_rank: 7299,
+    edhrec_rank: 7431,
     related_uris:
      { gatherer:
         'http://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=456686',
@@ -14706,7 +14556,7 @@ module.exports = [ { object: 'card',
     multiverse_ids: [ 456685 ],
     mtgo_id: 70251,
     tcgplayer_id: 180795,
-    name: 'Chainer\'s Edict',
+    name: "Chainer's Edict",
     lang: 'en',
     released_at: '2018-12-07',
     uri:
@@ -14714,20 +14564,20 @@ module.exports = [ { object: 'card',
     scryfall_uri:
      'https://scryfall.com/card/uma/89/chainers-edict?utm_source=api',
     layout: 'normal',
-    highres_image: false,
+    highres_image: true,
     image_uris:
      { small:
-        'https://img.scryfall.com/cards/small/front/a/3/a36a583a-d4be-4589-a43c-a2854de062c6.jpg?1542671069',
+        'https://img.scryfall.com/cards/small/front/a/3/a36a583a-d4be-4589-a43c-a2854de062c6.jpg?1547516797',
        normal:
-        'https://img.scryfall.com/cards/normal/front/a/3/a36a583a-d4be-4589-a43c-a2854de062c6.jpg?1542671069',
+        'https://img.scryfall.com/cards/normal/front/a/3/a36a583a-d4be-4589-a43c-a2854de062c6.jpg?1547516797',
        large:
-        'https://img.scryfall.com/cards/large/front/a/3/a36a583a-d4be-4589-a43c-a2854de062c6.jpg?1542671069',
+        'https://img.scryfall.com/cards/large/front/a/3/a36a583a-d4be-4589-a43c-a2854de062c6.jpg?1547516797',
        png:
-        'https://img.scryfall.com/cards/png/front/a/3/a36a583a-d4be-4589-a43c-a2854de062c6.png?1542671069',
+        'https://img.scryfall.com/cards/png/front/a/3/a36a583a-d4be-4589-a43c-a2854de062c6.png?1547516797',
        art_crop:
-        'https://img.scryfall.com/cards/art_crop/front/a/3/a36a583a-d4be-4589-a43c-a2854de062c6.jpg?1542671069',
+        'https://img.scryfall.com/cards/art_crop/front/a/3/a36a583a-d4be-4589-a43c-a2854de062c6.jpg?1547516797',
        border_crop:
-        'https://img.scryfall.com/cards/border_crop/front/a/3/a36a583a-d4be-4589-a43c-a2854de062c6.jpg?1542671069' },
+        'https://img.scryfall.com/cards/border_crop/front/a/3/a36a583a-d4be-4589-a43c-a2854de062c6.jpg?1547516797' },
     mana_cost: '{1}{B}',
     cmc: 2,
     type_line: 'Sorcery',
@@ -14745,9 +14595,8 @@ module.exports = [ { object: 'card',
        vintage: 'legal',
        penny: 'not_legal',
        commander: 'legal',
-       '1v1': 'legal',
        duel: 'legal',
-       brawl: 'not_legal' },
+       oldschool: 'not_legal' },
     games: [ 'mtgo', 'paper' ],
     reserved: false,
     foil: true,
@@ -14776,7 +14625,7 @@ module.exports = [ { object: 'card',
     frame_effect: '',
     full_art: false,
     story_spotlight: false,
-    edhrec_rank: 4275,
+    edhrec_rank: 4369,
     related_uris:
      { gatherer:
         'http://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=456685',
@@ -14800,20 +14649,20 @@ module.exports = [ { object: 'card',
     scryfall_uri:
      'https://scryfall.com/card/uma/88/buried-alive?utm_source=api',
     layout: 'normal',
-    highres_image: false,
+    highres_image: true,
     image_uris:
      { small:
-        'https://img.scryfall.com/cards/small/front/c/5/c5f51145-aade-4955-b9e7-4a34074253d6.jpg?1542800199',
+        'https://img.scryfall.com/cards/small/front/c/5/c5f51145-aade-4955-b9e7-4a34074253d6.jpg?1547516784',
        normal:
-        'https://img.scryfall.com/cards/normal/front/c/5/c5f51145-aade-4955-b9e7-4a34074253d6.jpg?1542800199',
+        'https://img.scryfall.com/cards/normal/front/c/5/c5f51145-aade-4955-b9e7-4a34074253d6.jpg?1547516784',
        large:
-        'https://img.scryfall.com/cards/large/front/c/5/c5f51145-aade-4955-b9e7-4a34074253d6.jpg?1542800199',
+        'https://img.scryfall.com/cards/large/front/c/5/c5f51145-aade-4955-b9e7-4a34074253d6.jpg?1547516784',
        png:
-        'https://img.scryfall.com/cards/png/front/c/5/c5f51145-aade-4955-b9e7-4a34074253d6.png?1542800199',
+        'https://img.scryfall.com/cards/png/front/c/5/c5f51145-aade-4955-b9e7-4a34074253d6.png?1547516784',
        art_crop:
-        'https://img.scryfall.com/cards/art_crop/front/c/5/c5f51145-aade-4955-b9e7-4a34074253d6.jpg?1542800199',
+        'https://img.scryfall.com/cards/art_crop/front/c/5/c5f51145-aade-4955-b9e7-4a34074253d6.jpg?1547516784',
        border_crop:
-        'https://img.scryfall.com/cards/border_crop/front/c/5/c5f51145-aade-4955-b9e7-4a34074253d6.jpg?1542800199' },
+        'https://img.scryfall.com/cards/border_crop/front/c/5/c5f51145-aade-4955-b9e7-4a34074253d6.jpg?1547516784' },
     mana_cost: '{2}{B}',
     cmc: 3,
     type_line: 'Sorcery',
@@ -14831,9 +14680,8 @@ module.exports = [ { object: 'card',
        vintage: 'legal',
        penny: 'not_legal',
        commander: 'legal',
-       '1v1': 'legal',
        duel: 'legal',
-       brawl: 'not_legal' },
+       oldschool: 'not_legal' },
     games: [ 'mtgo', 'paper' ],
     reserved: false,
     foil: true,
@@ -14864,7 +14712,7 @@ module.exports = [ { object: 'card',
     frame_effect: '',
     full_art: false,
     story_spotlight: false,
-    edhrec_rank: 312,
+    edhrec_rank: 299,
     related_uris:
      { gatherer:
         'http://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=456684',
@@ -14888,25 +14736,25 @@ module.exports = [ { object: 'card',
     scryfall_uri:
      'https://scryfall.com/card/uma/87/bridge-from-below?utm_source=api',
     layout: 'normal',
-    highres_image: false,
+    highres_image: true,
     image_uris:
      { small:
-        'https://img.scryfall.com/cards/small/front/3/f/3faaa657-8b02-41a9-8a99-31a223d2caa5.jpg?1542806252',
+        'https://img.scryfall.com/cards/small/front/3/f/3faaa657-8b02-41a9-8a99-31a223d2caa5.jpg?1547516773',
        normal:
-        'https://img.scryfall.com/cards/normal/front/3/f/3faaa657-8b02-41a9-8a99-31a223d2caa5.jpg?1542806252',
+        'https://img.scryfall.com/cards/normal/front/3/f/3faaa657-8b02-41a9-8a99-31a223d2caa5.jpg?1547516773',
        large:
-        'https://img.scryfall.com/cards/large/front/3/f/3faaa657-8b02-41a9-8a99-31a223d2caa5.jpg?1542806252',
+        'https://img.scryfall.com/cards/large/front/3/f/3faaa657-8b02-41a9-8a99-31a223d2caa5.jpg?1547516773',
        png:
-        'https://img.scryfall.com/cards/png/front/3/f/3faaa657-8b02-41a9-8a99-31a223d2caa5.png?1542806252',
+        'https://img.scryfall.com/cards/png/front/3/f/3faaa657-8b02-41a9-8a99-31a223d2caa5.png?1547516773',
        art_crop:
-        'https://img.scryfall.com/cards/art_crop/front/3/f/3faaa657-8b02-41a9-8a99-31a223d2caa5.jpg?1542806252',
+        'https://img.scryfall.com/cards/art_crop/front/3/f/3faaa657-8b02-41a9-8a99-31a223d2caa5.jpg?1547516773',
        border_crop:
-        'https://img.scryfall.com/cards/border_crop/front/3/f/3faaa657-8b02-41a9-8a99-31a223d2caa5.jpg?1542806252' },
+        'https://img.scryfall.com/cards/border_crop/front/3/f/3faaa657-8b02-41a9-8a99-31a223d2caa5.jpg?1547516773' },
     mana_cost: '{B}{B}{B}',
     cmc: 3,
     type_line: 'Enchantment',
     oracle_text:
-     'Whenever a nontoken creature is put into your graveyard from the battlefield, if Bridge from Below is in your graveyard, create a 2/2 black Zombie creature token.\nWhen a creature is put into an opponent\'s graveyard from the battlefield, if Bridge from Below is in your graveyard, exile Bridge from Below.',
+     "Whenever a nontoken creature is put into your graveyard from the battlefield, if Bridge from Below is in your graveyard, create a 2/2 black Zombie creature token.\nWhen a creature is put into an opponent's graveyard from the battlefield, if Bridge from Below is in your graveyard, exile Bridge from Below.",
     colors: [ 'B' ],
     color_identity: [ 'B' ],
     all_parts:
@@ -14934,9 +14782,8 @@ module.exports = [ { object: 'card',
        vintage: 'legal',
        penny: 'not_legal',
        commander: 'legal',
-       '1v1': 'legal',
        duel: 'legal',
-       brawl: 'not_legal' },
+       oldschool: 'not_legal' },
     games: [ 'mtgo', 'paper' ],
     reserved: false,
     foil: true,
@@ -14965,7 +14812,7 @@ module.exports = [ { object: 'card',
     frame_effect: '',
     full_art: false,
     story_spotlight: false,
-    edhrec_rank: 10808,
+    edhrec_rank: 10848,
     related_uris:
      { gatherer:
         'http://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=456683',
@@ -14989,20 +14836,20 @@ module.exports = [ { object: 'card',
     scryfall_uri:
      'https://scryfall.com/card/uma/86/bloodflow-connoisseur?utm_source=api',
     layout: 'normal',
-    highres_image: false,
+    highres_image: true,
     image_uris:
      { small:
-        'https://img.scryfall.com/cards/small/front/1/a/1a788fb3-fc21-47b2-b387-ceff438969af.jpg?1542800136',
+        'https://img.scryfall.com/cards/small/front/1/a/1a788fb3-fc21-47b2-b387-ceff438969af.jpg?1547516761',
        normal:
-        'https://img.scryfall.com/cards/normal/front/1/a/1a788fb3-fc21-47b2-b387-ceff438969af.jpg?1542800136',
+        'https://img.scryfall.com/cards/normal/front/1/a/1a788fb3-fc21-47b2-b387-ceff438969af.jpg?1547516761',
        large:
-        'https://img.scryfall.com/cards/large/front/1/a/1a788fb3-fc21-47b2-b387-ceff438969af.jpg?1542800136',
+        'https://img.scryfall.com/cards/large/front/1/a/1a788fb3-fc21-47b2-b387-ceff438969af.jpg?1547516761',
        png:
-        'https://img.scryfall.com/cards/png/front/1/a/1a788fb3-fc21-47b2-b387-ceff438969af.png?1542800136',
+        'https://img.scryfall.com/cards/png/front/1/a/1a788fb3-fc21-47b2-b387-ceff438969af.png?1547516761',
        art_crop:
-        'https://img.scryfall.com/cards/art_crop/front/1/a/1a788fb3-fc21-47b2-b387-ceff438969af.jpg?1542800136',
+        'https://img.scryfall.com/cards/art_crop/front/1/a/1a788fb3-fc21-47b2-b387-ceff438969af.jpg?1547516761',
        border_crop:
-        'https://img.scryfall.com/cards/border_crop/front/1/a/1a788fb3-fc21-47b2-b387-ceff438969af.jpg?1542800136' },
+        'https://img.scryfall.com/cards/border_crop/front/1/a/1a788fb3-fc21-47b2-b387-ceff438969af.jpg?1547516761' },
     mana_cost: '{2}{B}',
     cmc: 3,
     type_line: 'Creature — Vampire',
@@ -15020,11 +14867,10 @@ module.exports = [ { object: 'card',
        legacy: 'legal',
        pauper: 'legal',
        vintage: 'legal',
-       penny: 'not_legal',
+       penny: 'legal',
        commander: 'legal',
-       '1v1': 'legal',
        duel: 'legal',
-       brawl: 'not_legal' },
+       oldschool: 'not_legal' },
     games: [ 'mtgo', 'paper' ],
     reserved: false,
     foil: true,
@@ -15055,7 +14901,7 @@ module.exports = [ { object: 'card',
     frame_effect: '',
     full_art: false,
     story_spotlight: false,
-    edhrec_rank: 4444,
+    edhrec_rank: 4428,
     related_uris:
      { gatherer:
         'http://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=456682',
@@ -15083,17 +14929,17 @@ module.exports = [ { object: 'card',
     highres_image: true,
     image_uris:
      { small:
-        'https://img.scryfall.com/cards/small/front/5/4/547872bd-d2b3-4c24-b3fb-481e0c90c3c0.jpg?1545067989',
+        'https://img.scryfall.com/cards/small/front/5/4/547872bd-d2b3-4c24-b3fb-481e0c90c3c0.jpg?1547516750',
        normal:
-        'https://img.scryfall.com/cards/normal/front/5/4/547872bd-d2b3-4c24-b3fb-481e0c90c3c0.jpg?1545067989',
+        'https://img.scryfall.com/cards/normal/front/5/4/547872bd-d2b3-4c24-b3fb-481e0c90c3c0.jpg?1547516750',
        large:
-        'https://img.scryfall.com/cards/large/front/5/4/547872bd-d2b3-4c24-b3fb-481e0c90c3c0.jpg?1545067989',
+        'https://img.scryfall.com/cards/large/front/5/4/547872bd-d2b3-4c24-b3fb-481e0c90c3c0.jpg?1547516750',
        png:
-        'https://img.scryfall.com/cards/png/front/5/4/547872bd-d2b3-4c24-b3fb-481e0c90c3c0.png?1545067989',
+        'https://img.scryfall.com/cards/png/front/5/4/547872bd-d2b3-4c24-b3fb-481e0c90c3c0.png?1547516750',
        art_crop:
-        'https://img.scryfall.com/cards/art_crop/front/5/4/547872bd-d2b3-4c24-b3fb-481e0c90c3c0.jpg?1545067989',
+        'https://img.scryfall.com/cards/art_crop/front/5/4/547872bd-d2b3-4c24-b3fb-481e0c90c3c0.jpg?1547516750',
        border_crop:
-        'https://img.scryfall.com/cards/border_crop/front/5/4/547872bd-d2b3-4c24-b3fb-481e0c90c3c0.jpg?1545067989' },
+        'https://img.scryfall.com/cards/border_crop/front/5/4/547872bd-d2b3-4c24-b3fb-481e0c90c3c0.jpg?1547516750' },
     mana_cost: '{1}{B}',
     cmc: 2,
     type_line: 'Tribal Enchantment — Faerie',
@@ -15126,9 +14972,8 @@ module.exports = [ { object: 'card',
        vintage: 'legal',
        penny: 'not_legal',
        commander: 'legal',
-       '1v1': 'legal',
        duel: 'legal',
-       brawl: 'not_legal' },
+       oldschool: 'not_legal' },
     games: [ 'mtgo', 'paper' ],
     reserved: false,
     foil: true,
@@ -15151,7 +14996,7 @@ module.exports = [ { object: 'card',
     digital: false,
     rarity: 'mythic',
     flavor_text:
-     'In Lorwyn\'s brief evenings, the sun pauses at the horizon long enough for a certain species of violet to bloom with the fragrance of mischief.',
+     "In Lorwyn's brief evenings, the sun pauses at the horizon long enough for a certain species of violet to bloom with the fragrance of mischief.",
     illustration_id: '079d1154-363b-4a28-99d4-dcc402512c37',
     artist: 'Jesper Ejsing',
     border_color: 'black',
@@ -15159,7 +15004,7 @@ module.exports = [ { object: 'card',
     frame_effect: '',
     full_art: false,
     story_spotlight: false,
-    edhrec_rank: 1250,
+    edhrec_rank: 1232,
     related_uris:
      { gatherer:
         'http://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=456681',
@@ -15183,20 +15028,20 @@ module.exports = [ { object: 'card',
     scryfall_uri:
      'https://scryfall.com/card/uma/84/apprentice-necromancer?utm_source=api',
     layout: 'normal',
-    highres_image: false,
+    highres_image: true,
     image_uris:
      { small:
-        'https://img.scryfall.com/cards/small/front/1/8/18d86ad3-e0a1-43da-9dc1-a9028b719c99.jpg?1542727349',
+        'https://img.scryfall.com/cards/small/front/1/8/18d86ad3-e0a1-43da-9dc1-a9028b719c99.jpg?1547516732',
        normal:
-        'https://img.scryfall.com/cards/normal/front/1/8/18d86ad3-e0a1-43da-9dc1-a9028b719c99.jpg?1542727349',
+        'https://img.scryfall.com/cards/normal/front/1/8/18d86ad3-e0a1-43da-9dc1-a9028b719c99.jpg?1547516732',
        large:
-        'https://img.scryfall.com/cards/large/front/1/8/18d86ad3-e0a1-43da-9dc1-a9028b719c99.jpg?1542727349',
+        'https://img.scryfall.com/cards/large/front/1/8/18d86ad3-e0a1-43da-9dc1-a9028b719c99.jpg?1547516732',
        png:
-        'https://img.scryfall.com/cards/png/front/1/8/18d86ad3-e0a1-43da-9dc1-a9028b719c99.png?1542727349',
+        'https://img.scryfall.com/cards/png/front/1/8/18d86ad3-e0a1-43da-9dc1-a9028b719c99.png?1547516732',
        art_crop:
-        'https://img.scryfall.com/cards/art_crop/front/1/8/18d86ad3-e0a1-43da-9dc1-a9028b719c99.jpg?1542727349',
+        'https://img.scryfall.com/cards/art_crop/front/1/8/18d86ad3-e0a1-43da-9dc1-a9028b719c99.jpg?1547516732',
        border_crop:
-        'https://img.scryfall.com/cards/border_crop/front/1/8/18d86ad3-e0a1-43da-9dc1-a9028b719c99.jpg?1542727349' },
+        'https://img.scryfall.com/cards/border_crop/front/1/8/18d86ad3-e0a1-43da-9dc1-a9028b719c99.jpg?1547516732' },
     mana_cost: '{1}{B}',
     cmc: 2,
     type_line: 'Creature — Zombie Wizard',
@@ -15216,9 +15061,8 @@ module.exports = [ { object: 'card',
        vintage: 'legal',
        penny: 'not_legal',
        commander: 'legal',
-       '1v1': 'legal',
        duel: 'legal',
-       brawl: 'not_legal' },
+       oldschool: 'not_legal' },
     games: [ 'mtgo', 'paper' ],
     reserved: false,
     foil: true,
@@ -15248,7 +15092,7 @@ module.exports = [ { object: 'card',
     frame_effect: '',
     full_art: false,
     story_spotlight: false,
-    edhrec_rank: 2952,
+    edhrec_rank: 2881,
     related_uris:
      { gatherer:
         'http://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=456680',
@@ -15272,20 +15116,20 @@ module.exports = [ { object: 'card',
     scryfall_uri:
      'https://scryfall.com/card/uma/83/appetite-for-brains?utm_source=api',
     layout: 'normal',
-    highres_image: false,
+    highres_image: true,
     image_uris:
      { small:
-        'https://img.scryfall.com/cards/small/front/5/8/58f20b88-7b48-4d3b-b836-c7aef71cd337.jpg?1542800030',
+        'https://img.scryfall.com/cards/small/front/5/8/58f20b88-7b48-4d3b-b836-c7aef71cd337.jpg?1547516714',
        normal:
-        'https://img.scryfall.com/cards/normal/front/5/8/58f20b88-7b48-4d3b-b836-c7aef71cd337.jpg?1542800030',
+        'https://img.scryfall.com/cards/normal/front/5/8/58f20b88-7b48-4d3b-b836-c7aef71cd337.jpg?1547516714',
        large:
-        'https://img.scryfall.com/cards/large/front/5/8/58f20b88-7b48-4d3b-b836-c7aef71cd337.jpg?1542800030',
+        'https://img.scryfall.com/cards/large/front/5/8/58f20b88-7b48-4d3b-b836-c7aef71cd337.jpg?1547516714',
        png:
-        'https://img.scryfall.com/cards/png/front/5/8/58f20b88-7b48-4d3b-b836-c7aef71cd337.png?1542800030',
+        'https://img.scryfall.com/cards/png/front/5/8/58f20b88-7b48-4d3b-b836-c7aef71cd337.png?1547516714',
        art_crop:
-        'https://img.scryfall.com/cards/art_crop/front/5/8/58f20b88-7b48-4d3b-b836-c7aef71cd337.jpg?1542800030',
+        'https://img.scryfall.com/cards/art_crop/front/5/8/58f20b88-7b48-4d3b-b836-c7aef71cd337.jpg?1547516714',
        border_crop:
-        'https://img.scryfall.com/cards/border_crop/front/5/8/58f20b88-7b48-4d3b-b836-c7aef71cd337.jpg?1542800030' },
+        'https://img.scryfall.com/cards/border_crop/front/5/8/58f20b88-7b48-4d3b-b836-c7aef71cd337.jpg?1547516714' },
     mana_cost: '{B}',
     cmc: 1,
     type_line: 'Sorcery',
@@ -15303,9 +15147,8 @@ module.exports = [ { object: 'card',
        vintage: 'legal',
        penny: 'legal',
        commander: 'legal',
-       '1v1': 'legal',
        duel: 'legal',
-       brawl: 'not_legal' },
+       oldschool: 'not_legal' },
     games: [ 'mtgo', 'paper' ],
     reserved: false,
     foil: true,
@@ -15336,7 +15179,7 @@ module.exports = [ { object: 'card',
     frame_effect: '',
     full_art: false,
     story_spotlight: false,
-    edhrec_rank: 8247,
+    edhrec_rank: 8433,
     related_uris:
      { gatherer:
         'http://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=456679',
@@ -15360,25 +15203,25 @@ module.exports = [ { object: 'card',
     scryfall_uri:
      'https://scryfall.com/card/uma/82/whirlwind-adept?utm_source=api',
     layout: 'normal',
-    highres_image: false,
+    highres_image: true,
     image_uris:
      { small:
-        'https://img.scryfall.com/cards/small/front/9/f/9fdbe6b5-7f67-42f1-be8f-637c35417925.jpg?1542803529',
+        'https://img.scryfall.com/cards/small/front/9/f/9fdbe6b5-7f67-42f1-be8f-637c35417925.jpg?1547516700',
        normal:
-        'https://img.scryfall.com/cards/normal/front/9/f/9fdbe6b5-7f67-42f1-be8f-637c35417925.jpg?1542803529',
+        'https://img.scryfall.com/cards/normal/front/9/f/9fdbe6b5-7f67-42f1-be8f-637c35417925.jpg?1547516700',
        large:
-        'https://img.scryfall.com/cards/large/front/9/f/9fdbe6b5-7f67-42f1-be8f-637c35417925.jpg?1542803529',
+        'https://img.scryfall.com/cards/large/front/9/f/9fdbe6b5-7f67-42f1-be8f-637c35417925.jpg?1547516700',
        png:
-        'https://img.scryfall.com/cards/png/front/9/f/9fdbe6b5-7f67-42f1-be8f-637c35417925.png?1542803529',
+        'https://img.scryfall.com/cards/png/front/9/f/9fdbe6b5-7f67-42f1-be8f-637c35417925.png?1547516700',
        art_crop:
-        'https://img.scryfall.com/cards/art_crop/front/9/f/9fdbe6b5-7f67-42f1-be8f-637c35417925.jpg?1542803529',
+        'https://img.scryfall.com/cards/art_crop/front/9/f/9fdbe6b5-7f67-42f1-be8f-637c35417925.jpg?1547516700',
        border_crop:
-        'https://img.scryfall.com/cards/border_crop/front/9/f/9fdbe6b5-7f67-42f1-be8f-637c35417925.jpg?1542803529' },
+        'https://img.scryfall.com/cards/border_crop/front/9/f/9fdbe6b5-7f67-42f1-be8f-637c35417925.jpg?1547516700' },
     mana_cost: '{4}{U}',
     cmc: 5,
     type_line: 'Creature — Djinn Monk',
     oracle_text:
-     'Hexproof (This creature can\'t be the target of spells or abilities your opponents control.)\nProwess (Whenever you cast a noncreature spell, this creature gets +1/+1 until end of turn.)',
+     "Hexproof (This creature can't be the target of spells or abilities your opponents control.)\nProwess (Whenever you cast a noncreature spell, this creature gets +1/+1 until end of turn.)",
     power: '4',
     toughness: '2',
     colors: [ 'U' ],
@@ -15393,9 +15236,8 @@ module.exports = [ { object: 'card',
        vintage: 'legal',
        penny: 'legal',
        commander: 'legal',
-       '1v1': 'legal',
        duel: 'legal',
-       brawl: 'not_legal' },
+       oldschool: 'not_legal' },
     games: [ 'mtgo', 'paper' ],
     reserved: false,
     foil: true,
@@ -15426,7 +15268,7 @@ module.exports = [ { object: 'card',
     frame_effect: '',
     full_art: false,
     story_spotlight: false,
-    edhrec_rank: 11271,
+    edhrec_rank: 11541,
     related_uris:
      { gatherer:
         'http://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=456678',
@@ -15450,20 +15292,20 @@ module.exports = [ { object: 'card',
     scryfall_uri:
      'https://scryfall.com/card/uma/81/visions-of-beyond?utm_source=api',
     layout: 'normal',
-    highres_image: false,
+    highres_image: true,
     image_uris:
      { small:
-        'https://img.scryfall.com/cards/small/front/f/0/f0b97772-9490-4db3-b4dd-a87d973680a5.jpg?1542627320',
+        'https://img.scryfall.com/cards/small/front/f/0/f0b97772-9490-4db3-b4dd-a87d973680a5.jpg?1547516684',
        normal:
-        'https://img.scryfall.com/cards/normal/front/f/0/f0b97772-9490-4db3-b4dd-a87d973680a5.jpg?1542627320',
+        'https://img.scryfall.com/cards/normal/front/f/0/f0b97772-9490-4db3-b4dd-a87d973680a5.jpg?1547516684',
        large:
-        'https://img.scryfall.com/cards/large/front/f/0/f0b97772-9490-4db3-b4dd-a87d973680a5.jpg?1542627320',
+        'https://img.scryfall.com/cards/large/front/f/0/f0b97772-9490-4db3-b4dd-a87d973680a5.jpg?1547516684',
        png:
-        'https://img.scryfall.com/cards/png/front/f/0/f0b97772-9490-4db3-b4dd-a87d973680a5.png?1542627320',
+        'https://img.scryfall.com/cards/png/front/f/0/f0b97772-9490-4db3-b4dd-a87d973680a5.png?1547516684',
        art_crop:
-        'https://img.scryfall.com/cards/art_crop/front/f/0/f0b97772-9490-4db3-b4dd-a87d973680a5.jpg?1542627320',
+        'https://img.scryfall.com/cards/art_crop/front/f/0/f0b97772-9490-4db3-b4dd-a87d973680a5.jpg?1547516684',
        border_crop:
-        'https://img.scryfall.com/cards/border_crop/front/f/0/f0b97772-9490-4db3-b4dd-a87d973680a5.jpg?1542627320' },
+        'https://img.scryfall.com/cards/border_crop/front/f/0/f0b97772-9490-4db3-b4dd-a87d973680a5.jpg?1547516684' },
     mana_cost: '{U}',
     cmc: 1,
     type_line: 'Instant',
@@ -15481,9 +15323,8 @@ module.exports = [ { object: 'card',
        vintage: 'legal',
        penny: 'not_legal',
        commander: 'legal',
-       '1v1': 'legal',
        duel: 'legal',
-       brawl: 'not_legal' },
+       oldschool: 'not_legal' },
     games: [ 'mtgo', 'paper' ],
     reserved: false,
     foil: true,
@@ -15514,7 +15355,7 @@ module.exports = [ { object: 'card',
     frame_effect: '',
     full_art: false,
     story_spotlight: false,
-    edhrec_rank: 3930,
+    edhrec_rank: 3935,
     related_uris:
      { gatherer:
         'http://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=456677',
@@ -15538,25 +15379,25 @@ module.exports = [ { object: 'card',
     scryfall_uri:
      'https://scryfall.com/card/uma/80/unstable-mutation?utm_source=api',
     layout: 'normal',
-    highres_image: false,
+    highres_image: true,
     image_uris:
      { small:
-        'https://img.scryfall.com/cards/small/front/d/a/da66b93a-11a6-4861-a775-d309b7adc461.jpg?1542803447',
+        'https://img.scryfall.com/cards/small/front/d/a/da66b93a-11a6-4861-a775-d309b7adc461.jpg?1547516666',
        normal:
-        'https://img.scryfall.com/cards/normal/front/d/a/da66b93a-11a6-4861-a775-d309b7adc461.jpg?1542803447',
+        'https://img.scryfall.com/cards/normal/front/d/a/da66b93a-11a6-4861-a775-d309b7adc461.jpg?1547516666',
        large:
-        'https://img.scryfall.com/cards/large/front/d/a/da66b93a-11a6-4861-a775-d309b7adc461.jpg?1542803447',
+        'https://img.scryfall.com/cards/large/front/d/a/da66b93a-11a6-4861-a775-d309b7adc461.jpg?1547516666',
        png:
-        'https://img.scryfall.com/cards/png/front/d/a/da66b93a-11a6-4861-a775-d309b7adc461.png?1542803447',
+        'https://img.scryfall.com/cards/png/front/d/a/da66b93a-11a6-4861-a775-d309b7adc461.png?1547516666',
        art_crop:
-        'https://img.scryfall.com/cards/art_crop/front/d/a/da66b93a-11a6-4861-a775-d309b7adc461.jpg?1542803447',
+        'https://img.scryfall.com/cards/art_crop/front/d/a/da66b93a-11a6-4861-a775-d309b7adc461.jpg?1547516666',
        border_crop:
-        'https://img.scryfall.com/cards/border_crop/front/d/a/da66b93a-11a6-4861-a775-d309b7adc461.jpg?1542803447' },
+        'https://img.scryfall.com/cards/border_crop/front/d/a/da66b93a-11a6-4861-a775-d309b7adc461.jpg?1547516666' },
     mana_cost: '{U}',
     cmc: 1,
     type_line: 'Enchantment — Aura',
     oracle_text:
-     'Enchant creature\nEnchanted creature gets +3/+3.\nAt the beginning of the upkeep of enchanted creature\'s controller, put a -1/-1 counter on that creature.',
+     "Enchant creature\nEnchanted creature gets +3/+3.\nAt the beginning of the upkeep of enchanted creature's controller, put a -1/-1 counter on that creature.",
     colors: [ 'U' ],
     color_identity: [ 'U' ],
     legalities:
@@ -15567,11 +15408,10 @@ module.exports = [ { object: 'card',
        legacy: 'legal',
        pauper: 'not_legal',
        vintage: 'legal',
-       penny: 'not_legal',
+       penny: 'legal',
        commander: 'legal',
-       '1v1': 'legal',
        duel: 'legal',
-       brawl: 'not_legal' },
+       oldschool: 'not_legal' },
     games: [ 'mtgo', 'paper' ],
     reserved: false,
     foil: true,
@@ -15600,7 +15440,7 @@ module.exports = [ { object: 'card',
     frame_effect: '',
     full_art: false,
     story_spotlight: false,
-    edhrec_rank: 12495,
+    edhrec_rank: 12608,
     related_uris:
      { gatherer:
         'http://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=456676',
@@ -15624,20 +15464,20 @@ module.exports = [ { object: 'card',
     scryfall_uri:
      'https://scryfall.com/card/uma/79/treasure-cruise?utm_source=api',
     layout: 'normal',
-    highres_image: false,
+    highres_image: true,
     image_uris:
      { small:
-        'https://img.scryfall.com/cards/small/front/3/f/3ff91245-57d8-4020-b260-495c938a515b.jpg?1542629619',
+        'https://img.scryfall.com/cards/small/front/3/f/3ff91245-57d8-4020-b260-495c938a515b.jpg?1547516650',
        normal:
-        'https://img.scryfall.com/cards/normal/front/3/f/3ff91245-57d8-4020-b260-495c938a515b.jpg?1542629619',
+        'https://img.scryfall.com/cards/normal/front/3/f/3ff91245-57d8-4020-b260-495c938a515b.jpg?1547516650',
        large:
-        'https://img.scryfall.com/cards/large/front/3/f/3ff91245-57d8-4020-b260-495c938a515b.jpg?1542629619',
+        'https://img.scryfall.com/cards/large/front/3/f/3ff91245-57d8-4020-b260-495c938a515b.jpg?1547516650',
        png:
-        'https://img.scryfall.com/cards/png/front/3/f/3ff91245-57d8-4020-b260-495c938a515b.png?1542629619',
+        'https://img.scryfall.com/cards/png/front/3/f/3ff91245-57d8-4020-b260-495c938a515b.png?1547516650',
        art_crop:
-        'https://img.scryfall.com/cards/art_crop/front/3/f/3ff91245-57d8-4020-b260-495c938a515b.jpg?1542629619',
+        'https://img.scryfall.com/cards/art_crop/front/3/f/3ff91245-57d8-4020-b260-495c938a515b.jpg?1547516650',
        border_crop:
-        'https://img.scryfall.com/cards/border_crop/front/3/f/3ff91245-57d8-4020-b260-495c938a515b.jpg?1542629619' },
+        'https://img.scryfall.com/cards/border_crop/front/3/f/3ff91245-57d8-4020-b260-495c938a515b.jpg?1547516650' },
     mana_cost: '{7}{U}',
     cmc: 8,
     type_line: 'Sorcery',
@@ -15655,9 +15495,8 @@ module.exports = [ { object: 'card',
        vintage: 'restricted',
        penny: 'legal',
        commander: 'legal',
-       '1v1': 'legal',
        duel: 'banned',
-       brawl: 'not_legal' },
+       oldschool: 'not_legal' },
     games: [ 'mtgo', 'paper' ],
     reserved: false,
     foil: true,
@@ -15688,7 +15527,7 @@ module.exports = [ { object: 'card',
     frame_effect: '',
     full_art: false,
     story_spotlight: false,
-    edhrec_rank: 175,
+    edhrec_rank: 168,
     related_uris:
      { gatherer:
         'http://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=456675',
@@ -15712,20 +15551,20 @@ module.exports = [ { object: 'card',
     scryfall_uri:
      'https://scryfall.com/card/uma/78/think-twice?utm_source=api',
     layout: 'normal',
-    highres_image: false,
+    highres_image: true,
     image_uris:
      { small:
-        'https://img.scryfall.com/cards/small/front/7/3/73db9c10-109a-417f-81cd-489d9510cc78.jpg?1542803336',
+        'https://img.scryfall.com/cards/small/front/7/3/73db9c10-109a-417f-81cd-489d9510cc78.jpg?1547516638',
        normal:
-        'https://img.scryfall.com/cards/normal/front/7/3/73db9c10-109a-417f-81cd-489d9510cc78.jpg?1542803336',
+        'https://img.scryfall.com/cards/normal/front/7/3/73db9c10-109a-417f-81cd-489d9510cc78.jpg?1547516638',
        large:
-        'https://img.scryfall.com/cards/large/front/7/3/73db9c10-109a-417f-81cd-489d9510cc78.jpg?1542803336',
+        'https://img.scryfall.com/cards/large/front/7/3/73db9c10-109a-417f-81cd-489d9510cc78.jpg?1547516638',
        png:
-        'https://img.scryfall.com/cards/png/front/7/3/73db9c10-109a-417f-81cd-489d9510cc78.png?1542803336',
+        'https://img.scryfall.com/cards/png/front/7/3/73db9c10-109a-417f-81cd-489d9510cc78.png?1547516638',
        art_crop:
-        'https://img.scryfall.com/cards/art_crop/front/7/3/73db9c10-109a-417f-81cd-489d9510cc78.jpg?1542803336',
+        'https://img.scryfall.com/cards/art_crop/front/7/3/73db9c10-109a-417f-81cd-489d9510cc78.jpg?1547516638',
        border_crop:
-        'https://img.scryfall.com/cards/border_crop/front/7/3/73db9c10-109a-417f-81cd-489d9510cc78.jpg?1542803336' },
+        'https://img.scryfall.com/cards/border_crop/front/7/3/73db9c10-109a-417f-81cd-489d9510cc78.jpg?1547516638' },
     mana_cost: '{1}{U}',
     cmc: 2,
     type_line: 'Instant',
@@ -15741,11 +15580,10 @@ module.exports = [ { object: 'card',
        legacy: 'legal',
        pauper: 'legal',
        vintage: 'legal',
-       penny: 'not_legal',
+       penny: 'legal',
        commander: 'legal',
-       '1v1': 'legal',
        duel: 'legal',
-       brawl: 'not_legal' },
+       oldschool: 'not_legal' },
     games: [ 'mtgo', 'paper' ],
     reserved: false,
     foil: true,
@@ -15767,7 +15605,7 @@ module.exports = [ { object: 'card',
     collector_number: '78',
     digital: false,
     rarity: 'common',
-    flavor_text: '"Either I know just the spell I need, or I\'m about to."',
+    flavor_text: `"Either I know just the spell I need, or I'm about to."`,
     illustration_id: '47d9121c-7988-4e8f-a78b-c560ad412709',
     artist: 'Anthony Francisco',
     border_color: 'black',
@@ -15775,7 +15613,7 @@ module.exports = [ { object: 'card',
     frame_effect: '',
     full_art: false,
     story_spotlight: false,
-    edhrec_rank: 2151,
+    edhrec_rank: 2170,
     related_uris:
      { gatherer:
         'http://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=456674',
@@ -15803,17 +15641,17 @@ module.exports = [ { object: 'card',
     highres_image: true,
     image_uris:
      { small:
-        'https://img.scryfall.com/cards/small/front/6/2/6270b93e-8cd2-4668-982a-f4c4628da9d9.jpg?1545071723',
+        'https://img.scryfall.com/cards/small/front/6/2/6270b93e-8cd2-4668-982a-f4c4628da9d9.jpg?1547516625',
        normal:
-        'https://img.scryfall.com/cards/normal/front/6/2/6270b93e-8cd2-4668-982a-f4c4628da9d9.jpg?1545071723',
+        'https://img.scryfall.com/cards/normal/front/6/2/6270b93e-8cd2-4668-982a-f4c4628da9d9.jpg?1547516625',
        large:
-        'https://img.scryfall.com/cards/large/front/6/2/6270b93e-8cd2-4668-982a-f4c4628da9d9.jpg?1545071723',
+        'https://img.scryfall.com/cards/large/front/6/2/6270b93e-8cd2-4668-982a-f4c4628da9d9.jpg?1547516625',
        png:
-        'https://img.scryfall.com/cards/png/front/6/2/6270b93e-8cd2-4668-982a-f4c4628da9d9.png?1545071723',
+        'https://img.scryfall.com/cards/png/front/6/2/6270b93e-8cd2-4668-982a-f4c4628da9d9.png?1547516625',
        art_crop:
-        'https://img.scryfall.com/cards/art_crop/front/6/2/6270b93e-8cd2-4668-982a-f4c4628da9d9.jpg?1545071723',
+        'https://img.scryfall.com/cards/art_crop/front/6/2/6270b93e-8cd2-4668-982a-f4c4628da9d9.jpg?1547516625',
        border_crop:
-        'https://img.scryfall.com/cards/border_crop/front/6/2/6270b93e-8cd2-4668-982a-f4c4628da9d9.jpg?1545071723' },
+        'https://img.scryfall.com/cards/border_crop/front/6/2/6270b93e-8cd2-4668-982a-f4c4628da9d9.jpg?1547516625' },
     mana_cost: '{3}{U}{U}',
     cmc: 5,
     type_line: 'Sorcery',
@@ -15830,9 +15668,8 @@ module.exports = [ { object: 'card',
        vintage: 'legal',
        penny: 'not_legal',
        commander: 'legal',
-       '1v1': 'legal',
        duel: 'legal',
-       brawl: 'not_legal' },
+       oldschool: 'not_legal' },
     games: [ 'mtgo', 'paper' ],
     reserved: false,
     foil: true,
@@ -15855,7 +15692,7 @@ module.exports = [ { object: 'card',
     digital: false,
     rarity: 'mythic',
     flavor_text:
-     'Doing something at the last minute isn\'t so bad when you can make that minute last.',
+     "Doing something at the last minute isn't so bad when you can make that minute last.",
     illustration_id: '3a6e451b-b755-4239-953c-9bbb27662aef',
     artist: 'Franz Vohwinkel',
     border_color: 'black',
@@ -15863,7 +15700,7 @@ module.exports = [ { object: 'card',
     frame_effect: '',
     full_art: false,
     story_spotlight: false,
-    edhrec_rank: 3033,
+    edhrec_rank: 3034,
     related_uris:
      { gatherer:
         'http://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=456673',
@@ -15887,20 +15724,20 @@ module.exports = [ { object: 'card',
     scryfall_uri:
      'https://scryfall.com/card/uma/76/talrand-sky-summoner?utm_source=api',
     layout: 'normal',
-    highres_image: false,
+    highres_image: true,
     image_uris:
      { small:
-        'https://img.scryfall.com/cards/small/front/8/3/83c74e76-c6ce-4107-8816-0be8c20d7617.jpg?1542670824',
+        'https://img.scryfall.com/cards/small/front/8/3/83c74e76-c6ce-4107-8816-0be8c20d7617.jpg?1547516612',
        normal:
-        'https://img.scryfall.com/cards/normal/front/8/3/83c74e76-c6ce-4107-8816-0be8c20d7617.jpg?1542670824',
+        'https://img.scryfall.com/cards/normal/front/8/3/83c74e76-c6ce-4107-8816-0be8c20d7617.jpg?1547516612',
        large:
-        'https://img.scryfall.com/cards/large/front/8/3/83c74e76-c6ce-4107-8816-0be8c20d7617.jpg?1542670824',
+        'https://img.scryfall.com/cards/large/front/8/3/83c74e76-c6ce-4107-8816-0be8c20d7617.jpg?1547516612',
        png:
-        'https://img.scryfall.com/cards/png/front/8/3/83c74e76-c6ce-4107-8816-0be8c20d7617.png?1542670824',
+        'https://img.scryfall.com/cards/png/front/8/3/83c74e76-c6ce-4107-8816-0be8c20d7617.png?1547516612',
        art_crop:
-        'https://img.scryfall.com/cards/art_crop/front/8/3/83c74e76-c6ce-4107-8816-0be8c20d7617.jpg?1542670824',
+        'https://img.scryfall.com/cards/art_crop/front/8/3/83c74e76-c6ce-4107-8816-0be8c20d7617.jpg?1547516612',
        border_crop:
-        'https://img.scryfall.com/cards/border_crop/front/8/3/83c74e76-c6ce-4107-8816-0be8c20d7617.jpg?1542670824' },
+        'https://img.scryfall.com/cards/border_crop/front/8/3/83c74e76-c6ce-4107-8816-0be8c20d7617.jpg?1547516612' },
     mana_cost: '{2}{U}{U}',
     cmc: 4,
     type_line: 'Legendary Creature — Merfolk Wizard',
@@ -15935,9 +15772,8 @@ module.exports = [ { object: 'card',
        vintage: 'legal',
        penny: 'not_legal',
        commander: 'legal',
-       '1v1': 'legal',
        duel: 'legal',
-       brawl: 'not_legal' },
+       oldschool: 'not_legal' },
     games: [ 'mtgo', 'paper' ],
     reserved: false,
     foil: true,
@@ -15968,7 +15804,7 @@ module.exports = [ { object: 'card',
     frame_effect: '',
     full_art: false,
     story_spotlight: false,
-    edhrec_rank: 1498,
+    edhrec_rank: 1481,
     related_uris:
      { gatherer:
         'http://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=456672',
@@ -15992,20 +15828,20 @@ module.exports = [ { object: 'card',
     scryfall_uri:
      'https://scryfall.com/card/uma/75/sultai-skullkeeper?utm_source=api',
     layout: 'normal',
-    highres_image: false,
+    highres_image: true,
     image_uris:
      { small:
-        'https://img.scryfall.com/cards/small/front/f/8/f83c3936-1d30-4b1b-85ae-64c2be7d37c0.jpg?1542803249',
+        'https://img.scryfall.com/cards/small/front/f/8/f83c3936-1d30-4b1b-85ae-64c2be7d37c0.jpg?1547516592',
        normal:
-        'https://img.scryfall.com/cards/normal/front/f/8/f83c3936-1d30-4b1b-85ae-64c2be7d37c0.jpg?1542803249',
+        'https://img.scryfall.com/cards/normal/front/f/8/f83c3936-1d30-4b1b-85ae-64c2be7d37c0.jpg?1547516592',
        large:
-        'https://img.scryfall.com/cards/large/front/f/8/f83c3936-1d30-4b1b-85ae-64c2be7d37c0.jpg?1542803249',
+        'https://img.scryfall.com/cards/large/front/f/8/f83c3936-1d30-4b1b-85ae-64c2be7d37c0.jpg?1547516592',
        png:
-        'https://img.scryfall.com/cards/png/front/f/8/f83c3936-1d30-4b1b-85ae-64c2be7d37c0.png?1542803249',
+        'https://img.scryfall.com/cards/png/front/f/8/f83c3936-1d30-4b1b-85ae-64c2be7d37c0.png?1547516592',
        art_crop:
-        'https://img.scryfall.com/cards/art_crop/front/f/8/f83c3936-1d30-4b1b-85ae-64c2be7d37c0.jpg?1542803249',
+        'https://img.scryfall.com/cards/art_crop/front/f/8/f83c3936-1d30-4b1b-85ae-64c2be7d37c0.jpg?1547516592',
        border_crop:
-        'https://img.scryfall.com/cards/border_crop/front/f/8/f83c3936-1d30-4b1b-85ae-64c2be7d37c0.jpg?1542803249' },
+        'https://img.scryfall.com/cards/border_crop/front/f/8/f83c3936-1d30-4b1b-85ae-64c2be7d37c0.jpg?1547516592' },
     mana_cost: '{1}{U}',
     cmc: 2,
     type_line: 'Creature — Naga Shaman',
@@ -16023,11 +15859,10 @@ module.exports = [ { object: 'card',
        legacy: 'legal',
        pauper: 'legal',
        vintage: 'legal',
-       penny: 'not_legal',
+       penny: 'legal',
        commander: 'legal',
-       '1v1': 'legal',
        duel: 'legal',
-       brawl: 'not_legal' },
+       oldschool: 'not_legal' },
     games: [ 'mtgo', 'paper' ],
     reserved: false,
     foil: true,
@@ -16058,7 +15893,7 @@ module.exports = [ { object: 'card',
     frame_effect: '',
     full_art: false,
     story_spotlight: false,
-    edhrec_rank: 12353,
+    edhrec_rank: 12612,
     related_uris:
      { gatherer:
         'http://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=456671',
@@ -16082,20 +15917,20 @@ module.exports = [ { object: 'card',
     scryfall_uri:
      'https://scryfall.com/card/uma/74/stream-of-consciousness?utm_source=api',
     layout: 'normal',
-    highres_image: false,
+    highres_image: true,
     image_uris:
      { small:
-        'https://img.scryfall.com/cards/small/front/4/f/4faef057-8734-442b-a213-c309c219cdee.jpg?1542803204',
+        'https://img.scryfall.com/cards/small/front/4/f/4faef057-8734-442b-a213-c309c219cdee.jpg?1547516567',
        normal:
-        'https://img.scryfall.com/cards/normal/front/4/f/4faef057-8734-442b-a213-c309c219cdee.jpg?1542803204',
+        'https://img.scryfall.com/cards/normal/front/4/f/4faef057-8734-442b-a213-c309c219cdee.jpg?1547516567',
        large:
-        'https://img.scryfall.com/cards/large/front/4/f/4faef057-8734-442b-a213-c309c219cdee.jpg?1542803204',
+        'https://img.scryfall.com/cards/large/front/4/f/4faef057-8734-442b-a213-c309c219cdee.jpg?1547516567',
        png:
-        'https://img.scryfall.com/cards/png/front/4/f/4faef057-8734-442b-a213-c309c219cdee.png?1542803204',
+        'https://img.scryfall.com/cards/png/front/4/f/4faef057-8734-442b-a213-c309c219cdee.png?1547516567',
        art_crop:
-        'https://img.scryfall.com/cards/art_crop/front/4/f/4faef057-8734-442b-a213-c309c219cdee.jpg?1542803204',
+        'https://img.scryfall.com/cards/art_crop/front/4/f/4faef057-8734-442b-a213-c309c219cdee.jpg?1547516567',
        border_crop:
-        'https://img.scryfall.com/cards/border_crop/front/4/f/4faef057-8734-442b-a213-c309c219cdee.jpg?1542803204' },
+        'https://img.scryfall.com/cards/border_crop/front/4/f/4faef057-8734-442b-a213-c309c219cdee.jpg?1547516567' },
     mana_cost: '{1}{U}',
     cmc: 2,
     type_line: 'Instant — Arcane',
@@ -16113,9 +15948,8 @@ module.exports = [ { object: 'card',
        vintage: 'legal',
        penny: 'legal',
        commander: 'legal',
-       '1v1': 'legal',
        duel: 'legal',
-       brawl: 'not_legal' },
+       oldschool: 'not_legal' },
     games: [ 'mtgo', 'paper' ],
     reserved: false,
     foil: true,
@@ -16146,7 +15980,7 @@ module.exports = [ { object: 'card',
     frame_effect: '',
     full_art: false,
     story_spotlight: false,
-    edhrec_rank: 11077,
+    edhrec_rank: 11181,
     related_uris:
      { gatherer:
         'http://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=456670',
@@ -16162,7 +15996,7 @@ module.exports = [ { object: 'card',
     multiverse_ids: [ 456669 ],
     mtgo_id: 70219,
     tcgplayer_id: 180908,
-    name: 'Stitcher\'s Apprentice',
+    name: "Stitcher's Apprentice",
     lang: 'en',
     released_at: '2018-12-07',
     uri:
@@ -16170,20 +16004,20 @@ module.exports = [ { object: 'card',
     scryfall_uri:
      'https://scryfall.com/card/uma/73/stitchers-apprentice?utm_source=api',
     layout: 'normal',
-    highres_image: false,
+    highres_image: true,
     image_uris:
      { small:
-        'https://img.scryfall.com/cards/small/front/7/1/717e34b9-161e-4b11-afb1-f41ee8027433.jpg?1542803097',
+        'https://img.scryfall.com/cards/small/front/7/1/717e34b9-161e-4b11-afb1-f41ee8027433.jpg?1547516555',
        normal:
-        'https://img.scryfall.com/cards/normal/front/7/1/717e34b9-161e-4b11-afb1-f41ee8027433.jpg?1542803097',
+        'https://img.scryfall.com/cards/normal/front/7/1/717e34b9-161e-4b11-afb1-f41ee8027433.jpg?1547516555',
        large:
-        'https://img.scryfall.com/cards/large/front/7/1/717e34b9-161e-4b11-afb1-f41ee8027433.jpg?1542803097',
+        'https://img.scryfall.com/cards/large/front/7/1/717e34b9-161e-4b11-afb1-f41ee8027433.jpg?1547516555',
        png:
-        'https://img.scryfall.com/cards/png/front/7/1/717e34b9-161e-4b11-afb1-f41ee8027433.png?1542803097',
+        'https://img.scryfall.com/cards/png/front/7/1/717e34b9-161e-4b11-afb1-f41ee8027433.png?1547516555',
        art_crop:
-        'https://img.scryfall.com/cards/art_crop/front/7/1/717e34b9-161e-4b11-afb1-f41ee8027433.jpg?1542803097',
+        'https://img.scryfall.com/cards/art_crop/front/7/1/717e34b9-161e-4b11-afb1-f41ee8027433.jpg?1547516555',
        border_crop:
-        'https://img.scryfall.com/cards/border_crop/front/7/1/717e34b9-161e-4b11-afb1-f41ee8027433.jpg?1542803097' },
+        'https://img.scryfall.com/cards/border_crop/front/7/1/717e34b9-161e-4b11-afb1-f41ee8027433.jpg?1547516555' },
     mana_cost: '{1}{U}',
     cmc: 2,
     type_line: 'Creature — Homunculus',
@@ -16197,7 +16031,7 @@ module.exports = [ { object: 'card',
      [ { object: 'related_card',
          id: '717e34b9-161e-4b11-afb1-f41ee8027433',
          component: 'combo_piece',
-         name: 'Stitcher\'s Apprentice',
+         name: "Stitcher's Apprentice",
          type_line: 'Creature — Homunculus',
          uri:
           'https://api.scryfall.com/cards/717e34b9-161e-4b11-afb1-f41ee8027433' },
@@ -16218,9 +16052,8 @@ module.exports = [ { object: 'card',
        vintage: 'legal',
        penny: 'legal',
        commander: 'legal',
-       '1v1': 'legal',
        duel: 'legal',
-       brawl: 'not_legal' },
+       oldschool: 'not_legal' },
     games: [ 'mtgo', 'paper' ],
     reserved: false,
     foil: true,
@@ -16251,7 +16084,7 @@ module.exports = [ { object: 'card',
     frame_effect: '',
     full_art: false,
     story_spotlight: false,
-    edhrec_rank: 13308,
+    edhrec_rank: 13514,
     related_uris:
      { gatherer:
         'http://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=456669',
@@ -16275,20 +16108,20 @@ module.exports = [ { object: 'card',
     scryfall_uri:
      'https://scryfall.com/card/uma/72/stitched-drake?utm_source=api',
     layout: 'normal',
-    highres_image: false,
+    highres_image: true,
     image_uris:
      { small:
-        'https://img.scryfall.com/cards/small/front/7/3/736f293a-10b5-43bc-8aad-cb63f00601a6.jpg?1542803039',
+        'https://img.scryfall.com/cards/small/front/7/3/736f293a-10b5-43bc-8aad-cb63f00601a6.jpg?1547516538',
        normal:
-        'https://img.scryfall.com/cards/normal/front/7/3/736f293a-10b5-43bc-8aad-cb63f00601a6.jpg?1542803039',
+        'https://img.scryfall.com/cards/normal/front/7/3/736f293a-10b5-43bc-8aad-cb63f00601a6.jpg?1547516538',
        large:
-        'https://img.scryfall.com/cards/large/front/7/3/736f293a-10b5-43bc-8aad-cb63f00601a6.jpg?1542803039',
+        'https://img.scryfall.com/cards/large/front/7/3/736f293a-10b5-43bc-8aad-cb63f00601a6.jpg?1547516538',
        png:
-        'https://img.scryfall.com/cards/png/front/7/3/736f293a-10b5-43bc-8aad-cb63f00601a6.png?1542803039',
+        'https://img.scryfall.com/cards/png/front/7/3/736f293a-10b5-43bc-8aad-cb63f00601a6.png?1547516538',
        art_crop:
-        'https://img.scryfall.com/cards/art_crop/front/7/3/736f293a-10b5-43bc-8aad-cb63f00601a6.jpg?1542803039',
+        'https://img.scryfall.com/cards/art_crop/front/7/3/736f293a-10b5-43bc-8aad-cb63f00601a6.jpg?1547516538',
        border_crop:
-        'https://img.scryfall.com/cards/border_crop/front/7/3/736f293a-10b5-43bc-8aad-cb63f00601a6.jpg?1542803039' },
+        'https://img.scryfall.com/cards/border_crop/front/7/3/736f293a-10b5-43bc-8aad-cb63f00601a6.jpg?1547516538' },
     mana_cost: '{1}{U}{U}',
     cmc: 3,
     type_line: 'Creature — Zombie Drake',
@@ -16308,9 +16141,8 @@ module.exports = [ { object: 'card',
        vintage: 'legal',
        penny: 'legal',
        commander: 'legal',
-       '1v1': 'legal',
        duel: 'legal',
-       brawl: 'not_legal' },
+       oldschool: 'not_legal' },
     games: [ 'mtgo', 'paper' ],
     reserved: false,
     foil: true,
@@ -16341,7 +16173,7 @@ module.exports = [ { object: 'card',
     frame_effect: '',
     full_art: false,
     story_spotlight: false,
-    edhrec_rank: 11383,
+    edhrec_rank: 11623,
     related_uris:
      { gatherer:
         'http://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=456668',
@@ -16369,17 +16201,17 @@ module.exports = [ { object: 'card',
     highres_image: true,
     image_uris:
      { small:
-        'https://img.scryfall.com/cards/small/front/7/e/7e41765e-43fe-461d-baeb-ee30d13d2d93.jpg?1545071479',
+        'https://img.scryfall.com/cards/small/front/7/e/7e41765e-43fe-461d-baeb-ee30d13d2d93.jpg?1547516526',
        normal:
-        'https://img.scryfall.com/cards/normal/front/7/e/7e41765e-43fe-461d-baeb-ee30d13d2d93.jpg?1545071479',
+        'https://img.scryfall.com/cards/normal/front/7/e/7e41765e-43fe-461d-baeb-ee30d13d2d93.jpg?1547516526',
        large:
-        'https://img.scryfall.com/cards/large/front/7/e/7e41765e-43fe-461d-baeb-ee30d13d2d93.jpg?1545071479',
+        'https://img.scryfall.com/cards/large/front/7/e/7e41765e-43fe-461d-baeb-ee30d13d2d93.jpg?1547516526',
        png:
-        'https://img.scryfall.com/cards/png/front/7/e/7e41765e-43fe-461d-baeb-ee30d13d2d93.png?1545071479',
+        'https://img.scryfall.com/cards/png/front/7/e/7e41765e-43fe-461d-baeb-ee30d13d2d93.png?1547516526',
        art_crop:
-        'https://img.scryfall.com/cards/art_crop/front/7/e/7e41765e-43fe-461d-baeb-ee30d13d2d93.jpg?1545071479',
+        'https://img.scryfall.com/cards/art_crop/front/7/e/7e41765e-43fe-461d-baeb-ee30d13d2d93.jpg?1547516526',
        border_crop:
-        'https://img.scryfall.com/cards/border_crop/front/7/e/7e41765e-43fe-461d-baeb-ee30d13d2d93.jpg?1545071479' },
+        'https://img.scryfall.com/cards/border_crop/front/7/e/7e41765e-43fe-461d-baeb-ee30d13d2d93.jpg?1547516526' },
     mana_cost: '{1}{U}',
     cmc: 2,
     type_line: 'Creature — Human Wizard',
@@ -16399,9 +16231,8 @@ module.exports = [ { object: 'card',
        vintage: 'legal',
        penny: 'not_legal',
        commander: 'legal',
-       '1v1': 'legal',
        duel: 'legal',
-       brawl: 'not_legal' },
+       oldschool: 'not_legal' },
     games: [ 'mtgo', 'paper' ],
     reserved: false,
     foil: true,
@@ -16430,7 +16261,7 @@ module.exports = [ { object: 'card',
     frame_effect: '',
     full_art: false,
     story_spotlight: false,
-    edhrec_rank: 396,
+    edhrec_rank: 400,
     related_uris:
      { gatherer:
         'http://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=456667',
@@ -16454,20 +16285,20 @@ module.exports = [ { object: 'card',
     scryfall_uri:
      'https://scryfall.com/card/uma/70/sleight-of-hand?utm_source=api',
     layout: 'normal',
-    highres_image: false,
+    highres_image: true,
     image_uris:
      { small:
-        'https://img.scryfall.com/cards/small/front/1/7/1766d117-6ee1-4103-88e8-47b932a94d65.jpg?1542802979',
+        'https://img.scryfall.com/cards/small/front/1/7/1766d117-6ee1-4103-88e8-47b932a94d65.jpg?1547516514',
        normal:
-        'https://img.scryfall.com/cards/normal/front/1/7/1766d117-6ee1-4103-88e8-47b932a94d65.jpg?1542802979',
+        'https://img.scryfall.com/cards/normal/front/1/7/1766d117-6ee1-4103-88e8-47b932a94d65.jpg?1547516514',
        large:
-        'https://img.scryfall.com/cards/large/front/1/7/1766d117-6ee1-4103-88e8-47b932a94d65.jpg?1542802979',
+        'https://img.scryfall.com/cards/large/front/1/7/1766d117-6ee1-4103-88e8-47b932a94d65.jpg?1547516514',
        png:
-        'https://img.scryfall.com/cards/png/front/1/7/1766d117-6ee1-4103-88e8-47b932a94d65.png?1542802979',
+        'https://img.scryfall.com/cards/png/front/1/7/1766d117-6ee1-4103-88e8-47b932a94d65.png?1547516514',
        art_crop:
-        'https://img.scryfall.com/cards/art_crop/front/1/7/1766d117-6ee1-4103-88e8-47b932a94d65.jpg?1542802979',
+        'https://img.scryfall.com/cards/art_crop/front/1/7/1766d117-6ee1-4103-88e8-47b932a94d65.jpg?1547516514',
        border_crop:
-        'https://img.scryfall.com/cards/border_crop/front/1/7/1766d117-6ee1-4103-88e8-47b932a94d65.jpg?1542802979' },
+        'https://img.scryfall.com/cards/border_crop/front/1/7/1766d117-6ee1-4103-88e8-47b932a94d65.jpg?1547516514' },
     mana_cost: '{U}',
     cmc: 1,
     type_line: 'Sorcery',
@@ -16485,9 +16316,8 @@ module.exports = [ { object: 'card',
        vintage: 'legal',
        penny: 'not_legal',
        commander: 'legal',
-       '1v1': 'legal',
        duel: 'legal',
-       brawl: 'not_legal' },
+       oldschool: 'not_legal' },
     games: [ 'mtgo', 'paper' ],
     reserved: false,
     foil: true,
@@ -16517,7 +16347,7 @@ module.exports = [ { object: 'card',
     frame_effect: '',
     full_art: false,
     story_spotlight: false,
-    edhrec_rank: 3236,
+    edhrec_rank: 3241,
     related_uris:
      { gatherer:
         'http://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=456666',
@@ -16541,25 +16371,25 @@ module.exports = [ { object: 'card',
     scryfall_uri:
      'https://scryfall.com/card/uma/69/skywing-aven?utm_source=api',
     layout: 'normal',
-    highres_image: false,
+    highres_image: true,
     image_uris:
      { small:
-        'https://img.scryfall.com/cards/small/front/7/1/712408f9-4bc2-447d-8efe-59c5d53ae364.jpg?1542806217',
+        'https://img.scryfall.com/cards/small/front/7/1/712408f9-4bc2-447d-8efe-59c5d53ae364.jpg?1547516501',
        normal:
-        'https://img.scryfall.com/cards/normal/front/7/1/712408f9-4bc2-447d-8efe-59c5d53ae364.jpg?1542806217',
+        'https://img.scryfall.com/cards/normal/front/7/1/712408f9-4bc2-447d-8efe-59c5d53ae364.jpg?1547516501',
        large:
-        'https://img.scryfall.com/cards/large/front/7/1/712408f9-4bc2-447d-8efe-59c5d53ae364.jpg?1542806217',
+        'https://img.scryfall.com/cards/large/front/7/1/712408f9-4bc2-447d-8efe-59c5d53ae364.jpg?1547516501',
        png:
-        'https://img.scryfall.com/cards/png/front/7/1/712408f9-4bc2-447d-8efe-59c5d53ae364.png?1542806217',
+        'https://img.scryfall.com/cards/png/front/7/1/712408f9-4bc2-447d-8efe-59c5d53ae364.png?1547516501',
        art_crop:
-        'https://img.scryfall.com/cards/art_crop/front/7/1/712408f9-4bc2-447d-8efe-59c5d53ae364.jpg?1542806217',
+        'https://img.scryfall.com/cards/art_crop/front/7/1/712408f9-4bc2-447d-8efe-59c5d53ae364.jpg?1547516501',
        border_crop:
-        'https://img.scryfall.com/cards/border_crop/front/7/1/712408f9-4bc2-447d-8efe-59c5d53ae364.jpg?1542806217' },
+        'https://img.scryfall.com/cards/border_crop/front/7/1/712408f9-4bc2-447d-8efe-59c5d53ae364.jpg?1547516501' },
     mana_cost: '{2}{U}',
     cmc: 3,
     type_line: 'Creature — Bird Soldier',
     oracle_text:
-     'Flying\nDiscard a card: Return Skywing Aven to its owner\'s hand.',
+     "Flying\nDiscard a card: Return Skywing Aven to its owner's hand.",
     power: '2',
     toughness: '1',
     colors: [ 'U' ],
@@ -16574,9 +16404,8 @@ module.exports = [ { object: 'card',
        vintage: 'legal',
        penny: 'legal',
        commander: 'legal',
-       '1v1': 'legal',
        duel: 'legal',
-       brawl: 'not_legal' },
+       oldschool: 'not_legal' },
     games: [ 'mtgo', 'paper' ],
     reserved: false,
     foil: true,
@@ -16607,7 +16436,7 @@ module.exports = [ { object: 'card',
     frame_effect: '',
     full_art: false,
     story_spotlight: false,
-    edhrec_rank: 14974,
+    edhrec_rank: 14434,
     related_uris:
      { gatherer:
         'http://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=456665',
@@ -16630,20 +16459,20 @@ module.exports = [ { object: 'card',
      'https://api.scryfall.com/cards/40d72a34-0f31-4fec-b5a5-4574199bc312',
     scryfall_uri: 'https://scryfall.com/card/uma/68/rune-snag?utm_source=api',
     layout: 'normal',
-    highres_image: false,
+    highres_image: true,
     image_uris:
      { small:
-        'https://img.scryfall.com/cards/small/front/4/0/40d72a34-0f31-4fec-b5a5-4574199bc312.jpg?1542655352',
+        'https://img.scryfall.com/cards/small/front/4/0/40d72a34-0f31-4fec-b5a5-4574199bc312.jpg?1547516481',
        normal:
-        'https://img.scryfall.com/cards/normal/front/4/0/40d72a34-0f31-4fec-b5a5-4574199bc312.jpg?1542655352',
+        'https://img.scryfall.com/cards/normal/front/4/0/40d72a34-0f31-4fec-b5a5-4574199bc312.jpg?1547516481',
        large:
-        'https://img.scryfall.com/cards/large/front/4/0/40d72a34-0f31-4fec-b5a5-4574199bc312.jpg?1542655352',
+        'https://img.scryfall.com/cards/large/front/4/0/40d72a34-0f31-4fec-b5a5-4574199bc312.jpg?1547516481',
        png:
-        'https://img.scryfall.com/cards/png/front/4/0/40d72a34-0f31-4fec-b5a5-4574199bc312.png?1542655352',
+        'https://img.scryfall.com/cards/png/front/4/0/40d72a34-0f31-4fec-b5a5-4574199bc312.png?1547516481',
        art_crop:
-        'https://img.scryfall.com/cards/art_crop/front/4/0/40d72a34-0f31-4fec-b5a5-4574199bc312.jpg?1542655352',
+        'https://img.scryfall.com/cards/art_crop/front/4/0/40d72a34-0f31-4fec-b5a5-4574199bc312.jpg?1547516481',
        border_crop:
-        'https://img.scryfall.com/cards/border_crop/front/4/0/40d72a34-0f31-4fec-b5a5-4574199bc312.jpg?1542655352' },
+        'https://img.scryfall.com/cards/border_crop/front/4/0/40d72a34-0f31-4fec-b5a5-4574199bc312.jpg?1547516481' },
     mana_cost: '{1}{U}',
     cmc: 2,
     type_line: 'Instant',
@@ -16659,11 +16488,10 @@ module.exports = [ { object: 'card',
        legacy: 'legal',
        pauper: 'legal',
        vintage: 'legal',
-       penny: 'not_legal',
+       penny: 'legal',
        commander: 'legal',
-       '1v1': 'legal',
        duel: 'legal',
-       brawl: 'not_legal' },
+       oldschool: 'not_legal' },
     games: [ 'mtgo', 'paper' ],
     reserved: false,
     foil: true,
@@ -16694,7 +16522,7 @@ module.exports = [ { object: 'card',
     frame_effect: '',
     full_art: false,
     story_spotlight: false,
-    edhrec_rank: 12249,
+    edhrec_rank: 12331,
     related_uris:
      { gatherer:
         'http://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=456664',
@@ -16718,20 +16546,20 @@ module.exports = [ { object: 'card',
     scryfall_uri:
      'https://scryfall.com/card/uma/67/rise-from-the-tides?utm_source=api',
     layout: 'normal',
-    highres_image: false,
+    highres_image: true,
     image_uris:
      { small:
-        'https://img.scryfall.com/cards/small/front/c/d/cdbca952-b4e8-4833-aee3-7da8ae82906e.jpg?1542802837',
+        'https://img.scryfall.com/cards/small/front/c/d/cdbca952-b4e8-4833-aee3-7da8ae82906e.jpg?1547516468',
        normal:
-        'https://img.scryfall.com/cards/normal/front/c/d/cdbca952-b4e8-4833-aee3-7da8ae82906e.jpg?1542802837',
+        'https://img.scryfall.com/cards/normal/front/c/d/cdbca952-b4e8-4833-aee3-7da8ae82906e.jpg?1547516468',
        large:
-        'https://img.scryfall.com/cards/large/front/c/d/cdbca952-b4e8-4833-aee3-7da8ae82906e.jpg?1542802837',
+        'https://img.scryfall.com/cards/large/front/c/d/cdbca952-b4e8-4833-aee3-7da8ae82906e.jpg?1547516468',
        png:
-        'https://img.scryfall.com/cards/png/front/c/d/cdbca952-b4e8-4833-aee3-7da8ae82906e.png?1542802837',
+        'https://img.scryfall.com/cards/png/front/c/d/cdbca952-b4e8-4833-aee3-7da8ae82906e.png?1547516468',
        art_crop:
-        'https://img.scryfall.com/cards/art_crop/front/c/d/cdbca952-b4e8-4833-aee3-7da8ae82906e.jpg?1542802837',
+        'https://img.scryfall.com/cards/art_crop/front/c/d/cdbca952-b4e8-4833-aee3-7da8ae82906e.jpg?1547516468',
        border_crop:
-        'https://img.scryfall.com/cards/border_crop/front/c/d/cdbca952-b4e8-4833-aee3-7da8ae82906e.jpg?1542802837' },
+        'https://img.scryfall.com/cards/border_crop/front/c/d/cdbca952-b4e8-4833-aee3-7da8ae82906e.jpg?1547516468' },
     mana_cost: '{5}{U}',
     cmc: 6,
     type_line: 'Sorcery',
@@ -16764,9 +16592,8 @@ module.exports = [ { object: 'card',
        vintage: 'legal',
        penny: 'legal',
        commander: 'legal',
-       '1v1': 'legal',
        duel: 'legal',
-       brawl: 'not_legal' },
+       oldschool: 'not_legal' },
     games: [ 'mtgo', 'paper' ],
     reserved: false,
     foil: true,
@@ -16789,7 +16616,7 @@ module.exports = [ { object: 'card',
     digital: false,
     rarity: 'uncommon',
     flavor_text:
-     '"Dear brother, it\'s sweet that you have chosen to share your toys with Ludevic, but I too have found some new playmates." —Ghoulcaller Gisa',
+     `"Dear brother, it's sweet that you have chosen to share your toys with Ludevic, but I too have found some new playmates." —Ghoulcaller Gisa`,
     illustration_id: '41d2d2e3-5061-4b87-8cdc-99a48c949a0a',
     artist: 'Dave Kendall',
     border_color: 'black',
@@ -16797,7 +16624,7 @@ module.exports = [ { object: 'card',
     frame_effect: '',
     full_art: false,
     story_spotlight: false,
-    edhrec_rank: 1992,
+    edhrec_rank: 2003,
     related_uris:
      { gatherer:
         'http://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=456663',
@@ -16821,20 +16648,20 @@ module.exports = [ { object: 'card',
     scryfall_uri:
      'https://scryfall.com/card/uma/66/mystic-retrieval?utm_source=api',
     layout: 'normal',
-    highres_image: false,
+    highres_image: true,
     image_uris:
      { small:
-        'https://img.scryfall.com/cards/small/front/4/e/4e5a2f5e-b9b3-41ee-a659-76dd763bad65.jpg?1542802773',
+        'https://img.scryfall.com/cards/small/front/4/e/4e5a2f5e-b9b3-41ee-a659-76dd763bad65.jpg?1547516446',
        normal:
-        'https://img.scryfall.com/cards/normal/front/4/e/4e5a2f5e-b9b3-41ee-a659-76dd763bad65.jpg?1542802773',
+        'https://img.scryfall.com/cards/normal/front/4/e/4e5a2f5e-b9b3-41ee-a659-76dd763bad65.jpg?1547516446',
        large:
-        'https://img.scryfall.com/cards/large/front/4/e/4e5a2f5e-b9b3-41ee-a659-76dd763bad65.jpg?1542802773',
+        'https://img.scryfall.com/cards/large/front/4/e/4e5a2f5e-b9b3-41ee-a659-76dd763bad65.jpg?1547516446',
        png:
-        'https://img.scryfall.com/cards/png/front/4/e/4e5a2f5e-b9b3-41ee-a659-76dd763bad65.png?1542802773',
+        'https://img.scryfall.com/cards/png/front/4/e/4e5a2f5e-b9b3-41ee-a659-76dd763bad65.png?1547516446',
        art_crop:
-        'https://img.scryfall.com/cards/art_crop/front/4/e/4e5a2f5e-b9b3-41ee-a659-76dd763bad65.jpg?1542802773',
+        'https://img.scryfall.com/cards/art_crop/front/4/e/4e5a2f5e-b9b3-41ee-a659-76dd763bad65.jpg?1547516446',
        border_crop:
-        'https://img.scryfall.com/cards/border_crop/front/4/e/4e5a2f5e-b9b3-41ee-a659-76dd763bad65.jpg?1542802773' },
+        'https://img.scryfall.com/cards/border_crop/front/4/e/4e5a2f5e-b9b3-41ee-a659-76dd763bad65.jpg?1547516446' },
     mana_cost: '{3}{U}',
     cmc: 4,
     type_line: 'Sorcery',
@@ -16852,9 +16679,8 @@ module.exports = [ { object: 'card',
        vintage: 'legal',
        penny: 'not_legal',
        commander: 'legal',
-       '1v1': 'legal',
        duel: 'legal',
-       brawl: 'not_legal' },
+       oldschool: 'not_legal' },
     games: [ 'mtgo', 'paper' ],
     reserved: false,
     foil: true,
@@ -16883,7 +16709,7 @@ module.exports = [ { object: 'card',
     frame_effect: '',
     full_art: false,
     story_spotlight: false,
-    edhrec_rank: 1144,
+    edhrec_rank: 1142,
     related_uris:
      { gatherer:
         'http://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=456662',
@@ -16907,25 +16733,25 @@ module.exports = [ { object: 'card',
     scryfall_uri:
      'https://scryfall.com/card/uma/65/marang-river-prowler?utm_source=api',
     layout: 'normal',
-    highres_image: false,
+    highres_image: true,
     image_uris:
      { small:
-        'https://img.scryfall.com/cards/small/front/a/4/a4a288d3-c769-4681-828b-9b7579d93469.jpg?1542802735',
+        'https://img.scryfall.com/cards/small/front/a/4/a4a288d3-c769-4681-828b-9b7579d93469.jpg?1547516422',
        normal:
-        'https://img.scryfall.com/cards/normal/front/a/4/a4a288d3-c769-4681-828b-9b7579d93469.jpg?1542802735',
+        'https://img.scryfall.com/cards/normal/front/a/4/a4a288d3-c769-4681-828b-9b7579d93469.jpg?1547516422',
        large:
-        'https://img.scryfall.com/cards/large/front/a/4/a4a288d3-c769-4681-828b-9b7579d93469.jpg?1542802735',
+        'https://img.scryfall.com/cards/large/front/a/4/a4a288d3-c769-4681-828b-9b7579d93469.jpg?1547516422',
        png:
-        'https://img.scryfall.com/cards/png/front/a/4/a4a288d3-c769-4681-828b-9b7579d93469.png?1542802735',
+        'https://img.scryfall.com/cards/png/front/a/4/a4a288d3-c769-4681-828b-9b7579d93469.png?1547516422',
        art_crop:
-        'https://img.scryfall.com/cards/art_crop/front/a/4/a4a288d3-c769-4681-828b-9b7579d93469.jpg?1542802735',
+        'https://img.scryfall.com/cards/art_crop/front/a/4/a4a288d3-c769-4681-828b-9b7579d93469.jpg?1547516422',
        border_crop:
-        'https://img.scryfall.com/cards/border_crop/front/a/4/a4a288d3-c769-4681-828b-9b7579d93469.jpg?1542802735' },
+        'https://img.scryfall.com/cards/border_crop/front/a/4/a4a288d3-c769-4681-828b-9b7579d93469.jpg?1547516422' },
     mana_cost: '{2}{U}',
     cmc: 3,
     type_line: 'Creature — Human Rogue',
     oracle_text:
-     'Marang River Prowler can\'t block and can\'t be blocked.\nYou may cast Marang River Prowler from your graveyard as long as you control a black or green permanent.',
+     "Marang River Prowler can't block and can't be blocked.\nYou may cast Marang River Prowler from your graveyard as long as you control a black or green permanent.",
     power: '2',
     toughness: '1',
     colors: [ 'U' ],
@@ -16940,9 +16766,8 @@ module.exports = [ { object: 'card',
        vintage: 'legal',
        penny: 'legal',
        commander: 'legal',
-       '1v1': 'legal',
        duel: 'legal',
-       brawl: 'not_legal' },
+       oldschool: 'not_legal' },
     games: [ 'mtgo', 'paper' ],
     reserved: false,
     foil: true,
@@ -16973,7 +16798,7 @@ module.exports = [ { object: 'card',
     frame_effect: '',
     full_art: false,
     story_spotlight: false,
-    edhrec_rank: 5693,
+    edhrec_rank: 5778,
     related_uris:
      { gatherer:
         'http://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=456661',
@@ -16997,25 +16822,25 @@ module.exports = [ { object: 'card',
     scryfall_uri:
      'https://scryfall.com/card/uma/64/mahamoti-djinn?utm_source=api',
     layout: 'normal',
-    highres_image: false,
+    highres_image: true,
     image_uris:
      { small:
-        'https://img.scryfall.com/cards/small/front/8/5/855de173-6bec-457b-828e-28678b7d396e.jpg?1542802675',
+        'https://img.scryfall.com/cards/small/front/8/5/855de173-6bec-457b-828e-28678b7d396e.jpg?1547516401',
        normal:
-        'https://img.scryfall.com/cards/normal/front/8/5/855de173-6bec-457b-828e-28678b7d396e.jpg?1542802675',
+        'https://img.scryfall.com/cards/normal/front/8/5/855de173-6bec-457b-828e-28678b7d396e.jpg?1547516401',
        large:
-        'https://img.scryfall.com/cards/large/front/8/5/855de173-6bec-457b-828e-28678b7d396e.jpg?1542802675',
+        'https://img.scryfall.com/cards/large/front/8/5/855de173-6bec-457b-828e-28678b7d396e.jpg?1547516401',
        png:
-        'https://img.scryfall.com/cards/png/front/8/5/855de173-6bec-457b-828e-28678b7d396e.png?1542802675',
+        'https://img.scryfall.com/cards/png/front/8/5/855de173-6bec-457b-828e-28678b7d396e.png?1547516401',
        art_crop:
-        'https://img.scryfall.com/cards/art_crop/front/8/5/855de173-6bec-457b-828e-28678b7d396e.jpg?1542802675',
+        'https://img.scryfall.com/cards/art_crop/front/8/5/855de173-6bec-457b-828e-28678b7d396e.jpg?1547516401',
        border_crop:
-        'https://img.scryfall.com/cards/border_crop/front/8/5/855de173-6bec-457b-828e-28678b7d396e.jpg?1542802675' },
+        'https://img.scryfall.com/cards/border_crop/front/8/5/855de173-6bec-457b-828e-28678b7d396e.jpg?1547516401' },
     mana_cost: '{4}{U}{U}',
     cmc: 6,
     type_line: 'Creature — Djinn',
     oracle_text:
-     'Flying (This creature can\'t be blocked except by creatures with flying or reach.)',
+     "Flying (This creature can't be blocked except by creatures with flying or reach.)",
     power: '5',
     toughness: '6',
     colors: [ 'U' ],
@@ -17030,9 +16855,8 @@ module.exports = [ { object: 'card',
        vintage: 'legal',
        penny: 'legal',
        commander: 'legal',
-       '1v1': 'legal',
        duel: 'legal',
-       brawl: 'not_legal' },
+       oldschool: 'not_legal' },
     games: [ 'mtgo', 'paper' ],
     reserved: false,
     foil: true,
@@ -17063,7 +16887,7 @@ module.exports = [ { object: 'card',
     frame_effect: '',
     full_art: false,
     story_spotlight: false,
-    edhrec_rank: 11291,
+    edhrec_rank: 11565,
     related_uris:
      { gatherer:
         'http://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=456660',
@@ -17087,20 +16911,20 @@ module.exports = [ { object: 'card',
     scryfall_uri:
      'https://scryfall.com/card/uma/63/magus-of-the-bazaar?utm_source=api',
     layout: 'normal',
-    highres_image: false,
+    highres_image: true,
     image_uris:
      { small:
-        'https://img.scryfall.com/cards/small/front/d/1/d117ed81-7b5c-4e29-b958-6126d48ac5a6.jpg?1542721228',
+        'https://img.scryfall.com/cards/small/front/d/1/d117ed81-7b5c-4e29-b958-6126d48ac5a6.jpg?1547516386',
        normal:
-        'https://img.scryfall.com/cards/normal/front/d/1/d117ed81-7b5c-4e29-b958-6126d48ac5a6.jpg?1542721228',
+        'https://img.scryfall.com/cards/normal/front/d/1/d117ed81-7b5c-4e29-b958-6126d48ac5a6.jpg?1547516386',
        large:
-        'https://img.scryfall.com/cards/large/front/d/1/d117ed81-7b5c-4e29-b958-6126d48ac5a6.jpg?1542721228',
+        'https://img.scryfall.com/cards/large/front/d/1/d117ed81-7b5c-4e29-b958-6126d48ac5a6.jpg?1547516386',
        png:
-        'https://img.scryfall.com/cards/png/front/d/1/d117ed81-7b5c-4e29-b958-6126d48ac5a6.png?1542721228',
+        'https://img.scryfall.com/cards/png/front/d/1/d117ed81-7b5c-4e29-b958-6126d48ac5a6.png?1547516386',
        art_crop:
-        'https://img.scryfall.com/cards/art_crop/front/d/1/d117ed81-7b5c-4e29-b958-6126d48ac5a6.jpg?1542721228',
+        'https://img.scryfall.com/cards/art_crop/front/d/1/d117ed81-7b5c-4e29-b958-6126d48ac5a6.jpg?1547516386',
        border_crop:
-        'https://img.scryfall.com/cards/border_crop/front/d/1/d117ed81-7b5c-4e29-b958-6126d48ac5a6.jpg?1542721228' },
+        'https://img.scryfall.com/cards/border_crop/front/d/1/d117ed81-7b5c-4e29-b958-6126d48ac5a6.jpg?1547516386' },
     mana_cost: '{1}{U}',
     cmc: 2,
     type_line: 'Creature — Human Wizard',
@@ -17119,9 +16943,8 @@ module.exports = [ { object: 'card',
        vintage: 'legal',
        penny: 'legal',
        commander: 'legal',
-       '1v1': 'legal',
        duel: 'legal',
-       brawl: 'not_legal' },
+       oldschool: 'not_legal' },
     games: [ 'mtgo', 'paper' ],
     reserved: false,
     foil: true,
@@ -17152,7 +16975,7 @@ module.exports = [ { object: 'card',
     frame_effect: '',
     full_art: false,
     story_spotlight: false,
-    edhrec_rank: 6678,
+    edhrec_rank: 6701,
     related_uris:
      { gatherer:
         'http://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=456659',
@@ -17176,25 +16999,25 @@ module.exports = [ { object: 'card',
     scryfall_uri:
      'https://scryfall.com/card/uma/62/living-lore?utm_source=api',
     layout: 'normal',
-    highres_image: false,
+    highres_image: true,
     image_uris:
      { small:
-        'https://img.scryfall.com/cards/small/front/f/a/fa314d92-51e5-4c09-963c-761e83dc84bc.jpg?1542722241',
+        'https://img.scryfall.com/cards/small/front/f/a/fa314d92-51e5-4c09-963c-761e83dc84bc.jpg?1547516373',
        normal:
-        'https://img.scryfall.com/cards/normal/front/f/a/fa314d92-51e5-4c09-963c-761e83dc84bc.jpg?1542722241',
+        'https://img.scryfall.com/cards/normal/front/f/a/fa314d92-51e5-4c09-963c-761e83dc84bc.jpg?1547516373',
        large:
-        'https://img.scryfall.com/cards/large/front/f/a/fa314d92-51e5-4c09-963c-761e83dc84bc.jpg?1542722241',
+        'https://img.scryfall.com/cards/large/front/f/a/fa314d92-51e5-4c09-963c-761e83dc84bc.jpg?1547516373',
        png:
-        'https://img.scryfall.com/cards/png/front/f/a/fa314d92-51e5-4c09-963c-761e83dc84bc.png?1542722241',
+        'https://img.scryfall.com/cards/png/front/f/a/fa314d92-51e5-4c09-963c-761e83dc84bc.png?1547516373',
        art_crop:
-        'https://img.scryfall.com/cards/art_crop/front/f/a/fa314d92-51e5-4c09-963c-761e83dc84bc.jpg?1542722241',
+        'https://img.scryfall.com/cards/art_crop/front/f/a/fa314d92-51e5-4c09-963c-761e83dc84bc.jpg?1547516373',
        border_crop:
-        'https://img.scryfall.com/cards/border_crop/front/f/a/fa314d92-51e5-4c09-963c-761e83dc84bc.jpg?1542722241' },
+        'https://img.scryfall.com/cards/border_crop/front/f/a/fa314d92-51e5-4c09-963c-761e83dc84bc.jpg?1547516373' },
     mana_cost: '{3}{U}',
     cmc: 4,
     type_line: 'Creature — Avatar',
     oracle_text:
-     'As Living Lore enters the battlefield, exile an instant or sorcery card from your graveyard.\nLiving Lore\'s power and toughness are each equal to the exiled card\'s converted mana cost.\nWhenever Living Lore deals combat damage, you may sacrifice it. If you do, you may cast the exiled card without paying its mana cost.',
+     "As Living Lore enters the battlefield, exile an instant or sorcery card from your graveyard.\nLiving Lore's power and toughness are each equal to the exiled card's converted mana cost.\nWhenever Living Lore deals combat damage, you may sacrifice it. If you do, you may cast the exiled card without paying its mana cost.",
     power: '*',
     toughness: '*',
     colors: [ 'U' ],
@@ -17207,11 +17030,10 @@ module.exports = [ { object: 'card',
        legacy: 'legal',
        pauper: 'not_legal',
        vintage: 'legal',
-       penny: 'not_legal',
+       penny: 'legal',
        commander: 'legal',
-       '1v1': 'legal',
        duel: 'legal',
-       brawl: 'not_legal' },
+       oldschool: 'not_legal' },
     games: [ 'mtgo', 'paper' ],
     reserved: false,
     foil: true,
@@ -17240,7 +17062,7 @@ module.exports = [ { object: 'card',
     frame_effect: '',
     full_art: false,
     story_spotlight: false,
-    edhrec_rank: 7549,
+    edhrec_rank: 7787,
     related_uris:
      { gatherer:
         'http://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=456658',
@@ -17264,20 +17086,20 @@ module.exports = [ { object: 'card',
     scryfall_uri:
      'https://scryfall.com/card/uma/61/laboratory-maniac?utm_source=api',
     layout: 'normal',
-    highres_image: false,
+    highres_image: true,
     image_uris:
      { small:
-        'https://img.scryfall.com/cards/small/front/6/0/608567fd-9f94-4058-831a-77cb6019ef02.jpg?1542722185',
+        'https://img.scryfall.com/cards/small/front/6/0/608567fd-9f94-4058-831a-77cb6019ef02.jpg?1547516361',
        normal:
-        'https://img.scryfall.com/cards/normal/front/6/0/608567fd-9f94-4058-831a-77cb6019ef02.jpg?1542722185',
+        'https://img.scryfall.com/cards/normal/front/6/0/608567fd-9f94-4058-831a-77cb6019ef02.jpg?1547516361',
        large:
-        'https://img.scryfall.com/cards/large/front/6/0/608567fd-9f94-4058-831a-77cb6019ef02.jpg?1542722185',
+        'https://img.scryfall.com/cards/large/front/6/0/608567fd-9f94-4058-831a-77cb6019ef02.jpg?1547516361',
        png:
-        'https://img.scryfall.com/cards/png/front/6/0/608567fd-9f94-4058-831a-77cb6019ef02.png?1542722185',
+        'https://img.scryfall.com/cards/png/front/6/0/608567fd-9f94-4058-831a-77cb6019ef02.png?1547516361',
        art_crop:
-        'https://img.scryfall.com/cards/art_crop/front/6/0/608567fd-9f94-4058-831a-77cb6019ef02.jpg?1542722185',
+        'https://img.scryfall.com/cards/art_crop/front/6/0/608567fd-9f94-4058-831a-77cb6019ef02.jpg?1547516361',
        border_crop:
-        'https://img.scryfall.com/cards/border_crop/front/6/0/608567fd-9f94-4058-831a-77cb6019ef02.jpg?1542722185' },
+        'https://img.scryfall.com/cards/border_crop/front/6/0/608567fd-9f94-4058-831a-77cb6019ef02.jpg?1547516361' },
     mana_cost: '{2}{U}',
     cmc: 3,
     type_line: 'Creature — Human Wizard',
@@ -17297,9 +17119,8 @@ module.exports = [ { object: 'card',
        vintage: 'legal',
        penny: 'not_legal',
        commander: 'legal',
-       '1v1': 'legal',
        duel: 'legal',
-       brawl: 'not_legal' },
+       oldschool: 'not_legal' },
     games: [ 'mtgo', 'paper' ],
     reserved: false,
     foil: true,
@@ -17330,7 +17151,7 @@ module.exports = [ { object: 'card',
     frame_effect: '',
     full_art: false,
     story_spotlight: false,
-    edhrec_rank: 338,
+    edhrec_rank: 328,
     related_uris:
      { gatherer:
         'http://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=456657',
@@ -17354,25 +17175,25 @@ module.exports = [ { object: 'card',
     scryfall_uri:
      'https://scryfall.com/card/uma/60/just-the-wind?utm_source=api',
     layout: 'normal',
-    highres_image: false,
+    highres_image: true,
     image_uris:
      { small:
-        'https://img.scryfall.com/cards/small/front/5/9/59e40878-358d-48ec-a35f-3d9867728143.jpg?1542802539',
+        'https://img.scryfall.com/cards/small/front/5/9/59e40878-358d-48ec-a35f-3d9867728143.jpg?1547516348',
        normal:
-        'https://img.scryfall.com/cards/normal/front/5/9/59e40878-358d-48ec-a35f-3d9867728143.jpg?1542802539',
+        'https://img.scryfall.com/cards/normal/front/5/9/59e40878-358d-48ec-a35f-3d9867728143.jpg?1547516348',
        large:
-        'https://img.scryfall.com/cards/large/front/5/9/59e40878-358d-48ec-a35f-3d9867728143.jpg?1542802539',
+        'https://img.scryfall.com/cards/large/front/5/9/59e40878-358d-48ec-a35f-3d9867728143.jpg?1547516348',
        png:
-        'https://img.scryfall.com/cards/png/front/5/9/59e40878-358d-48ec-a35f-3d9867728143.png?1542802539',
+        'https://img.scryfall.com/cards/png/front/5/9/59e40878-358d-48ec-a35f-3d9867728143.png?1547516348',
        art_crop:
-        'https://img.scryfall.com/cards/art_crop/front/5/9/59e40878-358d-48ec-a35f-3d9867728143.jpg?1542802539',
+        'https://img.scryfall.com/cards/art_crop/front/5/9/59e40878-358d-48ec-a35f-3d9867728143.jpg?1547516348',
        border_crop:
-        'https://img.scryfall.com/cards/border_crop/front/5/9/59e40878-358d-48ec-a35f-3d9867728143.jpg?1542802539' },
+        'https://img.scryfall.com/cards/border_crop/front/5/9/59e40878-358d-48ec-a35f-3d9867728143.jpg?1547516348' },
     mana_cost: '{1}{U}',
     cmc: 2,
     type_line: 'Instant',
     oracle_text:
-     'Return target creature to its owner\'s hand.\nMadness {U} (If you discard this card, discard it into exile. When you do, cast it for its madness cost or put it into your graveyard.)',
+     "Return target creature to its owner's hand.\nMadness {U} (If you discard this card, discard it into exile. When you do, cast it for its madness cost or put it into your graveyard.)",
     colors: [ 'U' ],
     color_identity: [ 'U' ],
     legalities:
@@ -17385,9 +17206,8 @@ module.exports = [ { object: 'card',
        vintage: 'legal',
        penny: 'legal',
        commander: 'legal',
-       '1v1': 'legal',
        duel: 'legal',
-       brawl: 'not_legal' },
+       oldschool: 'not_legal' },
     games: [ 'mtgo', 'paper' ],
     reserved: false,
     foil: true,
@@ -17409,7 +17229,7 @@ module.exports = [ { object: 'card',
     collector_number: '60',
     digital: false,
     rarity: 'common',
-    flavor_text: '"There\'s nothing to worry about."',
+    flavor_text: `"There's nothing to worry about."`,
     illustration_id: '3ca27e05-077f-4496-bfaf-6494ae91d998',
     artist: 'Christopher Moeller',
     border_color: 'black',
@@ -17417,7 +17237,7 @@ module.exports = [ { object: 'card',
     frame_effect: '',
     full_art: false,
     story_spotlight: false,
-    edhrec_rank: 9510,
+    edhrec_rank: 9751,
     related_uris:
      { gatherer:
         'http://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=456656',
@@ -17441,20 +17261,20 @@ module.exports = [ { object: 'card',
     scryfall_uri:
      'https://scryfall.com/card/uma/59/iridescent-drake?utm_source=api',
     layout: 'normal',
-    highres_image: false,
+    highres_image: true,
     image_uris:
      { small:
-        'https://img.scryfall.com/cards/small/front/5/c/5c99c962-aa33-4e19-96b2-7a05b97d06d4.jpg?1542802491',
+        'https://img.scryfall.com/cards/small/front/5/c/5c99c962-aa33-4e19-96b2-7a05b97d06d4.jpg?1547516332',
        normal:
-        'https://img.scryfall.com/cards/normal/front/5/c/5c99c962-aa33-4e19-96b2-7a05b97d06d4.jpg?1542802491',
+        'https://img.scryfall.com/cards/normal/front/5/c/5c99c962-aa33-4e19-96b2-7a05b97d06d4.jpg?1547516332',
        large:
-        'https://img.scryfall.com/cards/large/front/5/c/5c99c962-aa33-4e19-96b2-7a05b97d06d4.jpg?1542802491',
+        'https://img.scryfall.com/cards/large/front/5/c/5c99c962-aa33-4e19-96b2-7a05b97d06d4.jpg?1547516332',
        png:
-        'https://img.scryfall.com/cards/png/front/5/c/5c99c962-aa33-4e19-96b2-7a05b97d06d4.png?1542802491',
+        'https://img.scryfall.com/cards/png/front/5/c/5c99c962-aa33-4e19-96b2-7a05b97d06d4.png?1547516332',
        art_crop:
-        'https://img.scryfall.com/cards/art_crop/front/5/c/5c99c962-aa33-4e19-96b2-7a05b97d06d4.jpg?1542802491',
+        'https://img.scryfall.com/cards/art_crop/front/5/c/5c99c962-aa33-4e19-96b2-7a05b97d06d4.jpg?1547516332',
        border_crop:
-        'https://img.scryfall.com/cards/border_crop/front/5/c/5c99c962-aa33-4e19-96b2-7a05b97d06d4.jpg?1542802491' },
+        'https://img.scryfall.com/cards/border_crop/front/5/c/5c99c962-aa33-4e19-96b2-7a05b97d06d4.jpg?1547516332' },
     mana_cost: '{3}{U}',
     cmc: 4,
     type_line: 'Creature — Drake',
@@ -17474,9 +17294,8 @@ module.exports = [ { object: 'card',
        vintage: 'legal',
        penny: 'legal',
        commander: 'legal',
-       '1v1': 'legal',
        duel: 'legal',
-       brawl: 'not_legal' },
+       oldschool: 'not_legal' },
     games: [ 'mtgo', 'paper' ],
     reserved: false,
     foil: true,
@@ -17505,7 +17324,7 @@ module.exports = [ { object: 'card',
     frame_effect: '',
     full_art: false,
     story_spotlight: false,
-    edhrec_rank: 11518,
+    edhrec_rank: 11679,
     related_uris:
      { gatherer:
         'http://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=456655',
@@ -17529,25 +17348,25 @@ module.exports = [ { object: 'card',
     scryfall_uri:
      'https://scryfall.com/card/uma/58/glen-elendra-archmage?utm_source=api',
     layout: 'normal',
-    highres_image: false,
+    highres_image: true,
     image_uris:
      { small:
-        'https://img.scryfall.com/cards/small/front/b/d/bd9af767-42da-46c7-a2b8-3957b2e3063f.jpg?1542729667',
+        'https://img.scryfall.com/cards/small/front/b/d/bd9af767-42da-46c7-a2b8-3957b2e3063f.jpg?1547516310',
        normal:
-        'https://img.scryfall.com/cards/normal/front/b/d/bd9af767-42da-46c7-a2b8-3957b2e3063f.jpg?1542729667',
+        'https://img.scryfall.com/cards/normal/front/b/d/bd9af767-42da-46c7-a2b8-3957b2e3063f.jpg?1547516310',
        large:
-        'https://img.scryfall.com/cards/large/front/b/d/bd9af767-42da-46c7-a2b8-3957b2e3063f.jpg?1542729667',
+        'https://img.scryfall.com/cards/large/front/b/d/bd9af767-42da-46c7-a2b8-3957b2e3063f.jpg?1547516310',
        png:
-        'https://img.scryfall.com/cards/png/front/b/d/bd9af767-42da-46c7-a2b8-3957b2e3063f.png?1542729667',
+        'https://img.scryfall.com/cards/png/front/b/d/bd9af767-42da-46c7-a2b8-3957b2e3063f.png?1547516310',
        art_crop:
-        'https://img.scryfall.com/cards/art_crop/front/b/d/bd9af767-42da-46c7-a2b8-3957b2e3063f.jpg?1542729667',
+        'https://img.scryfall.com/cards/art_crop/front/b/d/bd9af767-42da-46c7-a2b8-3957b2e3063f.jpg?1547516310',
        border_crop:
-        'https://img.scryfall.com/cards/border_crop/front/b/d/bd9af767-42da-46c7-a2b8-3957b2e3063f.jpg?1542729667' },
+        'https://img.scryfall.com/cards/border_crop/front/b/d/bd9af767-42da-46c7-a2b8-3957b2e3063f.jpg?1547516310' },
     mana_cost: '{3}{U}',
     cmc: 4,
     type_line: 'Creature — Faerie Wizard',
     oracle_text:
-     'Flying\n{U}, Sacrifice Glen Elendra Archmage: Counter target noncreature spell.\nPersist (When this creature dies, if it had no -1/-1 counters on it, return it to the battlefield under its owner\'s control with a -1/-1 counter on it.)',
+     "Flying\n{U}, Sacrifice Glen Elendra Archmage: Counter target noncreature spell.\nPersist (When this creature dies, if it had no -1/-1 counters on it, return it to the battlefield under its owner's control with a -1/-1 counter on it.)",
     power: '2',
     toughness: '2',
     colors: [ 'U' ],
@@ -17562,9 +17381,8 @@ module.exports = [ { object: 'card',
        vintage: 'legal',
        penny: 'not_legal',
        commander: 'legal',
-       '1v1': 'legal',
        duel: 'legal',
-       brawl: 'not_legal' },
+       oldschool: 'not_legal' },
     games: [ 'mtgo', 'paper' ],
     reserved: false,
     foil: true,
@@ -17593,7 +17411,7 @@ module.exports = [ { object: 'card',
     frame_effect: '',
     full_art: false,
     story_spotlight: false,
-    edhrec_rank: 555,
+    edhrec_rank: 539,
     related_uris:
      { gatherer:
         'http://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=456654',
@@ -17617,20 +17435,20 @@ module.exports = [ { object: 'card',
     scryfall_uri:
      'https://scryfall.com/card/uma/57/frantic-search?utm_source=api',
     layout: 'normal',
-    highres_image: false,
+    highres_image: true,
     image_uris:
      { small:
-        'https://img.scryfall.com/cards/small/front/b/8/b8a6d5a5-ea8a-4d13-a8a6-11587f1bde44.jpg?1543006042',
+        'https://img.scryfall.com/cards/small/front/b/8/b8a6d5a5-ea8a-4d13-a8a6-11587f1bde44.jpg?1547516289',
        normal:
-        'https://img.scryfall.com/cards/normal/front/b/8/b8a6d5a5-ea8a-4d13-a8a6-11587f1bde44.jpg?1543006042',
+        'https://img.scryfall.com/cards/normal/front/b/8/b8a6d5a5-ea8a-4d13-a8a6-11587f1bde44.jpg?1547516289',
        large:
-        'https://img.scryfall.com/cards/large/front/b/8/b8a6d5a5-ea8a-4d13-a8a6-11587f1bde44.jpg?1543006042',
+        'https://img.scryfall.com/cards/large/front/b/8/b8a6d5a5-ea8a-4d13-a8a6-11587f1bde44.jpg?1547516289',
        png:
-        'https://img.scryfall.com/cards/png/front/b/8/b8a6d5a5-ea8a-4d13-a8a6-11587f1bde44.png?1543006042',
+        'https://img.scryfall.com/cards/png/front/b/8/b8a6d5a5-ea8a-4d13-a8a6-11587f1bde44.png?1547516289',
        art_crop:
-        'https://img.scryfall.com/cards/art_crop/front/b/8/b8a6d5a5-ea8a-4d13-a8a6-11587f1bde44.jpg?1543006042',
+        'https://img.scryfall.com/cards/art_crop/front/b/8/b8a6d5a5-ea8a-4d13-a8a6-11587f1bde44.jpg?1547516289',
        border_crop:
-        'https://img.scryfall.com/cards/border_crop/front/b/8/b8a6d5a5-ea8a-4d13-a8a6-11587f1bde44.jpg?1543006042' },
+        'https://img.scryfall.com/cards/border_crop/front/b/8/b8a6d5a5-ea8a-4d13-a8a6-11587f1bde44.jpg?1547516289' },
     mana_cost: '{2}{U}',
     cmc: 3,
     type_line: 'Instant',
@@ -17646,11 +17464,10 @@ module.exports = [ { object: 'card',
        legacy: 'banned',
        pauper: 'banned',
        vintage: 'legal',
-       penny: 'not_legal',
+       penny: 'legal',
        commander: 'legal',
-       '1v1': 'legal',
        duel: 'legal',
-       brawl: 'not_legal' },
+       oldschool: 'not_legal' },
     games: [ 'mtgo', 'paper' ],
     reserved: false,
     foil: true,
@@ -17681,7 +17498,7 @@ module.exports = [ { object: 'card',
     frame_effect: '',
     full_art: false,
     story_spotlight: false,
-    edhrec_rank: 464,
+    edhrec_rank: 444,
     related_uris:
      { gatherer:
         'http://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=456653',
@@ -17705,20 +17522,20 @@ module.exports = [ { object: 'card',
     scryfall_uri:
      'https://scryfall.com/card/uma/56/forbidden-alchemy?utm_source=api',
     layout: 'normal',
-    highres_image: false,
+    highres_image: true,
     image_uris:
      { small:
-        'https://img.scryfall.com/cards/small/front/e/7/e70dcc0d-aaa2-4815-be83-daafe441ceb4.jpg?1542802341',
+        'https://img.scryfall.com/cards/small/front/e/7/e70dcc0d-aaa2-4815-be83-daafe441ceb4.jpg?1547516271',
        normal:
-        'https://img.scryfall.com/cards/normal/front/e/7/e70dcc0d-aaa2-4815-be83-daafe441ceb4.jpg?1542802341',
+        'https://img.scryfall.com/cards/normal/front/e/7/e70dcc0d-aaa2-4815-be83-daafe441ceb4.jpg?1547516271',
        large:
-        'https://img.scryfall.com/cards/large/front/e/7/e70dcc0d-aaa2-4815-be83-daafe441ceb4.jpg?1542802341',
+        'https://img.scryfall.com/cards/large/front/e/7/e70dcc0d-aaa2-4815-be83-daafe441ceb4.jpg?1547516271',
        png:
-        'https://img.scryfall.com/cards/png/front/e/7/e70dcc0d-aaa2-4815-be83-daafe441ceb4.png?1542802341',
+        'https://img.scryfall.com/cards/png/front/e/7/e70dcc0d-aaa2-4815-be83-daafe441ceb4.png?1547516271',
        art_crop:
-        'https://img.scryfall.com/cards/art_crop/front/e/7/e70dcc0d-aaa2-4815-be83-daafe441ceb4.jpg?1542802341',
+        'https://img.scryfall.com/cards/art_crop/front/e/7/e70dcc0d-aaa2-4815-be83-daafe441ceb4.jpg?1547516271',
        border_crop:
-        'https://img.scryfall.com/cards/border_crop/front/e/7/e70dcc0d-aaa2-4815-be83-daafe441ceb4.jpg?1542802341' },
+        'https://img.scryfall.com/cards/border_crop/front/e/7/e70dcc0d-aaa2-4815-be83-daafe441ceb4.jpg?1547516271' },
     mana_cost: '{2}{U}',
     cmc: 3,
     type_line: 'Instant',
@@ -17736,9 +17553,8 @@ module.exports = [ { object: 'card',
        vintage: 'legal',
        penny: 'not_legal',
        commander: 'legal',
-       '1v1': 'legal',
        duel: 'legal',
-       brawl: 'not_legal' },
+       oldschool: 'not_legal' },
     games: [ 'mtgo', 'paper' ],
     reserved: false,
     foil: true,
@@ -17767,7 +17583,7 @@ module.exports = [ { object: 'card',
     frame_effect: '',
     full_art: false,
     story_spotlight: false,
-    edhrec_rank: 1929,
+    edhrec_rank: 1938,
     related_uris:
      { gatherer:
         'http://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=456652',
@@ -17790,25 +17606,25 @@ module.exports = [ { object: 'card',
      'https://api.scryfall.com/cards/e8b39fd6-9240-4f76-b12c-e7d9aa88f061',
     scryfall_uri: 'https://scryfall.com/card/uma/55/foil?utm_source=api',
     layout: 'normal',
-    highres_image: false,
+    highres_image: true,
     image_uris:
      { small:
-        'https://img.scryfall.com/cards/small/front/e/8/e8b39fd6-9240-4f76-b12c-e7d9aa88f061.jpg?1542722117',
+        'https://img.scryfall.com/cards/small/front/e/8/e8b39fd6-9240-4f76-b12c-e7d9aa88f061.jpg?1547516254',
        normal:
-        'https://img.scryfall.com/cards/normal/front/e/8/e8b39fd6-9240-4f76-b12c-e7d9aa88f061.jpg?1542722117',
+        'https://img.scryfall.com/cards/normal/front/e/8/e8b39fd6-9240-4f76-b12c-e7d9aa88f061.jpg?1547516254',
        large:
-        'https://img.scryfall.com/cards/large/front/e/8/e8b39fd6-9240-4f76-b12c-e7d9aa88f061.jpg?1542722117',
+        'https://img.scryfall.com/cards/large/front/e/8/e8b39fd6-9240-4f76-b12c-e7d9aa88f061.jpg?1547516254',
        png:
-        'https://img.scryfall.com/cards/png/front/e/8/e8b39fd6-9240-4f76-b12c-e7d9aa88f061.png?1542722117',
+        'https://img.scryfall.com/cards/png/front/e/8/e8b39fd6-9240-4f76-b12c-e7d9aa88f061.png?1547516254',
        art_crop:
-        'https://img.scryfall.com/cards/art_crop/front/e/8/e8b39fd6-9240-4f76-b12c-e7d9aa88f061.jpg?1542722117',
+        'https://img.scryfall.com/cards/art_crop/front/e/8/e8b39fd6-9240-4f76-b12c-e7d9aa88f061.jpg?1547516254',
        border_crop:
-        'https://img.scryfall.com/cards/border_crop/front/e/8/e8b39fd6-9240-4f76-b12c-e7d9aa88f061.jpg?1542722117' },
+        'https://img.scryfall.com/cards/border_crop/front/e/8/e8b39fd6-9240-4f76-b12c-e7d9aa88f061.jpg?1547516254' },
     mana_cost: '{2}{U}{U}',
     cmc: 4,
     type_line: 'Instant',
     oracle_text:
-     'You may discard an Island card and another card rather than pay this spell\'s mana cost.\nCounter target spell.',
+     "You may discard an Island card and another card rather than pay this spell's mana cost.\nCounter target spell.",
     colors: [ 'U' ],
     color_identity: [ 'U' ],
     legalities:
@@ -17821,9 +17637,8 @@ module.exports = [ { object: 'card',
        vintage: 'legal',
        penny: 'not_legal',
        commander: 'legal',
-       '1v1': 'legal',
        duel: 'legal',
-       brawl: 'not_legal' },
+       oldschool: 'not_legal' },
     games: [ 'mtgo', 'paper' ],
     reserved: false,
     foil: true,
@@ -17853,7 +17668,7 @@ module.exports = [ { object: 'card',
     frame_effect: '',
     full_art: false,
     story_spotlight: false,
-    edhrec_rank: 2261,
+    edhrec_rank: 2257,
     related_uris:
      { gatherer:
         'http://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=456651',
@@ -17876,20 +17691,20 @@ module.exports = [ { object: 'card',
     scryfall_uri:
      'https://scryfall.com/card/uma/54/flight-of-fancy?utm_source=api',
     layout: 'normal',
-    highres_image: false,
+    highres_image: true,
     image_uris:
      { small:
-        'https://img.scryfall.com/cards/small/front/4/b/4b770973-2061-44cb-8c02-b2251d711e92.jpg?1542802283',
+        'https://img.scryfall.com/cards/small/front/4/b/4b770973-2061-44cb-8c02-b2251d711e92.jpg?1547516238',
        normal:
-        'https://img.scryfall.com/cards/normal/front/4/b/4b770973-2061-44cb-8c02-b2251d711e92.jpg?1542802283',
+        'https://img.scryfall.com/cards/normal/front/4/b/4b770973-2061-44cb-8c02-b2251d711e92.jpg?1547516238',
        large:
-        'https://img.scryfall.com/cards/large/front/4/b/4b770973-2061-44cb-8c02-b2251d711e92.jpg?1542802283',
+        'https://img.scryfall.com/cards/large/front/4/b/4b770973-2061-44cb-8c02-b2251d711e92.jpg?1547516238',
        png:
-        'https://img.scryfall.com/cards/png/front/4/b/4b770973-2061-44cb-8c02-b2251d711e92.png?1542802283',
+        'https://img.scryfall.com/cards/png/front/4/b/4b770973-2061-44cb-8c02-b2251d711e92.png?1547516238',
        art_crop:
-        'https://img.scryfall.com/cards/art_crop/front/4/b/4b770973-2061-44cb-8c02-b2251d711e92.jpg?1542802283',
+        'https://img.scryfall.com/cards/art_crop/front/4/b/4b770973-2061-44cb-8c02-b2251d711e92.jpg?1547516238',
        border_crop:
-        'https://img.scryfall.com/cards/border_crop/front/4/b/4b770973-2061-44cb-8c02-b2251d711e92.jpg?1542802283' },
+        'https://img.scryfall.com/cards/border_crop/front/4/b/4b770973-2061-44cb-8c02-b2251d711e92.jpg?1547516238' },
     mana_cost: '{3}{U}',
     cmc: 4,
     type_line: 'Enchantment — Aura',
@@ -17907,9 +17722,8 @@ module.exports = [ { object: 'card',
        vintage: 'legal',
        penny: 'legal',
        commander: 'legal',
-       '1v1': 'legal',
        duel: 'legal',
-       brawl: 'not_legal' },
+       oldschool: 'not_legal' },
     games: [ 'mtgo', 'paper' ],
     reserved: false,
     foil: true,
@@ -17939,7 +17753,7 @@ module.exports = [ { object: 'card',
     frame_effect: '',
     full_art: false,
     story_spotlight: false,
-    edhrec_rank: 9292,
+    edhrec_rank: 9478,
     related_uris:
      { gatherer:
         'http://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=456650',
@@ -17962,20 +17776,20 @@ module.exports = [ { object: 'card',
      'https://api.scryfall.com/cards/3cc0fa64-0e2e-4f7a-8516-20c06fc57351',
     scryfall_uri: 'https://scryfall.com/card/uma/53/eel-umbra?utm_source=api',
     layout: 'normal',
-    highres_image: false,
+    highres_image: true,
     image_uris:
      { small:
-        'https://img.scryfall.com/cards/small/front/3/c/3cc0fa64-0e2e-4f7a-8516-20c06fc57351.jpg?1542802234',
+        'https://img.scryfall.com/cards/small/front/3/c/3cc0fa64-0e2e-4f7a-8516-20c06fc57351.jpg?1547516225',
        normal:
-        'https://img.scryfall.com/cards/normal/front/3/c/3cc0fa64-0e2e-4f7a-8516-20c06fc57351.jpg?1542802234',
+        'https://img.scryfall.com/cards/normal/front/3/c/3cc0fa64-0e2e-4f7a-8516-20c06fc57351.jpg?1547516225',
        large:
-        'https://img.scryfall.com/cards/large/front/3/c/3cc0fa64-0e2e-4f7a-8516-20c06fc57351.jpg?1542802234',
+        'https://img.scryfall.com/cards/large/front/3/c/3cc0fa64-0e2e-4f7a-8516-20c06fc57351.jpg?1547516225',
        png:
-        'https://img.scryfall.com/cards/png/front/3/c/3cc0fa64-0e2e-4f7a-8516-20c06fc57351.png?1542802234',
+        'https://img.scryfall.com/cards/png/front/3/c/3cc0fa64-0e2e-4f7a-8516-20c06fc57351.png?1547516225',
        art_crop:
-        'https://img.scryfall.com/cards/art_crop/front/3/c/3cc0fa64-0e2e-4f7a-8516-20c06fc57351.jpg?1542802234',
+        'https://img.scryfall.com/cards/art_crop/front/3/c/3cc0fa64-0e2e-4f7a-8516-20c06fc57351.jpg?1547516225',
        border_crop:
-        'https://img.scryfall.com/cards/border_crop/front/3/c/3cc0fa64-0e2e-4f7a-8516-20c06fc57351.jpg?1542802234' },
+        'https://img.scryfall.com/cards/border_crop/front/3/c/3cc0fa64-0e2e-4f7a-8516-20c06fc57351.jpg?1547516225' },
     mana_cost: '{1}{U}',
     cmc: 2,
     type_line: 'Enchantment — Aura',
@@ -17993,9 +17807,8 @@ module.exports = [ { object: 'card',
        vintage: 'legal',
        penny: 'legal',
        commander: 'legal',
-       '1v1': 'legal',
        duel: 'legal',
-       brawl: 'not_legal' },
+       oldschool: 'not_legal' },
     games: [ 'mtgo', 'paper' ],
     reserved: false,
     foil: true,
@@ -18024,7 +17837,7 @@ module.exports = [ { object: 'card',
     frame_effect: '',
     full_art: false,
     story_spotlight: false,
-    edhrec_rank: 4736,
+    edhrec_rank: 4700,
     related_uris:
      { gatherer:
         'http://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=456649',
@@ -18048,20 +17861,20 @@ module.exports = [ { object: 'card',
     scryfall_uri:
      'https://scryfall.com/card/uma/52/dreamscape-artist?utm_source=api',
     layout: 'normal',
-    highres_image: false,
+    highres_image: true,
     image_uris:
      { small:
-        'https://img.scryfall.com/cards/small/front/f/5/f527bc84-fa66-4763-a035-344e6458e54b.jpg?1542808306',
+        'https://img.scryfall.com/cards/small/front/f/5/f527bc84-fa66-4763-a035-344e6458e54b.jpg?1547516210',
        normal:
-        'https://img.scryfall.com/cards/normal/front/f/5/f527bc84-fa66-4763-a035-344e6458e54b.jpg?1542808306',
+        'https://img.scryfall.com/cards/normal/front/f/5/f527bc84-fa66-4763-a035-344e6458e54b.jpg?1547516210',
        large:
-        'https://img.scryfall.com/cards/large/front/f/5/f527bc84-fa66-4763-a035-344e6458e54b.jpg?1542808306',
+        'https://img.scryfall.com/cards/large/front/f/5/f527bc84-fa66-4763-a035-344e6458e54b.jpg?1547516210',
        png:
-        'https://img.scryfall.com/cards/png/front/f/5/f527bc84-fa66-4763-a035-344e6458e54b.png?1542808306',
+        'https://img.scryfall.com/cards/png/front/f/5/f527bc84-fa66-4763-a035-344e6458e54b.png?1547516210',
        art_crop:
-        'https://img.scryfall.com/cards/art_crop/front/f/5/f527bc84-fa66-4763-a035-344e6458e54b.jpg?1542808306',
+        'https://img.scryfall.com/cards/art_crop/front/f/5/f527bc84-fa66-4763-a035-344e6458e54b.jpg?1547516210',
        border_crop:
-        'https://img.scryfall.com/cards/border_crop/front/f/5/f527bc84-fa66-4763-a035-344e6458e54b.jpg?1542808306' },
+        'https://img.scryfall.com/cards/border_crop/front/f/5/f527bc84-fa66-4763-a035-344e6458e54b.jpg?1547516210' },
     mana_cost: '{1}{U}',
     cmc: 2,
     type_line: 'Creature — Human Spellshaper',
@@ -18081,9 +17894,8 @@ module.exports = [ { object: 'card',
        vintage: 'legal',
        penny: 'legal',
        commander: 'legal',
-       '1v1': 'legal',
        duel: 'legal',
-       brawl: 'not_legal' },
+       oldschool: 'not_legal' },
     games: [ 'mtgo', 'paper' ],
     reserved: false,
     foil: true,
@@ -18105,7 +17917,7 @@ module.exports = [ { object: 'card',
     collector_number: '52',
     digital: false,
     rarity: 'uncommon',
-    flavor_text: 'He\'s mastered the art of sleight of land.',
+    flavor_text: "He's mastered the art of sleight of land.",
     illustration_id: '89b059e4-0103-4531-87f3-05df3130db6e',
     artist: 'Jim Murray',
     border_color: 'black',
@@ -18113,7 +17925,7 @@ module.exports = [ { object: 'card',
     frame_effect: '',
     full_art: false,
     story_spotlight: false,
-    edhrec_rank: 4359,
+    edhrec_rank: 4276,
     related_uris:
      { gatherer:
         'http://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=456648',
@@ -18137,25 +17949,25 @@ module.exports = [ { object: 'card',
     scryfall_uri:
      'https://scryfall.com/card/uma/51/disrupting-shoal?utm_source=api',
     layout: 'normal',
-    highres_image: false,
+    highres_image: true,
     image_uris:
      { small:
-        'https://img.scryfall.com/cards/small/front/b/4/b46b20c4-f69b-45ed-8c9e-50847f215e73.jpg?1543006135',
+        'https://img.scryfall.com/cards/small/front/b/4/b46b20c4-f69b-45ed-8c9e-50847f215e73.jpg?1547516197',
        normal:
-        'https://img.scryfall.com/cards/normal/front/b/4/b46b20c4-f69b-45ed-8c9e-50847f215e73.jpg?1543006135',
+        'https://img.scryfall.com/cards/normal/front/b/4/b46b20c4-f69b-45ed-8c9e-50847f215e73.jpg?1547516197',
        large:
-        'https://img.scryfall.com/cards/large/front/b/4/b46b20c4-f69b-45ed-8c9e-50847f215e73.jpg?1543006135',
+        'https://img.scryfall.com/cards/large/front/b/4/b46b20c4-f69b-45ed-8c9e-50847f215e73.jpg?1547516197',
        png:
-        'https://img.scryfall.com/cards/png/front/b/4/b46b20c4-f69b-45ed-8c9e-50847f215e73.png?1543006135',
+        'https://img.scryfall.com/cards/png/front/b/4/b46b20c4-f69b-45ed-8c9e-50847f215e73.png?1547516197',
        art_crop:
-        'https://img.scryfall.com/cards/art_crop/front/b/4/b46b20c4-f69b-45ed-8c9e-50847f215e73.jpg?1543006135',
+        'https://img.scryfall.com/cards/art_crop/front/b/4/b46b20c4-f69b-45ed-8c9e-50847f215e73.jpg?1547516197',
        border_crop:
-        'https://img.scryfall.com/cards/border_crop/front/b/4/b46b20c4-f69b-45ed-8c9e-50847f215e73.jpg?1543006135' },
+        'https://img.scryfall.com/cards/border_crop/front/b/4/b46b20c4-f69b-45ed-8c9e-50847f215e73.jpg?1547516197' },
     mana_cost: '{X}{U}{U}',
     cmc: 2,
     type_line: 'Instant — Arcane',
     oracle_text:
-     'You may exile a blue card with converted mana cost X from your hand rather than pay this spell\'s mana cost.\nCounter target spell if its converted mana cost is X.',
+     "You may exile a blue card with converted mana cost X from your hand rather than pay this spell's mana cost.\nCounter target spell if its converted mana cost is X.",
     colors: [ 'U' ],
     color_identity: [ 'U' ],
     legalities:
@@ -18168,9 +17980,8 @@ module.exports = [ { object: 'card',
        vintage: 'legal',
        penny: 'not_legal',
        commander: 'legal',
-       '1v1': 'legal',
        duel: 'legal',
-       brawl: 'not_legal' },
+       oldschool: 'not_legal' },
     games: [ 'mtgo', 'paper' ],
     reserved: false,
     foil: true,
@@ -18199,7 +18010,7 @@ module.exports = [ { object: 'card',
     frame_effect: '',
     full_art: false,
     story_spotlight: false,
-    edhrec_rank: 8887,
+    edhrec_rank: 8968,
     related_uris:
      { gatherer:
         'http://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=456647',
@@ -18223,20 +18034,20 @@ module.exports = [ { object: 'card',
     scryfall_uri:
      'https://scryfall.com/card/uma/50/dig-through-time?utm_source=api',
     layout: 'normal',
-    highres_image: false,
+    highres_image: true,
     image_uris:
      { small:
-        'https://img.scryfall.com/cards/small/front/0/1/01cd4184-93ce-4005-b6d1-140afa3dd429.jpg?1542726673',
+        'https://img.scryfall.com/cards/small/front/0/1/01cd4184-93ce-4005-b6d1-140afa3dd429.jpg?1547516182',
        normal:
-        'https://img.scryfall.com/cards/normal/front/0/1/01cd4184-93ce-4005-b6d1-140afa3dd429.jpg?1542726673',
+        'https://img.scryfall.com/cards/normal/front/0/1/01cd4184-93ce-4005-b6d1-140afa3dd429.jpg?1547516182',
        large:
-        'https://img.scryfall.com/cards/large/front/0/1/01cd4184-93ce-4005-b6d1-140afa3dd429.jpg?1542726673',
+        'https://img.scryfall.com/cards/large/front/0/1/01cd4184-93ce-4005-b6d1-140afa3dd429.jpg?1547516182',
        png:
-        'https://img.scryfall.com/cards/png/front/0/1/01cd4184-93ce-4005-b6d1-140afa3dd429.png?1542726673',
+        'https://img.scryfall.com/cards/png/front/0/1/01cd4184-93ce-4005-b6d1-140afa3dd429.png?1547516182',
        art_crop:
-        'https://img.scryfall.com/cards/art_crop/front/0/1/01cd4184-93ce-4005-b6d1-140afa3dd429.jpg?1542726673',
+        'https://img.scryfall.com/cards/art_crop/front/0/1/01cd4184-93ce-4005-b6d1-140afa3dd429.jpg?1547516182',
        border_crop:
-        'https://img.scryfall.com/cards/border_crop/front/0/1/01cd4184-93ce-4005-b6d1-140afa3dd429.jpg?1542726673' },
+        'https://img.scryfall.com/cards/border_crop/front/0/1/01cd4184-93ce-4005-b6d1-140afa3dd429.jpg?1547516182' },
     mana_cost: '{6}{U}{U}',
     cmc: 8,
     type_line: 'Instant',
@@ -18254,9 +18065,8 @@ module.exports = [ { object: 'card',
        vintage: 'restricted',
        penny: 'not_legal',
        commander: 'legal',
-       '1v1': 'legal',
        duel: 'banned',
-       brawl: 'not_legal' },
+       oldschool: 'not_legal' },
     games: [ 'mtgo', 'paper' ],
     reserved: false,
     foil: true,
@@ -18285,7 +18095,7 @@ module.exports = [ { object: 'card',
     frame_effect: '',
     full_art: false,
     story_spotlight: false,
-    edhrec_rank: 220,
+    edhrec_rank: 216,
     related_uris:
      { gatherer:
         'http://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=456646',
@@ -18309,20 +18119,20 @@ module.exports = [ { object: 'card',
     scryfall_uri:
      'https://scryfall.com/card/uma/49/deranged-assistant?utm_source=api',
     layout: 'normal',
-    highres_image: false,
+    highres_image: true,
     image_uris:
      { small:
-        'https://img.scryfall.com/cards/small/front/0/9/093610b6-3fe3-4f12-859f-569857fa341b.jpg?1542802115',
+        'https://img.scryfall.com/cards/small/front/0/9/093610b6-3fe3-4f12-859f-569857fa341b.jpg?1547516168',
        normal:
-        'https://img.scryfall.com/cards/normal/front/0/9/093610b6-3fe3-4f12-859f-569857fa341b.jpg?1542802115',
+        'https://img.scryfall.com/cards/normal/front/0/9/093610b6-3fe3-4f12-859f-569857fa341b.jpg?1547516168',
        large:
-        'https://img.scryfall.com/cards/large/front/0/9/093610b6-3fe3-4f12-859f-569857fa341b.jpg?1542802115',
+        'https://img.scryfall.com/cards/large/front/0/9/093610b6-3fe3-4f12-859f-569857fa341b.jpg?1547516168',
        png:
-        'https://img.scryfall.com/cards/png/front/0/9/093610b6-3fe3-4f12-859f-569857fa341b.png?1542802115',
+        'https://img.scryfall.com/cards/png/front/0/9/093610b6-3fe3-4f12-859f-569857fa341b.png?1547516168',
        art_crop:
-        'https://img.scryfall.com/cards/art_crop/front/0/9/093610b6-3fe3-4f12-859f-569857fa341b.jpg?1542802115',
+        'https://img.scryfall.com/cards/art_crop/front/0/9/093610b6-3fe3-4f12-859f-569857fa341b.jpg?1547516168',
        border_crop:
-        'https://img.scryfall.com/cards/border_crop/front/0/9/093610b6-3fe3-4f12-859f-569857fa341b.jpg?1542802115' },
+        'https://img.scryfall.com/cards/border_crop/front/0/9/093610b6-3fe3-4f12-859f-569857fa341b.jpg?1547516168' },
     mana_cost: '{1}{U}',
     cmc: 2,
     type_line: 'Creature — Human Wizard',
@@ -18342,9 +18152,8 @@ module.exports = [ { object: 'card',
        vintage: 'legal',
        penny: 'legal',
        commander: 'legal',
-       '1v1': 'legal',
        duel: 'legal',
-       brawl: 'not_legal' },
+       oldschool: 'not_legal' },
     games: [ 'mtgo', 'paper' ],
     reserved: false,
     foil: true,
@@ -18367,7 +18176,7 @@ module.exports = [ { object: 'card',
     digital: false,
     rarity: 'common',
     flavor_text:
-     '"Garl, adjust the slurry dispensers. Garl, fetch more corpses. Garl, quit crying and give me your brain tissue. If he doesn\'t stop being so rude, I\'m quitting."',
+     `"Garl, adjust the slurry dispensers. Garl, fetch more corpses. Garl, quit crying and give me your brain tissue. If he doesn't stop being so rude, I'm quitting."`,
     illustration_id: '66264564-7636-4078-8fd4-f905ad21964c',
     artist: 'Nils Hamm',
     border_color: 'black',
@@ -18375,7 +18184,7 @@ module.exports = [ { object: 'card',
     frame_effect: '',
     full_art: false,
     story_spotlight: false,
-    edhrec_rank: 4822,
+    edhrec_rank: 4885,
     related_uris:
      { gatherer:
         'http://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=456645',
@@ -18399,20 +18208,20 @@ module.exports = [ { object: 'card',
     scryfall_uri:
      'https://scryfall.com/card/uma/48/defy-gravity?utm_source=api',
     layout: 'normal',
-    highres_image: false,
+    highres_image: true,
     image_uris:
      { small:
-        'https://img.scryfall.com/cards/small/front/c/3/c31e6c69-e5c4-47b0-b226-4e1d84fabfa7.jpg?1542802054',
+        'https://img.scryfall.com/cards/small/front/c/3/c31e6c69-e5c4-47b0-b226-4e1d84fabfa7.jpg?1547516153',
        normal:
-        'https://img.scryfall.com/cards/normal/front/c/3/c31e6c69-e5c4-47b0-b226-4e1d84fabfa7.jpg?1542802054',
+        'https://img.scryfall.com/cards/normal/front/c/3/c31e6c69-e5c4-47b0-b226-4e1d84fabfa7.jpg?1547516153',
        large:
-        'https://img.scryfall.com/cards/large/front/c/3/c31e6c69-e5c4-47b0-b226-4e1d84fabfa7.jpg?1542802054',
+        'https://img.scryfall.com/cards/large/front/c/3/c31e6c69-e5c4-47b0-b226-4e1d84fabfa7.jpg?1547516153',
        png:
-        'https://img.scryfall.com/cards/png/front/c/3/c31e6c69-e5c4-47b0-b226-4e1d84fabfa7.png?1542802054',
+        'https://img.scryfall.com/cards/png/front/c/3/c31e6c69-e5c4-47b0-b226-4e1d84fabfa7.png?1547516153',
        art_crop:
-        'https://img.scryfall.com/cards/art_crop/front/c/3/c31e6c69-e5c4-47b0-b226-4e1d84fabfa7.jpg?1542802054',
+        'https://img.scryfall.com/cards/art_crop/front/c/3/c31e6c69-e5c4-47b0-b226-4e1d84fabfa7.jpg?1547516153',
        border_crop:
-        'https://img.scryfall.com/cards/border_crop/front/c/3/c31e6c69-e5c4-47b0-b226-4e1d84fabfa7.jpg?1542802054' },
+        'https://img.scryfall.com/cards/border_crop/front/c/3/c31e6c69-e5c4-47b0-b226-4e1d84fabfa7.jpg?1547516153' },
     mana_cost: '{U}',
     cmc: 1,
     type_line: 'Instant',
@@ -18430,9 +18239,8 @@ module.exports = [ { object: 'card',
        vintage: 'legal',
        penny: 'not_legal',
        commander: 'legal',
-       '1v1': 'legal',
        duel: 'legal',
-       brawl: 'not_legal' },
+       oldschool: 'not_legal' },
     games: [ 'mtgo', 'paper' ],
     reserved: false,
     foil: true,
@@ -18463,7 +18271,7 @@ module.exports = [ { object: 'card',
     frame_effect: '',
     full_art: false,
     story_spotlight: false,
-    edhrec_rank: 12298,
+    edhrec_rank: 12231,
     related_uris:
      { gatherer:
         'http://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=456644',
@@ -18487,20 +18295,20 @@ module.exports = [ { object: 'card',
     scryfall_uri:
      'https://scryfall.com/card/uma/47/circular-logic?utm_source=api',
     layout: 'normal',
-    highres_image: false,
+    highres_image: true,
     image_uris:
      { small:
-        'https://img.scryfall.com/cards/small/front/4/7/472de0e2-c15b-49c4-b2fd-74b776daac34.jpg?1542721136',
+        'https://img.scryfall.com/cards/small/front/4/7/472de0e2-c15b-49c4-b2fd-74b776daac34.jpg?1547516139',
        normal:
-        'https://img.scryfall.com/cards/normal/front/4/7/472de0e2-c15b-49c4-b2fd-74b776daac34.jpg?1542721136',
+        'https://img.scryfall.com/cards/normal/front/4/7/472de0e2-c15b-49c4-b2fd-74b776daac34.jpg?1547516139',
        large:
-        'https://img.scryfall.com/cards/large/front/4/7/472de0e2-c15b-49c4-b2fd-74b776daac34.jpg?1542721136',
+        'https://img.scryfall.com/cards/large/front/4/7/472de0e2-c15b-49c4-b2fd-74b776daac34.jpg?1547516139',
        png:
-        'https://img.scryfall.com/cards/png/front/4/7/472de0e2-c15b-49c4-b2fd-74b776daac34.png?1542721136',
+        'https://img.scryfall.com/cards/png/front/4/7/472de0e2-c15b-49c4-b2fd-74b776daac34.png?1547516139',
        art_crop:
-        'https://img.scryfall.com/cards/art_crop/front/4/7/472de0e2-c15b-49c4-b2fd-74b776daac34.jpg?1542721136',
+        'https://img.scryfall.com/cards/art_crop/front/4/7/472de0e2-c15b-49c4-b2fd-74b776daac34.jpg?1547516139',
        border_crop:
-        'https://img.scryfall.com/cards/border_crop/front/4/7/472de0e2-c15b-49c4-b2fd-74b776daac34.jpg?1542721136' },
+        'https://img.scryfall.com/cards/border_crop/front/4/7/472de0e2-c15b-49c4-b2fd-74b776daac34.jpg?1547516139' },
     mana_cost: '{2}{U}',
     cmc: 3,
     type_line: 'Instant',
@@ -18518,9 +18326,8 @@ module.exports = [ { object: 'card',
        vintage: 'legal',
        penny: 'not_legal',
        commander: 'legal',
-       '1v1': 'legal',
        duel: 'legal',
-       brawl: 'not_legal' },
+       oldschool: 'not_legal' },
     games: [ 'mtgo', 'paper' ],
     reserved: false,
     foil: true,
@@ -18549,7 +18356,7 @@ module.exports = [ { object: 'card',
     frame_effect: '',
     full_art: false,
     story_spotlight: false,
-    edhrec_rank: 7590,
+    edhrec_rank: 7600,
     related_uris:
      { gatherer:
         'http://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=456643',
@@ -18573,25 +18380,25 @@ module.exports = [ { object: 'card',
     scryfall_uri:
      'https://scryfall.com/card/uma/46/back-to-basics?utm_source=api',
     layout: 'normal',
-    highres_image: false,
+    highres_image: true,
     image_uris:
      { small:
-        'https://img.scryfall.com/cards/small/front/0/6/0600d6c2-0f72-4e79-a55d-1f06dffa48c2.jpg?1542655457',
+        'https://img.scryfall.com/cards/small/front/0/6/0600d6c2-0f72-4e79-a55d-1f06dffa48c2.jpg?1547516124',
        normal:
-        'https://img.scryfall.com/cards/normal/front/0/6/0600d6c2-0f72-4e79-a55d-1f06dffa48c2.jpg?1542655457',
+        'https://img.scryfall.com/cards/normal/front/0/6/0600d6c2-0f72-4e79-a55d-1f06dffa48c2.jpg?1547516124',
        large:
-        'https://img.scryfall.com/cards/large/front/0/6/0600d6c2-0f72-4e79-a55d-1f06dffa48c2.jpg?1542655457',
+        'https://img.scryfall.com/cards/large/front/0/6/0600d6c2-0f72-4e79-a55d-1f06dffa48c2.jpg?1547516124',
        png:
-        'https://img.scryfall.com/cards/png/front/0/6/0600d6c2-0f72-4e79-a55d-1f06dffa48c2.png?1542655457',
+        'https://img.scryfall.com/cards/png/front/0/6/0600d6c2-0f72-4e79-a55d-1f06dffa48c2.png?1547516124',
        art_crop:
-        'https://img.scryfall.com/cards/art_crop/front/0/6/0600d6c2-0f72-4e79-a55d-1f06dffa48c2.jpg?1542655457',
+        'https://img.scryfall.com/cards/art_crop/front/0/6/0600d6c2-0f72-4e79-a55d-1f06dffa48c2.jpg?1547516124',
        border_crop:
-        'https://img.scryfall.com/cards/border_crop/front/0/6/0600d6c2-0f72-4e79-a55d-1f06dffa48c2.jpg?1542655457' },
+        'https://img.scryfall.com/cards/border_crop/front/0/6/0600d6c2-0f72-4e79-a55d-1f06dffa48c2.jpg?1547516124' },
     mana_cost: '{2}{U}',
     cmc: 3,
     type_line: 'Enchantment',
     oracle_text:
-     'Nonbasic lands don\'t untap during their controllers\' untap steps.',
+     "Nonbasic lands don't untap during their controllers' untap steps.",
     colors: [ 'U' ],
     color_identity: [ 'U' ],
     legalities:
@@ -18604,9 +18411,8 @@ module.exports = [ { object: 'card',
        vintage: 'legal',
        penny: 'not_legal',
        commander: 'legal',
-       '1v1': 'banned',
        duel: 'banned',
-       brawl: 'not_legal' },
+       oldschool: 'not_legal' },
     games: [ 'mtgo', 'paper' ],
     reserved: false,
     foil: true,
@@ -18629,7 +18435,7 @@ module.exports = [ { object: 'card',
     digital: false,
     rarity: 'rare',
     flavor_text:
-     '"A ruler wears a crown while the rest of us wear hats, but which would you rather have when it\'s raining?"\n—Barrin, *Principia*',
+     `"A ruler wears a crown while the rest of us wear hats, but which would you rather have when it's raining?"\n—Barrin, *Principia*`,
     illustration_id: '08358a26-174d-4819-b6c1-269b2ba78a08',
     artist: 'Terese Nielsen',
     border_color: 'black',
@@ -18637,7 +18443,7 @@ module.exports = [ { object: 'card',
     frame_effect: '',
     full_art: false,
     story_spotlight: false,
-    edhrec_rank: 3149,
+    edhrec_rank: 3123,
     related_uris:
      { gatherer:
         'http://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=456642',
@@ -18661,20 +18467,20 @@ module.exports = [ { object: 'card',
     scryfall_uri:
      'https://scryfall.com/card/uma/45/archaeomancer?utm_source=api',
     layout: 'normal',
-    highres_image: false,
+    highres_image: true,
     image_uris:
      { small:
-        'https://img.scryfall.com/cards/small/front/c/c/cc258713-6ce3-44e0-9b4b-8fa7d1d093a1.jpg?1542801967',
+        'https://img.scryfall.com/cards/small/front/c/c/cc258713-6ce3-44e0-9b4b-8fa7d1d093a1.jpg?1547516110',
        normal:
-        'https://img.scryfall.com/cards/normal/front/c/c/cc258713-6ce3-44e0-9b4b-8fa7d1d093a1.jpg?1542801967',
+        'https://img.scryfall.com/cards/normal/front/c/c/cc258713-6ce3-44e0-9b4b-8fa7d1d093a1.jpg?1547516110',
        large:
-        'https://img.scryfall.com/cards/large/front/c/c/cc258713-6ce3-44e0-9b4b-8fa7d1d093a1.jpg?1542801967',
+        'https://img.scryfall.com/cards/large/front/c/c/cc258713-6ce3-44e0-9b4b-8fa7d1d093a1.jpg?1547516110',
        png:
-        'https://img.scryfall.com/cards/png/front/c/c/cc258713-6ce3-44e0-9b4b-8fa7d1d093a1.png?1542801967',
+        'https://img.scryfall.com/cards/png/front/c/c/cc258713-6ce3-44e0-9b4b-8fa7d1d093a1.png?1547516110',
        art_crop:
-        'https://img.scryfall.com/cards/art_crop/front/c/c/cc258713-6ce3-44e0-9b4b-8fa7d1d093a1.jpg?1542801967',
+        'https://img.scryfall.com/cards/art_crop/front/c/c/cc258713-6ce3-44e0-9b4b-8fa7d1d093a1.jpg?1547516110',
        border_crop:
-        'https://img.scryfall.com/cards/border_crop/front/c/c/cc258713-6ce3-44e0-9b4b-8fa7d1d093a1.jpg?1542801967' },
+        'https://img.scryfall.com/cards/border_crop/front/c/c/cc258713-6ce3-44e0-9b4b-8fa7d1d093a1.jpg?1547516110' },
     mana_cost: '{2}{U}{U}',
     cmc: 4,
     type_line: 'Creature — Human Wizard',
@@ -18692,11 +18498,10 @@ module.exports = [ { object: 'card',
        legacy: 'legal',
        pauper: 'legal',
        vintage: 'legal',
-       penny: 'not_legal',
+       penny: 'legal',
        commander: 'legal',
-       '1v1': 'legal',
        duel: 'legal',
-       brawl: 'not_legal' },
+       oldschool: 'not_legal' },
     games: [ 'mtgo', 'paper' ],
     reserved: false,
     foil: true,
@@ -18727,7 +18532,7 @@ module.exports = [ { object: 'card',
     frame_effect: '',
     full_art: false,
     story_spotlight: false,
-    edhrec_rank: 330,
+    edhrec_rank: 325,
     related_uris:
      { gatherer:
         'http://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=456641',
@@ -18751,25 +18556,25 @@ module.exports = [ { object: 'card',
     scryfall_uri:
      'https://scryfall.com/card/uma/44/aethersnipe?utm_source=api',
     layout: 'normal',
-    highres_image: false,
+    highres_image: true,
     image_uris:
      { small:
-        'https://img.scryfall.com/cards/small/front/f/5/f5f04e69-aa5b-495c-ab17-31fc2ff7288a.jpg?1542801893',
+        'https://img.scryfall.com/cards/small/front/f/5/f5f04e69-aa5b-495c-ab17-31fc2ff7288a.jpg?1547516094',
        normal:
-        'https://img.scryfall.com/cards/normal/front/f/5/f5f04e69-aa5b-495c-ab17-31fc2ff7288a.jpg?1542801893',
+        'https://img.scryfall.com/cards/normal/front/f/5/f5f04e69-aa5b-495c-ab17-31fc2ff7288a.jpg?1547516094',
        large:
-        'https://img.scryfall.com/cards/large/front/f/5/f5f04e69-aa5b-495c-ab17-31fc2ff7288a.jpg?1542801893',
+        'https://img.scryfall.com/cards/large/front/f/5/f5f04e69-aa5b-495c-ab17-31fc2ff7288a.jpg?1547516094',
        png:
-        'https://img.scryfall.com/cards/png/front/f/5/f5f04e69-aa5b-495c-ab17-31fc2ff7288a.png?1542801893',
+        'https://img.scryfall.com/cards/png/front/f/5/f5f04e69-aa5b-495c-ab17-31fc2ff7288a.png?1547516094',
        art_crop:
-        'https://img.scryfall.com/cards/art_crop/front/f/5/f5f04e69-aa5b-495c-ab17-31fc2ff7288a.jpg?1542801893',
+        'https://img.scryfall.com/cards/art_crop/front/f/5/f5f04e69-aa5b-495c-ab17-31fc2ff7288a.jpg?1547516094',
        border_crop:
-        'https://img.scryfall.com/cards/border_crop/front/f/5/f5f04e69-aa5b-495c-ab17-31fc2ff7288a.jpg?1542801893' },
+        'https://img.scryfall.com/cards/border_crop/front/f/5/f5f04e69-aa5b-495c-ab17-31fc2ff7288a.jpg?1547516094' },
     mana_cost: '{5}{U}',
     cmc: 6,
     type_line: 'Creature — Elemental',
     oracle_text:
-     'When Aethersnipe enters the battlefield, return target nonland permanent to its owner\'s hand.\nEvoke {1}{U}{U} (You may cast this spell for its evoke cost. If you do, it\'s sacrificed when it enters the battlefield.)',
+     "When Aethersnipe enters the battlefield, return target nonland permanent to its owner's hand.\nEvoke {1}{U}{U} (You may cast this spell for its evoke cost. If you do, it's sacrificed when it enters the battlefield.)",
     power: '4',
     toughness: '4',
     colors: [ 'U' ],
@@ -18784,9 +18589,8 @@ module.exports = [ { object: 'card',
        vintage: 'legal',
        penny: 'legal',
        commander: 'legal',
-       '1v1': 'legal',
        duel: 'legal',
-       brawl: 'not_legal' },
+       oldschool: 'not_legal' },
     games: [ 'mtgo', 'paper' ],
     reserved: false,
     foil: true,
@@ -18815,7 +18619,7 @@ module.exports = [ { object: 'card',
     frame_effect: '',
     full_art: false,
     story_spotlight: false,
-    edhrec_rank: 7151,
+    edhrec_rank: 7178,
     related_uris:
      { gatherer:
         'http://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=456640',
@@ -18839,20 +18643,20 @@ module.exports = [ { object: 'card',
     scryfall_uri:
      'https://scryfall.com/card/uma/43/wingsteed-rider?utm_source=api',
     layout: 'normal',
-    highres_image: false,
+    highres_image: true,
     image_uris:
      { small:
-        'https://img.scryfall.com/cards/small/front/9/b/9b189050-522b-4b8a-b4e6-1f5158ebe519.jpg?1542804920',
+        'https://img.scryfall.com/cards/small/front/9/b/9b189050-522b-4b8a-b4e6-1f5158ebe519.jpg?1547516073',
        normal:
-        'https://img.scryfall.com/cards/normal/front/9/b/9b189050-522b-4b8a-b4e6-1f5158ebe519.jpg?1542804920',
+        'https://img.scryfall.com/cards/normal/front/9/b/9b189050-522b-4b8a-b4e6-1f5158ebe519.jpg?1547516073',
        large:
-        'https://img.scryfall.com/cards/large/front/9/b/9b189050-522b-4b8a-b4e6-1f5158ebe519.jpg?1542804920',
+        'https://img.scryfall.com/cards/large/front/9/b/9b189050-522b-4b8a-b4e6-1f5158ebe519.jpg?1547516073',
        png:
-        'https://img.scryfall.com/cards/png/front/9/b/9b189050-522b-4b8a-b4e6-1f5158ebe519.png?1542804920',
+        'https://img.scryfall.com/cards/png/front/9/b/9b189050-522b-4b8a-b4e6-1f5158ebe519.png?1547516073',
        art_crop:
-        'https://img.scryfall.com/cards/art_crop/front/9/b/9b189050-522b-4b8a-b4e6-1f5158ebe519.jpg?1542804920',
+        'https://img.scryfall.com/cards/art_crop/front/9/b/9b189050-522b-4b8a-b4e6-1f5158ebe519.jpg?1547516073',
        border_crop:
-        'https://img.scryfall.com/cards/border_crop/front/9/b/9b189050-522b-4b8a-b4e6-1f5158ebe519.jpg?1542804920' },
+        'https://img.scryfall.com/cards/border_crop/front/9/b/9b189050-522b-4b8a-b4e6-1f5158ebe519.jpg?1547516073' },
     mana_cost: '{1}{W}{W}',
     cmc: 3,
     type_line: 'Creature — Human Knight',
@@ -18872,9 +18676,8 @@ module.exports = [ { object: 'card',
        vintage: 'legal',
        penny: 'legal',
        commander: 'legal',
-       '1v1': 'legal',
        duel: 'legal',
-       brawl: 'not_legal' },
+       oldschool: 'not_legal' },
     games: [ 'mtgo', 'paper' ],
     reserved: false,
     foil: true,
@@ -18904,7 +18707,7 @@ module.exports = [ { object: 'card',
     frame_effect: '',
     full_art: false,
     story_spotlight: false,
-    edhrec_rank: 10771,
+    edhrec_rank: 10895,
     related_uris:
      { gatherer:
         'http://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=456639',
@@ -18928,20 +18731,20 @@ module.exports = [ { object: 'card',
     scryfall_uri:
      'https://scryfall.com/card/uma/42/wandering-champion?utm_source=api',
     layout: 'normal',
-    highres_image: false,
+    highres_image: true,
     image_uris:
      { small:
-        'https://img.scryfall.com/cards/small/front/f/0/f02599bd-c5d8-4bdc-9478-a7bad8185552.jpg?1542804905',
+        'https://img.scryfall.com/cards/small/front/f/0/f02599bd-c5d8-4bdc-9478-a7bad8185552.jpg?1547516041',
        normal:
-        'https://img.scryfall.com/cards/normal/front/f/0/f02599bd-c5d8-4bdc-9478-a7bad8185552.jpg?1542804905',
+        'https://img.scryfall.com/cards/normal/front/f/0/f02599bd-c5d8-4bdc-9478-a7bad8185552.jpg?1547516041',
        large:
-        'https://img.scryfall.com/cards/large/front/f/0/f02599bd-c5d8-4bdc-9478-a7bad8185552.jpg?1542804905',
+        'https://img.scryfall.com/cards/large/front/f/0/f02599bd-c5d8-4bdc-9478-a7bad8185552.jpg?1547516041',
        png:
-        'https://img.scryfall.com/cards/png/front/f/0/f02599bd-c5d8-4bdc-9478-a7bad8185552.png?1542804905',
+        'https://img.scryfall.com/cards/png/front/f/0/f02599bd-c5d8-4bdc-9478-a7bad8185552.png?1547516041',
        art_crop:
-        'https://img.scryfall.com/cards/art_crop/front/f/0/f02599bd-c5d8-4bdc-9478-a7bad8185552.jpg?1542804905',
+        'https://img.scryfall.com/cards/art_crop/front/f/0/f02599bd-c5d8-4bdc-9478-a7bad8185552.jpg?1547516041',
        border_crop:
-        'https://img.scryfall.com/cards/border_crop/front/f/0/f02599bd-c5d8-4bdc-9478-a7bad8185552.jpg?1542804905' },
+        'https://img.scryfall.com/cards/border_crop/front/f/0/f02599bd-c5d8-4bdc-9478-a7bad8185552.jpg?1547516041' },
     mana_cost: '{1}{W}',
     cmc: 2,
     type_line: 'Creature — Human Monk',
@@ -18961,9 +18764,8 @@ module.exports = [ { object: 'card',
        vintage: 'legal',
        penny: 'legal',
        commander: 'legal',
-       '1v1': 'legal',
        duel: 'legal',
-       brawl: 'not_legal' },
+       oldschool: 'not_legal' },
     games: [ 'mtgo', 'paper' ],
     reserved: false,
     foil: true,
@@ -18993,7 +18795,7 @@ module.exports = [ { object: 'card',
     frame_effect: '',
     full_art: false,
     story_spotlight: false,
-    edhrec_rank: 12389,
+    edhrec_rank: 12648,
     related_uris:
      { gatherer:
         'http://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=456638',
@@ -19017,20 +18819,20 @@ module.exports = [ { object: 'card',
     scryfall_uri:
      'https://scryfall.com/card/uma/41/wall-of-reverence?utm_source=api',
     layout: 'normal',
-    highres_image: false,
+    highres_image: true,
     image_uris:
      { small:
-        'https://img.scryfall.com/cards/small/front/1/5/1515e039-b838-40b6-b087-eb9e9d9ff008.jpg?1542626271',
+        'https://img.scryfall.com/cards/small/front/1/5/1515e039-b838-40b6-b087-eb9e9d9ff008.jpg?1547516009',
        normal:
-        'https://img.scryfall.com/cards/normal/front/1/5/1515e039-b838-40b6-b087-eb9e9d9ff008.jpg?1542626271',
+        'https://img.scryfall.com/cards/normal/front/1/5/1515e039-b838-40b6-b087-eb9e9d9ff008.jpg?1547516009',
        large:
-        'https://img.scryfall.com/cards/large/front/1/5/1515e039-b838-40b6-b087-eb9e9d9ff008.jpg?1542626271',
+        'https://img.scryfall.com/cards/large/front/1/5/1515e039-b838-40b6-b087-eb9e9d9ff008.jpg?1547516009',
        png:
-        'https://img.scryfall.com/cards/png/front/1/5/1515e039-b838-40b6-b087-eb9e9d9ff008.png?1542626271',
+        'https://img.scryfall.com/cards/png/front/1/5/1515e039-b838-40b6-b087-eb9e9d9ff008.png?1547516009',
        art_crop:
-        'https://img.scryfall.com/cards/art_crop/front/1/5/1515e039-b838-40b6-b087-eb9e9d9ff008.jpg?1542626271',
+        'https://img.scryfall.com/cards/art_crop/front/1/5/1515e039-b838-40b6-b087-eb9e9d9ff008.jpg?1547516009',
        border_crop:
-        'https://img.scryfall.com/cards/border_crop/front/1/5/1515e039-b838-40b6-b087-eb9e9d9ff008.jpg?1542626271' },
+        'https://img.scryfall.com/cards/border_crop/front/1/5/1515e039-b838-40b6-b087-eb9e9d9ff008.jpg?1547516009' },
     mana_cost: '{3}{W}',
     cmc: 4,
     type_line: 'Creature — Spirit Wall',
@@ -19048,11 +18850,10 @@ module.exports = [ { object: 'card',
        legacy: 'legal',
        pauper: 'not_legal',
        vintage: 'legal',
-       penny: 'not_legal',
+       penny: 'legal',
        commander: 'legal',
-       '1v1': 'legal',
        duel: 'legal',
-       brawl: 'not_legal' },
+       oldschool: 'not_legal' },
     games: [ 'mtgo', 'paper' ],
     reserved: false,
     foil: true,
@@ -19083,7 +18884,7 @@ module.exports = [ { object: 'card',
     frame_effect: '',
     full_art: false,
     story_spotlight: false,
-    edhrec_rank: 1876,
+    edhrec_rank: 1891,
     related_uris:
      { gatherer:
         'http://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=456637',
@@ -19108,20 +18909,20 @@ module.exports = [ { object: 'card',
     scryfall_uri:
      'https://scryfall.com/card/uma/40/tethmos-high-priest?utm_source=api',
     layout: 'normal',
-    highres_image: false,
+    highres_image: true,
     image_uris:
      { small:
-        'https://img.scryfall.com/cards/small/front/5/1/51baeea2-a922-4e98-8253-f395546c30c8.jpg?1542722595',
+        'https://img.scryfall.com/cards/small/front/5/1/51baeea2-a922-4e98-8253-f395546c30c8.jpg?1547515983',
        normal:
-        'https://img.scryfall.com/cards/normal/front/5/1/51baeea2-a922-4e98-8253-f395546c30c8.jpg?1542722595',
+        'https://img.scryfall.com/cards/normal/front/5/1/51baeea2-a922-4e98-8253-f395546c30c8.jpg?1547515983',
        large:
-        'https://img.scryfall.com/cards/large/front/5/1/51baeea2-a922-4e98-8253-f395546c30c8.jpg?1542722595',
+        'https://img.scryfall.com/cards/large/front/5/1/51baeea2-a922-4e98-8253-f395546c30c8.jpg?1547515983',
        png:
-        'https://img.scryfall.com/cards/png/front/5/1/51baeea2-a922-4e98-8253-f395546c30c8.png?1542722595',
+        'https://img.scryfall.com/cards/png/front/5/1/51baeea2-a922-4e98-8253-f395546c30c8.png?1547515983',
        art_crop:
-        'https://img.scryfall.com/cards/art_crop/front/5/1/51baeea2-a922-4e98-8253-f395546c30c8.jpg?1542722595',
+        'https://img.scryfall.com/cards/art_crop/front/5/1/51baeea2-a922-4e98-8253-f395546c30c8.jpg?1547515983',
        border_crop:
-        'https://img.scryfall.com/cards/border_crop/front/5/1/51baeea2-a922-4e98-8253-f395546c30c8.jpg?1542722595' },
+        'https://img.scryfall.com/cards/border_crop/front/5/1/51baeea2-a922-4e98-8253-f395546c30c8.jpg?1547515983' },
     mana_cost: '{2}{W}',
     cmc: 3,
     type_line: 'Creature — Cat Cleric',
@@ -19141,9 +18942,8 @@ module.exports = [ { object: 'card',
        vintage: 'legal',
        penny: 'not_legal',
        commander: 'legal',
-       '1v1': 'legal',
        duel: 'legal',
-       brawl: 'not_legal' },
+       oldschool: 'not_legal' },
     games: [ 'mtgo', 'paper' ],
     reserved: false,
     foil: true,
@@ -19173,7 +18973,7 @@ module.exports = [ { object: 'card',
     frame_effect: '',
     full_art: false,
     story_spotlight: false,
-    edhrec_rank: 11108,
+    edhrec_rank: 11290,
     related_uris:
      { gatherer:
         'http://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=456636',
@@ -19198,20 +18998,20 @@ module.exports = [ { object: 'card',
     scryfall_uri:
      'https://scryfall.com/card/uma/39/swift-reckoning?utm_source=api',
     layout: 'normal',
-    highres_image: false,
+    highres_image: true,
     image_uris:
      { small:
-        'https://img.scryfall.com/cards/small/front/8/2/820096b5-0d64-47a0-88a4-17d3f24cb165.jpg?1542804885',
+        'https://img.scryfall.com/cards/small/front/8/2/820096b5-0d64-47a0-88a4-17d3f24cb165.jpg?1547515964',
        normal:
-        'https://img.scryfall.com/cards/normal/front/8/2/820096b5-0d64-47a0-88a4-17d3f24cb165.jpg?1542804885',
+        'https://img.scryfall.com/cards/normal/front/8/2/820096b5-0d64-47a0-88a4-17d3f24cb165.jpg?1547515964',
        large:
-        'https://img.scryfall.com/cards/large/front/8/2/820096b5-0d64-47a0-88a4-17d3f24cb165.jpg?1542804885',
+        'https://img.scryfall.com/cards/large/front/8/2/820096b5-0d64-47a0-88a4-17d3f24cb165.jpg?1547515964',
        png:
-        'https://img.scryfall.com/cards/png/front/8/2/820096b5-0d64-47a0-88a4-17d3f24cb165.png?1542804885',
+        'https://img.scryfall.com/cards/png/front/8/2/820096b5-0d64-47a0-88a4-17d3f24cb165.png?1547515964',
        art_crop:
-        'https://img.scryfall.com/cards/art_crop/front/8/2/820096b5-0d64-47a0-88a4-17d3f24cb165.jpg?1542804885',
+        'https://img.scryfall.com/cards/art_crop/front/8/2/820096b5-0d64-47a0-88a4-17d3f24cb165.jpg?1547515964',
        border_crop:
-        'https://img.scryfall.com/cards/border_crop/front/8/2/820096b5-0d64-47a0-88a4-17d3f24cb165.jpg?1542804885' },
+        'https://img.scryfall.com/cards/border_crop/front/8/2/820096b5-0d64-47a0-88a4-17d3f24cb165.jpg?1547515964' },
     mana_cost: '{1}{W}',
     cmc: 2,
     type_line: 'Sorcery',
@@ -19229,9 +19029,8 @@ module.exports = [ { object: 'card',
        vintage: 'legal',
        penny: 'legal',
        commander: 'legal',
-       '1v1': 'legal',
        duel: 'legal',
-       brawl: 'not_legal' },
+       oldschool: 'not_legal' },
     games: [ 'mtgo', 'paper' ],
     reserved: false,
     foil: true,
@@ -19260,7 +19059,7 @@ module.exports = [ { object: 'card',
     frame_effect: '',
     full_art: false,
     story_spotlight: false,
-    edhrec_rank: 10417,
+    edhrec_rank: 10614,
     related_uris:
      { gatherer:
         'http://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=456635',
@@ -19285,20 +19084,20 @@ module.exports = [ { object: 'card',
     scryfall_uri:
      'https://scryfall.com/card/uma/38/sublime-archangel?utm_source=api',
     layout: 'normal',
-    highres_image: false,
+    highres_image: true,
     image_uris:
      { small:
-        'https://img.scryfall.com/cards/small/front/9/5/95e53129-c49b-4bb8-a816-629fc87e58bb.jpg?1542721289',
+        'https://img.scryfall.com/cards/small/front/9/5/95e53129-c49b-4bb8-a816-629fc87e58bb.jpg?1547515934',
        normal:
-        'https://img.scryfall.com/cards/normal/front/9/5/95e53129-c49b-4bb8-a816-629fc87e58bb.jpg?1542721289',
+        'https://img.scryfall.com/cards/normal/front/9/5/95e53129-c49b-4bb8-a816-629fc87e58bb.jpg?1547515934',
        large:
-        'https://img.scryfall.com/cards/large/front/9/5/95e53129-c49b-4bb8-a816-629fc87e58bb.jpg?1542721289',
+        'https://img.scryfall.com/cards/large/front/9/5/95e53129-c49b-4bb8-a816-629fc87e58bb.jpg?1547515934',
        png:
-        'https://img.scryfall.com/cards/png/front/9/5/95e53129-c49b-4bb8-a816-629fc87e58bb.png?1542721289',
+        'https://img.scryfall.com/cards/png/front/9/5/95e53129-c49b-4bb8-a816-629fc87e58bb.png?1547515934',
        art_crop:
-        'https://img.scryfall.com/cards/art_crop/front/9/5/95e53129-c49b-4bb8-a816-629fc87e58bb.jpg?1542721289',
+        'https://img.scryfall.com/cards/art_crop/front/9/5/95e53129-c49b-4bb8-a816-629fc87e58bb.jpg?1547515934',
        border_crop:
-        'https://img.scryfall.com/cards/border_crop/front/9/5/95e53129-c49b-4bb8-a816-629fc87e58bb.jpg?1542721289' },
+        'https://img.scryfall.com/cards/border_crop/front/9/5/95e53129-c49b-4bb8-a816-629fc87e58bb.jpg?1547515934' },
     mana_cost: '{2}{W}{W}',
     cmc: 4,
     type_line: 'Creature — Angel',
@@ -19318,9 +19117,8 @@ module.exports = [ { object: 'card',
        vintage: 'legal',
        penny: 'not_legal',
        commander: 'legal',
-       '1v1': 'legal',
        duel: 'legal',
-       brawl: 'not_legal' },
+       oldschool: 'not_legal' },
     games: [ 'mtgo', 'paper' ],
     reserved: false,
     foil: true,
@@ -19349,7 +19147,7 @@ module.exports = [ { object: 'card',
     frame_effect: '',
     full_art: false,
     story_spotlight: false,
-    edhrec_rank: 2457,
+    edhrec_rank: 2495,
     related_uris:
      { gatherer:
         'http://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=456634',
@@ -19374,20 +19172,20 @@ module.exports = [ { object: 'card',
     scryfall_uri:
      'https://scryfall.com/card/uma/37/spirit-cairn?utm_source=api',
     layout: 'normal',
-    highres_image: false,
+    highres_image: true,
     image_uris:
      { small:
-        'https://img.scryfall.com/cards/small/front/f/c/fc3ee404-0501-41bc-b56a-ebf16f693511.jpg?1543097972',
+        'https://img.scryfall.com/cards/small/front/f/c/fc3ee404-0501-41bc-b56a-ebf16f693511.jpg?1547515912',
        normal:
-        'https://img.scryfall.com/cards/normal/front/f/c/fc3ee404-0501-41bc-b56a-ebf16f693511.jpg?1543097972',
+        'https://img.scryfall.com/cards/normal/front/f/c/fc3ee404-0501-41bc-b56a-ebf16f693511.jpg?1547515912',
        large:
-        'https://img.scryfall.com/cards/large/front/f/c/fc3ee404-0501-41bc-b56a-ebf16f693511.jpg?1543097972',
+        'https://img.scryfall.com/cards/large/front/f/c/fc3ee404-0501-41bc-b56a-ebf16f693511.jpg?1547515912',
        png:
-        'https://img.scryfall.com/cards/png/front/f/c/fc3ee404-0501-41bc-b56a-ebf16f693511.png?1543097972',
+        'https://img.scryfall.com/cards/png/front/f/c/fc3ee404-0501-41bc-b56a-ebf16f693511.png?1547515912',
        art_crop:
-        'https://img.scryfall.com/cards/art_crop/front/f/c/fc3ee404-0501-41bc-b56a-ebf16f693511.jpg?1543097972',
+        'https://img.scryfall.com/cards/art_crop/front/f/c/fc3ee404-0501-41bc-b56a-ebf16f693511.jpg?1547515912',
        border_crop:
-        'https://img.scryfall.com/cards/border_crop/front/f/c/fc3ee404-0501-41bc-b56a-ebf16f693511.jpg?1543097972' },
+        'https://img.scryfall.com/cards/border_crop/front/f/c/fc3ee404-0501-41bc-b56a-ebf16f693511.jpg?1547515912' },
     mana_cost: '{2}{W}',
     cmc: 3,
     type_line: 'Enchantment',
@@ -19405,9 +19203,8 @@ module.exports = [ { object: 'card',
        vintage: 'legal',
        penny: 'legal',
        commander: 'legal',
-       '1v1': 'legal',
        duel: 'legal',
-       brawl: 'not_legal' },
+       oldschool: 'not_legal' },
     games: [ 'mtgo', 'paper' ],
     reserved: false,
     foil: true,
@@ -19437,7 +19234,7 @@ module.exports = [ { object: 'card',
     frame_effect: '',
     full_art: false,
     story_spotlight: false,
-    edhrec_rank: 12171,
+    edhrec_rank: 12340,
     related_uris:
      { gatherer:
         'http://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=456633',
@@ -19462,20 +19259,20 @@ module.exports = [ { object: 'card',
     scryfall_uri:
      'https://scryfall.com/card/uma/36/skyspear-cavalry?utm_source=api',
     layout: 'normal',
-    highres_image: false,
+    highres_image: true,
     image_uris:
      { small:
-        'https://img.scryfall.com/cards/small/front/c/4/c41a35c6-14d9-4b8f-88f1-f1442e4ef222.jpg?1542806212',
+        'https://img.scryfall.com/cards/small/front/c/4/c41a35c6-14d9-4b8f-88f1-f1442e4ef222.jpg?1547515891',
        normal:
-        'https://img.scryfall.com/cards/normal/front/c/4/c41a35c6-14d9-4b8f-88f1-f1442e4ef222.jpg?1542806212',
+        'https://img.scryfall.com/cards/normal/front/c/4/c41a35c6-14d9-4b8f-88f1-f1442e4ef222.jpg?1547515891',
        large:
-        'https://img.scryfall.com/cards/large/front/c/4/c41a35c6-14d9-4b8f-88f1-f1442e4ef222.jpg?1542806212',
+        'https://img.scryfall.com/cards/large/front/c/4/c41a35c6-14d9-4b8f-88f1-f1442e4ef222.jpg?1547515891',
        png:
-        'https://img.scryfall.com/cards/png/front/c/4/c41a35c6-14d9-4b8f-88f1-f1442e4ef222.png?1542806212',
+        'https://img.scryfall.com/cards/png/front/c/4/c41a35c6-14d9-4b8f-88f1-f1442e4ef222.png?1547515891',
        art_crop:
-        'https://img.scryfall.com/cards/art_crop/front/c/4/c41a35c6-14d9-4b8f-88f1-f1442e4ef222.jpg?1542806212',
+        'https://img.scryfall.com/cards/art_crop/front/c/4/c41a35c6-14d9-4b8f-88f1-f1442e4ef222.jpg?1547515891',
        border_crop:
-        'https://img.scryfall.com/cards/border_crop/front/c/4/c41a35c6-14d9-4b8f-88f1-f1442e4ef222.jpg?1542806212' },
+        'https://img.scryfall.com/cards/border_crop/front/c/4/c41a35c6-14d9-4b8f-88f1-f1442e4ef222.jpg?1547515891' },
     mana_cost: '{3}{W}{W}',
     cmc: 5,
     type_line: 'Creature — Human Soldier',
@@ -19495,9 +19292,8 @@ module.exports = [ { object: 'card',
        vintage: 'legal',
        penny: 'legal',
        commander: 'legal',
-       '1v1': 'legal',
        duel: 'legal',
-       brawl: 'not_legal' },
+       oldschool: 'not_legal' },
     games: [ 'mtgo', 'paper' ],
     reserved: false,
     foil: true,
@@ -19528,7 +19324,7 @@ module.exports = [ { object: 'card',
     frame_effect: '',
     full_art: false,
     story_spotlight: false,
-    edhrec_rank: 10695,
+    edhrec_rank: 10700,
     related_uris:
      { gatherer:
         'http://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=456632',
@@ -19553,20 +19349,20 @@ module.exports = [ { object: 'card',
     scryfall_uri:
      'https://scryfall.com/card/uma/35/sigil-of-the-new-dawn?utm_source=api',
     layout: 'normal',
-    highres_image: false,
+    highres_image: true,
     image_uris:
      { small:
-        'https://img.scryfall.com/cards/small/front/6/4/64393586-42c6-4874-9473-85c63c7ed2ad.jpg?1542665092',
+        'https://img.scryfall.com/cards/small/front/6/4/64393586-42c6-4874-9473-85c63c7ed2ad.jpg?1547515867',
        normal:
-        'https://img.scryfall.com/cards/normal/front/6/4/64393586-42c6-4874-9473-85c63c7ed2ad.jpg?1542665092',
+        'https://img.scryfall.com/cards/normal/front/6/4/64393586-42c6-4874-9473-85c63c7ed2ad.jpg?1547515867',
        large:
-        'https://img.scryfall.com/cards/large/front/6/4/64393586-42c6-4874-9473-85c63c7ed2ad.jpg?1542665092',
+        'https://img.scryfall.com/cards/large/front/6/4/64393586-42c6-4874-9473-85c63c7ed2ad.jpg?1547515867',
        png:
-        'https://img.scryfall.com/cards/png/front/6/4/64393586-42c6-4874-9473-85c63c7ed2ad.png?1542665092',
+        'https://img.scryfall.com/cards/png/front/6/4/64393586-42c6-4874-9473-85c63c7ed2ad.png?1547515867',
        art_crop:
-        'https://img.scryfall.com/cards/art_crop/front/6/4/64393586-42c6-4874-9473-85c63c7ed2ad.jpg?1542665092',
+        'https://img.scryfall.com/cards/art_crop/front/6/4/64393586-42c6-4874-9473-85c63c7ed2ad.jpg?1547515867',
        border_crop:
-        'https://img.scryfall.com/cards/border_crop/front/6/4/64393586-42c6-4874-9473-85c63c7ed2ad.jpg?1542665092' },
+        'https://img.scryfall.com/cards/border_crop/front/6/4/64393586-42c6-4874-9473-85c63c7ed2ad.jpg?1547515867' },
     mana_cost: '{3}{W}',
     cmc: 4,
     type_line: 'Enchantment',
@@ -19584,9 +19380,8 @@ module.exports = [ { object: 'card',
        vintage: 'legal',
        penny: 'legal',
        commander: 'legal',
-       '1v1': 'legal',
        duel: 'legal',
-       brawl: 'not_legal' },
+       oldschool: 'not_legal' },
     games: [ 'mtgo', 'paper' ],
     reserved: false,
     foil: true,
@@ -19616,7 +19411,7 @@ module.exports = [ { object: 'card',
     frame_effect: '',
     full_art: false,
     story_spotlight: false,
-    edhrec_rank: 6251,
+    edhrec_rank: 6218,
     related_uris:
      { gatherer:
         'http://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=456631',
@@ -19640,25 +19435,25 @@ module.exports = [ { object: 'card',
      'https://api.scryfall.com/cards/c401fabd-52fb-4c59-9c72-10ff97dda45f',
     scryfall_uri: 'https://scryfall.com/card/uma/34/runed-halo?utm_source=api',
     layout: 'normal',
-    highres_image: false,
+    highres_image: true,
     image_uris:
      { small:
-        'https://img.scryfall.com/cards/small/front/c/4/c401fabd-52fb-4c59-9c72-10ff97dda45f.jpg?1542655322',
+        'https://img.scryfall.com/cards/small/front/c/4/c401fabd-52fb-4c59-9c72-10ff97dda45f.jpg?1547515844',
        normal:
-        'https://img.scryfall.com/cards/normal/front/c/4/c401fabd-52fb-4c59-9c72-10ff97dda45f.jpg?1542655322',
+        'https://img.scryfall.com/cards/normal/front/c/4/c401fabd-52fb-4c59-9c72-10ff97dda45f.jpg?1547515844',
        large:
-        'https://img.scryfall.com/cards/large/front/c/4/c401fabd-52fb-4c59-9c72-10ff97dda45f.jpg?1542655322',
+        'https://img.scryfall.com/cards/large/front/c/4/c401fabd-52fb-4c59-9c72-10ff97dda45f.jpg?1547515844',
        png:
-        'https://img.scryfall.com/cards/png/front/c/4/c401fabd-52fb-4c59-9c72-10ff97dda45f.png?1542655322',
+        'https://img.scryfall.com/cards/png/front/c/4/c401fabd-52fb-4c59-9c72-10ff97dda45f.png?1547515844',
        art_crop:
-        'https://img.scryfall.com/cards/art_crop/front/c/4/c401fabd-52fb-4c59-9c72-10ff97dda45f.jpg?1542655322',
+        'https://img.scryfall.com/cards/art_crop/front/c/4/c401fabd-52fb-4c59-9c72-10ff97dda45f.jpg?1547515844',
        border_crop:
-        'https://img.scryfall.com/cards/border_crop/front/c/4/c401fabd-52fb-4c59-9c72-10ff97dda45f.jpg?1542655322' },
+        'https://img.scryfall.com/cards/border_crop/front/c/4/c401fabd-52fb-4c59-9c72-10ff97dda45f.jpg?1547515844' },
     mana_cost: '{W}{W}',
     cmc: 2,
     type_line: 'Enchantment',
     oracle_text:
-     'As Runed Halo enters the battlefield, choose a card name.\nYou have protection from the chosen name. (You can\'t be targeted, dealt damage, or enchanted by anything with that name.)',
+     "As Runed Halo enters the battlefield, choose a card name.\nYou have protection from the chosen name. (You can't be targeted, dealt damage, or enchanted by anything with that name.)",
     colors: [ 'W' ],
     color_identity: [ 'W' ],
     legalities:
@@ -19671,9 +19466,8 @@ module.exports = [ { object: 'card',
        vintage: 'legal',
        penny: 'not_legal',
        commander: 'legal',
-       '1v1': 'legal',
        duel: 'legal',
-       brawl: 'not_legal' },
+       oldschool: 'not_legal' },
     games: [ 'mtgo', 'paper' ],
     reserved: false,
     foil: true,
@@ -19702,7 +19496,7 @@ module.exports = [ { object: 'card',
     frame_effect: '',
     full_art: false,
     story_spotlight: false,
-    edhrec_rank: 7755,
+    edhrec_rank: 7820,
     related_uris:
      { gatherer:
         'http://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=456630',
@@ -19727,20 +19521,20 @@ module.exports = [ { object: 'card',
     scryfall_uri:
      'https://scryfall.com/card/uma/33/ronom-unicorn?utm_source=api',
     layout: 'normal',
-    highres_image: false,
+    highres_image: true,
     image_uris:
      { small:
-        'https://img.scryfall.com/cards/small/front/0/8/0810e22f-11fd-48a8-a057-2d80f3088691.jpg?1542804753',
+        'https://img.scryfall.com/cards/small/front/0/8/0810e22f-11fd-48a8-a057-2d80f3088691.jpg?1547515821',
        normal:
-        'https://img.scryfall.com/cards/normal/front/0/8/0810e22f-11fd-48a8-a057-2d80f3088691.jpg?1542804753',
+        'https://img.scryfall.com/cards/normal/front/0/8/0810e22f-11fd-48a8-a057-2d80f3088691.jpg?1547515821',
        large:
-        'https://img.scryfall.com/cards/large/front/0/8/0810e22f-11fd-48a8-a057-2d80f3088691.jpg?1542804753',
+        'https://img.scryfall.com/cards/large/front/0/8/0810e22f-11fd-48a8-a057-2d80f3088691.jpg?1547515821',
        png:
-        'https://img.scryfall.com/cards/png/front/0/8/0810e22f-11fd-48a8-a057-2d80f3088691.png?1542804753',
+        'https://img.scryfall.com/cards/png/front/0/8/0810e22f-11fd-48a8-a057-2d80f3088691.png?1547515821',
        art_crop:
-        'https://img.scryfall.com/cards/art_crop/front/0/8/0810e22f-11fd-48a8-a057-2d80f3088691.jpg?1542804753',
+        'https://img.scryfall.com/cards/art_crop/front/0/8/0810e22f-11fd-48a8-a057-2d80f3088691.jpg?1547515821',
        border_crop:
-        'https://img.scryfall.com/cards/border_crop/front/0/8/0810e22f-11fd-48a8-a057-2d80f3088691.jpg?1542804753' },
+        'https://img.scryfall.com/cards/border_crop/front/0/8/0810e22f-11fd-48a8-a057-2d80f3088691.jpg?1547515821' },
     mana_cost: '{1}{W}',
     cmc: 2,
     type_line: 'Creature — Unicorn',
@@ -19759,9 +19553,8 @@ module.exports = [ { object: 'card',
        vintage: 'legal',
        penny: 'legal',
        commander: 'legal',
-       '1v1': 'legal',
        duel: 'legal',
-       brawl: 'not_legal' },
+       oldschool: 'not_legal' },
     games: [ 'mtgo', 'paper' ],
     reserved: false,
     foil: true,
@@ -19792,7 +19585,7 @@ module.exports = [ { object: 'card',
     frame_effect: '',
     full_art: false,
     story_spotlight: false,
-    edhrec_rank: 12608,
+    edhrec_rank: 12778,
     related_uris:
      { gatherer:
         'http://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=456629',
@@ -19817,20 +19610,20 @@ module.exports = [ { object: 'card',
     scryfall_uri:
      'https://scryfall.com/card/uma/32/reya-dawnbringer?utm_source=api',
     layout: 'normal',
-    highres_image: false,
+    highres_image: true,
     image_uris:
      { small:
-        'https://img.scryfall.com/cards/small/front/4/4/44b45bdd-829a-4fc1-ad37-17c2bd57fac8.jpg?1542804734',
+        'https://img.scryfall.com/cards/small/front/4/4/44b45bdd-829a-4fc1-ad37-17c2bd57fac8.jpg?1547515804',
        normal:
-        'https://img.scryfall.com/cards/normal/front/4/4/44b45bdd-829a-4fc1-ad37-17c2bd57fac8.jpg?1542804734',
+        'https://img.scryfall.com/cards/normal/front/4/4/44b45bdd-829a-4fc1-ad37-17c2bd57fac8.jpg?1547515804',
        large:
-        'https://img.scryfall.com/cards/large/front/4/4/44b45bdd-829a-4fc1-ad37-17c2bd57fac8.jpg?1542804734',
+        'https://img.scryfall.com/cards/large/front/4/4/44b45bdd-829a-4fc1-ad37-17c2bd57fac8.jpg?1547515804',
        png:
-        'https://img.scryfall.com/cards/png/front/4/4/44b45bdd-829a-4fc1-ad37-17c2bd57fac8.png?1542804734',
+        'https://img.scryfall.com/cards/png/front/4/4/44b45bdd-829a-4fc1-ad37-17c2bd57fac8.png?1547515804',
        art_crop:
-        'https://img.scryfall.com/cards/art_crop/front/4/4/44b45bdd-829a-4fc1-ad37-17c2bd57fac8.jpg?1542804734',
+        'https://img.scryfall.com/cards/art_crop/front/4/4/44b45bdd-829a-4fc1-ad37-17c2bd57fac8.jpg?1547515804',
        border_crop:
-        'https://img.scryfall.com/cards/border_crop/front/4/4/44b45bdd-829a-4fc1-ad37-17c2bd57fac8.jpg?1542804734' },
+        'https://img.scryfall.com/cards/border_crop/front/4/4/44b45bdd-829a-4fc1-ad37-17c2bd57fac8.jpg?1547515804' },
     mana_cost: '{6}{W}{W}{W}',
     cmc: 9,
     type_line: 'Legendary Creature — Angel',
@@ -19848,11 +19641,10 @@ module.exports = [ { object: 'card',
        legacy: 'legal',
        pauper: 'not_legal',
        vintage: 'legal',
-       penny: 'not_legal',
+       penny: 'legal',
        commander: 'legal',
-       '1v1': 'legal',
        duel: 'legal',
-       brawl: 'not_legal' },
+       oldschool: 'not_legal' },
     games: [ 'mtgo', 'paper' ],
     reserved: false,
     foil: true,
@@ -19882,7 +19674,7 @@ module.exports = [ { object: 'card',
     frame_effect: '',
     full_art: false,
     story_spotlight: false,
-    edhrec_rank: 2716,
+    edhrec_rank: 2749,
     related_uris:
      { gatherer:
         'http://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=456628',
@@ -19906,25 +19698,25 @@ module.exports = [ { object: 'card',
      'https://api.scryfall.com/cards/4bcf9b52-d249-41e7-8ed1-ba9acc816f30',
     scryfall_uri: 'https://scryfall.com/card/uma/31/reveillark?utm_source=api',
     layout: 'normal',
-    highres_image: false,
+    highres_image: true,
     image_uris:
      { small:
-        'https://img.scryfall.com/cards/small/front/4/b/4bcf9b52-d249-41e7-8ed1-ba9acc816f30.jpg?1542721510',
+        'https://img.scryfall.com/cards/small/front/4/b/4bcf9b52-d249-41e7-8ed1-ba9acc816f30.jpg?1547515787',
        normal:
-        'https://img.scryfall.com/cards/normal/front/4/b/4bcf9b52-d249-41e7-8ed1-ba9acc816f30.jpg?1542721510',
+        'https://img.scryfall.com/cards/normal/front/4/b/4bcf9b52-d249-41e7-8ed1-ba9acc816f30.jpg?1547515787',
        large:
-        'https://img.scryfall.com/cards/large/front/4/b/4bcf9b52-d249-41e7-8ed1-ba9acc816f30.jpg?1542721510',
+        'https://img.scryfall.com/cards/large/front/4/b/4bcf9b52-d249-41e7-8ed1-ba9acc816f30.jpg?1547515787',
        png:
-        'https://img.scryfall.com/cards/png/front/4/b/4bcf9b52-d249-41e7-8ed1-ba9acc816f30.png?1542721510',
+        'https://img.scryfall.com/cards/png/front/4/b/4bcf9b52-d249-41e7-8ed1-ba9acc816f30.png?1547515787',
        art_crop:
-        'https://img.scryfall.com/cards/art_crop/front/4/b/4bcf9b52-d249-41e7-8ed1-ba9acc816f30.jpg?1542721510',
+        'https://img.scryfall.com/cards/art_crop/front/4/b/4bcf9b52-d249-41e7-8ed1-ba9acc816f30.jpg?1547515787',
        border_crop:
-        'https://img.scryfall.com/cards/border_crop/front/4/b/4bcf9b52-d249-41e7-8ed1-ba9acc816f30.jpg?1542721510' },
+        'https://img.scryfall.com/cards/border_crop/front/4/b/4bcf9b52-d249-41e7-8ed1-ba9acc816f30.jpg?1547515787' },
     mana_cost: '{4}{W}',
     cmc: 5,
     type_line: 'Creature — Elemental',
     oracle_text:
-     'Flying\nWhen Reveillark leaves the battlefield, return up to two target creature cards with power 2 or less from your graveyard to the battlefield.\nEvoke {5}{W} (You may cast this spell for its evoke cost. If you do, it\'s sacrificed when it enters the battlefield.)',
+     "Flying\nWhen Reveillark leaves the battlefield, return up to two target creature cards with power 2 or less from your graveyard to the battlefield.\nEvoke {5}{W} (You may cast this spell for its evoke cost. If you do, it's sacrificed when it enters the battlefield.)",
     power: '4',
     toughness: '3',
     colors: [ 'W' ],
@@ -19939,9 +19731,8 @@ module.exports = [ { object: 'card',
        vintage: 'legal',
        penny: 'not_legal',
        commander: 'legal',
-       '1v1': 'legal',
        duel: 'legal',
-       brawl: 'not_legal' },
+       oldschool: 'not_legal' },
     games: [ 'mtgo', 'paper' ],
     reserved: false,
     foil: true,
@@ -19970,7 +19761,7 @@ module.exports = [ { object: 'card',
     frame_effect: '',
     full_art: false,
     story_spotlight: false,
-    edhrec_rank: 451,
+    edhrec_rank: 441,
     related_uris:
      { gatherer:
         'http://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=456627',
@@ -19995,20 +19786,20 @@ module.exports = [ { object: 'card',
     scryfall_uri:
      'https://scryfall.com/card/uma/30/resurrection?utm_source=api',
     layout: 'normal',
-    highres_image: false,
+    highres_image: true,
     image_uris:
      { small:
-        'https://img.scryfall.com/cards/small/front/a/1/a176b295-9406-4d6b-b15c-e81a72e66874.jpg?1542659709',
+        'https://img.scryfall.com/cards/small/front/a/1/a176b295-9406-4d6b-b15c-e81a72e66874.jpg?1547515773',
        normal:
-        'https://img.scryfall.com/cards/normal/front/a/1/a176b295-9406-4d6b-b15c-e81a72e66874.jpg?1542659709',
+        'https://img.scryfall.com/cards/normal/front/a/1/a176b295-9406-4d6b-b15c-e81a72e66874.jpg?1547515773',
        large:
-        'https://img.scryfall.com/cards/large/front/a/1/a176b295-9406-4d6b-b15c-e81a72e66874.jpg?1542659709',
+        'https://img.scryfall.com/cards/large/front/a/1/a176b295-9406-4d6b-b15c-e81a72e66874.jpg?1547515773',
        png:
-        'https://img.scryfall.com/cards/png/front/a/1/a176b295-9406-4d6b-b15c-e81a72e66874.png?1542659709',
+        'https://img.scryfall.com/cards/png/front/a/1/a176b295-9406-4d6b-b15c-e81a72e66874.png?1547515773',
        art_crop:
-        'https://img.scryfall.com/cards/art_crop/front/a/1/a176b295-9406-4d6b-b15c-e81a72e66874.jpg?1542659709',
+        'https://img.scryfall.com/cards/art_crop/front/a/1/a176b295-9406-4d6b-b15c-e81a72e66874.jpg?1547515773',
        border_crop:
-        'https://img.scryfall.com/cards/border_crop/front/a/1/a176b295-9406-4d6b-b15c-e81a72e66874.jpg?1542659709' },
+        'https://img.scryfall.com/cards/border_crop/front/a/1/a176b295-9406-4d6b-b15c-e81a72e66874.jpg?1547515773' },
     mana_cost: '{2}{W}{W}',
     cmc: 4,
     type_line: 'Sorcery',
@@ -20026,9 +19817,8 @@ module.exports = [ { object: 'card',
        vintage: 'legal',
        penny: 'legal',
        commander: 'legal',
-       '1v1': 'legal',
        duel: 'legal',
-       brawl: 'not_legal' },
+       oldschool: 'not_legal' },
     games: [ 'mtgo', 'paper' ],
     reserved: false,
     foil: true,
@@ -20059,7 +19849,7 @@ module.exports = [ { object: 'card',
     frame_effect: '',
     full_art: false,
     story_spotlight: false,
-    edhrec_rank: 5775,
+    edhrec_rank: 5841,
     related_uris:
      { gatherer:
         'http://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=456626',
@@ -20084,20 +19874,20 @@ module.exports = [ { object: 'card',
     scryfall_uri:
      'https://scryfall.com/card/uma/29/repel-the-darkness?utm_source=api',
     layout: 'normal',
-    highres_image: false,
+    highres_image: true,
     image_uris:
      { small:
-        'https://img.scryfall.com/cards/small/front/0/7/07ced55b-27e2-4549-90e4-31c9718e1395.jpg?1542804715',
+        'https://img.scryfall.com/cards/small/front/0/7/07ced55b-27e2-4549-90e4-31c9718e1395.jpg?1547515754',
        normal:
-        'https://img.scryfall.com/cards/normal/front/0/7/07ced55b-27e2-4549-90e4-31c9718e1395.jpg?1542804715',
+        'https://img.scryfall.com/cards/normal/front/0/7/07ced55b-27e2-4549-90e4-31c9718e1395.jpg?1547515754',
        large:
-        'https://img.scryfall.com/cards/large/front/0/7/07ced55b-27e2-4549-90e4-31c9718e1395.jpg?1542804715',
+        'https://img.scryfall.com/cards/large/front/0/7/07ced55b-27e2-4549-90e4-31c9718e1395.jpg?1547515754',
        png:
-        'https://img.scryfall.com/cards/png/front/0/7/07ced55b-27e2-4549-90e4-31c9718e1395.png?1542804715',
+        'https://img.scryfall.com/cards/png/front/0/7/07ced55b-27e2-4549-90e4-31c9718e1395.png?1547515754',
        art_crop:
-        'https://img.scryfall.com/cards/art_crop/front/0/7/07ced55b-27e2-4549-90e4-31c9718e1395.jpg?1542804715',
+        'https://img.scryfall.com/cards/art_crop/front/0/7/07ced55b-27e2-4549-90e4-31c9718e1395.jpg?1547515754',
        border_crop:
-        'https://img.scryfall.com/cards/border_crop/front/0/7/07ced55b-27e2-4549-90e4-31c9718e1395.jpg?1542804715' },
+        'https://img.scryfall.com/cards/border_crop/front/0/7/07ced55b-27e2-4549-90e4-31c9718e1395.jpg?1547515754' },
     mana_cost: '{2}{W}',
     cmc: 3,
     type_line: 'Instant',
@@ -20114,9 +19904,8 @@ module.exports = [ { object: 'card',
        vintage: 'legal',
        penny: 'not_legal',
        commander: 'legal',
-       '1v1': 'legal',
        duel: 'legal',
-       brawl: 'not_legal' },
+       oldschool: 'not_legal' },
     games: [ 'mtgo', 'paper' ],
     reserved: false,
     foil: true,
@@ -20147,7 +19936,7 @@ module.exports = [ { object: 'card',
     frame_effect: '',
     full_art: false,
     story_spotlight: false,
-    edhrec_rank: 12690,
+    edhrec_rank: 12904,
     related_uris:
      { gatherer:
         'http://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=456625',
@@ -20172,20 +19961,20 @@ module.exports = [ { object: 'card',
     scryfall_uri:
      'https://scryfall.com/card/uma/28/rally-the-peasants?utm_source=api',
     layout: 'normal',
-    highres_image: false,
+    highres_image: true,
     image_uris:
      { small:
-        'https://img.scryfall.com/cards/small/front/3/b/3b300df0-c867-41e6-a1fd-fe547ed3dc51.jpg?1542804705',
+        'https://img.scryfall.com/cards/small/front/3/b/3b300df0-c867-41e6-a1fd-fe547ed3dc51.jpg?1547515738',
        normal:
-        'https://img.scryfall.com/cards/normal/front/3/b/3b300df0-c867-41e6-a1fd-fe547ed3dc51.jpg?1542804705',
+        'https://img.scryfall.com/cards/normal/front/3/b/3b300df0-c867-41e6-a1fd-fe547ed3dc51.jpg?1547515738',
        large:
-        'https://img.scryfall.com/cards/large/front/3/b/3b300df0-c867-41e6-a1fd-fe547ed3dc51.jpg?1542804705',
+        'https://img.scryfall.com/cards/large/front/3/b/3b300df0-c867-41e6-a1fd-fe547ed3dc51.jpg?1547515738',
        png:
-        'https://img.scryfall.com/cards/png/front/3/b/3b300df0-c867-41e6-a1fd-fe547ed3dc51.png?1542804705',
+        'https://img.scryfall.com/cards/png/front/3/b/3b300df0-c867-41e6-a1fd-fe547ed3dc51.png?1547515738',
        art_crop:
-        'https://img.scryfall.com/cards/art_crop/front/3/b/3b300df0-c867-41e6-a1fd-fe547ed3dc51.jpg?1542804705',
+        'https://img.scryfall.com/cards/art_crop/front/3/b/3b300df0-c867-41e6-a1fd-fe547ed3dc51.jpg?1547515738',
        border_crop:
-        'https://img.scryfall.com/cards/border_crop/front/3/b/3b300df0-c867-41e6-a1fd-fe547ed3dc51.jpg?1542804705' },
+        'https://img.scryfall.com/cards/border_crop/front/3/b/3b300df0-c867-41e6-a1fd-fe547ed3dc51.jpg?1547515738' },
     mana_cost: '{2}{W}',
     cmc: 3,
     type_line: 'Instant',
@@ -20203,9 +19992,8 @@ module.exports = [ { object: 'card',
        vintage: 'legal',
        penny: 'legal',
        commander: 'legal',
-       '1v1': 'legal',
        duel: 'legal',
-       brawl: 'not_legal' },
+       oldschool: 'not_legal' },
     games: [ 'mtgo', 'paper' ],
     reserved: false,
     foil: true,
@@ -20236,7 +20024,7 @@ module.exports = [ { object: 'card',
     frame_effect: '',
     full_art: false,
     story_spotlight: false,
-    edhrec_rank: 9713,
+    edhrec_rank: 9955,
     related_uris:
      { gatherer:
         'http://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=456624',
@@ -20261,20 +20049,20 @@ module.exports = [ { object: 'card',
     scryfall_uri:
      'https://scryfall.com/card/uma/27/phalanx-leader?utm_source=api',
     layout: 'normal',
-    highres_image: false,
+    highres_image: true,
     image_uris:
      { small:
-        'https://img.scryfall.com/cards/small/front/9/6/96d22985-4354-4015-bd74-0ddf4f0cdf17.jpg?1542804691',
+        'https://img.scryfall.com/cards/small/front/9/6/96d22985-4354-4015-bd74-0ddf4f0cdf17.jpg?1547515719',
        normal:
-        'https://img.scryfall.com/cards/normal/front/9/6/96d22985-4354-4015-bd74-0ddf4f0cdf17.jpg?1542804691',
+        'https://img.scryfall.com/cards/normal/front/9/6/96d22985-4354-4015-bd74-0ddf4f0cdf17.jpg?1547515719',
        large:
-        'https://img.scryfall.com/cards/large/front/9/6/96d22985-4354-4015-bd74-0ddf4f0cdf17.jpg?1542804691',
+        'https://img.scryfall.com/cards/large/front/9/6/96d22985-4354-4015-bd74-0ddf4f0cdf17.jpg?1547515719',
        png:
-        'https://img.scryfall.com/cards/png/front/9/6/96d22985-4354-4015-bd74-0ddf4f0cdf17.png?1542804691',
+        'https://img.scryfall.com/cards/png/front/9/6/96d22985-4354-4015-bd74-0ddf4f0cdf17.png?1547515719',
        art_crop:
-        'https://img.scryfall.com/cards/art_crop/front/9/6/96d22985-4354-4015-bd74-0ddf4f0cdf17.jpg?1542804691',
+        'https://img.scryfall.com/cards/art_crop/front/9/6/96d22985-4354-4015-bd74-0ddf4f0cdf17.jpg?1547515719',
        border_crop:
-        'https://img.scryfall.com/cards/border_crop/front/9/6/96d22985-4354-4015-bd74-0ddf4f0cdf17.jpg?1542804691' },
+        'https://img.scryfall.com/cards/border_crop/front/9/6/96d22985-4354-4015-bd74-0ddf4f0cdf17.jpg?1547515719' },
     mana_cost: '{W}{W}',
     cmc: 2,
     type_line: 'Creature — Human Soldier',
@@ -20294,9 +20082,8 @@ module.exports = [ { object: 'card',
        vintage: 'legal',
        penny: 'legal',
        commander: 'legal',
-       '1v1': 'legal',
        duel: 'legal',
-       brawl: 'not_legal' },
+       oldschool: 'not_legal' },
     games: [ 'mtgo', 'paper' ],
     reserved: false,
     foil: true,
@@ -20327,7 +20114,7 @@ module.exports = [ { object: 'card',
     frame_effect: '',
     full_art: false,
     story_spotlight: false,
-    edhrec_rank: 6985,
+    edhrec_rank: 7123,
     related_uris:
      { gatherer:
         'http://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=456623',
@@ -20352,20 +20139,20 @@ module.exports = [ { object: 'card',
     scryfall_uri:
      'https://scryfall.com/card/uma/26/miraculous-recovery?utm_source=api',
     layout: 'normal',
-    highres_image: false,
+    highres_image: true,
     image_uris:
      { small:
-        'https://img.scryfall.com/cards/small/front/2/b/2b3459d9-a667-4cee-9b39-844013576d0b.jpg?1542804677',
+        'https://img.scryfall.com/cards/small/front/2/b/2b3459d9-a667-4cee-9b39-844013576d0b.jpg?1547515696',
        normal:
-        'https://img.scryfall.com/cards/normal/front/2/b/2b3459d9-a667-4cee-9b39-844013576d0b.jpg?1542804677',
+        'https://img.scryfall.com/cards/normal/front/2/b/2b3459d9-a667-4cee-9b39-844013576d0b.jpg?1547515696',
        large:
-        'https://img.scryfall.com/cards/large/front/2/b/2b3459d9-a667-4cee-9b39-844013576d0b.jpg?1542804677',
+        'https://img.scryfall.com/cards/large/front/2/b/2b3459d9-a667-4cee-9b39-844013576d0b.jpg?1547515696',
        png:
-        'https://img.scryfall.com/cards/png/front/2/b/2b3459d9-a667-4cee-9b39-844013576d0b.png?1542804677',
+        'https://img.scryfall.com/cards/png/front/2/b/2b3459d9-a667-4cee-9b39-844013576d0b.png?1547515696',
        art_crop:
-        'https://img.scryfall.com/cards/art_crop/front/2/b/2b3459d9-a667-4cee-9b39-844013576d0b.jpg?1542804677',
+        'https://img.scryfall.com/cards/art_crop/front/2/b/2b3459d9-a667-4cee-9b39-844013576d0b.jpg?1547515696',
        border_crop:
-        'https://img.scryfall.com/cards/border_crop/front/2/b/2b3459d9-a667-4cee-9b39-844013576d0b.jpg?1542804677' },
+        'https://img.scryfall.com/cards/border_crop/front/2/b/2b3459d9-a667-4cee-9b39-844013576d0b.jpg?1547515696' },
     mana_cost: '{4}{W}',
     cmc: 5,
     type_line: 'Instant',
@@ -20383,9 +20170,8 @@ module.exports = [ { object: 'card',
        vintage: 'legal',
        penny: 'not_legal',
        commander: 'legal',
-       '1v1': 'legal',
        duel: 'legal',
-       brawl: 'not_legal' },
+       oldschool: 'not_legal' },
     games: [ 'mtgo', 'paper' ],
     reserved: false,
     foil: true,
@@ -20415,7 +20201,7 @@ module.exports = [ { object: 'card',
     frame_effect: '',
     full_art: false,
     story_spotlight: false,
-    edhrec_rank: 5945,
+    edhrec_rank: 6059,
     related_uris:
      { gatherer:
         'http://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=456622',
@@ -20440,20 +20226,20 @@ module.exports = [ { object: 'card',
     scryfall_uri:
      'https://scryfall.com/card/uma/25/martyr-of-sands?utm_source=api',
     layout: 'normal',
-    highres_image: false,
+    highres_image: true,
     image_uris:
      { small:
-        'https://img.scryfall.com/cards/small/front/0/1/010d4a6b-af72-4d44-a25f-dce8e12da727.jpg?1542806077',
+        'https://img.scryfall.com/cards/small/front/0/1/010d4a6b-af72-4d44-a25f-dce8e12da727.jpg?1547515682',
        normal:
-        'https://img.scryfall.com/cards/normal/front/0/1/010d4a6b-af72-4d44-a25f-dce8e12da727.jpg?1542806077',
+        'https://img.scryfall.com/cards/normal/front/0/1/010d4a6b-af72-4d44-a25f-dce8e12da727.jpg?1547515682',
        large:
-        'https://img.scryfall.com/cards/large/front/0/1/010d4a6b-af72-4d44-a25f-dce8e12da727.jpg?1542806077',
+        'https://img.scryfall.com/cards/large/front/0/1/010d4a6b-af72-4d44-a25f-dce8e12da727.jpg?1547515682',
        png:
-        'https://img.scryfall.com/cards/png/front/0/1/010d4a6b-af72-4d44-a25f-dce8e12da727.png?1542806077',
+        'https://img.scryfall.com/cards/png/front/0/1/010d4a6b-af72-4d44-a25f-dce8e12da727.png?1547515682',
        art_crop:
-        'https://img.scryfall.com/cards/art_crop/front/0/1/010d4a6b-af72-4d44-a25f-dce8e12da727.jpg?1542806077',
+        'https://img.scryfall.com/cards/art_crop/front/0/1/010d4a6b-af72-4d44-a25f-dce8e12da727.jpg?1547515682',
        border_crop:
-        'https://img.scryfall.com/cards/border_crop/front/0/1/010d4a6b-af72-4d44-a25f-dce8e12da727.jpg?1542806077' },
+        'https://img.scryfall.com/cards/border_crop/front/0/1/010d4a6b-af72-4d44-a25f-dce8e12da727.jpg?1547515682' },
     mana_cost: '{W}',
     cmc: 1,
     type_line: 'Creature — Human Cleric',
@@ -20473,9 +20259,8 @@ module.exports = [ { object: 'card',
        vintage: 'legal',
        penny: 'not_legal',
        commander: 'legal',
-       '1v1': 'legal',
        duel: 'legal',
-       brawl: 'not_legal' },
+       oldschool: 'not_legal' },
     games: [ 'mtgo', 'paper' ],
     reserved: false,
     foil: true,
@@ -20506,7 +20291,7 @@ module.exports = [ { object: 'card',
     frame_effect: '',
     full_art: false,
     story_spotlight: false,
-    edhrec_rank: 8293,
+    edhrec_rank: 8401,
     related_uris:
      { gatherer:
         'http://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=456621',
@@ -20531,20 +20316,20 @@ module.exports = [ { object: 'card',
     scryfall_uri:
      'https://scryfall.com/card/uma/24/mammoth-umbra?utm_source=api',
     layout: 'normal',
-    highres_image: false,
+    highres_image: true,
     image_uris:
      { small:
-        'https://img.scryfall.com/cards/small/front/d/9/d9f9195c-cd12-47b7-8ebc-5c4a77a9002a.jpg?1542804662',
+        'https://img.scryfall.com/cards/small/front/d/9/d9f9195c-cd12-47b7-8ebc-5c4a77a9002a.jpg?1547515665',
        normal:
-        'https://img.scryfall.com/cards/normal/front/d/9/d9f9195c-cd12-47b7-8ebc-5c4a77a9002a.jpg?1542804662',
+        'https://img.scryfall.com/cards/normal/front/d/9/d9f9195c-cd12-47b7-8ebc-5c4a77a9002a.jpg?1547515665',
        large:
-        'https://img.scryfall.com/cards/large/front/d/9/d9f9195c-cd12-47b7-8ebc-5c4a77a9002a.jpg?1542804662',
+        'https://img.scryfall.com/cards/large/front/d/9/d9f9195c-cd12-47b7-8ebc-5c4a77a9002a.jpg?1547515665',
        png:
-        'https://img.scryfall.com/cards/png/front/d/9/d9f9195c-cd12-47b7-8ebc-5c4a77a9002a.png?1542804662',
+        'https://img.scryfall.com/cards/png/front/d/9/d9f9195c-cd12-47b7-8ebc-5c4a77a9002a.png?1547515665',
        art_crop:
-        'https://img.scryfall.com/cards/art_crop/front/d/9/d9f9195c-cd12-47b7-8ebc-5c4a77a9002a.jpg?1542804662',
+        'https://img.scryfall.com/cards/art_crop/front/d/9/d9f9195c-cd12-47b7-8ebc-5c4a77a9002a.jpg?1547515665',
        border_crop:
-        'https://img.scryfall.com/cards/border_crop/front/d/9/d9f9195c-cd12-47b7-8ebc-5c4a77a9002a.jpg?1542804662' },
+        'https://img.scryfall.com/cards/border_crop/front/d/9/d9f9195c-cd12-47b7-8ebc-5c4a77a9002a.jpg?1547515665' },
     mana_cost: '{4}{W}',
     cmc: 5,
     type_line: 'Enchantment — Aura',
@@ -20562,9 +20347,8 @@ module.exports = [ { object: 'card',
        vintage: 'legal',
        penny: 'legal',
        commander: 'legal',
-       '1v1': 'legal',
        duel: 'legal',
-       brawl: 'not_legal' },
+       oldschool: 'not_legal' },
     games: [ 'mtgo', 'paper' ],
     reserved: false,
     foil: true,
@@ -20593,7 +20377,7 @@ module.exports = [ { object: 'card',
     frame_effect: '',
     full_art: false,
     story_spotlight: false,
-    edhrec_rank: 4437,
+    edhrec_rank: 4507,
     related_uris:
      { gatherer:
         'http://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=456620',
@@ -20618,20 +20402,20 @@ module.exports = [ { object: 'card',
     scryfall_uri:
      'https://scryfall.com/card/uma/23/lotus-eye-mystics?utm_source=api',
     layout: 'normal',
-    highres_image: false,
+    highres_image: true,
     image_uris:
      { small:
-        'https://img.scryfall.com/cards/small/front/c/3/c3170852-60a9-46bc-8183-b1a65fc3b82b.jpg?1542804647',
+        'https://img.scryfall.com/cards/small/front/c/3/c3170852-60a9-46bc-8183-b1a65fc3b82b.jpg?1547515647',
        normal:
-        'https://img.scryfall.com/cards/normal/front/c/3/c3170852-60a9-46bc-8183-b1a65fc3b82b.jpg?1542804647',
+        'https://img.scryfall.com/cards/normal/front/c/3/c3170852-60a9-46bc-8183-b1a65fc3b82b.jpg?1547515647',
        large:
-        'https://img.scryfall.com/cards/large/front/c/3/c3170852-60a9-46bc-8183-b1a65fc3b82b.jpg?1542804647',
+        'https://img.scryfall.com/cards/large/front/c/3/c3170852-60a9-46bc-8183-b1a65fc3b82b.jpg?1547515647',
        png:
-        'https://img.scryfall.com/cards/png/front/c/3/c3170852-60a9-46bc-8183-b1a65fc3b82b.png?1542804647',
+        'https://img.scryfall.com/cards/png/front/c/3/c3170852-60a9-46bc-8183-b1a65fc3b82b.png?1547515647',
        art_crop:
-        'https://img.scryfall.com/cards/art_crop/front/c/3/c3170852-60a9-46bc-8183-b1a65fc3b82b.jpg?1542804647',
+        'https://img.scryfall.com/cards/art_crop/front/c/3/c3170852-60a9-46bc-8183-b1a65fc3b82b.jpg?1547515647',
        border_crop:
-        'https://img.scryfall.com/cards/border_crop/front/c/3/c3170852-60a9-46bc-8183-b1a65fc3b82b.jpg?1542804647' },
+        'https://img.scryfall.com/cards/border_crop/front/c/3/c3170852-60a9-46bc-8183-b1a65fc3b82b.jpg?1547515647' },
     mana_cost: '{3}{W}',
     cmc: 4,
     type_line: 'Creature — Human Monk',
@@ -20651,9 +20435,8 @@ module.exports = [ { object: 'card',
        vintage: 'legal',
        penny: 'legal',
        commander: 'legal',
-       '1v1': 'legal',
        duel: 'legal',
-       brawl: 'not_legal' },
+       oldschool: 'not_legal' },
     games: [ 'mtgo', 'paper' ],
     reserved: false,
     foil: true,
@@ -20683,7 +20466,7 @@ module.exports = [ { object: 'card',
     frame_effect: '',
     full_art: false,
     story_spotlight: false,
-    edhrec_rank: 8409,
+    edhrec_rank: 8533,
     related_uris:
      { gatherer:
         'http://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=456619',
@@ -20708,20 +20491,20 @@ module.exports = [ { object: 'card',
     scryfall_uri:
      'https://scryfall.com/card/uma/22/icatian-crier?utm_source=api',
     layout: 'normal',
-    highres_image: false,
+    highres_image: true,
     image_uris:
      { small:
-        'https://img.scryfall.com/cards/small/front/c/5/c5ba6543-ede7-45a5-8e8d-e17d3f545d3f.jpg?1542804631',
+        'https://img.scryfall.com/cards/small/front/c/5/c5ba6543-ede7-45a5-8e8d-e17d3f545d3f.jpg?1547515627',
        normal:
-        'https://img.scryfall.com/cards/normal/front/c/5/c5ba6543-ede7-45a5-8e8d-e17d3f545d3f.jpg?1542804631',
+        'https://img.scryfall.com/cards/normal/front/c/5/c5ba6543-ede7-45a5-8e8d-e17d3f545d3f.jpg?1547515627',
        large:
-        'https://img.scryfall.com/cards/large/front/c/5/c5ba6543-ede7-45a5-8e8d-e17d3f545d3f.jpg?1542804631',
+        'https://img.scryfall.com/cards/large/front/c/5/c5ba6543-ede7-45a5-8e8d-e17d3f545d3f.jpg?1547515627',
        png:
-        'https://img.scryfall.com/cards/png/front/c/5/c5ba6543-ede7-45a5-8e8d-e17d3f545d3f.png?1542804631',
+        'https://img.scryfall.com/cards/png/front/c/5/c5ba6543-ede7-45a5-8e8d-e17d3f545d3f.png?1547515627',
        art_crop:
-        'https://img.scryfall.com/cards/art_crop/front/c/5/c5ba6543-ede7-45a5-8e8d-e17d3f545d3f.jpg?1542804631',
+        'https://img.scryfall.com/cards/art_crop/front/c/5/c5ba6543-ede7-45a5-8e8d-e17d3f545d3f.jpg?1547515627',
        border_crop:
-        'https://img.scryfall.com/cards/border_crop/front/c/5/c5ba6543-ede7-45a5-8e8d-e17d3f545d3f.jpg?1542804631' },
+        'https://img.scryfall.com/cards/border_crop/front/c/5/c5ba6543-ede7-45a5-8e8d-e17d3f545d3f.jpg?1547515627' },
     mana_cost: '{2}{W}',
     cmc: 3,
     type_line: 'Creature — Human Spellshaper',
@@ -20739,11 +20522,10 @@ module.exports = [ { object: 'card',
        legacy: 'legal',
        pauper: 'legal',
        vintage: 'legal',
-       penny: 'not_legal',
+       penny: 'legal',
        commander: 'legal',
-       '1v1': 'legal',
        duel: 'legal',
-       brawl: 'not_legal' },
+       oldschool: 'not_legal' },
     games: [ 'mtgo', 'paper' ],
     reserved: false,
     foil: true,
@@ -20774,7 +20556,7 @@ module.exports = [ { object: 'card',
     frame_effect: '',
     full_art: false,
     story_spotlight: false,
-    edhrec_rank: 12788,
+    edhrec_rank: 12707,
     related_uris:
      { gatherer:
         'http://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=456618',
@@ -20799,20 +20581,20 @@ module.exports = [ { object: 'card',
     scryfall_uri:
      'https://scryfall.com/card/uma/21/hyena-umbra?utm_source=api',
     layout: 'normal',
-    highres_image: false,
+    highres_image: true,
     image_uris:
      { small:
-        'https://img.scryfall.com/cards/small/front/8/7/87128a82-bcde-4def-9447-0ab8165d6b5e.jpg?1542806061',
+        'https://img.scryfall.com/cards/small/front/8/7/87128a82-bcde-4def-9447-0ab8165d6b5e.jpg?1547515597',
        normal:
-        'https://img.scryfall.com/cards/normal/front/8/7/87128a82-bcde-4def-9447-0ab8165d6b5e.jpg?1542806061',
+        'https://img.scryfall.com/cards/normal/front/8/7/87128a82-bcde-4def-9447-0ab8165d6b5e.jpg?1547515597',
        large:
-        'https://img.scryfall.com/cards/large/front/8/7/87128a82-bcde-4def-9447-0ab8165d6b5e.jpg?1542806061',
+        'https://img.scryfall.com/cards/large/front/8/7/87128a82-bcde-4def-9447-0ab8165d6b5e.jpg?1547515597',
        png:
-        'https://img.scryfall.com/cards/png/front/8/7/87128a82-bcde-4def-9447-0ab8165d6b5e.png?1542806061',
+        'https://img.scryfall.com/cards/png/front/8/7/87128a82-bcde-4def-9447-0ab8165d6b5e.png?1547515597',
        art_crop:
-        'https://img.scryfall.com/cards/art_crop/front/8/7/87128a82-bcde-4def-9447-0ab8165d6b5e.jpg?1542806061',
+        'https://img.scryfall.com/cards/art_crop/front/8/7/87128a82-bcde-4def-9447-0ab8165d6b5e.jpg?1547515597',
        border_crop:
-        'https://img.scryfall.com/cards/border_crop/front/8/7/87128a82-bcde-4def-9447-0ab8165d6b5e.jpg?1542806061' },
+        'https://img.scryfall.com/cards/border_crop/front/8/7/87128a82-bcde-4def-9447-0ab8165d6b5e.jpg?1547515597' },
     mana_cost: '{W}',
     cmc: 1,
     type_line: 'Enchantment — Aura',
@@ -20830,9 +20612,8 @@ module.exports = [ { object: 'card',
        vintage: 'legal',
        penny: 'not_legal',
        commander: 'legal',
-       '1v1': 'legal',
        duel: 'legal',
-       brawl: 'not_legal' },
+       oldschool: 'not_legal' },
     games: [ 'mtgo', 'paper' ],
     reserved: false,
     foil: true,
@@ -20861,7 +20642,7 @@ module.exports = [ { object: 'card',
     frame_effect: '',
     full_art: false,
     story_spotlight: false,
-    edhrec_rank: 2485,
+    edhrec_rank: 2488,
     related_uris:
      { gatherer:
         'http://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=456617',
@@ -20886,20 +20667,20 @@ module.exports = [ { object: 'card',
     scryfall_uri:
      'https://scryfall.com/card/uma/20/hero-of-iroas?utm_source=api',
     layout: 'normal',
-    highres_image: false,
+    highres_image: true,
     image_uris:
      { small:
-        'https://img.scryfall.com/cards/small/front/f/c/fcc9a63b-e7cd-404a-8d5c-0c1396e16d0b.jpg?1542804619',
+        'https://img.scryfall.com/cards/small/front/f/c/fcc9a63b-e7cd-404a-8d5c-0c1396e16d0b.jpg?1547515580',
        normal:
-        'https://img.scryfall.com/cards/normal/front/f/c/fcc9a63b-e7cd-404a-8d5c-0c1396e16d0b.jpg?1542804619',
+        'https://img.scryfall.com/cards/normal/front/f/c/fcc9a63b-e7cd-404a-8d5c-0c1396e16d0b.jpg?1547515580',
        large:
-        'https://img.scryfall.com/cards/large/front/f/c/fcc9a63b-e7cd-404a-8d5c-0c1396e16d0b.jpg?1542804619',
+        'https://img.scryfall.com/cards/large/front/f/c/fcc9a63b-e7cd-404a-8d5c-0c1396e16d0b.jpg?1547515580',
        png:
-        'https://img.scryfall.com/cards/png/front/f/c/fcc9a63b-e7cd-404a-8d5c-0c1396e16d0b.png?1542804619',
+        'https://img.scryfall.com/cards/png/front/f/c/fcc9a63b-e7cd-404a-8d5c-0c1396e16d0b.png?1547515580',
        art_crop:
-        'https://img.scryfall.com/cards/art_crop/front/f/c/fcc9a63b-e7cd-404a-8d5c-0c1396e16d0b.jpg?1542804619',
+        'https://img.scryfall.com/cards/art_crop/front/f/c/fcc9a63b-e7cd-404a-8d5c-0c1396e16d0b.jpg?1547515580',
        border_crop:
-        'https://img.scryfall.com/cards/border_crop/front/f/c/fcc9a63b-e7cd-404a-8d5c-0c1396e16d0b.jpg?1542804619' },
+        'https://img.scryfall.com/cards/border_crop/front/f/c/fcc9a63b-e7cd-404a-8d5c-0c1396e16d0b.jpg?1547515580' },
     mana_cost: '{1}{W}',
     cmc: 2,
     type_line: 'Creature — Human Soldier',
@@ -20917,11 +20698,10 @@ module.exports = [ { object: 'card',
        legacy: 'legal',
        pauper: 'not_legal',
        vintage: 'legal',
-       penny: 'not_legal',
+       penny: 'legal',
        commander: 'legal',
-       '1v1': 'legal',
        duel: 'legal',
-       brawl: 'not_legal' },
+       oldschool: 'not_legal' },
     games: [ 'mtgo', 'paper' ],
     reserved: false,
     foil: true,
@@ -20952,7 +20732,7 @@ module.exports = [ { object: 'card',
     frame_effect: '',
     full_art: false,
     story_spotlight: false,
-    edhrec_rank: 3560,
+    edhrec_rank: 3563,
     related_uris:
      { gatherer:
         'http://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=456616',
@@ -20969,7 +20749,7 @@ module.exports = [ { object: 'card',
     mtgo_id: 70111,
     mtgo_foil_id: 70112,
     tcgplayer_id: 180831,
-    name: 'Heliod\'s Pilgrim',
+    name: "Heliod's Pilgrim",
     lang: 'en',
     released_at: '2018-12-07',
     uri:
@@ -20977,25 +20757,25 @@ module.exports = [ { object: 'card',
     scryfall_uri:
      'https://scryfall.com/card/uma/19/heliods-pilgrim?utm_source=api',
     layout: 'normal',
-    highres_image: false,
+    highres_image: true,
     image_uris:
      { small:
-        'https://img.scryfall.com/cards/small/front/7/5/753dd235-55d3-4124-9b43-74517534bd87.jpg?1542723015',
+        'https://img.scryfall.com/cards/small/front/7/5/753dd235-55d3-4124-9b43-74517534bd87.jpg?1547515562',
        normal:
-        'https://img.scryfall.com/cards/normal/front/7/5/753dd235-55d3-4124-9b43-74517534bd87.jpg?1542723015',
+        'https://img.scryfall.com/cards/normal/front/7/5/753dd235-55d3-4124-9b43-74517534bd87.jpg?1547515562',
        large:
-        'https://img.scryfall.com/cards/large/front/7/5/753dd235-55d3-4124-9b43-74517534bd87.jpg?1542723015',
+        'https://img.scryfall.com/cards/large/front/7/5/753dd235-55d3-4124-9b43-74517534bd87.jpg?1547515562',
        png:
-        'https://img.scryfall.com/cards/png/front/7/5/753dd235-55d3-4124-9b43-74517534bd87.png?1542723015',
+        'https://img.scryfall.com/cards/png/front/7/5/753dd235-55d3-4124-9b43-74517534bd87.png?1547515562',
        art_crop:
-        'https://img.scryfall.com/cards/art_crop/front/7/5/753dd235-55d3-4124-9b43-74517534bd87.jpg?1542723015',
+        'https://img.scryfall.com/cards/art_crop/front/7/5/753dd235-55d3-4124-9b43-74517534bd87.jpg?1547515562',
        border_crop:
-        'https://img.scryfall.com/cards/border_crop/front/7/5/753dd235-55d3-4124-9b43-74517534bd87.jpg?1542723015' },
+        'https://img.scryfall.com/cards/border_crop/front/7/5/753dd235-55d3-4124-9b43-74517534bd87.jpg?1547515562' },
     mana_cost: '{2}{W}',
     cmc: 3,
     type_line: 'Creature — Human Cleric',
     oracle_text:
-     'When Heliod\'s Pilgrim enters the battlefield, you may search your library for an Aura card, reveal it, put it into your hand, then shuffle your library.',
+     "When Heliod's Pilgrim enters the battlefield, you may search your library for an Aura card, reveal it, put it into your hand, then shuffle your library.",
     power: '1',
     toughness: '2',
     colors: [ 'W' ],
@@ -21010,9 +20790,8 @@ module.exports = [ { object: 'card',
        vintage: 'legal',
        penny: 'not_legal',
        commander: 'legal',
-       '1v1': 'legal',
        duel: 'legal',
-       brawl: 'not_legal' },
+       oldschool: 'not_legal' },
     games: [ 'mtgo', 'paper' ],
     reserved: false,
     foil: true,
@@ -21042,7 +20821,7 @@ module.exports = [ { object: 'card',
     frame_effect: '',
     full_art: false,
     story_spotlight: false,
-    edhrec_rank: 1674,
+    edhrec_rank: 1663,
     related_uris:
      { gatherer:
         'http://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=456615',
@@ -21067,20 +20846,20 @@ module.exports = [ { object: 'card',
     scryfall_uri:
      'https://scryfall.com/card/uma/18/gods-willing?utm_source=api',
     layout: 'normal',
-    highres_image: false,
+    highres_image: true,
     image_uris:
      { small:
-        'https://img.scryfall.com/cards/small/front/8/d/8d95d57f-daaf-49d2-b26f-2058c065f0fe.jpg?1542804596',
+        'https://img.scryfall.com/cards/small/front/8/d/8d95d57f-daaf-49d2-b26f-2058c065f0fe.jpg?1547515544',
        normal:
-        'https://img.scryfall.com/cards/normal/front/8/d/8d95d57f-daaf-49d2-b26f-2058c065f0fe.jpg?1542804596',
+        'https://img.scryfall.com/cards/normal/front/8/d/8d95d57f-daaf-49d2-b26f-2058c065f0fe.jpg?1547515544',
        large:
-        'https://img.scryfall.com/cards/large/front/8/d/8d95d57f-daaf-49d2-b26f-2058c065f0fe.jpg?1542804596',
+        'https://img.scryfall.com/cards/large/front/8/d/8d95d57f-daaf-49d2-b26f-2058c065f0fe.jpg?1547515544',
        png:
-        'https://img.scryfall.com/cards/png/front/8/d/8d95d57f-daaf-49d2-b26f-2058c065f0fe.png?1542804596',
+        'https://img.scryfall.com/cards/png/front/8/d/8d95d57f-daaf-49d2-b26f-2058c065f0fe.png?1547515544',
        art_crop:
-        'https://img.scryfall.com/cards/art_crop/front/8/d/8d95d57f-daaf-49d2-b26f-2058c065f0fe.jpg?1542804596',
+        'https://img.scryfall.com/cards/art_crop/front/8/d/8d95d57f-daaf-49d2-b26f-2058c065f0fe.jpg?1547515544',
        border_crop:
-        'https://img.scryfall.com/cards/border_crop/front/8/d/8d95d57f-daaf-49d2-b26f-2058c065f0fe.jpg?1542804596' },
+        'https://img.scryfall.com/cards/border_crop/front/8/d/8d95d57f-daaf-49d2-b26f-2058c065f0fe.jpg?1547515544' },
     mana_cost: '{W}',
     cmc: 1,
     type_line: 'Instant',
@@ -21098,9 +20877,8 @@ module.exports = [ { object: 'card',
        vintage: 'legal',
        penny: 'legal',
        commander: 'legal',
-       '1v1': 'legal',
        duel: 'legal',
-       brawl: 'not_legal' },
+       oldschool: 'not_legal' },
     games: [ 'mtgo', 'paper' ],
     reserved: false,
     foil: true,
@@ -21130,7 +20908,7 @@ module.exports = [ { object: 'card',
     frame_effect: '',
     full_art: false,
     story_spotlight: false,
-    edhrec_rank: 3483,
+    edhrec_rank: 3525,
     related_uris:
      { gatherer:
         'http://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=456614',
@@ -21155,25 +20933,25 @@ module.exports = [ { object: 'card',
     scryfall_uri:
      'https://scryfall.com/card/uma/17/fiend-hunter?utm_source=api',
     layout: 'normal',
-    highres_image: false,
+    highres_image: true,
     image_uris:
      { small:
-        'https://img.scryfall.com/cards/small/front/f/0/f02e3c30-e540-4d7b-a17b-3eece63743cb.jpg?1542804584',
+        'https://img.scryfall.com/cards/small/front/f/0/f02e3c30-e540-4d7b-a17b-3eece63743cb.jpg?1547515516',
        normal:
-        'https://img.scryfall.com/cards/normal/front/f/0/f02e3c30-e540-4d7b-a17b-3eece63743cb.jpg?1542804584',
+        'https://img.scryfall.com/cards/normal/front/f/0/f02e3c30-e540-4d7b-a17b-3eece63743cb.jpg?1547515516',
        large:
-        'https://img.scryfall.com/cards/large/front/f/0/f02e3c30-e540-4d7b-a17b-3eece63743cb.jpg?1542804584',
+        'https://img.scryfall.com/cards/large/front/f/0/f02e3c30-e540-4d7b-a17b-3eece63743cb.jpg?1547515516',
        png:
-        'https://img.scryfall.com/cards/png/front/f/0/f02e3c30-e540-4d7b-a17b-3eece63743cb.png?1542804584',
+        'https://img.scryfall.com/cards/png/front/f/0/f02e3c30-e540-4d7b-a17b-3eece63743cb.png?1547515516',
        art_crop:
-        'https://img.scryfall.com/cards/art_crop/front/f/0/f02e3c30-e540-4d7b-a17b-3eece63743cb.jpg?1542804584',
+        'https://img.scryfall.com/cards/art_crop/front/f/0/f02e3c30-e540-4d7b-a17b-3eece63743cb.jpg?1547515516',
        border_crop:
-        'https://img.scryfall.com/cards/border_crop/front/f/0/f02e3c30-e540-4d7b-a17b-3eece63743cb.jpg?1542804584' },
+        'https://img.scryfall.com/cards/border_crop/front/f/0/f02e3c30-e540-4d7b-a17b-3eece63743cb.jpg?1547515516' },
     mana_cost: '{1}{W}{W}',
     cmc: 3,
     type_line: 'Creature — Human Cleric',
     oracle_text:
-     'When Fiend Hunter enters the battlefield, you may exile another target creature.\nWhen Fiend Hunter leaves the battlefield, return the exiled card to the battlefield under its owner\'s control.',
+     "When Fiend Hunter enters the battlefield, you may exile another target creature.\nWhen Fiend Hunter leaves the battlefield, return the exiled card to the battlefield under its owner's control.",
     power: '1',
     toughness: '3',
     colors: [ 'W' ],
@@ -21188,9 +20966,8 @@ module.exports = [ { object: 'card',
        vintage: 'legal',
        penny: 'not_legal',
        commander: 'legal',
-       '1v1': 'legal',
        duel: 'legal',
-       brawl: 'not_legal' },
+       oldschool: 'not_legal' },
     games: [ 'mtgo', 'paper' ],
     reserved: false,
     foil: true,
@@ -21219,7 +20996,7 @@ module.exports = [ { object: 'card',
     frame_effect: '',
     full_art: false,
     story_spotlight: false,
-    edhrec_rank: 775,
+    edhrec_rank: 782,
     related_uris:
      { gatherer:
         'http://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=456613',
@@ -21236,7 +21013,7 @@ module.exports = [ { object: 'card',
     mtgo_id: 70105,
     mtgo_foil_id: 70106,
     tcgplayer_id: 180850,
-    name: 'Faith\'s Fetters',
+    name: "Faith's Fetters",
     lang: 'en',
     released_at: '2018-12-07',
     uri:
@@ -21244,25 +21021,25 @@ module.exports = [ { object: 'card',
     scryfall_uri:
      'https://scryfall.com/card/uma/16/faiths-fetters?utm_source=api',
     layout: 'normal',
-    highres_image: false,
+    highres_image: true,
     image_uris:
      { small:
-        'https://img.scryfall.com/cards/small/front/1/c/1c8e887e-bf53-44e3-b3e5-d00d8974d0b3.jpg?1545077258',
+        'https://img.scryfall.com/cards/small/front/1/c/1c8e887e-bf53-44e3-b3e5-d00d8974d0b3.jpg?1547515498',
        normal:
-        'https://img.scryfall.com/cards/normal/front/1/c/1c8e887e-bf53-44e3-b3e5-d00d8974d0b3.jpg?1545077258',
+        'https://img.scryfall.com/cards/normal/front/1/c/1c8e887e-bf53-44e3-b3e5-d00d8974d0b3.jpg?1547515498',
        large:
-        'https://img.scryfall.com/cards/large/front/1/c/1c8e887e-bf53-44e3-b3e5-d00d8974d0b3.jpg?1545077258',
+        'https://img.scryfall.com/cards/large/front/1/c/1c8e887e-bf53-44e3-b3e5-d00d8974d0b3.jpg?1547515498',
        png:
-        'https://img.scryfall.com/cards/png/front/1/c/1c8e887e-bf53-44e3-b3e5-d00d8974d0b3.png?1545077258',
+        'https://img.scryfall.com/cards/png/front/1/c/1c8e887e-bf53-44e3-b3e5-d00d8974d0b3.png?1547515498',
        art_crop:
-        'https://img.scryfall.com/cards/art_crop/front/1/c/1c8e887e-bf53-44e3-b3e5-d00d8974d0b3.jpg?1545077258',
+        'https://img.scryfall.com/cards/art_crop/front/1/c/1c8e887e-bf53-44e3-b3e5-d00d8974d0b3.jpg?1547515498',
        border_crop:
-        'https://img.scryfall.com/cards/border_crop/front/1/c/1c8e887e-bf53-44e3-b3e5-d00d8974d0b3.jpg?1545077258' },
+        'https://img.scryfall.com/cards/border_crop/front/1/c/1c8e887e-bf53-44e3-b3e5-d00d8974d0b3.jpg?1547515498' },
     mana_cost: '{3}{W}',
     cmc: 4,
     type_line: 'Enchantment — Aura',
     oracle_text:
-     'Enchant permanent\nWhen Faith\'s Fetters enters the battlefield, you gain 4 life.\nEnchanted permanent can\'t attack or block, and its activated abilities can\'t be activated unless they\'re mana abilities.',
+     "Enchant permanent\nWhen Faith's Fetters enters the battlefield, you gain 4 life.\nEnchanted permanent can't attack or block, and its activated abilities can't be activated unless they're mana abilities.",
     colors: [ 'W' ],
     color_identity: [ 'W' ],
     legalities:
@@ -21275,9 +21052,8 @@ module.exports = [ { object: 'card',
        vintage: 'legal',
        penny: 'legal',
        commander: 'legal',
-       '1v1': 'legal',
        duel: 'legal',
-       brawl: 'not_legal' },
+       oldschool: 'not_legal' },
     games: [ 'mtgo', 'paper' ],
     reserved: false,
     foil: true,
@@ -21306,7 +21082,7 @@ module.exports = [ { object: 'card',
     frame_effect: '',
     full_art: false,
     story_spotlight: false,
-    edhrec_rank: 2252,
+    edhrec_rank: 2298,
     related_uris:
      { gatherer:
         'http://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=456612',
@@ -21331,25 +21107,25 @@ module.exports = [ { object: 'card',
     scryfall_uri:
      'https://scryfall.com/card/uma/15/emancipation-angel?utm_source=api',
     layout: 'normal',
-    highres_image: false,
+    highres_image: true,
     image_uris:
      { small:
-        'https://img.scryfall.com/cards/small/front/1/8/189e0728-94e3-43af-a341-d2bbb33b6b32.jpg?1542804508',
+        'https://img.scryfall.com/cards/small/front/1/8/189e0728-94e3-43af-a341-d2bbb33b6b32.jpg?1547515483',
        normal:
-        'https://img.scryfall.com/cards/normal/front/1/8/189e0728-94e3-43af-a341-d2bbb33b6b32.jpg?1542804508',
+        'https://img.scryfall.com/cards/normal/front/1/8/189e0728-94e3-43af-a341-d2bbb33b6b32.jpg?1547515483',
        large:
-        'https://img.scryfall.com/cards/large/front/1/8/189e0728-94e3-43af-a341-d2bbb33b6b32.jpg?1542804508',
+        'https://img.scryfall.com/cards/large/front/1/8/189e0728-94e3-43af-a341-d2bbb33b6b32.jpg?1547515483',
        png:
-        'https://img.scryfall.com/cards/png/front/1/8/189e0728-94e3-43af-a341-d2bbb33b6b32.png?1542804508',
+        'https://img.scryfall.com/cards/png/front/1/8/189e0728-94e3-43af-a341-d2bbb33b6b32.png?1547515483',
        art_crop:
-        'https://img.scryfall.com/cards/art_crop/front/1/8/189e0728-94e3-43af-a341-d2bbb33b6b32.jpg?1542804508',
+        'https://img.scryfall.com/cards/art_crop/front/1/8/189e0728-94e3-43af-a341-d2bbb33b6b32.jpg?1547515483',
        border_crop:
-        'https://img.scryfall.com/cards/border_crop/front/1/8/189e0728-94e3-43af-a341-d2bbb33b6b32.jpg?1542804508' },
+        'https://img.scryfall.com/cards/border_crop/front/1/8/189e0728-94e3-43af-a341-d2bbb33b6b32.jpg?1547515483' },
     mana_cost: '{1}{W}{W}',
     cmc: 3,
     type_line: 'Creature — Angel',
     oracle_text:
-     'Flying\nWhen Emancipation Angel enters the battlefield, return a permanent you control to its owner\'s hand.',
+     "Flying\nWhen Emancipation Angel enters the battlefield, return a permanent you control to its owner's hand.",
     power: '3',
     toughness: '3',
     colors: [ 'W' ],
@@ -21364,9 +21140,8 @@ module.exports = [ { object: 'card',
        vintage: 'legal',
        penny: 'legal',
        commander: 'legal',
-       '1v1': 'legal',
        duel: 'legal',
-       brawl: 'not_legal' },
+       oldschool: 'not_legal' },
     games: [ 'mtgo', 'paper' ],
     reserved: false,
     foil: true,
@@ -21396,7 +21171,7 @@ module.exports = [ { object: 'card',
     frame_effect: '',
     full_art: false,
     story_spotlight: false,
-    edhrec_rank: 6115,
+    edhrec_rank: 6239,
     related_uris:
      { gatherer:
         'http://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=456611',
@@ -21421,20 +21196,20 @@ module.exports = [ { object: 'card',
     scryfall_uri:
      'https://scryfall.com/card/uma/14/daybreak-coronet?utm_source=api',
     layout: 'normal',
-    highres_image: false,
+    highres_image: true,
     image_uris:
      { small:
-        'https://img.scryfall.com/cards/small/front/8/1/818537cd-4c95-4538-b61f-c276a6fc8864.jpg?1542722883',
+        'https://img.scryfall.com/cards/small/front/8/1/818537cd-4c95-4538-b61f-c276a6fc8864.jpg?1547515470',
        normal:
-        'https://img.scryfall.com/cards/normal/front/8/1/818537cd-4c95-4538-b61f-c276a6fc8864.jpg?1542722883',
+        'https://img.scryfall.com/cards/normal/front/8/1/818537cd-4c95-4538-b61f-c276a6fc8864.jpg?1547515470',
        large:
-        'https://img.scryfall.com/cards/large/front/8/1/818537cd-4c95-4538-b61f-c276a6fc8864.jpg?1542722883',
+        'https://img.scryfall.com/cards/large/front/8/1/818537cd-4c95-4538-b61f-c276a6fc8864.jpg?1547515470',
        png:
-        'https://img.scryfall.com/cards/png/front/8/1/818537cd-4c95-4538-b61f-c276a6fc8864.png?1542722883',
+        'https://img.scryfall.com/cards/png/front/8/1/818537cd-4c95-4538-b61f-c276a6fc8864.png?1547515470',
        art_crop:
-        'https://img.scryfall.com/cards/art_crop/front/8/1/818537cd-4c95-4538-b61f-c276a6fc8864.jpg?1542722883',
+        'https://img.scryfall.com/cards/art_crop/front/8/1/818537cd-4c95-4538-b61f-c276a6fc8864.jpg?1547515470',
        border_crop:
-        'https://img.scryfall.com/cards/border_crop/front/8/1/818537cd-4c95-4538-b61f-c276a6fc8864.jpg?1542722883' },
+        'https://img.scryfall.com/cards/border_crop/front/8/1/818537cd-4c95-4538-b61f-c276a6fc8864.jpg?1547515470' },
     mana_cost: '{W}{W}',
     cmc: 2,
     type_line: 'Enchantment — Aura',
@@ -21452,9 +21227,8 @@ module.exports = [ { object: 'card',
        vintage: 'legal',
        penny: 'not_legal',
        commander: 'legal',
-       '1v1': 'legal',
        duel: 'legal',
-       brawl: 'not_legal' },
+       oldschool: 'not_legal' },
     games: [ 'mtgo', 'paper' ],
     reserved: false,
     foil: true,
@@ -21485,7 +21259,7 @@ module.exports = [ { object: 'card',
     frame_effect: '',
     full_art: false,
     story_spotlight: false,
-    edhrec_rank: 2335,
+    edhrec_rank: 2352,
     related_uris:
      { gatherer:
         'http://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=456610',
@@ -21509,20 +21283,20 @@ module.exports = [ { object: 'card',
      'https://api.scryfall.com/cards/aec653f1-32ce-4eb5-8d18-f56a7bbabac6',
     scryfall_uri: 'https://scryfall.com/card/uma/13/dawn-charm?utm_source=api',
     layout: 'normal',
-    highres_image: false,
+    highres_image: true,
     image_uris:
      { small:
-        'https://img.scryfall.com/cards/small/front/a/e/aec653f1-32ce-4eb5-8d18-f56a7bbabac6.jpg?1542804532',
+        'https://img.scryfall.com/cards/small/front/a/e/aec653f1-32ce-4eb5-8d18-f56a7bbabac6.jpg?1547515446',
        normal:
-        'https://img.scryfall.com/cards/normal/front/a/e/aec653f1-32ce-4eb5-8d18-f56a7bbabac6.jpg?1542804532',
+        'https://img.scryfall.com/cards/normal/front/a/e/aec653f1-32ce-4eb5-8d18-f56a7bbabac6.jpg?1547515446',
        large:
-        'https://img.scryfall.com/cards/large/front/a/e/aec653f1-32ce-4eb5-8d18-f56a7bbabac6.jpg?1542804532',
+        'https://img.scryfall.com/cards/large/front/a/e/aec653f1-32ce-4eb5-8d18-f56a7bbabac6.jpg?1547515446',
        png:
-        'https://img.scryfall.com/cards/png/front/a/e/aec653f1-32ce-4eb5-8d18-f56a7bbabac6.png?1542804532',
+        'https://img.scryfall.com/cards/png/front/a/e/aec653f1-32ce-4eb5-8d18-f56a7bbabac6.png?1547515446',
        art_crop:
-        'https://img.scryfall.com/cards/art_crop/front/a/e/aec653f1-32ce-4eb5-8d18-f56a7bbabac6.jpg?1542804532',
+        'https://img.scryfall.com/cards/art_crop/front/a/e/aec653f1-32ce-4eb5-8d18-f56a7bbabac6.jpg?1547515446',
        border_crop:
-        'https://img.scryfall.com/cards/border_crop/front/a/e/aec653f1-32ce-4eb5-8d18-f56a7bbabac6.jpg?1542804532' },
+        'https://img.scryfall.com/cards/border_crop/front/a/e/aec653f1-32ce-4eb5-8d18-f56a7bbabac6.jpg?1547515446' },
     mana_cost: '{1}{W}',
     cmc: 2,
     type_line: 'Instant',
@@ -21538,11 +21312,10 @@ module.exports = [ { object: 'card',
        legacy: 'legal',
        pauper: 'legal',
        vintage: 'legal',
-       penny: 'not_legal',
+       penny: 'legal',
        commander: 'legal',
-       '1v1': 'legal',
        duel: 'legal',
-       brawl: 'not_legal' },
+       oldschool: 'not_legal' },
     games: [ 'mtgo', 'paper' ],
     reserved: false,
     foil: true,
@@ -21571,7 +21344,7 @@ module.exports = [ { object: 'card',
     frame_effect: '',
     full_art: false,
     story_spotlight: false,
-    edhrec_rank: 2698,
+    edhrec_rank: 2721,
     related_uris:
      { gatherer:
         'http://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=456609',
@@ -21595,25 +21368,25 @@ module.exports = [ { object: 'card',
      'https://api.scryfall.com/cards/94507660-cf60-4fd8-a796-7a6e6f28396d',
     scryfall_uri: 'https://scryfall.com/card/uma/12/conviction?utm_source=api',
     layout: 'normal',
-    highres_image: false,
+    highres_image: true,
     image_uris:
      { small:
-        'https://img.scryfall.com/cards/small/front/9/4/94507660-cf60-4fd8-a796-7a6e6f28396d.jpg?1542804374',
+        'https://img.scryfall.com/cards/small/front/9/4/94507660-cf60-4fd8-a796-7a6e6f28396d.jpg?1547515417',
        normal:
-        'https://img.scryfall.com/cards/normal/front/9/4/94507660-cf60-4fd8-a796-7a6e6f28396d.jpg?1542804374',
+        'https://img.scryfall.com/cards/normal/front/9/4/94507660-cf60-4fd8-a796-7a6e6f28396d.jpg?1547515417',
        large:
-        'https://img.scryfall.com/cards/large/front/9/4/94507660-cf60-4fd8-a796-7a6e6f28396d.jpg?1542804374',
+        'https://img.scryfall.com/cards/large/front/9/4/94507660-cf60-4fd8-a796-7a6e6f28396d.jpg?1547515417',
        png:
-        'https://img.scryfall.com/cards/png/front/9/4/94507660-cf60-4fd8-a796-7a6e6f28396d.png?1542804374',
+        'https://img.scryfall.com/cards/png/front/9/4/94507660-cf60-4fd8-a796-7a6e6f28396d.png?1547515417',
        art_crop:
-        'https://img.scryfall.com/cards/art_crop/front/9/4/94507660-cf60-4fd8-a796-7a6e6f28396d.jpg?1542804374',
+        'https://img.scryfall.com/cards/art_crop/front/9/4/94507660-cf60-4fd8-a796-7a6e6f28396d.jpg?1547515417',
        border_crop:
-        'https://img.scryfall.com/cards/border_crop/front/9/4/94507660-cf60-4fd8-a796-7a6e6f28396d.jpg?1542804374' },
+        'https://img.scryfall.com/cards/border_crop/front/9/4/94507660-cf60-4fd8-a796-7a6e6f28396d.jpg?1547515417' },
     mana_cost: '{1}{W}',
     cmc: 2,
     type_line: 'Enchantment — Aura',
     oracle_text:
-     'Enchant creature\nEnchanted creature gets +1/+3.\n{W}: Return Conviction to its owner\'s hand.',
+     "Enchant creature\nEnchanted creature gets +1/+3.\n{W}: Return Conviction to its owner's hand.",
     colors: [ 'W' ],
     color_identity: [ 'W' ],
     legalities:
@@ -21626,9 +21399,8 @@ module.exports = [ { object: 'card',
        vintage: 'legal',
        penny: 'legal',
        commander: 'legal',
-       '1v1': 'legal',
        duel: 'legal',
-       brawl: 'not_legal' },
+       oldschool: 'not_legal' },
     games: [ 'mtgo', 'paper' ],
     reserved: false,
     foil: true,
@@ -21659,7 +21431,7 @@ module.exports = [ { object: 'card',
     frame_effect: '',
     full_art: false,
     story_spotlight: false,
-    edhrec_rank: 6178,
+    edhrec_rank: 6148,
     related_uris:
      { gatherer:
         'http://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=456608',
@@ -21684,25 +21456,25 @@ module.exports = [ { object: 'card',
     scryfall_uri:
      'https://scryfall.com/card/uma/11/containment-priest?utm_source=api',
     layout: 'normal',
-    highres_image: false,
+    highres_image: true,
     image_uris:
      { small:
-        'https://img.scryfall.com/cards/small/front/7/b/7bece9c5-1a2f-44e1-b7f4-9498da558bc8.jpg?1542676739',
+        'https://img.scryfall.com/cards/small/front/7/b/7bece9c5-1a2f-44e1-b7f4-9498da558bc8.jpg?1547515401',
        normal:
-        'https://img.scryfall.com/cards/normal/front/7/b/7bece9c5-1a2f-44e1-b7f4-9498da558bc8.jpg?1542676739',
+        'https://img.scryfall.com/cards/normal/front/7/b/7bece9c5-1a2f-44e1-b7f4-9498da558bc8.jpg?1547515401',
        large:
-        'https://img.scryfall.com/cards/large/front/7/b/7bece9c5-1a2f-44e1-b7f4-9498da558bc8.jpg?1542676739',
+        'https://img.scryfall.com/cards/large/front/7/b/7bece9c5-1a2f-44e1-b7f4-9498da558bc8.jpg?1547515401',
        png:
-        'https://img.scryfall.com/cards/png/front/7/b/7bece9c5-1a2f-44e1-b7f4-9498da558bc8.png?1542676739',
+        'https://img.scryfall.com/cards/png/front/7/b/7bece9c5-1a2f-44e1-b7f4-9498da558bc8.png?1547515401',
        art_crop:
-        'https://img.scryfall.com/cards/art_crop/front/7/b/7bece9c5-1a2f-44e1-b7f4-9498da558bc8.jpg?1542676739',
+        'https://img.scryfall.com/cards/art_crop/front/7/b/7bece9c5-1a2f-44e1-b7f4-9498da558bc8.jpg?1547515401',
        border_crop:
-        'https://img.scryfall.com/cards/border_crop/front/7/b/7bece9c5-1a2f-44e1-b7f4-9498da558bc8.jpg?1542676739' },
+        'https://img.scryfall.com/cards/border_crop/front/7/b/7bece9c5-1a2f-44e1-b7f4-9498da558bc8.jpg?1547515401' },
     mana_cost: '{1}{W}',
     cmc: 2,
     type_line: 'Creature — Human Cleric',
     oracle_text:
-     'Flash\nIf a nontoken creature would enter the battlefield and it wasn\'t cast, exile it instead.',
+     "Flash\nIf a nontoken creature would enter the battlefield and it wasn't cast, exile it instead.",
     power: '2',
     toughness: '2',
     colors: [ 'W' ],
@@ -21717,9 +21489,8 @@ module.exports = [ { object: 'card',
        vintage: 'legal',
        penny: 'not_legal',
        commander: 'legal',
-       '1v1': 'legal',
        duel: 'legal',
-       brawl: 'not_legal' },
+       oldschool: 'not_legal' },
     games: [ 'mtgo', 'paper' ],
     reserved: false,
     foil: true,
@@ -21749,7 +21520,7 @@ module.exports = [ { object: 'card',
     frame_effect: '',
     full_art: false,
     story_spotlight: false,
-    edhrec_rank: 2094,
+    edhrec_rank: 2121,
     related_uris:
      { gatherer:
         'http://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=456607',
@@ -21774,20 +21545,20 @@ module.exports = [ { object: 'card',
     scryfall_uri:
      'https://scryfall.com/card/uma/10/angelic-renewal?utm_source=api',
     layout: 'normal',
-    highres_image: false,
+    highres_image: true,
     image_uris:
      { small:
-        'https://img.scryfall.com/cards/small/front/a/0/a03fc1f1-31f6-4e52-87d0-e3d18ea60d3b.jpg?1542804361',
+        'https://img.scryfall.com/cards/small/front/a/0/a03fc1f1-31f6-4e52-87d0-e3d18ea60d3b.jpg?1547515384',
        normal:
-        'https://img.scryfall.com/cards/normal/front/a/0/a03fc1f1-31f6-4e52-87d0-e3d18ea60d3b.jpg?1542804361',
+        'https://img.scryfall.com/cards/normal/front/a/0/a03fc1f1-31f6-4e52-87d0-e3d18ea60d3b.jpg?1547515384',
        large:
-        'https://img.scryfall.com/cards/large/front/a/0/a03fc1f1-31f6-4e52-87d0-e3d18ea60d3b.jpg?1542804361',
+        'https://img.scryfall.com/cards/large/front/a/0/a03fc1f1-31f6-4e52-87d0-e3d18ea60d3b.jpg?1547515384',
        png:
-        'https://img.scryfall.com/cards/png/front/a/0/a03fc1f1-31f6-4e52-87d0-e3d18ea60d3b.png?1542804361',
+        'https://img.scryfall.com/cards/png/front/a/0/a03fc1f1-31f6-4e52-87d0-e3d18ea60d3b.png?1547515384',
        art_crop:
-        'https://img.scryfall.com/cards/art_crop/front/a/0/a03fc1f1-31f6-4e52-87d0-e3d18ea60d3b.jpg?1542804361',
+        'https://img.scryfall.com/cards/art_crop/front/a/0/a03fc1f1-31f6-4e52-87d0-e3d18ea60d3b.jpg?1547515384',
        border_crop:
-        'https://img.scryfall.com/cards/border_crop/front/a/0/a03fc1f1-31f6-4e52-87d0-e3d18ea60d3b.jpg?1542804361' },
+        'https://img.scryfall.com/cards/border_crop/front/a/0/a03fc1f1-31f6-4e52-87d0-e3d18ea60d3b.jpg?1547515384' },
     mana_cost: '{1}{W}',
     cmc: 2,
     type_line: 'Enchantment',
@@ -21803,11 +21574,10 @@ module.exports = [ { object: 'card',
        legacy: 'legal',
        pauper: 'legal',
        vintage: 'legal',
-       penny: 'not_legal',
+       penny: 'legal',
        commander: 'legal',
-       '1v1': 'legal',
        duel: 'legal',
-       brawl: 'not_legal' },
+       oldschool: 'not_legal' },
     games: [ 'mtgo', 'paper' ],
     reserved: false,
     foil: true,
@@ -21838,7 +21608,7 @@ module.exports = [ { object: 'card',
     frame_effect: '',
     full_art: false,
     story_spotlight: false,
-    edhrec_rank: 4412,
+    edhrec_rank: 4461,
     related_uris:
      { gatherer:
         'http://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=456606',
@@ -21855,7 +21625,7 @@ module.exports = [ { object: 'card',
     mtgo_id: 70091,
     mtgo_foil_id: 70092,
     tcgplayer_id: 180839,
-    name: 'Ancestor\'s Chosen',
+    name: "Ancestor's Chosen",
     lang: 'en',
     released_at: '2018-12-07',
     uri:
@@ -21863,25 +21633,25 @@ module.exports = [ { object: 'card',
     scryfall_uri:
      'https://scryfall.com/card/uma/9/ancestors-chosen?utm_source=api',
     layout: 'normal',
-    highres_image: false,
+    highres_image: true,
     image_uris:
      { small:
-        'https://img.scryfall.com/cards/small/front/b/9/b93f39f9-fbdf-4096-9bd7-a7b2481e2dbd.jpg?1542804331',
+        'https://img.scryfall.com/cards/small/front/b/9/b93f39f9-fbdf-4096-9bd7-a7b2481e2dbd.jpg?1547515364',
        normal:
-        'https://img.scryfall.com/cards/normal/front/b/9/b93f39f9-fbdf-4096-9bd7-a7b2481e2dbd.jpg?1542804331',
+        'https://img.scryfall.com/cards/normal/front/b/9/b93f39f9-fbdf-4096-9bd7-a7b2481e2dbd.jpg?1547515364',
        large:
-        'https://img.scryfall.com/cards/large/front/b/9/b93f39f9-fbdf-4096-9bd7-a7b2481e2dbd.jpg?1542804331',
+        'https://img.scryfall.com/cards/large/front/b/9/b93f39f9-fbdf-4096-9bd7-a7b2481e2dbd.jpg?1547515364',
        png:
-        'https://img.scryfall.com/cards/png/front/b/9/b93f39f9-fbdf-4096-9bd7-a7b2481e2dbd.png?1542804331',
+        'https://img.scryfall.com/cards/png/front/b/9/b93f39f9-fbdf-4096-9bd7-a7b2481e2dbd.png?1547515364',
        art_crop:
-        'https://img.scryfall.com/cards/art_crop/front/b/9/b93f39f9-fbdf-4096-9bd7-a7b2481e2dbd.jpg?1542804331',
+        'https://img.scryfall.com/cards/art_crop/front/b/9/b93f39f9-fbdf-4096-9bd7-a7b2481e2dbd.jpg?1547515364',
        border_crop:
-        'https://img.scryfall.com/cards/border_crop/front/b/9/b93f39f9-fbdf-4096-9bd7-a7b2481e2dbd.jpg?1542804331' },
+        'https://img.scryfall.com/cards/border_crop/front/b/9/b93f39f9-fbdf-4096-9bd7-a7b2481e2dbd.jpg?1547515364' },
     mana_cost: '{5}{W}{W}',
     cmc: 7,
     type_line: 'Creature — Human Cleric',
     oracle_text:
-     'First strike (This creature deals combat damage before creatures without first strike.)\nWhen Ancestor\'s Chosen enters the battlefield, you gain 1 life for each card in your graveyard.',
+     "First strike (This creature deals combat damage before creatures without first strike.)\nWhen Ancestor's Chosen enters the battlefield, you gain 1 life for each card in your graveyard.",
     power: '4',
     toughness: '4',
     colors: [ 'W' ],
@@ -21896,9 +21666,8 @@ module.exports = [ { object: 'card',
        vintage: 'legal',
        penny: 'legal',
        commander: 'legal',
-       '1v1': 'legal',
        duel: 'legal',
-       brawl: 'not_legal' },
+       oldschool: 'not_legal' },
     games: [ 'mtgo', 'paper' ],
     reserved: false,
     foil: true,
@@ -21928,7 +21697,7 @@ module.exports = [ { object: 'card',
     frame_effect: '',
     full_art: false,
     story_spotlight: false,
-    edhrec_rank: 13269,
+    edhrec_rank: 13474,
     related_uris:
      { gatherer:
         'http://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=456605',
@@ -21945,7 +21714,7 @@ module.exports = [ { object: 'card',
     mtgo_id: 70089,
     mtgo_foil_id: 70090,
     tcgplayer_id: 180866,
-    name: 'Ulamog\'s Crusher',
+    name: "Ulamog's Crusher",
     lang: 'en',
     released_at: '2018-12-07',
     uri:
@@ -21953,25 +21722,25 @@ module.exports = [ { object: 'card',
     scryfall_uri:
      'https://scryfall.com/card/uma/8/ulamogs-crusher?utm_source=api',
     layout: 'normal',
-    highres_image: false,
+    highres_image: true,
     image_uris:
      { small:
-        'https://img.scryfall.com/cards/small/front/e/d/eda0fd38-38e6-4e9b-9c17-4d855e01b1e1.jpg?1543104397',
+        'https://img.scryfall.com/cards/small/front/e/d/eda0fd38-38e6-4e9b-9c17-4d855e01b1e1.jpg?1547515341',
        normal:
-        'https://img.scryfall.com/cards/normal/front/e/d/eda0fd38-38e6-4e9b-9c17-4d855e01b1e1.jpg?1543104397',
+        'https://img.scryfall.com/cards/normal/front/e/d/eda0fd38-38e6-4e9b-9c17-4d855e01b1e1.jpg?1547515341',
        large:
-        'https://img.scryfall.com/cards/large/front/e/d/eda0fd38-38e6-4e9b-9c17-4d855e01b1e1.jpg?1543104397',
+        'https://img.scryfall.com/cards/large/front/e/d/eda0fd38-38e6-4e9b-9c17-4d855e01b1e1.jpg?1547515341',
        png:
-        'https://img.scryfall.com/cards/png/front/e/d/eda0fd38-38e6-4e9b-9c17-4d855e01b1e1.png?1543104397',
+        'https://img.scryfall.com/cards/png/front/e/d/eda0fd38-38e6-4e9b-9c17-4d855e01b1e1.png?1547515341',
        art_crop:
-        'https://img.scryfall.com/cards/art_crop/front/e/d/eda0fd38-38e6-4e9b-9c17-4d855e01b1e1.jpg?1543104397',
+        'https://img.scryfall.com/cards/art_crop/front/e/d/eda0fd38-38e6-4e9b-9c17-4d855e01b1e1.jpg?1547515341',
        border_crop:
-        'https://img.scryfall.com/cards/border_crop/front/e/d/eda0fd38-38e6-4e9b-9c17-4d855e01b1e1.jpg?1543104397' },
+        'https://img.scryfall.com/cards/border_crop/front/e/d/eda0fd38-38e6-4e9b-9c17-4d855e01b1e1.jpg?1547515341' },
     mana_cost: '{8}',
     cmc: 8,
     type_line: 'Creature — Eldrazi',
     oracle_text:
-     'Annihilator 2 (Whenever this creature attacks, defending player sacrifices two permanents.)\nUlamog\'s Crusher attacks each combat if able.',
+     "Annihilator 2 (Whenever this creature attacks, defending player sacrifices two permanents.)\nUlamog's Crusher attacks each combat if able.",
     power: '8',
     toughness: '8',
     colors: [],
@@ -21984,11 +21753,10 @@ module.exports = [ { object: 'card',
        legacy: 'legal',
        pauper: 'legal',
        vintage: 'legal',
-       penny: 'not_legal',
+       penny: 'legal',
        commander: 'legal',
-       '1v1': 'legal',
        duel: 'legal',
-       brawl: 'not_legal' },
+       oldschool: 'not_legal' },
     games: [ 'mtgo', 'paper' ],
     reserved: false,
     foil: true,
@@ -22011,7 +21779,7 @@ module.exports = [ { object: 'card',
     digital: false,
     rarity: 'common',
     flavor_text:
-     '"Ulamog is dead, and his brood is dying. Some of them just don\'t know it yet."\n—Nirthu, lone missionary',
+     `"Ulamog is dead, and his brood is dying. Some of them just don't know it yet."\n—Nirthu, lone missionary`,
     illustration_id: '1b844aaa-5d38-4aec-9cf0-5ca0c98c3265',
     artist: 'Lucas Graciano',
     border_color: 'black',
@@ -22019,7 +21787,7 @@ module.exports = [ { object: 'card',
     frame_effect: '',
     full_art: false,
     story_spotlight: false,
-    edhrec_rank: 2201,
+    edhrec_rank: 2191,
     related_uris:
      { gatherer:
         'http://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=456604',
@@ -22044,20 +21812,20 @@ module.exports = [ { object: 'card',
     scryfall_uri:
      'https://scryfall.com/card/uma/7/ulamog-the-infinite-gyre?utm_source=api',
     layout: 'normal',
-    highres_image: false,
+    highres_image: true,
     image_uris:
      { small:
-        'https://img.scryfall.com/cards/small/front/f/f/ffe0f77f-5092-4372-83fb-269dfb11f9b5.jpg?1545071802',
+        'https://img.scryfall.com/cards/small/front/f/f/ffe0f77f-5092-4372-83fb-269dfb11f9b5.jpg?1547515324',
        normal:
-        'https://img.scryfall.com/cards/normal/front/f/f/ffe0f77f-5092-4372-83fb-269dfb11f9b5.jpg?1545071802',
+        'https://img.scryfall.com/cards/normal/front/f/f/ffe0f77f-5092-4372-83fb-269dfb11f9b5.jpg?1547515324',
        large:
-        'https://img.scryfall.com/cards/large/front/f/f/ffe0f77f-5092-4372-83fb-269dfb11f9b5.jpg?1545071802',
+        'https://img.scryfall.com/cards/large/front/f/f/ffe0f77f-5092-4372-83fb-269dfb11f9b5.jpg?1547515324',
        png:
-        'https://img.scryfall.com/cards/png/front/f/f/ffe0f77f-5092-4372-83fb-269dfb11f9b5.png?1545071802',
+        'https://img.scryfall.com/cards/png/front/f/f/ffe0f77f-5092-4372-83fb-269dfb11f9b5.png?1547515324',
        art_crop:
-        'https://img.scryfall.com/cards/art_crop/front/f/f/ffe0f77f-5092-4372-83fb-269dfb11f9b5.jpg?1545071802',
+        'https://img.scryfall.com/cards/art_crop/front/f/f/ffe0f77f-5092-4372-83fb-269dfb11f9b5.jpg?1547515324',
        border_crop:
-        'https://img.scryfall.com/cards/border_crop/front/f/f/ffe0f77f-5092-4372-83fb-269dfb11f9b5.jpg?1545071802' },
+        'https://img.scryfall.com/cards/border_crop/front/f/f/ffe0f77f-5092-4372-83fb-269dfb11f9b5.jpg?1547515324' },
     mana_cost: '{11}',
     cmc: 11,
     type_line: 'Legendary Creature — Eldrazi',
@@ -22077,9 +21845,8 @@ module.exports = [ { object: 'card',
        vintage: 'legal',
        penny: 'not_legal',
        commander: 'legal',
-       '1v1': 'legal',
        duel: 'legal',
-       brawl: 'not_legal' },
+       oldschool: 'not_legal' },
     games: [ 'mtgo', 'paper' ],
     reserved: false,
     foil: true,
@@ -22108,7 +21875,7 @@ module.exports = [ { object: 'card',
     frame_effect: '',
     full_art: false,
     story_spotlight: false,
-    edhrec_rank: 1177,
+    edhrec_rank: 1168,
     related_uris:
      { gatherer:
         'http://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=456603',
@@ -22133,20 +21900,20 @@ module.exports = [ { object: 'card',
     scryfall_uri:
      'https://scryfall.com/card/uma/6/kozilek-butcher-of-truth?utm_source=api',
     layout: 'normal',
-    highres_image: false,
+    highres_image: true,
     image_uris:
      { small:
-        'https://img.scryfall.com/cards/small/front/6/d/6d47a1c7-d32b-425a-b15d-24eb35318f6f.jpg?1545069269',
+        'https://img.scryfall.com/cards/small/front/6/d/6d47a1c7-d32b-425a-b15d-24eb35318f6f.jpg?1547515307',
        normal:
-        'https://img.scryfall.com/cards/normal/front/6/d/6d47a1c7-d32b-425a-b15d-24eb35318f6f.jpg?1545069269',
+        'https://img.scryfall.com/cards/normal/front/6/d/6d47a1c7-d32b-425a-b15d-24eb35318f6f.jpg?1547515307',
        large:
-        'https://img.scryfall.com/cards/large/front/6/d/6d47a1c7-d32b-425a-b15d-24eb35318f6f.jpg?1545069269',
+        'https://img.scryfall.com/cards/large/front/6/d/6d47a1c7-d32b-425a-b15d-24eb35318f6f.jpg?1547515307',
        png:
-        'https://img.scryfall.com/cards/png/front/6/d/6d47a1c7-d32b-425a-b15d-24eb35318f6f.png?1545069269',
+        'https://img.scryfall.com/cards/png/front/6/d/6d47a1c7-d32b-425a-b15d-24eb35318f6f.png?1547515307',
        art_crop:
-        'https://img.scryfall.com/cards/art_crop/front/6/d/6d47a1c7-d32b-425a-b15d-24eb35318f6f.jpg?1545069269',
+        'https://img.scryfall.com/cards/art_crop/front/6/d/6d47a1c7-d32b-425a-b15d-24eb35318f6f.jpg?1547515307',
        border_crop:
-        'https://img.scryfall.com/cards/border_crop/front/6/d/6d47a1c7-d32b-425a-b15d-24eb35318f6f.jpg?1545069269' },
+        'https://img.scryfall.com/cards/border_crop/front/6/d/6d47a1c7-d32b-425a-b15d-24eb35318f6f.jpg?1547515307' },
     mana_cost: '{10}',
     cmc: 10,
     type_line: 'Legendary Creature — Eldrazi',
@@ -22166,9 +21933,8 @@ module.exports = [ { object: 'card',
        vintage: 'legal',
        penny: 'not_legal',
        commander: 'legal',
-       '1v1': 'legal',
        duel: 'legal',
-       brawl: 'not_legal' },
+       oldschool: 'not_legal' },
     games: [ 'mtgo', 'paper' ],
     reserved: false,
     foil: true,
@@ -22197,7 +21963,7 @@ module.exports = [ { object: 'card',
     frame_effect: '',
     full_art: false,
     story_spotlight: false,
-    edhrec_rank: 1031,
+    edhrec_rank: 1027,
     related_uris:
      { gatherer:
         'http://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=456602',
@@ -22222,20 +21988,20 @@ module.exports = [ { object: 'card',
     scryfall_uri:
      'https://scryfall.com/card/uma/5/karn-liberated?utm_source=api',
     layout: 'normal',
-    highres_image: false,
+    highres_image: true,
     image_uris:
      { small:
-        'https://img.scryfall.com/cards/small/front/6/9/69714257-2848-48e1-95cf-cdb6595215f0.jpg?1545069073',
+        'https://img.scryfall.com/cards/small/front/6/9/69714257-2848-48e1-95cf-cdb6595215f0.jpg?1547515288',
        normal:
-        'https://img.scryfall.com/cards/normal/front/6/9/69714257-2848-48e1-95cf-cdb6595215f0.jpg?1545069073',
+        'https://img.scryfall.com/cards/normal/front/6/9/69714257-2848-48e1-95cf-cdb6595215f0.jpg?1547515288',
        large:
-        'https://img.scryfall.com/cards/large/front/6/9/69714257-2848-48e1-95cf-cdb6595215f0.jpg?1545069073',
+        'https://img.scryfall.com/cards/large/front/6/9/69714257-2848-48e1-95cf-cdb6595215f0.jpg?1547515288',
        png:
-        'https://img.scryfall.com/cards/png/front/6/9/69714257-2848-48e1-95cf-cdb6595215f0.png?1545069073',
+        'https://img.scryfall.com/cards/png/front/6/9/69714257-2848-48e1-95cf-cdb6595215f0.png?1547515288',
        art_crop:
-        'https://img.scryfall.com/cards/art_crop/front/6/9/69714257-2848-48e1-95cf-cdb6595215f0.jpg?1545069073',
+        'https://img.scryfall.com/cards/art_crop/front/6/9/69714257-2848-48e1-95cf-cdb6595215f0.jpg?1547515288',
        border_crop:
-        'https://img.scryfall.com/cards/border_crop/front/6/9/69714257-2848-48e1-95cf-cdb6595215f0.jpg?1545069073' },
+        'https://img.scryfall.com/cards/border_crop/front/6/9/69714257-2848-48e1-95cf-cdb6595215f0.jpg?1547515288' },
     mana_cost: '{7}',
     cmc: 7,
     type_line: 'Legendary Planeswalker — Karn',
@@ -22254,9 +22020,8 @@ module.exports = [ { object: 'card',
        vintage: 'legal',
        penny: 'not_legal',
        commander: 'legal',
-       '1v1': 'legal',
        duel: 'legal',
-       brawl: 'not_legal' },
+       oldschool: 'not_legal' },
     games: [ 'mtgo', 'paper' ],
     reserved: false,
     foil: true,
@@ -22285,7 +22050,7 @@ module.exports = [ { object: 'card',
     frame_effect: '',
     full_art: false,
     story_spotlight: false,
-    edhrec_rank: 723,
+    edhrec_rank: 733,
     related_uris:
      { gatherer:
         'http://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=456601',
@@ -22309,25 +22074,25 @@ module.exports = [ { object: 'card',
     scryfall_uri:
      'https://scryfall.com/card/uma/4/emrakul-the-aeons-torn?utm_source=api',
     layout: 'normal',
-    highres_image: false,
+    highres_image: true,
     image_uris:
      { small:
-        'https://img.scryfall.com/cards/small/front/0/e/0e0d989d-7186-40dc-bdfe-cfbb77656bc8.jpg?1543104376',
+        'https://img.scryfall.com/cards/small/front/0/e/0e0d989d-7186-40dc-bdfe-cfbb77656bc8.jpg?1547515266',
        normal:
-        'https://img.scryfall.com/cards/normal/front/0/e/0e0d989d-7186-40dc-bdfe-cfbb77656bc8.jpg?1543104376',
+        'https://img.scryfall.com/cards/normal/front/0/e/0e0d989d-7186-40dc-bdfe-cfbb77656bc8.jpg?1547515266',
        large:
-        'https://img.scryfall.com/cards/large/front/0/e/0e0d989d-7186-40dc-bdfe-cfbb77656bc8.jpg?1543104376',
+        'https://img.scryfall.com/cards/large/front/0/e/0e0d989d-7186-40dc-bdfe-cfbb77656bc8.jpg?1547515266',
        png:
-        'https://img.scryfall.com/cards/png/front/0/e/0e0d989d-7186-40dc-bdfe-cfbb77656bc8.png?1543104376',
+        'https://img.scryfall.com/cards/png/front/0/e/0e0d989d-7186-40dc-bdfe-cfbb77656bc8.png?1547515266',
        art_crop:
-        'https://img.scryfall.com/cards/art_crop/front/0/e/0e0d989d-7186-40dc-bdfe-cfbb77656bc8.jpg?1543104376',
+        'https://img.scryfall.com/cards/art_crop/front/0/e/0e0d989d-7186-40dc-bdfe-cfbb77656bc8.jpg?1547515266',
        border_crop:
-        'https://img.scryfall.com/cards/border_crop/front/0/e/0e0d989d-7186-40dc-bdfe-cfbb77656bc8.jpg?1543104376' },
+        'https://img.scryfall.com/cards/border_crop/front/0/e/0e0d989d-7186-40dc-bdfe-cfbb77656bc8.jpg?1547515266' },
     mana_cost: '{15}',
     cmc: 15,
     type_line: 'Legendary Creature — Eldrazi',
     oracle_text:
-     'This spell can\'t be countered.\nWhen you cast this spell, take an extra turn after this one.\nFlying, protection from colored spells, annihilator 6\nWhen Emrakul, the Aeons Torn is put into a graveyard from anywhere, its owner shuffles their graveyard into their library.',
+     "This spell can't be countered.\nWhen you cast this spell, take an extra turn after this one.\nFlying, protection from colored spells, annihilator 6\nWhen Emrakul, the Aeons Torn is put into a graveyard from anywhere, its owner shuffles their graveyard into their library.",
     power: '15',
     toughness: '15',
     colors: [],
@@ -22342,9 +22107,8 @@ module.exports = [ { object: 'card',
        vintage: 'legal',
        penny: 'not_legal',
        commander: 'banned',
-       '1v1': 'banned',
        duel: 'banned',
-       brawl: 'not_legal' },
+       oldschool: 'not_legal' },
     games: [ 'mtgo', 'paper' ],
     reserved: false,
     foil: true,
@@ -22397,20 +22161,20 @@ module.exports = [ { object: 'card',
     scryfall_uri:
      'https://scryfall.com/card/uma/3/eldrazi-conscription?utm_source=api',
     layout: 'normal',
-    highres_image: false,
+    highres_image: true,
     image_uris:
      { small:
-        'https://img.scryfall.com/cards/small/front/c/3/c3909816-5cc2-4712-bc7d-534ae0b9229c.jpg?1543104371',
+        'https://img.scryfall.com/cards/small/front/c/3/c3909816-5cc2-4712-bc7d-534ae0b9229c.jpg?1547515250',
        normal:
-        'https://img.scryfall.com/cards/normal/front/c/3/c3909816-5cc2-4712-bc7d-534ae0b9229c.jpg?1543104371',
+        'https://img.scryfall.com/cards/normal/front/c/3/c3909816-5cc2-4712-bc7d-534ae0b9229c.jpg?1547515250',
        large:
-        'https://img.scryfall.com/cards/large/front/c/3/c3909816-5cc2-4712-bc7d-534ae0b9229c.jpg?1543104371',
+        'https://img.scryfall.com/cards/large/front/c/3/c3909816-5cc2-4712-bc7d-534ae0b9229c.jpg?1547515250',
        png:
-        'https://img.scryfall.com/cards/png/front/c/3/c3909816-5cc2-4712-bc7d-534ae0b9229c.png?1543104371',
+        'https://img.scryfall.com/cards/png/front/c/3/c3909816-5cc2-4712-bc7d-534ae0b9229c.png?1547515250',
        art_crop:
-        'https://img.scryfall.com/cards/art_crop/front/c/3/c3909816-5cc2-4712-bc7d-534ae0b9229c.jpg?1543104371',
+        'https://img.scryfall.com/cards/art_crop/front/c/3/c3909816-5cc2-4712-bc7d-534ae0b9229c.jpg?1547515250',
        border_crop:
-        'https://img.scryfall.com/cards/border_crop/front/c/3/c3909816-5cc2-4712-bc7d-534ae0b9229c.jpg?1543104371' },
+        'https://img.scryfall.com/cards/border_crop/front/c/3/c3909816-5cc2-4712-bc7d-534ae0b9229c.jpg?1547515250' },
     mana_cost: '{8}',
     cmc: 8,
     type_line: 'Tribal Enchantment — Eldrazi Aura',
@@ -22428,9 +22192,8 @@ module.exports = [ { object: 'card',
        vintage: 'legal',
        penny: 'not_legal',
        commander: 'legal',
-       '1v1': 'legal',
        duel: 'legal',
-       brawl: 'not_legal' },
+       oldschool: 'not_legal' },
     games: [ 'mtgo', 'paper' ],
     reserved: false,
     foil: true,
@@ -22461,7 +22224,7 @@ module.exports = [ { object: 'card',
     frame_effect: '',
     full_art: false,
     story_spotlight: false,
-    edhrec_rank: 1338,
+    edhrec_rank: 1324,
     related_uris:
      { gatherer:
         'http://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=456599',
@@ -22486,20 +22249,20 @@ module.exports = [ { object: 'card',
     scryfall_uri:
      'https://scryfall.com/card/uma/2/artisan-of-kozilek?utm_source=api',
     layout: 'normal',
-    highres_image: false,
+    highres_image: true,
     image_uris:
      { small:
-        'https://img.scryfall.com/cards/small/front/0/3/03648eff-8652-4750-a3d2-3338ce9e5a81.jpg?1543104365',
+        'https://img.scryfall.com/cards/small/front/0/3/03648eff-8652-4750-a3d2-3338ce9e5a81.jpg?1547515230',
        normal:
-        'https://img.scryfall.com/cards/normal/front/0/3/03648eff-8652-4750-a3d2-3338ce9e5a81.jpg?1543104365',
+        'https://img.scryfall.com/cards/normal/front/0/3/03648eff-8652-4750-a3d2-3338ce9e5a81.jpg?1547515230',
        large:
-        'https://img.scryfall.com/cards/large/front/0/3/03648eff-8652-4750-a3d2-3338ce9e5a81.jpg?1543104365',
+        'https://img.scryfall.com/cards/large/front/0/3/03648eff-8652-4750-a3d2-3338ce9e5a81.jpg?1547515230',
        png:
-        'https://img.scryfall.com/cards/png/front/0/3/03648eff-8652-4750-a3d2-3338ce9e5a81.png?1543104365',
+        'https://img.scryfall.com/cards/png/front/0/3/03648eff-8652-4750-a3d2-3338ce9e5a81.png?1547515230',
        art_crop:
-        'https://img.scryfall.com/cards/art_crop/front/0/3/03648eff-8652-4750-a3d2-3338ce9e5a81.jpg?1543104365',
+        'https://img.scryfall.com/cards/art_crop/front/0/3/03648eff-8652-4750-a3d2-3338ce9e5a81.jpg?1547515230',
        border_crop:
-        'https://img.scryfall.com/cards/border_crop/front/0/3/03648eff-8652-4750-a3d2-3338ce9e5a81.jpg?1543104365' },
+        'https://img.scryfall.com/cards/border_crop/front/0/3/03648eff-8652-4750-a3d2-3338ce9e5a81.jpg?1547515230' },
     mana_cost: '{9}',
     cmc: 9,
     type_line: 'Creature — Eldrazi',
@@ -22517,11 +22280,10 @@ module.exports = [ { object: 'card',
        legacy: 'legal',
        pauper: 'not_legal',
        vintage: 'legal',
-       penny: 'not_legal',
+       penny: 'legal',
        commander: 'legal',
-       '1v1': 'legal',
        duel: 'legal',
-       brawl: 'not_legal' },
+       oldschool: 'not_legal' },
     games: [ 'mtgo', 'paper' ],
     reserved: false,
     foil: true,
@@ -22550,7 +22312,7 @@ module.exports = [ { object: 'card',
     frame_effect: '',
     full_art: false,
     story_spotlight: false,
-    edhrec_rank: 483,
+    edhrec_rank: 474,
     related_uris:
      { gatherer:
         'http://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=456598',
@@ -22574,20 +22336,20 @@ module.exports = [ { object: 'card',
      'https://api.scryfall.com/cards/8cf632ef-70e3-46f2-af21-14ea7ef30237',
     scryfall_uri: 'https://scryfall.com/card/uma/1/all-is-dust?utm_source=api',
     layout: 'normal',
-    highres_image: false,
+    highres_image: true,
     image_uris:
      { small:
-        'https://img.scryfall.com/cards/small/front/8/c/8cf632ef-70e3-46f2-af21-14ea7ef30237.jpg?1543104332',
+        'https://img.scryfall.com/cards/small/front/8/c/8cf632ef-70e3-46f2-af21-14ea7ef30237.jpg?1547515198',
        normal:
-        'https://img.scryfall.com/cards/normal/front/8/c/8cf632ef-70e3-46f2-af21-14ea7ef30237.jpg?1543104332',
+        'https://img.scryfall.com/cards/normal/front/8/c/8cf632ef-70e3-46f2-af21-14ea7ef30237.jpg?1547515198',
        large:
-        'https://img.scryfall.com/cards/large/front/8/c/8cf632ef-70e3-46f2-af21-14ea7ef30237.jpg?1543104332',
+        'https://img.scryfall.com/cards/large/front/8/c/8cf632ef-70e3-46f2-af21-14ea7ef30237.jpg?1547515198',
        png:
-        'https://img.scryfall.com/cards/png/front/8/c/8cf632ef-70e3-46f2-af21-14ea7ef30237.png?1543104332',
+        'https://img.scryfall.com/cards/png/front/8/c/8cf632ef-70e3-46f2-af21-14ea7ef30237.png?1547515198',
        art_crop:
-        'https://img.scryfall.com/cards/art_crop/front/8/c/8cf632ef-70e3-46f2-af21-14ea7ef30237.jpg?1543104332',
+        'https://img.scryfall.com/cards/art_crop/front/8/c/8cf632ef-70e3-46f2-af21-14ea7ef30237.jpg?1547515198',
        border_crop:
-        'https://img.scryfall.com/cards/border_crop/front/8/c/8cf632ef-70e3-46f2-af21-14ea7ef30237.jpg?1543104332' },
+        'https://img.scryfall.com/cards/border_crop/front/8/c/8cf632ef-70e3-46f2-af21-14ea7ef30237.jpg?1547515198' },
     mana_cost: '{7}',
     cmc: 7,
     type_line: 'Tribal Sorcery — Eldrazi',
@@ -22605,9 +22367,8 @@ module.exports = [ { object: 'card',
        vintage: 'legal',
        penny: 'not_legal',
        commander: 'legal',
-       '1v1': 'legal',
        duel: 'legal',
-       brawl: 'not_legal' },
+       oldschool: 'not_legal' },
     games: [ 'mtgo', 'paper' ],
     reserved: false,
     foil: true,
@@ -22630,7 +22391,7 @@ module.exports = [ { object: 'card',
     digital: false,
     rarity: 'rare',
     flavor_text:
-     '"The emergence of the Eldrazi isn\'t necessarily a bad thing, as long as you\'ve already lived a fulfilling and complete life without regrets."\n—Javad Nasrin, Ondu relic hunter',
+     `"The emergence of the Eldrazi isn't necessarily a bad thing, as long as you've already lived a fulfilling and complete life without regrets."\n—Javad Nasrin, Ondu relic hunter`,
     illustration_id: 'eb002acc-80bb-4a3c-bff1-854254aac9c1',
     artist: 'Jason Felix',
     border_color: 'black',

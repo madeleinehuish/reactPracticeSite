@@ -12,17 +12,17 @@ module.exports = [ { object: 'card',
     highres_image: true,
     image_uris:
      { small:
-        'https://img.scryfall.com/cards/small/en/plny/1.jpg?1519987405',
+        'https://img.scryfall.com/cards/small/en/plny/1.jpg?1548989500',
        normal:
-        'https://img.scryfall.com/cards/normal/en/plny/1.jpg?1519987405',
+        'https://img.scryfall.com/cards/normal/en/plny/1.jpg?1548989500',
        large:
-        'https://img.scryfall.com/cards/large/en/plny/1.jpg?1519987405',
+        'https://img.scryfall.com/cards/large/en/plny/1.jpg?1548989500',
        png:
-        'https://img.scryfall.com/cards/png/en/plny/1.png?1519987405',
+        'https://img.scryfall.com/cards/png/en/plny/1.png?1548989500',
        art_crop:
-        'https://img.scryfall.com/cards/art_crop/en/plny/1.jpg?1519987405',
+        'https://img.scryfall.com/cards/art_crop/en/plny/1.jpg?1548989500',
        border_crop:
-        'https://img.scryfall.com/cards/border_crop/en/plny/1.jpg?1519987405' },
+        'https://img.scryfall.com/cards/border_crop/en/plny/1.jpg?1548989500' },
     mana_cost: '',
     cmc: 0,
     type_line: 'Token Artifact — Treasure',
@@ -39,9 +39,8 @@ module.exports = [ { object: 'card',
        vintage: 'not_legal',
        penny: 'not_legal',
        commander: 'not_legal',
-       '1v1': 'not_legal',
        duel: 'not_legal',
-       brawl: 'not_legal' },
+       oldschool: 'not_legal' },
     games: [ 'paper' ],
     reserved: false,
     foil: true,

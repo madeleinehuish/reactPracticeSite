@@ -1,3 +1,4 @@
+// import React, { useEffect } from 'react';
 import React from 'react';
 import { BrowserRouter, Route } from 'react-router-dom';
 
@@ -11,7 +12,11 @@ import Trucks from './Trucks/Trucks';
 import Magic from './Magic/Magic'
 import styles from './App.css';
 
-export default (props) => {
+const App = (props) => {
+	// useEffect(() => {
+	// 	document.title = 'Magic :)';
+	// })
+
 	return (
 		<BrowserRouter>
 			<div className={styles.app}>
@@ -29,3 +34,5 @@ export default (props) => {
 		</BrowserRouter>
 	)
 }
+
+export default App;
