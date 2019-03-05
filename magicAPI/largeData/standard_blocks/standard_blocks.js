@@ -1,4 +1,4 @@
-export default [
+module.exports = [
 	{ name: 'Jan 95 to Apr 95', sets: [ 'Revised', 'The_Dark', 'Fallen_Empires']},
 	{ name: 'Apr 95 to Jun 95', sets: [ 'Fourth_Edition', 'The_Dark', 'Fallen_Empires']},
 	{ name: 'Jun 95 to Jul 95', sets: [ 'Fourth_Edition', 'Fallen_Empires', 'Ice_Age']},

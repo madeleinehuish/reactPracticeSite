@@ -6,6 +6,7 @@ import {
 	DECK_ADD_TO_DECK,
 	GET_DECKS_FROM_DB,
 	FETCH_CARDS,
+	FETCH_BLOCKS,
 	UPDATE_CARDS,
 	CHANGE_CURRENT_CARD,
 	SET_COLUMN_TWO,
@@ -151,6 +152,7 @@ const filterSpecial = (elem, filter) => {
 	}
 	return false;
 }
+
 
 
 export const getcards = (base, filters, cb) => async dispatch => {
@@ -415,6 +417,30 @@ export const saveDeckToDB = (data) => async dispatch => {
 
 		console.log('response: ', response);
 
+	} catch (error) {
+		console.log('axios error: ', error);
+	}
+}
+
+export const getBlock = (filter, cb) => async dispatch => {
+	// //development
+	const url = 'http://localhost:3090/filterbyblock';
+
+	// //production
+	// const url = 'https://radiant-stream-78248.herokuapp.com/filterbyblock';
+
+	const query = `?name=${filter.name}`;
+
+	try {
+		const response = await axios.get(url + query);
+
+		console.log('response from get blocks: ', response);
+
+		dispatch({
+			type: FETCH_BLOCKS,
+			name: filter.name,
+			payload: response.data
+		})
 	} catch (error) {
 		console.log('axios error: ', error);
 	}

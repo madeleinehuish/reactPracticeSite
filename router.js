@@ -15,6 +15,7 @@ module.exports = function(app) {
 	//magic cards
 	app.get('/cards', magicAPI.filterCards);
 	app.get('/allcards', magicAPI.filterCardsAll);
+	app.get('/filterbyblock', magicAPI.filterCardsByBlock);
 
 	//magic decks
 	app.post('/decks', magicDecks.saveDeckToDB);

@@ -4,6 +4,7 @@ import auth from './auth';
 import cards from './cards';
 import columnTwo from './columnTwo';
 import currentCard from './currentCard';
+import currentBlock from './currentBlock';
 import cardFilters from './cardFilters';
 import currentDeck from './currentDeck';
 import decks from './decks';
@@ -14,6 +15,7 @@ export default combineReducers({
 	auth,
 	cards,
 	decks,
+	currentBlock,
 	currentCard,
 	cardFilters,
 	columnTwo,
