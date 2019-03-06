@@ -4,7 +4,7 @@ const blocksAll = require('./largeData/standard_blocks/standard_blocks.js');
 const filterSets = (filter) => {
 	let dataSet = dataFull.filter(elem => {
 		if(filter==='All') return true;
-		if(elem.set===filter) return true;
+		if(elem.set_name===filter || elem.set===filter) return true;
 		return false
 	})
 	return dataSet;
@@ -59,13 +59,16 @@ const applyFiltersAll = (filters) => {
 const applyFiltersByBlock = (name) => {
 	let block = blocksAll.filter(elem => {
 		return(elem.name===name);
-	})
-	console.log('block: ', block);
-	let sets = block.sets;
+	});
+	console.log('block.sets: ', block[0].sets);
+	let sets = block[0].sets;
 	let filtered = dataFull.filter(elem => {
-		if(sets.includes(elem.set)) return true;
-		return false
+		// console.log('elem.set: ', elem.set_name);
+		// return (sets.includes(elem.set));
+		return sets.indexOf(elem.set_name) !== -1;
+		// return false
 	})
+	console.log('filtered: ', filtered);
 	return filtered
 }
 
@@ -92,11 +95,12 @@ exports.filterCardsAll = function(req, res, next) {
 	res.send(returnData);
 }
 
-exports.filterCardsByBlock = function(req, res, next) {
+exports.filterCardsByBlock = async function(req, res, next) {
 	console.log('Req.query for filterCardsByBlock: ', req.query); //should recieve an object with keys name(string) and sets(array)
 
 
-	let filtered = applyFiltersByBlock(req.query.name);
-
-	res.send(filtered);
+	// let filtered = await applyFiltersByBlock(req.query.name);
+	//
+	// res.send(filtered);
+	res.send(await applyFiltersByBlock(req.query.name))
 }

@@ -1,4 +1,5 @@
 import axios from 'axios';
+import standardBlocks from '../data/standard_blocks/standard_blocks.js';
 // import DATA from '../data/combinedData'; //standard
 // import DATA from '../data/combinedDataTest' //mirrodin test run
 
@@ -6,7 +7,7 @@ import {
 	DECK_ADD_TO_DECK,
 	GET_DECKS_FROM_DB,
 	FETCH_CARDS,
-	FETCH_BLOCKS,
+	UPDATE_BLOCK,
 	UPDATE_CARDS,
 	CHANGE_CURRENT_CARD,
 	SET_COLUMN_TWO,
@@ -355,6 +356,15 @@ export const storeCreature = (creature, cb) => async dispatch => {
 	cb();
 }
 
+export const resetBlock = (block, cb) => async dispatch => {
+	dispatch({
+		type: UPDATE_BLOCK,
+		name: block.name,
+		payload: block.sets
+	})
+	cb();
+}
+
 export const storeKeyword = (keyword, cb) => async dispatch => {
 
 	dispatch({
@@ -422,14 +432,18 @@ export const saveDeckToDB = (data) => async dispatch => {
 	}
 }
 
-export const getBlock = (filter, cb) => async dispatch => {
+export const updateBlock = (name, cb) => async dispatch => {
 	// //development
 	const url = 'http://localhost:3090/filterbyblock';
 
 	// //production
 	// const url = 'https://radiant-stream-78248.herokuapp.com/filterbyblock';
 
-	const query = `?name=${filter.name}`;
+	const sets = standardBlocks.filter(elem => { //this is unstable
+		return elem.name===name
+	})[0].sets;
+	console.log('inside of actions.updateBlock: sets: ', sets);
+	const query = `?name=${name}`;
 
 	try {
 		const response = await axios.get(url + query);
@@ -437,10 +451,17 @@ export const getBlock = (filter, cb) => async dispatch => {
 		console.log('response from get blocks: ', response);
 
 		dispatch({
-			type: FETCH_BLOCKS,
-			name: filter.name,
+			type: UPDATE_BLOCK,
+			name: name,
+			payload: sets
+		})
+
+		dispatch({
+			type: FETCH_CARDS,
 			payload: response.data
 		})
+
+		cb();
 	} catch (error) {
 		console.log('axios error: ', error);
 	}

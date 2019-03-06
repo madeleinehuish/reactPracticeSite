@@ -29,10 +29,14 @@ export default {
 		name: 'Unnamed Deck',
 		currentDeck: []
 	},
+	currentStandard: {
+		name: 'Jan 19 to Apr 19',
+		sets: [ 'Ixalan', 'Rivals_of_Ixalan', 'Dominaria', 'Core_Set_2019', 'Guilds_of_Ravnica', 'Ravnica_Allegiance']
+	},
 	currentBlock: {
 		name: 'Jan 19 to Apr 19',
 		sets: [ 'Ixalan', 'Rivals_of_Ixalan', 'Dominaria', 'Core_Set_2019', 'Guilds_of_Ravnica', 'Ravnica_Allegiance']
-	}
+	},
 	decks: [],
 	cardFilters: {
 		filterText: '',

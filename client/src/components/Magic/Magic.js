@@ -15,6 +15,7 @@ import Keywords from './Filters/Keywords';
 import Rarity from './Filters/Rarity';
 // import Sets from './Filters/Sets';
 import SetsStandard from './Filters/SetsStandard';
+import StandardBlocks from './Filters/Blocks';
 import SetsAll from './Filters/SetsAll';
 
 import Special from './Filters/Special';
@@ -28,6 +29,7 @@ class Magic extends Component {
 	constructor(props) {
 		super(props);
 		//filter refs
+		this.standardBlocks = React.createRef();
 		this.selectBox = React.createRef();
 		this.inputBox = React.createRef();
 		this.colorBox = React.createRef();
@@ -189,6 +191,24 @@ class Magic extends Component {
 		this.props.changeCurrentCard(card);
 	}
 
+	handleNewBlock = (event) => {
+		const cb = () => {
+			console.log('inside of CB');
+			console.log('event.target: ', event.target);
+			console.log('inside handleNewBlock: event, filter: ', event);
+			this.forceUpdate(()=>{
+				// console.log('TEST CALL FINISHED');
+				// console.log('AFTER TEST CALL PROPS: ', this.props);
+				// this.updateCards();
+				this.props.changeCurrentCard(this.props.cards[0]);
+			});
+		};
+		console.log('inside handleNewBlock: ', event);
+		// console.log('event.target.val: ', event.target.val)
+		console.log('event.target.value: ', event.target.value);
+		this.props.updateBlock(event.target.value, cb)
+	}
+
 	reset = () => {
 
 		const cb = () => {
@@ -200,6 +220,7 @@ class Magic extends Component {
 
 		// reset form elements
 		this.inputBox.current.value = '';
+		this.standardBlocks.current.value = 'Jan 19 to Apr 19';
 		this.selectBox.current.value = 'All';
 		this.colorBox.current.value = 'All';
 		this.rarityBox.current.value = 'All';
@@ -218,6 +239,7 @@ class Magic extends Component {
 		this.props.storeSet('All', cb);
 		this.props.storeKeyword('keywords (all)', cb);
 		this.props.storeSpecial('All Special', cb);
+		this.props.updateBlock(this.props.currentStandard, cb);
 	}
 
 	//this is for testing calls to the backend to load cards from there. ultimately going to move to this
@@ -279,7 +301,7 @@ class Magic extends Component {
 				<div className={styles.magicPageContainer}>
 					<header className={styles.control_bar}>
 						{/* this next line is here to save space when creature drop down comes up */}
-						{this.props.filterType!=='Creature' ? <div className={styles.title}>Filters</div> : null }
+						{/* {this.props.filterType!=='Creature' ? <div className={styles.title}>Filters</div> : null } */}
 
 						<div className={styles.filters}>
 							<button id="magicButton" className={styles.button} onClick={()=>this.reset()}>Reset</button>
@@ -302,14 +324,23 @@ class Magic extends Component {
 							<Rarity handleFilter={this.handleFilter} ref={this.rarityBox} />
 						</div>
 						<div className={styles.filters}>
-							<SetsAll handleFilter={this.handleFilter} ref={this.setBox} />
+							<StandardBlocks handleNewBlock={this.handleNewBlock}  handleNewBlock={this.handleNewBlock} currentBlock={this.props.currentBlock} ref={this.standardBlocks}/>
 						</div>
+
 						<div className={styles.filters}>
-							{
+							{/* {
 								this.props.filterSet==='All' ?
 									<SetsStandard handleFilter={this.handleFilter} ref={this.standardSetBox} /> :
 									null
+							} */}
+							{
+								this.props.filterSet==='All' ?
+									<SetsStandard handleFilter={this.handleFilter} currentBlock={this.props.currentBlock} ref={this.standardSetBox} /> :
+									null
 							}
+						</div>
+						<div className={styles.filters}>
+							<SetsAll handleFilter={this.handleFilter} ref={this.setBox} />
 						</div>
 						<div className={styles.filters}>
 							<Keywords handleFilter={this.handleFilter} ref={this.keywordBox}/>
@@ -356,13 +387,15 @@ class Magic extends Component {
 }
 
 function mapStateToProps(state) {
-	// console.log('state in magic: ', state);
+	console.log('state in magic: ', state);
 	// console.log('state.cards.cards: ', state.cards.cards);
 	return {
 		base: state.cards.base,
 		cards: state.cards.cards,
 		standard: state.cards.standard,
 		columnTwo: state.columnTwo.columnTwo,
+		currentBlock: state.currentBlock, //double check
+		currentStandard: state.currentStandard,
 		currentCard: state.currentCard.currentCard,
 		currentDeckName: state.currentDeck.name,
 		decks: state.decks.decks,
