@@ -156,7 +156,7 @@ const filterSpecial = (elem, filter) => {
 
 
 
-export const getcards = (base, filters, cb) => async dispatch => {
+export const getcards = (base, filters, resetTrue, cb) => async dispatch => {
 
 	const data = base; //first decide how big of dataset you want to use. 'All will default to full set'
 
@@ -180,10 +180,17 @@ export const getcards = (base, filters, cb) => async dispatch => {
 		imageUrl: "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=366433&type=card"
 	};
 
-	dispatch({
-		type: UPDATE_CARDS,
-		payload: filtered
-	})
+	if(resetTrue) {
+		dispatch({
+			type: FETCH_CARDS,
+			payload: filtered
+		})
+	} else {
+		dispatch({
+			type: UPDATE_CARDS,
+			payload: filtered
+		})
+	}
 
 	cb();
 }

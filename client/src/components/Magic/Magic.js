@@ -157,7 +157,9 @@ class Magic extends Component {
 				}
 
 				if(filters.set==='All') {
-					this.reset();
+					this.updateCards(true); //full reset
+				} else if(filters.set==='currentBlock'){
+					this.updateCards(false); //partial reset
 				} else {
 					this.props.getCardsFromDatabase(filters, cb);
 				}
@@ -209,18 +211,25 @@ class Magic extends Component {
 		this.props.updateBlock(event.target.value, cb)
 	}
 
-	reset = () => {
+	reset = (fullReset) => {
 
 		const cb = () => {
-			this.forceUpdate(()=>{
-				this.setState({ columnTwo: false });
-				this.updateCards(true);
-			});
+			if(fullReset) {
+				this.forceUpdate(()=>{
+					this.setState({ columnTwo: false });
+					this.updateCards(true);
+				});
+			} else {
+				this.forceUpdate(()=>{
+					this.setState({ columnTwo: false });
+					this.updateCards(false);
+				});
+			}
+
 		};
 
 		// reset form elements
 		this.inputBox.current.value = '';
-		this.standardBlocks.current.value = 'Jan 19 to Apr 19';
 		this.selectBox.current.value = 'All';
 		this.colorBox.current.value = 'All';
 		this.rarityBox.current.value = 'All';
@@ -228,7 +237,9 @@ class Magic extends Component {
 		this.standardSetBox.current.value = 'All';
 		this.keywordBox.current.value = 'keywords (all)';
 		this.specialBox.current.value = 'All Special';
-
+		if(fullReset) {
+			this.standardBlocks.current.value = 'Jan 19 to Apr 19';
+		}
 
 		// send in default values to state
 		this.props.storeFilterText('', cb);
@@ -239,32 +250,17 @@ class Magic extends Component {
 		this.props.storeSet('All', cb);
 		this.props.storeKeyword('keywords (all)', cb);
 		this.props.storeSpecial('All Special', cb);
-		this.props.updateBlock(this.props.currentStandard, cb);
+
+		if(fullReset) {
+			this.props.resetBlock(this.props.currentStandard, cb); //standard in present time
+		} else {
+			this.props.resetBlock(this.props.currentBlock, cb); //standard block as filtered
+		}
+
+		// this.props.updateBlock(this.props.currentStandard.name, cb);
 	}
 
-	//this is for testing calls to the backend to load cards from there. ultimately going to move to this
-	// test = (config) => {
-	// 	const cb = () => {
-	// 		this.forceUpdate(()=>{
-	// 			this.updateCards();
-	// 			console.log('TEST CALL FINISHED');
-	// 			console.log('AFTER TEST CALL PROPS: ', this.props);
-	// 		});
-	// 	};
-	//
-	// 	let filters = {
-	// 		// set: config.set,
-	// 		type: 'All',
-	// 		colors: 'All',
-	// 		rarity: 'All'
-	// 		// type: this.props.filterType,
-	// 		// colors: this.props.filterColor,
-	// 		// rarity: this.props.filterRarity
-	// 	}
-	//
-	// 	// DON'T REMOVE!
-	// 	this.props.getAllCardsFromDatabase(filters, cb)
-	// }
+
 
 	updateCards = (reset) => {
 		const cb = () => {
@@ -285,9 +281,9 @@ class Magic extends Component {
 		}
 
 		if(!reset) {
-			this.props.getcards(this.props.base, filters, cb);
+			this.props.getcards(this.props.base, filters, false, cb);
 		} else {
-			this.props.getcards(this.props.standard, filters, cb);
+			this.props.getcards(this.props.standard, filters, true, cb);
 		}
 
 	}
@@ -304,7 +300,7 @@ class Magic extends Component {
 						{/* {this.props.filterType!=='Creature' ? <div className={styles.title}>Filters</div> : null } */}
 
 						<div className={styles.filters}>
-							<button id="magicButton" className={styles.button} onClick={()=>this.reset()}>Reset</button>
+							<button id="magicButton" className={styles.button} onClick={()=>this.reset(true)}>Reset</button>
 						</div>
 						{/* dont get rid of the following!!!! */}
 						{/* <div className={styles.filters}>
@@ -416,3 +412,28 @@ function mapStateToProps(state) {
 }
 
 export default connect(mapStateToProps, actions)(Magic);
+
+
+//this is for testing calls to the backend to load cards from there. ultimately going to move to this
+// test = (config) => {
+// 	const cb = () => {
+// 		this.forceUpdate(()=>{
+// 			this.updateCards();
+// 			console.log('TEST CALL FINISHED');
+// 			console.log('AFTER TEST CALL PROPS: ', this.props);
+// 		});
+// 	};
+//
+// 	let filters = {
+// 		// set: config.set,
+// 		type: 'All',
+// 		colors: 'All',
+// 		rarity: 'All'
+// 		// type: this.props.filterType,
+// 		// colors: this.props.filterColor,
+// 		// rarity: this.props.filterRarity
+// 	}
+//
+// 	// DON'T REMOVE!
+// 	this.props.getAllCardsFromDatabase(filters, cb)
+// }

@@ -6,6 +6,7 @@ import columnTwo from './columnTwo';
 import currentCard from './currentCard';
 import currentBlock from './currentBlock';
 import cardFilters from './cardFilters';
+import currentStandard from './currentStandard';
 import currentDeck from './currentDeck';
 import decks from './decks';
 import trucks from './trucks';
@@ -20,6 +21,7 @@ export default combineReducers({
 	cardFilters,
 	columnTwo,
 	currentDeck,
+	currentStandard,
 	trucks,
 	form: formReducer,
 	testCards
