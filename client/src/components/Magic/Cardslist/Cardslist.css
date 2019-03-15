@@ -74,6 +74,7 @@
 .addToDeck {
 	margin-top: 20px;
 	margin-left: 35px;
+	z-index:2;
 }
 
 .currentCardInfo{

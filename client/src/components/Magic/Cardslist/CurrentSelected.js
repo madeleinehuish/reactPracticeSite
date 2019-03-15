@@ -34,7 +34,6 @@ const CurrentSelected = (props) => {
 			<div className={styles.setSelected}>set: {setName}</div>
 			<div className={styles.setSelected}>date: {date}</div>
 			<div className={styles.addToDeck}>
-
 				<button className={styles.button} onClick={() => props.deckModify(card, 'add')}>add to deck     >>></button>
 			</div>
 		</div>
