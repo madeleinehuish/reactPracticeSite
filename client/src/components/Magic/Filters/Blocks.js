@@ -6,7 +6,7 @@ const standardBlocks = React.forwardRef((props, ref) => {
 	let list = allBlocks.map(elem => {
 		// console.log('inside of standardBlocks: name: ', elem.name, ' sets: ', elem.sets);
 
-		return <option value={elem.name} val="test" key={elem.name} onClick={(event)=>this.props.handleNewBlock(event)}>{elem.name}</option>
+		return <option value={elem.name} val="test" key={elem.name} onClick={(event)=>props.handleNewBlock(event)}>{elem.name}</option>
 	})
 
 	return (

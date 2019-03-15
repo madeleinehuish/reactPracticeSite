@@ -56,19 +56,26 @@ const applyFiltersAll = (filters) => {
 
 }
 
-const applyFiltersByBlock = (name) => {
+const applyFiltersByBlock = async (name) => {
 	let block = blocksAll.filter(elem => {
 		return(elem.name===name);
 	});
-	console.log('block.sets: ', block[0].sets);
+
+	// console.log('block.sets: ', block[0].sets);
 	let sets = block[0].sets;
-	let filtered = dataFull.filter(elem => {
+	let trimmed = sets.map(elem => {
+		return elem.split('_').join(' ');
+	})
+	// console.log('trimmed sets: ', trimmed)
+	let filtered = await dataFull.filter(elem => {
 		// console.log('elem.set: ', elem.set_name);
+		// console.log('elem.name: ', elem.name);
+		// if(sets.indexOf(elem.set_name)=== -1) console.log('found: ', elem.set_name);
 		// return (sets.includes(elem.set));
-		return sets.indexOf(elem.set_name) !== -1;
+		return trimmed.indexOf(elem.set_name) !== -1;
 		// return false
 	})
-	console.log('filtered: ', filtered);
+	// console.log('filtered: ', await filtered);
 	return filtered
 }
 

@@ -12,6 +12,7 @@ class CurrentImage extends Component {
 	}
 
 	render() {
+		// if(!this.props.currentCard) return <div>no current card</div>
 		if(this.props.currentCard.imageUrl) {
 			return <img src={ this.props.currentCard ? this.props.currentCard.imageUrl : null } className={styles.cardImage} alt="magic card" height="320px" />
 		}

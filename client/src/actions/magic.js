@@ -449,8 +449,9 @@ export const updateBlock = (name, cb) => async dispatch => {
 	const sets = standardBlocks.filter(elem => { //this is unstable
 		return elem.name===name
 	})[0].sets;
-	console.log('inside of actions.updateBlock: sets: ', sets);
+	console.log('inside of actions.updateBlock: name: ', name, ' sets: ', sets);
 	const query = `?name=${name}`;
+	console.log('inside of actions.updateBlock: query: ', query);
 
 	try {
 		const response = await axios.get(url + query);
