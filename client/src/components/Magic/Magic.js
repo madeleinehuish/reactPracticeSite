@@ -24,6 +24,33 @@ import Types from './Filters/Types'
 import styles from './Magic.css';
 
 
+//TODO pass down redux action to SearchForm to call the API
+class SearchForm extends Component {
+	state = {
+		searchTerm: ''
+	}
+
+	handleSearch = (event) => {
+		this.setState({
+			searchTerm: event.target.value
+		});
+	}
+
+	render() {
+		return (
+			<form>
+				<div className={styles.filters}>
+					<input className={styles.input} placeholder="   ...search for card" onChange={this.handleSearch} value={this.state.searchTerm}/>
+				</div>
+				<div className={styles.filters}>
+					<button id="searchButton" className={styles.button} onSubmit={this.submitSearch}>Search</button>
+				</div>
+			</form>
+		)
+	}
+}
+
+
 class Magic extends Component {
 
 	constructor(props) {
@@ -38,6 +65,10 @@ class Magic extends Component {
 		this.keywordBox = React.createRef();
 		this.specialBox = React.createRef();
 		this.standardSetBox = React.createRef();
+
+		this.state = {
+			searchTerm: ''
+		}
 
 		//deckbuilding refs
 		this.selectDeck = React.createRef();
@@ -293,7 +324,7 @@ class Magic extends Component {
 		if (this.props.authenticated) {
 		return (
 			<div>
-				<br />
+				<div className={styles.break}/>
 				<div className={styles.magicPageContainer}>
 					<header className={styles.control_bar}>
 						{/* this next line is here to save space when creature drop down comes up */}
@@ -344,6 +375,9 @@ class Magic extends Component {
 						<div className={styles.filters}>
 							<Special handleFilter={this.handleFilter} ref={this.specialBox}/>
 						</div>
+					</header>
+					<header className={styles.control_bar}>
+						<SearchForm />
 					</header>
 
 					<div className={styles.magicOuterContainer}>

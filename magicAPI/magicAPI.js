@@ -1,6 +1,19 @@
 const dataFull = require('./largeData/combinedData.js');
 const blocksAll = require('./largeData/standard_blocks/standard_blocks.js');
 
+const filterSingleCard = (filterValue) => {
+
+		// console.log('CARDS in INPUT: ', cards);
+
+		// if(!cards) return;
+
+		let filtered = dataFull.filter(card => {
+			 return card.name.substr(0,filterValue.length).toUpperCase() === filterValue.toUpperCase();
+		 })
+
+		 return filtered || null;
+}
+
 const filterSets = (filter) => {
 	let dataSet = dataFull.filter(elem => {
 		if(filter==='All') return true;
@@ -85,6 +98,12 @@ exports.filterCards = function(req, res, next) {
 	let returnData = applyFilters(req.query);
 
 	res.send(returnData);
+}
+
+exports.filterCardSingle = async function(req, res, next) {
+	let filtered = await filterSingleCard(req.query.name);
+
+	res.send(filtered);
 }
 
 exports.filterCardsAll = function(req, res, next) {
