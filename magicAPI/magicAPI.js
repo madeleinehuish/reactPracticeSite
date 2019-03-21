@@ -9,7 +9,9 @@ const filterSingleCard = (filterValue) => {
 
 		let filtered = dataFull.filter(card => {
 			 return card.name.substr(0,filterValue.length).toUpperCase() === filterValue.toUpperCase();
-		 })
+		 }).sort((a, b) => {
+        return (a.name < b.name) ? -1 : (a.name > b.name) ? 1 : 0
+      })
 
 		 return filtered || null;
 }

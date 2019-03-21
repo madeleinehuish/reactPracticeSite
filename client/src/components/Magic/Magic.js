@@ -24,7 +24,7 @@ import Types from './Filters/Types'
 import styles from './Magic.css';
 
 
-//TODO pass down redux action to SearchForm to call the API
+//TODO move SearchForm to another file
 class SearchForm extends Component {
 	state = {
 		searchTerm: ''
@@ -38,12 +38,12 @@ class SearchForm extends Component {
 
 	render() {
 		return (
-			<form>
+			<form onSubmit={(event) => this.props.getSingleTerm(event, this.state.searchTerm || 'no term')}>
 				<div className={styles.filters}>
-					<input className={styles.input} placeholder="   ...search for card" onChange={this.handleSearch} value={this.state.searchTerm}/>
+					<input className={[styles.input, styles.inputSearch].join(' ')} placeholder="   ...search for card" onChange={this.handleSearch} value={this.state.searchTerm}/>
 				</div>
 				<div className={styles.filters}>
-					<button id="searchButton" className={styles.button} onSubmit={this.submitSearch}>Search</button>
+					<button id="searchButton" className={styles.button} type="submit">Search</button>
 				</div>
 			</form>
 		)
@@ -99,6 +99,19 @@ class Magic extends Component {
 	//
 	// 	return true;
 	// }
+
+	getSingleTerm = (event, term) => {
+		const cb = () => {
+			event.preventDefault();
+
+			this.forceUpdate(()=>{
+				this.props.changeCurrentCard(this.props.cards[0]);
+			});
+		};
+		event.preventDefault();
+		this.props.getSingle(term, cb);
+		console.log('%%%%%%%%%%%%%%%%%%term : ', term);
+	}
 
 	handleDeckNameSubmit = (event, value) => {
 		// console.log('handleDeckNameSubmit in Magic: ', event, value);
@@ -337,9 +350,9 @@ class Magic extends Component {
 						{/* <div className={styles.filters}>
 							<button id="testCardsButton" className={styles.button} onClick={()=>this.test({ set: 'usg'})}>Test Get Cards</button>
 						</div> */}
-						<div className={styles.filters}>
+						{/* <div className={styles.filters}>
 							<input className={styles.input} placeholder="type to filter" onChange={(event)=>this.handleFilter(event, 'text')} ref={this.inputBox}/>
-						</div>
+						</div> */}
 						<div className={styles.filters}>
 							<Types handleFilter={this.handleFilter} ref={this.selectBox}/>
 						</div>
@@ -377,7 +390,11 @@ class Magic extends Component {
 						</div>
 					</header>
 					<header className={styles.control_bar}>
-						<SearchForm />
+						<div className={styles.filters}>
+							<input className={[styles.input, styles.inputFilter].join(' ')} placeholder="  ...filter current list" onChange={(event)=>this.handleFilter(event, 'text')} ref={this.inputBox}/>
+						</div>
+
+						<SearchForm getSingleTerm={this.getSingleTerm}/>
 					</header>
 
 					<div className={styles.magicOuterContainer}>

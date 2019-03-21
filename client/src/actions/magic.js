@@ -475,6 +475,35 @@ export const updateBlock = (name, cb) => async dispatch => {
 	}
 }
 
+export const getSingle = (term, cb) => async dispatch => {
+
+	//http://localhost:3090/filtersinglecard?name=counterspell
+
+	//development
+	const url = 'http://localhost:3090/filtersinglecard';
+
+	// //production
+	// const url = 'https://radiant-stream-78248.herokuapp.com/filtersinglecard';
+
+	const query = `?name=${term}`;
+
+	try {
+		const response = await axios.get(url + query);
+
+		console.log('response: ', response);
+
+		dispatch({
+			type: FETCH_CARDS,
+			payload: response.data
+		})
+
+		cb()
+	} catch (error) {
+		console.log('axios error: ', error);
+	}
+
+}
+
 //this is for calling from the backend, it is not operating yet
 export const getCardsFromDatabase = (filters, cb) => async dispatch => {
 
