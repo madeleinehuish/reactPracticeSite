@@ -13,7 +13,12 @@ const filterSingleCard = (filterValue) => {
         return (a.name < b.name) ? -1 : (a.name > b.name) ? 1 : 0
       })
 
-		 return filtered || null;
+		if(!filtered.length) filtered[0] =  {
+				name: "There are no cards with these given filters",
+				imageUrl: "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=366433&type=card"
+		};
+
+		 return filtered;
 }
 
 const filterSets = (filter) => {

@@ -346,6 +346,7 @@ class Magic extends Component {
 						<div className={styles.filters}>
 							<button id="magicButton" className={styles.button} onClick={()=>this.reset(true)}>Reset</button>
 						</div>
+						<div className={styles.filters}></div>
 						{/* dont get rid of the following!!!! */}
 						{/* <div className={styles.filters}>
 							<button id="testCardsButton" className={styles.button} onClick={()=>this.test({ set: 'usg'})}>Test Get Cards</button>
@@ -363,6 +364,21 @@ class Magic extends Component {
 						<div className={styles.filters}>
 							<Rarity handleFilter={this.handleFilter} ref={this.rarityBox} />
 						</div>
+
+						<div className={styles.filters}>
+							<Keywords handleFilter={this.handleFilter} ref={this.keywordBox}/>
+						</div>
+						<div className={styles.filters}>
+							<Special handleFilter={this.handleFilter} ref={this.specialBox}/>
+						</div>
+					</header>
+					<header className={styles.control_bar}>
+						<div className={styles.filters}>
+							<input className={[styles.input, styles.inputFilter].join(' ')} placeholder="  ...filter current list" onChange={(event)=>this.handleFilter(event, 'text')} ref={this.inputBox}/>
+						</div>
+
+						<SearchForm getSingleTerm={this.getSingleTerm}/>
+						<div className={styles.filters}></div>
 						<div className={styles.filters}>
 							<StandardBlocks handleNewBlock={this.handleNewBlock}  handleNewBlock={this.handleNewBlock} currentBlock={this.props.currentBlock} ref={this.standardBlocks}/>
 						</div>
@@ -382,19 +398,6 @@ class Magic extends Component {
 						<div className={styles.filters}>
 							<SetsAll handleFilter={this.handleFilter} ref={this.setBox} />
 						</div>
-						<div className={styles.filters}>
-							<Keywords handleFilter={this.handleFilter} ref={this.keywordBox}/>
-						</div>
-						<div className={styles.filters}>
-							<Special handleFilter={this.handleFilter} ref={this.specialBox}/>
-						</div>
-					</header>
-					<header className={styles.control_bar}>
-						<div className={styles.filters}>
-							<input className={[styles.input, styles.inputFilter].join(' ')} placeholder="  ...filter current list" onChange={(event)=>this.handleFilter(event, 'text')} ref={this.inputBox}/>
-						</div>
-
-						<SearchForm getSingleTerm={this.getSingleTerm}/>
 					</header>
 
 					<div className={styles.magicOuterContainer}>

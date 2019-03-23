@@ -12,7 +12,8 @@ class CurrentImage extends Component {
 	}
 
 	render() {
-		// if(!this.props.currentCard) return <div>no current card</div>
+		if(!this.props.currentCard) return <img src={"http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=366433&type=card"} alt="there are no cards with given image" height="320px"/>
+
 		if(this.props.currentCard.imageUrl) {
 			return <img src={ this.props.currentCard ? this.props.currentCard.imageUrl : null } className={styles.cardImage} alt="magic card" height="320px" />
 		}
