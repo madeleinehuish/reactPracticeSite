@@ -339,66 +339,97 @@ class Magic extends Component {
 			<div>
 				<div className={styles.break}/>
 				<div className={styles.magicPageContainer}>
-					<header className={styles.control_bar}>
-						{/* this next line is here to save space when creature drop down comes up */}
-						{/* {this.props.filterType!=='Creature' ? <div className={styles.title}>Filters</div> : null } */}
 
-						<div className={styles.filters}>
-							<button id="magicButton" className={styles.button} onClick={()=>this.reset(true)}>Reset</button>
+					<div className={styles.topHeaderContainer}>
+						{/* <header className={styles.control_bar}> */}
+							{/* this next line is here to save space when creature drop down comes up */}
+							{/* {this.props.filterType!=='Creature' ? <div className={styles.title}>Filters</div> : null } */}
+							<div className={styles.topHeaderColumns}>
+								<div className={styles.control_bar}>
+									<div className={styles.filters}>
+										<button id="magicButton" className={styles.button} onClick={()=>this.reset(true)}>Reset</button>
+									</div>
+								</div>
+							</div>
+
+							{/* <div className={styles.filters}></div> */}
+							{/* dont get rid of the following!!!! */}
+							{/* <div className={styles.filters}>
+								<button id="testCardsButton" className={styles.button} onClick={()=>this.test({ set: 'usg'})}>Test Get Cards</button>
+							</div> */}
+							{/* <div className={styles.filters}>
+								<input className={styles.input} placeholder="type to filter" onChange={(event)=>this.handleFilter(event, 'text')} ref={this.inputBox}/>
+							</div> */}
+							<div className={styles.topHeaderColumns}>
+								<div className={styles.control_bar}>
+									<div className={styles.topFilters}>
+										<div className={styles.filters}>
+											<Types handleFilter={this.handleFilter} ref={this.selectBox}/>
+										</div>
+										{this.props.filterType==='Creature' ? <div className={styles.filters}><Creatures handleFilter={this.handleFilter} /></div> : null }
+										<div className={styles.filters}>
+											<Colors handleFilter={this.handleFilter} ref={this.colorBox}/>
+										</div>
+										<div className={styles.filters}>
+											<Rarity handleFilter={this.handleFilter} ref={this.rarityBox} />
+										</div>
+
+										<div className={styles.filters}>
+											<Keywords handleFilter={this.handleFilter} ref={this.keywordBox}/>
+										</div>
+										<div className={styles.filters}>
+											<Special handleFilter={this.handleFilter} ref={this.specialBox}/>
+										</div>
+									</div>
+								</div>
+
+							</div>
+
+						{/* </header> */}
+					</div>
+
+
+
+					<div className={styles.bottomHeaderContainer}>
+						<div className={styles.bottomHeaderColumns}>
+							<div className={styles.control_bar}>
+								<div className={styles.filters}>
+									<input className={[styles.input, styles.inputFilter].join(' ')} placeholder="  ...filter current list" onChange={(event)=>this.handleFilter(event, 'text')} ref={this.inputBox}/>
+								</div>
+							</div>
 						</div>
-						<div className={styles.filters}></div>
-						{/* dont get rid of the following!!!! */}
-						{/* <div className={styles.filters}>
-							<button id="testCardsButton" className={styles.button} onClick={()=>this.test({ set: 'usg'})}>Test Get Cards</button>
-						</div> */}
-						{/* <div className={styles.filters}>
-							<input className={styles.input} placeholder="type to filter" onChange={(event)=>this.handleFilter(event, 'text')} ref={this.inputBox}/>
-						</div> */}
-						<div className={styles.filters}>
-							<Types handleFilter={this.handleFilter} ref={this.selectBox}/>
+						<div className={styles.bottomHeaderColumns}>
+							<div className={styles.control_bar}>
+								<SearchForm getSingleTerm={this.getSingleTerm}/>
+							</div>
 						</div>
-						{this.props.filterType==='Creature' ? <div className={styles.filters}><Creatures handleFilter={this.handleFilter} /></div> : null }
-						<div className={styles.filters}>
-							<Colors handleFilter={this.handleFilter} ref={this.colorBox}/>
-						</div>
-						<div className={styles.filters}>
-							<Rarity handleFilter={this.handleFilter} ref={this.rarityBox} />
+						<div className={styles.bottomHeaderColumns}>
+							<div className={styles.control_bar}>
+								<div className={styles.filters}>
+									<StandardBlocks handleNewBlock={this.handleNewBlock}  handleNewBlock={this.handleNewBlock} currentBlock={this.props.currentBlock} ref={this.standardBlocks}/>
+								</div>
+
+								<div className={styles.filters}>
+									{
+										this.props.filterSet==='All' ?
+											<SetsStandard handleFilter={this.handleFilter} currentBlock={this.props.currentBlock} ref={this.standardSetBox} /> :
+											null
+									}
+								</div>
+								<div className={styles.filters}>
+									<SetsAll handleFilter={this.handleFilter} ref={this.setBox} />
+								</div>
+							</div>
 						</div>
 
-						<div className={styles.filters}>
-							<Keywords handleFilter={this.handleFilter} ref={this.keywordBox}/>
-						</div>
-						<div className={styles.filters}>
-							<Special handleFilter={this.handleFilter} ref={this.specialBox}/>
-						</div>
-					</header>
-					<header className={styles.control_bar}>
-						<div className={styles.filters}>
-							<input className={[styles.input, styles.inputFilter].join(' ')} placeholder="  ...filter current list" onChange={(event)=>this.handleFilter(event, 'text')} ref={this.inputBox}/>
-						</div>
 
-						<SearchForm getSingleTerm={this.getSingleTerm}/>
-						<div className={styles.filters}></div>
-						<div className={styles.filters}>
-							<StandardBlocks handleNewBlock={this.handleNewBlock}  handleNewBlock={this.handleNewBlock} currentBlock={this.props.currentBlock} ref={this.standardBlocks}/>
-						</div>
 
-						<div className={styles.filters}>
-							{/* {
-								this.props.filterSet==='All' ?
-									<SetsStandard handleFilter={this.handleFilter} ref={this.standardSetBox} /> :
-									null
-							} */}
-							{
-								this.props.filterSet==='All' ?
-									<SetsStandard handleFilter={this.handleFilter} currentBlock={this.props.currentBlock} ref={this.standardSetBox} /> :
-									null
-							}
-						</div>
-						<div className={styles.filters}>
-							<SetsAll handleFilter={this.handleFilter} ref={this.setBox} />
-						</div>
-					</header>
+						{/* <div className={styles.filters}></div> */}
+
+					</div>
+
+
+
 
 					<div className={styles.magicOuterContainer}>
 						<div className={styles.col}>
