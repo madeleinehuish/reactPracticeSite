@@ -351,15 +351,6 @@ class Magic extends Component {
 									</div>
 								</div>
 							</div>
-
-							{/* <div className={styles.filters}></div> */}
-							{/* dont get rid of the following!!!! */}
-							{/* <div className={styles.filters}>
-								<button id="testCardsButton" className={styles.button} onClick={()=>this.test({ set: 'usg'})}>Test Get Cards</button>
-							</div> */}
-							{/* <div className={styles.filters}>
-								<input className={styles.input} placeholder="type to filter" onChange={(event)=>this.handleFilter(event, 'text')} ref={this.inputBox}/>
-							</div> */}
 							<div className={styles.topHeaderColumns}>
 								<div className={styles.control_bar}>
 									<div className={styles.topFilters}>
@@ -382,25 +373,20 @@ class Magic extends Component {
 										</div>
 									</div>
 								</div>
-
 							</div>
-
-						{/* </header> */}
 					</div>
 
-
-
 					<div className={styles.bottomHeaderContainer}>
+						<div className={styles.bottomHeaderColumns}>
+							<div className={styles.control_bar}>
+								<SearchForm getSingleTerm={this.getSingleTerm}/>
+							</div>
+						</div>
 						<div className={styles.bottomHeaderColumns}>
 							<div className={styles.control_bar}>
 								<div className={styles.filters}>
 									<input className={[styles.input, styles.inputFilter].join(' ')} placeholder="  ...filter current list" onChange={(event)=>this.handleFilter(event, 'text')} ref={this.inputBox}/>
 								</div>
-							</div>
-						</div>
-						<div className={styles.bottomHeaderColumns}>
-							<div className={styles.control_bar}>
-								<SearchForm getSingleTerm={this.getSingleTerm}/>
 							</div>
 						</div>
 						<div className={styles.bottomHeaderColumns}>

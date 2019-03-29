@@ -149,7 +149,7 @@ const filterSpecial = (elem, filter) => {
 		if(elem.type_line.includes('Saga')) return true;
 	}
 	if(filter==='historic') {
-		if(elem.type_line.includes('Saga') || elem.type_line.includes('Legendary') || elem.type_line.includes('Artifact')) return true;
+		if(elem.type_line.includes('Saga') || elem.type_line.includes('Legendary') || elem.type_line.includes('Artifact') || elem.type_line.includes('Planeswalker')) return true;
 	}
 	return false;
 }
