@@ -8,6 +8,6 @@ Although appearing simple, this app was built with many technologies, including 
 
 After signing in or signing up, the app will take you to a page where you can filter through the Magic cards and sort them in many different ways. Exploring the app might reveal another fun location :)
 
-This is a current work in progress as of late-February 2019.
+This is a current work in progress as of late-March 2019.
 
-(update late February: I have implemented the beginnings of the deckbuilding logic as well as added the ability to look through the older sets and filtering those sets. I am hoping to build in pagination soon so that there will be greater filtering power across the full data set of over 40k cards all at once.)
+(update late March: I have added search functionality across the full database and updated some of the filtering of which some is now handled from the backend. It is still a work in progress. I've slowed down on the deckbuilding part to work with other areas of the app and develop the handling of the filtering better. I'm also still working out the best way to represent the UI. As of now it is purely functional.)
