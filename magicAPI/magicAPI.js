@@ -1,11 +1,38 @@
-const dataFull = require('./largeData/combinedData.js');
+const dataFull = require('./largeData/combinedData_Full.js');
 const blocksAll = require('./largeData/standard_blocks/standard_blocks.js');
+const dataStandard = require('./largeData/combinedData_Standard.js');
+
+const filterKeyword = (filterKey) => {
+	console.log('filterKeyword function: ', filterKey)
+	let filtered = dataFull.filter(elem => {
+		// console.log('elem: ', elem);
+		if(filterKey.keyword==='keywords (all)') return true;
+		// console.log('elem.oracle_text: ', elem.oracle_text)
+		if(filterKey.keyword === 'return from graveyard') {
+			if(elem.oracle_text && elem.oracle_text.toLowerCase().includes('return') && elem.oracle_text.toLowerCase().includes('graveyard')) return true;
+		}
+		if(filterKey.keyword=== 'return to hand') {
+			if(elem.oracle_text && elem.oracle_text.toLowerCase().includes('return') && elem.oracle_text.toLowerCase().includes("owner's hand")) return true;
+		}
+		// console.log('elem.oracle_text: ', elem.oracle_text);
+		if(elem.oracle_text && elem.oracle_text.toLowerCase().includes(filterKey.keyword)) {
+			console.log('hit equals:::::::')
+			return true;
+		}
+		return false;
+	})
+	// console.log('filtered: ', filtered);
+	return filtered;
+}
 
 const filterSingleCard = (filterValue) => {
 
 		// console.log('CARDS in INPUT: ', cards);
-
+		console.log('filterValue: ', filterValue);
 		// if(!cards) return;
+		if(filterValue==='no term') {
+			return dataStandard;
+		}
 
 		let filtered = dataFull.filter(card => {
 			 return card.name.substr(0,filterValue.length).toUpperCase() === filterValue.toUpperCase();
@@ -18,6 +45,12 @@ const filterSingleCard = (filterValue) => {
 				imageUrl: "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=366433&type=card"
 		};
 
+		// if(filtered.length > 1600) {
+		// 	console.log('GREATER RETURN THAN 1600!!!!');
+		// 	console.log('filtered.length: ', filtered.length)
+		// 	return [{ name: 'GREATER RETURN THAN 1600!!!!' + filtered.length, imageUrl: 'https://img.scryfall.com/cards/large/en/mm3/249.jpg?1535416219'}]
+		// }
+		 console.log('filtered.length: ', filtered.length);
 		 return filtered;
 }
 
@@ -97,6 +130,13 @@ const applyFiltersByBlock = async (name) => {
 	})
 	// console.log('filtered: ', await filtered);
 	return filtered
+}
+
+exports.filterKeywords = function(req, res, next) {
+	console.log('filterKeywords: ', req.query)
+	let returnData = filterKeyword(req.query);
+
+	res.send(returnData);
 }
 
 exports.filterCards = function(req, res, next) {
