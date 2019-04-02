@@ -10,4 +10,4 @@ After signing in or signing up, the app will take you to a page where you can fi
 
 This is a current work in progress as of late-March 2019.
 
-(update late March: I have added search functionality across the full database and updated some of the filtering of which some is now handled from the backend. It is still a work in progress. I've slowed down on the deckbuilding part to work with other areas of the app and develop the handling of the filtering better. I'm also still working out the best way to represent the UI. As of now it is purely functional.)
+(update late March: I have added search functionality across the full database and updated some of the filtering of which some is now handled from the backend. It is still a work in progress. Not all sections, especially the deckbuilding are working fully yet. I've slowed down on the deckbuilding part to work with other areas of the app and develop the handling of the filtering better. I'm also still working out the best way to represent the UI. As of now it is purely functional.)
