@@ -25,7 +25,7 @@ const StandardSets = React.forwardRef((props, ref) => {
 	return (
 		<select className={styles.select} onChange={(event)=>props.handleFilter(event, 'set')} ref={ref}>
 			<option default value="All">all standard (current block)</option>
-			<option value="currentBlock">all standard (selected block)</option>
+			{/* <option value="currentBlock">all standard (selected block)</option> */}
 			{list}
 			{/* <option value="mrd">Mirrodin</option>
 			<option value="dst">Darksteel</option>

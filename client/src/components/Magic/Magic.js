@@ -184,7 +184,7 @@ class Magic extends Component {
 			this.forceUpdate(()=>{
 				// console.log('TEST CALL FINISHED');
 				// console.log('AFTER TEST CALL PROPS: ', this.props);
-				this.updateCards();
+				this.updateCards(false);
 				this.props.changeCurrentCard(this.props.cards[0]);
 			});
 		};
@@ -215,13 +215,18 @@ class Magic extends Component {
 				}
 
 				if(filters.set==='All') {
-					this.updateCards(true); //full reset
-				} else if(filters.set==='currentBlock'){
-					this.updateCards(false); //partial reset
-				} else {
-					this.props.getCardsFromDatabase(filters, cb);
+					this.props.updateBlock(this.props.currentBlock.name, cb)
+					// this.updateCards(true); //full reset
+					// this.props.changeCurrentCard(this.props.cards[0]);
+					return;
 				}
-				return;
+				// else if(filters.set==='currentBlock'){
+				// 	this.updateCards(false); //partial reset
+				// }
+				else {
+					this.props.getCardsFromDatabase(filters, cb);
+					return;
+				}
 				// break;
 			case 'creature':
 				this.props.storeCreature(filterValue, cb);
