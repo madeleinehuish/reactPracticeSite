@@ -23,7 +23,8 @@ export default {
 	},
 	columnTwo: false,
 	currentCard: {
-		currentCard: firstCard
+		currentCard: firstCard,
+		flipped: false
 	},
 	currentDeck: {
 		name: 'Unnamed Deck',

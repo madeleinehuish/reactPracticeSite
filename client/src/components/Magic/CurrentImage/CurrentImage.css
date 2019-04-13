@@ -14,6 +14,21 @@
 	height: 500px;
 }
 
-.cardImageDouble:hover {
+/* .cardImageDouble:hover {
 	cursor: pointer;
+} */
+
+.rotateImage:hover {
+	cursor: pointer;
+}
+
+.rotateImage {
+	position: relative;
+	left: 300px;
+	top: -190px;
+	height: 50px;
+	width: 50px;
+	border-radius: 100%;
+	opacity: .3;
+	z-index: 4;
 }

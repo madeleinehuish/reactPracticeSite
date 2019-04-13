@@ -16,7 +16,7 @@ const filterKeyword = (filterKey) => {
 		}
 		// console.log('elem.oracle_text: ', elem.oracle_text);
 		if(elem.oracle_text && elem.oracle_text.toLowerCase().includes(filterKey.keyword)) {
-			console.log('hit equals:::::::')
+			// console.log('hit equals:::::::')
 			return true;
 		}
 		return false;

@@ -7,6 +7,7 @@ import {
 	DECK_ADD_TO_DECK,
 	GET_DECKS_FROM_DB,
 	FETCH_CARDS,
+	FLIP_CURRENT_CARD,
 	UPDATE_BLOCK,
 	UPDATE_CARDS,
 	CHANGE_CURRENT_CARD,
@@ -319,6 +320,13 @@ export const changeCurrentCard = (card) => {
 	return {
 		type: CHANGE_CURRENT_CARD,
 		payload: card
+	}
+}
+
+export const flipCurrentCard = (isFlipped) => {
+	return {
+		type: FLIP_CURRENT_CARD,
+		payload: isFlipped
 	}
 }
 

@@ -171,6 +171,10 @@ class Magic extends Component {
 		})
 	}
 
+	flipCurrentCard = () => {
+		this.props.flipCurrentCard(!this.props.currentCardIsFlipped);
+	}
+
 	handleClickColumnTwo = () => {
 		this.props.setColumnTwo(this.props.columnTwo);
 	}
@@ -344,6 +348,7 @@ class Magic extends Component {
 		const cb = () => {
 			this.forceUpdate(()=>{
 				this.props.changeCurrentCard(this.props.cards[0]);
+				this.props.flipCurrentCard(false);
 			});
 		};
 
@@ -458,7 +463,7 @@ class Magic extends Component {
 
 					<div className={styles.magicOuterContainer}>
 						<div className={styles.col}>
-							<CurrentImage currentCard={this.props.currentCard} />
+							<CurrentImage currentCard={this.props.currentCard} flipped={false} flipCurrentCard={this.flipCurrentCard}/>
 						</div>
 						<div className={[styles.col, styles.col2].join(' ')}>
 							<CurrentSelected currentSelected={this.props.currentCard} deckModify={this.deckModify} />
@@ -503,6 +508,7 @@ function mapStateToProps(state) {
 		currentBlock: state.currentBlock, //double check
 		currentStandard: state.currentStandard,
 		currentCard: state.currentCard.currentCard,
+		currentCardIsFlipped: state.currentCard.flipped,
 		currentDeckName: state.currentDeck.name,
 		decks: state.decks.decks,
 		currentDeck: state.currentDeck.currentDeck,
