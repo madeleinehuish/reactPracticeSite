@@ -12,6 +12,7 @@ import DeckBuilding from './DeckBuilding/DeckBuilding';
 import Colors from './Filters/Colors';
 import Creatures from './Filters/Creatures';
 import Keywords from './Filters/Keywords';
+import KeywordsForFull from './Filters/KeywordsForFull';
 import Rarity from './Filters/Rarity';
 // import Sets from './Filters/Sets';
 import SetsStandard from './Filters/SetsStandard';
@@ -76,6 +77,7 @@ class Magic extends Component {
 		this.rarityBox = React.createRef();
 		this.setBox = React.createRef();
 		this.keywordBox = React.createRef();
+		this.keywordFullBox = React.createRef();
 		this.specialBox = React.createRef();
 		this.standardSetBox = React.createRef();
 
@@ -242,6 +244,18 @@ class Magic extends Component {
 		}
 	}
 
+	handleFilterKeywordFull = (event) => {
+		const filterValue = event.target.value;
+		console.log('inside handleFilterKeywordFull, filterValue: ', filterValue);
+		const cb = () => {
+			this.forceUpdate(()=>{
+				this.updateCards(false);
+				// this.props.changeCurrentCard(this.props.cards[0]);
+			});
+		};
+		this.props.getKeywordsFromDatabase(filterValue, cb);
+	}
+
 	handleHover = (cardId) => {
 
 		let card = this.props.cards.filter(obj => {
@@ -299,6 +313,7 @@ class Magic extends Component {
 		this.setBox.current.value = 'All';
 		this.standardSetBox.current.value = 'All';
 		this.keywordBox.current.value = 'keywords (all)';
+		this.keywordFullBox.current.value = 'keywords (all)';
 		this.specialBox.current.value = 'All Special';
 		if(fullReset) {
 			this.standardBlocks.current.value = 'Jan 19 to Apr 19';
@@ -384,6 +399,10 @@ class Magic extends Component {
 								<div className={styles.filters}>
 									<SetsAll handleFilter={this.handleFilter} ref={this.setBox} />
 								</div>
+								<div className={styles.filters}>
+									<KeywordsForFull handleFilterKeywordFull={this.handleFilterKeywordFull} ref={this.keywordFullBox} />
+								</div>
+
 							</div>
 						</div>
 

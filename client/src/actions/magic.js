@@ -504,6 +504,29 @@ export const getSingle = (term, cb) => async dispatch => {
 
 }
 
+export const getKeywordsFromDatabase = (filter, cb) => async dispatch => {
+	const url = 'http://localhost:3090/filterskeyword';
+
+	const query = `?keyword=${filter}`;
+	// console.log('inside of getKeywordsFromDatabase in actions, filters.keywords: ', filter);
+
+	try {
+		const response = await axios.get(url + query);
+
+		console.log('response: ', response);
+
+		dispatch({
+			type: FETCH_CARDS,
+			payload: response.data
+		})
+
+		cb()
+	} catch (error) {
+		console.log('axios error: ', error);
+	}
+
+}
+
 //this is for calling from the backend, it is not operating yet
 export const getCardsFromDatabase = (filters, cb) => async dispatch => {
 
