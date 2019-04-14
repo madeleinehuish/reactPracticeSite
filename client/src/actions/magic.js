@@ -488,11 +488,11 @@ export const getSingle = (term, cb) => async dispatch => {
 
 	//http://localhost:3090/filtersinglecard?name=counterspell
 
-	//development
-	const url = 'http://localhost:3090/filtersinglecard';
+	// //development
+	// const url = 'http://localhost:3090/filtersinglecard';
 
-	// //production
-	// const url = 'https://radiant-stream-78248.herokuapp.com/filtersinglecard';
+	//production
+	const url = 'https://radiant-stream-78248.herokuapp.com/filtersinglecard';
 
 	const query = `?name=${term}`;
 
