@@ -16,29 +16,12 @@ class CurrentImage extends Component {
 
 	}
 
+
 	// handleClick = () => {
 	// 	this.props.flipCurrentCard(); //will not reset
 	// 	this.forceUpdate()
 	// 	this.setState({ toggleCard: this.state.toggleCard });
 	// }
-// 	componentDidMount() {
-// 		console.log('switched')
-// 	}
-//
-// 	static getDerivedStateFromProps(nextProps, prevState) {
-// 		console.log('nextProps.currentCard.name: ', nextProps.currentCard.name, 'prevState.currentCard.name: ', prevState.currentCard.name);
-//    if(nextProps.currentCard!==prevState.currentCard && !prevState.toggleCard){
-// 		 return { toggleCard: false };
-//   }
-//   else return null;
-// }
-
-
-	handleClick = () => {
-		this.props.flipCurrentCard(); //will not reset
-		this.forceUpdate()
-		this.setState({ toggleCard: this.state.toggleCard });
-	}
 
 	render() {
 		if(!this.props.currentCard) return <img src={"http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=366433&type=card"} alt="there are no cards that fit the current search" height="320px"/>
@@ -71,7 +54,7 @@ class CurrentImage extends Component {
 
 				let set = this.props.currentCard.set;
 				let cn = this.props.currentCard.collector_number;
-				let imgUrl = `https://api.scryfall.com/cards/${set}` + `/${cn}` + `?format=image&face=back`;
+				let imgUrl = `https://api.scryfall.com/cards/${set}/${cn}?format=image&face=back`;
 				return (
 					<React.Fragment>
 						<img src={ this.props.currentCard ? imgUrl : null } className={styles.cardImageDouble} alt="magic card" height="320px" />
