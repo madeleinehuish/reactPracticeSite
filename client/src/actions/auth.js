@@ -6,12 +6,14 @@ import { AUTH_USER,
 			 	 SET_COLUMN_TWO,
 			 } from './types';
 import firstCard from '../data/firstCard';
+import getUrl from './development.js';
 
 export const signup = (formProps, callback) => async dispatch => {
 	try {
-
-		// // dev
-		const response = await axios.post('http://localhost:3090/signup', formProps);
+		const url = getUrl('/signup');
+		const response = await axios.post(url, formProps);
+		// // // dev
+		// const response = await axios.post('http://localhost:3090/signup', formProps);
 
 		// // prod
 		// const response = await axios.post('https://radiant-stream-78248.herokuapp.com/signup', formProps);
@@ -39,14 +41,17 @@ export const signup = (formProps, callback) => async dispatch => {
 };
 
 export const signin = (formProps, callback) => async dispatch => {
-
+	console.log('in signin')
 	try {
-
-		// // dev
-		const response = await axios.post('http://localhost:3090/signin', formProps);
+		const url = getUrl('/signin');
+		console.log('url: ', url);
+		// // // dev
+		// const response = await axios.post('http://localhost:3090/signin', formProps);
 
 		// // prod
 		// const response = await axios.post('https://radiant-stream-78248.herokuapp.com/signin', formProps);
+
+		const response = await axios.post(url, formProps);
 
 		// console.log('in signin: response.data: ', response.data);
 		const payload = {

@@ -1,5 +1,6 @@
 import axios from 'axios';
 import standardBlocks from '../data/standard_blocks/standard_blocks.js';
+import getUrl from './development.js';
 // import DATA from '../data/combinedData'; //standard
 // import DATA from '../data/combinedDataTest' //mirrodin test run
 
@@ -23,6 +24,23 @@ import {
 	STORE_SPECIAL
 	// TEST_CARDS
 } from './types';
+
+// //change this for heroku or development
+// const DEVELOPMENT = true;
+// const DEVELOPMENT_URL = 'http://localhost:3090';
+// const PRODUCTION_URL = 'https://radiant-stream-78248.herokuapp.com';
+//
+// const getUrl = (page) => {
+// 	let url;
+// 	// let page = '/decks';
+// 	if(DEVELOPMENT) {
+// 		url = DEVELOPMENT_URL + page;
+// 	} else {
+// 		url = PRODUCTION_URL + page;
+// 	}
+// 	return url;
+// }
+
 
 function isSubset(arr, sub) {
 	let arrMap = {};
@@ -198,9 +216,10 @@ export const getcards = (base, filters, resetTrue, cb) => async dispatch => {
 
 
 export const getDecksFromDB = (cb) => async dispatch => {
+	const url = getUrl('/decks');
 
-	//development
-	const url = 'http://localhost:3090/decks';
+	// //development
+	// const url = 'http://localhost:3090/decks';
 
 	// //production
 	// const url = 'https://radiant-stream-78248.herokuapp.com/decks';
@@ -428,8 +447,9 @@ export const storeSpecial = (special, cb) => async dispatch => {
 
 export const saveDeckToDB = (data) => async dispatch => {
 
-	// //development
-	const url = 'http://localhost:3090/decks';
+	const url = getUrl('/decks');
+	// // //development
+	// const url = 'http://localhost:3090/decks';
 
 	// //production
 	// const url = 'https://radiant-stream-78248.herokuapp.com/decks';
@@ -449,8 +469,9 @@ export const saveDeckToDB = (data) => async dispatch => {
 }
 
 export const updateBlock = (name, cb) => async dispatch => {
-	// //development
-	const url = 'http://localhost:3090/filterbyblock';
+	const url = getUrl('/filterbyblock');
+	// // //development
+	// const url = 'http://localhost:3090/filterbyblock';
 
 	// //production
 	// const url = 'https://radiant-stream-78248.herokuapp.com/filterbyblock';
@@ -485,11 +506,11 @@ export const updateBlock = (name, cb) => async dispatch => {
 }
 
 export const getSingle = (term, cb) => async dispatch => {
-
+	const url = getUrl('/filtersinglecard');
 	//http://localhost:3090/filtersinglecard?name=counterspell
 
-	//development
-	const url = 'http://localhost:3090/filtersinglecard';
+	// //development
+	// const url = 'http://localhost:3090/filtersinglecard';
 
 	// //production
 	// const url = 'https://radiant-stream-78248.herokuapp.com/filtersinglecard';
@@ -514,7 +535,14 @@ export const getSingle = (term, cb) => async dispatch => {
 }
 
 export const getKeywordsFromDatabase = (filter, cb) => async dispatch => {
-	const url = 'http://localhost:3090/filterskeyword';
+
+	// //dev
+	// const url = 'http://localhost:3090/filterskeyword';
+	//
+	// //prod
+	// const url = 'https://radiant-stream-78248.herokuapp.com/filterskeyword'
+
+	const url = getUrl('/filterskeyword');
 
 	const query = `?keyword=${filter}`;
 	// console.log('inside of getKeywordsFromDatabase in actions, filters.keywords: ', filter);
@@ -539,11 +567,13 @@ export const getKeywordsFromDatabase = (filter, cb) => async dispatch => {
 //this is for calling from the backend, it is not operating yet
 export const getCardsFromDatabase = (filters, cb) => async dispatch => {
 
-	//development
-	const url = 'http://localhost:3090/cards';
+	// //development
+	// const url = 'http://localhost:3090/cards';
 
 	// //production
 	// const url = 'https://radiant-stream-78248.herokuapp.com/cards';
+
+	const url = getUrl('/cards');
 
 	const query = `?set=${filters.set}&type=${filters.type}&color=${filters.colors}&rarity=${filters.rarity}`
 
@@ -567,7 +597,8 @@ export const getCardsFromDatabase = (filters, cb) => async dispatch => {
 
 export const getAllCardsFromDatabase = (filters, cb) => async dispatch => {
 
-	const url = 'http://localhost:3090/allcards'
+	// const url = 'http://localhost:3090/allcards'
+	const url = getUrl('/allcards');
 	const query = `?type=${filters.type}&color=${filters.colors}&rarity=${filters.rarity}`
 
 	try {
