@@ -9,7 +9,7 @@
 
 .bottomHeaderContainer {
 	display: grid;
-	grid-template-columns: 15% 15% 60%;
+	grid-template-columns: 15% 15% 70%;
 	width: 100%;
 	border-bottom: 1px solid grey;
 }
