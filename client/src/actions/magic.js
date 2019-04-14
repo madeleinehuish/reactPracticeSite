@@ -323,7 +323,8 @@ export const changeCurrentCard = (card) => {
 	}
 }
 
-export const flipCurrentCard = (isFlipped) => {
+export const flipCurrentCardAction = (isFlipped) => {
+	console.log('flipCurrentCardAction triggered... isFlipped value ===', isFlipped);
 	return {
 		type: FLIP_CURRENT_CARD,
 		payload: isFlipped

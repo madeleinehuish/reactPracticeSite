@@ -83,6 +83,7 @@ class Magic extends Component {
 
 		this.state = {
 			searchTerm: ''
+
 		}
 
 		//deckbuilding refs
@@ -96,6 +97,13 @@ class Magic extends Component {
 			// console.log('component did mount finished...')
 		}
 		this.props.getDecksFromDB(cb);
+
+	}
+
+	componentDidUpdate(prevProps) {
+		if(prevProps.currentCardIsFlipped) {
+			this.flipCurrentCard(true);
+		}
 	}
 
 	// componentDidUpdate() {
@@ -171,9 +179,27 @@ class Magic extends Component {
 		})
 	}
 
-	flipCurrentCard = () => {
-		this.props.flipCurrentCard(!this.props.currentCardIsFlipped);
+	flipCurrentCard = (defaultFlip) => {
+		console.log('flipCurrentCard() in main called....');
+		console.log('this.state.toggleCard: ', this.state.togglecard);
+		console.log('this.props.currentCardIsFlipped: ', this.props.currentCardIsFlipped);
+
+		if(defaultFlip) {
+			this.props.flipCurrentCardAction(false); //this will reset the card
+			// this.setState({ toggleCard: !this.state.toggleCard });
+		} else {
+			this.props.flipCurrentCardAction(!this.props.currentCardIsFlipped); //toggle
+			// this.setState({ toggleCard: false })
+		}
+
+		// console.log('inside of flipCurrentCard, this.props.currentCardIsFlipped: ', this.props.currentCardIsFlipped);
 	}
+
+	// handleClickToFlipCard = () => {
+	// 	this.props.flipCurrentCard(); //will not reset
+	// 	this.forceUpdate()
+	// 	this.setState({ toggleCard: this.state.toggleCard });
+	// }
 
 	handleClickColumnTwo = () => {
 		this.props.setColumnTwo(this.props.columnTwo);
@@ -347,8 +373,9 @@ class Magic extends Component {
 	updateCards = (reset) => {
 		const cb = () => {
 			this.forceUpdate(()=>{
+				console.log('inside callback of updateCards')
 				this.props.changeCurrentCard(this.props.cards[0]);
-				this.props.flipCurrentCard(false);
+				// this.props.flipCurrentCard(false);
 			});
 		};
 
@@ -391,7 +418,7 @@ class Magic extends Component {
 						<div className={styles.topHeaderColumns}>
 							<div className={styles.control_bar}>
 								<div className={styles.filters}>
-									<StandardBlocks handleNewBlock={this.handleNewBlock}  handleNewBlock={this.handleNewBlock} currentBlock={this.props.currentBlock} ref={this.standardBlocks}/>
+									<StandardBlocks handleNewBlock={this.handleNewBlock} currentBlock={this.props.currentBlock} ref={this.standardBlocks}/>
 								</div>
 
 								<div className={styles.filters}>
@@ -463,7 +490,7 @@ class Magic extends Component {
 
 					<div className={styles.magicOuterContainer}>
 						<div className={styles.col}>
-							<CurrentImage currentCard={this.props.currentCard} flipped={false} flipCurrentCard={this.flipCurrentCard}/>
+							<CurrentImage currentCard={this.props.currentCard} flipped={this.props.currentCardIsFlipped} flipCurrentCard={this.flipCurrentCard}/>
 						</div>
 						<div className={[styles.col, styles.col2].join(' ')}>
 							<CurrentSelected currentSelected={this.props.currentCard} deckModify={this.deckModify} />
