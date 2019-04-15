@@ -4,24 +4,14 @@ import rotateImage from '../../../data/images/rotate.png';
 
 class CurrentImage extends Component {
 
-	//accessible as this.props.flipped;
-
 	constructor(props) {
 		super(props);
 
 		this.state ={
-			// toggleCard : props.flipped,
 			currentCard: props.currentCard
 		}
 
 	}
-
-
-	// handleClick = () => {
-	// 	this.props.flipCurrentCard(); //will not reset
-	// 	this.forceUpdate()
-	// 	this.setState({ toggleCard: this.state.toggleCard });
-	// }
 
 	render() {
 		if(!this.props.currentCard) return <img src={"http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=366433&type=card"} alt="there are no cards that fit the current search" height="320px"/>
@@ -69,10 +59,7 @@ class CurrentImage extends Component {
 			let set = this.props.currentCard.set;
 			let cn = this.props.currentCard.collector_number;
 			let imgUrl = `https://api.scryfall.com/cards/${set}/${cn}?format=image`;
-			let onErrorUrl = `this.src='${imgUrl}'`
 			return (
-				// <img src={record.picture} onError={(e)=>{e.target.onerror = null; e.target.src="image_path_here"}}/>
-
 				<img src={ this.props.currentCard ? this.props.currentCard.image_uris.large : null } onError={(e)=>{e.target.onerror = null; e.target.src=imgUrl}} className={styles.cardImage} alt="magic card" height="320px" />
 			)
 		}

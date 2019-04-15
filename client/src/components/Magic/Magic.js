@@ -48,19 +48,6 @@ class SearchForm extends Component {
 				</div>
 			</form>
 		)
-		// return (
-		// 	// <form onSubmit={(event) => this.props.getSingleTerm(event, this.state.searchTerm || 'no term')}>
-		// 	<React.Fragment>
-		// 		<div className={styles.filters}>
-		// 			<input className={[styles.input, styles.inputSearch].join(' ')} placeholder="   ...search for card" onChange={(event) => this.props.getSingleTerm(event, event.target.value || 'no term')}/>
-		// 		</div>
-		// 		<div className={styles.filters}>
-		// 			<button id="searchButton" className={styles.button} type="submit">Search</button>
-		// 		</div>
-		// 	</React.Fragment>
-		//
-		// 	// </form>
-		// )
 	}
 }
 
@@ -81,18 +68,12 @@ class Magic extends Component {
 		this.specialBox = React.createRef();
 		this.standardSetBox = React.createRef();
 
-		this.state = {
-			searchTerm: ''
-
-		}
-
 		//deckbuilding refs
 		this.selectDeck = React.createRef();
 		this.inputDeck = React.createRef();
 	}
 
 	componentDidMount() {
-
 		const cb = () => {
 			// console.log('component did mount finished...')
 		}
@@ -100,33 +81,15 @@ class Magic extends Component {
 
 	}
 
-	componentDidUpdate(prevProps) {
+	componentDidUpdate(prevProps) { //this is necessary to reset flipped cards when switching cards to another flipped card
 		if(prevProps.currentCardIsFlipped) {
 			this.flipCurrentCard(true);
 		}
 	}
 
-	// componentDidUpdate() {
-	//
-	// 	const cb = () => {
-	// 		console.log('component did update finished...')
-	// 	}
-	//
-	// 	this.props.getDecksFromDB(cb);
-	// }
-
-	// //leave this in temporarily to check performance
-	// shouldComponentUpdate(nextProps, nextState) {
-	// 	console.log('shouldComponentUpdate: nextProps: ', nextProps);
-	// 	console.log('shouldComponentUpdate: nextState: ', nextState);
-	//
-	// 	return true;
-	// }
-
-	// getSingleTerm = (event, term) => {
 	getSingleTerm = (event, term) => {
 		const cb = () => {
-			event.preventDefault();
+			// event.preventDefault();
 
 			this.forceUpdate(()=>{
 				this.props.changeCurrentCard(this.props.cards[0]);
@@ -134,11 +97,10 @@ class Magic extends Component {
 		};
 		event.preventDefault();
 		this.props.getSingle(term, cb);
-		console.log('%%%%%%%%%%%%%%%%%%term : ', term);
+		// console.log('%%%%%%%%%%%%%%%%%%term : ', term);
 	}
 
 	handleDeckNameSubmit = (event, value) => {
-		// console.log('handleDeckNameSubmit in Magic: ', event, value);
 
 		const cb = () => {
 			event.preventDefault();
@@ -157,8 +119,6 @@ class Magic extends Component {
 			this.forceUpdate();
 			// console.log('deckModify completed...')
 		}
-		// console.log('inputBox value: ', this.inputBox.current.value);
-		// console.log('##################################################');
 
 		let deck = newDeck || this.props.currentDeck; //TODO possibly change this to add an || newDeck
 		if(card && card.name==="There are no cards with these given filters") return;
@@ -180,26 +140,12 @@ class Magic extends Component {
 	}
 
 	flipCurrentCard = (defaultFlip) => {
-		console.log('flipCurrentCard() in main called....');
-		console.log('this.state.toggleCard: ', this.state.togglecard);
-		console.log('this.props.currentCardIsFlipped: ', this.props.currentCardIsFlipped);
-
 		if(defaultFlip) {
 			this.props.flipCurrentCardAction(false); //this will reset the card
-			// this.setState({ toggleCard: !this.state.toggleCard });
 		} else {
 			this.props.flipCurrentCardAction(!this.props.currentCardIsFlipped); //toggle
-			// this.setState({ toggleCard: false })
 		}
-
-		// console.log('inside of flipCurrentCard, this.props.currentCardIsFlipped: ', this.props.currentCardIsFlipped);
 	}
-
-	// handleClickToFlipCard = () => {
-	// 	this.props.flipCurrentCard(); //will not reset
-	// 	this.forceUpdate()
-	// 	this.setState({ toggleCard: this.state.toggleCard });
-	// }
 
 	handleClickColumnTwo = () => {
 		this.props.setColumnTwo(this.props.columnTwo);
@@ -207,12 +153,9 @@ class Magic extends Component {
 
 	handleFilter = (event, filterType) => {
 		const filterValue = event.target.value;
-		console.log('filterValue: ', filterValue);
-
-
+		// console.log('filterValue: ', filterValue);
 
 		const cb = () => {
-			console.log('inside of CB')
 			this.forceUpdate(()=>{
 				// console.log('TEST CALL FINISHED');
 				// console.log('AFTER TEST CALL PROPS: ', this.props);
@@ -241,20 +184,12 @@ class Magic extends Component {
 					type: 'All',
 					colors: 'All',
 					rarity: 'All'
-					// type: this.props.filterType,
-					// colors: this.props.filterColor,
-					// rarity: this.props.filterRarity
 				}
 
 				if(filters.set==='All') {
 					this.props.updateBlock(this.props.currentBlock.name, cb)
-					// this.updateCards(true); //full reset
-					// this.props.changeCurrentCard(this.props.cards[0]);
 					return;
 				}
-				// else if(filters.set==='currentBlock'){
-				// 	this.updateCards(false); //partial reset
-				// }
 				else {
 					this.props.getCardsFromDatabase(filters, cb);
 					return;
@@ -276,22 +211,19 @@ class Magic extends Component {
 
 	handleFilterKeywordFull = (event) => {
 		const filterValue = event.target.value;
-		console.log('inside handleFilterKeywordFull, filterValue: ', filterValue);
+		// console.log('inside handleFilterKeywordFull, filterValue: ', filterValue);
 		const cb = () => {
 			this.forceUpdate(()=>{
 				this.updateCards(false);
-				// this.props.changeCurrentCard(this.props.cards[0]);
 			});
 		};
 		this.props.getKeywordsFromDatabase(filterValue, cb);
 	}
 
 	handleHover = (cardId) => {
-
 		let card = this.props.cards.filter(obj => {
 			return obj.id === cardId;
 		});
-
 		this.props.changeCurrentCard(card[0]);
 	}
 
@@ -302,24 +234,14 @@ class Magic extends Component {
 
 	handleNewBlock = (event) => {
 		const cb = () => {
-			console.log('inside of CB');
-			console.log('event.target: ', event.target);
-			console.log('inside handleNewBlock: event, filter: ', event);
 			this.forceUpdate(()=>{
-				// console.log('TEST CALL FINISHED');
-				// console.log('AFTER TEST CALL PROPS: ', this.props);
-				// this.updateCards();
 				this.props.changeCurrentCard(this.props.cards[0]);
 			});
 		};
-		console.log('inside handleNewBlock: ', event);
-		// console.log('event.target.val: ', event.target.val)
-		console.log('event.target.value: ', event.target.value);
 		this.props.updateBlock(event.target.value, cb)
 	}
 
 	reset = (fullReset) => {
-
 		const cb = () => {
 			if(fullReset) {
 				this.forceUpdate(()=>{
@@ -365,17 +287,12 @@ class Magic extends Component {
 			this.props.resetBlock(this.props.currentBlock, cb); //standard block as filtered
 		}
 
-		// this.props.updateBlock(this.props.currentStandard.name, cb);
 	}
-
-
 
 	updateCards = (reset) => {
 		const cb = () => {
 			this.forceUpdate(()=>{
-				console.log('inside callback of updateCards')
 				this.props.changeCurrentCard(this.props.cards[0]);
-				// this.props.flipCurrentCard(false);
 			});
 		};
 
@@ -405,8 +322,6 @@ class Magic extends Component {
 			<div>
 				<div className={styles.break}/>
 				<div className={styles.magicPageContainer}>
-
-
 
 					<div className={styles.topHeaderContainer}>
 						<div className={styles.topHeaderColumns}>
@@ -438,16 +353,9 @@ class Magic extends Component {
 							</div>
 						</div>
 
-
-
-						{/* <div className={styles.filters}></div> */}
-
 					</div>
 
 					<div className={styles.bottomHeaderContainer}>
-						{/* <header className={styles.control_bar}> */}
-							{/* this next line is here to save space when creature drop down comes up */}
-							{/* {this.props.filterType!=='Creature' ? <div className={styles.title}>Filters</div> : null } */}
 							<div className={styles.bottomHeaderColumns}>
 								<div className={styles.control_bar}>
 									<div className={styles.filters}>

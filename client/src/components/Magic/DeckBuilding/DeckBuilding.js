@@ -4,7 +4,7 @@ import EmptyWrapper from '../../EmptyWrapper/EmptyWrapper';
 
 
 const Decks = React.forwardRef((props, ref) => {
-	console.log('props in Decks: ', props);
+	// console.log('props in Decks: ', props);
 	if(!props.decks) {
 		return (
 			<select className={styles.select} ref={ref}>
@@ -13,7 +13,7 @@ const Decks = React.forwardRef((props, ref) => {
 		)
 	} else {
 		const deckArr = props.decks.map((deck,index) => {
-			console.log('deck: ', deck.deck_name)
+			// console.log('deck: ', deck.deck_name)
 				return (
 					<option key={index}>{deck.deck_name}</option>
 				)

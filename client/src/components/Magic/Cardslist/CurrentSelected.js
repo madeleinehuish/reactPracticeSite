@@ -8,12 +8,12 @@ const CurrentSelected = (props) => {
 	let date;
 	let setName;
 
-	console.log('first console log in CurrentSelected. Props: ', props);
+	// console.log('first console log in CurrentSelected. Props: ', props);
 
-	if(!props.currentSelected) {
-		console.log('no props.currentSelected in CurrentSelected.js!!!!!');
-		console.log('props: ', props);
-	}
+	// if(!props.currentSelected) {
+	// 	console.log('no props.currentSelected in CurrentSelected.js!!!!!');
+	// 	console.log('props: ', props);
+	// }
 
 	if(props.currentSelected.set_name==='Limited Edition Alpha') {
 		date = '1993';
