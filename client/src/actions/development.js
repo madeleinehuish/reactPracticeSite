@@ -2,7 +2,7 @@ const getUrl = (page) => {
 
 	//change this line for heroku or development
 	/////////////////////////////
-	const DEVELOPMENT = true;
+	const DEVELOPMENT = false;
 	////////////////////////////
 
 	const DEVELOPMENT_URL = 'http://localhost:3090';
