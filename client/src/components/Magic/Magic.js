@@ -82,6 +82,7 @@ class Magic extends Component {
 	}
 
 	componentDidUpdate(prevProps) { //this is necessary to reset flipped cards when switching cards to another flipped card
+		console.log('componentDidUpdate')
 		if(prevProps.currentCardIsFlipped) {
 			this.flipCurrentCard(true);
 		}
@@ -156,12 +157,19 @@ class Magic extends Component {
 		// console.log('filterValue: ', filterValue);
 
 		const cb = () => {
-			this.forceUpdate(()=>{
-				// console.log('TEST CALL FINISHED');
-				// console.log('AFTER TEST CALL PROPS: ', this.props);
+			// this.forceUpdate(()=>{
+			// 	console.log('cb1')
 				this.updateCards(false);
 				this.props.changeCurrentCard(this.props.cards[0]);
-			});
+			// });
+		};
+
+		const cb2 = () => {
+			console.log('cb2, no forceUpdate')
+			this.props.changeCurrentCard(this.props.cards[0]);
+			// this.forceUpdate(()=>{
+			// 	this.props.changeCurrentCard(this.props.cards[0]);
+			// });
 		};
 
 		switch(filterType) {
@@ -187,11 +195,13 @@ class Magic extends Component {
 				}
 
 				if(filters.set==='All') {
-					this.props.updateBlock(this.props.currentBlock.name, cb)
+					console.log('hit filters.set==="all"')
+					this.props.updateBlock(this.props.currentBlock.name, cb2);
 					return;
 				}
 				else {
-					this.props.getCardsFromDatabase(filters, cb);
+					console.log('hit getCardsFromDatabase')
+					this.props.getCardsFromDatabase(filters, cb2);
 					return;
 				}
 				// break;
@@ -234,11 +244,13 @@ class Magic extends Component {
 
 	handleNewBlock = (event) => {
 		const cb = () => {
-			this.forceUpdate(()=>{
-				this.props.changeCurrentCard(this.props.cards[0]);
-			});
+			this.props.changeCurrentCard(this.props.cards[0]);
+			// this.forceUpdate(()=>{
+			// 	this.props.changeCurrentCard(this.props.cards[0]);
+			// });
 		};
-		this.props.updateBlock(event.target.value, cb)
+		this.props.updateBlock(event.target.value, cb);
+		// this.props.changeCurrentCard(this.props.cards[0]);
 	}
 
 	reset = (fullReset) => {
@@ -290,6 +302,7 @@ class Magic extends Component {
 	}
 
 	updateCards = (reset) => {
+		console.log('updateCards')
 		const cb = () => {
 			this.forceUpdate(()=>{
 				this.props.changeCurrentCard(this.props.cards[0]);
@@ -308,8 +321,10 @@ class Magic extends Component {
 		}
 
 		if(!reset) {
+			console.log('first in updatecards, reset===', reset);
 			this.props.getcards(this.props.base, filters, false, cb);
 		} else {
+			console.log('second in updatecards, reset===', reset);
 			this.props.getcards(this.props.standard, filters, true, cb);
 		}
 
@@ -317,6 +332,7 @@ class Magic extends Component {
 
 	render() {
 		// console.log('this.props in Magic.js: ', this.props);
+		console.log('render triggered');
 		if (this.props.authenticated) {
 		return (
 			<div>
@@ -335,7 +351,6 @@ class Magic extends Component {
 								<div className={styles.filters}>
 									<StandardBlocks handleNewBlock={this.handleNewBlock} currentBlock={this.props.currentBlock} ref={this.standardBlocks}/>
 								</div>
-
 								<div className={styles.filters}>
 									{
 										this.props.filterSet==='All' ?
@@ -349,10 +364,8 @@ class Magic extends Component {
 								<div className={styles.filters}>
 									<KeywordsForFull handleFilterKeywordFull={this.handleFilterKeywordFull} ref={this.keywordFullBox} />
 								</div>
-
 							</div>
 						</div>
-
 					</div>
 
 					<div className={styles.bottomHeaderContainer}>

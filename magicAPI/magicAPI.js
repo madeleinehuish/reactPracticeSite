@@ -171,7 +171,6 @@ exports.filterCardsAll = function(req, res, next) {
 exports.filterCardsByBlock = async function(req, res, next) {
 	console.log('Req.query for filterCardsByBlock: ', req.query); //should recieve an object with keys name(string) and sets(array)
 
-
 	// let filtered = await applyFiltersByBlock(req.query.name);
 	//
 	// res.send(filtered);

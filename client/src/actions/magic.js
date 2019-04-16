@@ -59,7 +59,7 @@ function isSubset(arr, sub) {
 //filter functions
 
 function filterByInput(cards, filterValue) {
-	console.log('CARDS in INPUT: ', cards);
+	// console.log('CARDS in INPUT: ', cards);
 	if(filterValue==='') return cards;
 	if(!cards) return;
 
@@ -566,7 +566,7 @@ export const getKeywordsFromDatabase = (filter, cb) => async dispatch => {
 
 //this is for calling from the backend, it is not operating yet
 export const getCardsFromDatabase = (filters, cb) => async dispatch => {
-
+	console.log('getCardsFromDatabase')
 	// //development
 	// const url = 'http://localhost:3090/cards';
 
