@@ -572,7 +572,7 @@ export const getCardsFromDatabase = (filters, cb) => async dispatch => {
 
 	// //production
 	// const url = 'https://radiant-stream-78248.herokuapp.com/cards';
-
+	console.log('in getCardsFromDatabase in magic.js: ', filters);
 	const url = getUrl('/cards');
 
 	const query = `?set=${filters.set}&type=${filters.type}&color=${filters.colors}&rarity=${filters.rarity}`
@@ -580,7 +580,7 @@ export const getCardsFromDatabase = (filters, cb) => async dispatch => {
 	try {
 		const response = await axios.get(url + query);
 
-		// console.log('response: ', response);
+		console.log('response: ', response);
 
 		dispatch({
 			type: FETCH_CARDS,

@@ -27,7 +27,7 @@ export default
   { "Urza's Saga": '1998-10' },
   { 'Anthologies': '1998-11' },
   { "Urza's Legacy": '1999-02' },
-  { 'Sixth Edition': '1999-04' },
+  { 'Classic Sixth Edition': '1999-04' },
   { "Urza's Destiny": '1999-06' },
   { 'Portal Three Kingdoms': '1999-07' },
   { 'Starter 1999': '1999-08' },

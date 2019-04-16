@@ -29,7 +29,7 @@ const TestSets = React.forwardRef((props, ref) => {
 		{ name: 'Unglued', id: 'ugl'},
 		{ name: "Urza's Saga", id: 'usg'},
 		{ name: "Urza's Legacy", id: 'ulg'},
-		{ name: "Sixth Edition", id: '6ed'},
+		{ name: "Classic Sixth Edition", id: '6ed'},
 		{ name: "Urza's Destiny", id: 'uds'},
 		{ name: 'Mercadian Masques', id: 'mmq'},
 		{ name: 'Nemesis', id: 'nem'},

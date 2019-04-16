@@ -21,10 +21,12 @@ const CurrentSelected = (props) => {
 	} else if(props.currentSelected.set_name==='Limited Edition Beta'){
 		date = '1993';
 		setName = 'Beta (Limited)';
-	} else if(props.currentSelected.set_name==='Classic Sixth Edition'){
-		date = '1999';
-		setName = 'Sixth Edition';
-	} else {
+	}
+	// else if(props.currentSelected.set_name==='Classic Sixth Edition'){
+	// 	date = '1999';
+	// 	setName = 'Sixth Edition';
+	// }
+	else {
 		for(let elem of setDates) {
 			if(elem[props.currentSelected.set_name]){
 				date = elem[props.currentSelected.set_name];

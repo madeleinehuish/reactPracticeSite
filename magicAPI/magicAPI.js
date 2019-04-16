@@ -57,7 +57,9 @@ const filterSingleCard = (filterValue) => {
 const filterSets = (filter) => {
 	let dataSet = dataFull.filter(elem => {
 		if(filter==='All') return true;
-		if(elem.set_name===filter || elem.set===filter) return true;
+		// if(filter==='Sixth Edition' && elem.set_name==='Classic Sixth Edition') return true;
+		let checkForApostrophe = elem.set_name.split("'").join('');
+		if(checkForApostrophe===filter || elem.set_name===filter || elem.set===filter) return true;
 		return false
 	})
 	return dataSet;
@@ -84,9 +86,9 @@ const filterRarity = (elem, filter) => {
 
 
 const applyFilters = (filters) => {
-
+	console.log('inside applyFilters, filters: ', filters)
 	let data = filterSets(filters.set); //first decide how big of dataset you want to use. 'All will default to full set'
-
+	// console.log('data (filters.set): ', data)
 	let filtered = data.filter(elem => {
 		const conditionType = filterType(elem, filters.type);
 		const conditionColor = filterColor(elem, filters.color);
@@ -94,6 +96,7 @@ const applyFilters = (filters) => {
 
 		return ( conditionType && conditionColor && conditionRarity);
 	})
+	// console.log('filtered: ', filtered)
 	return filtered;
 }
 
