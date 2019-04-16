@@ -231,7 +231,7 @@ export const getDecksFromDB = (cb) => async dispatch => {
 	try {
 		const response = await axios.get(url + query);
 
-		console.log('response: ', response);
+		// console.log('response: ', response);
 
 		dispatch({
 			type: GET_DECKS_FROM_DB,
@@ -249,8 +249,8 @@ export const modifyDeck = (card, deck, sign, cb) => async dispatch => {
 	switch(sign) {
 		case 'add':
 					{
-						console.log('deckAddTo card: ', card);
-						console.log('deck: ', )
+						// console.log('deckAddTo card: ', card);
+						// console.log('deck: ', )
 						// let currentNumber = 0;
 						let newDeck = [...deck];
 						let isDup = false;
@@ -343,7 +343,7 @@ export const changeCurrentCard = (card) => {
 }
 
 export const flipCurrentCardAction = (isFlipped) => {
-	console.log('flipCurrentCardAction triggered... isFlipped value ===', isFlipped);
+	// console.log('flipCurrentCardAction triggered... isFlipped value ===', isFlipped);
 	return {
 		type: FLIP_CURRENT_CARD,
 		payload: isFlipped
@@ -486,7 +486,7 @@ export const updateBlock = (name, cb) => async dispatch => {
 	try {
 		const response = await axios.get(url + query);
 
-		console.log('response from get blocks: ', response);
+		// console.log('response from get blocks: ', response);
 
 		dispatch({
 			type: UPDATE_BLOCK,
@@ -520,7 +520,7 @@ export const getSingle = (term, cb) => async dispatch => {
 	try {
 		const response = await axios.get(url + query);
 
-		console.log('response: ', response);
+		// console.log('response: ', response);
 
 		dispatch({
 			type: FETCH_CARDS,
@@ -550,7 +550,7 @@ export const getKeywordsFromDatabase = (filter, cb) => async dispatch => {
 	try {
 		const response = await axios.get(url + query);
 
-		console.log('response: ', response);
+		// console.log('response: ', response);
 
 		dispatch({
 			type: FETCH_CARDS,
@@ -566,7 +566,7 @@ export const getKeywordsFromDatabase = (filter, cb) => async dispatch => {
 
 //this is for calling from the backend, it is not operating yet
 export const getCardsFromDatabase = (filters, cb) => async dispatch => {
-	console.log('getCardsFromDatabase')
+	// console.log('getCardsFromDatabase')
 	// //development
 	// const url = 'http://localhost:3090/cards';
 
@@ -580,7 +580,7 @@ export const getCardsFromDatabase = (filters, cb) => async dispatch => {
 	try {
 		const response = await axios.get(url + query);
 
-		console.log('response: ', response);
+		// console.log('response: ', response);
 
 		dispatch({
 			type: FETCH_CARDS,
@@ -605,7 +605,7 @@ export const getAllCardsFromDatabase = (filters, cb) => async dispatch => {
 		const response = await axios.get(url + query);
 
 
-		console.log('response: ', response);
+		// console.log('response: ', response);
 
 		dispatch({
 			type: FETCH_CARDS,

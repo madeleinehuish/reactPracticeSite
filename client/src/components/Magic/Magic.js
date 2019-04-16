@@ -157,15 +157,15 @@ class Magic extends Component {
 		// console.log('filterValue: ', filterValue);
 
 		const cb = () => {
-			// this.forceUpdate(()=>{
+			this.forceUpdate(()=>{
 			// 	console.log('cb1')
 				this.updateCards(false);
 				this.props.changeCurrentCard(this.props.cards[0]);
-			// });
+			});
 		};
 
 		const cb2 = () => {
-			console.log('cb2, no forceUpdate')
+			// console.log('cb2, no forceUpdate')
 			this.props.changeCurrentCard(this.props.cards[0]);
 			// this.forceUpdate(()=>{
 			// 	this.props.changeCurrentCard(this.props.cards[0]);
@@ -195,12 +195,12 @@ class Magic extends Component {
 				}
 
 				if(filters.set==='All') {
-					console.log('hit filters.set==="all"')
+					// console.log('hit filters.set==="all"')
 					this.props.updateBlock(this.props.currentBlock.name, cb2);
 					return;
 				}
 				else {
-					console.log('hit getCardsFromDatabase')
+					// console.log('hit getCardsFromDatabase')
 					this.props.getCardsFromDatabase(filters, cb2);
 					return;
 				}
@@ -321,10 +321,10 @@ class Magic extends Component {
 		}
 
 		if(!reset) {
-			console.log('first in updatecards, reset===', reset);
+			// console.log('first in updatecards, reset===', reset);
 			this.props.getcards(this.props.base, filters, false, cb);
 		} else {
-			console.log('second in updatecards, reset===', reset);
+			// console.log('second in updatecards, reset===', reset);
 			this.props.getcards(this.props.standard, filters, true, cb);
 		}
 
@@ -446,7 +446,7 @@ class Magic extends Component {
 }
 
 function mapStateToProps(state) {
-	console.log('state in magic: ', state);
+	// console.log('state in magic: ', state);
 	// console.log('state.cards.cards: ', state.cards.cards);
 	return {
 		base: state.cards.base,

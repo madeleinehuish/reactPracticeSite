@@ -31,7 +31,7 @@ class Header extends Component {
 	}
 
 	render() {
-		console.log('this.props: ', this.props);
+		// console.log('this.props: ', this.props);
 
 		return (
 			<div className={styles.header}>
