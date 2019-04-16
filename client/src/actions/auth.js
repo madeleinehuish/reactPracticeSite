@@ -44,7 +44,7 @@ export const signin = (formProps, callback) => async dispatch => {
 	console.log('in signin')
 	try {
 		const url = getUrl('/signin');
-		console.log('url: ', url);
+		// console.log('url: ', url);
 		// // // dev
 		// const response = await axios.post('http://localhost:3090/signin', formProps);
 
