@@ -1,4 +1,4 @@
-### Madeleine's MTG React-Redux Website Standard Edition
+### Madeleine's MTG React-Redux-Node-Mongo Cards Website
 
 https://radiant-stream-78248.herokuapp.com/
 
