@@ -14,17 +14,17 @@ module.exports = [ { object: 'card',
     highres_image: true,
     image_uris:
      { small:
-        'https://img.scryfall.com/cards/small/en/pbok/1.jpg?1517813031',
+        'https://img.scryfall.com/cards/small/en/pbok/1.jpg?1552690323',
        normal:
-        'https://img.scryfall.com/cards/normal/en/pbok/1.jpg?1517813031',
+        'https://img.scryfall.com/cards/normal/en/pbok/1.jpg?1552690323',
        large:
-        'https://img.scryfall.com/cards/large/en/pbok/1.jpg?1517813031',
+        'https://img.scryfall.com/cards/large/en/pbok/1.jpg?1552690323',
        png:
-        'https://img.scryfall.com/cards/png/en/pbok/1.png?1517813031',
+        'https://img.scryfall.com/cards/png/en/pbok/1.png?1552690323',
        art_crop:
-        'https://img.scryfall.com/cards/art_crop/en/pbok/1.jpg?1517813031',
+        'https://img.scryfall.com/cards/art_crop/en/pbok/1.jpg?1552690323',
        border_crop:
-        'https://img.scryfall.com/cards/border_crop/en/pbok/1.jpg?1517813031' },
+        'https://img.scryfall.com/cards/border_crop/en/pbok/1.jpg?1552690323' },
     mana_cost: '{1}{U}{U}',
     cmc: 3,
     type_line: 'Legendary Planeswalker — Jace',
@@ -65,15 +65,14 @@ module.exports = [ { object: 'card',
      'https://api.scryfall.com/cards/search?order=released&q=oracleid%3Acc2b6e58-2d6f-495e-95f3-9496105c4cba&unique=prints',
     collector_number: '1',
     digital: false,
-    rarity: 'rare',
+    rarity: 'mythic',
     illustration_id: '29188e1f-bd20-4041-b0aa-00a8d1853364',
     artist: 'Aleksi Briclot',
     border_color: 'black',
     frame: '2003',
-    frame_effect: '',
     full_art: false,
     story_spotlight: false,
-    edhrec_rank: 725,
+    edhrec_rank: 710,
     related_uris:
      { tcgplayer_decks:
         'https://decks.tcgplayer.com/magic/deck/search?contains=Jace+Beleren&page=1&partner=Scryfall&utm_campaign=affiliate&utm_medium=scryfall&utm_source=scryfall',

@@ -106,7 +106,7 @@ module.exports = [ { object: 'card',
     frame_effect: 'sunmoondfc',
     full_art: false,
     story_spotlight: false,
-    edhrec_rank: 4443,
+    edhrec_rank: 4505,
     related_uris:
      { tcgplayer_decks:
         'https://decks.tcgplayer.com/magic/deck/search?contains=Mayor+of+Avabruck&page=1&partner=Scryfall&utm_campaign=affiliate&utm_medium=scryfall&utm_source=scryfall',
@@ -187,10 +187,9 @@ module.exports = [ { object: 'card',
     artist: 'Raymond Swanland',
     border_color: 'black',
     frame: '2003',
-    frame_effect: '',
     full_art: false,
     story_spotlight: false,
-    edhrec_rank: 2883,
+    edhrec_rank: 2938,
     related_uris:
      { tcgplayer_decks:
         'https://decks.tcgplayer.com/magic/deck/search?contains=Devil%27s+Play&page=1&partner=Scryfall&utm_campaign=affiliate&utm_medium=scryfall&utm_source=scryfall',
@@ -270,10 +269,9 @@ module.exports = [ { object: 'card',
     artist: 'Austin Hsu',
     border_color: 'black',
     frame: '2003',
-    frame_effect: '',
     full_art: true,
     story_spotlight: false,
-    edhrec_rank: 6995,
+    edhrec_rank: 7110,
     related_uris:
      { tcgplayer_decks:
         'https://decks.tcgplayer.com/magic/deck/search?contains=Diregraf+Ghoul&page=1&partner=Scryfall&utm_campaign=affiliate&utm_medium=scryfall&utm_source=scryfall',
@@ -389,7 +387,7 @@ module.exports = [ { object: 'card',
     frame_effect: 'sunmoondfc',
     full_art: false,
     story_spotlight: false,
-    edhrec_rank: 5638,
+    edhrec_rank: 5711,
     related_uris:
      { tcgplayer_decks:
         'https://decks.tcgplayer.com/magic/deck/search?contains=Ludevic%27s+Test+Subject&page=1&partner=Scryfall&utm_campaign=affiliate&utm_medium=scryfall&utm_source=scryfall',
@@ -470,10 +468,9 @@ module.exports = [ { object: 'card',
     artist: 'Igor Kieryluk',
     border_color: 'black',
     frame: '2003',
-    frame_effect: '',
     full_art: true,
     story_spotlight: false,
-    edhrec_rank: 6310,
+    edhrec_rank: 6476,
     related_uris:
      { tcgplayer_decks:
         'https://decks.tcgplayer.com/magic/deck/search?contains=Elite+Inquisitor&page=1&partner=Scryfall&utm_campaign=affiliate&utm_medium=scryfall&utm_source=scryfall',

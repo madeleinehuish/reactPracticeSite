@@ -73,10 +73,9 @@ module.exports = [ { object: 'card',
     artist: 'Wayne Reynolds',
     border_color: 'black',
     frame: '2003',
-    frame_effect: '',
     full_art: false,
     story_spotlight: false,
-    edhrec_rank: 5713,
+    edhrec_rank: 5741,
     related_uris:
      { tcgplayer_decks:
         'https://decks.tcgplayer.com/magic/deck/search?contains=Mad+Auntie&page=1&partner=Scryfall&utm_campaign=affiliate&utm_medium=scryfall&utm_source=scryfall',
@@ -99,17 +98,17 @@ module.exports = [ { object: 'card',
     highres_image: true,
     image_uris:
      { small:
-        'https://img.scryfall.com/cards/small/en/pjjt/2N08.jpg?1544792268',
+        'https://img.scryfall.com/cards/small/en/pjjt/2N08.jpg?1553216830',
        normal:
-        'https://img.scryfall.com/cards/normal/en/pjjt/2N08.jpg?1544792268',
+        'https://img.scryfall.com/cards/normal/en/pjjt/2N08.jpg?1553216830',
        large:
-        'https://img.scryfall.com/cards/large/en/pjjt/2N08.jpg?1544792268',
+        'https://img.scryfall.com/cards/large/en/pjjt/2N08.jpg?1553216830',
        png:
-        'https://img.scryfall.com/cards/png/en/pjjt/2N08.png?1544792268',
+        'https://img.scryfall.com/cards/png/en/pjjt/2N08.png?1553216830',
        art_crop:
-        'https://img.scryfall.com/cards/art_crop/en/pjjt/2N08.jpg?1544792268',
+        'https://img.scryfall.com/cards/art_crop/en/pjjt/2N08.jpg?1553216830',
        border_crop:
-        'https://img.scryfall.com/cards/border_crop/en/pjjt/2N08.jpg?1544792268' },
+        'https://img.scryfall.com/cards/border_crop/en/pjjt/2N08.jpg?1553216830' },
     mana_cost: '{1}{G}{G}',
     cmc: 3,
     type_line: 'Creature — Elf',
@@ -134,7 +133,7 @@ module.exports = [ { object: 'card',
     games: [ 'paper' ],
     reserved: false,
     foil: true,
-    nonfoil: true,
+    nonfoil: false,
     oversized: false,
     promo: true,
     reprint: true,
@@ -159,10 +158,9 @@ module.exports = [ { object: 'card',
     artist: 'Matt Cavotta',
     border_color: 'black',
     frame: '2003',
-    frame_effect: '',
     full_art: false,
     story_spotlight: false,
-    edhrec_rank: 2742,
+    edhrec_rank: 2745,
     related_uris:
      { tcgplayer_decks:
         'https://decks.tcgplayer.com/magic/deck/search?contains=Elvish+Champion&page=1&partner=Scryfall&utm_campaign=affiliate&utm_medium=scryfall&utm_source=scryfall',
@@ -185,17 +183,17 @@ module.exports = [ { object: 'card',
     highres_image: true,
     image_uris:
      { small:
-        'https://img.scryfall.com/cards/small/ja/pjjt/1N08.jpg?1544792278',
+        'https://img.scryfall.com/cards/small/ja/pjjt/1N08.jpg?1552690731',
        normal:
-        'https://img.scryfall.com/cards/normal/ja/pjjt/1N08.jpg?1544792278',
+        'https://img.scryfall.com/cards/normal/ja/pjjt/1N08.jpg?1552690731',
        large:
-        'https://img.scryfall.com/cards/large/ja/pjjt/1N08.jpg?1544792278',
+        'https://img.scryfall.com/cards/large/ja/pjjt/1N08.jpg?1552690731',
        png:
-        'https://img.scryfall.com/cards/png/ja/pjjt/1N08.png?1544792278',
+        'https://img.scryfall.com/cards/png/ja/pjjt/1N08.png?1552690731',
        art_crop:
-        'https://img.scryfall.com/cards/art_crop/ja/pjjt/1N08.jpg?1544792278',
+        'https://img.scryfall.com/cards/art_crop/ja/pjjt/1N08.jpg?1552690731',
        border_crop:
-        'https://img.scryfall.com/cards/border_crop/ja/pjjt/1N08.jpg?1544792278' },
+        'https://img.scryfall.com/cards/border_crop/ja/pjjt/1N08.jpg?1552690731' },
     mana_cost: '{1}{W}{W}',
     cmc: 3,
     type_line: 'Enchantment',
@@ -235,16 +233,16 @@ module.exports = [ { object: 'card',
     collector_number: '1N08',
     digital: false,
     rarity: 'rare',
+    watermark: 'japanjunior',
     flavor_text:
      'Once heard, the battle song of an angel becomes part of the listener forever.',
     illustration_id: '8f05bbfe-383a-454a-b8d3-94d7234797ba',
     artist: 'Raymond Swanland',
     border_color: 'black',
     frame: '2003',
-    frame_effect: '',
     full_art: false,
     story_spotlight: false,
-    edhrec_rank: 2936,
+    edhrec_rank: 3011,
     related_uris:
      { tcgplayer_decks:
         'https://decks.tcgplayer.com/magic/deck/search?contains=Glorious+Anthem&page=1&partner=Scryfall&utm_campaign=affiliate&utm_medium=scryfall&utm_source=scryfall',
@@ -327,10 +325,9 @@ module.exports = [ { object: 'card',
     artist: 'Alex Horley-Orlandelli',
     border_color: 'black',
     frame: '2003',
-    frame_effect: '',
     full_art: false,
     story_spotlight: false,
-    edhrec_rank: 15235,
+    edhrec_rank: 15526,
     related_uris:
      { tcgplayer_decks:
         'https://decks.tcgplayer.com/magic/deck/search?contains=Whirling+Dervish&page=1&partner=Scryfall&utm_campaign=affiliate&utm_medium=scryfall&utm_source=scryfall',
@@ -353,17 +350,17 @@ module.exports = [ { object: 'card',
     highres_image: true,
     image_uris:
      { small:
-        'https://img.scryfall.com/cards/small/ja/pjjt/1N07.jpg?1544792301',
+        'https://img.scryfall.com/cards/small/ja/pjjt/1N07.jpg?1552690723',
        normal:
-        'https://img.scryfall.com/cards/normal/ja/pjjt/1N07.jpg?1544792301',
+        'https://img.scryfall.com/cards/normal/ja/pjjt/1N07.jpg?1552690723',
        large:
-        'https://img.scryfall.com/cards/large/ja/pjjt/1N07.jpg?1544792301',
+        'https://img.scryfall.com/cards/large/ja/pjjt/1N07.jpg?1552690723',
        png:
-        'https://img.scryfall.com/cards/png/ja/pjjt/1N07.png?1544792301',
+        'https://img.scryfall.com/cards/png/ja/pjjt/1N07.png?1552690723',
        art_crop:
-        'https://img.scryfall.com/cards/art_crop/ja/pjjt/1N07.jpg?1544792301',
+        'https://img.scryfall.com/cards/art_crop/ja/pjjt/1N07.jpg?1552690723',
        border_crop:
-        'https://img.scryfall.com/cards/border_crop/ja/pjjt/1N07.jpg?1544792301' },
+        'https://img.scryfall.com/cards/border_crop/ja/pjjt/1N07.jpg?1552690723' },
     mana_cost: '{W}{W}',
     cmc: 2,
     type_line: 'Creature — Soltari Cleric',
@@ -406,16 +403,16 @@ module.exports = [ { object: 'card',
     collector_number: '1N07',
     digital: false,
     rarity: 'rare',
+    watermark: 'japanjunior',
     flavor_text:
      '"In Rath," the priest said, "there is even greater need for prayer."',
     illustration_id: '45ad8540-149f-4e9c-b7eb-6595f01f3622',
     artist: 'Dany Orizio',
     border_color: 'black',
     frame: '2003',
-    frame_effect: '',
     full_art: false,
     story_spotlight: false,
-    edhrec_rank: 10832,
+    edhrec_rank: 11131,
     related_uris:
      { tcgplayer_decks:
         'https://decks.tcgplayer.com/magic/deck/search?contains=Soltari+Priest&page=1&partner=Scryfall&utm_campaign=affiliate&utm_medium=scryfall&utm_source=scryfall',
@@ -496,10 +493,9 @@ module.exports = [ { object: 'card',
     artist: 'Ron Spencer',
     border_color: 'black',
     frame: '2003',
-    frame_effect: '',
     full_art: false,
     story_spotlight: false,
-    edhrec_rank: 9054,
+    edhrec_rank: 9242,
     related_uris:
      { tcgplayer_decks:
         'https://decks.tcgplayer.com/magic/deck/search?contains=Shard+Phoenix&page=1&partner=Scryfall&utm_campaign=affiliate&utm_medium=scryfall&utm_source=scryfall',
@@ -582,10 +578,9 @@ module.exports = [ { object: 'card',
     artist: 'Carl Critchlow',
     border_color: 'black',
     frame: '2003',
-    frame_effect: '',
     full_art: false,
     story_spotlight: false,
-    edhrec_rank: 33,
+    edhrec_rank: 32,
     related_uris:
      { tcgplayer_decks:
         'https://decks.tcgplayer.com/magic/deck/search?contains=Sakura-Tribe+Elder&page=1&partner=Scryfall&utm_campaign=affiliate&utm_medium=scryfall&utm_source=scryfall',
@@ -667,10 +662,9 @@ module.exports = [ { object: 'card',
     artist: 'Tom Wänerstrand',
     border_color: 'black',
     frame: '2003',
-    frame_effect: '',
     full_art: false,
     story_spotlight: false,
-    edhrec_rank: 2332,
+    edhrec_rank: 2381,
     related_uris:
      { tcgplayer_decks:
         'https://decks.tcgplayer.com/magic/deck/search?contains=Royal+Assassin&page=1&partner=Scryfall&utm_campaign=affiliate&utm_medium=scryfall&utm_source=scryfall',
@@ -753,10 +747,9 @@ module.exports = [ { object: 'card',
     artist: 'Justin Sweet',
     border_color: 'black',
     frame: '2003',
-    frame_effect: '',
     full_art: false,
     story_spotlight: false,
-    edhrec_rank: 11152,
+    edhrec_rank: 11386,
     related_uris:
      { tcgplayer_decks:
         'https://decks.tcgplayer.com/magic/deck/search?contains=Slith+Firewalker&page=1&partner=Scryfall&utm_campaign=affiliate&utm_medium=scryfall&utm_source=scryfall',
@@ -837,10 +830,9 @@ module.exports = [ { object: 'card',
     artist: 'Sam Wood',
     border_color: 'black',
     frame: '2003',
-    frame_effect: '',
     full_art: false,
     story_spotlight: false,
-    edhrec_rank: 8196,
+    edhrec_rank: 8430,
     related_uris:
      { tcgplayer_decks:
         'https://decks.tcgplayer.com/magic/deck/search?contains=Two-Headed+Dragon&page=1&partner=Scryfall&utm_campaign=affiliate&utm_medium=scryfall&utm_source=scryfall',
@@ -863,17 +855,17 @@ module.exports = [ { object: 'card',
     highres_image: true,
     image_uris:
      { small:
-        'https://img.scryfall.com/cards/small/ja/pjjt/1N04.jpg?1544792273',
+        'https://img.scryfall.com/cards/small/ja/pjjt/1N04.jpg?1552690711',
        normal:
-        'https://img.scryfall.com/cards/normal/ja/pjjt/1N04.jpg?1544792273',
+        'https://img.scryfall.com/cards/normal/ja/pjjt/1N04.jpg?1552690711',
        large:
-        'https://img.scryfall.com/cards/large/ja/pjjt/1N04.jpg?1544792273',
+        'https://img.scryfall.com/cards/large/ja/pjjt/1N04.jpg?1552690711',
        png:
-        'https://img.scryfall.com/cards/png/ja/pjjt/1N04.png?1544792273',
+        'https://img.scryfall.com/cards/png/ja/pjjt/1N04.png?1552690711',
        art_crop:
-        'https://img.scryfall.com/cards/art_crop/ja/pjjt/1N04.jpg?1544792273',
+        'https://img.scryfall.com/cards/art_crop/ja/pjjt/1N04.jpg?1552690711',
        border_crop:
-        'https://img.scryfall.com/cards/border_crop/ja/pjjt/1N04.jpg?1544792273' },
+        'https://img.scryfall.com/cards/border_crop/ja/pjjt/1N04.jpg?1552690711' },
     mana_cost: '{G}',
     cmc: 1,
     type_line: 'Instant',
@@ -882,7 +874,7 @@ module.exports = [ { object: 'card',
     color_identity: [ 'G' ],
     legalities:
      { standard: 'not_legal',
-       future: 'not_legal',
+       future: 'legal',
        frontier: 'not_legal',
        modern: 'legal',
        legacy: 'legal',
@@ -913,14 +905,14 @@ module.exports = [ { object: 'card',
     collector_number: '1N04',
     digital: false,
     rarity: 'rare',
+    watermark: 'japanjunior',
     illustration_id: '66a8c21b-7b1b-4288-9af1-8a96e7f12b40',
     artist: 'Terese Nielsen',
     border_color: 'black',
     frame: '2003',
-    frame_effect: '',
     full_art: false,
     story_spotlight: false,
-    edhrec_rank: 4774,
+    edhrec_rank: 4866,
     related_uris:
      { tcgplayer_decks:
         'https://decks.tcgplayer.com/magic/deck/search?contains=Giant+Growth&page=1&partner=Scryfall&utm_campaign=affiliate&utm_medium=scryfall&utm_source=scryfall',
@@ -1000,10 +992,9 @@ module.exports = [ { object: 'card',
     artist: 'Christopher Rush',
     border_color: 'black',
     frame: '1997',
-    frame_effect: '',
     full_art: false,
     story_spotlight: false,
-    edhrec_rank: 8840,
+    edhrec_rank: 9048,
     related_uris:
      { tcgplayer_decks:
         'https://decks.tcgplayer.com/magic/deck/search?contains=Volcanic+Hammer&page=1&partner=Scryfall&utm_campaign=affiliate&utm_medium=scryfall&utm_source=scryfall',

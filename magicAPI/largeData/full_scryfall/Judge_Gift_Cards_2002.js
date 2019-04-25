@@ -72,10 +72,9 @@ module.exports = [ { object: 'card',
     artist: 'John Matson',
     border_color: 'black',
     frame: '1997',
-    frame_effect: '',
     full_art: false,
     story_spotlight: false,
-    edhrec_rank: 8056,
+    edhrec_rank: 8294,
     related_uris:
      { tcgplayer_decks:
         'https://decks.tcgplayer.com/magic/deck/search?contains=Tradewind+Rider&page=1&partner=Scryfall&utm_campaign=affiliate&utm_medium=scryfall&utm_source=scryfall',
@@ -153,10 +152,9 @@ module.exports = [ { object: 'card',
     artist: 'Ron Spencer',
     border_color: 'black',
     frame: '1997',
-    frame_effect: '',
     full_art: false,
     story_spotlight: false,
-    edhrec_rank: 10112,
+    edhrec_rank: 10311,
     related_uris:
      { tcgplayer_decks:
         'https://decks.tcgplayer.com/magic/deck/search?contains=Hammer+of+Bogardan&page=1&partner=Scryfall&utm_campaign=affiliate&utm_medium=scryfall&utm_source=scryfall',

@@ -16,17 +16,17 @@ module.exports = [ { object: 'card',
     highres_image: true,
     image_uris:
      { small:
-        'https://img.scryfall.com/cards/small/en/rix/205.jpg?1524752975',
+        'https://img.scryfall.com/cards/small/front/9/3/93f6bd6b-92fb-4b4f-89c2-762cc2c465f3.jpg?1555041220',
        normal:
-        'https://img.scryfall.com/cards/normal/en/rix/205.jpg?1524752975',
+        'https://img.scryfall.com/cards/normal/front/9/3/93f6bd6b-92fb-4b4f-89c2-762cc2c465f3.jpg?1555041220',
        large:
-        'https://img.scryfall.com/cards/large/en/rix/205.jpg?1524752975',
+        'https://img.scryfall.com/cards/large/front/9/3/93f6bd6b-92fb-4b4f-89c2-762cc2c465f3.jpg?1555041220',
        png:
-        'https://img.scryfall.com/cards/png/en/rix/205.png?1524752975',
+        'https://img.scryfall.com/cards/png/front/9/3/93f6bd6b-92fb-4b4f-89c2-762cc2c465f3.png?1555041220',
        art_crop:
-        'https://img.scryfall.com/cards/art_crop/en/rix/205.jpg?1524752975',
+        'https://img.scryfall.com/cards/art_crop/front/9/3/93f6bd6b-92fb-4b4f-89c2-762cc2c465f3.jpg?1555041220',
        border_crop:
-        'https://img.scryfall.com/cards/border_crop/en/rix/205.jpg?1524752975' },
+        'https://img.scryfall.com/cards/border_crop/front/9/3/93f6bd6b-92fb-4b4f-89c2-762cc2c465f3.jpg?1555041220' },
     mana_cost: '',
     cmc: 0,
     type_line: 'Land',
@@ -73,10 +73,9 @@ module.exports = [ { object: 'card',
     artist: 'Jonas De Ro',
     border_color: 'black',
     frame: '2015',
-    frame_effect: '',
     full_art: false,
     story_spotlight: false,
-    edhrec_rank: 1823,
+    edhrec_rank: 1772,
     related_uris:
      { gatherer:
         'http://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=441899',
@@ -104,17 +103,17 @@ module.exports = [ { object: 'card',
     highres_image: true,
     image_uris:
      { small:
-        'https://img.scryfall.com/cards/small/en/rix/204.jpg?1524752960',
+        'https://img.scryfall.com/cards/small/front/7/0/708006ba-d494-4093-b108-8249b110831e.jpg?1555041214',
        normal:
-        'https://img.scryfall.com/cards/normal/en/rix/204.jpg?1524752960',
+        'https://img.scryfall.com/cards/normal/front/7/0/708006ba-d494-4093-b108-8249b110831e.jpg?1555041214',
        large:
-        'https://img.scryfall.com/cards/large/en/rix/204.jpg?1524752960',
+        'https://img.scryfall.com/cards/large/front/7/0/708006ba-d494-4093-b108-8249b110831e.jpg?1555041214',
        png:
-        'https://img.scryfall.com/cards/png/en/rix/204.png?1524752960',
+        'https://img.scryfall.com/cards/png/front/7/0/708006ba-d494-4093-b108-8249b110831e.png?1555041214',
        art_crop:
-        'https://img.scryfall.com/cards/art_crop/en/rix/204.jpg?1524752960',
+        'https://img.scryfall.com/cards/art_crop/front/7/0/708006ba-d494-4093-b108-8249b110831e.jpg?1555041214',
        border_crop:
-        'https://img.scryfall.com/cards/border_crop/en/rix/204.jpg?1524752960' },
+        'https://img.scryfall.com/cards/border_crop/front/7/0/708006ba-d494-4093-b108-8249b110831e.jpg?1555041214' },
     mana_cost: '{3}{B}{R}',
     cmc: 5,
     type_line: 'Sorcery',
@@ -174,10 +173,9 @@ module.exports = [ { object: 'card',
     artist: 'Lake Hurwitz',
     border_color: 'black',
     frame: '2015',
-    frame_effect: '',
     full_art: false,
     story_spotlight: false,
-    edhrec_rank: 8577,
+    edhrec_rank: 8887,
     related_uris:
      { gatherer:
         'http://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=441898',
@@ -205,17 +203,17 @@ module.exports = [ { object: 'card',
     highres_image: true,
     image_uris:
      { small:
-        'https://img.scryfall.com/cards/small/en/rix/203.jpg?1524752947',
+        'https://img.scryfall.com/cards/small/front/0/4/0403b8e5-29c5-4a4a-b9e7-1e79a7452f14.jpg?1555041207',
        normal:
-        'https://img.scryfall.com/cards/normal/en/rix/203.jpg?1524752947',
+        'https://img.scryfall.com/cards/normal/front/0/4/0403b8e5-29c5-4a4a-b9e7-1e79a7452f14.jpg?1555041207',
        large:
-        'https://img.scryfall.com/cards/large/en/rix/203.jpg?1524752947',
+        'https://img.scryfall.com/cards/large/front/0/4/0403b8e5-29c5-4a4a-b9e7-1e79a7452f14.jpg?1555041207',
        png:
-        'https://img.scryfall.com/cards/png/en/rix/203.png?1524752947',
+        'https://img.scryfall.com/cards/png/front/0/4/0403b8e5-29c5-4a4a-b9e7-1e79a7452f14.png?1555041207',
        art_crop:
-        'https://img.scryfall.com/cards/art_crop/en/rix/203.jpg?1524752947',
+        'https://img.scryfall.com/cards/art_crop/front/0/4/0403b8e5-29c5-4a4a-b9e7-1e79a7452f14.jpg?1555041207',
        border_crop:
-        'https://img.scryfall.com/cards/border_crop/en/rix/203.jpg?1524752947' },
+        'https://img.scryfall.com/cards/border_crop/front/0/4/0403b8e5-29c5-4a4a-b9e7-1e79a7452f14.jpg?1555041207' },
     mana_cost: '{1}{R}',
     cmc: 2,
     type_line: 'Creature — Goblin Pirate',
@@ -263,10 +261,9 @@ module.exports = [ { object: 'card',
     artist: 'Josu Hernaiz',
     border_color: 'black',
     frame: '2015',
-    frame_effect: '',
     full_art: false,
     story_spotlight: false,
-    edhrec_rank: 13822,
+    edhrec_rank: 14024,
     related_uris:
      { gatherer:
         'http://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=441897',
@@ -294,17 +291,17 @@ module.exports = [ { object: 'card',
     highres_image: true,
     image_uris:
      { small:
-        'https://img.scryfall.com/cards/small/en/rix/202.jpg?1524752930',
+        'https://img.scryfall.com/cards/small/front/4/8/48181263-11fd-444e-9fef-02ccfe016c8c.jpg?1555041198',
        normal:
-        'https://img.scryfall.com/cards/normal/en/rix/202.jpg?1524752930',
+        'https://img.scryfall.com/cards/normal/front/4/8/48181263-11fd-444e-9fef-02ccfe016c8c.jpg?1555041198',
        large:
-        'https://img.scryfall.com/cards/large/en/rix/202.jpg?1524752930',
+        'https://img.scryfall.com/cards/large/front/4/8/48181263-11fd-444e-9fef-02ccfe016c8c.jpg?1555041198',
        png:
-        'https://img.scryfall.com/cards/png/en/rix/202.png?1524752930',
+        'https://img.scryfall.com/cards/png/front/4/8/48181263-11fd-444e-9fef-02ccfe016c8c.png?1555041198',
        art_crop:
-        'https://img.scryfall.com/cards/art_crop/en/rix/202.jpg?1524752930',
+        'https://img.scryfall.com/cards/art_crop/front/4/8/48181263-11fd-444e-9fef-02ccfe016c8c.jpg?1555041198',
        border_crop:
-        'https://img.scryfall.com/cards/border_crop/en/rix/202.jpg?1524752930' },
+        'https://img.scryfall.com/cards/border_crop/front/4/8/48181263-11fd-444e-9fef-02ccfe016c8c.jpg?1555041198' },
     mana_cost: '{2}{B}',
     cmc: 3,
     type_line: 'Creature — Orc Pirate',
@@ -353,10 +350,9 @@ module.exports = [ { object: 'card',
     artist: 'David Palumbo',
     border_color: 'black',
     frame: '2015',
-    frame_effect: '',
     full_art: false,
     story_spotlight: false,
-    edhrec_rank: 14735,
+    edhrec_rank: 15230,
     related_uris:
      { gatherer:
         'http://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=441896',
@@ -384,17 +380,17 @@ module.exports = [ { object: 'card',
     highres_image: true,
     image_uris:
      { small:
-        'https://img.scryfall.com/cards/small/en/rix/201.jpg?1524752920',
+        'https://img.scryfall.com/cards/small/front/f/1/f17103dd-f31b-4f6e-b2ea-4ea91815bdd6.jpg?1555041190',
        normal:
-        'https://img.scryfall.com/cards/normal/en/rix/201.jpg?1524752920',
+        'https://img.scryfall.com/cards/normal/front/f/1/f17103dd-f31b-4f6e-b2ea-4ea91815bdd6.jpg?1555041190',
        large:
-        'https://img.scryfall.com/cards/large/en/rix/201.jpg?1524752920',
+        'https://img.scryfall.com/cards/large/front/f/1/f17103dd-f31b-4f6e-b2ea-4ea91815bdd6.jpg?1555041190',
        png:
-        'https://img.scryfall.com/cards/png/en/rix/201.png?1524752920',
+        'https://img.scryfall.com/cards/png/front/f/1/f17103dd-f31b-4f6e-b2ea-4ea91815bdd6.png?1555041190',
        art_crop:
-        'https://img.scryfall.com/cards/art_crop/en/rix/201.jpg?1524752920',
+        'https://img.scryfall.com/cards/art_crop/front/f/1/f17103dd-f31b-4f6e-b2ea-4ea91815bdd6.jpg?1555041190',
        border_crop:
-        'https://img.scryfall.com/cards/border_crop/en/rix/201.jpg?1524752920' },
+        'https://img.scryfall.com/cards/border_crop/front/f/1/f17103dd-f31b-4f6e-b2ea-4ea91815bdd6.jpg?1555041190' },
     mana_cost: '{4}{B}{R}',
     cmc: 6,
     type_line: 'Legendary Planeswalker — Angrath',
@@ -455,10 +451,9 @@ module.exports = [ { object: 'card',
     artist: 'Chris Rahn',
     border_color: 'black',
     frame: '2015',
-    frame_effect: '',
     full_art: false,
     story_spotlight: false,
-    edhrec_rank: 5443,
+    edhrec_rank: 5683,
     related_uris:
      { gatherer:
         'http://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=441895',
@@ -486,17 +481,17 @@ module.exports = [ { object: 'card',
     highres_image: true,
     image_uris:
      { small:
-        'https://img.scryfall.com/cards/small/en/rix/200.jpg?1524752892',
+        'https://img.scryfall.com/cards/small/front/5/6/569ff807-365d-4f25-9fad-86617ed1c8f2.jpg?1555041181',
        normal:
-        'https://img.scryfall.com/cards/normal/en/rix/200.jpg?1524752892',
+        'https://img.scryfall.com/cards/normal/front/5/6/569ff807-365d-4f25-9fad-86617ed1c8f2.jpg?1555041181',
        large:
-        'https://img.scryfall.com/cards/large/en/rix/200.jpg?1524752892',
+        'https://img.scryfall.com/cards/large/front/5/6/569ff807-365d-4f25-9fad-86617ed1c8f2.jpg?1555041181',
        png:
-        'https://img.scryfall.com/cards/png/en/rix/200.png?1524752892',
+        'https://img.scryfall.com/cards/png/front/5/6/569ff807-365d-4f25-9fad-86617ed1c8f2.png?1555041181',
        art_crop:
-        'https://img.scryfall.com/cards/art_crop/en/rix/200.jpg?1524752892',
+        'https://img.scryfall.com/cards/art_crop/front/5/6/569ff807-365d-4f25-9fad-86617ed1c8f2.jpg?1555041181',
        border_crop:
-        'https://img.scryfall.com/cards/border_crop/en/rix/200.jpg?1524752892' },
+        'https://img.scryfall.com/cards/border_crop/front/5/6/569ff807-365d-4f25-9fad-86617ed1c8f2.jpg?1555041181' },
     mana_cost: '{2}{B}{B}',
     cmc: 4,
     type_line: 'Sorcery',
@@ -556,10 +551,9 @@ module.exports = [ { object: 'card',
     artist: 'James Ryman',
     border_color: 'black',
     frame: '2015',
-    frame_effect: '',
     full_art: false,
     story_spotlight: false,
-    edhrec_rank: 10952,
+    edhrec_rank: 11123,
     related_uris:
      { gatherer:
         'http://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=441894',
@@ -587,17 +581,17 @@ module.exports = [ { object: 'card',
     highres_image: true,
     image_uris:
      { small:
-        'https://img.scryfall.com/cards/small/en/rix/199.jpg?1524752878',
+        'https://img.scryfall.com/cards/small/front/4/d/4d890a17-ffd4-4bda-bef3-2c116f7bf66f.jpg?1555041175',
        normal:
-        'https://img.scryfall.com/cards/normal/en/rix/199.jpg?1524752878',
+        'https://img.scryfall.com/cards/normal/front/4/d/4d890a17-ffd4-4bda-bef3-2c116f7bf66f.jpg?1555041175',
        large:
-        'https://img.scryfall.com/cards/large/en/rix/199.jpg?1524752878',
+        'https://img.scryfall.com/cards/large/front/4/d/4d890a17-ffd4-4bda-bef3-2c116f7bf66f.jpg?1555041175',
        png:
-        'https://img.scryfall.com/cards/png/en/rix/199.png?1524752878',
+        'https://img.scryfall.com/cards/png/front/4/d/4d890a17-ffd4-4bda-bef3-2c116f7bf66f.png?1555041175',
        art_crop:
-        'https://img.scryfall.com/cards/art_crop/en/rix/199.jpg?1524752878',
+        'https://img.scryfall.com/cards/art_crop/front/4/d/4d890a17-ffd4-4bda-bef3-2c116f7bf66f.jpg?1555041175',
        border_crop:
-        'https://img.scryfall.com/cards/border_crop/en/rix/199.jpg?1524752878' },
+        'https://img.scryfall.com/cards/border_crop/front/4/d/4d890a17-ffd4-4bda-bef3-2c116f7bf66f.jpg?1555041175' },
     mana_cost: '{1}{B}',
     cmc: 2,
     type_line: 'Creature — Vampire Soldier',
@@ -646,10 +640,9 @@ module.exports = [ { object: 'card',
     artist: 'Sidharth Chaturvedi',
     border_color: 'black',
     frame: '2015',
-    frame_effect: '',
     full_art: false,
     story_spotlight: false,
-    edhrec_rank: 15489,
+    edhrec_rank: 16231,
     related_uris:
      { gatherer:
         'http://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=441893',
@@ -677,17 +670,17 @@ module.exports = [ { object: 'card',
     highres_image: true,
     image_uris:
      { small:
-        'https://img.scryfall.com/cards/small/en/rix/198.jpg?1524752867',
+        'https://img.scryfall.com/cards/small/front/d/4/d47f91ff-c916-4938-8e01-2c684004dd9a.jpg?1555041165',
        normal:
-        'https://img.scryfall.com/cards/normal/en/rix/198.jpg?1524752867',
+        'https://img.scryfall.com/cards/normal/front/d/4/d47f91ff-c916-4938-8e01-2c684004dd9a.jpg?1555041165',
        large:
-        'https://img.scryfall.com/cards/large/en/rix/198.jpg?1524752867',
+        'https://img.scryfall.com/cards/large/front/d/4/d47f91ff-c916-4938-8e01-2c684004dd9a.jpg?1555041165',
        png:
-        'https://img.scryfall.com/cards/png/en/rix/198.png?1524752867',
+        'https://img.scryfall.com/cards/png/front/d/4/d47f91ff-c916-4938-8e01-2c684004dd9a.png?1555041165',
        art_crop:
-        'https://img.scryfall.com/cards/art_crop/en/rix/198.jpg?1524752867',
+        'https://img.scryfall.com/cards/art_crop/front/d/4/d47f91ff-c916-4938-8e01-2c684004dd9a.jpg?1555041165',
        border_crop:
-        'https://img.scryfall.com/cards/border_crop/en/rix/198.jpg?1524752867' },
+        'https://img.scryfall.com/cards/border_crop/front/d/4/d47f91ff-c916-4938-8e01-2c684004dd9a.jpg?1555041165' },
     mana_cost: '{3}{B}',
     cmc: 4,
     type_line: 'Creature — Vampire Soldier',
@@ -736,10 +729,9 @@ module.exports = [ { object: 'card',
     artist: 'Craig J Spearing',
     border_color: 'black',
     frame: '2015',
-    frame_effect: '',
     full_art: false,
     story_spotlight: false,
-    edhrec_rank: 12163,
+    edhrec_rank: 12395,
     related_uris:
      { gatherer:
         'http://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=441892',
@@ -767,17 +759,17 @@ module.exports = [ { object: 'card',
     highres_image: true,
     image_uris:
      { small:
-        'https://img.scryfall.com/cards/small/en/rix/197.jpg?1524752846',
+        'https://img.scryfall.com/cards/small/front/9/1/91685732-c118-4f52-ac77-f96866a687a3.jpg?1555041155',
        normal:
-        'https://img.scryfall.com/cards/normal/en/rix/197.jpg?1524752846',
+        'https://img.scryfall.com/cards/normal/front/9/1/91685732-c118-4f52-ac77-f96866a687a3.jpg?1555041155',
        large:
-        'https://img.scryfall.com/cards/large/en/rix/197.jpg?1524752846',
+        'https://img.scryfall.com/cards/large/front/9/1/91685732-c118-4f52-ac77-f96866a687a3.jpg?1555041155',
        png:
-        'https://img.scryfall.com/cards/png/en/rix/197.png?1524752846',
+        'https://img.scryfall.com/cards/png/front/9/1/91685732-c118-4f52-ac77-f96866a687a3.png?1555041155',
        art_crop:
-        'https://img.scryfall.com/cards/art_crop/en/rix/197.jpg?1524752846',
+        'https://img.scryfall.com/cards/art_crop/front/9/1/91685732-c118-4f52-ac77-f96866a687a3.jpg?1555041155',
        border_crop:
-        'https://img.scryfall.com/cards/border_crop/en/rix/197.jpg?1524752846' },
+        'https://img.scryfall.com/cards/border_crop/front/9/1/91685732-c118-4f52-ac77-f96866a687a3.jpg?1555041155' },
     mana_cost: '{4}{B}{B}',
     cmc: 6,
     type_line: 'Legendary Planeswalker — Vraska',
@@ -838,10 +830,9 @@ module.exports = [ { object: 'card',
     artist: 'Grzegorz Rutkowski',
     border_color: 'black',
     frame: '2015',
-    frame_effect: '',
     full_art: false,
     story_spotlight: false,
-    edhrec_rank: 5482,
+    edhrec_rank: 5660,
     related_uris:
      { gatherer:
         'http://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=441891',
@@ -868,17 +859,17 @@ module.exports = [ { object: 'card',
     highres_image: true,
     image_uris:
      { small:
-        'https://img.scryfall.com/cards/small/en/rix/196.jpg?1524752831',
+        'https://img.scryfall.com/cards/small/front/9/2/92c9e16d-525b-4ba9-890d-fa2719206ba0.jpg?1555041148',
        normal:
-        'https://img.scryfall.com/cards/normal/en/rix/196.jpg?1524752831',
+        'https://img.scryfall.com/cards/normal/front/9/2/92c9e16d-525b-4ba9-890d-fa2719206ba0.jpg?1555041148',
        large:
-        'https://img.scryfall.com/cards/large/en/rix/196.jpg?1524752831',
+        'https://img.scryfall.com/cards/large/front/9/2/92c9e16d-525b-4ba9-890d-fa2719206ba0.jpg?1555041148',
        png:
-        'https://img.scryfall.com/cards/png/en/rix/196.png?1524752831',
+        'https://img.scryfall.com/cards/png/front/9/2/92c9e16d-525b-4ba9-890d-fa2719206ba0.png?1555041148',
        art_crop:
-        'https://img.scryfall.com/cards/art_crop/en/rix/196.jpg?1524752831',
+        'https://img.scryfall.com/cards/art_crop/front/9/2/92c9e16d-525b-4ba9-890d-fa2719206ba0.jpg?1555041148',
        border_crop:
-        'https://img.scryfall.com/cards/border_crop/en/rix/196.jpg?1524752831' },
+        'https://img.scryfall.com/cards/border_crop/front/9/2/92c9e16d-525b-4ba9-890d-fa2719206ba0.jpg?1555041148' },
     mana_cost: '',
     cmc: 0,
     type_line: 'Basic Land — Forest',
@@ -922,7 +913,6 @@ module.exports = [ { object: 'card',
     artist: 'Dimitar Marinski',
     border_color: 'black',
     frame: '2015',
-    frame_effect: '',
     full_art: false,
     story_spotlight: false,
     related_uris:
@@ -951,17 +941,17 @@ module.exports = [ { object: 'card',
     highres_image: true,
     image_uris:
      { small:
-        'https://img.scryfall.com/cards/small/en/rix/195.jpg?1524752819',
+        'https://img.scryfall.com/cards/small/front/5/f/5fd9acc5-0088-4621-8f48-e997da5f27c5.jpg?1555041140',
        normal:
-        'https://img.scryfall.com/cards/normal/en/rix/195.jpg?1524752819',
+        'https://img.scryfall.com/cards/normal/front/5/f/5fd9acc5-0088-4621-8f48-e997da5f27c5.jpg?1555041140',
        large:
-        'https://img.scryfall.com/cards/large/en/rix/195.jpg?1524752819',
+        'https://img.scryfall.com/cards/large/front/5/f/5fd9acc5-0088-4621-8f48-e997da5f27c5.jpg?1555041140',
        png:
-        'https://img.scryfall.com/cards/png/en/rix/195.png?1524752819',
+        'https://img.scryfall.com/cards/png/front/5/f/5fd9acc5-0088-4621-8f48-e997da5f27c5.png?1555041140',
        art_crop:
-        'https://img.scryfall.com/cards/art_crop/en/rix/195.jpg?1524752819',
+        'https://img.scryfall.com/cards/art_crop/front/5/f/5fd9acc5-0088-4621-8f48-e997da5f27c5.jpg?1555041140',
        border_crop:
-        'https://img.scryfall.com/cards/border_crop/en/rix/195.jpg?1524752819' },
+        'https://img.scryfall.com/cards/border_crop/front/5/f/5fd9acc5-0088-4621-8f48-e997da5f27c5.jpg?1555041140' },
     mana_cost: '',
     cmc: 0,
     type_line: 'Basic Land — Mountain',
@@ -1005,7 +995,6 @@ module.exports = [ { object: 'card',
     artist: 'Dimitar Marinski',
     border_color: 'black',
     frame: '2015',
-    frame_effect: '',
     full_art: false,
     story_spotlight: false,
     related_uris:
@@ -1034,17 +1023,17 @@ module.exports = [ { object: 'card',
     highres_image: true,
     image_uris:
      { small:
-        'https://img.scryfall.com/cards/small/en/rix/194.jpg?1524752803',
+        'https://img.scryfall.com/cards/small/front/6/7/674de0e1-be2d-4fda-8519-8775802a7b36.jpg?1555041133',
        normal:
-        'https://img.scryfall.com/cards/normal/en/rix/194.jpg?1524752803',
+        'https://img.scryfall.com/cards/normal/front/6/7/674de0e1-be2d-4fda-8519-8775802a7b36.jpg?1555041133',
        large:
-        'https://img.scryfall.com/cards/large/en/rix/194.jpg?1524752803',
+        'https://img.scryfall.com/cards/large/front/6/7/674de0e1-be2d-4fda-8519-8775802a7b36.jpg?1555041133',
        png:
-        'https://img.scryfall.com/cards/png/en/rix/194.png?1524752803',
+        'https://img.scryfall.com/cards/png/front/6/7/674de0e1-be2d-4fda-8519-8775802a7b36.png?1555041133',
        art_crop:
-        'https://img.scryfall.com/cards/art_crop/en/rix/194.jpg?1524752803',
+        'https://img.scryfall.com/cards/art_crop/front/6/7/674de0e1-be2d-4fda-8519-8775802a7b36.jpg?1555041133',
        border_crop:
-        'https://img.scryfall.com/cards/border_crop/en/rix/194.jpg?1524752803' },
+        'https://img.scryfall.com/cards/border_crop/front/6/7/674de0e1-be2d-4fda-8519-8775802a7b36.jpg?1555041133' },
     mana_cost: '',
     cmc: 0,
     type_line: 'Basic Land — Swamp',
@@ -1088,7 +1077,6 @@ module.exports = [ { object: 'card',
     artist: 'Dimitar Marinski',
     border_color: 'black',
     frame: '2015',
-    frame_effect: '',
     full_art: false,
     story_spotlight: false,
     related_uris:
@@ -1117,17 +1105,17 @@ module.exports = [ { object: 'card',
     highres_image: true,
     image_uris:
      { small:
-        'https://img.scryfall.com/cards/small/en/rix/193.jpg?1524752791',
+        'https://img.scryfall.com/cards/small/front/b/2/b22fb908-e616-48ce-a388-46eabe26221a.jpg?1555041126',
        normal:
-        'https://img.scryfall.com/cards/normal/en/rix/193.jpg?1524752791',
+        'https://img.scryfall.com/cards/normal/front/b/2/b22fb908-e616-48ce-a388-46eabe26221a.jpg?1555041126',
        large:
-        'https://img.scryfall.com/cards/large/en/rix/193.jpg?1524752791',
+        'https://img.scryfall.com/cards/large/front/b/2/b22fb908-e616-48ce-a388-46eabe26221a.jpg?1555041126',
        png:
-        'https://img.scryfall.com/cards/png/en/rix/193.png?1524752791',
+        'https://img.scryfall.com/cards/png/front/b/2/b22fb908-e616-48ce-a388-46eabe26221a.png?1555041126',
        art_crop:
-        'https://img.scryfall.com/cards/art_crop/en/rix/193.jpg?1524752791',
+        'https://img.scryfall.com/cards/art_crop/front/b/2/b22fb908-e616-48ce-a388-46eabe26221a.jpg?1555041126',
        border_crop:
-        'https://img.scryfall.com/cards/border_crop/en/rix/193.jpg?1524752791' },
+        'https://img.scryfall.com/cards/border_crop/front/b/2/b22fb908-e616-48ce-a388-46eabe26221a.jpg?1555041126' },
     mana_cost: '',
     cmc: 0,
     type_line: 'Basic Land — Island',
@@ -1171,7 +1159,6 @@ module.exports = [ { object: 'card',
     artist: 'Dimitar Marinski',
     border_color: 'black',
     frame: '2015',
-    frame_effect: '',
     full_art: false,
     story_spotlight: false,
     related_uris:
@@ -1200,17 +1187,17 @@ module.exports = [ { object: 'card',
     highres_image: true,
     image_uris:
      { small:
-        'https://img.scryfall.com/cards/small/en/rix/192.jpg?1524752775',
+        'https://img.scryfall.com/cards/small/front/9/2/92342f45-ccfe-4d94-82ba-2fd55128326f.jpg?1555041119',
        normal:
-        'https://img.scryfall.com/cards/normal/en/rix/192.jpg?1524752775',
+        'https://img.scryfall.com/cards/normal/front/9/2/92342f45-ccfe-4d94-82ba-2fd55128326f.jpg?1555041119',
        large:
-        'https://img.scryfall.com/cards/large/en/rix/192.jpg?1524752775',
+        'https://img.scryfall.com/cards/large/front/9/2/92342f45-ccfe-4d94-82ba-2fd55128326f.jpg?1555041119',
        png:
-        'https://img.scryfall.com/cards/png/en/rix/192.png?1524752775',
+        'https://img.scryfall.com/cards/png/front/9/2/92342f45-ccfe-4d94-82ba-2fd55128326f.png?1555041119',
        art_crop:
-        'https://img.scryfall.com/cards/art_crop/en/rix/192.jpg?1524752775',
+        'https://img.scryfall.com/cards/art_crop/front/9/2/92342f45-ccfe-4d94-82ba-2fd55128326f.jpg?1555041119',
        border_crop:
-        'https://img.scryfall.com/cards/border_crop/en/rix/192.jpg?1524752775' },
+        'https://img.scryfall.com/cards/border_crop/front/9/2/92342f45-ccfe-4d94-82ba-2fd55128326f.jpg?1555041119' },
     mana_cost: '',
     cmc: 0,
     type_line: 'Basic Land — Plains',
@@ -1254,7 +1241,6 @@ module.exports = [ { object: 'card',
     artist: 'Dimitar Marinski',
     border_color: 'black',
     frame: '2015',
-    frame_effect: '',
     full_art: false,
     story_spotlight: false,
     related_uris:
@@ -1284,17 +1270,17 @@ module.exports = [ { object: 'card',
     highres_image: true,
     image_uris:
      { small:
-        'https://img.scryfall.com/cards/small/en/rix/191.jpg?1524752758',
+        'https://img.scryfall.com/cards/small/front/d/1/d1f14b4d-b90e-4ce4-aa32-13c9969aa46a.jpg?1555041110',
        normal:
-        'https://img.scryfall.com/cards/normal/en/rix/191.jpg?1524752758',
+        'https://img.scryfall.com/cards/normal/front/d/1/d1f14b4d-b90e-4ce4-aa32-13c9969aa46a.jpg?1555041110',
        large:
-        'https://img.scryfall.com/cards/large/en/rix/191.jpg?1524752758',
+        'https://img.scryfall.com/cards/large/front/d/1/d1f14b4d-b90e-4ce4-aa32-13c9969aa46a.jpg?1555041110',
        png:
-        'https://img.scryfall.com/cards/png/en/rix/191.png?1524752758',
+        'https://img.scryfall.com/cards/png/front/d/1/d1f14b4d-b90e-4ce4-aa32-13c9969aa46a.png?1555041110',
        art_crop:
-        'https://img.scryfall.com/cards/art_crop/en/rix/191.jpg?1524752758',
+        'https://img.scryfall.com/cards/art_crop/front/d/1/d1f14b4d-b90e-4ce4-aa32-13c9969aa46a.jpg?1555041110',
        border_crop:
-        'https://img.scryfall.com/cards/border_crop/en/rix/191.jpg?1524752758' },
+        'https://img.scryfall.com/cards/border_crop/front/d/1/d1f14b4d-b90e-4ce4-aa32-13c9969aa46a.jpg?1555041110' },
     mana_cost: '',
     cmc: 0,
     type_line: 'Land',
@@ -1341,10 +1327,9 @@ module.exports = [ { object: 'card',
     artist: 'James Paick',
     border_color: 'black',
     frame: '2015',
-    frame_effect: '',
     full_art: false,
     story_spotlight: false,
-    edhrec_rank: 1407,
+    edhrec_rank: 1336,
     related_uris:
      { gatherer:
         'http://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=439855',
@@ -1372,17 +1357,17 @@ module.exports = [ { object: 'card',
     highres_image: true,
     image_uris:
      { small:
-        'https://img.scryfall.com/cards/small/en/rix/190.jpg?1524752745',
+        'https://img.scryfall.com/cards/small/front/3/1/315e782c-2159-4e8d-b2d7-9f96b7609db4.jpg?1555041101',
        normal:
-        'https://img.scryfall.com/cards/normal/en/rix/190.jpg?1524752745',
+        'https://img.scryfall.com/cards/normal/front/3/1/315e782c-2159-4e8d-b2d7-9f96b7609db4.jpg?1555041101',
        large:
-        'https://img.scryfall.com/cards/large/en/rix/190.jpg?1524752745',
+        'https://img.scryfall.com/cards/large/front/3/1/315e782c-2159-4e8d-b2d7-9f96b7609db4.jpg?1555041101',
        png:
-        'https://img.scryfall.com/cards/png/en/rix/190.png?1524752745',
+        'https://img.scryfall.com/cards/png/front/3/1/315e782c-2159-4e8d-b2d7-9f96b7609db4.png?1555041101',
        art_crop:
-        'https://img.scryfall.com/cards/art_crop/en/rix/190.jpg?1524752745',
+        'https://img.scryfall.com/cards/art_crop/front/3/1/315e782c-2159-4e8d-b2d7-9f96b7609db4.jpg?1555041101',
        border_crop:
-        'https://img.scryfall.com/cards/border_crop/en/rix/190.jpg?1524752745' },
+        'https://img.scryfall.com/cards/border_crop/front/3/1/315e782c-2159-4e8d-b2d7-9f96b7609db4.jpg?1555041101' },
     mana_cost: '',
     cmc: 0,
     type_line: 'Land',
@@ -1429,10 +1414,9 @@ module.exports = [ { object: 'card',
     artist: 'Noah Bradley',
     border_color: 'black',
     frame: '2015',
-    frame_effect: '',
     full_art: false,
     story_spotlight: false,
-    edhrec_rank: 1511,
+    edhrec_rank: 1497,
     related_uris:
      { gatherer:
         'http://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=439854',
@@ -1460,17 +1444,17 @@ module.exports = [ { object: 'card',
     highres_image: true,
     image_uris:
      { small:
-        'https://img.scryfall.com/cards/small/en/rix/189.jpg?1524752722',
+        'https://img.scryfall.com/cards/small/front/3/4/344f5678-d25b-40af-aa91-b0eed90fd037.jpg?1555041094',
        normal:
-        'https://img.scryfall.com/cards/normal/en/rix/189.jpg?1524752722',
+        'https://img.scryfall.com/cards/normal/front/3/4/344f5678-d25b-40af-aa91-b0eed90fd037.jpg?1555041094',
        large:
-        'https://img.scryfall.com/cards/large/en/rix/189.jpg?1524752722',
+        'https://img.scryfall.com/cards/large/front/3/4/344f5678-d25b-40af-aa91-b0eed90fd037.jpg?1555041094',
        png:
-        'https://img.scryfall.com/cards/png/en/rix/189.png?1524752722',
+        'https://img.scryfall.com/cards/png/front/3/4/344f5678-d25b-40af-aa91-b0eed90fd037.png?1555041094',
        art_crop:
-        'https://img.scryfall.com/cards/art_crop/en/rix/189.jpg?1524752722',
+        'https://img.scryfall.com/cards/art_crop/front/3/4/344f5678-d25b-40af-aa91-b0eed90fd037.jpg?1555041094',
        border_crop:
-        'https://img.scryfall.com/cards/border_crop/en/rix/189.jpg?1524752722' },
+        'https://img.scryfall.com/cards/border_crop/front/3/4/344f5678-d25b-40af-aa91-b0eed90fd037.jpg?1555041094' },
     mana_cost: '',
     cmc: 0,
     type_line: 'Land',
@@ -1517,10 +1501,9 @@ module.exports = [ { object: 'card',
     artist: 'Noah Bradley',
     border_color: 'black',
     frame: '2015',
-    frame_effect: '',
     full_art: false,
     story_spotlight: false,
-    edhrec_rank: 1284,
+    edhrec_rank: 1195,
     related_uris:
      { gatherer:
         'http://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=439853',
@@ -1548,17 +1531,17 @@ module.exports = [ { object: 'card',
     highres_image: true,
     image_uris:
      { small:
-        'https://img.scryfall.com/cards/small/en/rix/188.jpg?1524752711',
+        'https://img.scryfall.com/cards/small/front/f/6/f66f9017-e04b-4f13-aae0-28a903f2fac2.jpg?1555041087',
        normal:
-        'https://img.scryfall.com/cards/normal/en/rix/188.jpg?1524752711',
+        'https://img.scryfall.com/cards/normal/front/f/6/f66f9017-e04b-4f13-aae0-28a903f2fac2.jpg?1555041087',
        large:
-        'https://img.scryfall.com/cards/large/en/rix/188.jpg?1524752711',
+        'https://img.scryfall.com/cards/large/front/f/6/f66f9017-e04b-4f13-aae0-28a903f2fac2.jpg?1555041087',
        png:
-        'https://img.scryfall.com/cards/png/en/rix/188.png?1524752711',
+        'https://img.scryfall.com/cards/png/front/f/6/f66f9017-e04b-4f13-aae0-28a903f2fac2.png?1555041087',
        art_crop:
-        'https://img.scryfall.com/cards/art_crop/en/rix/188.jpg?1524752711',
+        'https://img.scryfall.com/cards/art_crop/front/f/6/f66f9017-e04b-4f13-aae0-28a903f2fac2.jpg?1555041087',
        border_crop:
-        'https://img.scryfall.com/cards/border_crop/en/rix/188.jpg?1524752711' },
+        'https://img.scryfall.com/cards/border_crop/front/f/6/f66f9017-e04b-4f13-aae0-28a903f2fac2.jpg?1555041087' },
     mana_cost: '',
     cmc: 0,
     type_line: 'Land',
@@ -1605,10 +1588,9 @@ module.exports = [ { object: 'card',
     artist: 'Yeong-Hao Han',
     border_color: 'black',
     frame: '2015',
-    frame_effect: '',
     full_art: false,
     story_spotlight: false,
-    edhrec_rank: 1493,
+    edhrec_rank: 1446,
     related_uris:
      { gatherer:
         'http://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=439852',
@@ -1636,17 +1618,17 @@ module.exports = [ { object: 'card',
     highres_image: true,
     image_uris:
      { small:
-        'https://img.scryfall.com/cards/small/en/rix/187.jpg?1524752693',
+        'https://img.scryfall.com/cards/small/front/3/2/32e5daf3-6a55-4c2f-92d1-33e0755ee280.jpg?1555041080',
        normal:
-        'https://img.scryfall.com/cards/normal/en/rix/187.jpg?1524752693',
+        'https://img.scryfall.com/cards/normal/front/3/2/32e5daf3-6a55-4c2f-92d1-33e0755ee280.jpg?1555041080',
        large:
-        'https://img.scryfall.com/cards/large/en/rix/187.jpg?1524752693',
+        'https://img.scryfall.com/cards/large/front/3/2/32e5daf3-6a55-4c2f-92d1-33e0755ee280.jpg?1555041080',
        png:
-        'https://img.scryfall.com/cards/png/en/rix/187.png?1524752693',
+        'https://img.scryfall.com/cards/png/front/3/2/32e5daf3-6a55-4c2f-92d1-33e0755ee280.png?1555041080',
        art_crop:
-        'https://img.scryfall.com/cards/art_crop/en/rix/187.jpg?1524752693',
+        'https://img.scryfall.com/cards/art_crop/front/3/2/32e5daf3-6a55-4c2f-92d1-33e0755ee280.jpg?1555041080',
        border_crop:
-        'https://img.scryfall.com/cards/border_crop/en/rix/187.jpg?1524752693' },
+        'https://img.scryfall.com/cards/border_crop/front/3/2/32e5daf3-6a55-4c2f-92d1-33e0755ee280.jpg?1555041080' },
     mana_cost: '',
     cmc: 0,
     type_line: 'Land',
@@ -1693,10 +1675,9 @@ module.exports = [ { object: 'card',
     artist: 'Jonas De Ro',
     border_color: 'black',
     frame: '2015',
-    frame_effect: '',
     full_art: false,
     story_spotlight: false,
-    edhrec_rank: 1132,
+    edhrec_rank: 1098,
     related_uris:
      { gatherer:
         'http://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=439851',
@@ -1724,17 +1705,17 @@ module.exports = [ { object: 'card',
     highres_image: true,
     image_uris:
      { small:
-        'https://img.scryfall.com/cards/small/en/rix/186.jpg?1524752681',
+        'https://img.scryfall.com/cards/small/front/6/2/62df0466-3bb4-423c-aae8-412205fb9f14.jpg?1555041073',
        normal:
-        'https://img.scryfall.com/cards/normal/en/rix/186.jpg?1524752681',
+        'https://img.scryfall.com/cards/normal/front/6/2/62df0466-3bb4-423c-aae8-412205fb9f14.jpg?1555041073',
        large:
-        'https://img.scryfall.com/cards/large/en/rix/186.jpg?1524752681',
+        'https://img.scryfall.com/cards/large/front/6/2/62df0466-3bb4-423c-aae8-412205fb9f14.jpg?1555041073',
        png:
-        'https://img.scryfall.com/cards/png/en/rix/186.png?1524752681',
+        'https://img.scryfall.com/cards/png/front/6/2/62df0466-3bb4-423c-aae8-412205fb9f14.png?1555041073',
        art_crop:
-        'https://img.scryfall.com/cards/art_crop/en/rix/186.jpg?1524752681',
+        'https://img.scryfall.com/cards/art_crop/front/6/2/62df0466-3bb4-423c-aae8-412205fb9f14.jpg?1555041073',
        border_crop:
-        'https://img.scryfall.com/cards/border_crop/en/rix/186.jpg?1524752681' },
+        'https://img.scryfall.com/cards/border_crop/front/6/2/62df0466-3bb4-423c-aae8-412205fb9f14.jpg?1555041073' },
     mana_cost: '',
     cmc: 0,
     type_line: 'Land',
@@ -1781,7 +1762,6 @@ module.exports = [ { object: 'card',
     artist: 'Jonas De Ro',
     border_color: 'black',
     frame: '2015',
-    frame_effect: '',
     full_art: false,
     story_spotlight: false,
     edhrec_rank: 8,
@@ -1812,17 +1792,17 @@ module.exports = [ { object: 'card',
     highres_image: true,
     image_uris:
      { small:
-        'https://img.scryfall.com/cards/small/en/rix/185.jpg?1524752669',
+        'https://img.scryfall.com/cards/small/front/c/6/c6d47162-749b-47d5-9589-8f1dbf60b9f3.jpg?1555041067',
        normal:
-        'https://img.scryfall.com/cards/normal/en/rix/185.jpg?1524752669',
+        'https://img.scryfall.com/cards/normal/front/c/6/c6d47162-749b-47d5-9589-8f1dbf60b9f3.jpg?1555041067',
        large:
-        'https://img.scryfall.com/cards/large/en/rix/185.jpg?1524752669',
+        'https://img.scryfall.com/cards/large/front/c/6/c6d47162-749b-47d5-9589-8f1dbf60b9f3.jpg?1555041067',
        png:
-        'https://img.scryfall.com/cards/png/en/rix/185.png?1524752669',
+        'https://img.scryfall.com/cards/png/front/c/6/c6d47162-749b-47d5-9589-8f1dbf60b9f3.png?1555041067',
        art_crop:
-        'https://img.scryfall.com/cards/art_crop/en/rix/185.jpg?1524752669',
+        'https://img.scryfall.com/cards/art_crop/front/c/6/c6d47162-749b-47d5-9589-8f1dbf60b9f3.jpg?1555041067',
        border_crop:
-        'https://img.scryfall.com/cards/border_crop/en/rix/185.jpg?1524752669' },
+        'https://img.scryfall.com/cards/border_crop/front/c/6/c6d47162-749b-47d5-9589-8f1dbf60b9f3.jpg?1555041067' },
     mana_cost: '',
     cmc: 0,
     type_line: 'Land',
@@ -1867,10 +1847,9 @@ module.exports = [ { object: 'card',
     artist: 'Titus Lunter',
     border_color: 'black',
     frame: '2015',
-    frame_effect: '',
     full_art: false,
     story_spotlight: false,
-    edhrec_rank: 512,
+    edhrec_rank: 515,
     related_uris:
      { gatherer:
         'http://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=439849',
@@ -1898,17 +1877,17 @@ module.exports = [ { object: 'card',
     highres_image: true,
     image_uris:
      { small:
-        'https://img.scryfall.com/cards/small/en/rix/184.jpg?1524752658',
+        'https://img.scryfall.com/cards/small/front/3/9/393e2aa2-110e-4824-a9c9-5a76cb2bec23.jpg?1555041061',
        normal:
-        'https://img.scryfall.com/cards/normal/en/rix/184.jpg?1524752658',
+        'https://img.scryfall.com/cards/normal/front/3/9/393e2aa2-110e-4824-a9c9-5a76cb2bec23.jpg?1555041061',
        large:
-        'https://img.scryfall.com/cards/large/en/rix/184.jpg?1524752658',
+        'https://img.scryfall.com/cards/large/front/3/9/393e2aa2-110e-4824-a9c9-5a76cb2bec23.jpg?1555041061',
        png:
-        'https://img.scryfall.com/cards/png/en/rix/184.png?1524752658',
+        'https://img.scryfall.com/cards/png/front/3/9/393e2aa2-110e-4824-a9c9-5a76cb2bec23.png?1555041061',
        art_crop:
-        'https://img.scryfall.com/cards/art_crop/en/rix/184.jpg?1524752658',
+        'https://img.scryfall.com/cards/art_crop/front/3/9/393e2aa2-110e-4824-a9c9-5a76cb2bec23.jpg?1555041061',
        border_crop:
-        'https://img.scryfall.com/cards/border_crop/en/rix/184.jpg?1524752658' },
+        'https://img.scryfall.com/cards/border_crop/front/3/9/393e2aa2-110e-4824-a9c9-5a76cb2bec23.jpg?1555041061' },
     mana_cost: '{1}',
     cmc: 1,
     type_line: 'Artifact',
@@ -1955,10 +1934,9 @@ module.exports = [ { object: 'card',
     artist: 'Yeong-Hao Han',
     border_color: 'black',
     frame: '2015',
-    frame_effect: '',
     full_art: false,
     story_spotlight: false,
-    edhrec_rank: 2850,
+    edhrec_rank: 2791,
     related_uris:
      { gatherer:
         'http://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=439848',
@@ -1986,17 +1964,17 @@ module.exports = [ { object: 'card',
     highres_image: true,
     image_uris:
      { small:
-        'https://img.scryfall.com/cards/small/en/rix/183.jpg?1524752641',
+        'https://img.scryfall.com/cards/small/front/5/e/5e94daa9-5b9b-4fd2-829e-081eed22c18f.jpg?1555041055',
        normal:
-        'https://img.scryfall.com/cards/normal/en/rix/183.jpg?1524752641',
+        'https://img.scryfall.com/cards/normal/front/5/e/5e94daa9-5b9b-4fd2-829e-081eed22c18f.jpg?1555041055',
        large:
-        'https://img.scryfall.com/cards/large/en/rix/183.jpg?1524752641',
+        'https://img.scryfall.com/cards/large/front/5/e/5e94daa9-5b9b-4fd2-829e-081eed22c18f.jpg?1555041055',
        png:
-        'https://img.scryfall.com/cards/png/en/rix/183.png?1524752641',
+        'https://img.scryfall.com/cards/png/front/5/e/5e94daa9-5b9b-4fd2-829e-081eed22c18f.png?1555041055',
        art_crop:
-        'https://img.scryfall.com/cards/art_crop/en/rix/183.jpg?1524752641',
+        'https://img.scryfall.com/cards/art_crop/front/5/e/5e94daa9-5b9b-4fd2-829e-081eed22c18f.jpg?1555041055',
        border_crop:
-        'https://img.scryfall.com/cards/border_crop/en/rix/183.jpg?1524752641' },
+        'https://img.scryfall.com/cards/border_crop/front/5/e/5e94daa9-5b9b-4fd2-829e-081eed22c18f.jpg?1555041055' },
     mana_cost: '{3}',
     cmc: 3,
     type_line: 'Artifact — Equipment',
@@ -2043,10 +2021,9 @@ module.exports = [ { object: 'card',
     artist: 'Kev Walker',
     border_color: 'black',
     frame: '2015',
-    frame_effect: '',
     full_art: false,
     story_spotlight: false,
-    edhrec_rank: 7255,
+    edhrec_rank: 7190,
     related_uris:
      { gatherer:
         'http://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=439847',
@@ -2074,17 +2051,17 @@ module.exports = [ { object: 'card',
     highres_image: true,
     image_uris:
      { small:
-        'https://img.scryfall.com/cards/small/en/rix/182.jpg?1524752624',
+        'https://img.scryfall.com/cards/small/front/f/f/ff60f685-a17e-4be6-bbb6-d14a053533ef.jpg?1555041049',
        normal:
-        'https://img.scryfall.com/cards/normal/en/rix/182.jpg?1524752624',
+        'https://img.scryfall.com/cards/normal/front/f/f/ff60f685-a17e-4be6-bbb6-d14a053533ef.jpg?1555041049',
        large:
-        'https://img.scryfall.com/cards/large/en/rix/182.jpg?1524752624',
+        'https://img.scryfall.com/cards/large/front/f/f/ff60f685-a17e-4be6-bbb6-d14a053533ef.jpg?1555041049',
        png:
-        'https://img.scryfall.com/cards/png/en/rix/182.png?1524752624',
+        'https://img.scryfall.com/cards/png/front/f/f/ff60f685-a17e-4be6-bbb6-d14a053533ef.png?1555041049',
        art_crop:
-        'https://img.scryfall.com/cards/art_crop/en/rix/182.jpg?1524752624',
+        'https://img.scryfall.com/cards/art_crop/front/f/f/ff60f685-a17e-4be6-bbb6-d14a053533ef.jpg?1555041049',
        border_crop:
-        'https://img.scryfall.com/cards/border_crop/en/rix/182.jpg?1524752624' },
+        'https://img.scryfall.com/cards/border_crop/front/f/f/ff60f685-a17e-4be6-bbb6-d14a053533ef.jpg?1555041049' },
     mana_cost: '{1}',
     cmc: 1,
     type_line: 'Artifact',
@@ -2131,10 +2108,9 @@ module.exports = [ { object: 'card',
     artist: 'Suzanne Helmigh',
     border_color: 'black',
     frame: '2015',
-    frame_effect: '',
     full_art: false,
     story_spotlight: false,
-    edhrec_rank: 3746,
+    edhrec_rank: 4074,
     related_uris:
      { gatherer:
         'http://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=439846',
@@ -2162,17 +2138,17 @@ module.exports = [ { object: 'card',
     highres_image: true,
     image_uris:
      { small:
-        'https://img.scryfall.com/cards/small/en/rix/181.jpg?1524752606',
+        'https://img.scryfall.com/cards/small/front/6/e/6ed70bc5-8ea9-404e-a8cd-04322c8bc689.jpg?1555041042',
        normal:
-        'https://img.scryfall.com/cards/normal/en/rix/181.jpg?1524752606',
+        'https://img.scryfall.com/cards/normal/front/6/e/6ed70bc5-8ea9-404e-a8cd-04322c8bc689.jpg?1555041042',
        large:
-        'https://img.scryfall.com/cards/large/en/rix/181.jpg?1524752606',
+        'https://img.scryfall.com/cards/large/front/6/e/6ed70bc5-8ea9-404e-a8cd-04322c8bc689.jpg?1555041042',
        png:
-        'https://img.scryfall.com/cards/png/en/rix/181.png?1524752606',
+        'https://img.scryfall.com/cards/png/front/6/e/6ed70bc5-8ea9-404e-a8cd-04322c8bc689.png?1555041042',
        art_crop:
-        'https://img.scryfall.com/cards/art_crop/en/rix/181.jpg?1524752606',
+        'https://img.scryfall.com/cards/art_crop/front/6/e/6ed70bc5-8ea9-404e-a8cd-04322c8bc689.jpg?1555041042',
        border_crop:
-        'https://img.scryfall.com/cards/border_crop/en/rix/181.jpg?1524752606' },
+        'https://img.scryfall.com/cards/border_crop/front/6/e/6ed70bc5-8ea9-404e-a8cd-04322c8bc689.jpg?1555041042' },
     mana_cost: '{3}',
     cmc: 3,
     type_line: 'Artifact',
@@ -2217,10 +2193,9 @@ module.exports = [ { object: 'card',
     artist: 'Kieran Yanner',
     border_color: 'black',
     frame: '2015',
-    frame_effect: '',
     full_art: false,
     story_spotlight: false,
-    edhrec_rank: 4026,
+    edhrec_rank: 4016,
     related_uris:
      { gatherer:
         'http://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=439845',
@@ -2248,17 +2223,17 @@ module.exports = [ { object: 'card',
     highres_image: true,
     image_uris:
      { small:
-        'https://img.scryfall.com/cards/small/en/rix/180.jpg?1524752591',
+        'https://img.scryfall.com/cards/small/front/a/d/adeccd88-8dc0-4cc1-943f-27d540d248bb.jpg?1555041035',
        normal:
-        'https://img.scryfall.com/cards/normal/en/rix/180.jpg?1524752591',
+        'https://img.scryfall.com/cards/normal/front/a/d/adeccd88-8dc0-4cc1-943f-27d540d248bb.jpg?1555041035',
        large:
-        'https://img.scryfall.com/cards/large/en/rix/180.jpg?1524752591',
+        'https://img.scryfall.com/cards/large/front/a/d/adeccd88-8dc0-4cc1-943f-27d540d248bb.jpg?1555041035',
        png:
-        'https://img.scryfall.com/cards/png/en/rix/180.png?1524752591',
+        'https://img.scryfall.com/cards/png/front/a/d/adeccd88-8dc0-4cc1-943f-27d540d248bb.png?1555041035',
        art_crop:
-        'https://img.scryfall.com/cards/art_crop/en/rix/180.jpg?1524752591',
+        'https://img.scryfall.com/cards/art_crop/front/a/d/adeccd88-8dc0-4cc1-943f-27d540d248bb.jpg?1555041035',
        border_crop:
-        'https://img.scryfall.com/cards/border_crop/en/rix/180.jpg?1524752591' },
+        'https://img.scryfall.com/cards/border_crop/front/a/d/adeccd88-8dc0-4cc1-943f-27d540d248bb.jpg?1555041035' },
     mana_cost: '{6}',
     cmc: 6,
     type_line: 'Legendary Artifact',
@@ -2303,10 +2278,9 @@ module.exports = [ { object: 'card',
     artist: 'Kieran Yanner',
     border_color: 'black',
     frame: '2015',
-    frame_effect: '',
     full_art: false,
     story_spotlight: false,
-    edhrec_rank: 555,
+    edhrec_rank: 638,
     related_uris:
      { gatherer:
         'http://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=439844',
@@ -2349,17 +2323,17 @@ module.exports = [ { object: 'card',
          illustration_id: '6fdeefae-2e81-44dc-b337-88079c0494d9',
          image_uris:
           { small:
-             'https://img.scryfall.com/cards/small/en/rix/179a.jpg?1547672507',
+             'https://img.scryfall.com/cards/small/front/3/9/397ba02d-f347-46f7-b028-dd4ba55faa2f.jpg?1555427909',
             normal:
-             'https://img.scryfall.com/cards/normal/en/rix/179a.jpg?1547672507',
+             'https://img.scryfall.com/cards/normal/front/3/9/397ba02d-f347-46f7-b028-dd4ba55faa2f.jpg?1555427909',
             large:
-             'https://img.scryfall.com/cards/large/en/rix/179a.jpg?1547672507',
+             'https://img.scryfall.com/cards/large/front/3/9/397ba02d-f347-46f7-b028-dd4ba55faa2f.jpg?1555427909',
             png:
-             'https://img.scryfall.com/cards/png/en/rix/179a.png?1547672507',
+             'https://img.scryfall.com/cards/png/front/3/9/397ba02d-f347-46f7-b028-dd4ba55faa2f.png?1555427909',
             art_crop:
-             'https://img.scryfall.com/cards/art_crop/en/rix/179a.jpg?1547672507',
+             'https://img.scryfall.com/cards/art_crop/front/3/9/397ba02d-f347-46f7-b028-dd4ba55faa2f.jpg?1555427909',
             border_crop:
-             'https://img.scryfall.com/cards/border_crop/en/rix/179a.jpg?1547672507' } },
+             'https://img.scryfall.com/cards/border_crop/front/3/9/397ba02d-f347-46f7-b028-dd4ba55faa2f.jpg?1555427909' } },
        { object: 'card_face',
          name: 'Gold-Forge Garrison',
          mana_cost: '',
@@ -2372,17 +2346,17 @@ module.exports = [ { object: 'card',
          illustration_id: '432268ec-01f0-4439-bf0a-925156e6c06d',
          image_uris:
           { small:
-             'https://img.scryfall.com/cards/small/en/rix/179b.jpg?1547672507',
+             'https://img.scryfall.com/cards/small/back/3/9/397ba02d-f347-46f7-b028-dd4ba55faa2f.jpg?1555427909',
             normal:
-             'https://img.scryfall.com/cards/normal/en/rix/179b.jpg?1547672507',
+             'https://img.scryfall.com/cards/normal/back/3/9/397ba02d-f347-46f7-b028-dd4ba55faa2f.jpg?1555427909',
             large:
-             'https://img.scryfall.com/cards/large/en/rix/179b.jpg?1547672507',
+             'https://img.scryfall.com/cards/large/back/3/9/397ba02d-f347-46f7-b028-dd4ba55faa2f.jpg?1555427909',
             png:
-             'https://img.scryfall.com/cards/png/en/rix/179b.png?1547672507',
+             'https://img.scryfall.com/cards/png/back/3/9/397ba02d-f347-46f7-b028-dd4ba55faa2f.png?1555427909',
             art_crop:
-             'https://img.scryfall.com/cards/art_crop/en/rix/179b.jpg?1547672507',
+             'https://img.scryfall.com/cards/art_crop/back/3/9/397ba02d-f347-46f7-b028-dd4ba55faa2f.jpg?1555427909',
             border_crop:
-             'https://img.scryfall.com/cards/border_crop/en/rix/179b.jpg?1547672507' } } ],
+             'https://img.scryfall.com/cards/border_crop/back/3/9/397ba02d-f347-46f7-b028-dd4ba55faa2f.jpg?1555427909' } } ],
     all_parts:
      [ { object: 'related_card',
          id: '397ba02d-f347-46f7-b028-dd4ba55faa2f',
@@ -2431,13 +2405,13 @@ module.exports = [ { object: 'card',
     collector_number: '179',
     digital: false,
     rarity: 'rare',
-    artist: 'Svetlin Velinov & Svetlin Velinov',
+    artist: 'Svetlin Velinov',
     border_color: 'black',
     frame: '2015',
     frame_effect: 'compasslanddfc',
     full_art: false,
     story_spotlight: false,
-    edhrec_rank: 2117,
+    edhrec_rank: 2297,
     related_uris:
      { gatherer:
         'http://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=439842',
@@ -2465,17 +2439,17 @@ module.exports = [ { object: 'card',
     highres_image: true,
     image_uris:
      { small:
-        'https://img.scryfall.com/cards/small/en/rix/178.jpg?1524752548',
+        'https://img.scryfall.com/cards/small/front/6/2/62447a76-4aa7-4823-941e-84bc18eb672a.jpg?1555041015',
        normal:
-        'https://img.scryfall.com/cards/normal/en/rix/178.jpg?1524752548',
+        'https://img.scryfall.com/cards/normal/front/6/2/62447a76-4aa7-4823-941e-84bc18eb672a.jpg?1555041015',
        large:
-        'https://img.scryfall.com/cards/large/en/rix/178.jpg?1524752548',
+        'https://img.scryfall.com/cards/large/front/6/2/62447a76-4aa7-4823-941e-84bc18eb672a.jpg?1555041015',
        png:
-        'https://img.scryfall.com/cards/png/en/rix/178.png?1524752548',
+        'https://img.scryfall.com/cards/png/front/6/2/62447a76-4aa7-4823-941e-84bc18eb672a.png?1555041015',
        art_crop:
-        'https://img.scryfall.com/cards/art_crop/en/rix/178.jpg?1524752548',
+        'https://img.scryfall.com/cards/art_crop/front/6/2/62447a76-4aa7-4823-941e-84bc18eb672a.jpg?1555041015',
        border_crop:
-        'https://img.scryfall.com/cards/border_crop/en/rix/178.jpg?1524752548' },
+        'https://img.scryfall.com/cards/border_crop/front/6/2/62447a76-4aa7-4823-941e-84bc18eb672a.jpg?1555041015' },
     mana_cost: '{2}',
     cmc: 2,
     type_line: 'Artifact Creature — Wall',
@@ -2494,12 +2468,12 @@ module.exports = [ { object: 'card',
          uri:
           'https://api.scryfall.com/cards/62447a76-4aa7-4823-941e-84bc18eb672a' },
        { object: 'related_card',
-         id: '56f06ec6-634d-454b-a46a-dfefe4600d27',
+         id: '720f3e68-84c0-462e-a0d1-90236ccc494a',
          component: 'token',
          name: 'Treasure',
          type_line: 'Token Artifact — Treasure',
          uri:
-          'https://api.scryfall.com/cards/56f06ec6-634d-454b-a46a-dfefe4600d27' } ],
+          'https://api.scryfall.com/cards/720f3e68-84c0-462e-a0d1-90236ccc494a' } ],
     legalities:
      { standard: 'legal',
        future: 'legal',
@@ -2538,10 +2512,9 @@ module.exports = [ { object: 'card',
     artist: 'Jason Felix',
     border_color: 'black',
     frame: '2015',
-    frame_effect: '',
     full_art: false,
     story_spotlight: false,
-    edhrec_rank: 4541,
+    edhrec_rank: 4497,
     related_uris:
      { gatherer:
         'http://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=439841',
@@ -2569,17 +2542,17 @@ module.exports = [ { object: 'card',
     highres_image: true,
     image_uris:
      { small:
-        'https://img.scryfall.com/cards/small/en/rix/177.jpg?1524752535',
+        'https://img.scryfall.com/cards/small/front/7/b/7bd3f777-b33a-454a-8d5d-993260ddda03.jpg?1555041008',
        normal:
-        'https://img.scryfall.com/cards/normal/en/rix/177.jpg?1524752535',
+        'https://img.scryfall.com/cards/normal/front/7/b/7bd3f777-b33a-454a-8d5d-993260ddda03.jpg?1555041008',
        large:
-        'https://img.scryfall.com/cards/large/en/rix/177.jpg?1524752535',
+        'https://img.scryfall.com/cards/large/front/7/b/7bd3f777-b33a-454a-8d5d-993260ddda03.jpg?1555041008',
        png:
-        'https://img.scryfall.com/cards/png/en/rix/177.png?1524752535',
+        'https://img.scryfall.com/cards/png/front/7/b/7bd3f777-b33a-454a-8d5d-993260ddda03.png?1555041008',
        art_crop:
-        'https://img.scryfall.com/cards/art_crop/en/rix/177.jpg?1524752535',
+        'https://img.scryfall.com/cards/art_crop/front/7/b/7bd3f777-b33a-454a-8d5d-993260ddda03.jpg?1555041008',
        border_crop:
-        'https://img.scryfall.com/cards/border_crop/en/rix/177.jpg?1524752535' },
+        'https://img.scryfall.com/cards/border_crop/front/7/b/7bd3f777-b33a-454a-8d5d-993260ddda03.jpg?1555041008' },
     mana_cost: '{3}',
     cmc: 3,
     type_line: 'Artifact — Equipment',
@@ -2624,10 +2597,9 @@ module.exports = [ { object: 'card',
     artist: 'Sara Winters',
     border_color: 'black',
     frame: '2015',
-    frame_effect: '',
     full_art: false,
     story_spotlight: false,
-    edhrec_rank: 7556,
+    edhrec_rank: 7729,
     related_uris:
      { gatherer:
         'http://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=439840',
@@ -2668,17 +2640,17 @@ module.exports = [ { object: 'card',
          illustration_id: '6204e81b-e7af-4ac8-a16a-9c7f0598d67f',
          image_uris:
           { small:
-             'https://img.scryfall.com/cards/small/en/rix/176a.jpg?1524752522',
+             'https://img.scryfall.com/cards/small/front/3/0/303d51ab-b9c4-4647-950f-291daabe7b81.jpg?1555041001',
             normal:
-             'https://img.scryfall.com/cards/normal/en/rix/176a.jpg?1524752522',
+             'https://img.scryfall.com/cards/normal/front/3/0/303d51ab-b9c4-4647-950f-291daabe7b81.jpg?1555041001',
             large:
-             'https://img.scryfall.com/cards/large/en/rix/176a.jpg?1524752522',
+             'https://img.scryfall.com/cards/large/front/3/0/303d51ab-b9c4-4647-950f-291daabe7b81.jpg?1555041001',
             png:
-             'https://img.scryfall.com/cards/png/en/rix/176a.png?1524752522',
+             'https://img.scryfall.com/cards/png/front/3/0/303d51ab-b9c4-4647-950f-291daabe7b81.png?1555041001',
             art_crop:
-             'https://img.scryfall.com/cards/art_crop/en/rix/176a.jpg?1524752522',
+             'https://img.scryfall.com/cards/art_crop/front/3/0/303d51ab-b9c4-4647-950f-291daabe7b81.jpg?1555041001',
             border_crop:
-             'https://img.scryfall.com/cards/border_crop/en/rix/176a.jpg?1524752522' } },
+             'https://img.scryfall.com/cards/border_crop/front/3/0/303d51ab-b9c4-4647-950f-291daabe7b81.jpg?1555041001' } },
        { object: 'card_face',
          name: 'Sanctum of the Sun',
          mana_cost: '',
@@ -2692,17 +2664,17 @@ module.exports = [ { object: 'card',
          illustration_id: 'd7dcf0e5-86a8-4ab7-9dd0-2b9eb7eee6c2',
          image_uris:
           { small:
-             'https://img.scryfall.com/cards/small/en/rix/176b.jpg?1524752522',
+             'https://img.scryfall.com/cards/small/back/3/0/303d51ab-b9c4-4647-950f-291daabe7b81.jpg?1555041001',
             normal:
-             'https://img.scryfall.com/cards/normal/en/rix/176b.jpg?1524752522',
+             'https://img.scryfall.com/cards/normal/back/3/0/303d51ab-b9c4-4647-950f-291daabe7b81.jpg?1555041001',
             large:
-             'https://img.scryfall.com/cards/large/en/rix/176b.jpg?1524752522',
+             'https://img.scryfall.com/cards/large/back/3/0/303d51ab-b9c4-4647-950f-291daabe7b81.jpg?1555041001',
             png:
-             'https://img.scryfall.com/cards/png/en/rix/176b.png?1524752522',
+             'https://img.scryfall.com/cards/png/back/3/0/303d51ab-b9c4-4647-950f-291daabe7b81.png?1555041001',
             art_crop:
-             'https://img.scryfall.com/cards/art_crop/en/rix/176b.jpg?1524752522',
+             'https://img.scryfall.com/cards/art_crop/back/3/0/303d51ab-b9c4-4647-950f-291daabe7b81.jpg?1555041001',
             border_crop:
-             'https://img.scryfall.com/cards/border_crop/en/rix/176b.jpg?1524752522' } } ],
+             'https://img.scryfall.com/cards/border_crop/back/3/0/303d51ab-b9c4-4647-950f-291daabe7b81.jpg?1555041001' } } ],
     legalities:
      { standard: 'legal',
        future: 'legal',
@@ -2742,7 +2714,7 @@ module.exports = [ { object: 'card',
     frame_effect: 'compasslanddfc',
     full_art: false,
     story_spotlight: false,
-    edhrec_rank: 1909,
+    edhrec_rank: 2059,
     related_uris:
      { gatherer:
         'http://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=439838',
@@ -2770,17 +2742,17 @@ module.exports = [ { object: 'card',
     highres_image: true,
     image_uris:
      { small:
-        'https://img.scryfall.com/cards/small/en/rix/175.jpg?1524752489',
+        'https://img.scryfall.com/cards/small/front/d/2/d24b14ea-04f0-4d4b-970e-efc65d64945e.jpg?1555040989',
        normal:
-        'https://img.scryfall.com/cards/normal/en/rix/175.jpg?1524752489',
+        'https://img.scryfall.com/cards/normal/front/d/2/d24b14ea-04f0-4d4b-970e-efc65d64945e.jpg?1555040989',
        large:
-        'https://img.scryfall.com/cards/large/en/rix/175.jpg?1524752489',
+        'https://img.scryfall.com/cards/large/front/d/2/d24b14ea-04f0-4d4b-970e-efc65d64945e.jpg?1555040989',
        png:
-        'https://img.scryfall.com/cards/png/en/rix/175.png?1524752489',
+        'https://img.scryfall.com/cards/png/front/d/2/d24b14ea-04f0-4d4b-970e-efc65d64945e.png?1555040989',
        art_crop:
-        'https://img.scryfall.com/cards/art_crop/en/rix/175.jpg?1524752489',
+        'https://img.scryfall.com/cards/art_crop/front/d/2/d24b14ea-04f0-4d4b-970e-efc65d64945e.jpg?1555040989',
        border_crop:
-        'https://img.scryfall.com/cards/border_crop/en/rix/175.jpg?1524752489' },
+        'https://img.scryfall.com/cards/border_crop/front/d/2/d24b14ea-04f0-4d4b-970e-efc65d64945e.jpg?1555040989' },
     mana_cost: '{4}',
     cmc: 4,
     type_line: 'Artifact Creature — Golem',
@@ -2828,10 +2800,9 @@ module.exports = [ { object: 'card',
     artist: 'Zack Stella',
     border_color: 'black',
     frame: '2015',
-    frame_effect: '',
     full_art: false,
     story_spotlight: false,
-    edhrec_rank: 7621,
+    edhrec_rank: 8014,
     related_uris:
      { gatherer:
         'http://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=439837',
@@ -2859,17 +2830,17 @@ module.exports = [ { object: 'card',
     highres_image: true,
     image_uris:
      { small:
-        'https://img.scryfall.com/cards/small/en/rix/174.jpg?1524752477',
+        'https://img.scryfall.com/cards/small/front/5/a/5aa75f2b-53c5-47c5-96d2-ab796358a96f.jpg?1555040980',
        normal:
-        'https://img.scryfall.com/cards/normal/en/rix/174.jpg?1524752477',
+        'https://img.scryfall.com/cards/normal/front/5/a/5aa75f2b-53c5-47c5-96d2-ab796358a96f.jpg?1555040980',
        large:
-        'https://img.scryfall.com/cards/large/en/rix/174.jpg?1524752477',
+        'https://img.scryfall.com/cards/large/front/5/a/5aa75f2b-53c5-47c5-96d2-ab796358a96f.jpg?1555040980',
        png:
-        'https://img.scryfall.com/cards/png/en/rix/174.png?1524752477',
+        'https://img.scryfall.com/cards/png/front/5/a/5aa75f2b-53c5-47c5-96d2-ab796358a96f.png?1555040980',
        art_crop:
-        'https://img.scryfall.com/cards/art_crop/en/rix/174.jpg?1524752477',
+        'https://img.scryfall.com/cards/art_crop/front/5/a/5aa75f2b-53c5-47c5-96d2-ab796358a96f.jpg?1555040980',
        border_crop:
-        'https://img.scryfall.com/cards/border_crop/en/rix/174.jpg?1524752477' },
+        'https://img.scryfall.com/cards/border_crop/front/5/a/5aa75f2b-53c5-47c5-96d2-ab796358a96f.jpg?1555040980' },
     mana_cost: '{6}{R}{G}{W}',
     cmc: 9,
     type_line: 'Legendary Creature — Elder Dinosaur',
@@ -2916,10 +2887,9 @@ module.exports = [ { object: 'card',
     artist: 'Jaime Jones',
     border_color: 'black',
     frame: '2015',
-    frame_effect: '',
     full_art: false,
     story_spotlight: false,
-    edhrec_rank: 1824,
+    edhrec_rank: 2001,
     related_uris:
      { gatherer:
         'http://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=439836',
@@ -2960,17 +2930,17 @@ module.exports = [ { object: 'card',
          illustration_id: '3ae3d9a2-a893-4a25-a2be-6513af20310c',
          image_uris:
           { small:
-             'https://img.scryfall.com/cards/small/en/rix/173a.jpg?1524752467',
+             'https://img.scryfall.com/cards/small/front/c/1/c16ba84e-a0cc-4c6c-9b80-713247b8fef9.jpg?1555040973',
             normal:
-             'https://img.scryfall.com/cards/normal/en/rix/173a.jpg?1524752467',
+             'https://img.scryfall.com/cards/normal/front/c/1/c16ba84e-a0cc-4c6c-9b80-713247b8fef9.jpg?1555040973',
             large:
-             'https://img.scryfall.com/cards/large/en/rix/173a.jpg?1524752467',
+             'https://img.scryfall.com/cards/large/front/c/1/c16ba84e-a0cc-4c6c-9b80-713247b8fef9.jpg?1555040973',
             png:
-             'https://img.scryfall.com/cards/png/en/rix/173a.png?1524752467',
+             'https://img.scryfall.com/cards/png/front/c/1/c16ba84e-a0cc-4c6c-9b80-713247b8fef9.png?1555040973',
             art_crop:
-             'https://img.scryfall.com/cards/art_crop/en/rix/173a.jpg?1524752467',
+             'https://img.scryfall.com/cards/art_crop/front/c/1/c16ba84e-a0cc-4c6c-9b80-713247b8fef9.jpg?1555040973',
             border_crop:
-             'https://img.scryfall.com/cards/border_crop/en/rix/173a.jpg?1524752467' } },
+             'https://img.scryfall.com/cards/border_crop/front/c/1/c16ba84e-a0cc-4c6c-9b80-713247b8fef9.jpg?1555040973' } },
        { object: 'card_face',
          name: 'Vault of Catlacan',
          mana_cost: '',
@@ -2984,17 +2954,17 @@ module.exports = [ { object: 'card',
          illustration_id: '9076c9ad-c11e-47b4-9a0e-1f46f75bacec',
          image_uris:
           { small:
-             'https://img.scryfall.com/cards/small/en/rix/173b.jpg?1524752467',
+             'https://img.scryfall.com/cards/small/back/c/1/c16ba84e-a0cc-4c6c-9b80-713247b8fef9.jpg?1555040973',
             normal:
-             'https://img.scryfall.com/cards/normal/en/rix/173b.jpg?1524752467',
+             'https://img.scryfall.com/cards/normal/back/c/1/c16ba84e-a0cc-4c6c-9b80-713247b8fef9.jpg?1555040973',
             large:
-             'https://img.scryfall.com/cards/large/en/rix/173b.jpg?1524752467',
+             'https://img.scryfall.com/cards/large/back/c/1/c16ba84e-a0cc-4c6c-9b80-713247b8fef9.jpg?1555040973',
             png:
-             'https://img.scryfall.com/cards/png/en/rix/173b.png?1524752467',
+             'https://img.scryfall.com/cards/png/back/c/1/c16ba84e-a0cc-4c6c-9b80-713247b8fef9.png?1555040973',
             art_crop:
-             'https://img.scryfall.com/cards/art_crop/en/rix/173b.jpg?1524752467',
+             'https://img.scryfall.com/cards/art_crop/back/c/1/c16ba84e-a0cc-4c6c-9b80-713247b8fef9.jpg?1555040973',
             border_crop:
-             'https://img.scryfall.com/cards/border_crop/en/rix/173b.jpg?1524752467' } } ],
+             'https://img.scryfall.com/cards/border_crop/back/c/1/c16ba84e-a0cc-4c6c-9b80-713247b8fef9.jpg?1555040973' } } ],
     all_parts:
      [ { object: 'related_card',
          id: 'c16ba84e-a0cc-4c6c-9b80-713247b8fef9',
@@ -3004,12 +2974,12 @@ module.exports = [ { object: 'card',
          uri:
           'https://api.scryfall.com/cards/c16ba84e-a0cc-4c6c-9b80-713247b8fef9' },
        { object: 'related_card',
-         id: '56f06ec6-634d-454b-a46a-dfefe4600d27',
+         id: '720f3e68-84c0-462e-a0d1-90236ccc494a',
          component: 'token',
          name: 'Treasure',
          type_line: 'Token Artifact — Treasure',
          uri:
-          'https://api.scryfall.com/cards/56f06ec6-634d-454b-a46a-dfefe4600d27' } ],
+          'https://api.scryfall.com/cards/720f3e68-84c0-462e-a0d1-90236ccc494a' } ],
     legalities:
      { standard: 'legal',
        future: 'legal',
@@ -3049,7 +3019,7 @@ module.exports = [ { object: 'card',
     frame_effect: 'compasslanddfc',
     full_art: false,
     story_spotlight: false,
-    edhrec_rank: 911,
+    edhrec_rank: 923,
     related_uris:
      { gatherer:
         'http://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=439834',
@@ -3077,17 +3047,17 @@ module.exports = [ { object: 'card',
     highres_image: true,
     image_uris:
      { small:
-        'https://img.scryfall.com/cards/small/en/rix/172.jpg?1524752439',
+        'https://img.scryfall.com/cards/small/front/4/1/41ad8525-7618-4c2b-8037-46f53dd42ee0.jpg?1555040955',
        normal:
-        'https://img.scryfall.com/cards/normal/en/rix/172.jpg?1524752439',
+        'https://img.scryfall.com/cards/normal/front/4/1/41ad8525-7618-4c2b-8037-46f53dd42ee0.jpg?1555040955',
        large:
-        'https://img.scryfall.com/cards/large/en/rix/172.jpg?1524752439',
+        'https://img.scryfall.com/cards/large/front/4/1/41ad8525-7618-4c2b-8037-46f53dd42ee0.jpg?1555040955',
        png:
-        'https://img.scryfall.com/cards/png/en/rix/172.png?1524752439',
+        'https://img.scryfall.com/cards/png/front/4/1/41ad8525-7618-4c2b-8037-46f53dd42ee0.png?1555040955',
        art_crop:
-        'https://img.scryfall.com/cards/art_crop/en/rix/172.jpg?1524752439',
+        'https://img.scryfall.com/cards/art_crop/front/4/1/41ad8525-7618-4c2b-8037-46f53dd42ee0.jpg?1555040955',
        border_crop:
-        'https://img.scryfall.com/cards/border_crop/en/rix/172.jpg?1524752439' },
+        'https://img.scryfall.com/cards/border_crop/front/4/1/41ad8525-7618-4c2b-8037-46f53dd42ee0.jpg?1555040955' },
     mana_cost: '{1}{U}{R}',
     cmc: 3,
     type_line: 'Creature — Human Pirate',
@@ -3135,10 +3105,9 @@ module.exports = [ { object: 'card',
     artist: 'G-host Lee',
     border_color: 'black',
     frame: '2015',
-    frame_effect: '',
     full_art: false,
     story_spotlight: false,
-    edhrec_rank: 4413,
+    edhrec_rank: 4675,
     related_uris:
      { gatherer:
         'http://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=439833',
@@ -3166,17 +3135,17 @@ module.exports = [ { object: 'card',
     highres_image: true,
     image_uris:
      { small:
-        'https://img.scryfall.com/cards/small/en/rix/171.jpg?1524752429',
+        'https://img.scryfall.com/cards/small/front/0/a/0a9c4c63-402e-489e-ab0d-1c98309b010a.jpg?1555040949',
        normal:
-        'https://img.scryfall.com/cards/normal/en/rix/171.jpg?1524752429',
+        'https://img.scryfall.com/cards/normal/front/0/a/0a9c4c63-402e-489e-ab0d-1c98309b010a.jpg?1555040949',
        large:
-        'https://img.scryfall.com/cards/large/en/rix/171.jpg?1524752429',
+        'https://img.scryfall.com/cards/large/front/0/a/0a9c4c63-402e-489e-ab0d-1c98309b010a.jpg?1555040949',
        png:
-        'https://img.scryfall.com/cards/png/en/rix/171.png?1524752429',
+        'https://img.scryfall.com/cards/png/front/0/a/0a9c4c63-402e-489e-ab0d-1c98309b010a.png?1555040949',
        art_crop:
-        'https://img.scryfall.com/cards/art_crop/en/rix/171.jpg?1524752429',
+        'https://img.scryfall.com/cards/art_crop/front/0/a/0a9c4c63-402e-489e-ab0d-1c98309b010a.jpg?1555040949',
        border_crop:
-        'https://img.scryfall.com/cards/border_crop/en/rix/171.jpg?1524752429' },
+        'https://img.scryfall.com/cards/border_crop/front/0/a/0a9c4c63-402e-489e-ab0d-1c98309b010a.jpg?1555040949' },
     mana_cost: '{G}{W}',
     cmc: 2,
     type_line: 'Creature — Dinosaur',
@@ -3224,10 +3193,9 @@ module.exports = [ { object: 'card',
     artist: 'Filip Burburan',
     border_color: 'black',
     frame: '2015',
-    frame_effect: '',
     full_art: false,
     story_spotlight: false,
-    edhrec_rank: 2830,
+    edhrec_rank: 3113,
     related_uris:
      { gatherer:
         'http://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=439832',
@@ -3255,17 +3223,17 @@ module.exports = [ { object: 'card',
     highres_image: true,
     image_uris:
      { small:
-        'https://img.scryfall.com/cards/small/en/rix/170.jpg?1524752416',
+        'https://img.scryfall.com/cards/small/front/9/1/915f2ad9-fd39-465c-8261-bfa34116cbcc.jpg?1555040943',
        normal:
-        'https://img.scryfall.com/cards/normal/en/rix/170.jpg?1524752416',
+        'https://img.scryfall.com/cards/normal/front/9/1/915f2ad9-fd39-465c-8261-bfa34116cbcc.jpg?1555040943',
        large:
-        'https://img.scryfall.com/cards/large/en/rix/170.jpg?1524752416',
+        'https://img.scryfall.com/cards/large/front/9/1/915f2ad9-fd39-465c-8261-bfa34116cbcc.jpg?1555040943',
        png:
-        'https://img.scryfall.com/cards/png/en/rix/170.png?1524752416',
+        'https://img.scryfall.com/cards/png/front/9/1/915f2ad9-fd39-465c-8261-bfa34116cbcc.png?1555040943',
        art_crop:
-        'https://img.scryfall.com/cards/art_crop/en/rix/170.jpg?1524752416',
+        'https://img.scryfall.com/cards/art_crop/front/9/1/915f2ad9-fd39-465c-8261-bfa34116cbcc.jpg?1555040943',
        border_crop:
-        'https://img.scryfall.com/cards/border_crop/en/rix/170.jpg?1524752416' },
+        'https://img.scryfall.com/cards/border_crop/front/9/1/915f2ad9-fd39-465c-8261-bfa34116cbcc.jpg?1555040943' },
     mana_cost: '{1}{W}{U}',
     cmc: 3,
     type_line: 'Creature — Griffin',
@@ -3312,10 +3280,9 @@ module.exports = [ { object: 'card',
     artist: 'Sam Rowan',
     border_color: 'black',
     frame: '2015',
-    frame_effect: '',
     full_art: false,
     story_spotlight: false,
-    edhrec_rank: 12691,
+    edhrec_rank: 12533,
     related_uris:
      { gatherer:
         'http://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=439831',
@@ -3343,17 +3310,17 @@ module.exports = [ { object: 'card',
     highres_image: true,
     image_uris:
      { small:
-        'https://img.scryfall.com/cards/small/en/rix/169.jpg?1524752395',
+        'https://img.scryfall.com/cards/small/front/2/d/2d0727ba-4180-4908-93be-a8abf29a8958.jpg?1555040936',
        normal:
-        'https://img.scryfall.com/cards/normal/en/rix/169.jpg?1524752395',
+        'https://img.scryfall.com/cards/normal/front/2/d/2d0727ba-4180-4908-93be-a8abf29a8958.jpg?1555040936',
        large:
-        'https://img.scryfall.com/cards/large/en/rix/169.jpg?1524752395',
+        'https://img.scryfall.com/cards/large/front/2/d/2d0727ba-4180-4908-93be-a8abf29a8958.jpg?1555040936',
        png:
-        'https://img.scryfall.com/cards/png/en/rix/169.png?1524752395',
+        'https://img.scryfall.com/cards/png/front/2/d/2d0727ba-4180-4908-93be-a8abf29a8958.png?1555040936',
        art_crop:
-        'https://img.scryfall.com/cards/art_crop/en/rix/169.jpg?1524752395',
+        'https://img.scryfall.com/cards/art_crop/front/2/d/2d0727ba-4180-4908-93be-a8abf29a8958.jpg?1555040936',
        border_crop:
-        'https://img.scryfall.com/cards/border_crop/en/rix/169.jpg?1524752395' },
+        'https://img.scryfall.com/cards/border_crop/front/2/d/2d0727ba-4180-4908-93be-a8abf29a8958.jpg?1555040936' },
     mana_cost: '{R}{W}',
     cmc: 2,
     type_line: 'Creature — Dinosaur',
@@ -3402,10 +3369,9 @@ module.exports = [ { object: 'card',
     artist: 'Matt Stewart',
     border_color: 'black',
     frame: '2015',
-    frame_effect: '',
     full_art: false,
     story_spotlight: false,
-    edhrec_rank: 6046,
+    edhrec_rank: 6431,
     related_uris:
      { gatherer:
         'http://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=439830',
@@ -3433,17 +3399,17 @@ module.exports = [ { object: 'card',
     highres_image: true,
     image_uris:
      { small:
-        'https://img.scryfall.com/cards/small/en/rix/168.jpg?1524752382',
+        'https://img.scryfall.com/cards/small/front/a/d/ad6c43a7-e9c5-4b1c-9a6d-0d8798303045.jpg?1555040930',
        normal:
-        'https://img.scryfall.com/cards/normal/en/rix/168.jpg?1524752382',
+        'https://img.scryfall.com/cards/normal/front/a/d/ad6c43a7-e9c5-4b1c-9a6d-0d8798303045.jpg?1555040930',
        large:
-        'https://img.scryfall.com/cards/large/en/rix/168.jpg?1524752382',
+        'https://img.scryfall.com/cards/large/front/a/d/ad6c43a7-e9c5-4b1c-9a6d-0d8798303045.jpg?1555040930',
        png:
-        'https://img.scryfall.com/cards/png/en/rix/168.png?1524752382',
+        'https://img.scryfall.com/cards/png/front/a/d/ad6c43a7-e9c5-4b1c-9a6d-0d8798303045.png?1555040930',
        art_crop:
-        'https://img.scryfall.com/cards/art_crop/en/rix/168.jpg?1524752382',
+        'https://img.scryfall.com/cards/art_crop/front/a/d/ad6c43a7-e9c5-4b1c-9a6d-0d8798303045.jpg?1555040930',
        border_crop:
-        'https://img.scryfall.com/cards/border_crop/en/rix/168.jpg?1524752382' },
+        'https://img.scryfall.com/cards/border_crop/front/a/d/ad6c43a7-e9c5-4b1c-9a6d-0d8798303045.jpg?1555040930' },
     mana_cost: '{2}{R}{G}',
     cmc: 4,
     type_line: 'Creature — Dinosaur',
@@ -3492,10 +3458,9 @@ module.exports = [ { object: 'card',
     artist: 'Bayard Wu',
     border_color: 'black',
     frame: '2015',
-    frame_effect: '',
     full_art: false,
     story_spotlight: false,
-    edhrec_rank: 2459,
+    edhrec_rank: 2686,
     related_uris:
      { gatherer:
         'http://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=439829',
@@ -3523,17 +3488,17 @@ module.exports = [ { object: 'card',
     highres_image: true,
     image_uris:
      { small:
-        'https://img.scryfall.com/cards/small/en/rix/167.jpg?1524752372',
+        'https://img.scryfall.com/cards/small/front/4/1/41ed9247-16c0-4ca4-9b46-d3da5a375e4c.jpg?1555040923',
        normal:
-        'https://img.scryfall.com/cards/normal/en/rix/167.jpg?1524752372',
+        'https://img.scryfall.com/cards/normal/front/4/1/41ed9247-16c0-4ca4-9b46-d3da5a375e4c.jpg?1555040923',
        large:
-        'https://img.scryfall.com/cards/large/en/rix/167.jpg?1524752372',
+        'https://img.scryfall.com/cards/large/front/4/1/41ed9247-16c0-4ca4-9b46-d3da5a375e4c.jpg?1555040923',
        png:
-        'https://img.scryfall.com/cards/png/en/rix/167.png?1524752372',
+        'https://img.scryfall.com/cards/png/front/4/1/41ed9247-16c0-4ca4-9b46-d3da5a375e4c.png?1555040923',
        art_crop:
-        'https://img.scryfall.com/cards/art_crop/en/rix/167.jpg?1524752372',
+        'https://img.scryfall.com/cards/art_crop/front/4/1/41ed9247-16c0-4ca4-9b46-d3da5a375e4c.jpg?1555040923',
        border_crop:
-        'https://img.scryfall.com/cards/border_crop/en/rix/167.jpg?1524752372' },
+        'https://img.scryfall.com/cards/border_crop/front/4/1/41ed9247-16c0-4ca4-9b46-d3da5a375e4c.jpg?1555040923' },
     mana_cost: '{1}{U}{R}',
     cmc: 3,
     type_line: 'Creature — Shapeshifter Pirate',
@@ -3581,10 +3546,9 @@ module.exports = [ { object: 'card',
     artist: 'Izzy',
     border_color: 'black',
     frame: '2015',
-    frame_effect: '',
     full_art: false,
     story_spotlight: false,
-    edhrec_rank: 3733,
+    edhrec_rank: 3928,
     related_uris:
      { gatherer:
         'http://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=439828',
@@ -3627,17 +3591,17 @@ module.exports = [ { object: 'card',
          illustration_id: 'cf3e53bc-96b8-4cb6-995a-8d0ed76623a3',
          image_uris:
           { small:
-             'https://img.scryfall.com/cards/small/en/rix/166a.jpg?1524752356',
+             'https://img.scryfall.com/cards/small/front/1/d/1d94ff37-f04e-48ee-8253-d62ab07f0632.jpg?1555428604',
             normal:
-             'https://img.scryfall.com/cards/normal/en/rix/166a.jpg?1524752356',
+             'https://img.scryfall.com/cards/normal/front/1/d/1d94ff37-f04e-48ee-8253-d62ab07f0632.jpg?1555428604',
             large:
-             'https://img.scryfall.com/cards/large/en/rix/166a.jpg?1524752356',
+             'https://img.scryfall.com/cards/large/front/1/d/1d94ff37-f04e-48ee-8253-d62ab07f0632.jpg?1555428604',
             png:
-             'https://img.scryfall.com/cards/png/en/rix/166a.png?1524752356',
+             'https://img.scryfall.com/cards/png/front/1/d/1d94ff37-f04e-48ee-8253-d62ab07f0632.png?1555428604',
             art_crop:
-             'https://img.scryfall.com/cards/art_crop/en/rix/166a.jpg?1524752356',
+             'https://img.scryfall.com/cards/art_crop/front/1/d/1d94ff37-f04e-48ee-8253-d62ab07f0632.jpg?1555428604',
             border_crop:
-             'https://img.scryfall.com/cards/border_crop/en/rix/166a.jpg?1524752356' } },
+             'https://img.scryfall.com/cards/border_crop/front/1/d/1d94ff37-f04e-48ee-8253-d62ab07f0632.jpg?1555428604' } },
        { object: 'card_face',
          name: 'Tomb of the Dusk Rose',
          mana_cost: '',
@@ -3650,17 +3614,17 @@ module.exports = [ { object: 'card',
          illustration_id: '29bda121-c2da-4055-8664-115c85a2f812',
          image_uris:
           { small:
-             'https://img.scryfall.com/cards/small/en/rix/166b.jpg?1524752356',
+             'https://img.scryfall.com/cards/small/back/1/d/1d94ff37-f04e-48ee-8253-d62ab07f0632.jpg?1555428604',
             normal:
-             'https://img.scryfall.com/cards/normal/en/rix/166b.jpg?1524752356',
+             'https://img.scryfall.com/cards/normal/back/1/d/1d94ff37-f04e-48ee-8253-d62ab07f0632.jpg?1555428604',
             large:
-             'https://img.scryfall.com/cards/large/en/rix/166b.jpg?1524752356',
+             'https://img.scryfall.com/cards/large/back/1/d/1d94ff37-f04e-48ee-8253-d62ab07f0632.jpg?1555428604',
             png:
-             'https://img.scryfall.com/cards/png/en/rix/166b.png?1524752356',
+             'https://img.scryfall.com/cards/png/back/1/d/1d94ff37-f04e-48ee-8253-d62ab07f0632.png?1555428604',
             art_crop:
-             'https://img.scryfall.com/cards/art_crop/en/rix/166b.jpg?1524752356',
+             'https://img.scryfall.com/cards/art_crop/back/1/d/1d94ff37-f04e-48ee-8253-d62ab07f0632.jpg?1555428604',
             border_crop:
-             'https://img.scryfall.com/cards/border_crop/en/rix/166b.jpg?1524752356' } } ],
+             'https://img.scryfall.com/cards/border_crop/back/1/d/1d94ff37-f04e-48ee-8253-d62ab07f0632.jpg?1555428604' } } ],
     legalities:
      { standard: 'legal',
        future: 'legal',
@@ -3694,13 +3658,13 @@ module.exports = [ { object: 'card',
     collector_number: '166',
     digital: false,
     rarity: 'rare',
-    artist: 'Bastien L. Deharme & Bastien L. Deharme',
+    artist: 'Bastien L. Deharme',
     border_color: 'black',
     frame: '2015',
     frame_effect: 'compasslanddfc',
     full_art: false,
     story_spotlight: false,
-    edhrec_rank: 1797,
+    edhrec_rank: 1944,
     related_uris:
      { gatherer:
         'http://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=439826',
@@ -3741,17 +3705,17 @@ module.exports = [ { object: 'card',
          illustration_id: '0c40cc5d-d767-47c5-afa0-75c9b399857b',
          image_uris:
           { small:
-             'https://img.scryfall.com/cards/small/en/rix/165a.jpg?1524752326',
+             'https://img.scryfall.com/cards/small/front/6/6/66d9d524-3611-48d9-86c9-48e509e8ae70.jpg?1555428581',
             normal:
-             'https://img.scryfall.com/cards/normal/en/rix/165a.jpg?1524752326',
+             'https://img.scryfall.com/cards/normal/front/6/6/66d9d524-3611-48d9-86c9-48e509e8ae70.jpg?1555428581',
             large:
-             'https://img.scryfall.com/cards/large/en/rix/165a.jpg?1524752326',
+             'https://img.scryfall.com/cards/large/front/6/6/66d9d524-3611-48d9-86c9-48e509e8ae70.jpg?1555428581',
             png:
-             'https://img.scryfall.com/cards/png/en/rix/165a.png?1524752326',
+             'https://img.scryfall.com/cards/png/front/6/6/66d9d524-3611-48d9-86c9-48e509e8ae70.png?1555428581',
             art_crop:
-             'https://img.scryfall.com/cards/art_crop/en/rix/165a.jpg?1524752326',
+             'https://img.scryfall.com/cards/art_crop/front/6/6/66d9d524-3611-48d9-86c9-48e509e8ae70.jpg?1555428581',
             border_crop:
-             'https://img.scryfall.com/cards/border_crop/en/rix/165a.jpg?1524752326' } },
+             'https://img.scryfall.com/cards/border_crop/front/6/6/66d9d524-3611-48d9-86c9-48e509e8ae70.jpg?1555428581' } },
        { object: 'card_face',
          name: 'Metzali, Tower of Triumph',
          mana_cost: '',
@@ -3763,17 +3727,17 @@ module.exports = [ { object: 'card',
          illustration_id: '67fa762a-bbd9-4ffa-a249-222ac8089e72',
          image_uris:
           { small:
-             'https://img.scryfall.com/cards/small/en/rix/165b.jpg?1524752326',
+             'https://img.scryfall.com/cards/small/back/6/6/66d9d524-3611-48d9-86c9-48e509e8ae70.jpg?1555428581',
             normal:
-             'https://img.scryfall.com/cards/normal/en/rix/165b.jpg?1524752326',
+             'https://img.scryfall.com/cards/normal/back/6/6/66d9d524-3611-48d9-86c9-48e509e8ae70.jpg?1555428581',
             large:
-             'https://img.scryfall.com/cards/large/en/rix/165b.jpg?1524752326',
+             'https://img.scryfall.com/cards/large/back/6/6/66d9d524-3611-48d9-86c9-48e509e8ae70.jpg?1555428581',
             png:
-             'https://img.scryfall.com/cards/png/en/rix/165b.png?1524752326',
+             'https://img.scryfall.com/cards/png/back/6/6/66d9d524-3611-48d9-86c9-48e509e8ae70.png?1555428581',
             art_crop:
-             'https://img.scryfall.com/cards/art_crop/en/rix/165b.jpg?1524752326',
+             'https://img.scryfall.com/cards/art_crop/back/6/6/66d9d524-3611-48d9-86c9-48e509e8ae70.jpg?1555428581',
             border_crop:
-             'https://img.scryfall.com/cards/border_crop/en/rix/165b.jpg?1524752326' } } ],
+             'https://img.scryfall.com/cards/border_crop/back/6/6/66d9d524-3611-48d9-86c9-48e509e8ae70.jpg?1555428581' } } ],
     legalities:
      { standard: 'legal',
        future: 'legal',
@@ -3807,13 +3771,13 @@ module.exports = [ { object: 'card',
     collector_number: '165',
     digital: false,
     rarity: 'rare',
-    artist: 'Victor Adame Minguez & Victor Adame Minguez',
+    artist: 'Victor Adame Minguez',
     border_color: 'black',
     frame: '2015',
     frame_effect: 'compasslanddfc',
     full_art: false,
     story_spotlight: false,
-    edhrec_rank: 3877,
+    edhrec_rank: 4202,
     related_uris:
      { gatherer:
         'http://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=439824',
@@ -3841,17 +3805,17 @@ module.exports = [ { object: 'card',
     highres_image: true,
     image_uris:
      { small:
-        'https://img.scryfall.com/cards/small/en/rix/164.jpg?1524752294',
+        'https://img.scryfall.com/cards/small/front/2/9/2935b829-23fb-415e-90f2-2e0016b5cde9.jpg?1555040884',
        normal:
-        'https://img.scryfall.com/cards/normal/en/rix/164.jpg?1524752294',
+        'https://img.scryfall.com/cards/normal/front/2/9/2935b829-23fb-415e-90f2-2e0016b5cde9.jpg?1555040884',
        large:
-        'https://img.scryfall.com/cards/large/en/rix/164.jpg?1524752294',
+        'https://img.scryfall.com/cards/large/front/2/9/2935b829-23fb-415e-90f2-2e0016b5cde9.jpg?1555040884',
        png:
-        'https://img.scryfall.com/cards/png/en/rix/164.png?1524752294',
+        'https://img.scryfall.com/cards/png/front/2/9/2935b829-23fb-415e-90f2-2e0016b5cde9.png?1555040884',
        art_crop:
-        'https://img.scryfall.com/cards/art_crop/en/rix/164.jpg?1524752294',
+        'https://img.scryfall.com/cards/art_crop/front/2/9/2935b829-23fb-415e-90f2-2e0016b5cde9.jpg?1555040884',
        border_crop:
-        'https://img.scryfall.com/cards/border_crop/en/rix/164.jpg?1524752294' },
+        'https://img.scryfall.com/cards/border_crop/front/2/9/2935b829-23fb-415e-90f2-2e0016b5cde9.jpg?1555040884' },
     mana_cost: '{G}{U}',
     cmc: 2,
     type_line: 'Creature — Merfolk Shaman',
@@ -3899,10 +3863,9 @@ module.exports = [ { object: 'card',
     artist: 'Clint Cearley',
     border_color: 'black',
     frame: '2015',
-    frame_effect: '',
     full_art: false,
     story_spotlight: false,
-    edhrec_rank: 2547,
+    edhrec_rank: 2834,
     related_uris:
      { gatherer:
         'http://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=439823',
@@ -3930,17 +3893,17 @@ module.exports = [ { object: 'card',
     highres_image: true,
     image_uris:
      { small:
-        'https://img.scryfall.com/cards/small/en/rix/163.jpg?1524752284',
+        'https://img.scryfall.com/cards/small/front/3/3/33f7ff99-65d6-4e97-bdfa-b6e6eac0588f.jpg?1555040877',
        normal:
-        'https://img.scryfall.com/cards/normal/en/rix/163.jpg?1524752284',
+        'https://img.scryfall.com/cards/normal/front/3/3/33f7ff99-65d6-4e97-bdfa-b6e6eac0588f.jpg?1555040877',
        large:
-        'https://img.scryfall.com/cards/large/en/rix/163.jpg?1524752284',
+        'https://img.scryfall.com/cards/large/front/3/3/33f7ff99-65d6-4e97-bdfa-b6e6eac0588f.jpg?1555040877',
        png:
-        'https://img.scryfall.com/cards/png/en/rix/163.png?1524752284',
+        'https://img.scryfall.com/cards/png/front/3/3/33f7ff99-65d6-4e97-bdfa-b6e6eac0588f.png?1555040877',
        art_crop:
-        'https://img.scryfall.com/cards/art_crop/en/rix/163.jpg?1524752284',
+        'https://img.scryfall.com/cards/art_crop/front/3/3/33f7ff99-65d6-4e97-bdfa-b6e6eac0588f.jpg?1555040877',
        border_crop:
-        'https://img.scryfall.com/cards/border_crop/en/rix/163.jpg?1524752284' },
+        'https://img.scryfall.com/cards/border_crop/front/3/3/33f7ff99-65d6-4e97-bdfa-b6e6eac0588f.jpg?1555040877' },
     mana_cost: '{W}{B}',
     cmc: 2,
     type_line: 'Creature — Vampire Knight',
@@ -3988,10 +3951,9 @@ module.exports = [ { object: 'card',
     artist: 'Zezhou Chen',
     border_color: 'black',
     frame: '2015',
-    frame_effect: '',
     full_art: false,
     story_spotlight: false,
-    edhrec_rank: 1411,
+    edhrec_rank: 1562,
     related_uris:
      { gatherer:
         'http://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=439822',
@@ -4019,17 +3981,17 @@ module.exports = [ { object: 'card',
     highres_image: true,
     image_uris:
      { small:
-        'https://img.scryfall.com/cards/small/en/rix/162.jpg?1524752265',
+        'https://img.scryfall.com/cards/small/front/a/3/a3aef818-c896-46e6-aaff-56aee52a066c.jpg?1555040871',
        normal:
-        'https://img.scryfall.com/cards/normal/en/rix/162.jpg?1524752265',
+        'https://img.scryfall.com/cards/normal/front/a/3/a3aef818-c896-46e6-aaff-56aee52a066c.jpg?1555040871',
        large:
-        'https://img.scryfall.com/cards/large/en/rix/162.jpg?1524752265',
+        'https://img.scryfall.com/cards/large/front/a/3/a3aef818-c896-46e6-aaff-56aee52a066c.jpg?1555040871',
        png:
-        'https://img.scryfall.com/cards/png/en/rix/162.png?1524752265',
+        'https://img.scryfall.com/cards/png/front/a/3/a3aef818-c896-46e6-aaff-56aee52a066c.png?1555040871',
        art_crop:
-        'https://img.scryfall.com/cards/art_crop/en/rix/162.jpg?1524752265',
+        'https://img.scryfall.com/cards/art_crop/front/a/3/a3aef818-c896-46e6-aaff-56aee52a066c.jpg?1555040871',
        border_crop:
-        'https://img.scryfall.com/cards/border_crop/en/rix/162.jpg?1524752265' },
+        'https://img.scryfall.com/cards/border_crop/front/a/3/a3aef818-c896-46e6-aaff-56aee52a066c.jpg?1555040871' },
     mana_cost: '{1}{G}{U}',
     cmc: 3,
     type_line: 'Legendary Creature — Merfolk Shaman',
@@ -4076,10 +4038,9 @@ module.exports = [ { object: 'card',
     artist: 'Tyler Jacobson',
     border_color: 'black',
     frame: '2015',
-    frame_effect: '',
     full_art: false,
     story_spotlight: false,
-    edhrec_rank: 3958,
+    edhrec_rank: 4300,
     related_uris:
      { gatherer:
         'http://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=439821',
@@ -4107,17 +4068,17 @@ module.exports = [ { object: 'card',
     highres_image: true,
     image_uris:
      { small:
-        'https://img.scryfall.com/cards/small/en/rix/161.jpg?1524752245',
+        'https://img.scryfall.com/cards/small/front/3/d/3d71282d-021c-4028-9ab7-f10e43e92c80.jpg?1555040863',
        normal:
-        'https://img.scryfall.com/cards/normal/en/rix/161.jpg?1524752245',
+        'https://img.scryfall.com/cards/normal/front/3/d/3d71282d-021c-4028-9ab7-f10e43e92c80.jpg?1555040863',
        large:
-        'https://img.scryfall.com/cards/large/en/rix/161.jpg?1524752245',
+        'https://img.scryfall.com/cards/large/front/3/d/3d71282d-021c-4028-9ab7-f10e43e92c80.jpg?1555040863',
        png:
-        'https://img.scryfall.com/cards/png/en/rix/161.png?1524752245',
+        'https://img.scryfall.com/cards/png/front/3/d/3d71282d-021c-4028-9ab7-f10e43e92c80.png?1555040863',
        art_crop:
-        'https://img.scryfall.com/cards/art_crop/en/rix/161.jpg?1524752245',
+        'https://img.scryfall.com/cards/art_crop/front/3/d/3d71282d-021c-4028-9ab7-f10e43e92c80.jpg?1555040863',
        border_crop:
-        'https://img.scryfall.com/cards/border_crop/en/rix/161.jpg?1524752245' },
+        'https://img.scryfall.com/cards/border_crop/front/3/d/3d71282d-021c-4028-9ab7-f10e43e92c80.jpg?1555040863' },
     mana_cost: '{1}{B}{G}',
     cmc: 3,
     type_line: 'Creature — Elemental',
@@ -4166,10 +4127,9 @@ module.exports = [ { object: 'card',
     artist: 'Matt Stewart',
     border_color: 'black',
     frame: '2015',
-    frame_effect: '',
     full_art: false,
     story_spotlight: false,
-    edhrec_rank: 11431,
+    edhrec_rank: 11705,
     related_uris:
      { gatherer:
         'http://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=439820',
@@ -4211,17 +4171,17 @@ module.exports = [ { object: 'card',
          illustration_id: 'f3c48762-8d2a-4204-be7a-575f655ca934',
          image_uris:
           { small:
-             'https://img.scryfall.com/cards/small/en/rix/160a.jpg?1524752234',
+             'https://img.scryfall.com/cards/small/front/d/8/d81c4b3f-81c2-403b-8a5d-c9415f73a1f9.jpg?1555040854',
             normal:
-             'https://img.scryfall.com/cards/normal/en/rix/160a.jpg?1524752234',
+             'https://img.scryfall.com/cards/normal/front/d/8/d81c4b3f-81c2-403b-8a5d-c9415f73a1f9.jpg?1555040854',
             large:
-             'https://img.scryfall.com/cards/large/en/rix/160a.jpg?1524752234',
+             'https://img.scryfall.com/cards/large/front/d/8/d81c4b3f-81c2-403b-8a5d-c9415f73a1f9.jpg?1555040854',
             png:
-             'https://img.scryfall.com/cards/png/en/rix/160a.png?1524752234',
+             'https://img.scryfall.com/cards/png/front/d/8/d81c4b3f-81c2-403b-8a5d-c9415f73a1f9.png?1555040854',
             art_crop:
-             'https://img.scryfall.com/cards/art_crop/en/rix/160a.jpg?1524752234',
+             'https://img.scryfall.com/cards/art_crop/front/d/8/d81c4b3f-81c2-403b-8a5d-c9415f73a1f9.jpg?1555040854',
             border_crop:
-             'https://img.scryfall.com/cards/border_crop/en/rix/160a.jpg?1524752234' } },
+             'https://img.scryfall.com/cards/border_crop/front/d/8/d81c4b3f-81c2-403b-8a5d-c9415f73a1f9.jpg?1555040854' } },
        { object: 'card_face',
          name: 'Atzal, Cave of Eternity',
          mana_cost: '',
@@ -4234,17 +4194,17 @@ module.exports = [ { object: 'card',
          illustration_id: '9e66b220-cb18-4199-a154-8cb79b8a91e4',
          image_uris:
           { small:
-             'https://img.scryfall.com/cards/small/en/rix/160b.jpg?1524752234',
+             'https://img.scryfall.com/cards/small/back/d/8/d81c4b3f-81c2-403b-8a5d-c9415f73a1f9.jpg?1555040854',
             normal:
-             'https://img.scryfall.com/cards/normal/en/rix/160b.jpg?1524752234',
+             'https://img.scryfall.com/cards/normal/back/d/8/d81c4b3f-81c2-403b-8a5d-c9415f73a1f9.jpg?1555040854',
             large:
-             'https://img.scryfall.com/cards/large/en/rix/160b.jpg?1524752234',
+             'https://img.scryfall.com/cards/large/back/d/8/d81c4b3f-81c2-403b-8a5d-c9415f73a1f9.jpg?1555040854',
             png:
-             'https://img.scryfall.com/cards/png/en/rix/160b.png?1524752234',
+             'https://img.scryfall.com/cards/png/back/d/8/d81c4b3f-81c2-403b-8a5d-c9415f73a1f9.png?1555040854',
             art_crop:
-             'https://img.scryfall.com/cards/art_crop/en/rix/160b.jpg?1524752234',
+             'https://img.scryfall.com/cards/art_crop/back/d/8/d81c4b3f-81c2-403b-8a5d-c9415f73a1f9.jpg?1555040854',
             border_crop:
-             'https://img.scryfall.com/cards/border_crop/en/rix/160b.jpg?1524752234' } } ],
+             'https://img.scryfall.com/cards/border_crop/back/d/8/d81c4b3f-81c2-403b-8a5d-c9415f73a1f9.jpg?1555040854' } } ],
     legalities:
      { standard: 'legal',
        future: 'legal',
@@ -4284,7 +4244,7 @@ module.exports = [ { object: 'card',
     frame_effect: 'compasslanddfc',
     full_art: false,
     story_spotlight: false,
-    edhrec_rank: 387,
+    edhrec_rank: 417,
     related_uris:
      { gatherer:
         'http://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=439818',
@@ -4312,17 +4272,17 @@ module.exports = [ { object: 'card',
     highres_image: true,
     image_uris:
      { small:
-        'https://img.scryfall.com/cards/small/en/rix/159.jpg?1524752200',
+        'https://img.scryfall.com/cards/small/front/3/9/39bcc48a-efdb-443f-93b8-bc0b54aa0eb8.jpg?1555040837',
        normal:
-        'https://img.scryfall.com/cards/normal/en/rix/159.jpg?1524752200',
+        'https://img.scryfall.com/cards/normal/front/3/9/39bcc48a-efdb-443f-93b8-bc0b54aa0eb8.jpg?1555040837',
        large:
-        'https://img.scryfall.com/cards/large/en/rix/159.jpg?1524752200',
+        'https://img.scryfall.com/cards/large/front/3/9/39bcc48a-efdb-443f-93b8-bc0b54aa0eb8.jpg?1555040837',
        png:
-        'https://img.scryfall.com/cards/png/en/rix/159.png?1524752200',
+        'https://img.scryfall.com/cards/png/front/3/9/39bcc48a-efdb-443f-93b8-bc0b54aa0eb8.png?1555040837',
        art_crop:
-        'https://img.scryfall.com/cards/art_crop/en/rix/159.jpg?1524752200',
+        'https://img.scryfall.com/cards/art_crop/front/3/9/39bcc48a-efdb-443f-93b8-bc0b54aa0eb8.jpg?1555040837',
        border_crop:
-        'https://img.scryfall.com/cards/border_crop/en/rix/159.jpg?1524752200' },
+        'https://img.scryfall.com/cards/border_crop/front/3/9/39bcc48a-efdb-443f-93b8-bc0b54aa0eb8.jpg?1555040837' },
     mana_cost: '{2}{G}{W}',
     cmc: 4,
     type_line: 'Legendary Planeswalker — Huatli',
@@ -4383,10 +4343,9 @@ module.exports = [ { object: 'card',
     artist: 'Chris Rahn',
     border_color: 'black',
     frame: '2015',
-    frame_effect: '',
     full_art: false,
     story_spotlight: false,
-    edhrec_rank: 1549,
+    edhrec_rank: 1715,
     related_uris:
      { gatherer:
         'http://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=439817',
@@ -4428,17 +4387,17 @@ module.exports = [ { object: 'card',
          illustration_id: '83db383b-fb13-4550-93bb-afb6d9e9d996',
          image_uris:
           { small:
-             'https://img.scryfall.com/cards/small/en/rix/158a.jpg?1524752183',
+             'https://img.scryfall.com/cards/small/front/8/e/8e7554bc-8583-4059-8895-c3845bc27ae3.jpg?1555428629',
             normal:
-             'https://img.scryfall.com/cards/normal/en/rix/158a.jpg?1524752183',
+             'https://img.scryfall.com/cards/normal/front/8/e/8e7554bc-8583-4059-8895-c3845bc27ae3.jpg?1555428629',
             large:
-             'https://img.scryfall.com/cards/large/en/rix/158a.jpg?1524752183',
+             'https://img.scryfall.com/cards/large/front/8/e/8e7554bc-8583-4059-8895-c3845bc27ae3.jpg?1555428629',
             png:
-             'https://img.scryfall.com/cards/png/en/rix/158a.png?1524752183',
+             'https://img.scryfall.com/cards/png/front/8/e/8e7554bc-8583-4059-8895-c3845bc27ae3.png?1555428629',
             art_crop:
-             'https://img.scryfall.com/cards/art_crop/en/rix/158a.jpg?1524752183',
+             'https://img.scryfall.com/cards/art_crop/front/8/e/8e7554bc-8583-4059-8895-c3845bc27ae3.jpg?1555428629',
             border_crop:
-             'https://img.scryfall.com/cards/border_crop/en/rix/158a.jpg?1524752183' } },
+             'https://img.scryfall.com/cards/border_crop/front/8/e/8e7554bc-8583-4059-8895-c3845bc27ae3.jpg?1555428629' } },
        { object: 'card_face',
          name: 'Winged Temple of Orazca',
          mana_cost: '',
@@ -4450,17 +4409,17 @@ module.exports = [ { object: 'card',
          illustration_id: 'cd38847f-1253-49f8-9b7e-7fc8b50b727a',
          image_uris:
           { small:
-             'https://img.scryfall.com/cards/small/en/rix/158b.jpg?1524752183',
+             'https://img.scryfall.com/cards/small/back/8/e/8e7554bc-8583-4059-8895-c3845bc27ae3.jpg?1555428629',
             normal:
-             'https://img.scryfall.com/cards/normal/en/rix/158b.jpg?1524752183',
+             'https://img.scryfall.com/cards/normal/back/8/e/8e7554bc-8583-4059-8895-c3845bc27ae3.jpg?1555428629',
             large:
-             'https://img.scryfall.com/cards/large/en/rix/158b.jpg?1524752183',
+             'https://img.scryfall.com/cards/large/back/8/e/8e7554bc-8583-4059-8895-c3845bc27ae3.jpg?1555428629',
             png:
-             'https://img.scryfall.com/cards/png/en/rix/158b.png?1524752183',
+             'https://img.scryfall.com/cards/png/back/8/e/8e7554bc-8583-4059-8895-c3845bc27ae3.png?1555428629',
             art_crop:
-             'https://img.scryfall.com/cards/art_crop/en/rix/158b.jpg?1524752183',
+             'https://img.scryfall.com/cards/art_crop/back/8/e/8e7554bc-8583-4059-8895-c3845bc27ae3.jpg?1555428629',
             border_crop:
-             'https://img.scryfall.com/cards/border_crop/en/rix/158b.jpg?1524752183' } } ],
+             'https://img.scryfall.com/cards/border_crop/back/8/e/8e7554bc-8583-4059-8895-c3845bc27ae3.jpg?1555428629' } } ],
     legalities:
      { standard: 'legal',
        future: 'legal',
@@ -4494,13 +4453,13 @@ module.exports = [ { object: 'card',
     collector_number: '158',
     digital: false,
     rarity: 'rare',
-    artist: 'Titus Lunter & Titus Lunter',
+    artist: 'Titus Lunter',
     border_color: 'black',
     frame: '2015',
     frame_effect: 'compasslanddfc',
     full_art: false,
     story_spotlight: false,
-    edhrec_rank: 1084,
+    edhrec_rank: 1136,
     related_uris:
      { gatherer:
         'http://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=439815',
@@ -4528,17 +4487,17 @@ module.exports = [ { object: 'card',
     highres_image: true,
     image_uris:
      { small:
-        'https://img.scryfall.com/cards/small/en/rix/157.jpg?1524752154',
+        'https://img.scryfall.com/cards/small/front/a/5/a52af49b-cfeb-47a8-9ce5-5d35bfa9eb75.jpg?1555040816',
        normal:
-        'https://img.scryfall.com/cards/normal/en/rix/157.jpg?1524752154',
+        'https://img.scryfall.com/cards/normal/front/a/5/a52af49b-cfeb-47a8-9ce5-5d35bfa9eb75.jpg?1555040816',
        large:
-        'https://img.scryfall.com/cards/large/en/rix/157.jpg?1524752154',
+        'https://img.scryfall.com/cards/large/front/a/5/a52af49b-cfeb-47a8-9ce5-5d35bfa9eb75.jpg?1555040816',
        png:
-        'https://img.scryfall.com/cards/png/en/rix/157.png?1524752154',
+        'https://img.scryfall.com/cards/png/front/a/5/a52af49b-cfeb-47a8-9ce5-5d35bfa9eb75.png?1555040816',
        art_crop:
-        'https://img.scryfall.com/cards/art_crop/en/rix/157.jpg?1524752154',
+        'https://img.scryfall.com/cards/art_crop/front/a/5/a52af49b-cfeb-47a8-9ce5-5d35bfa9eb75.jpg?1555040816',
        border_crop:
-        'https://img.scryfall.com/cards/border_crop/en/rix/157.jpg?1524752154' },
+        'https://img.scryfall.com/cards/border_crop/front/a/5/a52af49b-cfeb-47a8-9ce5-5d35bfa9eb75.jpg?1555040816' },
     mana_cost: '{2}{W}{B}',
     cmc: 4,
     type_line: 'Legendary Creature — Vampire Knight',
@@ -4601,10 +4560,9 @@ module.exports = [ { object: 'card',
     artist: 'Chris Rahn',
     border_color: 'black',
     frame: '2015',
-    frame_effect: '',
     full_art: false,
     story_spotlight: false,
-    edhrec_rank: 1784,
+    edhrec_rank: 1834,
     related_uris:
      { gatherer:
         'http://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=439814',
@@ -4632,17 +4590,17 @@ module.exports = [ { object: 'card',
     highres_image: true,
     image_uris:
      { small:
-        'https://img.scryfall.com/cards/small/en/rix/156.jpg?1524752143',
+        'https://img.scryfall.com/cards/small/front/5/1/5146dd15-f696-42c3-b0e5-6a1b1d7be6b4.jpg?1555040809',
        normal:
-        'https://img.scryfall.com/cards/normal/en/rix/156.jpg?1524752143',
+        'https://img.scryfall.com/cards/normal/front/5/1/5146dd15-f696-42c3-b0e5-6a1b1d7be6b4.jpg?1555040809',
        large:
-        'https://img.scryfall.com/cards/large/en/rix/156.jpg?1524752143',
+        'https://img.scryfall.com/cards/large/front/5/1/5146dd15-f696-42c3-b0e5-6a1b1d7be6b4.jpg?1555040809',
        png:
-        'https://img.scryfall.com/cards/png/en/rix/156.png?1524752143',
+        'https://img.scryfall.com/cards/png/front/5/1/5146dd15-f696-42c3-b0e5-6a1b1d7be6b4.png?1555040809',
        art_crop:
-        'https://img.scryfall.com/cards/art_crop/en/rix/156.jpg?1524752143',
+        'https://img.scryfall.com/cards/art_crop/front/5/1/5146dd15-f696-42c3-b0e5-6a1b1d7be6b4.jpg?1555040809',
        border_crop:
-        'https://img.scryfall.com/cards/border_crop/en/rix/156.jpg?1524752143' },
+        'https://img.scryfall.com/cards/border_crop/front/5/1/5146dd15-f696-42c3-b0e5-6a1b1d7be6b4.jpg?1555040809' },
     mana_cost: '{2}{B}{R}',
     cmc: 4,
     type_line: 'Creature — Orc Pirate',
@@ -4690,10 +4648,9 @@ module.exports = [ { object: 'card',
     artist: 'Daarken',
     border_color: 'black',
     frame: '2015',
-    frame_effect: '',
     full_art: false,
     story_spotlight: false,
-    edhrec_rank: 4315,
+    edhrec_rank: 4585,
     related_uris:
      { gatherer:
         'http://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=439813',
@@ -4721,17 +4678,17 @@ module.exports = [ { object: 'card',
     highres_image: true,
     image_uris:
      { small:
-        'https://img.scryfall.com/cards/small/en/rix/155.jpg?1524752132',
+        'https://img.scryfall.com/cards/small/front/a/c/acb1ab66-f2ce-4094-b2dd-1fc63d78eea2.jpg?1555040801',
        normal:
-        'https://img.scryfall.com/cards/normal/en/rix/155.jpg?1524752132',
+        'https://img.scryfall.com/cards/normal/front/a/c/acb1ab66-f2ce-4094-b2dd-1fc63d78eea2.jpg?1555040801',
        large:
-        'https://img.scryfall.com/cards/large/en/rix/155.jpg?1524752132',
+        'https://img.scryfall.com/cards/large/front/a/c/acb1ab66-f2ce-4094-b2dd-1fc63d78eea2.jpg?1555040801',
        png:
-        'https://img.scryfall.com/cards/png/en/rix/155.png?1524752132',
+        'https://img.scryfall.com/cards/png/front/a/c/acb1ab66-f2ce-4094-b2dd-1fc63d78eea2.png?1555040801',
        art_crop:
-        'https://img.scryfall.com/cards/art_crop/en/rix/155.jpg?1524752132',
+        'https://img.scryfall.com/cards/art_crop/front/a/c/acb1ab66-f2ce-4094-b2dd-1fc63d78eea2.jpg?1555040801',
        border_crop:
-        'https://img.scryfall.com/cards/border_crop/en/rix/155.jpg?1524752132' },
+        'https://img.scryfall.com/cards/border_crop/front/a/c/acb1ab66-f2ce-4094-b2dd-1fc63d78eea2.jpg?1555040801' },
     mana_cost: '{2}{U}{B}',
     cmc: 4,
     type_line: 'Creature — Human Pirate',
@@ -4778,10 +4735,9 @@ module.exports = [ { object: 'card',
     artist: 'Jesper Ejsing',
     border_color: 'black',
     frame: '2015',
-    frame_effect: '',
     full_art: false,
     story_spotlight: false,
-    edhrec_rank: 4798,
+    edhrec_rank: 5054,
     related_uris:
      { gatherer:
         'http://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=439812',
@@ -4809,17 +4765,17 @@ module.exports = [ { object: 'card',
     highres_image: true,
     image_uris:
      { small:
-        'https://img.scryfall.com/cards/small/en/rix/154.jpg?1524752117',
+        'https://img.scryfall.com/cards/small/front/3/0/30dc237e-b28a-4b65-9790-6b434828bf2e.jpg?1555040794',
        normal:
-        'https://img.scryfall.com/cards/normal/en/rix/154.jpg?1524752117',
+        'https://img.scryfall.com/cards/normal/front/3/0/30dc237e-b28a-4b65-9790-6b434828bf2e.jpg?1555040794',
        large:
-        'https://img.scryfall.com/cards/large/en/rix/154.jpg?1524752117',
+        'https://img.scryfall.com/cards/large/front/3/0/30dc237e-b28a-4b65-9790-6b434828bf2e.jpg?1555040794',
        png:
-        'https://img.scryfall.com/cards/png/en/rix/154.png?1524752117',
+        'https://img.scryfall.com/cards/png/front/3/0/30dc237e-b28a-4b65-9790-6b434828bf2e.png?1555040794',
        art_crop:
-        'https://img.scryfall.com/cards/art_crop/en/rix/154.jpg?1524752117',
+        'https://img.scryfall.com/cards/art_crop/front/3/0/30dc237e-b28a-4b65-9790-6b434828bf2e.jpg?1555040794',
        border_crop:
-        'https://img.scryfall.com/cards/border_crop/en/rix/154.jpg?1524752117' },
+        'https://img.scryfall.com/cards/border_crop/front/3/0/30dc237e-b28a-4b65-9790-6b434828bf2e.jpg?1555040794' },
     mana_cost: '{2}{W}{W}{U}{U}',
     cmc: 6,
     type_line: 'Legendary Creature — Sphinx',
@@ -4866,10 +4822,9 @@ module.exports = [ { object: 'card',
     artist: 'Ryan Pancoast',
     border_color: 'black',
     frame: '2015',
-    frame_effect: '',
     full_art: false,
     story_spotlight: false,
-    edhrec_rank: 2470,
+    edhrec_rank: 2683,
     related_uris:
      { gatherer:
         'http://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=439811',
@@ -4897,17 +4852,17 @@ module.exports = [ { object: 'card',
     highres_image: true,
     image_uris:
      { small:
-        'https://img.scryfall.com/cards/small/en/rix/153.jpg?1524752103',
+        'https://img.scryfall.com/cards/small/front/f/e/fe84b3c0-bca2-42d3-a82c-540644e59625.jpg?1555040788',
        normal:
-        'https://img.scryfall.com/cards/normal/en/rix/153.jpg?1524752103',
+        'https://img.scryfall.com/cards/normal/front/f/e/fe84b3c0-bca2-42d3-a82c-540644e59625.jpg?1555040788',
        large:
-        'https://img.scryfall.com/cards/large/en/rix/153.jpg?1524752103',
+        'https://img.scryfall.com/cards/large/front/f/e/fe84b3c0-bca2-42d3-a82c-540644e59625.jpg?1555040788',
        png:
-        'https://img.scryfall.com/cards/png/en/rix/153.png?1524752103',
+        'https://img.scryfall.com/cards/png/front/f/e/fe84b3c0-bca2-42d3-a82c-540644e59625.png?1555040788',
        art_crop:
-        'https://img.scryfall.com/cards/art_crop/en/rix/153.jpg?1524752103',
+        'https://img.scryfall.com/cards/art_crop/front/f/e/fe84b3c0-bca2-42d3-a82c-540644e59625.jpg?1555040788',
        border_crop:
-        'https://img.scryfall.com/cards/border_crop/en/rix/153.jpg?1524752103' },
+        'https://img.scryfall.com/cards/border_crop/front/f/e/fe84b3c0-bca2-42d3-a82c-540644e59625.jpg?1555040788' },
     mana_cost: '{1}{G}{W}',
     cmc: 3,
     type_line: 'Creature — Human Druid',
@@ -4956,10 +4911,9 @@ module.exports = [ { object: 'card',
     artist: 'Joseph Meehan',
     border_color: 'black',
     frame: '2015',
-    frame_effect: '',
     full_art: false,
     story_spotlight: false,
-    edhrec_rank: 1942,
+    edhrec_rank: 2120,
     related_uris:
      { gatherer:
         'http://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=439810',
@@ -4987,17 +4941,17 @@ module.exports = [ { object: 'card',
     highres_image: true,
     image_uris:
      { small:
-        'https://img.scryfall.com/cards/small/en/rix/152.jpg?1524752087',
+        'https://img.scryfall.com/cards/small/front/a/4/a4d76d03-4fcf-42f8-8c2e-ad6b03d58677.jpg?1555040781',
        normal:
-        'https://img.scryfall.com/cards/normal/en/rix/152.jpg?1524752087',
+        'https://img.scryfall.com/cards/normal/front/a/4/a4d76d03-4fcf-42f8-8c2e-ad6b03d58677.jpg?1555040781',
        large:
-        'https://img.scryfall.com/cards/large/en/rix/152.jpg?1524752087',
+        'https://img.scryfall.com/cards/large/front/a/4/a4d76d03-4fcf-42f8-8c2e-ad6b03d58677.jpg?1555040781',
        png:
-        'https://img.scryfall.com/cards/png/en/rix/152.png?1524752087',
+        'https://img.scryfall.com/cards/png/front/a/4/a4d76d03-4fcf-42f8-8c2e-ad6b03d58677.png?1555040781',
        art_crop:
-        'https://img.scryfall.com/cards/art_crop/en/rix/152.jpg?1524752087',
+        'https://img.scryfall.com/cards/art_crop/front/a/4/a4d76d03-4fcf-42f8-8c2e-ad6b03d58677.jpg?1555040781',
        border_crop:
-        'https://img.scryfall.com/cards/border_crop/en/rix/152.jpg?1524752087' },
+        'https://img.scryfall.com/cards/border_crop/front/a/4/a4d76d03-4fcf-42f8-8c2e-ad6b03d58677.jpg?1555040781' },
     mana_cost: '{3}{B}{R}',
     cmc: 5,
     type_line: 'Legendary Planeswalker — Angrath',
@@ -5043,7 +4997,6 @@ module.exports = [ { object: 'card',
     artist: 'Raymond Swanland',
     border_color: 'black',
     frame: '2015',
-    frame_effect: '',
     full_art: false,
     story_spotlight: false,
     edhrec_rank: 2006,
@@ -5074,17 +5027,17 @@ module.exports = [ { object: 'card',
     highres_image: true,
     image_uris:
      { small:
-        'https://img.scryfall.com/cards/small/en/rix/151.jpg?1524752071',
+        'https://img.scryfall.com/cards/small/front/d/5/d59c87f5-95ab-4385-abbe-99a3149bdbcf.jpg?1555040775',
        normal:
-        'https://img.scryfall.com/cards/normal/en/rix/151.jpg?1524752071',
+        'https://img.scryfall.com/cards/normal/front/d/5/d59c87f5-95ab-4385-abbe-99a3149bdbcf.jpg?1555040775',
        large:
-        'https://img.scryfall.com/cards/large/en/rix/151.jpg?1524752071',
+        'https://img.scryfall.com/cards/large/front/d/5/d59c87f5-95ab-4385-abbe-99a3149bdbcf.jpg?1555040775',
        png:
-        'https://img.scryfall.com/cards/png/en/rix/151.png?1524752071',
+        'https://img.scryfall.com/cards/png/front/d/5/d59c87f5-95ab-4385-abbe-99a3149bdbcf.png?1555040775',
        art_crop:
-        'https://img.scryfall.com/cards/art_crop/en/rix/151.jpg?1524752071',
+        'https://img.scryfall.com/cards/art_crop/front/d/5/d59c87f5-95ab-4385-abbe-99a3149bdbcf.jpg?1555040775',
        border_crop:
-        'https://img.scryfall.com/cards/border_crop/en/rix/151.jpg?1524752071' },
+        'https://img.scryfall.com/cards/border_crop/front/d/5/d59c87f5-95ab-4385-abbe-99a3149bdbcf.jpg?1555040775' },
     mana_cost: '{3}{G}',
     cmc: 4,
     type_line: 'Creature — Merfolk Shaman',
@@ -5132,10 +5085,9 @@ module.exports = [ { object: 'card',
     artist: 'Raymond Swanland',
     border_color: 'black',
     frame: '2015',
-    frame_effect: '',
     full_art: false,
     story_spotlight: false,
-    edhrec_rank: 383,
+    edhrec_rank: 399,
     related_uris:
      { gatherer:
         'http://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=439808',
@@ -5163,17 +5115,17 @@ module.exports = [ { object: 'card',
     highres_image: true,
     image_uris:
      { small:
-        'https://img.scryfall.com/cards/small/en/rix/150.jpg?1524752061',
+        'https://img.scryfall.com/cards/small/front/3/5/351e8b1b-4e4e-4ffc-a134-3cf0e2a1dd6d.jpg?1555040769',
        normal:
-        'https://img.scryfall.com/cards/normal/en/rix/150.jpg?1524752061',
+        'https://img.scryfall.com/cards/normal/front/3/5/351e8b1b-4e4e-4ffc-a134-3cf0e2a1dd6d.jpg?1555040769',
        large:
-        'https://img.scryfall.com/cards/large/en/rix/150.jpg?1524752061',
+        'https://img.scryfall.com/cards/large/front/3/5/351e8b1b-4e4e-4ffc-a134-3cf0e2a1dd6d.jpg?1555040769',
        png:
-        'https://img.scryfall.com/cards/png/en/rix/150.png?1524752061',
+        'https://img.scryfall.com/cards/png/front/3/5/351e8b1b-4e4e-4ffc-a134-3cf0e2a1dd6d.png?1555040769',
        art_crop:
-        'https://img.scryfall.com/cards/art_crop/en/rix/150.jpg?1524752061',
+        'https://img.scryfall.com/cards/art_crop/front/3/5/351e8b1b-4e4e-4ffc-a134-3cf0e2a1dd6d.jpg?1555040769',
        border_crop:
-        'https://img.scryfall.com/cards/border_crop/en/rix/150.jpg?1524752061' },
+        'https://img.scryfall.com/cards/border_crop/front/3/5/351e8b1b-4e4e-4ffc-a134-3cf0e2a1dd6d.jpg?1555040769' },
     mana_cost: '{2}{G}',
     cmc: 3,
     type_line: 'Creature — Dinosaur',
@@ -5220,10 +5172,9 @@ module.exports = [ { object: 'card',
     artist: 'Chris Rahn',
     border_color: 'black',
     frame: '2015',
-    frame_effect: '',
     full_art: false,
     story_spotlight: false,
-    edhrec_rank: 320,
+    edhrec_rank: 335,
     related_uris:
      { gatherer:
         'http://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=439807',
@@ -5251,17 +5202,17 @@ module.exports = [ { object: 'card',
     highres_image: true,
     image_uris:
      { small:
-        'https://img.scryfall.com/cards/small/en/rix/149.jpg?1524752045',
+        'https://img.scryfall.com/cards/small/front/c/5/c56de4a3-f5ab-469e-ab66-b8187c8c04a0.jpg?1555040761',
        normal:
-        'https://img.scryfall.com/cards/normal/en/rix/149.jpg?1524752045',
+        'https://img.scryfall.com/cards/normal/front/c/5/c56de4a3-f5ab-469e-ab66-b8187c8c04a0.jpg?1555040761',
        large:
-        'https://img.scryfall.com/cards/large/en/rix/149.jpg?1524752045',
+        'https://img.scryfall.com/cards/large/front/c/5/c56de4a3-f5ab-469e-ab66-b8187c8c04a0.jpg?1555040761',
        png:
-        'https://img.scryfall.com/cards/png/en/rix/149.png?1524752045',
+        'https://img.scryfall.com/cards/png/front/c/5/c56de4a3-f5ab-469e-ab66-b8187c8c04a0.png?1555040761',
        art_crop:
-        'https://img.scryfall.com/cards/art_crop/en/rix/149.jpg?1524752045',
+        'https://img.scryfall.com/cards/art_crop/front/c/5/c56de4a3-f5ab-469e-ab66-b8187c8c04a0.jpg?1555040761',
        border_crop:
-        'https://img.scryfall.com/cards/border_crop/en/rix/149.jpg?1524752045' },
+        'https://img.scryfall.com/cards/border_crop/front/c/5/c56de4a3-f5ab-469e-ab66-b8187c8c04a0.jpg?1555040761' },
     mana_cost: '{1}{G}',
     cmc: 2,
     type_line: 'Sorcery',
@@ -5307,10 +5258,9 @@ module.exports = [ { object: 'card',
     artist: 'Lars Grant-West',
     border_color: 'black',
     frame: '2015',
-    frame_effect: '',
     full_art: false,
     story_spotlight: false,
-    edhrec_rank: 3429,
+    edhrec_rank: 3668,
     related_uris:
      { gatherer:
         'http://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=439806',
@@ -5338,17 +5288,17 @@ module.exports = [ { object: 'card',
     highres_image: true,
     image_uris:
      { small:
-        'https://img.scryfall.com/cards/small/en/rix/148.jpg?1524752035',
+        'https://img.scryfall.com/cards/small/front/0/d/0d9264ff-9f7c-46f3-862a-fee7ad213250.jpg?1555040755',
        normal:
-        'https://img.scryfall.com/cards/normal/en/rix/148.jpg?1524752035',
+        'https://img.scryfall.com/cards/normal/front/0/d/0d9264ff-9f7c-46f3-862a-fee7ad213250.jpg?1555040755',
        large:
-        'https://img.scryfall.com/cards/large/en/rix/148.jpg?1524752035',
+        'https://img.scryfall.com/cards/large/front/0/d/0d9264ff-9f7c-46f3-862a-fee7ad213250.jpg?1555040755',
        png:
-        'https://img.scryfall.com/cards/png/en/rix/148.png?1524752035',
+        'https://img.scryfall.com/cards/png/front/0/d/0d9264ff-9f7c-46f3-862a-fee7ad213250.png?1555040755',
        art_crop:
-        'https://img.scryfall.com/cards/art_crop/en/rix/148.jpg?1524752035',
+        'https://img.scryfall.com/cards/art_crop/front/0/d/0d9264ff-9f7c-46f3-862a-fee7ad213250.jpg?1555040755',
        border_crop:
-        'https://img.scryfall.com/cards/border_crop/en/rix/148.jpg?1524752035' },
+        'https://img.scryfall.com/cards/border_crop/front/0/d/0d9264ff-9f7c-46f3-862a-fee7ad213250.jpg?1555040755' },
     mana_cost: '{1}{G}{G}',
     cmc: 3,
     type_line: 'Creature — Dinosaur',
@@ -5397,10 +5347,9 @@ module.exports = [ { object: 'card',
     artist: 'Jakub Kasper',
     border_color: 'black',
     frame: '2015',
-    frame_effect: '',
     full_art: false,
     story_spotlight: false,
-    edhrec_rank: 1337,
+    edhrec_rank: 1443,
     related_uris:
      { gatherer:
         'http://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=439805',
@@ -5428,17 +5377,17 @@ module.exports = [ { object: 'card',
     highres_image: true,
     image_uris:
      { small:
-        'https://img.scryfall.com/cards/small/en/rix/147.jpg?1524752024',
+        'https://img.scryfall.com/cards/small/front/a/1/a159830a-698f-423c-9da0-a734b210ecab.jpg?1555040748',
        normal:
-        'https://img.scryfall.com/cards/normal/en/rix/147.jpg?1524752024',
+        'https://img.scryfall.com/cards/normal/front/a/1/a159830a-698f-423c-9da0-a734b210ecab.jpg?1555040748',
        large:
-        'https://img.scryfall.com/cards/large/en/rix/147.jpg?1524752024',
+        'https://img.scryfall.com/cards/large/front/a/1/a159830a-698f-423c-9da0-a734b210ecab.jpg?1555040748',
        png:
-        'https://img.scryfall.com/cards/png/en/rix/147.png?1524752024',
+        'https://img.scryfall.com/cards/png/front/a/1/a159830a-698f-423c-9da0-a734b210ecab.png?1555040748',
        art_crop:
-        'https://img.scryfall.com/cards/art_crop/en/rix/147.jpg?1524752024',
+        'https://img.scryfall.com/cards/art_crop/front/a/1/a159830a-698f-423c-9da0-a734b210ecab.jpg?1555040748',
        border_crop:
-        'https://img.scryfall.com/cards/border_crop/en/rix/147.jpg?1524752024' },
+        'https://img.scryfall.com/cards/border_crop/front/a/1/a159830a-698f-423c-9da0-a734b210ecab.jpg?1555040748' },
     mana_cost: '{4}{G}',
     cmc: 5,
     type_line: 'Creature — Dryad',
@@ -5500,10 +5449,9 @@ module.exports = [ { object: 'card',
     artist: 'Yongjae Choi',
     border_color: 'black',
     frame: '2015',
-    frame_effect: '',
     full_art: false,
     story_spotlight: false,
-    edhrec_rank: 731,
+    edhrec_rank: 776,
     related_uris:
      { gatherer:
         'http://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=439804',
@@ -5531,17 +5479,17 @@ module.exports = [ { object: 'card',
     highres_image: true,
     image_uris:
      { small:
-        'https://img.scryfall.com/cards/small/en/rix/146.jpg?1524752015',
+        'https://img.scryfall.com/cards/small/front/1/5/1531cb47-b0ff-4d66-acf2-ef5bb5f690fc.jpg?1555040741',
        normal:
-        'https://img.scryfall.com/cards/normal/en/rix/146.jpg?1524752015',
+        'https://img.scryfall.com/cards/normal/front/1/5/1531cb47-b0ff-4d66-acf2-ef5bb5f690fc.jpg?1555040741',
        large:
-        'https://img.scryfall.com/cards/large/en/rix/146.jpg?1524752015',
+        'https://img.scryfall.com/cards/large/front/1/5/1531cb47-b0ff-4d66-acf2-ef5bb5f690fc.jpg?1555040741',
        png:
-        'https://img.scryfall.com/cards/png/en/rix/146.png?1524752015',
+        'https://img.scryfall.com/cards/png/front/1/5/1531cb47-b0ff-4d66-acf2-ef5bb5f690fc.png?1555040741',
        art_crop:
-        'https://img.scryfall.com/cards/art_crop/en/rix/146.jpg?1524752015',
+        'https://img.scryfall.com/cards/art_crop/front/1/5/1531cb47-b0ff-4d66-acf2-ef5bb5f690fc.jpg?1555040741',
        border_crop:
-        'https://img.scryfall.com/cards/border_crop/en/rix/146.jpg?1524752015' },
+        'https://img.scryfall.com/cards/border_crop/front/1/5/1531cb47-b0ff-4d66-acf2-ef5bb5f690fc.jpg?1555040741' },
     mana_cost: '{1}{G}{G}',
     cmc: 3,
     type_line: 'Creature — Merfolk Warrior',
@@ -5589,10 +5537,9 @@ module.exports = [ { object: 'card',
     artist: 'Viktor Titov',
     border_color: 'black',
     frame: '2015',
-    frame_effect: '',
     full_art: false,
     story_spotlight: false,
-    edhrec_rank: 5242,
+    edhrec_rank: 5768,
     related_uris:
      { gatherer:
         'http://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=439803',
@@ -5620,17 +5567,17 @@ module.exports = [ { object: 'card',
     highres_image: true,
     image_uris:
      { small:
-        'https://img.scryfall.com/cards/small/en/rix/145.jpg?1524751999',
+        'https://img.scryfall.com/cards/small/front/1/5/15dd7d94-e2bd-4320-8452-9e0deb1be351.jpg?1555040735',
        normal:
-        'https://img.scryfall.com/cards/normal/en/rix/145.jpg?1524751999',
+        'https://img.scryfall.com/cards/normal/front/1/5/15dd7d94-e2bd-4320-8452-9e0deb1be351.jpg?1555040735',
        large:
-        'https://img.scryfall.com/cards/large/en/rix/145.jpg?1524751999',
+        'https://img.scryfall.com/cards/large/front/1/5/15dd7d94-e2bd-4320-8452-9e0deb1be351.jpg?1555040735',
        png:
-        'https://img.scryfall.com/cards/png/en/rix/145.png?1524751999',
+        'https://img.scryfall.com/cards/png/front/1/5/15dd7d94-e2bd-4320-8452-9e0deb1be351.png?1555040735',
        art_crop:
-        'https://img.scryfall.com/cards/art_crop/en/rix/145.jpg?1524751999',
+        'https://img.scryfall.com/cards/art_crop/front/1/5/15dd7d94-e2bd-4320-8452-9e0deb1be351.jpg?1555040735',
        border_crop:
-        'https://img.scryfall.com/cards/border_crop/en/rix/145.jpg?1524751999' },
+        'https://img.scryfall.com/cards/border_crop/front/1/5/15dd7d94-e2bd-4320-8452-9e0deb1be351.jpg?1555040735' },
     mana_cost: '{4}{G}{G}',
     cmc: 6,
     type_line: 'Sorcery',
@@ -5676,10 +5623,9 @@ module.exports = [ { object: 'card',
     artist: 'Tomasz Jedruszek',
     border_color: 'black',
     frame: '2015',
-    frame_effect: '',
     full_art: false,
     story_spotlight: false,
-    edhrec_rank: 6811,
+    edhrec_rank: 7243,
     related_uris:
      { gatherer:
         'http://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=439802',
@@ -5707,17 +5653,17 @@ module.exports = [ { object: 'card',
     highres_image: true,
     image_uris:
      { small:
-        'https://img.scryfall.com/cards/small/en/rix/144.jpg?1524751983',
+        'https://img.scryfall.com/cards/small/front/f/8/f8965a3a-93fe-4021-a665-b6013bdc86f7.jpg?1555040728',
        normal:
-        'https://img.scryfall.com/cards/normal/en/rix/144.jpg?1524751983',
+        'https://img.scryfall.com/cards/normal/front/f/8/f8965a3a-93fe-4021-a665-b6013bdc86f7.jpg?1555040728',
        large:
-        'https://img.scryfall.com/cards/large/en/rix/144.jpg?1524751983',
+        'https://img.scryfall.com/cards/large/front/f/8/f8965a3a-93fe-4021-a665-b6013bdc86f7.jpg?1555040728',
        png:
-        'https://img.scryfall.com/cards/png/en/rix/144.png?1524751983',
+        'https://img.scryfall.com/cards/png/front/f/8/f8965a3a-93fe-4021-a665-b6013bdc86f7.png?1555040728',
        art_crop:
-        'https://img.scryfall.com/cards/art_crop/en/rix/144.jpg?1524751983',
+        'https://img.scryfall.com/cards/art_crop/front/f/8/f8965a3a-93fe-4021-a665-b6013bdc86f7.jpg?1555040728',
        border_crop:
-        'https://img.scryfall.com/cards/border_crop/en/rix/144.jpg?1524751983' },
+        'https://img.scryfall.com/cards/border_crop/front/f/8/f8965a3a-93fe-4021-a665-b6013bdc86f7.jpg?1555040728' },
     mana_cost: '{6}{G}{G}',
     cmc: 8,
     type_line: 'Creature — Dinosaur',
@@ -5765,10 +5711,9 @@ module.exports = [ { object: 'card',
     artist: 'Mark Behm',
     border_color: 'black',
     frame: '2015',
-    frame_effect: '',
     full_art: false,
     story_spotlight: false,
-    edhrec_rank: 1658,
+    edhrec_rank: 1822,
     related_uris:
      { gatherer:
         'http://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=439801',
@@ -5795,17 +5740,17 @@ module.exports = [ { object: 'card',
     highres_image: true,
     image_uris:
      { small:
-        'https://img.scryfall.com/cards/small/en/rix/143.jpg?1524751966',
+        'https://img.scryfall.com/cards/small/front/5/4/54a0afaa-f99f-4c7a-9fa1-c6a46dfb2a29.jpg?1555040722',
        normal:
-        'https://img.scryfall.com/cards/normal/en/rix/143.jpg?1524751966',
+        'https://img.scryfall.com/cards/normal/front/5/4/54a0afaa-f99f-4c7a-9fa1-c6a46dfb2a29.jpg?1555040722',
        large:
-        'https://img.scryfall.com/cards/large/en/rix/143.jpg?1524751966',
+        'https://img.scryfall.com/cards/large/front/5/4/54a0afaa-f99f-4c7a-9fa1-c6a46dfb2a29.jpg?1555040722',
        png:
-        'https://img.scryfall.com/cards/png/en/rix/143.png?1524751966',
+        'https://img.scryfall.com/cards/png/front/5/4/54a0afaa-f99f-4c7a-9fa1-c6a46dfb2a29.png?1555040722',
        art_crop:
-        'https://img.scryfall.com/cards/art_crop/en/rix/143.jpg?1524751966',
+        'https://img.scryfall.com/cards/art_crop/front/5/4/54a0afaa-f99f-4c7a-9fa1-c6a46dfb2a29.jpg?1555040722',
        border_crop:
-        'https://img.scryfall.com/cards/border_crop/en/rix/143.jpg?1524751966' },
+        'https://img.scryfall.com/cards/border_crop/front/5/4/54a0afaa-f99f-4c7a-9fa1-c6a46dfb2a29.jpg?1555040722' },
     mana_cost: '{1}{G}',
     cmc: 2,
     type_line: 'Instant',
@@ -5851,10 +5796,9 @@ module.exports = [ { object: 'card',
     artist: 'Filip Burburan',
     border_color: 'black',
     frame: '2015',
-    frame_effect: '',
     full_art: false,
     story_spotlight: false,
-    edhrec_rank: 6222,
+    edhrec_rank: 6304,
     related_uris:
      { gatherer:
         'http://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=439800',
@@ -5882,17 +5826,17 @@ module.exports = [ { object: 'card',
     highres_image: true,
     image_uris:
      { small:
-        'https://img.scryfall.com/cards/small/en/rix/142.jpg?1524751952',
+        'https://img.scryfall.com/cards/small/front/a/d/ad9d5518-34ea-418d-b34d-74d773db8bcb.jpg?1555040716',
        normal:
-        'https://img.scryfall.com/cards/normal/en/rix/142.jpg?1524751952',
+        'https://img.scryfall.com/cards/normal/front/a/d/ad9d5518-34ea-418d-b34d-74d773db8bcb.jpg?1555040716',
        large:
-        'https://img.scryfall.com/cards/large/en/rix/142.jpg?1524751952',
+        'https://img.scryfall.com/cards/large/front/a/d/ad9d5518-34ea-418d-b34d-74d773db8bcb.jpg?1555040716',
        png:
-        'https://img.scryfall.com/cards/png/en/rix/142.png?1524751952',
+        'https://img.scryfall.com/cards/png/front/a/d/ad9d5518-34ea-418d-b34d-74d773db8bcb.png?1555040716',
        art_crop:
-        'https://img.scryfall.com/cards/art_crop/en/rix/142.jpg?1524751952',
+        'https://img.scryfall.com/cards/art_crop/front/a/d/ad9d5518-34ea-418d-b34d-74d773db8bcb.jpg?1555040716',
        border_crop:
-        'https://img.scryfall.com/cards/border_crop/en/rix/142.jpg?1524751952' },
+        'https://img.scryfall.com/cards/border_crop/front/a/d/ad9d5518-34ea-418d-b34d-74d773db8bcb.jpg?1555040716' },
     mana_cost: '{3}{G}',
     cmc: 4,
     type_line: 'Enchantment',
@@ -5937,10 +5881,9 @@ module.exports = [ { object: 'card',
     artist: 'Howard Lyon',
     border_color: 'black',
     frame: '2015',
-    frame_effect: '',
     full_art: false,
     story_spotlight: false,
-    edhrec_rank: 873,
+    edhrec_rank: 947,
     related_uris:
      { gatherer:
         'http://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=439799',
@@ -5968,17 +5911,17 @@ module.exports = [ { object: 'card',
     highres_image: true,
     image_uris:
      { small:
-        'https://img.scryfall.com/cards/small/en/rix/141.jpg?1524751938',
+        'https://img.scryfall.com/cards/small/front/f/b/fb6558db-6332-42ac-8a61-4524c200b62f.jpg?1555040710',
        normal:
-        'https://img.scryfall.com/cards/normal/en/rix/141.jpg?1524751938',
+        'https://img.scryfall.com/cards/normal/front/f/b/fb6558db-6332-42ac-8a61-4524c200b62f.jpg?1555040710',
        large:
-        'https://img.scryfall.com/cards/large/en/rix/141.jpg?1524751938',
+        'https://img.scryfall.com/cards/large/front/f/b/fb6558db-6332-42ac-8a61-4524c200b62f.jpg?1555040710',
        png:
-        'https://img.scryfall.com/cards/png/en/rix/141.png?1524751938',
+        'https://img.scryfall.com/cards/png/front/f/b/fb6558db-6332-42ac-8a61-4524c200b62f.png?1555040710',
        art_crop:
-        'https://img.scryfall.com/cards/art_crop/en/rix/141.jpg?1524751938',
+        'https://img.scryfall.com/cards/art_crop/front/f/b/fb6558db-6332-42ac-8a61-4524c200b62f.jpg?1555040710',
        border_crop:
-        'https://img.scryfall.com/cards/border_crop/en/rix/141.jpg?1524751938' },
+        'https://img.scryfall.com/cards/border_crop/front/f/b/fb6558db-6332-42ac-8a61-4524c200b62f.jpg?1555040710' },
     mana_cost: '{3}{G}{G}',
     cmc: 5,
     type_line: 'Creature — Dinosaur',
@@ -6042,10 +5985,9 @@ module.exports = [ { object: 'card',
     artist: 'Joseph Meehan',
     border_color: 'black',
     frame: '2015',
-    frame_effect: '',
     full_art: false,
     story_spotlight: false,
-    edhrec_rank: 4869,
+    edhrec_rank: 5406,
     related_uris:
      { gatherer:
         'http://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=439798',
@@ -6073,17 +6015,17 @@ module.exports = [ { object: 'card',
     highres_image: true,
     image_uris:
      { small:
-        'https://img.scryfall.com/cards/small/en/rix/140.jpg?1524751921',
+        'https://img.scryfall.com/cards/small/front/0/0/00c81160-192c-4077-8ed1-3643919a2025.jpg?1555040703',
        normal:
-        'https://img.scryfall.com/cards/normal/en/rix/140.jpg?1524751921',
+        'https://img.scryfall.com/cards/normal/front/0/0/00c81160-192c-4077-8ed1-3643919a2025.jpg?1555040703',
        large:
-        'https://img.scryfall.com/cards/large/en/rix/140.jpg?1524751921',
+        'https://img.scryfall.com/cards/large/front/0/0/00c81160-192c-4077-8ed1-3643919a2025.jpg?1555040703',
        png:
-        'https://img.scryfall.com/cards/png/en/rix/140.png?1524751921',
+        'https://img.scryfall.com/cards/png/front/0/0/00c81160-192c-4077-8ed1-3643919a2025.png?1555040703',
        art_crop:
-        'https://img.scryfall.com/cards/art_crop/en/rix/140.jpg?1524751921',
+        'https://img.scryfall.com/cards/art_crop/front/0/0/00c81160-192c-4077-8ed1-3643919a2025.jpg?1555040703',
        border_crop:
-        'https://img.scryfall.com/cards/border_crop/en/rix/140.jpg?1524751921' },
+        'https://img.scryfall.com/cards/border_crop/front/0/0/00c81160-192c-4077-8ed1-3643919a2025.jpg?1555040703' },
     mana_cost: '{2}{G}',
     cmc: 3,
     type_line: 'Creature — Dinosaur',
@@ -6131,10 +6073,9 @@ module.exports = [ { object: 'card',
     artist: 'Simon Dominic',
     border_color: 'black',
     frame: '2015',
-    frame_effect: '',
     full_art: false,
     story_spotlight: false,
-    edhrec_rank: 10701,
+    edhrec_rank: 11522,
     related_uris:
      { gatherer:
         'http://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=439797',
@@ -6162,17 +6103,17 @@ module.exports = [ { object: 'card',
     highres_image: true,
     image_uris:
      { small:
-        'https://img.scryfall.com/cards/small/en/rix/139.jpg?1524751893',
+        'https://img.scryfall.com/cards/small/front/0/c/0c187d05-0df4-48b6-8e75-690e725b8bcf.jpg?1555040696',
        normal:
-        'https://img.scryfall.com/cards/normal/en/rix/139.jpg?1524751893',
+        'https://img.scryfall.com/cards/normal/front/0/c/0c187d05-0df4-48b6-8e75-690e725b8bcf.jpg?1555040696',
        large:
-        'https://img.scryfall.com/cards/large/en/rix/139.jpg?1524751893',
+        'https://img.scryfall.com/cards/large/front/0/c/0c187d05-0df4-48b6-8e75-690e725b8bcf.jpg?1555040696',
        png:
-        'https://img.scryfall.com/cards/png/en/rix/139.png?1524751893',
+        'https://img.scryfall.com/cards/png/front/0/c/0c187d05-0df4-48b6-8e75-690e725b8bcf.png?1555040696',
        art_crop:
-        'https://img.scryfall.com/cards/art_crop/en/rix/139.jpg?1524751893',
+        'https://img.scryfall.com/cards/art_crop/front/0/c/0c187d05-0df4-48b6-8e75-690e725b8bcf.jpg?1555040696',
        border_crop:
-        'https://img.scryfall.com/cards/border_crop/en/rix/139.jpg?1524751893' },
+        'https://img.scryfall.com/cards/border_crop/front/0/c/0c187d05-0df4-48b6-8e75-690e725b8bcf.jpg?1555040696' },
     mana_cost: '{1}{G}',
     cmc: 2,
     type_line: 'Instant',
@@ -6218,10 +6159,9 @@ module.exports = [ { object: 'card',
     artist: 'Simon Dominic',
     border_color: 'black',
     frame: '2015',
-    frame_effect: '',
     full_art: false,
     story_spotlight: false,
-    edhrec_rank: 946,
+    edhrec_rank: 914,
     related_uris:
      { gatherer:
         'http://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=439796',
@@ -6249,17 +6189,17 @@ module.exports = [ { object: 'card',
     highres_image: true,
     image_uris:
      { small:
-        'https://img.scryfall.com/cards/small/en/rix/138.jpg?1524751882',
+        'https://img.scryfall.com/cards/small/front/e/8/e81565a4-cbbe-4820-8473-15ceda42d553.jpg?1555040690',
        normal:
-        'https://img.scryfall.com/cards/normal/en/rix/138.jpg?1524751882',
+        'https://img.scryfall.com/cards/normal/front/e/8/e81565a4-cbbe-4820-8473-15ceda42d553.jpg?1555040690',
        large:
-        'https://img.scryfall.com/cards/large/en/rix/138.jpg?1524751882',
+        'https://img.scryfall.com/cards/large/front/e/8/e81565a4-cbbe-4820-8473-15ceda42d553.jpg?1555040690',
        png:
-        'https://img.scryfall.com/cards/png/en/rix/138.png?1524751882',
+        'https://img.scryfall.com/cards/png/front/e/8/e81565a4-cbbe-4820-8473-15ceda42d553.png?1555040690',
        art_crop:
-        'https://img.scryfall.com/cards/art_crop/en/rix/138.jpg?1524751882',
+        'https://img.scryfall.com/cards/art_crop/front/e/8/e81565a4-cbbe-4820-8473-15ceda42d553.jpg?1555040690',
        border_crop:
-        'https://img.scryfall.com/cards/border_crop/en/rix/138.jpg?1524751882' },
+        'https://img.scryfall.com/cards/border_crop/front/e/8/e81565a4-cbbe-4820-8473-15ceda42d553.jpg?1555040690' },
     mana_cost: '{3}{G}',
     cmc: 4,
     type_line: 'Creature — Human Knight',
@@ -6306,10 +6246,9 @@ module.exports = [ { object: 'card',
     artist: 'Steve Argyle',
     border_color: 'black',
     frame: '2015',
-    frame_effect: '',
     full_art: false,
     story_spotlight: false,
-    edhrec_rank: 2255,
+    edhrec_rank: 2472,
     related_uris:
      { gatherer:
         'http://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=439795',
@@ -6337,17 +6276,17 @@ module.exports = [ { object: 'card',
     highres_image: true,
     image_uris:
      { small:
-        'https://img.scryfall.com/cards/small/en/rix/137.jpg?1524751871',
+        'https://img.scryfall.com/cards/small/front/9/f/9f01ae0d-db1e-4912-b8ad-3069f6938e04.jpg?1555040682',
        normal:
-        'https://img.scryfall.com/cards/normal/en/rix/137.jpg?1524751871',
+        'https://img.scryfall.com/cards/normal/front/9/f/9f01ae0d-db1e-4912-b8ad-3069f6938e04.jpg?1555040682',
        large:
-        'https://img.scryfall.com/cards/large/en/rix/137.jpg?1524751871',
+        'https://img.scryfall.com/cards/large/front/9/f/9f01ae0d-db1e-4912-b8ad-3069f6938e04.jpg?1555040682',
        png:
-        'https://img.scryfall.com/cards/png/en/rix/137.png?1524751871',
+        'https://img.scryfall.com/cards/png/front/9/f/9f01ae0d-db1e-4912-b8ad-3069f6938e04.png?1555040682',
        art_crop:
-        'https://img.scryfall.com/cards/art_crop/en/rix/137.jpg?1524751871',
+        'https://img.scryfall.com/cards/art_crop/front/9/f/9f01ae0d-db1e-4912-b8ad-3069f6938e04.jpg?1555040682',
        border_crop:
-        'https://img.scryfall.com/cards/border_crop/en/rix/137.jpg?1524751871' },
+        'https://img.scryfall.com/cards/border_crop/front/9/f/9f01ae0d-db1e-4912-b8ad-3069f6938e04.jpg?1555040682' },
     mana_cost: '{2}{G}',
     cmc: 3,
     type_line: 'Creature — Merfolk Scout',
@@ -6411,10 +6350,9 @@ module.exports = [ { object: 'card',
     artist: 'Scott Murphy',
     border_color: 'black',
     frame: '2015',
-    frame_effect: '',
     full_art: false,
     story_spotlight: false,
-    edhrec_rank: 5332,
+    edhrec_rank: 5785,
     related_uris:
      { gatherer:
         'http://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=439794',
@@ -6442,17 +6380,17 @@ module.exports = [ { object: 'card',
     highres_image: true,
     image_uris:
      { small:
-        'https://img.scryfall.com/cards/small/en/rix/136.jpg?1524751854',
+        'https://img.scryfall.com/cards/small/front/9/f/9fe5c719-f20d-4469-9750-fb689d5f3fc8.jpg?1555040676',
        normal:
-        'https://img.scryfall.com/cards/normal/en/rix/136.jpg?1524751854',
+        'https://img.scryfall.com/cards/normal/front/9/f/9fe5c719-f20d-4469-9750-fb689d5f3fc8.jpg?1555040676',
        large:
-        'https://img.scryfall.com/cards/large/en/rix/136.jpg?1524751854',
+        'https://img.scryfall.com/cards/large/front/9/f/9fe5c719-f20d-4469-9750-fb689d5f3fc8.jpg?1555040676',
        png:
-        'https://img.scryfall.com/cards/png/en/rix/136.png?1524751854',
+        'https://img.scryfall.com/cards/png/front/9/f/9fe5c719-f20d-4469-9750-fb689d5f3fc8.png?1555040676',
        art_crop:
-        'https://img.scryfall.com/cards/art_crop/en/rix/136.jpg?1524751854',
+        'https://img.scryfall.com/cards/art_crop/front/9/f/9fe5c719-f20d-4469-9750-fb689d5f3fc8.jpg?1555040676',
        border_crop:
-        'https://img.scryfall.com/cards/border_crop/en/rix/136.jpg?1524751854' },
+        'https://img.scryfall.com/cards/border_crop/front/9/f/9fe5c719-f20d-4469-9750-fb689d5f3fc8.jpg?1555040676' },
     mana_cost: '{1}{G}{G}',
     cmc: 3,
     type_line: 'Creature — Merfolk Scout',
@@ -6499,10 +6437,9 @@ module.exports = [ { object: 'card',
     artist: 'Jason Rainville',
     border_color: 'black',
     frame: '2015',
-    frame_effect: '',
     full_art: false,
     story_spotlight: false,
-    edhrec_rank: 3424,
+    edhrec_rank: 3696,
     related_uris:
      { gatherer:
         'http://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=439793',
@@ -6530,17 +6467,17 @@ module.exports = [ { object: 'card',
     highres_image: true,
     image_uris:
      { small:
-        'https://img.scryfall.com/cards/small/en/rix/135.jpg?1524751843',
+        'https://img.scryfall.com/cards/small/front/2/b/2b745934-c1fe-49f5-bda4-b0eafa1408e1.jpg?1555040670',
        normal:
-        'https://img.scryfall.com/cards/normal/en/rix/135.jpg?1524751843',
+        'https://img.scryfall.com/cards/normal/front/2/b/2b745934-c1fe-49f5-bda4-b0eafa1408e1.jpg?1555040670',
        large:
-        'https://img.scryfall.com/cards/large/en/rix/135.jpg?1524751843',
+        'https://img.scryfall.com/cards/large/front/2/b/2b745934-c1fe-49f5-bda4-b0eafa1408e1.jpg?1555040670',
        png:
-        'https://img.scryfall.com/cards/png/en/rix/135.png?1524751843',
+        'https://img.scryfall.com/cards/png/front/2/b/2b745934-c1fe-49f5-bda4-b0eafa1408e1.png?1555040670',
        art_crop:
-        'https://img.scryfall.com/cards/art_crop/en/rix/135.jpg?1524751843',
+        'https://img.scryfall.com/cards/art_crop/front/2/b/2b745934-c1fe-49f5-bda4-b0eafa1408e1.jpg?1555040670',
        border_crop:
-        'https://img.scryfall.com/cards/border_crop/en/rix/135.jpg?1524751843' },
+        'https://img.scryfall.com/cards/border_crop/front/2/b/2b745934-c1fe-49f5-bda4-b0eafa1408e1.jpg?1555040670' },
     mana_cost: '{3}{G}',
     cmc: 4,
     type_line: 'Creature — Merfolk Shaman',
@@ -6588,10 +6525,9 @@ module.exports = [ { object: 'card',
     artist: 'Izzy',
     border_color: 'black',
     frame: '2015',
-    frame_effect: '',
     full_art: false,
     story_spotlight: false,
-    edhrec_rank: 13310,
+    edhrec_rank: 13625,
     related_uris:
      { gatherer:
         'http://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=439792',
@@ -6619,17 +6555,17 @@ module.exports = [ { object: 'card',
     highres_image: true,
     image_uris:
      { small:
-        'https://img.scryfall.com/cards/small/en/rix/134.jpg?1524751831',
+        'https://img.scryfall.com/cards/small/front/6/9/696bb954-353e-488b-a1e8-0df75da6339b.jpg?1555040664',
        normal:
-        'https://img.scryfall.com/cards/normal/en/rix/134.jpg?1524751831',
+        'https://img.scryfall.com/cards/normal/front/6/9/696bb954-353e-488b-a1e8-0df75da6339b.jpg?1555040664',
        large:
-        'https://img.scryfall.com/cards/large/en/rix/134.jpg?1524751831',
+        'https://img.scryfall.com/cards/large/front/6/9/696bb954-353e-488b-a1e8-0df75da6339b.jpg?1555040664',
        png:
-        'https://img.scryfall.com/cards/png/en/rix/134.png?1524751831',
+        'https://img.scryfall.com/cards/png/front/6/9/696bb954-353e-488b-a1e8-0df75da6339b.png?1555040664',
        art_crop:
-        'https://img.scryfall.com/cards/art_crop/en/rix/134.jpg?1524751831',
+        'https://img.scryfall.com/cards/art_crop/front/6/9/696bb954-353e-488b-a1e8-0df75da6339b.jpg?1555040664',
        border_crop:
-        'https://img.scryfall.com/cards/border_crop/en/rix/134.jpg?1524751831' },
+        'https://img.scryfall.com/cards/border_crop/front/6/9/696bb954-353e-488b-a1e8-0df75da6339b.jpg?1555040664' },
     mana_cost: '{G}',
     cmc: 1,
     type_line: 'Creature — Merfolk Shaman',
@@ -6678,10 +6614,9 @@ module.exports = [ { object: 'card',
     artist: 'Alex Konstad',
     border_color: 'black',
     frame: '2015',
-    frame_effect: '',
     full_art: false,
     story_spotlight: false,
-    edhrec_rank: 6278,
+    edhrec_rank: 6866,
     related_uris:
      { gatherer:
         'http://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=439791',
@@ -6709,17 +6644,17 @@ module.exports = [ { object: 'card',
     highres_image: true,
     image_uris:
      { small:
-        'https://img.scryfall.com/cards/small/en/rix/133.jpg?1524751820',
+        'https://img.scryfall.com/cards/small/front/0/5/05d6cab6-b0f9-4631-a4bd-5ff1d6d53880.jpg?1555040658',
        normal:
-        'https://img.scryfall.com/cards/normal/en/rix/133.jpg?1524751820',
+        'https://img.scryfall.com/cards/normal/front/0/5/05d6cab6-b0f9-4631-a4bd-5ff1d6d53880.jpg?1555040658',
        large:
-        'https://img.scryfall.com/cards/large/en/rix/133.jpg?1524751820',
+        'https://img.scryfall.com/cards/large/front/0/5/05d6cab6-b0f9-4631-a4bd-5ff1d6d53880.jpg?1555040658',
        png:
-        'https://img.scryfall.com/cards/png/en/rix/133.png?1524751820',
+        'https://img.scryfall.com/cards/png/front/0/5/05d6cab6-b0f9-4631-a4bd-5ff1d6d53880.png?1555040658',
        art_crop:
-        'https://img.scryfall.com/cards/art_crop/en/rix/133.jpg?1524751820',
+        'https://img.scryfall.com/cards/art_crop/front/0/5/05d6cab6-b0f9-4631-a4bd-5ff1d6d53880.jpg?1555040658',
        border_crop:
-        'https://img.scryfall.com/cards/border_crop/en/rix/133.jpg?1524751820' },
+        'https://img.scryfall.com/cards/border_crop/front/0/5/05d6cab6-b0f9-4631-a4bd-5ff1d6d53880.jpg?1555040658' },
     mana_cost: '{3}{G}',
     cmc: 4,
     type_line: 'Sorcery',
@@ -6766,10 +6701,9 @@ module.exports = [ { object: 'card',
     artist: 'Mathias Kollros',
     border_color: 'black',
     frame: '2015',
-    frame_effect: '',
     full_art: false,
     story_spotlight: false,
-    edhrec_rank: 6251,
+    edhrec_rank: 6344,
     related_uris:
      { gatherer:
         'http://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=439790',
@@ -6797,17 +6731,17 @@ module.exports = [ { object: 'card',
     highres_image: true,
     image_uris:
      { small:
-        'https://img.scryfall.com/cards/small/en/rix/132.jpg?1524751810',
+        'https://img.scryfall.com/cards/small/front/6/2/62f2755f-276f-4260-a201-f02af88b5708.jpg?1555040651',
        normal:
-        'https://img.scryfall.com/cards/normal/en/rix/132.jpg?1524751810',
+        'https://img.scryfall.com/cards/normal/front/6/2/62f2755f-276f-4260-a201-f02af88b5708.jpg?1555040651',
        large:
-        'https://img.scryfall.com/cards/large/en/rix/132.jpg?1524751810',
+        'https://img.scryfall.com/cards/large/front/6/2/62f2755f-276f-4260-a201-f02af88b5708.jpg?1555040651',
        png:
-        'https://img.scryfall.com/cards/png/en/rix/132.png?1524751810',
+        'https://img.scryfall.com/cards/png/front/6/2/62f2755f-276f-4260-a201-f02af88b5708.png?1555040651',
        art_crop:
-        'https://img.scryfall.com/cards/art_crop/en/rix/132.jpg?1524751810',
+        'https://img.scryfall.com/cards/art_crop/front/6/2/62f2755f-276f-4260-a201-f02af88b5708.jpg?1555040651',
        border_crop:
-        'https://img.scryfall.com/cards/border_crop/en/rix/132.jpg?1524751810' },
+        'https://img.scryfall.com/cards/border_crop/front/6/2/62f2755f-276f-4260-a201-f02af88b5708.jpg?1555040651' },
     mana_cost: '{1}{G}',
     cmc: 2,
     type_line: 'Creature — Human Warrior',
@@ -6855,10 +6789,9 @@ module.exports = [ { object: 'card',
     artist: 'Suzanne Helmigh',
     border_color: 'black',
     frame: '2015',
-    frame_effect: '',
     full_art: false,
     story_spotlight: false,
-    edhrec_rank: 13566,
+    edhrec_rank: 14023,
     related_uris:
      { gatherer:
         'http://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=439789',
@@ -6886,17 +6819,17 @@ module.exports = [ { object: 'card',
     highres_image: true,
     image_uris:
      { small:
-        'https://img.scryfall.com/cards/small/en/rix/131.jpg?1524751799',
+        'https://img.scryfall.com/cards/small/front/4/7/47963f87-d5c2-4e5b-8dff-b25735182841.jpg?1555040642',
        normal:
-        'https://img.scryfall.com/cards/normal/en/rix/131.jpg?1524751799',
+        'https://img.scryfall.com/cards/normal/front/4/7/47963f87-d5c2-4e5b-8dff-b25735182841.jpg?1555040642',
        large:
-        'https://img.scryfall.com/cards/large/en/rix/131.jpg?1524751799',
+        'https://img.scryfall.com/cards/large/front/4/7/47963f87-d5c2-4e5b-8dff-b25735182841.jpg?1555040642',
        png:
-        'https://img.scryfall.com/cards/png/en/rix/131.png?1524751799',
+        'https://img.scryfall.com/cards/png/front/4/7/47963f87-d5c2-4e5b-8dff-b25735182841.png?1555040642',
        art_crop:
-        'https://img.scryfall.com/cards/art_crop/en/rix/131.jpg?1524751799',
+        'https://img.scryfall.com/cards/art_crop/front/4/7/47963f87-d5c2-4e5b-8dff-b25735182841.jpg?1555040642',
        border_crop:
-        'https://img.scryfall.com/cards/border_crop/en/rix/131.jpg?1524751799' },
+        'https://img.scryfall.com/cards/border_crop/front/4/7/47963f87-d5c2-4e5b-8dff-b25735182841.jpg?1555040642' },
     mana_cost: '{1}{G}',
     cmc: 2,
     type_line: 'Creature — Merfolk Warrior',
@@ -6945,10 +6878,9 @@ module.exports = [ { object: 'card',
     artist: 'Chris Seaman',
     border_color: 'black',
     frame: '2015',
-    frame_effect: '',
     full_art: false,
     story_spotlight: false,
-    edhrec_rank: 10950,
+    edhrec_rank: 11521,
     related_uris:
      { gatherer:
         'http://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=439788',
@@ -6976,22 +6908,22 @@ module.exports = [ { object: 'card',
     highres_image: true,
     image_uris:
      { small:
-        'https://img.scryfall.com/cards/small/en/rix/130.jpg?1524751787',
+        'https://img.scryfall.com/cards/small/front/0/1/0104b5b3-9376-4ad7-9a77-3e564e9c42e6.jpg?1555040636',
        normal:
-        'https://img.scryfall.com/cards/normal/en/rix/130.jpg?1524751787',
+        'https://img.scryfall.com/cards/normal/front/0/1/0104b5b3-9376-4ad7-9a77-3e564e9c42e6.jpg?1555040636',
        large:
-        'https://img.scryfall.com/cards/large/en/rix/130.jpg?1524751787',
+        'https://img.scryfall.com/cards/large/front/0/1/0104b5b3-9376-4ad7-9a77-3e564e9c42e6.jpg?1555040636',
        png:
-        'https://img.scryfall.com/cards/png/en/rix/130.png?1524751787',
+        'https://img.scryfall.com/cards/png/front/0/1/0104b5b3-9376-4ad7-9a77-3e564e9c42e6.png?1555040636',
        art_crop:
-        'https://img.scryfall.com/cards/art_crop/en/rix/130.jpg?1524751787',
+        'https://img.scryfall.com/cards/art_crop/front/0/1/0104b5b3-9376-4ad7-9a77-3e564e9c42e6.jpg?1555040636',
        border_crop:
-        'https://img.scryfall.com/cards/border_crop/en/rix/130.jpg?1524751787' },
+        'https://img.scryfall.com/cards/border_crop/front/0/1/0104b5b3-9376-4ad7-9a77-3e564e9c42e6.jpg?1555040636' },
     mana_cost: '{10}{G}{G}',
     cmc: 12,
     type_line: 'Legendary Creature — Elder Dinosaur',
     oracle_text:
-     'Ghalta, Primal Hunger costs {X} less to cast, where X is the total power of creatures you control.\nTrample',
+     'This spell costs {X} less to cast, where X is the total power of creatures you control.\nTrample',
     power: '12',
     toughness: '12',
     colors: [ 'G' ],
@@ -7034,10 +6966,9 @@ module.exports = [ { object: 'card',
     artist: 'Chase Stone',
     border_color: 'black',
     frame: '2015',
-    frame_effect: '',
     full_art: false,
     story_spotlight: false,
-    edhrec_rank: 1330,
+    edhrec_rank: 1428,
     related_uris:
      { gatherer:
         'http://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=439787',
@@ -7065,17 +6996,17 @@ module.exports = [ { object: 'card',
     highres_image: true,
     image_uris:
      { small:
-        'https://img.scryfall.com/cards/small/en/rix/129.jpg?1524751774',
+        'https://img.scryfall.com/cards/small/front/3/0/30bc2bd2-adfc-490e-998a-303598e6a942.jpg?1555040630',
        normal:
-        'https://img.scryfall.com/cards/normal/en/rix/129.jpg?1524751774',
+        'https://img.scryfall.com/cards/normal/front/3/0/30bc2bd2-adfc-490e-998a-303598e6a942.jpg?1555040630',
        large:
-        'https://img.scryfall.com/cards/large/en/rix/129.jpg?1524751774',
+        'https://img.scryfall.com/cards/large/front/3/0/30bc2bd2-adfc-490e-998a-303598e6a942.jpg?1555040630',
        png:
-        'https://img.scryfall.com/cards/png/en/rix/129.png?1524751774',
+        'https://img.scryfall.com/cards/png/front/3/0/30bc2bd2-adfc-490e-998a-303598e6a942.png?1555040630',
        art_crop:
-        'https://img.scryfall.com/cards/art_crop/en/rix/129.jpg?1524751774',
+        'https://img.scryfall.com/cards/art_crop/front/3/0/30bc2bd2-adfc-490e-998a-303598e6a942.jpg?1555040630',
        border_crop:
-        'https://img.scryfall.com/cards/border_crop/en/rix/129.jpg?1524751774' },
+        'https://img.scryfall.com/cards/border_crop/front/3/0/30bc2bd2-adfc-490e-998a-303598e6a942.jpg?1555040630' },
     mana_cost: '{3}{G}',
     cmc: 4,
     type_line: 'Creature — Merfolk Scout',
@@ -7122,10 +7053,9 @@ module.exports = [ { object: 'card',
     artist: 'Chris Seaman',
     border_color: 'black',
     frame: '2015',
-    frame_effect: '',
     full_art: false,
     story_spotlight: false,
-    edhrec_rank: 2704,
+    edhrec_rank: 3015,
     related_uris:
      { gatherer:
         'http://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=439786',
@@ -7153,17 +7083,17 @@ module.exports = [ { object: 'card',
     highres_image: true,
     image_uris:
      { small:
-        'https://img.scryfall.com/cards/small/en/rix/128.jpg?1524751762',
+        'https://img.scryfall.com/cards/small/front/9/6/96acf94b-75bb-4f0e-92be-978ce5920710.jpg?1555040623',
        normal:
-        'https://img.scryfall.com/cards/normal/en/rix/128.jpg?1524751762',
+        'https://img.scryfall.com/cards/normal/front/9/6/96acf94b-75bb-4f0e-92be-978ce5920710.jpg?1555040623',
        large:
-        'https://img.scryfall.com/cards/large/en/rix/128.jpg?1524751762',
+        'https://img.scryfall.com/cards/large/front/9/6/96acf94b-75bb-4f0e-92be-978ce5920710.jpg?1555040623',
        png:
-        'https://img.scryfall.com/cards/png/en/rix/128.png?1524751762',
+        'https://img.scryfall.com/cards/png/front/9/6/96acf94b-75bb-4f0e-92be-978ce5920710.png?1555040623',
        art_crop:
-        'https://img.scryfall.com/cards/art_crop/en/rix/128.jpg?1524751762',
+        'https://img.scryfall.com/cards/art_crop/front/9/6/96acf94b-75bb-4f0e-92be-978ce5920710.jpg?1555040623',
        border_crop:
-        'https://img.scryfall.com/cards/border_crop/en/rix/128.jpg?1524751762' },
+        'https://img.scryfall.com/cards/border_crop/front/9/6/96acf94b-75bb-4f0e-92be-978ce5920710.jpg?1555040623' },
     mana_cost: '{G}',
     cmc: 1,
     type_line: 'Sorcery',
@@ -7208,10 +7138,9 @@ module.exports = [ { object: 'card',
     artist: 'Howard Lyon',
     border_color: 'black',
     frame: '2015',
-    frame_effect: '',
     full_art: false,
     story_spotlight: false,
-    edhrec_rank: 4868,
+    edhrec_rank: 5108,
     related_uris:
      { gatherer:
         'http://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=439785',
@@ -7239,17 +7168,17 @@ module.exports = [ { object: 'card',
     highres_image: true,
     image_uris:
      { small:
-        'https://img.scryfall.com/cards/small/en/rix/127.jpg?1524751751',
+        'https://img.scryfall.com/cards/small/front/c/8/c8b738ce-a609-448f-97ea-bbf90ba833d7.jpg?1555040617',
        normal:
-        'https://img.scryfall.com/cards/normal/en/rix/127.jpg?1524751751',
+        'https://img.scryfall.com/cards/normal/front/c/8/c8b738ce-a609-448f-97ea-bbf90ba833d7.jpg?1555040617',
        large:
-        'https://img.scryfall.com/cards/large/en/rix/127.jpg?1524751751',
+        'https://img.scryfall.com/cards/large/front/c/8/c8b738ce-a609-448f-97ea-bbf90ba833d7.jpg?1555040617',
        png:
-        'https://img.scryfall.com/cards/png/en/rix/127.png?1524751751',
+        'https://img.scryfall.com/cards/png/front/c/8/c8b738ce-a609-448f-97ea-bbf90ba833d7.png?1555040617',
        art_crop:
-        'https://img.scryfall.com/cards/art_crop/en/rix/127.jpg?1524751751',
+        'https://img.scryfall.com/cards/art_crop/front/c/8/c8b738ce-a609-448f-97ea-bbf90ba833d7.jpg?1555040617',
        border_crop:
-        'https://img.scryfall.com/cards/border_crop/en/rix/127.jpg?1524751751' },
+        'https://img.scryfall.com/cards/border_crop/front/c/8/c8b738ce-a609-448f-97ea-bbf90ba833d7.jpg?1555040617' },
     mana_cost: '{1}{G}',
     cmc: 2,
     type_line: 'Creature — Merfolk Warrior',
@@ -7298,10 +7227,9 @@ module.exports = [ { object: 'card',
     artist: 'Winona Nelson',
     border_color: 'black',
     frame: '2015',
-    frame_effect: '',
     full_art: false,
     story_spotlight: false,
-    edhrec_rank: 2812,
+    edhrec_rank: 3071,
     related_uris:
      { gatherer:
         'http://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=439784',
@@ -7329,17 +7257,17 @@ module.exports = [ { object: 'card',
     highres_image: true,
     image_uris:
      { small:
-        'https://img.scryfall.com/cards/small/en/rix/126.jpg?1524751741',
+        'https://img.scryfall.com/cards/small/front/8/0/80bccca0-6425-4676-a98a-e0721a6beff7.jpg?1555040609',
        normal:
-        'https://img.scryfall.com/cards/normal/en/rix/126.jpg?1524751741',
+        'https://img.scryfall.com/cards/normal/front/8/0/80bccca0-6425-4676-a98a-e0721a6beff7.jpg?1555040609',
        large:
-        'https://img.scryfall.com/cards/large/en/rix/126.jpg?1524751741',
+        'https://img.scryfall.com/cards/large/front/8/0/80bccca0-6425-4676-a98a-e0721a6beff7.jpg?1555040609',
        png:
-        'https://img.scryfall.com/cards/png/en/rix/126.png?1524751741',
+        'https://img.scryfall.com/cards/png/front/8/0/80bccca0-6425-4676-a98a-e0721a6beff7.png?1555040609',
        art_crop:
-        'https://img.scryfall.com/cards/art_crop/en/rix/126.jpg?1524751741',
+        'https://img.scryfall.com/cards/art_crop/front/8/0/80bccca0-6425-4676-a98a-e0721a6beff7.jpg?1555040609',
        border_crop:
-        'https://img.scryfall.com/cards/border_crop/en/rix/126.jpg?1524751741' },
+        'https://img.scryfall.com/cards/border_crop/front/8/0/80bccca0-6425-4676-a98a-e0721a6beff7.jpg?1555040609' },
     mana_cost: '{3}{G}{G}',
     cmc: 5,
     type_line: 'Creature — Dinosaur',
@@ -7403,10 +7331,9 @@ module.exports = [ { object: 'card',
     artist: 'Lucas Graciano',
     border_color: 'black',
     frame: '2015',
-    frame_effect: '',
     full_art: false,
     story_spotlight: false,
-    edhrec_rank: 4911,
+    edhrec_rank: 5405,
     related_uris:
      { gatherer:
         'http://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=439783',
@@ -7434,17 +7361,17 @@ module.exports = [ { object: 'card',
     highres_image: true,
     image_uris:
      { small:
-        'https://img.scryfall.com/cards/small/en/rix/125.jpg?1524751731',
+        'https://img.scryfall.com/cards/small/front/d/2/d28056c7-c58d-4986-a45c-c9e55aed23a1.jpg?1555040601',
        normal:
-        'https://img.scryfall.com/cards/normal/en/rix/125.jpg?1524751731',
+        'https://img.scryfall.com/cards/normal/front/d/2/d28056c7-c58d-4986-a45c-c9e55aed23a1.jpg?1555040601',
        large:
-        'https://img.scryfall.com/cards/large/en/rix/125.jpg?1524751731',
+        'https://img.scryfall.com/cards/large/front/d/2/d28056c7-c58d-4986-a45c-c9e55aed23a1.jpg?1555040601',
        png:
-        'https://img.scryfall.com/cards/png/en/rix/125.png?1524751731',
+        'https://img.scryfall.com/cards/png/front/d/2/d28056c7-c58d-4986-a45c-c9e55aed23a1.png?1555040601',
        art_crop:
-        'https://img.scryfall.com/cards/art_crop/en/rix/125.jpg?1524751731',
+        'https://img.scryfall.com/cards/art_crop/front/d/2/d28056c7-c58d-4986-a45c-c9e55aed23a1.jpg?1555040601',
        border_crop:
-        'https://img.scryfall.com/cards/border_crop/en/rix/125.jpg?1524751731' },
+        'https://img.scryfall.com/cards/border_crop/front/d/2/d28056c7-c58d-4986-a45c-c9e55aed23a1.jpg?1555040601' },
     mana_cost: '{4}{G}{G}',
     cmc: 6,
     type_line: 'Creature — Dinosaur',
@@ -7493,10 +7420,9 @@ module.exports = [ { object: 'card',
     artist: 'Jesper Ejsing',
     border_color: 'black',
     frame: '2015',
-    frame_effect: '',
     full_art: false,
     story_spotlight: false,
-    edhrec_rank: 3862,
+    edhrec_rank: 4170,
     related_uris:
      { gatherer:
         'http://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=439782',
@@ -7524,17 +7450,17 @@ module.exports = [ { object: 'card',
     highres_image: true,
     image_uris:
      { small:
-        'https://img.scryfall.com/cards/small/en/rix/124.jpg?1524751720',
+        'https://img.scryfall.com/cards/small/front/0/a/0a14fe6c-b272-415b-974d-c60d016ab786.jpg?1555040594',
        normal:
-        'https://img.scryfall.com/cards/normal/en/rix/124.jpg?1524751720',
+        'https://img.scryfall.com/cards/normal/front/0/a/0a14fe6c-b272-415b-974d-c60d016ab786.jpg?1555040594',
        large:
-        'https://img.scryfall.com/cards/large/en/rix/124.jpg?1524751720',
+        'https://img.scryfall.com/cards/large/front/0/a/0a14fe6c-b272-415b-974d-c60d016ab786.jpg?1555040594',
        png:
-        'https://img.scryfall.com/cards/png/en/rix/124.png?1524751720',
+        'https://img.scryfall.com/cards/png/front/0/a/0a14fe6c-b272-415b-974d-c60d016ab786.png?1555040594',
        art_crop:
-        'https://img.scryfall.com/cards/art_crop/en/rix/124.jpg?1524751720',
+        'https://img.scryfall.com/cards/art_crop/front/0/a/0a14fe6c-b272-415b-974d-c60d016ab786.jpg?1555040594',
        border_crop:
-        'https://img.scryfall.com/cards/border_crop/en/rix/124.jpg?1524751720' },
+        'https://img.scryfall.com/cards/border_crop/front/0/a/0a14fe6c-b272-415b-974d-c60d016ab786.jpg?1555040594' },
     mana_cost: '{1}{G}',
     cmc: 2,
     type_line: 'Creature — Dinosaur',
@@ -7582,10 +7508,9 @@ module.exports = [ { object: 'card',
     artist: 'Sam Rowan',
     border_color: 'black',
     frame: '2015',
-    frame_effect: '',
     full_art: false,
     story_spotlight: false,
-    edhrec_rank: 5344,
+    edhrec_rank: 5756,
     related_uris:
      { gatherer:
         'http://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=439781',
@@ -7613,17 +7538,17 @@ module.exports = [ { object: 'card',
     highres_image: true,
     image_uris:
      { small:
-        'https://img.scryfall.com/cards/small/en/rix/123.jpg?1524751702',
+        'https://img.scryfall.com/cards/small/front/3/5/351b213e-b23e-4287-947a-6bd81f1cf751.jpg?1555040587',
        normal:
-        'https://img.scryfall.com/cards/normal/en/rix/123.jpg?1524751702',
+        'https://img.scryfall.com/cards/normal/front/3/5/351b213e-b23e-4287-947a-6bd81f1cf751.jpg?1555040587',
        large:
-        'https://img.scryfall.com/cards/large/en/rix/123.jpg?1524751702',
+        'https://img.scryfall.com/cards/large/front/3/5/351b213e-b23e-4287-947a-6bd81f1cf751.jpg?1555040587',
        png:
-        'https://img.scryfall.com/cards/png/en/rix/123.png?1524751702',
+        'https://img.scryfall.com/cards/png/front/3/5/351b213e-b23e-4287-947a-6bd81f1cf751.png?1555040587',
        art_crop:
-        'https://img.scryfall.com/cards/art_crop/en/rix/123.jpg?1524751702',
+        'https://img.scryfall.com/cards/art_crop/front/3/5/351b213e-b23e-4287-947a-6bd81f1cf751.jpg?1555040587',
        border_crop:
-        'https://img.scryfall.com/cards/border_crop/en/rix/123.jpg?1524751702' },
+        'https://img.scryfall.com/cards/border_crop/front/3/5/351b213e-b23e-4287-947a-6bd81f1cf751.jpg?1555040587' },
     mana_cost: '{3}{G}',
     cmc: 4,
     type_line: 'Creature — Dinosaur',
@@ -7671,10 +7596,9 @@ module.exports = [ { object: 'card',
     artist: 'Johann Bodin',
     border_color: 'black',
     frame: '2015',
-    frame_effect: '',
     full_art: false,
     story_spotlight: false,
-    edhrec_rank: 4581,
+    edhrec_rank: 5053,
     related_uris:
      { gatherer:
         'http://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=439780',
@@ -7702,17 +7626,17 @@ module.exports = [ { object: 'card',
     highres_image: true,
     image_uris:
      { small:
-        'https://img.scryfall.com/cards/small/en/rix/122.jpg?1524751691',
+        'https://img.scryfall.com/cards/small/front/e/3/e38252c3-fcc1-4bb7-8dd7-ba0e54ade6b7.jpg?1555040580',
        normal:
-        'https://img.scryfall.com/cards/normal/en/rix/122.jpg?1524751691',
+        'https://img.scryfall.com/cards/normal/front/e/3/e38252c3-fcc1-4bb7-8dd7-ba0e54ade6b7.jpg?1555040580',
        large:
-        'https://img.scryfall.com/cards/large/en/rix/122.jpg?1524751691',
+        'https://img.scryfall.com/cards/large/front/e/3/e38252c3-fcc1-4bb7-8dd7-ba0e54ade6b7.jpg?1555040580',
        png:
-        'https://img.scryfall.com/cards/png/en/rix/122.png?1524751691',
+        'https://img.scryfall.com/cards/png/front/e/3/e38252c3-fcc1-4bb7-8dd7-ba0e54ade6b7.png?1555040580',
        art_crop:
-        'https://img.scryfall.com/cards/art_crop/en/rix/122.jpg?1524751691',
+        'https://img.scryfall.com/cards/art_crop/front/e/3/e38252c3-fcc1-4bb7-8dd7-ba0e54ade6b7.jpg?1555040580',
        border_crop:
-        'https://img.scryfall.com/cards/border_crop/en/rix/122.jpg?1524751691' },
+        'https://img.scryfall.com/cards/border_crop/front/e/3/e38252c3-fcc1-4bb7-8dd7-ba0e54ade6b7.jpg?1555040580' },
     mana_cost: '{1}{G}',
     cmc: 2,
     type_line: 'Instant',
@@ -7759,10 +7683,9 @@ module.exports = [ { object: 'card',
     artist: 'Jakub Kasper',
     border_color: 'black',
     frame: '2015',
-    frame_effect: '',
     full_art: false,
     story_spotlight: false,
-    edhrec_rank: 11605,
+    edhrec_rank: 11642,
     related_uris:
      { gatherer:
         'http://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=439779',
@@ -7790,17 +7713,17 @@ module.exports = [ { object: 'card',
     highres_image: true,
     image_uris:
      { small:
-        'https://img.scryfall.com/cards/small/en/rix/121.jpg?1524751680',
+        'https://img.scryfall.com/cards/small/front/2/b/2b107726-3a44-4b0f-86ef-4dbbf4473e7e.jpg?1555040572',
        normal:
-        'https://img.scryfall.com/cards/normal/en/rix/121.jpg?1524751680',
+        'https://img.scryfall.com/cards/normal/front/2/b/2b107726-3a44-4b0f-86ef-4dbbf4473e7e.jpg?1555040572',
        large:
-        'https://img.scryfall.com/cards/large/en/rix/121.jpg?1524751680',
+        'https://img.scryfall.com/cards/large/front/2/b/2b107726-3a44-4b0f-86ef-4dbbf4473e7e.jpg?1555040572',
        png:
-        'https://img.scryfall.com/cards/png/en/rix/121.png?1524751680',
+        'https://img.scryfall.com/cards/png/front/2/b/2b107726-3a44-4b0f-86ef-4dbbf4473e7e.png?1555040572',
        art_crop:
-        'https://img.scryfall.com/cards/art_crop/en/rix/121.jpg?1524751680',
+        'https://img.scryfall.com/cards/art_crop/front/2/b/2b107726-3a44-4b0f-86ef-4dbbf4473e7e.jpg?1555040572',
        border_crop:
-        'https://img.scryfall.com/cards/border_crop/en/rix/121.jpg?1524751680' },
+        'https://img.scryfall.com/cards/border_crop/front/2/b/2b107726-3a44-4b0f-86ef-4dbbf4473e7e.jpg?1555040572' },
     mana_cost: '{1}{R}',
     cmc: 2,
     type_line: 'Creature — Human Shaman',
@@ -7862,10 +7785,9 @@ module.exports = [ { object: 'card',
     artist: 'Lius Lasahido',
     border_color: 'black',
     frame: '2015',
-    frame_effect: '',
     full_art: false,
     story_spotlight: false,
-    edhrec_rank: 1785,
+    edhrec_rank: 1868,
     related_uris:
      { gatherer:
         'http://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=439778',
@@ -7893,17 +7815,17 @@ module.exports = [ { object: 'card',
     highres_image: true,
     image_uris:
      { small:
-        'https://img.scryfall.com/cards/small/en/rix/120.jpg?1524751669',
+        'https://img.scryfall.com/cards/small/front/f/0/f0e941a7-c2c1-4855-b79a-c0dfebb28854.jpg?1555040566',
        normal:
-        'https://img.scryfall.com/cards/normal/en/rix/120.jpg?1524751669',
+        'https://img.scryfall.com/cards/normal/front/f/0/f0e941a7-c2c1-4855-b79a-c0dfebb28854.jpg?1555040566',
        large:
-        'https://img.scryfall.com/cards/large/en/rix/120.jpg?1524751669',
+        'https://img.scryfall.com/cards/large/front/f/0/f0e941a7-c2c1-4855-b79a-c0dfebb28854.jpg?1555040566',
        png:
-        'https://img.scryfall.com/cards/png/en/rix/120.png?1524751669',
+        'https://img.scryfall.com/cards/png/front/f/0/f0e941a7-c2c1-4855-b79a-c0dfebb28854.png?1555040566',
        art_crop:
-        'https://img.scryfall.com/cards/art_crop/en/rix/120.jpg?1524751669',
+        'https://img.scryfall.com/cards/art_crop/front/f/0/f0e941a7-c2c1-4855-b79a-c0dfebb28854.jpg?1555040566',
        border_crop:
-        'https://img.scryfall.com/cards/border_crop/en/rix/120.jpg?1524751669' },
+        'https://img.scryfall.com/cards/border_crop/front/f/0/f0e941a7-c2c1-4855-b79a-c0dfebb28854.jpg?1555040566' },
     mana_cost: '{1}{R}',
     cmc: 2,
     type_line: 'Enchantment — Aura',
@@ -7948,10 +7870,9 @@ module.exports = [ { object: 'card',
     artist: 'Suzanne Helmigh',
     border_color: 'black',
     frame: '2015',
-    frame_effect: '',
     full_art: false,
     story_spotlight: false,
-    edhrec_rank: 6812,
+    edhrec_rank: 7323,
     related_uris:
      { gatherer:
         'http://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=439777',
@@ -7979,17 +7900,17 @@ module.exports = [ { object: 'card',
     highres_image: true,
     image_uris:
      { small:
-        'https://img.scryfall.com/cards/small/en/rix/119.jpg?1524751652',
+        'https://img.scryfall.com/cards/small/front/2/2/22da9f6a-9598-4cfe-b465-719266b65dee.jpg?1555040559',
        normal:
-        'https://img.scryfall.com/cards/normal/en/rix/119.jpg?1524751652',
+        'https://img.scryfall.com/cards/normal/front/2/2/22da9f6a-9598-4cfe-b465-719266b65dee.jpg?1555040559',
        large:
-        'https://img.scryfall.com/cards/large/en/rix/119.jpg?1524751652',
+        'https://img.scryfall.com/cards/large/front/2/2/22da9f6a-9598-4cfe-b465-719266b65dee.jpg?1555040559',
        png:
-        'https://img.scryfall.com/cards/png/en/rix/119.png?1524751652',
+        'https://img.scryfall.com/cards/png/front/2/2/22da9f6a-9598-4cfe-b465-719266b65dee.png?1555040559',
        art_crop:
-        'https://img.scryfall.com/cards/art_crop/en/rix/119.jpg?1524751652',
+        'https://img.scryfall.com/cards/art_crop/front/2/2/22da9f6a-9598-4cfe-b465-719266b65dee.jpg?1555040559',
        border_crop:
-        'https://img.scryfall.com/cards/border_crop/en/rix/119.jpg?1524751652' },
+        'https://img.scryfall.com/cards/border_crop/front/2/2/22da9f6a-9598-4cfe-b465-719266b65dee.jpg?1555040559' },
     mana_cost: '{2}{R}',
     cmc: 3,
     type_line: 'Creature — Human Pirate',
@@ -8038,10 +7959,9 @@ module.exports = [ { object: 'card',
     artist: 'Scott Murphy',
     border_color: 'black',
     frame: '2015',
-    frame_effect: '',
     full_art: false,
     story_spotlight: false,
-    edhrec_rank: 12887,
+    edhrec_rank: 13626,
     related_uris:
      { gatherer:
         'http://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=439776',
@@ -8069,17 +7989,17 @@ module.exports = [ { object: 'card',
     highres_image: true,
     image_uris:
      { small:
-        'https://img.scryfall.com/cards/small/en/rix/118.jpg?1524751635',
+        'https://img.scryfall.com/cards/small/front/6/2/62fbd1bc-3e57-43d5-ad54-443ca740fcc4.jpg?1555040553',
        normal:
-        'https://img.scryfall.com/cards/normal/en/rix/118.jpg?1524751635',
+        'https://img.scryfall.com/cards/normal/front/6/2/62fbd1bc-3e57-43d5-ad54-443ca740fcc4.jpg?1555040553',
        large:
-        'https://img.scryfall.com/cards/large/en/rix/118.jpg?1524751635',
+        'https://img.scryfall.com/cards/large/front/6/2/62fbd1bc-3e57-43d5-ad54-443ca740fcc4.jpg?1555040553',
        png:
-        'https://img.scryfall.com/cards/png/en/rix/118.png?1524751635',
+        'https://img.scryfall.com/cards/png/front/6/2/62fbd1bc-3e57-43d5-ad54-443ca740fcc4.png?1555040553',
        art_crop:
-        'https://img.scryfall.com/cards/art_crop/en/rix/118.jpg?1524751635',
+        'https://img.scryfall.com/cards/art_crop/front/6/2/62fbd1bc-3e57-43d5-ad54-443ca740fcc4.jpg?1555040553',
        border_crop:
-        'https://img.scryfall.com/cards/border_crop/en/rix/118.jpg?1524751635' },
+        'https://img.scryfall.com/cards/border_crop/front/6/2/62fbd1bc-3e57-43d5-ad54-443ca740fcc4.jpg?1555040553' },
     mana_cost: '{1}{R}',
     cmc: 2,
     type_line: 'Creature — Dinosaur',
@@ -8128,10 +8048,9 @@ module.exports = [ { object: 'card',
     artist: 'Zoltan Boros',
     border_color: 'black',
     frame: '2015',
-    frame_effect: '',
     full_art: false,
     story_spotlight: false,
-    edhrec_rank: 8530,
+    edhrec_rank: 9385,
     related_uris:
      { gatherer:
         'http://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=439775',
@@ -8159,17 +8078,17 @@ module.exports = [ { object: 'card',
     highres_image: true,
     image_uris:
      { small:
-        'https://img.scryfall.com/cards/small/en/rix/117.jpg?1524751619',
+        'https://img.scryfall.com/cards/small/front/7/0/7093bd0e-3b98-4f46-9717-202ddd277bf5.jpg?1555040547',
        normal:
-        'https://img.scryfall.com/cards/normal/en/rix/117.jpg?1524751619',
+        'https://img.scryfall.com/cards/normal/front/7/0/7093bd0e-3b98-4f46-9717-202ddd277bf5.jpg?1555040547',
        large:
-        'https://img.scryfall.com/cards/large/en/rix/117.jpg?1524751619',
+        'https://img.scryfall.com/cards/large/front/7/0/7093bd0e-3b98-4f46-9717-202ddd277bf5.jpg?1555040547',
        png:
-        'https://img.scryfall.com/cards/png/en/rix/117.png?1524751619',
+        'https://img.scryfall.com/cards/png/front/7/0/7093bd0e-3b98-4f46-9717-202ddd277bf5.png?1555040547',
        art_crop:
-        'https://img.scryfall.com/cards/art_crop/en/rix/117.jpg?1524751619',
+        'https://img.scryfall.com/cards/art_crop/front/7/0/7093bd0e-3b98-4f46-9717-202ddd277bf5.jpg?1555040547',
        border_crop:
-        'https://img.scryfall.com/cards/border_crop/en/rix/117.jpg?1524751619' },
+        'https://img.scryfall.com/cards/border_crop/front/7/0/7093bd0e-3b98-4f46-9717-202ddd277bf5.jpg?1555040547' },
     mana_cost: '{1}{R}',
     cmc: 2,
     type_line: 'Creature — Human Pirate',
@@ -8218,10 +8137,9 @@ module.exports = [ { object: 'card',
     artist: 'Kieran Yanner',
     border_color: 'black',
     frame: '2015',
-    frame_effect: '',
     full_art: false,
     story_spotlight: false,
-    edhrec_rank: 7243,
+    edhrec_rank: 7698,
     related_uris:
      { gatherer:
         'http://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=439774',
@@ -8249,17 +8167,17 @@ module.exports = [ { object: 'card',
     highres_image: true,
     image_uris:
      { small:
-        'https://img.scryfall.com/cards/small/en/rix/116.jpg?1524751606',
+        'https://img.scryfall.com/cards/small/front/3/d/3d4d4bb3-583c-4c3b-b6b7-342a78bbaec6.jpg?1555040540',
        normal:
-        'https://img.scryfall.com/cards/normal/en/rix/116.jpg?1524751606',
+        'https://img.scryfall.com/cards/normal/front/3/d/3d4d4bb3-583c-4c3b-b6b7-342a78bbaec6.jpg?1555040540',
        large:
-        'https://img.scryfall.com/cards/large/en/rix/116.jpg?1524751606',
+        'https://img.scryfall.com/cards/large/front/3/d/3d4d4bb3-583c-4c3b-b6b7-342a78bbaec6.jpg?1555040540',
        png:
-        'https://img.scryfall.com/cards/png/en/rix/116.png?1524751606',
+        'https://img.scryfall.com/cards/png/front/3/d/3d4d4bb3-583c-4c3b-b6b7-342a78bbaec6.png?1555040540',
        art_crop:
-        'https://img.scryfall.com/cards/art_crop/en/rix/116.jpg?1524751606',
+        'https://img.scryfall.com/cards/art_crop/front/3/d/3d4d4bb3-583c-4c3b-b6b7-342a78bbaec6.jpg?1555040540',
        border_crop:
-        'https://img.scryfall.com/cards/border_crop/en/rix/116.jpg?1524751606' },
+        'https://img.scryfall.com/cards/border_crop/front/3/d/3d4d4bb3-583c-4c3b-b6b7-342a78bbaec6.jpg?1555040540' },
     mana_cost: '{4}{R}',
     cmc: 5,
     type_line: 'Creature — Dinosaur',
@@ -8308,10 +8226,9 @@ module.exports = [ { object: 'card',
     artist: 'Jonathan Kuo',
     border_color: 'black',
     frame: '2015',
-    frame_effect: '',
     full_art: false,
     story_spotlight: false,
-    edhrec_rank: 10399,
+    edhrec_rank: 10950,
     related_uris:
      { gatherer:
         'http://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=439773',
@@ -8339,17 +8256,17 @@ module.exports = [ { object: 'card',
     highres_image: true,
     image_uris:
      { small:
-        'https://img.scryfall.com/cards/small/en/rix/115.jpg?1524751587',
+        'https://img.scryfall.com/cards/small/front/5/f/5f0d0c8d-c057-4a44-bd1e-38e1dd175778.jpg?1555040533',
        normal:
-        'https://img.scryfall.com/cards/normal/en/rix/115.jpg?1524751587',
+        'https://img.scryfall.com/cards/normal/front/5/f/5f0d0c8d-c057-4a44-bd1e-38e1dd175778.jpg?1555040533',
        large:
-        'https://img.scryfall.com/cards/large/en/rix/115.jpg?1524751587',
+        'https://img.scryfall.com/cards/large/front/5/f/5f0d0c8d-c057-4a44-bd1e-38e1dd175778.jpg?1555040533',
        png:
-        'https://img.scryfall.com/cards/png/en/rix/115.png?1524751587',
+        'https://img.scryfall.com/cards/png/front/5/f/5f0d0c8d-c057-4a44-bd1e-38e1dd175778.png?1555040533',
        art_crop:
-        'https://img.scryfall.com/cards/art_crop/en/rix/115.jpg?1524751587',
+        'https://img.scryfall.com/cards/art_crop/front/5/f/5f0d0c8d-c057-4a44-bd1e-38e1dd175778.jpg?1555040533',
        border_crop:
-        'https://img.scryfall.com/cards/border_crop/en/rix/115.jpg?1524751587' },
+        'https://img.scryfall.com/cards/border_crop/front/5/f/5f0d0c8d-c057-4a44-bd1e-38e1dd175778.jpg?1555040533' },
     mana_cost: '{5}{R}{R}',
     cmc: 7,
     type_line: 'Creature — Dinosaur',
@@ -8398,10 +8315,9 @@ module.exports = [ { object: 'card',
     artist: 'Simon Dominic',
     border_color: 'black',
     frame: '2015',
-    frame_effect: '',
     full_art: false,
     story_spotlight: false,
-    edhrec_rank: 1600,
+    edhrec_rank: 1688,
     related_uris:
      { gatherer:
         'http://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=439772',
@@ -8428,17 +8344,17 @@ module.exports = [ { object: 'card',
     highres_image: true,
     image_uris:
      { small:
-        'https://img.scryfall.com/cards/small/en/rix/114.jpg?1524751568',
+        'https://img.scryfall.com/cards/small/front/9/2/929a41f7-f52d-4190-a80c-5ceb3e368a31.jpg?1555040526',
        normal:
-        'https://img.scryfall.com/cards/normal/en/rix/114.jpg?1524751568',
+        'https://img.scryfall.com/cards/normal/front/9/2/929a41f7-f52d-4190-a80c-5ceb3e368a31.jpg?1555040526',
        large:
-        'https://img.scryfall.com/cards/large/en/rix/114.jpg?1524751568',
+        'https://img.scryfall.com/cards/large/front/9/2/929a41f7-f52d-4190-a80c-5ceb3e368a31.jpg?1555040526',
        png:
-        'https://img.scryfall.com/cards/png/en/rix/114.png?1524751568',
+        'https://img.scryfall.com/cards/png/front/9/2/929a41f7-f52d-4190-a80c-5ceb3e368a31.png?1555040526',
        art_crop:
-        'https://img.scryfall.com/cards/art_crop/en/rix/114.jpg?1524751568',
+        'https://img.scryfall.com/cards/art_crop/front/9/2/929a41f7-f52d-4190-a80c-5ceb3e368a31.jpg?1555040526',
        border_crop:
-        'https://img.scryfall.com/cards/border_crop/en/rix/114.jpg?1524751568' },
+        'https://img.scryfall.com/cards/border_crop/front/9/2/929a41f7-f52d-4190-a80c-5ceb3e368a31.jpg?1555040526' },
     mana_cost: '{1}{R}',
     cmc: 2,
     type_line: 'Instant',
@@ -8484,10 +8400,9 @@ module.exports = [ { object: 'card',
     artist: 'Jonas De Ro',
     border_color: 'black',
     frame: '2015',
-    frame_effect: '',
     full_art: false,
     story_spotlight: false,
-    edhrec_rank: 7407,
+    edhrec_rank: 7498,
     related_uris:
      { gatherer:
         'http://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=439771',
@@ -8515,17 +8430,17 @@ module.exports = [ { object: 'card',
     highres_image: true,
     image_uris:
      { small:
-        'https://img.scryfall.com/cards/small/en/rix/113.jpg?1524751550',
+        'https://img.scryfall.com/cards/small/front/b/5/b5bd4bdd-3a2a-40d9-9f86-fefe0a462cd2.jpg?1555040519',
        normal:
-        'https://img.scryfall.com/cards/normal/en/rix/113.jpg?1524751550',
+        'https://img.scryfall.com/cards/normal/front/b/5/b5bd4bdd-3a2a-40d9-9f86-fefe0a462cd2.jpg?1555040519',
        large:
-        'https://img.scryfall.com/cards/large/en/rix/113.jpg?1524751550',
+        'https://img.scryfall.com/cards/large/front/b/5/b5bd4bdd-3a2a-40d9-9f86-fefe0a462cd2.jpg?1555040519',
        png:
-        'https://img.scryfall.com/cards/png/en/rix/113.png?1524751550',
+        'https://img.scryfall.com/cards/png/front/b/5/b5bd4bdd-3a2a-40d9-9f86-fefe0a462cd2.png?1555040519',
        art_crop:
-        'https://img.scryfall.com/cards/art_crop/en/rix/113.jpg?1524751550',
+        'https://img.scryfall.com/cards/art_crop/front/b/5/b5bd4bdd-3a2a-40d9-9f86-fefe0a462cd2.jpg?1555040519',
        border_crop:
-        'https://img.scryfall.com/cards/border_crop/en/rix/113.jpg?1524751550' },
+        'https://img.scryfall.com/cards/border_crop/front/b/5/b5bd4bdd-3a2a-40d9-9f86-fefe0a462cd2.jpg?1555040519' },
     mana_cost: '{2}{R}',
     cmc: 3,
     type_line: 'Instant',
@@ -8571,10 +8486,9 @@ module.exports = [ { object: 'card',
     artist: 'Zack Stella',
     border_color: 'black',
     frame: '2015',
-    frame_effect: '',
     full_art: false,
     story_spotlight: false,
-    edhrec_rank: 5428,
+    edhrec_rank: 5931,
     related_uris:
      { gatherer:
         'http://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=439770',
@@ -8601,17 +8515,17 @@ module.exports = [ { object: 'card',
     highres_image: true,
     image_uris:
      { small:
-        'https://img.scryfall.com/cards/small/en/rix/112.jpg?1524751531',
+        'https://img.scryfall.com/cards/small/front/4/6/4686cbaf-1de8-4f30-8027-c6c8a85dde7a.jpg?1555040513',
        normal:
-        'https://img.scryfall.com/cards/normal/en/rix/112.jpg?1524751531',
+        'https://img.scryfall.com/cards/normal/front/4/6/4686cbaf-1de8-4f30-8027-c6c8a85dde7a.jpg?1555040513',
        large:
-        'https://img.scryfall.com/cards/large/en/rix/112.jpg?1524751531',
+        'https://img.scryfall.com/cards/large/front/4/6/4686cbaf-1de8-4f30-8027-c6c8a85dde7a.jpg?1555040513',
        png:
-        'https://img.scryfall.com/cards/png/en/rix/112.png?1524751531',
+        'https://img.scryfall.com/cards/png/front/4/6/4686cbaf-1de8-4f30-8027-c6c8a85dde7a.png?1555040513',
        art_crop:
-        'https://img.scryfall.com/cards/art_crop/en/rix/112.jpg?1524751531',
+        'https://img.scryfall.com/cards/art_crop/front/4/6/4686cbaf-1de8-4f30-8027-c6c8a85dde7a.jpg?1555040513',
        border_crop:
-        'https://img.scryfall.com/cards/border_crop/en/rix/112.jpg?1524751531' },
+        'https://img.scryfall.com/cards/border_crop/front/4/6/4686cbaf-1de8-4f30-8027-c6c8a85dde7a.jpg?1555040513' },
     mana_cost: '{1}{R}',
     cmc: 2,
     type_line: 'Enchantment — Aura',
@@ -8656,10 +8570,9 @@ module.exports = [ { object: 'card',
     artist: 'Steve Prescott',
     border_color: 'black',
     frame: '2015',
-    frame_effect: '',
     full_art: false,
     story_spotlight: false,
-    edhrec_rank: 11322,
+    edhrec_rank: 12145,
     related_uris:
      { gatherer:
         'http://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=439769',
@@ -8687,17 +8600,17 @@ module.exports = [ { object: 'card',
     highres_image: true,
     image_uris:
      { small:
-        'https://img.scryfall.com/cards/small/en/rix/111.jpg?1524751516',
+        'https://img.scryfall.com/cards/small/front/d/a/daccec32-84c6-4de4-9b00-c497a6ba5de8.jpg?1555040506',
        normal:
-        'https://img.scryfall.com/cards/normal/en/rix/111.jpg?1524751516',
+        'https://img.scryfall.com/cards/normal/front/d/a/daccec32-84c6-4de4-9b00-c497a6ba5de8.jpg?1555040506',
        large:
-        'https://img.scryfall.com/cards/large/en/rix/111.jpg?1524751516',
+        'https://img.scryfall.com/cards/large/front/d/a/daccec32-84c6-4de4-9b00-c497a6ba5de8.jpg?1555040506',
        png:
-        'https://img.scryfall.com/cards/png/en/rix/111.png?1524751516',
+        'https://img.scryfall.com/cards/png/front/d/a/daccec32-84c6-4de4-9b00-c497a6ba5de8.png?1555040506',
        art_crop:
-        'https://img.scryfall.com/cards/art_crop/en/rix/111.jpg?1524751516',
+        'https://img.scryfall.com/cards/art_crop/front/d/a/daccec32-84c6-4de4-9b00-c497a6ba5de8.jpg?1555040506',
        border_crop:
-        'https://img.scryfall.com/cards/border_crop/en/rix/111.jpg?1524751516' },
+        'https://img.scryfall.com/cards/border_crop/front/d/a/daccec32-84c6-4de4-9b00-c497a6ba5de8.jpg?1555040506' },
     mana_cost: '{2}{R}{R}',
     cmc: 4,
     type_line: 'Creature — Phoenix',
@@ -8759,10 +8672,9 @@ module.exports = [ { object: 'card',
     artist: 'Jason Rainville',
     border_color: 'black',
     frame: '2015',
-    frame_effect: '',
     full_art: false,
     story_spotlight: false,
-    edhrec_rank: 6556,
+    edhrec_rank: 6763,
     related_uris:
      { gatherer:
         'http://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=439768',
@@ -8790,17 +8702,17 @@ module.exports = [ { object: 'card',
     highres_image: true,
     image_uris:
      { small:
-        'https://img.scryfall.com/cards/small/en/rix/110.jpg?1524751504',
+        'https://img.scryfall.com/cards/small/front/0/e/0e4b97a3-8f6f-461e-aa55-ab752752f539.jpg?1555040498',
        normal:
-        'https://img.scryfall.com/cards/normal/en/rix/110.jpg?1524751504',
+        'https://img.scryfall.com/cards/normal/front/0/e/0e4b97a3-8f6f-461e-aa55-ab752752f539.jpg?1555040498',
        large:
-        'https://img.scryfall.com/cards/large/en/rix/110.jpg?1524751504',
+        'https://img.scryfall.com/cards/large/front/0/e/0e4b97a3-8f6f-461e-aa55-ab752752f539.jpg?1555040498',
        png:
-        'https://img.scryfall.com/cards/png/en/rix/110.png?1524751504',
+        'https://img.scryfall.com/cards/png/front/0/e/0e4b97a3-8f6f-461e-aa55-ab752752f539.png?1555040498',
        art_crop:
-        'https://img.scryfall.com/cards/art_crop/en/rix/110.jpg?1524751504',
+        'https://img.scryfall.com/cards/art_crop/front/0/e/0e4b97a3-8f6f-461e-aa55-ab752752f539.jpg?1555040498',
        border_crop:
-        'https://img.scryfall.com/cards/border_crop/en/rix/110.jpg?1524751504' },
+        'https://img.scryfall.com/cards/border_crop/front/0/e/0e4b97a3-8f6f-461e-aa55-ab752752f539.jpg?1555040498' },
     mana_cost: '{R}',
     cmc: 1,
     type_line: 'Instant',
@@ -8846,10 +8758,9 @@ module.exports = [ { object: 'card',
     artist: 'Slawomir Maniak',
     border_color: 'black',
     frame: '2015',
-    frame_effect: '',
     full_art: false,
     story_spotlight: false,
-    edhrec_rank: 8465,
+    edhrec_rank: 7499,
     related_uris:
      { gatherer:
         'http://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=439767',
@@ -8877,17 +8788,17 @@ module.exports = [ { object: 'card',
     highres_image: true,
     image_uris:
      { small:
-        'https://img.scryfall.com/cards/small/en/rix/109.jpg?1524751494',
+        'https://img.scryfall.com/cards/small/front/c/9/c99c812f-89b1-4741-a50d-8634e003a7c0.jpg?1555040489',
        normal:
-        'https://img.scryfall.com/cards/normal/en/rix/109.jpg?1524751494',
+        'https://img.scryfall.com/cards/normal/front/c/9/c99c812f-89b1-4741-a50d-8634e003a7c0.jpg?1555040489',
        large:
-        'https://img.scryfall.com/cards/large/en/rix/109.jpg?1524751494',
+        'https://img.scryfall.com/cards/large/front/c/9/c99c812f-89b1-4741-a50d-8634e003a7c0.jpg?1555040489',
        png:
-        'https://img.scryfall.com/cards/png/en/rix/109.png?1524751494',
+        'https://img.scryfall.com/cards/png/front/c/9/c99c812f-89b1-4741-a50d-8634e003a7c0.png?1555040489',
        art_crop:
-        'https://img.scryfall.com/cards/art_crop/en/rix/109.jpg?1524751494',
+        'https://img.scryfall.com/cards/art_crop/front/c/9/c99c812f-89b1-4741-a50d-8634e003a7c0.jpg?1555040489',
        border_crop:
-        'https://img.scryfall.com/cards/border_crop/en/rix/109.jpg?1524751494' },
+        'https://img.scryfall.com/cards/border_crop/front/c/9/c99c812f-89b1-4741-a50d-8634e003a7c0.jpg?1555040489' },
     mana_cost: '{3}{R}',
     cmc: 4,
     type_line: 'Sorcery',
@@ -8904,12 +8815,12 @@ module.exports = [ { object: 'card',
          uri:
           'https://api.scryfall.com/cards/c99c812f-89b1-4741-a50d-8634e003a7c0' },
        { object: 'related_card',
-         id: '56f06ec6-634d-454b-a46a-dfefe4600d27',
+         id: '720f3e68-84c0-462e-a0d1-90236ccc494a',
          component: 'token',
          name: 'Treasure',
          type_line: 'Token Artifact — Treasure',
          uri:
-          'https://api.scryfall.com/cards/56f06ec6-634d-454b-a46a-dfefe4600d27' } ],
+          'https://api.scryfall.com/cards/720f3e68-84c0-462e-a0d1-90236ccc494a' } ],
     legalities:
      { standard: 'legal',
        future: 'legal',
@@ -8948,10 +8859,9 @@ module.exports = [ { object: 'card',
     artist: 'Wayne Reynolds',
     border_color: 'black',
     frame: '2015',
-    frame_effect: '',
     full_art: false,
     story_spotlight: false,
-    edhrec_rank: 4036,
+    edhrec_rank: 3965,
     related_uris:
      { gatherer:
         'http://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=439766',
@@ -8979,17 +8889,17 @@ module.exports = [ { object: 'card',
     highres_image: true,
     image_uris:
      { small:
-        'https://img.scryfall.com/cards/small/en/rix/108.jpg?1524751479',
+        'https://img.scryfall.com/cards/small/front/b/7/b7080f86-0a9f-4471-a52b-0d44d19e6e59.jpg?1555040479',
        normal:
-        'https://img.scryfall.com/cards/normal/en/rix/108.jpg?1524751479',
+        'https://img.scryfall.com/cards/normal/front/b/7/b7080f86-0a9f-4471-a52b-0d44d19e6e59.jpg?1555040479',
        large:
-        'https://img.scryfall.com/cards/large/en/rix/108.jpg?1524751479',
+        'https://img.scryfall.com/cards/large/front/b/7/b7080f86-0a9f-4471-a52b-0d44d19e6e59.jpg?1555040479',
        png:
-        'https://img.scryfall.com/cards/png/en/rix/108.png?1524751479',
+        'https://img.scryfall.com/cards/png/front/b/7/b7080f86-0a9f-4471-a52b-0d44d19e6e59.png?1555040479',
        art_crop:
-        'https://img.scryfall.com/cards/art_crop/en/rix/108.jpg?1524751479',
+        'https://img.scryfall.com/cards/art_crop/front/b/7/b7080f86-0a9f-4471-a52b-0d44d19e6e59.jpg?1555040479',
        border_crop:
-        'https://img.scryfall.com/cards/border_crop/en/rix/108.jpg?1524751479' },
+        'https://img.scryfall.com/cards/border_crop/front/b/7/b7080f86-0a9f-4471-a52b-0d44d19e6e59.jpg?1555040479' },
     mana_cost: '{2}{R}{R}',
     cmc: 4,
     type_line: 'Creature — Dinosaur',
@@ -9037,10 +8947,9 @@ module.exports = [ { object: 'card',
     artist: 'Jakub Kasper',
     border_color: 'black',
     frame: '2015',
-    frame_effect: '',
     full_art: false,
     story_spotlight: false,
-    edhrec_rank: 12886,
+    edhrec_rank: 13256,
     related_uris:
      { gatherer:
         'http://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=439765',
@@ -9068,17 +8977,17 @@ module.exports = [ { object: 'card',
     highres_image: true,
     image_uris:
      { small:
-        'https://img.scryfall.com/cards/small/en/rix/107.jpg?1524751467',
+        'https://img.scryfall.com/cards/small/front/e/9/e9a90b68-d5f4-4f3c-bd4b-af59dd868919.jpg?1555040463',
        normal:
-        'https://img.scryfall.com/cards/normal/en/rix/107.jpg?1524751467',
+        'https://img.scryfall.com/cards/normal/front/e/9/e9a90b68-d5f4-4f3c-bd4b-af59dd868919.jpg?1555040463',
        large:
-        'https://img.scryfall.com/cards/large/en/rix/107.jpg?1524751467',
+        'https://img.scryfall.com/cards/large/front/e/9/e9a90b68-d5f4-4f3c-bd4b-af59dd868919.jpg?1555040463',
        png:
-        'https://img.scryfall.com/cards/png/en/rix/107.png?1524751467',
+        'https://img.scryfall.com/cards/png/front/e/9/e9a90b68-d5f4-4f3c-bd4b-af59dd868919.png?1555040463',
        art_crop:
-        'https://img.scryfall.com/cards/art_crop/en/rix/107.jpg?1524751467',
+        'https://img.scryfall.com/cards/art_crop/front/e/9/e9a90b68-d5f4-4f3c-bd4b-af59dd868919.jpg?1555040463',
        border_crop:
-        'https://img.scryfall.com/cards/border_crop/en/rix/107.jpg?1524751467' },
+        'https://img.scryfall.com/cards/border_crop/front/e/9/e9a90b68-d5f4-4f3c-bd4b-af59dd868919.jpg?1555040463' },
     mana_cost: '{3}{R}',
     cmc: 4,
     type_line: 'Creature — Dinosaur',
@@ -9126,10 +9035,9 @@ module.exports = [ { object: 'card',
     artist: 'Winona Nelson',
     border_color: 'black',
     frame: '2015',
-    frame_effect: '',
     full_art: false,
     story_spotlight: false,
-    edhrec_rank: 3188,
+    edhrec_rank: 3470,
     related_uris:
      { gatherer:
         'http://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=439764',
@@ -9156,17 +9064,17 @@ module.exports = [ { object: 'card',
     highres_image: true,
     image_uris:
      { small:
-        'https://img.scryfall.com/cards/small/en/rix/106.jpg?1524751441',
+        'https://img.scryfall.com/cards/small/front/0/1/010711a0-5e95-4a8c-816f-e314f2a909ef.jpg?1555040455',
        normal:
-        'https://img.scryfall.com/cards/normal/en/rix/106.jpg?1524751441',
+        'https://img.scryfall.com/cards/normal/front/0/1/010711a0-5e95-4a8c-816f-e314f2a909ef.jpg?1555040455',
        large:
-        'https://img.scryfall.com/cards/large/en/rix/106.jpg?1524751441',
+        'https://img.scryfall.com/cards/large/front/0/1/010711a0-5e95-4a8c-816f-e314f2a909ef.jpg?1555040455',
        png:
-        'https://img.scryfall.com/cards/png/en/rix/106.png?1524751441',
+        'https://img.scryfall.com/cards/png/front/0/1/010711a0-5e95-4a8c-816f-e314f2a909ef.png?1555040455',
        art_crop:
-        'https://img.scryfall.com/cards/art_crop/en/rix/106.jpg?1524751441',
+        'https://img.scryfall.com/cards/art_crop/front/0/1/010711a0-5e95-4a8c-816f-e314f2a909ef.jpg?1555040455',
        border_crop:
-        'https://img.scryfall.com/cards/border_crop/en/rix/106.jpg?1524751441' },
+        'https://img.scryfall.com/cards/border_crop/front/0/1/010711a0-5e95-4a8c-816f-e314f2a909ef.jpg?1555040455' },
     mana_cost: '{R}',
     cmc: 1,
     type_line: 'Sorcery',
@@ -9212,10 +9120,9 @@ module.exports = [ { object: 'card',
     artist: 'Gabor Szikszai',
     border_color: 'black',
     frame: '2015',
-    frame_effect: '',
     full_art: false,
     story_spotlight: false,
-    edhrec_rank: 7622,
+    edhrec_rank: 7918,
     related_uris:
      { gatherer:
         'http://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=439763',
@@ -9243,17 +9150,17 @@ module.exports = [ { object: 'card',
     highres_image: true,
     image_uris:
      { small:
-        'https://img.scryfall.com/cards/small/en/rix/105.jpg?1524751429',
+        'https://img.scryfall.com/cards/small/front/1/5/152b2d16-bdf5-4249-9dc1-bb51498aa33b.jpg?1555040446',
        normal:
-        'https://img.scryfall.com/cards/normal/en/rix/105.jpg?1524751429',
+        'https://img.scryfall.com/cards/normal/front/1/5/152b2d16-bdf5-4249-9dc1-bb51498aa33b.jpg?1555040446',
        large:
-        'https://img.scryfall.com/cards/large/en/rix/105.jpg?1524751429',
+        'https://img.scryfall.com/cards/large/front/1/5/152b2d16-bdf5-4249-9dc1-bb51498aa33b.jpg?1555040446',
        png:
-        'https://img.scryfall.com/cards/png/en/rix/105.png?1524751429',
+        'https://img.scryfall.com/cards/png/front/1/5/152b2d16-bdf5-4249-9dc1-bb51498aa33b.png?1555040446',
        art_crop:
-        'https://img.scryfall.com/cards/art_crop/en/rix/105.jpg?1524751429',
+        'https://img.scryfall.com/cards/art_crop/front/1/5/152b2d16-bdf5-4249-9dc1-bb51498aa33b.jpg?1555040446',
        border_crop:
-        'https://img.scryfall.com/cards/border_crop/en/rix/105.jpg?1524751429' },
+        'https://img.scryfall.com/cards/border_crop/front/1/5/152b2d16-bdf5-4249-9dc1-bb51498aa33b.jpg?1555040446' },
     mana_cost: '{1}{R}',
     cmc: 2,
     type_line: 'Creature — Goblin Pirate',
@@ -9301,10 +9208,9 @@ module.exports = [ { object: 'card',
     artist: 'Josh Hass',
     border_color: 'black',
     frame: '2015',
-    frame_effect: '',
     full_art: false,
     story_spotlight: false,
-    edhrec_rank: 8926,
+    edhrec_rank: 8838,
     related_uris:
      { gatherer:
         'http://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=439762',
@@ -9332,17 +9238,17 @@ module.exports = [ { object: 'card',
     highres_image: true,
     image_uris:
      { small:
-        'https://img.scryfall.com/cards/small/en/rix/104.jpg?1524751419',
+        'https://img.scryfall.com/cards/small/front/e/3/e3825798-f673-4d8a-9997-ccb73681cbf2.jpg?1555040439',
        normal:
-        'https://img.scryfall.com/cards/normal/en/rix/104.jpg?1524751419',
+        'https://img.scryfall.com/cards/normal/front/e/3/e3825798-f673-4d8a-9997-ccb73681cbf2.jpg?1555040439',
        large:
-        'https://img.scryfall.com/cards/large/en/rix/104.jpg?1524751419',
+        'https://img.scryfall.com/cards/large/front/e/3/e3825798-f673-4d8a-9997-ccb73681cbf2.jpg?1555040439',
        png:
-        'https://img.scryfall.com/cards/png/en/rix/104.png?1524751419',
+        'https://img.scryfall.com/cards/png/front/e/3/e3825798-f673-4d8a-9997-ccb73681cbf2.png?1555040439',
        art_crop:
-        'https://img.scryfall.com/cards/art_crop/en/rix/104.jpg?1524751419',
+        'https://img.scryfall.com/cards/art_crop/front/e/3/e3825798-f673-4d8a-9997-ccb73681cbf2.jpg?1555040439',
        border_crop:
-        'https://img.scryfall.com/cards/border_crop/en/rix/104.jpg?1524751419' },
+        'https://img.scryfall.com/cards/border_crop/front/e/3/e3825798-f673-4d8a-9997-ccb73681cbf2.jpg?1555040439' },
     mana_cost: '{2}{R}',
     cmc: 3,
     type_line: 'Creature — Dinosaur',
@@ -9391,10 +9297,9 @@ module.exports = [ { object: 'card',
     artist: 'Zoltan Boros',
     border_color: 'black',
     frame: '2015',
-    frame_effect: '',
     full_art: false,
     story_spotlight: false,
-    edhrec_rank: 5610,
+    edhrec_rank: 6114,
     related_uris:
      { gatherer:
         'http://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=439761',
@@ -9422,17 +9327,17 @@ module.exports = [ { object: 'card',
     highres_image: true,
     image_uris:
      { small:
-        'https://img.scryfall.com/cards/small/en/rix/103.jpg?1524751407',
+        'https://img.scryfall.com/cards/small/front/4/1/41e4fe86-281d-4174-bb72-ac5bb9560b7e.jpg?1555040432',
        normal:
-        'https://img.scryfall.com/cards/normal/en/rix/103.jpg?1524751407',
+        'https://img.scryfall.com/cards/normal/front/4/1/41e4fe86-281d-4174-bb72-ac5bb9560b7e.jpg?1555040432',
        large:
-        'https://img.scryfall.com/cards/large/en/rix/103.jpg?1524751407',
+        'https://img.scryfall.com/cards/large/front/4/1/41e4fe86-281d-4174-bb72-ac5bb9560b7e.jpg?1555040432',
        png:
-        'https://img.scryfall.com/cards/png/en/rix/103.png?1524751407',
+        'https://img.scryfall.com/cards/png/front/4/1/41e4fe86-281d-4174-bb72-ac5bb9560b7e.png?1555040432',
        art_crop:
-        'https://img.scryfall.com/cards/art_crop/en/rix/103.jpg?1524751407',
+        'https://img.scryfall.com/cards/art_crop/front/4/1/41e4fe86-281d-4174-bb72-ac5bb9560b7e.jpg?1555040432',
        border_crop:
-        'https://img.scryfall.com/cards/border_crop/en/rix/103.jpg?1524751407' },
+        'https://img.scryfall.com/cards/border_crop/front/4/1/41e4fe86-281d-4174-bb72-ac5bb9560b7e.jpg?1555040432' },
     mana_cost: '{4}{R}{R}',
     cmc: 6,
     type_line: 'Enchantment',
@@ -9477,10 +9382,9 @@ module.exports = [ { object: 'card',
     artist: 'Daarken',
     border_color: 'black',
     frame: '2015',
-    frame_effect: '',
     full_art: false,
     story_spotlight: false,
-    edhrec_rank: 12317,
+    edhrec_rank: 12943,
     related_uris:
      { gatherer:
         'http://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=439760',
@@ -9508,17 +9412,17 @@ module.exports = [ { object: 'card',
     highres_image: true,
     image_uris:
      { small:
-        'https://img.scryfall.com/cards/small/en/rix/102.jpg?1524751395',
+        'https://img.scryfall.com/cards/small/front/9/4/947644ab-02b3-4ebe-b62a-c087ab205ab0.jpg?1555040426',
        normal:
-        'https://img.scryfall.com/cards/normal/en/rix/102.jpg?1524751395',
+        'https://img.scryfall.com/cards/normal/front/9/4/947644ab-02b3-4ebe-b62a-c087ab205ab0.jpg?1555040426',
        large:
-        'https://img.scryfall.com/cards/large/en/rix/102.jpg?1524751395',
+        'https://img.scryfall.com/cards/large/front/9/4/947644ab-02b3-4ebe-b62a-c087ab205ab0.jpg?1555040426',
        png:
-        'https://img.scryfall.com/cards/png/en/rix/102.png?1524751395',
+        'https://img.scryfall.com/cards/png/front/9/4/947644ab-02b3-4ebe-b62a-c087ab205ab0.png?1555040426',
        art_crop:
-        'https://img.scryfall.com/cards/art_crop/en/rix/102.jpg?1524751395',
+        'https://img.scryfall.com/cards/art_crop/front/9/4/947644ab-02b3-4ebe-b62a-c087ab205ab0.jpg?1555040426',
        border_crop:
-        'https://img.scryfall.com/cards/border_crop/en/rix/102.jpg?1524751395' },
+        'https://img.scryfall.com/cards/border_crop/front/9/4/947644ab-02b3-4ebe-b62a-c087ab205ab0.jpg?1555040426' },
     mana_cost: '{3}{R}',
     cmc: 4,
     type_line: 'Creature — Human Soldier',
@@ -9565,10 +9469,9 @@ module.exports = [ { object: 'card',
     artist: 'Dan Scott',
     border_color: 'black',
     frame: '2015',
-    frame_effect: '',
     full_art: false,
     story_spotlight: false,
-    edhrec_rank: 1833,
+    edhrec_rank: 2002,
     related_uris:
      { gatherer:
         'http://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=439759',
@@ -9596,17 +9499,17 @@ module.exports = [ { object: 'card',
     highres_image: true,
     image_uris:
      { small:
-        'https://img.scryfall.com/cards/small/en/rix/101.jpg?1524751379',
+        'https://img.scryfall.com/cards/small/front/5/e/5e5565de-028c-4799-a9f6-4dcd685639eb.jpg?1555040420',
        normal:
-        'https://img.scryfall.com/cards/normal/en/rix/101.jpg?1524751379',
+        'https://img.scryfall.com/cards/normal/front/5/e/5e5565de-028c-4799-a9f6-4dcd685639eb.jpg?1555040420',
        large:
-        'https://img.scryfall.com/cards/large/en/rix/101.jpg?1524751379',
+        'https://img.scryfall.com/cards/large/front/5/e/5e5565de-028c-4799-a9f6-4dcd685639eb.jpg?1555040420',
        png:
-        'https://img.scryfall.com/cards/png/en/rix/101.png?1524751379',
+        'https://img.scryfall.com/cards/png/front/5/e/5e5565de-028c-4799-a9f6-4dcd685639eb.png?1555040420',
        art_crop:
-        'https://img.scryfall.com/cards/art_crop/en/rix/101.jpg?1524751379',
+        'https://img.scryfall.com/cards/art_crop/front/5/e/5e5565de-028c-4799-a9f6-4dcd685639eb.jpg?1555040420',
        border_crop:
-        'https://img.scryfall.com/cards/border_crop/en/rix/101.jpg?1524751379' },
+        'https://img.scryfall.com/cards/border_crop/front/5/e/5e5565de-028c-4799-a9f6-4dcd685639eb.jpg?1555040420' },
     mana_cost: '{R}',
     cmc: 1,
     type_line: 'Creature — Goblin Pirate',
@@ -9655,10 +9558,9 @@ module.exports = [ { object: 'card',
     artist: 'Wayne Reynolds',
     border_color: 'black',
     frame: '2015',
-    frame_effect: '',
     full_art: false,
     story_spotlight: false,
-    edhrec_rank: 5684,
+    edhrec_rank: 6028,
     related_uris:
      { gatherer:
         'http://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=439758',
@@ -9686,17 +9588,17 @@ module.exports = [ { object: 'card',
     highres_image: true,
     image_uris:
      { small:
-        'https://img.scryfall.com/cards/small/en/rix/100.jpg?1524751359',
+        'https://img.scryfall.com/cards/small/front/1/d/1d3d8bb4-0430-45bb-930d-5d6db6521945.jpg?1555040414',
        normal:
-        'https://img.scryfall.com/cards/normal/en/rix/100.jpg?1524751359',
+        'https://img.scryfall.com/cards/normal/front/1/d/1d3d8bb4-0430-45bb-930d-5d6db6521945.jpg?1555040414',
        large:
-        'https://img.scryfall.com/cards/large/en/rix/100.jpg?1524751359',
+        'https://img.scryfall.com/cards/large/front/1/d/1d3d8bb4-0430-45bb-930d-5d6db6521945.jpg?1555040414',
        png:
-        'https://img.scryfall.com/cards/png/en/rix/100.png?1524751359',
+        'https://img.scryfall.com/cards/png/front/1/d/1d3d8bb4-0430-45bb-930d-5d6db6521945.png?1555040414',
        art_crop:
-        'https://img.scryfall.com/cards/art_crop/en/rix/100.jpg?1524751359',
+        'https://img.scryfall.com/cards/art_crop/front/1/d/1d3d8bb4-0430-45bb-930d-5d6db6521945.jpg?1555040414',
        border_crop:
-        'https://img.scryfall.com/cards/border_crop/en/rix/100.jpg?1524751359' },
+        'https://img.scryfall.com/cards/border_crop/front/1/d/1d3d8bb4-0430-45bb-930d-5d6db6521945.jpg?1555040414' },
     mana_cost: '{4}{R}{R}',
     cmc: 6,
     type_line: 'Legendary Creature — Elder Dinosaur',
@@ -9744,10 +9646,9 @@ module.exports = [ { object: 'card',
     artist: 'Raymond Swanland',
     border_color: 'black',
     frame: '2015',
-    frame_effect: '',
     full_art: false,
     story_spotlight: false,
-    edhrec_rank: 723,
+    edhrec_rank: 795,
     related_uris:
      { gatherer:
         'http://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=439757',
@@ -9775,17 +9676,17 @@ module.exports = [ { object: 'card',
     highres_image: true,
     image_uris:
      { small:
-        'https://img.scryfall.com/cards/small/en/rix/99.jpg?1524751344',
+        'https://img.scryfall.com/cards/small/front/1/3/13e3c0c5-7451-4da9-acc0-d6e4e1f2655e.jpg?1555040408',
        normal:
-        'https://img.scryfall.com/cards/normal/en/rix/99.jpg?1524751344',
+        'https://img.scryfall.com/cards/normal/front/1/3/13e3c0c5-7451-4da9-acc0-d6e4e1f2655e.jpg?1555040408',
        large:
-        'https://img.scryfall.com/cards/large/en/rix/99.jpg?1524751344',
+        'https://img.scryfall.com/cards/large/front/1/3/13e3c0c5-7451-4da9-acc0-d6e4e1f2655e.jpg?1555040408',
        png:
-        'https://img.scryfall.com/cards/png/en/rix/99.png?1524751344',
+        'https://img.scryfall.com/cards/png/front/1/3/13e3c0c5-7451-4da9-acc0-d6e4e1f2655e.png?1555040408',
        art_crop:
-        'https://img.scryfall.com/cards/art_crop/en/rix/99.jpg?1524751344',
+        'https://img.scryfall.com/cards/art_crop/front/1/3/13e3c0c5-7451-4da9-acc0-d6e4e1f2655e.jpg?1555040408',
        border_crop:
-        'https://img.scryfall.com/cards/border_crop/en/rix/99.jpg?1524751344' },
+        'https://img.scryfall.com/cards/border_crop/front/1/3/13e3c0c5-7451-4da9-acc0-d6e4e1f2655e.jpg?1555040408' },
     mana_cost: '{1}{R}',
     cmc: 2,
     type_line: 'Creature — Human Pirate',
@@ -9832,10 +9733,9 @@ module.exports = [ { object: 'card',
     artist: 'Zoltan Boros',
     border_color: 'black',
     frame: '2015',
-    frame_effect: '',
     full_art: false,
     story_spotlight: false,
-    edhrec_rank: 2125,
+    edhrec_rank: 2167,
     related_uris:
      { gatherer:
         'http://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=439756',
@@ -9863,17 +9763,17 @@ module.exports = [ { object: 'card',
     highres_image: true,
     image_uris:
      { small:
-        'https://img.scryfall.com/cards/small/en/rix/98.jpg?1524751323',
+        'https://img.scryfall.com/cards/small/front/1/d/1d413b88-8f5d-415f-bd07-169f6c175e6b.jpg?1555040399',
        normal:
-        'https://img.scryfall.com/cards/normal/en/rix/98.jpg?1524751323',
+        'https://img.scryfall.com/cards/normal/front/1/d/1d413b88-8f5d-415f-bd07-169f6c175e6b.jpg?1555040399',
        large:
-        'https://img.scryfall.com/cards/large/en/rix/98.jpg?1524751323',
+        'https://img.scryfall.com/cards/large/front/1/d/1d413b88-8f5d-415f-bd07-169f6c175e6b.jpg?1555040399',
        png:
-        'https://img.scryfall.com/cards/png/en/rix/98.png?1524751323',
+        'https://img.scryfall.com/cards/png/front/1/d/1d413b88-8f5d-415f-bd07-169f6c175e6b.png?1555040399',
        art_crop:
-        'https://img.scryfall.com/cards/art_crop/en/rix/98.jpg?1524751323',
+        'https://img.scryfall.com/cards/art_crop/front/1/d/1d413b88-8f5d-415f-bd07-169f6c175e6b.jpg?1555040399',
        border_crop:
-        'https://img.scryfall.com/cards/border_crop/en/rix/98.jpg?1524751323' },
+        'https://img.scryfall.com/cards/border_crop/front/1/d/1d413b88-8f5d-415f-bd07-169f6c175e6b.jpg?1555040399' },
     mana_cost: '{R}',
     cmc: 1,
     type_line: 'Creature — Human Pirate',
@@ -9922,10 +9822,9 @@ module.exports = [ { object: 'card',
     artist: 'Jason Rainville',
     border_color: 'black',
     frame: '2015',
-    frame_effect: '',
     full_art: false,
     story_spotlight: false,
-    edhrec_rank: 8197,
+    edhrec_rank: 8974,
     related_uris:
      { gatherer:
         'http://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=439755',
@@ -9953,17 +9852,17 @@ module.exports = [ { object: 'card',
     highres_image: true,
     image_uris:
      { small:
-        'https://img.scryfall.com/cards/small/en/rix/97.jpg?1524751304',
+        'https://img.scryfall.com/cards/small/front/8/e/8e49960d-4b45-4d3b-9c6e-e7b717b4feaa.jpg?1555040392',
        normal:
-        'https://img.scryfall.com/cards/normal/en/rix/97.jpg?1524751304',
+        'https://img.scryfall.com/cards/normal/front/8/e/8e49960d-4b45-4d3b-9c6e-e7b717b4feaa.jpg?1555040392',
        large:
-        'https://img.scryfall.com/cards/large/en/rix/97.jpg?1524751304',
+        'https://img.scryfall.com/cards/large/front/8/e/8e49960d-4b45-4d3b-9c6e-e7b717b4feaa.jpg?1555040392',
        png:
-        'https://img.scryfall.com/cards/png/en/rix/97.png?1524751304',
+        'https://img.scryfall.com/cards/png/front/8/e/8e49960d-4b45-4d3b-9c6e-e7b717b4feaa.png?1555040392',
        art_crop:
-        'https://img.scryfall.com/cards/art_crop/en/rix/97.jpg?1524751304',
+        'https://img.scryfall.com/cards/art_crop/front/8/e/8e49960d-4b45-4d3b-9c6e-e7b717b4feaa.jpg?1555040392',
        border_crop:
-        'https://img.scryfall.com/cards/border_crop/en/rix/97.jpg?1524751304' },
+        'https://img.scryfall.com/cards/border_crop/front/8/e/8e49960d-4b45-4d3b-9c6e-e7b717b4feaa.jpg?1555040392' },
     mana_cost: '{3}{R}{R}',
     cmc: 5,
     type_line: 'Creature — Dinosaur',
@@ -10012,10 +9911,9 @@ module.exports = [ { object: 'card',
     artist: 'Izzy',
     border_color: 'black',
     frame: '2015',
-    frame_effect: '',
     full_art: false,
     story_spotlight: false,
-    edhrec_rank: 3876,
+    edhrec_rank: 4126,
     related_uris:
      { gatherer:
         'http://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=439754',
@@ -10043,17 +9941,17 @@ module.exports = [ { object: 'card',
     highres_image: true,
     image_uris:
      { small:
-        'https://img.scryfall.com/cards/small/en/rix/96.jpg?1524751294',
+        'https://img.scryfall.com/cards/small/front/d/8/d82c583f-3d2b-4c7f-a6f4-97da150423b4.jpg?1555040386',
        normal:
-        'https://img.scryfall.com/cards/normal/en/rix/96.jpg?1524751294',
+        'https://img.scryfall.com/cards/normal/front/d/8/d82c583f-3d2b-4c7f-a6f4-97da150423b4.jpg?1555040386',
        large:
-        'https://img.scryfall.com/cards/large/en/rix/96.jpg?1524751294',
+        'https://img.scryfall.com/cards/large/front/d/8/d82c583f-3d2b-4c7f-a6f4-97da150423b4.jpg?1555040386',
        png:
-        'https://img.scryfall.com/cards/png/en/rix/96.png?1524751294',
+        'https://img.scryfall.com/cards/png/front/d/8/d82c583f-3d2b-4c7f-a6f4-97da150423b4.png?1555040386',
        art_crop:
-        'https://img.scryfall.com/cards/art_crop/en/rix/96.jpg?1524751294',
+        'https://img.scryfall.com/cards/art_crop/front/d/8/d82c583f-3d2b-4c7f-a6f4-97da150423b4.jpg?1555040386',
        border_crop:
-        'https://img.scryfall.com/cards/border_crop/en/rix/96.jpg?1524751294' },
+        'https://img.scryfall.com/cards/border_crop/front/d/8/d82c583f-3d2b-4c7f-a6f4-97da150423b4.jpg?1555040386' },
     mana_cost: '{1}{R}',
     cmc: 2,
     type_line: 'Instant',
@@ -10099,10 +9997,9 @@ module.exports = [ { object: 'card',
     artist: 'Bram Sels',
     border_color: 'black',
     frame: '2015',
-    frame_effect: '',
     full_art: false,
     story_spotlight: false,
-    edhrec_rank: 8413,
+    edhrec_rank: 9114,
     related_uris:
      { gatherer:
         'http://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=439753',
@@ -10130,17 +10027,17 @@ module.exports = [ { object: 'card',
     highres_image: true,
     image_uris:
      { small:
-        'https://img.scryfall.com/cards/small/en/rix/95.jpg?1524751283',
+        'https://img.scryfall.com/cards/small/front/a/e/aeb3d3b6-6805-4476-aea1-a95c31bd21d7.jpg?1555040380',
        normal:
-        'https://img.scryfall.com/cards/normal/en/rix/95.jpg?1524751283',
+        'https://img.scryfall.com/cards/normal/front/a/e/aeb3d3b6-6805-4476-aea1-a95c31bd21d7.jpg?1555040380',
        large:
-        'https://img.scryfall.com/cards/large/en/rix/95.jpg?1524751283',
+        'https://img.scryfall.com/cards/large/front/a/e/aeb3d3b6-6805-4476-aea1-a95c31bd21d7.jpg?1555040380',
        png:
-        'https://img.scryfall.com/cards/png/en/rix/95.png?1524751283',
+        'https://img.scryfall.com/cards/png/front/a/e/aeb3d3b6-6805-4476-aea1-a95c31bd21d7.png?1555040380',
        art_crop:
-        'https://img.scryfall.com/cards/art_crop/en/rix/95.jpg?1524751283',
+        'https://img.scryfall.com/cards/art_crop/front/a/e/aeb3d3b6-6805-4476-aea1-a95c31bd21d7.jpg?1555040380',
        border_crop:
-        'https://img.scryfall.com/cards/border_crop/en/rix/95.jpg?1524751283' },
+        'https://img.scryfall.com/cards/border_crop/front/a/e/aeb3d3b6-6805-4476-aea1-a95c31bd21d7.jpg?1555040380' },
     mana_cost: '{3}{R}',
     cmc: 4,
     type_line: 'Creature — Human Pirate',
@@ -10159,12 +10056,12 @@ module.exports = [ { object: 'card',
          uri:
           'https://api.scryfall.com/cards/aeb3d3b6-6805-4476-aea1-a95c31bd21d7' },
        { object: 'related_card',
-         id: '56f06ec6-634d-454b-a46a-dfefe4600d27',
+         id: '720f3e68-84c0-462e-a0d1-90236ccc494a',
          component: 'token',
          name: 'Treasure',
          type_line: 'Token Artifact — Treasure',
          uri:
-          'https://api.scryfall.com/cards/56f06ec6-634d-454b-a46a-dfefe4600d27' } ],
+          'https://api.scryfall.com/cards/720f3e68-84c0-462e-a0d1-90236ccc494a' } ],
     legalities:
      { standard: 'legal',
        future: 'legal',
@@ -10203,10 +10100,9 @@ module.exports = [ { object: 'card',
     artist: 'Randy Gallegos',
     border_color: 'black',
     frame: '2015',
-    frame_effect: '',
     full_art: false,
     story_spotlight: false,
-    edhrec_rank: 8858,
+    edhrec_rank: 8540,
     related_uris:
      { gatherer:
         'http://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=439752',
@@ -10234,17 +10130,17 @@ module.exports = [ { object: 'card',
     highres_image: true,
     image_uris:
      { small:
-        'https://img.scryfall.com/cards/small/en/rix/94.jpg?1524751258',
+        'https://img.scryfall.com/cards/small/front/1/3/13505866-6ce9-4d11-b3f3-fc2f09839b71.jpg?1555040374',
        normal:
-        'https://img.scryfall.com/cards/normal/en/rix/94.jpg?1524751258',
+        'https://img.scryfall.com/cards/normal/front/1/3/13505866-6ce9-4d11-b3f3-fc2f09839b71.jpg?1555040374',
        large:
-        'https://img.scryfall.com/cards/large/en/rix/94.jpg?1524751258',
+        'https://img.scryfall.com/cards/large/front/1/3/13505866-6ce9-4d11-b3f3-fc2f09839b71.jpg?1555040374',
        png:
-        'https://img.scryfall.com/cards/png/en/rix/94.png?1524751258',
+        'https://img.scryfall.com/cards/png/front/1/3/13505866-6ce9-4d11-b3f3-fc2f09839b71.png?1555040374',
        art_crop:
-        'https://img.scryfall.com/cards/art_crop/en/rix/94.jpg?1524751258',
+        'https://img.scryfall.com/cards/art_crop/front/1/3/13505866-6ce9-4d11-b3f3-fc2f09839b71.jpg?1555040374',
        border_crop:
-        'https://img.scryfall.com/cards/border_crop/en/rix/94.jpg?1524751258' },
+        'https://img.scryfall.com/cards/border_crop/front/1/3/13505866-6ce9-4d11-b3f3-fc2f09839b71.jpg?1555040374' },
     mana_cost: '{6}{R}',
     cmc: 7,
     type_line: 'Sorcery',
@@ -10261,12 +10157,12 @@ module.exports = [ { object: 'card',
          uri:
           'https://api.scryfall.com/cards/13505866-6ce9-4d11-b3f3-fc2f09839b71' },
        { object: 'related_card',
-         id: '56f06ec6-634d-454b-a46a-dfefe4600d27',
+         id: '720f3e68-84c0-462e-a0d1-90236ccc494a',
          component: 'token',
          name: 'Treasure',
          type_line: 'Token Artifact — Treasure',
          uri:
-          'https://api.scryfall.com/cards/56f06ec6-634d-454b-a46a-dfefe4600d27' } ],
+          'https://api.scryfall.com/cards/720f3e68-84c0-462e-a0d1-90236ccc494a' } ],
     legalities:
      { standard: 'legal',
        future: 'legal',
@@ -10306,10 +10202,9 @@ module.exports = [ { object: 'card',
     artist: 'Grzegorz Rutkowski',
     border_color: 'black',
     frame: '2015',
-    frame_effect: '',
     full_art: false,
     story_spotlight: false,
-    edhrec_rank: 1609,
+    edhrec_rank: 1639,
     related_uris:
      { gatherer:
         'http://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=439751',
@@ -10336,17 +10231,17 @@ module.exports = [ { object: 'card',
     highres_image: true,
     image_uris:
      { small:
-        'https://img.scryfall.com/cards/small/en/rix/93.jpg?1524751243',
+        'https://img.scryfall.com/cards/small/front/0/a/0a605abc-78e8-47ba-9022-0fad9006fd05.jpg?1555040368',
        normal:
-        'https://img.scryfall.com/cards/normal/en/rix/93.jpg?1524751243',
+        'https://img.scryfall.com/cards/normal/front/0/a/0a605abc-78e8-47ba-9022-0fad9006fd05.jpg?1555040368',
        large:
-        'https://img.scryfall.com/cards/large/en/rix/93.jpg?1524751243',
+        'https://img.scryfall.com/cards/large/front/0/a/0a605abc-78e8-47ba-9022-0fad9006fd05.jpg?1555040368',
        png:
-        'https://img.scryfall.com/cards/png/en/rix/93.png?1524751243',
+        'https://img.scryfall.com/cards/png/front/0/a/0a605abc-78e8-47ba-9022-0fad9006fd05.png?1555040368',
        art_crop:
-        'https://img.scryfall.com/cards/art_crop/en/rix/93.jpg?1524751243',
+        'https://img.scryfall.com/cards/art_crop/front/0/a/0a605abc-78e8-47ba-9022-0fad9006fd05.jpg?1555040368',
        border_crop:
-        'https://img.scryfall.com/cards/border_crop/en/rix/93.jpg?1524751243' },
+        'https://img.scryfall.com/cards/border_crop/front/0/a/0a605abc-78e8-47ba-9022-0fad9006fd05.jpg?1555040368' },
     mana_cost: '{2}{R}',
     cmc: 3,
     type_line: 'Instant',
@@ -10392,10 +10287,9 @@ module.exports = [ { object: 'card',
     artist: 'Alex Konstad',
     border_color: 'black',
     frame: '2015',
-    frame_effect: '',
     full_art: false,
     story_spotlight: false,
-    edhrec_rank: 8997,
+    edhrec_rank: 9384,
     related_uris:
      { gatherer:
         'http://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=439750',
@@ -10422,17 +10316,17 @@ module.exports = [ { object: 'card',
     highres_image: true,
     image_uris:
      { small:
-        'https://img.scryfall.com/cards/small/en/rix/92.jpg?1524751230',
+        'https://img.scryfall.com/cards/small/front/8/7/875832f4-e541-4c87-8479-731e0eab2cc6.jpg?1555040361',
        normal:
-        'https://img.scryfall.com/cards/normal/en/rix/92.jpg?1524751230',
+        'https://img.scryfall.com/cards/normal/front/8/7/875832f4-e541-4c87-8479-731e0eab2cc6.jpg?1555040361',
        large:
-        'https://img.scryfall.com/cards/large/en/rix/92.jpg?1524751230',
+        'https://img.scryfall.com/cards/large/front/8/7/875832f4-e541-4c87-8479-731e0eab2cc6.jpg?1555040361',
        png:
-        'https://img.scryfall.com/cards/png/en/rix/92.png?1524751230',
+        'https://img.scryfall.com/cards/png/front/8/7/875832f4-e541-4c87-8479-731e0eab2cc6.png?1555040361',
        art_crop:
-        'https://img.scryfall.com/cards/art_crop/en/rix/92.jpg?1524751230',
+        'https://img.scryfall.com/cards/art_crop/front/8/7/875832f4-e541-4c87-8479-731e0eab2cc6.jpg?1555040361',
        border_crop:
-        'https://img.scryfall.com/cards/border_crop/en/rix/92.jpg?1524751230' },
+        'https://img.scryfall.com/cards/border_crop/front/8/7/875832f4-e541-4c87-8479-731e0eab2cc6.jpg?1555040361' },
     mana_cost: '{2}{R}',
     cmc: 3,
     type_line: 'Enchantment',
@@ -10479,10 +10373,9 @@ module.exports = [ { object: 'card',
     artist: 'Emrah Elmasli',
     border_color: 'black',
     frame: '2015',
-    frame_effect: '',
     full_art: false,
     story_spotlight: false,
-    edhrec_rank: 3732,
+    edhrec_rank: 4127,
     related_uris:
      { gatherer:
         'http://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=439749',
@@ -10510,17 +10403,17 @@ module.exports = [ { object: 'card',
     highres_image: true,
     image_uris:
      { small:
-        'https://img.scryfall.com/cards/small/en/rix/91.jpg?1524751217',
+        'https://img.scryfall.com/cards/small/front/d/6/d66a9f1b-31c8-4557-888b-a927922d37af.jpg?1555040354',
        normal:
-        'https://img.scryfall.com/cards/normal/en/rix/91.jpg?1524751217',
+        'https://img.scryfall.com/cards/normal/front/d/6/d66a9f1b-31c8-4557-888b-a927922d37af.jpg?1555040354',
        large:
-        'https://img.scryfall.com/cards/large/en/rix/91.jpg?1524751217',
+        'https://img.scryfall.com/cards/large/front/d/6/d66a9f1b-31c8-4557-888b-a927922d37af.jpg?1555040354',
        png:
-        'https://img.scryfall.com/cards/png/en/rix/91.png?1524751217',
+        'https://img.scryfall.com/cards/png/front/d/6/d66a9f1b-31c8-4557-888b-a927922d37af.png?1555040354',
        art_crop:
-        'https://img.scryfall.com/cards/art_crop/en/rix/91.jpg?1524751217',
+        'https://img.scryfall.com/cards/art_crop/front/d/6/d66a9f1b-31c8-4557-888b-a927922d37af.jpg?1555040354',
        border_crop:
-        'https://img.scryfall.com/cards/border_crop/en/rix/91.jpg?1524751217' },
+        'https://img.scryfall.com/cards/border_crop/front/d/6/d66a9f1b-31c8-4557-888b-a927922d37af.jpg?1555040354' },
     mana_cost: '{2}{B}',
     cmc: 3,
     type_line: 'Creature — Vampire Knight',
@@ -10569,10 +10462,9 @@ module.exports = [ { object: 'card',
     artist: 'Kieran Yanner',
     border_color: 'black',
     frame: '2015',
-    frame_effect: '',
     full_art: false,
     story_spotlight: false,
-    edhrec_rank: 10224,
+    edhrec_rank: 10705,
     related_uris:
      { gatherer:
         'http://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=439748',
@@ -10600,17 +10492,17 @@ module.exports = [ { object: 'card',
     highres_image: true,
     image_uris:
      { small:
-        'https://img.scryfall.com/cards/small/en/rix/90.jpg?1524751208',
+        'https://img.scryfall.com/cards/small/front/a/a/aab958d5-9c1f-420f-b358-ec0325f22f84.jpg?1555040347',
        normal:
-        'https://img.scryfall.com/cards/normal/en/rix/90.jpg?1524751208',
+        'https://img.scryfall.com/cards/normal/front/a/a/aab958d5-9c1f-420f-b358-ec0325f22f84.jpg?1555040347',
        large:
-        'https://img.scryfall.com/cards/large/en/rix/90.jpg?1524751208',
+        'https://img.scryfall.com/cards/large/front/a/a/aab958d5-9c1f-420f-b358-ec0325f22f84.jpg?1555040347',
        png:
-        'https://img.scryfall.com/cards/png/en/rix/90.png?1524751208',
+        'https://img.scryfall.com/cards/png/front/a/a/aab958d5-9c1f-420f-b358-ec0325f22f84.png?1555040347',
        art_crop:
-        'https://img.scryfall.com/cards/art_crop/en/rix/90.jpg?1524751208',
+        'https://img.scryfall.com/cards/art_crop/front/a/a/aab958d5-9c1f-420f-b358-ec0325f22f84.jpg?1555040347',
        border_crop:
-        'https://img.scryfall.com/cards/border_crop/en/rix/90.jpg?1524751208' },
+        'https://img.scryfall.com/cards/border_crop/front/a/a/aab958d5-9c1f-420f-b358-ec0325f22f84.jpg?1555040347' },
     mana_cost: '{2}{B}',
     cmc: 3,
     type_line: 'Instant',
@@ -10655,10 +10547,9 @@ module.exports = [ { object: 'card',
     artist: 'Zack Stella',
     border_color: 'black',
     frame: '2015',
-    frame_effect: '',
     full_art: false,
     story_spotlight: false,
-    edhrec_rank: 1545,
+    edhrec_rank: 1673,
     related_uris:
      { gatherer:
         'http://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=439747',
@@ -10686,17 +10577,17 @@ module.exports = [ { object: 'card',
     highres_image: true,
     image_uris:
      { small:
-        'https://img.scryfall.com/cards/small/en/rix/89.jpg?1524751188',
+        'https://img.scryfall.com/cards/small/front/2/b/2bd3a6c6-33b8-4530-9d80-c488898afd6e.jpg?1555040340',
        normal:
-        'https://img.scryfall.com/cards/normal/en/rix/89.jpg?1524751188',
+        'https://img.scryfall.com/cards/normal/front/2/b/2bd3a6c6-33b8-4530-9d80-c488898afd6e.jpg?1555040340',
        large:
-        'https://img.scryfall.com/cards/large/en/rix/89.jpg?1524751188',
+        'https://img.scryfall.com/cards/large/front/2/b/2bd3a6c6-33b8-4530-9d80-c488898afd6e.jpg?1555040340',
        png:
-        'https://img.scryfall.com/cards/png/en/rix/89.png?1524751188',
+        'https://img.scryfall.com/cards/png/front/2/b/2bd3a6c6-33b8-4530-9d80-c488898afd6e.png?1555040340',
        art_crop:
-        'https://img.scryfall.com/cards/art_crop/en/rix/89.jpg?1524751188',
+        'https://img.scryfall.com/cards/art_crop/front/2/b/2bd3a6c6-33b8-4530-9d80-c488898afd6e.jpg?1555040340',
        border_crop:
-        'https://img.scryfall.com/cards/border_crop/en/rix/89.jpg?1524751188' },
+        'https://img.scryfall.com/cards/border_crop/front/2/b/2bd3a6c6-33b8-4530-9d80-c488898afd6e.jpg?1555040340' },
     mana_cost: '{3}{B}',
     cmc: 4,
     type_line: 'Creature — Vampire Spirit',
@@ -10744,10 +10635,9 @@ module.exports = [ { object: 'card',
     artist: 'Nils Hamm',
     border_color: 'black',
     frame: '2015',
-    frame_effect: '',
     full_art: false,
     story_spotlight: false,
-    edhrec_rank: 14099,
+    edhrec_rank: 14710,
     related_uris:
      { gatherer:
         'http://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=439746',
@@ -10775,17 +10665,17 @@ module.exports = [ { object: 'card',
     highres_image: true,
     image_uris:
      { small:
-        'https://img.scryfall.com/cards/small/en/rix/88.jpg?1524751176',
+        'https://img.scryfall.com/cards/small/front/9/d/9da6974f-6753-48ac-98cd-86412cc93726.jpg?1555040334',
        normal:
-        'https://img.scryfall.com/cards/normal/en/rix/88.jpg?1524751176',
+        'https://img.scryfall.com/cards/normal/front/9/d/9da6974f-6753-48ac-98cd-86412cc93726.jpg?1555040334',
        large:
-        'https://img.scryfall.com/cards/large/en/rix/88.jpg?1524751176',
+        'https://img.scryfall.com/cards/large/front/9/d/9da6974f-6753-48ac-98cd-86412cc93726.jpg?1555040334',
        png:
-        'https://img.scryfall.com/cards/png/en/rix/88.png?1524751176',
+        'https://img.scryfall.com/cards/png/front/9/d/9da6974f-6753-48ac-98cd-86412cc93726.png?1555040334',
        art_crop:
-        'https://img.scryfall.com/cards/art_crop/en/rix/88.jpg?1524751176',
+        'https://img.scryfall.com/cards/art_crop/front/9/d/9da6974f-6753-48ac-98cd-86412cc93726.jpg?1555040334',
        border_crop:
-        'https://img.scryfall.com/cards/border_crop/en/rix/88.jpg?1524751176' },
+        'https://img.scryfall.com/cards/border_crop/front/9/d/9da6974f-6753-48ac-98cd-86412cc93726.jpg?1555040334' },
     mana_cost: '{2}{B}{B}',
     cmc: 4,
     type_line: 'Creature — Vampire Cleric',
@@ -10832,10 +10722,9 @@ module.exports = [ { object: 'card',
     artist: 'Seb McKinnon',
     border_color: 'black',
     frame: '2015',
-    frame_effect: '',
     full_art: false,
     story_spotlight: false,
-    edhrec_rank: 707,
+    edhrec_rank: 774,
     related_uris:
      { gatherer:
         'http://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=439745',
@@ -10863,17 +10752,17 @@ module.exports = [ { object: 'card',
     highres_image: true,
     image_uris:
      { small:
-        'https://img.scryfall.com/cards/small/en/rix/87.jpg?1524751167',
+        'https://img.scryfall.com/cards/small/front/6/8/68132a28-b33b-48cb-acf8-42245312934e.jpg?1555040328',
        normal:
-        'https://img.scryfall.com/cards/normal/en/rix/87.jpg?1524751167',
+        'https://img.scryfall.com/cards/normal/front/6/8/68132a28-b33b-48cb-acf8-42245312934e.jpg?1555040328',
        large:
-        'https://img.scryfall.com/cards/large/en/rix/87.jpg?1524751167',
+        'https://img.scryfall.com/cards/large/front/6/8/68132a28-b33b-48cb-acf8-42245312934e.jpg?1555040328',
        png:
-        'https://img.scryfall.com/cards/png/en/rix/87.png?1524751167',
+        'https://img.scryfall.com/cards/png/front/6/8/68132a28-b33b-48cb-acf8-42245312934e.png?1555040328',
        art_crop:
-        'https://img.scryfall.com/cards/art_crop/en/rix/87.jpg?1524751167',
+        'https://img.scryfall.com/cards/art_crop/front/6/8/68132a28-b33b-48cb-acf8-42245312934e.jpg?1555040328',
        border_crop:
-        'https://img.scryfall.com/cards/border_crop/en/rix/87.jpg?1524751167' },
+        'https://img.scryfall.com/cards/border_crop/front/6/8/68132a28-b33b-48cb-acf8-42245312934e.jpg?1555040328' },
     mana_cost: '{2}{B}',
     cmc: 3,
     type_line: 'Creature — Human Pirate',
@@ -10920,10 +10809,9 @@ module.exports = [ { object: 'card',
     artist: 'Xi Zhang',
     border_color: 'black',
     frame: '2015',
-    frame_effect: '',
     full_art: false,
     story_spotlight: false,
-    edhrec_rank: 6081,
+    edhrec_rank: 6528,
     related_uris:
      { gatherer:
         'http://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=439744',
@@ -10951,17 +10839,17 @@ module.exports = [ { object: 'card',
     highres_image: true,
     image_uris:
      { small:
-        'https://img.scryfall.com/cards/small/en/rix/86.jpg?1524751148',
+        'https://img.scryfall.com/cards/small/front/c/6/c6a0b40e-7a43-4722-b787-a5d7ec6453ac.jpg?1555040321',
        normal:
-        'https://img.scryfall.com/cards/normal/en/rix/86.jpg?1524751148',
+        'https://img.scryfall.com/cards/normal/front/c/6/c6a0b40e-7a43-4722-b787-a5d7ec6453ac.jpg?1555040321',
        large:
-        'https://img.scryfall.com/cards/large/en/rix/86.jpg?1524751148',
+        'https://img.scryfall.com/cards/large/front/c/6/c6a0b40e-7a43-4722-b787-a5d7ec6453ac.jpg?1555040321',
        png:
-        'https://img.scryfall.com/cards/png/en/rix/86.png?1524751148',
+        'https://img.scryfall.com/cards/png/front/c/6/c6a0b40e-7a43-4722-b787-a5d7ec6453ac.png?1555040321',
        art_crop:
-        'https://img.scryfall.com/cards/art_crop/en/rix/86.jpg?1524751148',
+        'https://img.scryfall.com/cards/art_crop/front/c/6/c6a0b40e-7a43-4722-b787-a5d7ec6453ac.jpg?1555040321',
        border_crop:
-        'https://img.scryfall.com/cards/border_crop/en/rix/86.jpg?1524751148' },
+        'https://img.scryfall.com/cards/border_crop/front/c/6/c6a0b40e-7a43-4722-b787-a5d7ec6453ac.jpg?1555040321' },
     mana_cost: '{4}{B}{B}',
     cmc: 6,
     type_line: 'Legendary Creature — Elder Dinosaur',
@@ -11008,10 +10896,9 @@ module.exports = [ { object: 'card',
     artist: 'Zack Stella',
     border_color: 'black',
     frame: '2015',
-    frame_effect: '',
     full_art: false,
     story_spotlight: false,
-    edhrec_rank: 5454,
+    edhrec_rank: 5696,
     related_uris:
      { gatherer:
         'http://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=439743',
@@ -11039,17 +10926,17 @@ module.exports = [ { object: 'card',
     highres_image: true,
     image_uris:
      { small:
-        'https://img.scryfall.com/cards/small/en/rix/85.jpg?1524751138',
+        'https://img.scryfall.com/cards/small/front/1/3/1334ee90-c798-42ec-b2be-68dac766a7eb.jpg?1555040314',
        normal:
-        'https://img.scryfall.com/cards/normal/en/rix/85.jpg?1524751138',
+        'https://img.scryfall.com/cards/normal/front/1/3/1334ee90-c798-42ec-b2be-68dac766a7eb.jpg?1555040314',
        large:
-        'https://img.scryfall.com/cards/large/en/rix/85.jpg?1524751138',
+        'https://img.scryfall.com/cards/large/front/1/3/1334ee90-c798-42ec-b2be-68dac766a7eb.jpg?1555040314',
        png:
-        'https://img.scryfall.com/cards/png/en/rix/85.png?1524751138',
+        'https://img.scryfall.com/cards/png/front/1/3/1334ee90-c798-42ec-b2be-68dac766a7eb.png?1555040314',
        art_crop:
-        'https://img.scryfall.com/cards/art_crop/en/rix/85.jpg?1524751138',
+        'https://img.scryfall.com/cards/art_crop/front/1/3/1334ee90-c798-42ec-b2be-68dac766a7eb.jpg?1555040314',
        border_crop:
-        'https://img.scryfall.com/cards/border_crop/en/rix/85.jpg?1524751138' },
+        'https://img.scryfall.com/cards/border_crop/front/1/3/1334ee90-c798-42ec-b2be-68dac766a7eb.jpg?1555040314' },
     mana_cost: '{2}{B}',
     cmc: 3,
     type_line: 'Creature — Vampire Soldier',
@@ -11098,10 +10985,9 @@ module.exports = [ { object: 'card',
     artist: 'Seb McKinnon',
     border_color: 'black',
     frame: '2015',
-    frame_effect: '',
     full_art: false,
     story_spotlight: false,
-    edhrec_rank: 7708,
+    edhrec_rank: 8166,
     related_uris:
      { gatherer:
         'http://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=439742',
@@ -11128,17 +11014,17 @@ module.exports = [ { object: 'card',
     highres_image: true,
     image_uris:
      { small:
-        'https://img.scryfall.com/cards/small/en/rix/84.jpg?1524751129',
+        'https://img.scryfall.com/cards/small/front/f/2/f2f4e0a8-7af7-4422-a964-c19503692ba6.jpg?1555040307',
        normal:
-        'https://img.scryfall.com/cards/normal/en/rix/84.jpg?1524751129',
+        'https://img.scryfall.com/cards/normal/front/f/2/f2f4e0a8-7af7-4422-a964-c19503692ba6.jpg?1555040307',
        large:
-        'https://img.scryfall.com/cards/large/en/rix/84.jpg?1524751129',
+        'https://img.scryfall.com/cards/large/front/f/2/f2f4e0a8-7af7-4422-a964-c19503692ba6.jpg?1555040307',
        png:
-        'https://img.scryfall.com/cards/png/en/rix/84.png?1524751129',
+        'https://img.scryfall.com/cards/png/front/f/2/f2f4e0a8-7af7-4422-a964-c19503692ba6.png?1555040307',
        art_crop:
-        'https://img.scryfall.com/cards/art_crop/en/rix/84.jpg?1524751129',
+        'https://img.scryfall.com/cards/art_crop/front/f/2/f2f4e0a8-7af7-4422-a964-c19503692ba6.jpg?1555040307',
        border_crop:
-        'https://img.scryfall.com/cards/border_crop/en/rix/84.jpg?1524751129' },
+        'https://img.scryfall.com/cards/border_crop/front/f/2/f2f4e0a8-7af7-4422-a964-c19503692ba6.jpg?1555040307' },
     mana_cost: '{2}{B}',
     cmc: 3,
     type_line: 'Sorcery',
@@ -11185,10 +11071,9 @@ module.exports = [ { object: 'card',
     artist: 'Nils Hamm',
     border_color: 'black',
     frame: '2015',
-    frame_effect: '',
     full_art: false,
     story_spotlight: false,
-    edhrec_rank: 8127,
+    edhrec_rank: 8118,
     related_uris:
      { gatherer:
         'http://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=439741',
@@ -11216,17 +11101,17 @@ module.exports = [ { object: 'card',
     highres_image: true,
     image_uris:
      { small:
-        'https://img.scryfall.com/cards/small/en/rix/83.jpg?1524751119',
+        'https://img.scryfall.com/cards/small/front/f/c/fceaac2f-b26c-4da9-bf4f-c7672394dd7f.jpg?1555040298',
        normal:
-        'https://img.scryfall.com/cards/normal/en/rix/83.jpg?1524751119',
+        'https://img.scryfall.com/cards/normal/front/f/c/fceaac2f-b26c-4da9-bf4f-c7672394dd7f.jpg?1555040298',
        large:
-        'https://img.scryfall.com/cards/large/en/rix/83.jpg?1524751119',
+        'https://img.scryfall.com/cards/large/front/f/c/fceaac2f-b26c-4da9-bf4f-c7672394dd7f.jpg?1555040298',
        png:
-        'https://img.scryfall.com/cards/png/en/rix/83.png?1524751119',
+        'https://img.scryfall.com/cards/png/front/f/c/fceaac2f-b26c-4da9-bf4f-c7672394dd7f.png?1555040298',
        art_crop:
-        'https://img.scryfall.com/cards/art_crop/en/rix/83.jpg?1524751119',
+        'https://img.scryfall.com/cards/art_crop/front/f/c/fceaac2f-b26c-4da9-bf4f-c7672394dd7f.jpg?1555040298',
        border_crop:
-        'https://img.scryfall.com/cards/border_crop/en/rix/83.jpg?1524751119' },
+        'https://img.scryfall.com/cards/border_crop/front/f/c/fceaac2f-b26c-4da9-bf4f-c7672394dd7f.jpg?1555040298' },
     mana_cost: '{2}{B}',
     cmc: 3,
     type_line: 'Instant',
@@ -11272,10 +11157,9 @@ module.exports = [ { object: 'card',
     artist: 'Sidharth Chaturvedi',
     border_color: 'black',
     frame: '2015',
-    frame_effect: '',
     full_art: false,
     story_spotlight: false,
-    edhrec_rank: 12690,
+    edhrec_rank: 13085,
     related_uris:
      { gatherer:
         'http://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=439740',
@@ -11303,17 +11187,17 @@ module.exports = [ { object: 'card',
     highres_image: true,
     image_uris:
      { small:
-        'https://img.scryfall.com/cards/small/en/rix/82.jpg?1524751108',
+        'https://img.scryfall.com/cards/small/front/0/2/02551196-ecea-472f-9547-3c9658d0489e.jpg?1555040291',
        normal:
-        'https://img.scryfall.com/cards/normal/en/rix/82.jpg?1524751108',
+        'https://img.scryfall.com/cards/normal/front/0/2/02551196-ecea-472f-9547-3c9658d0489e.jpg?1555040291',
        large:
-        'https://img.scryfall.com/cards/large/en/rix/82.jpg?1524751108',
+        'https://img.scryfall.com/cards/large/front/0/2/02551196-ecea-472f-9547-3c9658d0489e.jpg?1555040291',
        png:
-        'https://img.scryfall.com/cards/png/en/rix/82.png?1524751108',
+        'https://img.scryfall.com/cards/png/front/0/2/02551196-ecea-472f-9547-3c9658d0489e.png?1555040291',
        art_crop:
-        'https://img.scryfall.com/cards/art_crop/en/rix/82.jpg?1524751108',
+        'https://img.scryfall.com/cards/art_crop/front/0/2/02551196-ecea-472f-9547-3c9658d0489e.jpg?1555040291',
        border_crop:
-        'https://img.scryfall.com/cards/border_crop/en/rix/82.jpg?1524751108' },
+        'https://img.scryfall.com/cards/border_crop/front/0/2/02551196-ecea-472f-9547-3c9658d0489e.jpg?1555040291' },
     mana_cost: '{2}{B}{B}',
     cmc: 4,
     type_line: 'Creature — Beast Horror',
@@ -11362,10 +11246,9 @@ module.exports = [ { object: 'card',
     artist: 'Daarken',
     border_color: 'black',
     frame: '2015',
-    frame_effect: '',
     full_art: false,
     story_spotlight: false,
-    edhrec_rank: 374,
+    edhrec_rank: 387,
     related_uris:
      { gatherer:
         'http://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=439739',
@@ -11393,17 +11276,17 @@ module.exports = [ { object: 'card',
     highres_image: true,
     image_uris:
      { small:
-        'https://img.scryfall.com/cards/small/en/rix/81.jpg?1524751092',
+        'https://img.scryfall.com/cards/small/front/c/8/c87ebffe-5907-427b-9f9b-7c36a12b4a03.jpg?1555040284',
        normal:
-        'https://img.scryfall.com/cards/normal/en/rix/81.jpg?1524751092',
+        'https://img.scryfall.com/cards/normal/front/c/8/c87ebffe-5907-427b-9f9b-7c36a12b4a03.jpg?1555040284',
        large:
-        'https://img.scryfall.com/cards/large/en/rix/81.jpg?1524751092',
+        'https://img.scryfall.com/cards/large/front/c/8/c87ebffe-5907-427b-9f9b-7c36a12b4a03.jpg?1555040284',
        png:
-        'https://img.scryfall.com/cards/png/en/rix/81.png?1524751092',
+        'https://img.scryfall.com/cards/png/front/c/8/c87ebffe-5907-427b-9f9b-7c36a12b4a03.png?1555040284',
        art_crop:
-        'https://img.scryfall.com/cards/art_crop/en/rix/81.jpg?1524751092',
+        'https://img.scryfall.com/cards/art_crop/front/c/8/c87ebffe-5907-427b-9f9b-7c36a12b4a03.jpg?1555040284',
        border_crop:
-        'https://img.scryfall.com/cards/border_crop/en/rix/81.jpg?1524751092' },
+        'https://img.scryfall.com/cards/border_crop/front/c/8/c87ebffe-5907-427b-9f9b-7c36a12b4a03.jpg?1555040284' },
     mana_cost: '{3}{B}',
     cmc: 4,
     type_line: 'Creature — Human Pirate',
@@ -11422,12 +11305,12 @@ module.exports = [ { object: 'card',
          uri:
           'https://api.scryfall.com/cards/c87ebffe-5907-427b-9f9b-7c36a12b4a03' },
        { object: 'related_card',
-         id: '56f06ec6-634d-454b-a46a-dfefe4600d27',
+         id: '720f3e68-84c0-462e-a0d1-90236ccc494a',
          component: 'token',
          name: 'Treasure',
          type_line: 'Token Artifact — Treasure',
          uri:
-          'https://api.scryfall.com/cards/56f06ec6-634d-454b-a46a-dfefe4600d27' } ],
+          'https://api.scryfall.com/cards/720f3e68-84c0-462e-a0d1-90236ccc494a' } ],
     legalities:
      { standard: 'legal',
        future: 'legal',
@@ -11466,10 +11349,9 @@ module.exports = [ { object: 'card',
     artist: 'David Palumbo',
     border_color: 'black',
     frame: '2015',
-    frame_effect: '',
     full_art: false,
     story_spotlight: false,
-    edhrec_rank: 704,
+    edhrec_rank: 625,
     related_uris:
      { gatherer:
         'http://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=439738',
@@ -11497,17 +11379,17 @@ module.exports = [ { object: 'card',
     highres_image: true,
     image_uris:
      { small:
-        'https://img.scryfall.com/cards/small/en/rix/80.jpg?1524751077',
+        'https://img.scryfall.com/cards/small/front/4/0/405f82d6-2991-4958-a563-572f0d298346.jpg?1555040278',
        normal:
-        'https://img.scryfall.com/cards/normal/en/rix/80.jpg?1524751077',
+        'https://img.scryfall.com/cards/normal/front/4/0/405f82d6-2991-4958-a563-572f0d298346.jpg?1555040278',
        large:
-        'https://img.scryfall.com/cards/large/en/rix/80.jpg?1524751077',
+        'https://img.scryfall.com/cards/large/front/4/0/405f82d6-2991-4958-a563-572f0d298346.jpg?1555040278',
        png:
-        'https://img.scryfall.com/cards/png/en/rix/80.png?1524751077',
+        'https://img.scryfall.com/cards/png/front/4/0/405f82d6-2991-4958-a563-572f0d298346.png?1555040278',
        art_crop:
-        'https://img.scryfall.com/cards/art_crop/en/rix/80.jpg?1524751077',
+        'https://img.scryfall.com/cards/art_crop/front/4/0/405f82d6-2991-4958-a563-572f0d298346.jpg?1555040278',
        border_crop:
-        'https://img.scryfall.com/cards/border_crop/en/rix/80.jpg?1524751077' },
+        'https://img.scryfall.com/cards/border_crop/front/4/0/405f82d6-2991-4958-a563-572f0d298346.jpg?1555040278' },
     mana_cost: '{1}{B}',
     cmc: 2,
     type_line: 'Creature — Vampire Knight',
@@ -11556,10 +11438,9 @@ module.exports = [ { object: 'card',
     artist: 'Greg Opalinski',
     border_color: 'black',
     frame: '2015',
-    frame_effect: '',
     full_art: false,
     story_spotlight: false,
-    edhrec_rank: 4543,
+    edhrec_rank: 4646,
     related_uris:
      { gatherer:
         'http://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=439737',
@@ -11587,17 +11468,17 @@ module.exports = [ { object: 'card',
     highres_image: true,
     image_uris:
      { small:
-        'https://img.scryfall.com/cards/small/en/rix/79.jpg?1524751048',
+        'https://img.scryfall.com/cards/small/front/c/0/c0e3ea55-162d-4466-ba4e-b938a0845fb5.jpg?1555040271',
        normal:
-        'https://img.scryfall.com/cards/normal/en/rix/79.jpg?1524751048',
+        'https://img.scryfall.com/cards/normal/front/c/0/c0e3ea55-162d-4466-ba4e-b938a0845fb5.jpg?1555040271',
        large:
-        'https://img.scryfall.com/cards/large/en/rix/79.jpg?1524751048',
+        'https://img.scryfall.com/cards/large/front/c/0/c0e3ea55-162d-4466-ba4e-b938a0845fb5.jpg?1555040271',
        png:
-        'https://img.scryfall.com/cards/png/en/rix/79.png?1524751048',
+        'https://img.scryfall.com/cards/png/front/c/0/c0e3ea55-162d-4466-ba4e-b938a0845fb5.png?1555040271',
        art_crop:
-        'https://img.scryfall.com/cards/art_crop/en/rix/79.jpg?1524751048',
+        'https://img.scryfall.com/cards/art_crop/front/c/0/c0e3ea55-162d-4466-ba4e-b938a0845fb5.jpg?1555040271',
        border_crop:
-        'https://img.scryfall.com/cards/border_crop/en/rix/79.jpg?1524751048' },
+        'https://img.scryfall.com/cards/border_crop/front/c/0/c0e3ea55-162d-4466-ba4e-b938a0845fb5.jpg?1555040271' },
     mana_cost: '{1}{B}',
     cmc: 2,
     type_line: 'Instant',
@@ -11644,10 +11525,9 @@ module.exports = [ { object: 'card',
     artist: 'Steven Belledin',
     border_color: 'black',
     frame: '2015',
-    frame_effect: '',
     full_art: false,
     story_spotlight: false,
-    edhrec_rank: 8859,
+    edhrec_rank: 9474,
     related_uris:
      { gatherer:
         'http://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=439736',
@@ -11675,17 +11555,17 @@ module.exports = [ { object: 'card',
     highres_image: true,
     image_uris:
      { small:
-        'https://img.scryfall.com/cards/small/en/rix/78.jpg?1524751031',
+        'https://img.scryfall.com/cards/small/front/5/4/54b40f3c-d75e-483f-b978-8b3bf30cc7ce.jpg?1555040265',
        normal:
-        'https://img.scryfall.com/cards/normal/en/rix/78.jpg?1524751031',
+        'https://img.scryfall.com/cards/normal/front/5/4/54b40f3c-d75e-483f-b978-8b3bf30cc7ce.jpg?1555040265',
        large:
-        'https://img.scryfall.com/cards/large/en/rix/78.jpg?1524751031',
+        'https://img.scryfall.com/cards/large/front/5/4/54b40f3c-d75e-483f-b978-8b3bf30cc7ce.jpg?1555040265',
        png:
-        'https://img.scryfall.com/cards/png/en/rix/78.png?1524751031',
+        'https://img.scryfall.com/cards/png/front/5/4/54b40f3c-d75e-483f-b978-8b3bf30cc7ce.png?1555040265',
        art_crop:
-        'https://img.scryfall.com/cards/art_crop/en/rix/78.jpg?1524751031',
+        'https://img.scryfall.com/cards/art_crop/front/5/4/54b40f3c-d75e-483f-b978-8b3bf30cc7ce.jpg?1555040265',
        border_crop:
-        'https://img.scryfall.com/cards/border_crop/en/rix/78.jpg?1524751031' },
+        'https://img.scryfall.com/cards/border_crop/front/5/4/54b40f3c-d75e-483f-b978-8b3bf30cc7ce.jpg?1555040265' },
     mana_cost: '{4}{B}',
     cmc: 5,
     type_line: 'Creature — Harpy',
@@ -11732,10 +11612,9 @@ module.exports = [ { object: 'card',
     artist: 'Randy Vargas',
     border_color: 'black',
     frame: '2015',
-    frame_effect: '',
     full_art: false,
     story_spotlight: false,
-    edhrec_rank: 12689,
+    edhrec_rank: 12944,
     related_uris:
      { gatherer:
         'http://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=439735',
@@ -11763,17 +11642,17 @@ module.exports = [ { object: 'card',
     highres_image: true,
     image_uris:
      { small:
-        'https://img.scryfall.com/cards/small/en/rix/77.jpg?1524751018',
+        'https://img.scryfall.com/cards/small/front/2/f/2f00f09b-a113-460e-ac2f-d3988a83179e.jpg?1555040258',
        normal:
-        'https://img.scryfall.com/cards/normal/en/rix/77.jpg?1524751018',
+        'https://img.scryfall.com/cards/normal/front/2/f/2f00f09b-a113-460e-ac2f-d3988a83179e.jpg?1555040258',
        large:
-        'https://img.scryfall.com/cards/large/en/rix/77.jpg?1524751018',
+        'https://img.scryfall.com/cards/large/front/2/f/2f00f09b-a113-460e-ac2f-d3988a83179e.jpg?1555040258',
        png:
-        'https://img.scryfall.com/cards/png/en/rix/77.png?1524751018',
+        'https://img.scryfall.com/cards/png/front/2/f/2f00f09b-a113-460e-ac2f-d3988a83179e.png?1555040258',
        art_crop:
-        'https://img.scryfall.com/cards/art_crop/en/rix/77.jpg?1524751018',
+        'https://img.scryfall.com/cards/art_crop/front/2/f/2f00f09b-a113-460e-ac2f-d3988a83179e.jpg?1555040258',
        border_crop:
-        'https://img.scryfall.com/cards/border_crop/en/rix/77.jpg?1524751018' },
+        'https://img.scryfall.com/cards/border_crop/front/2/f/2f00f09b-a113-460e-ac2f-d3988a83179e.jpg?1555040258' },
     mana_cost: '{2}{B}{B}',
     cmc: 4,
     type_line: 'Sorcery',
@@ -11820,10 +11699,9 @@ module.exports = [ { object: 'card',
     artist: 'Svetlin Velinov',
     border_color: 'black',
     frame: '2015',
-    frame_effect: '',
     full_art: false,
     story_spotlight: true,
-    edhrec_rank: 1256,
+    edhrec_rank: 1339,
     related_uris:
      { gatherer:
         'http://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=439734',
@@ -11850,17 +11728,17 @@ module.exports = [ { object: 'card',
     highres_image: true,
     image_uris:
      { small:
-        'https://img.scryfall.com/cards/small/en/rix/76.jpg?1524751009',
+        'https://img.scryfall.com/cards/small/front/d/f/dfa0c4f7-3497-467d-9453-104fb4b5a0f3.jpg?1555040252',
        normal:
-        'https://img.scryfall.com/cards/normal/en/rix/76.jpg?1524751009',
+        'https://img.scryfall.com/cards/normal/front/d/f/dfa0c4f7-3497-467d-9453-104fb4b5a0f3.jpg?1555040252',
        large:
-        'https://img.scryfall.com/cards/large/en/rix/76.jpg?1524751009',
+        'https://img.scryfall.com/cards/large/front/d/f/dfa0c4f7-3497-467d-9453-104fb4b5a0f3.jpg?1555040252',
        png:
-        'https://img.scryfall.com/cards/png/en/rix/76.png?1524751009',
+        'https://img.scryfall.com/cards/png/front/d/f/dfa0c4f7-3497-467d-9453-104fb4b5a0f3.png?1555040252',
        art_crop:
-        'https://img.scryfall.com/cards/art_crop/en/rix/76.jpg?1524751009',
+        'https://img.scryfall.com/cards/art_crop/front/d/f/dfa0c4f7-3497-467d-9453-104fb4b5a0f3.jpg?1555040252',
        border_crop:
-        'https://img.scryfall.com/cards/border_crop/en/rix/76.jpg?1524751009' },
+        'https://img.scryfall.com/cards/border_crop/front/d/f/dfa0c4f7-3497-467d-9453-104fb4b5a0f3.jpg?1555040252' },
     mana_cost: '{2}{B}{B}',
     cmc: 4,
     type_line: 'Sorcery',
@@ -11906,10 +11784,9 @@ module.exports = [ { object: 'card',
     artist: 'Josh Hass',
     border_color: 'black',
     frame: '2015',
-    frame_effect: '',
     full_art: false,
     story_spotlight: false,
-    edhrec_rank: 8248,
+    edhrec_rank: 8432,
     related_uris:
      { gatherer:
         'http://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=439733',
@@ -11937,17 +11814,17 @@ module.exports = [ { object: 'card',
     highres_image: true,
     image_uris:
      { small:
-        'https://img.scryfall.com/cards/small/en/rix/75.jpg?1524750999',
+        'https://img.scryfall.com/cards/small/front/3/e/3ea07116-afe7-4d88-a530-54424e791b74.jpg?1555040243',
        normal:
-        'https://img.scryfall.com/cards/normal/en/rix/75.jpg?1524750999',
+        'https://img.scryfall.com/cards/normal/front/3/e/3ea07116-afe7-4d88-a530-54424e791b74.jpg?1555040243',
        large:
-        'https://img.scryfall.com/cards/large/en/rix/75.jpg?1524750999',
+        'https://img.scryfall.com/cards/large/front/3/e/3ea07116-afe7-4d88-a530-54424e791b74.jpg?1555040243',
        png:
-        'https://img.scryfall.com/cards/png/en/rix/75.png?1524750999',
+        'https://img.scryfall.com/cards/png/front/3/e/3ea07116-afe7-4d88-a530-54424e791b74.png?1555040243',
        art_crop:
-        'https://img.scryfall.com/cards/art_crop/en/rix/75.jpg?1524750999',
+        'https://img.scryfall.com/cards/art_crop/front/3/e/3ea07116-afe7-4d88-a530-54424e791b74.jpg?1555040243',
        border_crop:
-        'https://img.scryfall.com/cards/border_crop/en/rix/75.jpg?1524750999' },
+        'https://img.scryfall.com/cards/border_crop/front/3/e/3ea07116-afe7-4d88-a530-54424e791b74.jpg?1555040243' },
     mana_cost: '{2}{B}',
     cmc: 3,
     type_line: 'Sorcery',
@@ -11993,10 +11870,9 @@ module.exports = [ { object: 'card',
     artist: 'Even Amundsen',
     border_color: 'black',
     frame: '2015',
-    frame_effect: '',
     full_art: false,
     story_spotlight: false,
-    edhrec_rank: 4542,
+    edhrec_rank: 4547,
     related_uris:
      { gatherer:
         'http://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=439732',
@@ -12024,17 +11900,17 @@ module.exports = [ { object: 'card',
     highres_image: true,
     image_uris:
      { small:
-        'https://img.scryfall.com/cards/small/en/rix/74.jpg?1524750981',
+        'https://img.scryfall.com/cards/small/front/8/f/8f6da2e7-4cf0-49ae-b0ba-3b994ff21587.jpg?1555040237',
        normal:
-        'https://img.scryfall.com/cards/normal/en/rix/74.jpg?1524750981',
+        'https://img.scryfall.com/cards/normal/front/8/f/8f6da2e7-4cf0-49ae-b0ba-3b994ff21587.jpg?1555040237',
        large:
-        'https://img.scryfall.com/cards/large/en/rix/74.jpg?1524750981',
+        'https://img.scryfall.com/cards/large/front/8/f/8f6da2e7-4cf0-49ae-b0ba-3b994ff21587.jpg?1555040237',
        png:
-        'https://img.scryfall.com/cards/png/en/rix/74.png?1524750981',
+        'https://img.scryfall.com/cards/png/front/8/f/8f6da2e7-4cf0-49ae-b0ba-3b994ff21587.png?1555040237',
        art_crop:
-        'https://img.scryfall.com/cards/art_crop/en/rix/74.jpg?1524750981',
+        'https://img.scryfall.com/cards/art_crop/front/8/f/8f6da2e7-4cf0-49ae-b0ba-3b994ff21587.jpg?1555040237',
        border_crop:
-        'https://img.scryfall.com/cards/border_crop/en/rix/74.jpg?1524750981' },
+        'https://img.scryfall.com/cards/border_crop/front/8/f/8f6da2e7-4cf0-49ae-b0ba-3b994ff21587.jpg?1555040237' },
     mana_cost: '{B}',
     cmc: 1,
     type_line: 'Creature — Human Pirate',
@@ -12081,10 +11957,9 @@ module.exports = [ { object: 'card',
     artist: 'Steve Prescott',
     border_color: 'black',
     frame: '2015',
-    frame_effect: '',
     full_art: false,
     story_spotlight: false,
-    edhrec_rank: 10302,
+    edhrec_rank: 10782,
     related_uris:
      { gatherer:
         'http://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=439731',
@@ -12112,17 +11987,17 @@ module.exports = [ { object: 'card',
     highres_image: true,
     image_uris:
      { small:
-        'https://img.scryfall.com/cards/small/en/rix/73.jpg?1524750962',
+        'https://img.scryfall.com/cards/small/front/8/8/88bb420a-8bf1-4504-b1b5-2d929be978be.jpg?1555040232',
        normal:
-        'https://img.scryfall.com/cards/normal/en/rix/73.jpg?1524750962',
+        'https://img.scryfall.com/cards/normal/front/8/8/88bb420a-8bf1-4504-b1b5-2d929be978be.jpg?1555040232',
        large:
-        'https://img.scryfall.com/cards/large/en/rix/73.jpg?1524750962',
+        'https://img.scryfall.com/cards/large/front/8/8/88bb420a-8bf1-4504-b1b5-2d929be978be.jpg?1555040232',
        png:
-        'https://img.scryfall.com/cards/png/en/rix/73.png?1524750962',
+        'https://img.scryfall.com/cards/png/front/8/8/88bb420a-8bf1-4504-b1b5-2d929be978be.png?1555040232',
        art_crop:
-        'https://img.scryfall.com/cards/art_crop/en/rix/73.jpg?1524750962',
+        'https://img.scryfall.com/cards/art_crop/front/8/8/88bb420a-8bf1-4504-b1b5-2d929be978be.jpg?1555040232',
        border_crop:
-        'https://img.scryfall.com/cards/border_crop/en/rix/73.jpg?1524750962' },
+        'https://img.scryfall.com/cards/border_crop/front/8/8/88bb420a-8bf1-4504-b1b5-2d929be978be.jpg?1555040232' },
     mana_cost: '{1}{B}{B}',
     cmc: 3,
     type_line: 'Sorcery',
@@ -12167,10 +12042,9 @@ module.exports = [ { object: 'card',
     artist: 'Deruchenko Alexander',
     border_color: 'black',
     frame: '2015',
-    frame_effect: '',
     full_art: false,
     story_spotlight: false,
-    edhrec_rank: 6922,
+    edhrec_rank: 7216,
     related_uris:
      { gatherer:
         'http://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=439730',
@@ -12198,17 +12072,17 @@ module.exports = [ { object: 'card',
     highres_image: true,
     image_uris:
      { small:
-        'https://img.scryfall.com/cards/small/en/rix/72.jpg?1524750953',
+        'https://img.scryfall.com/cards/small/front/b/4/b499fc26-26b0-4b0f-9c62-5ed599baf41d.jpg?1555040225',
        normal:
-        'https://img.scryfall.com/cards/normal/en/rix/72.jpg?1524750953',
+        'https://img.scryfall.com/cards/normal/front/b/4/b499fc26-26b0-4b0f-9c62-5ed599baf41d.jpg?1555040225',
        large:
-        'https://img.scryfall.com/cards/large/en/rix/72.jpg?1524750953',
+        'https://img.scryfall.com/cards/large/front/b/4/b499fc26-26b0-4b0f-9c62-5ed599baf41d.jpg?1555040225',
        png:
-        'https://img.scryfall.com/cards/png/en/rix/72.png?1524750953',
+        'https://img.scryfall.com/cards/png/front/b/4/b499fc26-26b0-4b0f-9c62-5ed599baf41d.png?1555040225',
        art_crop:
-        'https://img.scryfall.com/cards/art_crop/en/rix/72.jpg?1524750953',
+        'https://img.scryfall.com/cards/art_crop/front/b/4/b499fc26-26b0-4b0f-9c62-5ed599baf41d.jpg?1555040225',
        border_crop:
-        'https://img.scryfall.com/cards/border_crop/en/rix/72.jpg?1524750953' },
+        'https://img.scryfall.com/cards/border_crop/front/b/4/b499fc26-26b0-4b0f-9c62-5ed599baf41d.jpg?1555040225' },
     mana_cost: '{2}{B}',
     cmc: 3,
     type_line: 'Creature — Human Pirate',
@@ -12255,10 +12129,9 @@ module.exports = [ { object: 'card',
     artist: 'James Ryman',
     border_color: 'black',
     frame: '2015',
-    frame_effect: '',
     full_art: false,
     story_spotlight: false,
-    edhrec_rank: 4110,
+    edhrec_rank: 4357,
     related_uris:
      { gatherer:
         'http://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=439729',
@@ -12286,17 +12159,17 @@ module.exports = [ { object: 'card',
     highres_image: true,
     image_uris:
      { small:
-        'https://img.scryfall.com/cards/small/en/rix/71.jpg?1524750940',
+        'https://img.scryfall.com/cards/small/front/f/4/f447eb83-c805-4ba8-b9f2-0add092f6795.jpg?1555040217',
        normal:
-        'https://img.scryfall.com/cards/normal/en/rix/71.jpg?1524750940',
+        'https://img.scryfall.com/cards/normal/front/f/4/f447eb83-c805-4ba8-b9f2-0add092f6795.jpg?1555040217',
        large:
-        'https://img.scryfall.com/cards/large/en/rix/71.jpg?1524750940',
+        'https://img.scryfall.com/cards/large/front/f/4/f447eb83-c805-4ba8-b9f2-0add092f6795.jpg?1555040217',
        png:
-        'https://img.scryfall.com/cards/png/en/rix/71.png?1524750940',
+        'https://img.scryfall.com/cards/png/front/f/4/f447eb83-c805-4ba8-b9f2-0add092f6795.png?1555040217',
        art_crop:
-        'https://img.scryfall.com/cards/art_crop/en/rix/71.jpg?1524750940',
+        'https://img.scryfall.com/cards/art_crop/front/f/4/f447eb83-c805-4ba8-b9f2-0add092f6795.jpg?1555040217',
        border_crop:
-        'https://img.scryfall.com/cards/border_crop/en/rix/71.jpg?1524750940' },
+        'https://img.scryfall.com/cards/border_crop/front/f/4/f447eb83-c805-4ba8-b9f2-0add092f6795.jpg?1555040217' },
     mana_cost: '{2}{B}',
     cmc: 3,
     type_line: 'Creature — Orc Pirate',
@@ -12345,10 +12218,9 @@ module.exports = [ { object: 'card',
     artist: 'Sidharth Chaturvedi',
     border_color: 'black',
     frame: '2015',
-    frame_effect: '',
     full_art: false,
     story_spotlight: false,
-    edhrec_rank: 12688,
+    edhrec_rank: 13257,
     related_uris:
      { gatherer:
         'http://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=439728',
@@ -12376,17 +12248,17 @@ module.exports = [ { object: 'card',
     highres_image: true,
     image_uris:
      { small:
-        'https://img.scryfall.com/cards/small/en/rix/70.jpg?1524750925',
+        'https://img.scryfall.com/cards/small/front/3/1/3190cea3-fbea-464f-999b-4b4473be745e.jpg?1555040208',
        normal:
-        'https://img.scryfall.com/cards/normal/en/rix/70.jpg?1524750925',
+        'https://img.scryfall.com/cards/normal/front/3/1/3190cea3-fbea-464f-999b-4b4473be745e.jpg?1555040208',
        large:
-        'https://img.scryfall.com/cards/large/en/rix/70.jpg?1524750925',
+        'https://img.scryfall.com/cards/large/front/3/1/3190cea3-fbea-464f-999b-4b4473be745e.jpg?1555040208',
        png:
-        'https://img.scryfall.com/cards/png/en/rix/70.png?1524750925',
+        'https://img.scryfall.com/cards/png/front/3/1/3190cea3-fbea-464f-999b-4b4473be745e.png?1555040208',
        art_crop:
-        'https://img.scryfall.com/cards/art_crop/en/rix/70.jpg?1524750925',
+        'https://img.scryfall.com/cards/art_crop/front/3/1/3190cea3-fbea-464f-999b-4b4473be745e.jpg?1555040208',
        border_crop:
-        'https://img.scryfall.com/cards/border_crop/en/rix/70.jpg?1524750925' },
+        'https://img.scryfall.com/cards/border_crop/front/3/1/3190cea3-fbea-464f-999b-4b4473be745e.jpg?1555040208' },
     mana_cost: '{1}{B}',
     cmc: 2,
     type_line: 'Creature — Vampire Soldier',
@@ -12435,10 +12307,9 @@ module.exports = [ { object: 'card',
     artist: 'Winona Nelson',
     border_color: 'black',
     frame: '2015',
-    frame_effect: '',
     full_art: false,
     story_spotlight: false,
-    edhrec_rank: 1420,
+    edhrec_rank: 1489,
     related_uris:
      { gatherer:
         'http://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=439727',
@@ -12466,17 +12337,17 @@ module.exports = [ { object: 'card',
     highres_image: true,
     image_uris:
      { small:
-        'https://img.scryfall.com/cards/small/en/rix/69.jpg?1524750913',
+        'https://img.scryfall.com/cards/small/front/c/2/c2ce54a3-f3eb-48a0-bfa2-5f4b90e413f0.jpg?1555040200',
        normal:
-        'https://img.scryfall.com/cards/normal/en/rix/69.jpg?1524750913',
+        'https://img.scryfall.com/cards/normal/front/c/2/c2ce54a3-f3eb-48a0-bfa2-5f4b90e413f0.jpg?1555040200',
        large:
-        'https://img.scryfall.com/cards/large/en/rix/69.jpg?1524750913',
+        'https://img.scryfall.com/cards/large/front/c/2/c2ce54a3-f3eb-48a0-bfa2-5f4b90e413f0.jpg?1555040200',
        png:
-        'https://img.scryfall.com/cards/png/en/rix/69.png?1524750913',
+        'https://img.scryfall.com/cards/png/front/c/2/c2ce54a3-f3eb-48a0-bfa2-5f4b90e413f0.png?1555040200',
        art_crop:
-        'https://img.scryfall.com/cards/art_crop/en/rix/69.jpg?1524750913',
+        'https://img.scryfall.com/cards/art_crop/front/c/2/c2ce54a3-f3eb-48a0-bfa2-5f4b90e413f0.jpg?1555040200',
        border_crop:
-        'https://img.scryfall.com/cards/border_crop/en/rix/69.jpg?1524750913' },
+        'https://img.scryfall.com/cards/border_crop/front/c/2/c2ce54a3-f3eb-48a0-bfa2-5f4b90e413f0.jpg?1555040200' },
     mana_cost: '{3}{B}',
     cmc: 4,
     type_line: 'Creature — Horse',
@@ -12525,10 +12396,9 @@ module.exports = [ { object: 'card',
     artist: 'Lucas Graciano',
     border_color: 'black',
     frame: '2015',
-    frame_effect: '',
     full_art: false,
     story_spotlight: false,
-    edhrec_rank: 14098,
+    edhrec_rank: 14237,
     related_uris:
      { gatherer:
         'http://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=439726',
@@ -12556,17 +12426,17 @@ module.exports = [ { object: 'card',
     highres_image: true,
     image_uris:
      { small:
-        'https://img.scryfall.com/cards/small/en/rix/68.jpg?1524750903',
+        'https://img.scryfall.com/cards/small/front/8/8/88273b1e-b33b-44d3-8777-4e78a04eed65.jpg?1555040192',
        normal:
-        'https://img.scryfall.com/cards/normal/en/rix/68.jpg?1524750903',
+        'https://img.scryfall.com/cards/normal/front/8/8/88273b1e-b33b-44d3-8777-4e78a04eed65.jpg?1555040192',
        large:
-        'https://img.scryfall.com/cards/large/en/rix/68.jpg?1524750903',
+        'https://img.scryfall.com/cards/large/front/8/8/88273b1e-b33b-44d3-8777-4e78a04eed65.jpg?1555040192',
        png:
-        'https://img.scryfall.com/cards/png/en/rix/68.png?1524750903',
+        'https://img.scryfall.com/cards/png/front/8/8/88273b1e-b33b-44d3-8777-4e78a04eed65.png?1555040192',
        art_crop:
-        'https://img.scryfall.com/cards/art_crop/en/rix/68.jpg?1524750903',
+        'https://img.scryfall.com/cards/art_crop/front/8/8/88273b1e-b33b-44d3-8777-4e78a04eed65.jpg?1555040192',
        border_crop:
-        'https://img.scryfall.com/cards/border_crop/en/rix/68.jpg?1524750903' },
+        'https://img.scryfall.com/cards/border_crop/front/8/8/88273b1e-b33b-44d3-8777-4e78a04eed65.jpg?1555040192' },
     mana_cost: '{1}{B}',
     cmc: 2,
     type_line: 'Creature — Human Pirate',
@@ -12613,10 +12483,9 @@ module.exports = [ { object: 'card',
     artist: 'Ben Maier',
     border_color: 'black',
     frame: '2015',
-    frame_effect: '',
     full_art: false,
     story_spotlight: false,
-    edhrec_rank: 4692,
+    edhrec_rank: 4928,
     related_uris:
      { gatherer:
         'http://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=439725',
@@ -12644,17 +12513,17 @@ module.exports = [ { object: 'card',
     highres_image: true,
     image_uris:
      { small:
-        'https://img.scryfall.com/cards/small/en/rix/67.jpg?1524750889',
+        'https://img.scryfall.com/cards/small/front/9/3/93ff5a4e-9ec5-4b52-90f5-b8b6753c958d.jpg?1555040182',
        normal:
-        'https://img.scryfall.com/cards/normal/en/rix/67.jpg?1524750889',
+        'https://img.scryfall.com/cards/normal/front/9/3/93ff5a4e-9ec5-4b52-90f5-b8b6753c958d.jpg?1555040182',
        large:
-        'https://img.scryfall.com/cards/large/en/rix/67.jpg?1524750889',
+        'https://img.scryfall.com/cards/large/front/9/3/93ff5a4e-9ec5-4b52-90f5-b8b6753c958d.jpg?1555040182',
        png:
-        'https://img.scryfall.com/cards/png/en/rix/67.png?1524750889',
+        'https://img.scryfall.com/cards/png/front/9/3/93ff5a4e-9ec5-4b52-90f5-b8b6753c958d.png?1555040182',
        art_crop:
-        'https://img.scryfall.com/cards/art_crop/en/rix/67.jpg?1524750889',
+        'https://img.scryfall.com/cards/art_crop/front/9/3/93ff5a4e-9ec5-4b52-90f5-b8b6753c958d.jpg?1555040182',
        border_crop:
-        'https://img.scryfall.com/cards/border_crop/en/rix/67.jpg?1524750889' },
+        'https://img.scryfall.com/cards/border_crop/front/9/3/93ff5a4e-9ec5-4b52-90f5-b8b6753c958d.jpg?1555040182' },
     mana_cost: '{1}{B}',
     cmc: 2,
     type_line: 'Creature — Human Pirate',
@@ -12703,10 +12572,9 @@ module.exports = [ { object: 'card',
     artist: 'Tianhua X',
     border_color: 'black',
     frame: '2015',
-    frame_effect: '',
     full_art: false,
     story_spotlight: false,
-    edhrec_rank: 14737,
+    edhrec_rank: 14709,
     related_uris:
      { gatherer:
         'http://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=439724',
@@ -12734,17 +12602,17 @@ module.exports = [ { object: 'card',
     highres_image: true,
     image_uris:
      { small:
-        'https://img.scryfall.com/cards/small/en/rix/66.jpg?1524750878',
+        'https://img.scryfall.com/cards/small/front/a/7/a76ac1d9-b0df-4dec-b133-057cc5902071.jpg?1555040168',
        normal:
-        'https://img.scryfall.com/cards/normal/en/rix/66.jpg?1524750878',
+        'https://img.scryfall.com/cards/normal/front/a/7/a76ac1d9-b0df-4dec-b133-057cc5902071.jpg?1555040168',
        large:
-        'https://img.scryfall.com/cards/large/en/rix/66.jpg?1524750878',
+        'https://img.scryfall.com/cards/large/front/a/7/a76ac1d9-b0df-4dec-b133-057cc5902071.jpg?1555040168',
        png:
-        'https://img.scryfall.com/cards/png/en/rix/66.png?1524750878',
+        'https://img.scryfall.com/cards/png/front/a/7/a76ac1d9-b0df-4dec-b133-057cc5902071.png?1555040168',
        art_crop:
-        'https://img.scryfall.com/cards/art_crop/en/rix/66.jpg?1524750878',
+        'https://img.scryfall.com/cards/art_crop/front/a/7/a76ac1d9-b0df-4dec-b133-057cc5902071.jpg?1555040168',
        border_crop:
-        'https://img.scryfall.com/cards/border_crop/en/rix/66.jpg?1524750878' },
+        'https://img.scryfall.com/cards/border_crop/front/a/7/a76ac1d9-b0df-4dec-b133-057cc5902071.jpg?1555040168' },
     mana_cost: '{1}{B}',
     cmc: 2,
     type_line: 'Enchantment — Aura',
@@ -12789,10 +12657,9 @@ module.exports = [ { object: 'card',
     artist: 'Jason A. Engle',
     border_color: 'black',
     frame: '2015',
-    frame_effect: '',
     full_art: false,
     story_spotlight: false,
-    edhrec_rank: 3948,
+    edhrec_rank: 3964,
     related_uris:
      { gatherer:
         'http://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=439723',
@@ -12820,17 +12687,17 @@ module.exports = [ { object: 'card',
     highres_image: true,
     image_uris:
      { small:
-        'https://img.scryfall.com/cards/small/en/rix/65.jpg?1524750863',
+        'https://img.scryfall.com/cards/small/front/4/2/42eaa634-0add-4e3d-9eee-5712598dda3f.jpg?1555040160',
        normal:
-        'https://img.scryfall.com/cards/normal/en/rix/65.jpg?1524750863',
+        'https://img.scryfall.com/cards/normal/front/4/2/42eaa634-0add-4e3d-9eee-5712598dda3f.jpg?1555040160',
        large:
-        'https://img.scryfall.com/cards/large/en/rix/65.jpg?1524750863',
+        'https://img.scryfall.com/cards/large/front/4/2/42eaa634-0add-4e3d-9eee-5712598dda3f.jpg?1555040160',
        png:
-        'https://img.scryfall.com/cards/png/en/rix/65.png?1524750863',
+        'https://img.scryfall.com/cards/png/front/4/2/42eaa634-0add-4e3d-9eee-5712598dda3f.png?1555040160',
        art_crop:
-        'https://img.scryfall.com/cards/art_crop/en/rix/65.jpg?1524750863',
+        'https://img.scryfall.com/cards/art_crop/front/4/2/42eaa634-0add-4e3d-9eee-5712598dda3f.jpg?1555040160',
        border_crop:
-        'https://img.scryfall.com/cards/border_crop/en/rix/65.jpg?1524750863' },
+        'https://img.scryfall.com/cards/border_crop/front/4/2/42eaa634-0add-4e3d-9eee-5712598dda3f.jpg?1555040160' },
     mana_cost: '{2}{B}',
     cmc: 3,
     type_line: 'Sorcery',
@@ -12876,10 +12743,9 @@ module.exports = [ { object: 'card',
     artist: 'Naomi Baker',
     border_color: 'black',
     frame: '2015',
-    frame_effect: '',
     full_art: false,
     story_spotlight: false,
-    edhrec_rank: 11430,
+    edhrec_rank: 11816,
     related_uris:
      { gatherer:
         'http://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=439722',
@@ -12907,17 +12773,17 @@ module.exports = [ { object: 'card',
     highres_image: true,
     image_uris:
      { small:
-        'https://img.scryfall.com/cards/small/en/rix/64.jpg?1524750851',
+        'https://img.scryfall.com/cards/small/front/5/0/507a4fb1-d27b-4393-9eed-48fe05b367d8.jpg?1555040149',
        normal:
-        'https://img.scryfall.com/cards/normal/en/rix/64.jpg?1524750851',
+        'https://img.scryfall.com/cards/normal/front/5/0/507a4fb1-d27b-4393-9eed-48fe05b367d8.jpg?1555040149',
        large:
-        'https://img.scryfall.com/cards/large/en/rix/64.jpg?1524750851',
+        'https://img.scryfall.com/cards/large/front/5/0/507a4fb1-d27b-4393-9eed-48fe05b367d8.jpg?1555040149',
        png:
-        'https://img.scryfall.com/cards/png/en/rix/64.png?1524750851',
+        'https://img.scryfall.com/cards/png/front/5/0/507a4fb1-d27b-4393-9eed-48fe05b367d8.png?1555040149',
        art_crop:
-        'https://img.scryfall.com/cards/art_crop/en/rix/64.jpg?1524750851',
+        'https://img.scryfall.com/cards/art_crop/front/5/0/507a4fb1-d27b-4393-9eed-48fe05b367d8.jpg?1555040149',
        border_crop:
-        'https://img.scryfall.com/cards/border_crop/en/rix/64.jpg?1524750851' },
+        'https://img.scryfall.com/cards/border_crop/front/5/0/507a4fb1-d27b-4393-9eed-48fe05b367d8.jpg?1555040149' },
     mana_cost: '{3}{B}{B}',
     cmc: 5,
     type_line: 'Creature — Vampire Knight',
@@ -12965,10 +12831,9 @@ module.exports = [ { object: 'card',
     artist: 'Josh Hass',
     border_color: 'black',
     frame: '2015',
-    frame_effect: '',
     full_art: false,
     story_spotlight: false,
-    edhrec_rank: 2087,
+    edhrec_rank: 2272,
     related_uris:
      { gatherer:
         'http://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=439721',
@@ -12996,17 +12861,17 @@ module.exports = [ { object: 'card',
     highres_image: true,
     image_uris:
      { small:
-        'https://img.scryfall.com/cards/small/en/rix/63.jpg?1524750841',
+        'https://img.scryfall.com/cards/small/front/7/8/78226edc-87dd-4c38-987c-52aefe0f9531.jpg?1555040134',
        normal:
-        'https://img.scryfall.com/cards/normal/en/rix/63.jpg?1524750841',
+        'https://img.scryfall.com/cards/normal/front/7/8/78226edc-87dd-4c38-987c-52aefe0f9531.jpg?1555040134',
        large:
-        'https://img.scryfall.com/cards/large/en/rix/63.jpg?1524750841',
+        'https://img.scryfall.com/cards/large/front/7/8/78226edc-87dd-4c38-987c-52aefe0f9531.jpg?1555040134',
        png:
-        'https://img.scryfall.com/cards/png/en/rix/63.png?1524750841',
+        'https://img.scryfall.com/cards/png/front/7/8/78226edc-87dd-4c38-987c-52aefe0f9531.png?1555040134',
        art_crop:
-        'https://img.scryfall.com/cards/art_crop/en/rix/63.jpg?1524750841',
+        'https://img.scryfall.com/cards/art_crop/front/7/8/78226edc-87dd-4c38-987c-52aefe0f9531.jpg?1555040134',
        border_crop:
-        'https://img.scryfall.com/cards/border_crop/en/rix/63.jpg?1524750841' },
+        'https://img.scryfall.com/cards/border_crop/front/7/8/78226edc-87dd-4c38-987c-52aefe0f9531.jpg?1555040134' },
     mana_cost: '{4}{B}',
     cmc: 5,
     type_line: 'Creature — Lizard',
@@ -13054,10 +12919,9 @@ module.exports = [ { object: 'card',
     artist: 'Zezhou Chen',
     border_color: 'black',
     frame: '2015',
-    frame_effect: '',
     full_art: false,
     story_spotlight: false,
-    edhrec_rank: 16487,
+    edhrec_rank: 16232,
     related_uris:
      { gatherer:
         'http://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=439720',
@@ -13085,17 +12949,17 @@ module.exports = [ { object: 'card',
     highres_image: true,
     image_uris:
      { small:
-        'https://img.scryfall.com/cards/small/en/rix/62.jpg?1524750826',
+        'https://img.scryfall.com/cards/small/front/1/3/13c41212-9f16-48e0-8c4b-985ce331164b.jpg?1555040118',
        normal:
-        'https://img.scryfall.com/cards/normal/en/rix/62.jpg?1524750826',
+        'https://img.scryfall.com/cards/normal/front/1/3/13c41212-9f16-48e0-8c4b-985ce331164b.jpg?1555040118',
        large:
-        'https://img.scryfall.com/cards/large/en/rix/62.jpg?1524750826',
+        'https://img.scryfall.com/cards/large/front/1/3/13c41212-9f16-48e0-8c4b-985ce331164b.jpg?1555040118',
        png:
-        'https://img.scryfall.com/cards/png/en/rix/62.png?1524750826',
+        'https://img.scryfall.com/cards/png/front/1/3/13c41212-9f16-48e0-8c4b-985ce331164b.png?1555040118',
        art_crop:
-        'https://img.scryfall.com/cards/art_crop/en/rix/62.jpg?1524750826',
+        'https://img.scryfall.com/cards/art_crop/front/1/3/13c41212-9f16-48e0-8c4b-985ce331164b.jpg?1555040118',
        border_crop:
-        'https://img.scryfall.com/cards/border_crop/en/rix/62.jpg?1524750826' },
+        'https://img.scryfall.com/cards/border_crop/front/1/3/13c41212-9f16-48e0-8c4b-985ce331164b.jpg?1555040118' },
     mana_cost: '{1}{B}{B}',
     cmc: 3,
     type_line: 'Sorcery',
@@ -13142,10 +13006,9 @@ module.exports = [ { object: 'card',
     artist: 'Josh Hass',
     border_color: 'black',
     frame: '2015',
-    frame_effect: '',
     full_art: false,
     story_spotlight: false,
-    edhrec_rank: 4365,
+    edhrec_rank: 4172,
     related_uris:
      { gatherer:
         'http://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=439719',
@@ -13172,17 +13035,17 @@ module.exports = [ { object: 'card',
     highres_image: true,
     image_uris:
      { small:
-        'https://img.scryfall.com/cards/small/en/rix/61.jpg?1524750815',
+        'https://img.scryfall.com/cards/small/front/8/b/8b4579ee-76c4-4ed6-9208-55d2b598d3b5.jpg?1555040105',
        normal:
-        'https://img.scryfall.com/cards/normal/en/rix/61.jpg?1524750815',
+        'https://img.scryfall.com/cards/normal/front/8/b/8b4579ee-76c4-4ed6-9208-55d2b598d3b5.jpg?1555040105',
        large:
-        'https://img.scryfall.com/cards/large/en/rix/61.jpg?1524750815',
+        'https://img.scryfall.com/cards/large/front/8/b/8b4579ee-76c4-4ed6-9208-55d2b598d3b5.jpg?1555040105',
        png:
-        'https://img.scryfall.com/cards/png/en/rix/61.png?1524750815',
+        'https://img.scryfall.com/cards/png/front/8/b/8b4579ee-76c4-4ed6-9208-55d2b598d3b5.png?1555040105',
        art_crop:
-        'https://img.scryfall.com/cards/art_crop/en/rix/61.jpg?1524750815',
+        'https://img.scryfall.com/cards/art_crop/front/8/b/8b4579ee-76c4-4ed6-9208-55d2b598d3b5.jpg?1555040105',
        border_crop:
-        'https://img.scryfall.com/cards/border_crop/en/rix/61.jpg?1524750815' },
+        'https://img.scryfall.com/cards/border_crop/front/8/b/8b4579ee-76c4-4ed6-9208-55d2b598d3b5.jpg?1555040105' },
     mana_cost: '{1}{U}{U}',
     cmc: 3,
     type_line: 'Enchantment — Aura',
@@ -13227,10 +13090,9 @@ module.exports = [ { object: 'card',
     artist: 'Wayne Reynolds',
     border_color: 'black',
     frame: '2015',
-    frame_effect: '',
     full_art: false,
     story_spotlight: false,
-    edhrec_rank: 9327,
+    edhrec_rank: 9514,
     related_uris:
      { gatherer:
         'http://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=439718',
@@ -13258,17 +13120,17 @@ module.exports = [ { object: 'card',
     highres_image: true,
     image_uris:
      { small:
-        'https://img.scryfall.com/cards/small/en/rix/60.jpg?1524750795',
+        'https://img.scryfall.com/cards/small/front/8/0/802ff9cf-f739-40cb-8974-77f6850150eb.jpg?1555040094',
        normal:
-        'https://img.scryfall.com/cards/normal/en/rix/60.jpg?1524750795',
+        'https://img.scryfall.com/cards/normal/front/8/0/802ff9cf-f739-40cb-8974-77f6850150eb.jpg?1555040094',
        large:
-        'https://img.scryfall.com/cards/large/en/rix/60.jpg?1524750795',
+        'https://img.scryfall.com/cards/large/front/8/0/802ff9cf-f739-40cb-8974-77f6850150eb.jpg?1555040094',
        png:
-        'https://img.scryfall.com/cards/png/en/rix/60.png?1524750795',
+        'https://img.scryfall.com/cards/png/front/8/0/802ff9cf-f739-40cb-8974-77f6850150eb.png?1555040094',
        art_crop:
-        'https://img.scryfall.com/cards/art_crop/en/rix/60.jpg?1524750795',
+        'https://img.scryfall.com/cards/art_crop/front/8/0/802ff9cf-f739-40cb-8974-77f6850150eb.jpg?1555040094',
        border_crop:
-        'https://img.scryfall.com/cards/border_crop/en/rix/60.jpg?1524750795' },
+        'https://img.scryfall.com/cards/border_crop/front/8/0/802ff9cf-f739-40cb-8974-77f6850150eb.jpg?1555040094' },
     mana_cost: '{1}{U}',
     cmc: 2,
     type_line: 'Creature — Human Pirate',
@@ -13315,10 +13177,9 @@ module.exports = [ { object: 'card',
     artist: 'Victor Adame Minguez',
     border_color: 'black',
     frame: '2015',
-    frame_effect: '',
     full_art: false,
     story_spotlight: false,
-    edhrec_rank: 4006,
+    edhrec_rank: 4223,
     related_uris:
      { gatherer:
         'http://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=439717',
@@ -13346,17 +13207,17 @@ module.exports = [ { object: 'card',
     highres_image: true,
     image_uris:
      { small:
-        'https://img.scryfall.com/cards/small/en/rix/59.jpg?1524750779',
+        'https://img.scryfall.com/cards/small/front/1/4/14770537-209a-4260-88a4-30f4e2b5ede0.jpg?1555040085',
        normal:
-        'https://img.scryfall.com/cards/normal/en/rix/59.jpg?1524750779',
+        'https://img.scryfall.com/cards/normal/front/1/4/14770537-209a-4260-88a4-30f4e2b5ede0.jpg?1555040085',
        large:
-        'https://img.scryfall.com/cards/large/en/rix/59.jpg?1524750779',
+        'https://img.scryfall.com/cards/large/front/1/4/14770537-209a-4260-88a4-30f4e2b5ede0.jpg?1555040085',
        png:
-        'https://img.scryfall.com/cards/png/en/rix/59.png?1524750779',
+        'https://img.scryfall.com/cards/png/front/1/4/14770537-209a-4260-88a4-30f4e2b5ede0.png?1555040085',
        art_crop:
-        'https://img.scryfall.com/cards/art_crop/en/rix/59.jpg?1524750779',
+        'https://img.scryfall.com/cards/art_crop/front/1/4/14770537-209a-4260-88a4-30f4e2b5ede0.jpg?1555040085',
        border_crop:
-        'https://img.scryfall.com/cards/border_crop/en/rix/59.jpg?1524750779' },
+        'https://img.scryfall.com/cards/border_crop/front/1/4/14770537-209a-4260-88a4-30f4e2b5ede0.jpg?1555040085' },
     mana_cost: '{1}{U}',
     cmc: 2,
     type_line: 'Creature — Human Pirate Wizard',
@@ -13403,10 +13264,9 @@ module.exports = [ { object: 'card',
     artist: 'Zezhou Chen',
     border_color: 'black',
     frame: '2015',
-    frame_effect: '',
     full_art: false,
     story_spotlight: false,
-    edhrec_rank: 2223,
+    edhrec_rank: 2340,
     related_uris:
      { gatherer:
         'http://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=439716',
@@ -13434,17 +13294,17 @@ module.exports = [ { object: 'card',
     highres_image: true,
     image_uris:
      { small:
-        'https://img.scryfall.com/cards/small/en/rix/58.jpg?1524750762',
+        'https://img.scryfall.com/cards/small/front/6/4/6452ba94-6bb0-409c-99f7-71e6457c3f2a.jpg?1555040076',
        normal:
-        'https://img.scryfall.com/cards/normal/en/rix/58.jpg?1524750762',
+        'https://img.scryfall.com/cards/normal/front/6/4/6452ba94-6bb0-409c-99f7-71e6457c3f2a.jpg?1555040076',
        large:
-        'https://img.scryfall.com/cards/large/en/rix/58.jpg?1524750762',
+        'https://img.scryfall.com/cards/large/front/6/4/6452ba94-6bb0-409c-99f7-71e6457c3f2a.jpg?1555040076',
        png:
-        'https://img.scryfall.com/cards/png/en/rix/58.png?1524750762',
+        'https://img.scryfall.com/cards/png/front/6/4/6452ba94-6bb0-409c-99f7-71e6457c3f2a.png?1555040076',
        art_crop:
-        'https://img.scryfall.com/cards/art_crop/en/rix/58.jpg?1524750762',
+        'https://img.scryfall.com/cards/art_crop/front/6/4/6452ba94-6bb0-409c-99f7-71e6457c3f2a.jpg?1555040076',
        border_crop:
-        'https://img.scryfall.com/cards/border_crop/en/rix/58.jpg?1524750762' },
+        'https://img.scryfall.com/cards/border_crop/front/6/4/6452ba94-6bb0-409c-99f7-71e6457c3f2a.jpg?1555040076' },
     mana_cost: '{1}{U}',
     cmc: 2,
     type_line: 'Creature — Merfolk Warrior',
@@ -13492,10 +13352,9 @@ module.exports = [ { object: 'card',
     artist: 'Sara Winters',
     border_color: 'black',
     frame: '2015',
-    frame_effect: '',
     full_art: false,
     story_spotlight: false,
-    edhrec_rank: 13823,
+    edhrec_rank: 14238,
     related_uris:
      { gatherer:
         'http://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=439715',
@@ -13523,17 +13382,17 @@ module.exports = [ { object: 'card',
     highres_image: true,
     image_uris:
      { small:
-        'https://img.scryfall.com/cards/small/en/rix/57.jpg?1524750752',
+        'https://img.scryfall.com/cards/small/front/a/c/aca438d7-1134-4fee-9fad-85c3b1abe8ed.jpg?1555040066',
        normal:
-        'https://img.scryfall.com/cards/normal/en/rix/57.jpg?1524750752',
+        'https://img.scryfall.com/cards/normal/front/a/c/aca438d7-1134-4fee-9fad-85c3b1abe8ed.jpg?1555040066',
        large:
-        'https://img.scryfall.com/cards/large/en/rix/57.jpg?1524750752',
+        'https://img.scryfall.com/cards/large/front/a/c/aca438d7-1134-4fee-9fad-85c3b1abe8ed.jpg?1555040066',
        png:
-        'https://img.scryfall.com/cards/png/en/rix/57.png?1524750752',
+        'https://img.scryfall.com/cards/png/front/a/c/aca438d7-1134-4fee-9fad-85c3b1abe8ed.png?1555040066',
        art_crop:
-        'https://img.scryfall.com/cards/art_crop/en/rix/57.jpg?1524750752',
+        'https://img.scryfall.com/cards/art_crop/front/a/c/aca438d7-1134-4fee-9fad-85c3b1abe8ed.jpg?1555040066',
        border_crop:
-        'https://img.scryfall.com/cards/border_crop/en/rix/57.jpg?1524750752' },
+        'https://img.scryfall.com/cards/border_crop/front/a/c/aca438d7-1134-4fee-9fad-85c3b1abe8ed.jpg?1555040066' },
     mana_cost: '{3}{U}',
     cmc: 4,
     type_line: 'Creature — Snake',
@@ -13580,10 +13439,9 @@ module.exports = [ { object: 'card',
     artist: 'Titus Lunter',
     border_color: 'black',
     frame: '2015',
-    frame_effect: '',
     full_art: false,
     story_spotlight: false,
-    edhrec_rank: 15488,
+    edhrec_rank: 15535,
     related_uris:
      { gatherer:
         'http://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=439714',
@@ -13611,17 +13469,17 @@ module.exports = [ { object: 'card',
     highres_image: true,
     image_uris:
      { small:
-        'https://img.scryfall.com/cards/small/en/rix/56.jpg?1524750742',
+        'https://img.scryfall.com/cards/small/front/2/a/2a1aed7d-4236-4d44-9366-ee03e15469bc.jpg?1555040055',
        normal:
-        'https://img.scryfall.com/cards/normal/en/rix/56.jpg?1524750742',
+        'https://img.scryfall.com/cards/normal/front/2/a/2a1aed7d-4236-4d44-9366-ee03e15469bc.jpg?1555040055',
        large:
-        'https://img.scryfall.com/cards/large/en/rix/56.jpg?1524750742',
+        'https://img.scryfall.com/cards/large/front/2/a/2a1aed7d-4236-4d44-9366-ee03e15469bc.jpg?1555040055',
        png:
-        'https://img.scryfall.com/cards/png/en/rix/56.png?1524750742',
+        'https://img.scryfall.com/cards/png/front/2/a/2a1aed7d-4236-4d44-9366-ee03e15469bc.png?1555040055',
        art_crop:
-        'https://img.scryfall.com/cards/art_crop/en/rix/56.jpg?1524750742',
+        'https://img.scryfall.com/cards/art_crop/front/2/a/2a1aed7d-4236-4d44-9366-ee03e15469bc.jpg?1555040055',
        border_crop:
-        'https://img.scryfall.com/cards/border_crop/en/rix/56.jpg?1524750742' },
+        'https://img.scryfall.com/cards/border_crop/front/2/a/2a1aed7d-4236-4d44-9366-ee03e15469bc.jpg?1555040055' },
     mana_cost: '{3}{U}{U}',
     cmc: 5,
     type_line: 'Creature — Elemental',
@@ -13670,10 +13528,9 @@ module.exports = [ { object: 'card',
     artist: 'Anthony Palumbo',
     border_color: 'black',
     frame: '2015',
-    frame_effect: '',
     full_art: false,
     story_spotlight: false,
-    edhrec_rank: 12318,
+    edhrec_rank: 12669,
     related_uris:
      { gatherer:
         'http://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=439713',
@@ -13701,17 +13558,17 @@ module.exports = [ { object: 'card',
     highres_image: true,
     image_uris:
      { small:
-        'https://img.scryfall.com/cards/small/en/rix/55.jpg?1524750727',
+        'https://img.scryfall.com/cards/small/front/2/6/262f3c10-f29a-494f-88c6-0d44b2cbdc82.jpg?1555040043',
        normal:
-        'https://img.scryfall.com/cards/normal/en/rix/55.jpg?1524750727',
+        'https://img.scryfall.com/cards/normal/front/2/6/262f3c10-f29a-494f-88c6-0d44b2cbdc82.jpg?1555040043',
        large:
-        'https://img.scryfall.com/cards/large/en/rix/55.jpg?1524750727',
+        'https://img.scryfall.com/cards/large/front/2/6/262f3c10-f29a-494f-88c6-0d44b2cbdc82.jpg?1555040043',
        png:
-        'https://img.scryfall.com/cards/png/en/rix/55.png?1524750727',
+        'https://img.scryfall.com/cards/png/front/2/6/262f3c10-f29a-494f-88c6-0d44b2cbdc82.png?1555040043',
        art_crop:
-        'https://img.scryfall.com/cards/art_crop/en/rix/55.jpg?1524750727',
+        'https://img.scryfall.com/cards/art_crop/front/2/6/262f3c10-f29a-494f-88c6-0d44b2cbdc82.jpg?1555040043',
        border_crop:
-        'https://img.scryfall.com/cards/border_crop/en/rix/55.jpg?1524750727' },
+        'https://img.scryfall.com/cards/border_crop/front/2/6/262f3c10-f29a-494f-88c6-0d44b2cbdc82.jpg?1555040043' },
     mana_cost: '{2}{U}',
     cmc: 3,
     type_line: 'Creature — Human Pirate',
@@ -13759,10 +13616,9 @@ module.exports = [ { object: 'card',
     artist: 'Dan Scott',
     border_color: 'black',
     frame: '2015',
-    frame_effect: '',
     full_art: false,
     story_spotlight: false,
-    edhrec_rank: 4515,
+    edhrec_rank: 4784,
     related_uris:
      { gatherer:
         'http://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=439712',
@@ -13790,17 +13646,17 @@ module.exports = [ { object: 'card',
     highres_image: true,
     image_uris:
      { small:
-        'https://img.scryfall.com/cards/small/en/rix/54.jpg?1524750716',
+        'https://img.scryfall.com/cards/small/front/1/e/1e5827a7-8ee3-4a89-b936-00a3283ddad3.jpg?1555040032',
        normal:
-        'https://img.scryfall.com/cards/normal/en/rix/54.jpg?1524750716',
+        'https://img.scryfall.com/cards/normal/front/1/e/1e5827a7-8ee3-4a89-b936-00a3283ddad3.jpg?1555040032',
        large:
-        'https://img.scryfall.com/cards/large/en/rix/54.jpg?1524750716',
+        'https://img.scryfall.com/cards/large/front/1/e/1e5827a7-8ee3-4a89-b936-00a3283ddad3.jpg?1555040032',
        png:
-        'https://img.scryfall.com/cards/png/en/rix/54.png?1524750716',
+        'https://img.scryfall.com/cards/png/front/1/e/1e5827a7-8ee3-4a89-b936-00a3283ddad3.png?1555040032',
        art_crop:
-        'https://img.scryfall.com/cards/art_crop/en/rix/54.jpg?1524750716',
+        'https://img.scryfall.com/cards/art_crop/front/1/e/1e5827a7-8ee3-4a89-b936-00a3283ddad3.jpg?1555040032',
        border_crop:
-        'https://img.scryfall.com/cards/border_crop/en/rix/54.jpg?1524750716' },
+        'https://img.scryfall.com/cards/border_crop/front/1/e/1e5827a7-8ee3-4a89-b936-00a3283ddad3.jpg?1555040032' },
     mana_cost: '{3}{U}',
     cmc: 4,
     type_line: 'Creature — Siren Pirate',
@@ -13848,10 +13704,9 @@ module.exports = [ { object: 'card',
     artist: 'Tomasz Jedruszek',
     border_color: 'black',
     frame: '2015',
-    frame_effect: '',
     full_art: false,
     story_spotlight: false,
-    edhrec_rank: 10508,
+    edhrec_rank: 10850,
     related_uris:
      { gatherer:
         'http://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=439711',
@@ -13879,17 +13734,17 @@ module.exports = [ { object: 'card',
     highres_image: true,
     image_uris:
      { small:
-        'https://img.scryfall.com/cards/small/en/rix/53.jpg?1524750702',
+        'https://img.scryfall.com/cards/small/front/4/5/45ea8ca1-612d-4984-8572-06710d38bfa6.jpg?1555040020',
        normal:
-        'https://img.scryfall.com/cards/normal/en/rix/53.jpg?1524750702',
+        'https://img.scryfall.com/cards/normal/front/4/5/45ea8ca1-612d-4984-8572-06710d38bfa6.jpg?1555040020',
        large:
-        'https://img.scryfall.com/cards/large/en/rix/53.jpg?1524750702',
+        'https://img.scryfall.com/cards/large/front/4/5/45ea8ca1-612d-4984-8572-06710d38bfa6.jpg?1555040020',
        png:
-        'https://img.scryfall.com/cards/png/en/rix/53.png?1524750702',
+        'https://img.scryfall.com/cards/png/front/4/5/45ea8ca1-612d-4984-8572-06710d38bfa6.png?1555040020',
        art_crop:
-        'https://img.scryfall.com/cards/art_crop/en/rix/53.jpg?1524750702',
+        'https://img.scryfall.com/cards/art_crop/front/4/5/45ea8ca1-612d-4984-8572-06710d38bfa6.jpg?1555040020',
        border_crop:
-        'https://img.scryfall.com/cards/border_crop/en/rix/53.jpg?1524750702' },
+        'https://img.scryfall.com/cards/border_crop/front/4/5/45ea8ca1-612d-4984-8572-06710d38bfa6.jpg?1555040020' },
     mana_cost: '{1}{U}',
     cmc: 2,
     type_line: 'Creature — Merfolk Wizard',
@@ -13938,10 +13793,9 @@ module.exports = [ { object: 'card',
     artist: 'Magali Villeneuve',
     border_color: 'black',
     frame: '2015',
-    frame_effect: '',
     full_art: false,
     story_spotlight: false,
-    edhrec_rank: 5641,
+    edhrec_rank: 5575,
     related_uris:
      { gatherer:
         'http://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=439710',
@@ -13969,17 +13823,17 @@ module.exports = [ { object: 'card',
     highres_image: true,
     image_uris:
      { small:
-        'https://img.scryfall.com/cards/small/en/rix/52.jpg?1524750687',
+        'https://img.scryfall.com/cards/small/front/8/9/899ecd7a-bfd6-42a4-8cb2-18bac40b4401.jpg?1555040013',
        normal:
-        'https://img.scryfall.com/cards/normal/en/rix/52.jpg?1524750687',
+        'https://img.scryfall.com/cards/normal/front/8/9/899ecd7a-bfd6-42a4-8cb2-18bac40b4401.jpg?1555040013',
        large:
-        'https://img.scryfall.com/cards/large/en/rix/52.jpg?1524750687',
+        'https://img.scryfall.com/cards/large/front/8/9/899ecd7a-bfd6-42a4-8cb2-18bac40b4401.jpg?1555040013',
        png:
-        'https://img.scryfall.com/cards/png/en/rix/52.png?1524750687',
+        'https://img.scryfall.com/cards/png/front/8/9/899ecd7a-bfd6-42a4-8cb2-18bac40b4401.png?1555040013',
        art_crop:
-        'https://img.scryfall.com/cards/art_crop/en/rix/52.jpg?1524750687',
+        'https://img.scryfall.com/cards/art_crop/front/8/9/899ecd7a-bfd6-42a4-8cb2-18bac40b4401.jpg?1555040013',
        border_crop:
-        'https://img.scryfall.com/cards/border_crop/en/rix/52.jpg?1524750687' },
+        'https://img.scryfall.com/cards/border_crop/front/8/9/899ecd7a-bfd6-42a4-8cb2-18bac40b4401.jpg?1555040013' },
     mana_cost: '{1}{U}{U}',
     cmc: 3,
     type_line: 'Sorcery',
@@ -14025,10 +13879,9 @@ module.exports = [ { object: 'card',
     artist: 'Jason Felix',
     border_color: 'black',
     frame: '2015',
-    frame_effect: '',
     full_art: false,
     story_spotlight: false,
-    edhrec_rank: 4147,
+    edhrec_rank: 4304,
     related_uris:
      { gatherer:
         'http://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=439709',
@@ -14056,17 +13909,17 @@ module.exports = [ { object: 'card',
     highres_image: true,
     image_uris:
      { small:
-        'https://img.scryfall.com/cards/small/en/rix/51.jpg?1524750673',
+        'https://img.scryfall.com/cards/small/front/4/3/4316eacf-4b78-4b99-833c-53ecf49a0ae5.jpg?1555040004',
        normal:
-        'https://img.scryfall.com/cards/normal/en/rix/51.jpg?1524750673',
+        'https://img.scryfall.com/cards/normal/front/4/3/4316eacf-4b78-4b99-833c-53ecf49a0ae5.jpg?1555040004',
        large:
-        'https://img.scryfall.com/cards/large/en/rix/51.jpg?1524750673',
+        'https://img.scryfall.com/cards/large/front/4/3/4316eacf-4b78-4b99-833c-53ecf49a0ae5.jpg?1555040004',
        png:
-        'https://img.scryfall.com/cards/png/en/rix/51.png?1524750673',
+        'https://img.scryfall.com/cards/png/front/4/3/4316eacf-4b78-4b99-833c-53ecf49a0ae5.png?1555040004',
        art_crop:
-        'https://img.scryfall.com/cards/art_crop/en/rix/51.jpg?1524750673',
+        'https://img.scryfall.com/cards/art_crop/front/4/3/4316eacf-4b78-4b99-833c-53ecf49a0ae5.jpg?1555040004',
        border_crop:
-        'https://img.scryfall.com/cards/border_crop/en/rix/51.jpg?1524750673' },
+        'https://img.scryfall.com/cards/border_crop/front/4/3/4316eacf-4b78-4b99-833c-53ecf49a0ae5.jpg?1555040004' },
     mana_cost: '{2}{U}{U}',
     cmc: 4,
     type_line: 'Creature — Merfolk Wizard',
@@ -14115,10 +13968,9 @@ module.exports = [ { object: 'card',
     artist: 'Simon Dominic',
     border_color: 'black',
     frame: '2015',
-    frame_effect: '',
     full_art: false,
     story_spotlight: false,
-    edhrec_rank: 2305,
+    edhrec_rank: 2559,
     related_uris:
      { gatherer:
         'http://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=439708',
@@ -14145,17 +13997,17 @@ module.exports = [ { object: 'card',
     highres_image: true,
     image_uris:
      { small:
-        'https://img.scryfall.com/cards/small/en/rix/50.jpg?1524750656',
+        'https://img.scryfall.com/cards/small/front/a/e/ae48b747-b9ea-4af1-84c5-3f5835d1ba1f.jpg?1555039994',
        normal:
-        'https://img.scryfall.com/cards/normal/en/rix/50.jpg?1524750656',
+        'https://img.scryfall.com/cards/normal/front/a/e/ae48b747-b9ea-4af1-84c5-3f5835d1ba1f.jpg?1555039994',
        large:
-        'https://img.scryfall.com/cards/large/en/rix/50.jpg?1524750656',
+        'https://img.scryfall.com/cards/large/front/a/e/ae48b747-b9ea-4af1-84c5-3f5835d1ba1f.jpg?1555039994',
        png:
-        'https://img.scryfall.com/cards/png/en/rix/50.png?1524750656',
+        'https://img.scryfall.com/cards/png/front/a/e/ae48b747-b9ea-4af1-84c5-3f5835d1ba1f.png?1555039994',
        art_crop:
-        'https://img.scryfall.com/cards/art_crop/en/rix/50.jpg?1524750656',
+        'https://img.scryfall.com/cards/art_crop/front/a/e/ae48b747-b9ea-4af1-84c5-3f5835d1ba1f.jpg?1555039994',
        border_crop:
-        'https://img.scryfall.com/cards/border_crop/en/rix/50.jpg?1524750656' },
+        'https://img.scryfall.com/cards/border_crop/front/a/e/ae48b747-b9ea-4af1-84c5-3f5835d1ba1f.jpg?1555039994' },
     mana_cost: '{U}',
     cmc: 1,
     type_line: 'Enchantment — Aura',
@@ -14202,10 +14054,9 @@ module.exports = [ { object: 'card',
     artist: 'Deruchenko Alexander',
     border_color: 'black',
     frame: '2015',
-    frame_effect: '',
     full_art: false,
     story_spotlight: false,
-    edhrec_rank: 10951,
+    edhrec_rank: 11817,
     related_uris:
      { gatherer:
         'http://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=439707',
@@ -14233,17 +14084,17 @@ module.exports = [ { object: 'card',
     highres_image: true,
     image_uris:
      { small:
-        'https://img.scryfall.com/cards/small/en/rix/49.jpg?1524750646',
+        'https://img.scryfall.com/cards/small/front/e/9/e963425c-4694-42f4-a969-8f30e13276d3.jpg?1555039981',
        normal:
-        'https://img.scryfall.com/cards/normal/en/rix/49.jpg?1524750646',
+        'https://img.scryfall.com/cards/normal/front/e/9/e963425c-4694-42f4-a969-8f30e13276d3.jpg?1555039981',
        large:
-        'https://img.scryfall.com/cards/large/en/rix/49.jpg?1524750646',
+        'https://img.scryfall.com/cards/large/front/e/9/e963425c-4694-42f4-a969-8f30e13276d3.jpg?1555039981',
        png:
-        'https://img.scryfall.com/cards/png/en/rix/49.png?1524750646',
+        'https://img.scryfall.com/cards/png/front/e/9/e963425c-4694-42f4-a969-8f30e13276d3.png?1555039981',
        art_crop:
-        'https://img.scryfall.com/cards/art_crop/en/rix/49.jpg?1524750646',
+        'https://img.scryfall.com/cards/art_crop/front/e/9/e963425c-4694-42f4-a969-8f30e13276d3.jpg?1555039981',
        border_crop:
-        'https://img.scryfall.com/cards/border_crop/en/rix/49.jpg?1524750646' },
+        'https://img.scryfall.com/cards/border_crop/front/e/9/e963425c-4694-42f4-a969-8f30e13276d3.jpg?1555039981' },
     mana_cost: '{2}{U}',
     cmc: 3,
     type_line: 'Creature — Human Pirate',
@@ -14255,19 +14106,19 @@ module.exports = [ { object: 'card',
     color_identity: [ 'U' ],
     all_parts:
      [ { object: 'related_card',
-         id: '67f15157-6017-4b05-8c74-b3f8728d764b',
+         id: 'e963425c-4694-42f4-a969-8f30e13276d3',
          component: 'combo_piece',
          name: 'Sailor of Means',
          type_line: 'Creature — Human Pirate',
          uri:
-          'https://api.scryfall.com/cards/67f15157-6017-4b05-8c74-b3f8728d764b' },
+          'https://api.scryfall.com/cards/e963425c-4694-42f4-a969-8f30e13276d3' },
        { object: 'related_card',
-         id: '56f06ec6-634d-454b-a46a-dfefe4600d27',
+         id: '720f3e68-84c0-462e-a0d1-90236ccc494a',
          component: 'token',
          name: 'Treasure',
          type_line: 'Token Artifact — Treasure',
          uri:
-          'https://api.scryfall.com/cards/56f06ec6-634d-454b-a46a-dfefe4600d27' } ],
+          'https://api.scryfall.com/cards/720f3e68-84c0-462e-a0d1-90236ccc494a' } ],
     legalities:
      { standard: 'legal',
        future: 'legal',
@@ -14306,10 +14157,9 @@ module.exports = [ { object: 'card',
     artist: 'Ryan Pancoast',
     border_color: 'black',
     frame: '2015',
-    frame_effect: '',
     full_art: false,
     story_spotlight: false,
-    edhrec_rank: 4947,
+    edhrec_rank: 5113,
     related_uris:
      { gatherer:
         'http://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=439706',
@@ -14337,17 +14187,17 @@ module.exports = [ { object: 'card',
     highres_image: true,
     image_uris:
      { small:
-        'https://img.scryfall.com/cards/small/en/rix/48.jpg?1524750636',
+        'https://img.scryfall.com/cards/small/front/3/e/3ea5ac8f-f83d-47ca-a20e-3d129afb34d2.jpg?1555039971',
        normal:
-        'https://img.scryfall.com/cards/normal/en/rix/48.jpg?1524750636',
+        'https://img.scryfall.com/cards/normal/front/3/e/3ea5ac8f-f83d-47ca-a20e-3d129afb34d2.jpg?1555039971',
        large:
-        'https://img.scryfall.com/cards/large/en/rix/48.jpg?1524750636',
+        'https://img.scryfall.com/cards/large/front/3/e/3ea5ac8f-f83d-47ca-a20e-3d129afb34d2.jpg?1555039971',
        png:
-        'https://img.scryfall.com/cards/png/en/rix/48.png?1524750636',
+        'https://img.scryfall.com/cards/png/front/3/e/3ea5ac8f-f83d-47ca-a20e-3d129afb34d2.png?1555039971',
        art_crop:
-        'https://img.scryfall.com/cards/art_crop/en/rix/48.jpg?1524750636',
+        'https://img.scryfall.com/cards/art_crop/front/3/e/3ea5ac8f-f83d-47ca-a20e-3d129afb34d2.jpg?1555039971',
        border_crop:
-        'https://img.scryfall.com/cards/border_crop/en/rix/48.jpg?1524750636' },
+        'https://img.scryfall.com/cards/border_crop/front/3/e/3ea5ac8f-f83d-47ca-a20e-3d129afb34d2.jpg?1555039971' },
     mana_cost: '{3}{U}',
     cmc: 4,
     type_line: 'Creature — Merfolk Wizard',
@@ -14396,10 +14246,9 @@ module.exports = [ { object: 'card',
     artist: 'Alayna Danner',
     border_color: 'black',
     frame: '2015',
-    frame_effect: '',
     full_art: false,
     story_spotlight: false,
-    edhrec_rank: 2388,
+    edhrec_rank: 2610,
     related_uris:
      { gatherer:
         'http://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=439705',
@@ -14427,17 +14276,17 @@ module.exports = [ { object: 'card',
     highres_image: true,
     image_uris:
      { small:
-        'https://img.scryfall.com/cards/small/en/rix/47.jpg?1524750626',
+        'https://img.scryfall.com/cards/small/front/d/7/d766eb87-19ef-460b-982f-e55ae5890e6a.jpg?1555039961',
        normal:
-        'https://img.scryfall.com/cards/normal/en/rix/47.jpg?1524750626',
+        'https://img.scryfall.com/cards/normal/front/d/7/d766eb87-19ef-460b-982f-e55ae5890e6a.jpg?1555039961',
        large:
-        'https://img.scryfall.com/cards/large/en/rix/47.jpg?1524750626',
+        'https://img.scryfall.com/cards/large/front/d/7/d766eb87-19ef-460b-982f-e55ae5890e6a.jpg?1555039961',
        png:
-        'https://img.scryfall.com/cards/png/en/rix/47.png?1524750626',
+        'https://img.scryfall.com/cards/png/front/d/7/d766eb87-19ef-460b-982f-e55ae5890e6a.png?1555039961',
        art_crop:
-        'https://img.scryfall.com/cards/art_crop/en/rix/47.jpg?1524750626',
+        'https://img.scryfall.com/cards/art_crop/front/d/7/d766eb87-19ef-460b-982f-e55ae5890e6a.jpg?1555039961',
        border_crop:
-        'https://img.scryfall.com/cards/border_crop/en/rix/47.jpg?1524750626' },
+        'https://img.scryfall.com/cards/border_crop/front/d/7/d766eb87-19ef-460b-982f-e55ae5890e6a.jpg?1555039961' },
     mana_cost: '{2}{U}',
     cmc: 3,
     type_line: 'Creature — Merfolk Warrior',
@@ -14484,10 +14333,9 @@ module.exports = [ { object: 'card',
     artist: 'Winona Nelson',
     border_color: 'black',
     frame: '2015',
-    frame_effect: '',
     full_art: false,
     story_spotlight: false,
-    edhrec_rank: 15083,
+    edhrec_rank: 15534,
     related_uris:
      { gatherer:
         'http://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=439704',
@@ -14515,17 +14363,17 @@ module.exports = [ { object: 'card',
     highres_image: true,
     image_uris:
      { small:
-        'https://img.scryfall.com/cards/small/en/rix/46.jpg?1524750611',
+        'https://img.scryfall.com/cards/small/front/4/b/4b4f72ef-3939-467c-8fe4-fd1c215f2b1e.jpg?1555039954',
        normal:
-        'https://img.scryfall.com/cards/normal/en/rix/46.jpg?1524750611',
+        'https://img.scryfall.com/cards/normal/front/4/b/4b4f72ef-3939-467c-8fe4-fd1c215f2b1e.jpg?1555039954',
        large:
-        'https://img.scryfall.com/cards/large/en/rix/46.jpg?1524750611',
+        'https://img.scryfall.com/cards/large/front/4/b/4b4f72ef-3939-467c-8fe4-fd1c215f2b1e.jpg?1555039954',
        png:
-        'https://img.scryfall.com/cards/png/en/rix/46.png?1524750611',
+        'https://img.scryfall.com/cards/png/front/4/b/4b4f72ef-3939-467c-8fe4-fd1c215f2b1e.png?1555039954',
        art_crop:
-        'https://img.scryfall.com/cards/art_crop/en/rix/46.jpg?1524750611',
+        'https://img.scryfall.com/cards/art_crop/front/4/b/4b4f72ef-3939-467c-8fe4-fd1c215f2b1e.jpg?1555039954',
        border_crop:
-        'https://img.scryfall.com/cards/border_crop/en/rix/46.jpg?1524750611' },
+        'https://img.scryfall.com/cards/border_crop/front/4/b/4b4f72ef-3939-467c-8fe4-fd1c215f2b1e.jpg?1555039954' },
     mana_cost: '{2}{U}',
     cmc: 3,
     type_line: 'Instant',
@@ -14571,10 +14419,9 @@ module.exports = [ { object: 'card',
     artist: 'Joseph Meehan',
     border_color: 'black',
     frame: '2015',
-    frame_effect: '',
     full_art: false,
     story_spotlight: false,
-    edhrec_rank: 4807,
+    edhrec_rank: 4681,
     related_uris:
      { gatherer:
         'http://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=439703',
@@ -14602,17 +14449,17 @@ module.exports = [ { object: 'card',
     highres_image: true,
     image_uris:
      { small:
-        'https://img.scryfall.com/cards/small/en/rix/45.jpg?1524750598',
+        'https://img.scryfall.com/cards/small/front/4/8/48eba418-94ab-46a3-958c-4d5058fc2bcd.jpg?1555039948',
        normal:
-        'https://img.scryfall.com/cards/normal/en/rix/45.jpg?1524750598',
+        'https://img.scryfall.com/cards/normal/front/4/8/48eba418-94ab-46a3-958c-4d5058fc2bcd.jpg?1555039948',
        large:
-        'https://img.scryfall.com/cards/large/en/rix/45.jpg?1524750598',
+        'https://img.scryfall.com/cards/large/front/4/8/48eba418-94ab-46a3-958c-4d5058fc2bcd.jpg?1555039948',
        png:
-        'https://img.scryfall.com/cards/png/en/rix/45.png?1524750598',
+        'https://img.scryfall.com/cards/png/front/4/8/48eba418-94ab-46a3-958c-4d5058fc2bcd.png?1555039948',
        art_crop:
-        'https://img.scryfall.com/cards/art_crop/en/rix/45.jpg?1524750598',
+        'https://img.scryfall.com/cards/art_crop/front/4/8/48eba418-94ab-46a3-958c-4d5058fc2bcd.jpg?1555039948',
        border_crop:
-        'https://img.scryfall.com/cards/border_crop/en/rix/45.jpg?1524750598' },
+        'https://img.scryfall.com/cards/border_crop/front/4/8/48eba418-94ab-46a3-958c-4d5058fc2bcd.jpg?1555039948' },
     mana_cost: '{5}{U}{U}',
     cmc: 7,
     type_line: 'Legendary Creature — Elder Dinosaur',
@@ -14659,10 +14506,9 @@ module.exports = [ { object: 'card',
     artist: 'Sam Burley',
     border_color: 'black',
     frame: '2015',
-    frame_effect: '',
     full_art: false,
     story_spotlight: false,
-    edhrec_rank: 1071,
+    edhrec_rank: 1123,
     related_uris:
      { gatherer:
         'http://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=439702',
@@ -14689,17 +14535,17 @@ module.exports = [ { object: 'card',
     highres_image: true,
     image_uris:
      { small:
-        'https://img.scryfall.com/cards/small/en/rix/44.jpg?1524750585',
+        'https://img.scryfall.com/cards/small/front/3/1/31534f45-43e6-4103-bf58-ad8fa688e4b0.jpg?1555039942',
        normal:
-        'https://img.scryfall.com/cards/normal/en/rix/44.jpg?1524750585',
+        'https://img.scryfall.com/cards/normal/front/3/1/31534f45-43e6-4103-bf58-ad8fa688e4b0.jpg?1555039942',
        large:
-        'https://img.scryfall.com/cards/large/en/rix/44.jpg?1524750585',
+        'https://img.scryfall.com/cards/large/front/3/1/31534f45-43e6-4103-bf58-ad8fa688e4b0.jpg?1555039942',
        png:
-        'https://img.scryfall.com/cards/png/en/rix/44.png?1524750585',
+        'https://img.scryfall.com/cards/png/front/3/1/31534f45-43e6-4103-bf58-ad8fa688e4b0.png?1555039942',
        art_crop:
-        'https://img.scryfall.com/cards/art_crop/en/rix/44.jpg?1524750585',
+        'https://img.scryfall.com/cards/art_crop/front/3/1/31534f45-43e6-4103-bf58-ad8fa688e4b0.jpg?1555039942',
        border_crop:
-        'https://img.scryfall.com/cards/border_crop/en/rix/44.jpg?1524750585' },
+        'https://img.scryfall.com/cards/border_crop/front/3/1/31534f45-43e6-4103-bf58-ad8fa688e4b0.jpg?1555039942' },
     mana_cost: '{1}{U}',
     cmc: 2,
     type_line: 'Instant',
@@ -14744,10 +14590,9 @@ module.exports = [ { object: 'card',
     artist: 'Magali Villeneuve',
     border_color: 'black',
     frame: '2015',
-    frame_effect: '',
     full_art: false,
     story_spotlight: false,
-    edhrec_rank: 135,
+    edhrec_rank: 126,
     related_uris:
      { gatherer:
         'http://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=439701',
@@ -14775,17 +14620,17 @@ module.exports = [ { object: 'card',
     highres_image: true,
     image_uris:
      { small:
-        'https://img.scryfall.com/cards/small/en/rix/43.jpg?1524750572',
+        'https://img.scryfall.com/cards/small/front/1/8/18c1368e-114b-4618-922b-1d824ba0d1d5.jpg?1555039934',
        normal:
-        'https://img.scryfall.com/cards/normal/en/rix/43.jpg?1524750572',
+        'https://img.scryfall.com/cards/normal/front/1/8/18c1368e-114b-4618-922b-1d824ba0d1d5.jpg?1555039934',
        large:
-        'https://img.scryfall.com/cards/large/en/rix/43.jpg?1524750572',
+        'https://img.scryfall.com/cards/large/front/1/8/18c1368e-114b-4618-922b-1d824ba0d1d5.jpg?1555039934',
        png:
-        'https://img.scryfall.com/cards/png/en/rix/43.png?1524750572',
+        'https://img.scryfall.com/cards/png/front/1/8/18c1368e-114b-4618-922b-1d824ba0d1d5.png?1555039934',
        art_crop:
-        'https://img.scryfall.com/cards/art_crop/en/rix/43.jpg?1524750572',
+        'https://img.scryfall.com/cards/art_crop/front/1/8/18c1368e-114b-4618-922b-1d824ba0d1d5.jpg?1555039934',
        border_crop:
-        'https://img.scryfall.com/cards/border_crop/en/rix/43.jpg?1524750572' },
+        'https://img.scryfall.com/cards/border_crop/front/1/8/18c1368e-114b-4618-922b-1d824ba0d1d5.jpg?1555039934' },
     mana_cost: '{U}',
     cmc: 1,
     type_line: 'Creature — Merfolk Warrior',
@@ -14833,10 +14678,9 @@ module.exports = [ { object: 'card',
     artist: 'Anthony Palumbo',
     border_color: 'black',
     frame: '2015',
-    frame_effect: '',
     full_art: false,
     story_spotlight: false,
-    edhrec_rank: 1822,
+    edhrec_rank: 1823,
     related_uris:
      { gatherer:
         'http://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=439700',
@@ -14864,17 +14708,17 @@ module.exports = [ { object: 'card',
     highres_image: true,
     image_uris:
      { small:
-        'https://img.scryfall.com/cards/small/en/rix/42.jpg?1524750562',
+        'https://img.scryfall.com/cards/small/front/3/a/3a86f499-a2d4-47f1-9fc1-b543e5ad5c82.jpg?1555039926',
        normal:
-        'https://img.scryfall.com/cards/normal/en/rix/42.jpg?1524750562',
+        'https://img.scryfall.com/cards/normal/front/3/a/3a86f499-a2d4-47f1-9fc1-b543e5ad5c82.jpg?1555039926',
        large:
-        'https://img.scryfall.com/cards/large/en/rix/42.jpg?1524750562',
+        'https://img.scryfall.com/cards/large/front/3/a/3a86f499-a2d4-47f1-9fc1-b543e5ad5c82.jpg?1555039926',
        png:
-        'https://img.scryfall.com/cards/png/en/rix/42.png?1524750562',
+        'https://img.scryfall.com/cards/png/front/3/a/3a86f499-a2d4-47f1-9fc1-b543e5ad5c82.png?1555039926',
        art_crop:
-        'https://img.scryfall.com/cards/art_crop/en/rix/42.jpg?1524750562',
+        'https://img.scryfall.com/cards/art_crop/front/3/a/3a86f499-a2d4-47f1-9fc1-b543e5ad5c82.jpg?1555039926',
        border_crop:
-        'https://img.scryfall.com/cards/border_crop/en/rix/42.jpg?1524750562' },
+        'https://img.scryfall.com/cards/border_crop/front/3/a/3a86f499-a2d4-47f1-9fc1-b543e5ad5c82.jpg?1555039926' },
     mana_cost: '{2}{U}{U}',
     cmc: 4,
     type_line: 'Enchantment',
@@ -14919,10 +14763,9 @@ module.exports = [ { object: 'card',
     artist: 'Zack Stella',
     border_color: 'black',
     frame: '2015',
-    frame_effect: '',
     full_art: false,
     story_spotlight: false,
-    edhrec_rank: 1952,
+    edhrec_rank: 2069,
     related_uris:
      { gatherer:
         'http://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=439699',
@@ -14950,17 +14793,17 @@ module.exports = [ { object: 'card',
     highres_image: true,
     image_uris:
      { small:
-        'https://img.scryfall.com/cards/small/en/rix/41.jpg?1524750551',
+        'https://img.scryfall.com/cards/small/front/4/b/4b8d0e8d-c2d4-4682-8095-827ffd79539b.jpg?1555039919',
        normal:
-        'https://img.scryfall.com/cards/normal/en/rix/41.jpg?1524750551',
+        'https://img.scryfall.com/cards/normal/front/4/b/4b8d0e8d-c2d4-4682-8095-827ffd79539b.jpg?1555039919',
        large:
-        'https://img.scryfall.com/cards/large/en/rix/41.jpg?1524750551',
+        'https://img.scryfall.com/cards/large/front/4/b/4b8d0e8d-c2d4-4682-8095-827ffd79539b.jpg?1555039919',
        png:
-        'https://img.scryfall.com/cards/png/en/rix/41.png?1524750551',
+        'https://img.scryfall.com/cards/png/front/4/b/4b8d0e8d-c2d4-4682-8095-827ffd79539b.png?1555039919',
        art_crop:
-        'https://img.scryfall.com/cards/art_crop/en/rix/41.jpg?1524750551',
+        'https://img.scryfall.com/cards/art_crop/front/4/b/4b8d0e8d-c2d4-4682-8095-827ffd79539b.jpg?1555039919',
        border_crop:
-        'https://img.scryfall.com/cards/border_crop/en/rix/41.jpg?1524750551' },
+        'https://img.scryfall.com/cards/border_crop/front/4/b/4b8d0e8d-c2d4-4682-8095-827ffd79539b.jpg?1555039919' },
     mana_cost: '{1}{U}',
     cmc: 2,
     type_line: 'Creature — Human Pirate',
@@ -15008,10 +14851,9 @@ module.exports = [ { object: 'card',
     artist: 'Greg Opalinski',
     border_color: 'black',
     frame: '2015',
-    frame_effect: '',
     full_art: false,
     story_spotlight: false,
-    edhrec_rank: 9451,
+    edhrec_rank: 9565,
     related_uris:
      { gatherer:
         'http://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=439698',
@@ -15039,17 +14881,17 @@ module.exports = [ { object: 'card',
     highres_image: true,
     image_uris:
      { small:
-        'https://img.scryfall.com/cards/small/en/rix/40.jpg?1524750539',
+        'https://img.scryfall.com/cards/small/front/a/4/a4ee56f1-9f08-459f-8517-0fe7bc645fa3.jpg?1555039913',
        normal:
-        'https://img.scryfall.com/cards/normal/en/rix/40.jpg?1524750539',
+        'https://img.scryfall.com/cards/normal/front/a/4/a4ee56f1-9f08-459f-8517-0fe7bc645fa3.jpg?1555039913',
        large:
-        'https://img.scryfall.com/cards/large/en/rix/40.jpg?1524750539',
+        'https://img.scryfall.com/cards/large/front/a/4/a4ee56f1-9f08-459f-8517-0fe7bc645fa3.jpg?1555039913',
        png:
-        'https://img.scryfall.com/cards/png/en/rix/40.png?1524750539',
+        'https://img.scryfall.com/cards/png/front/a/4/a4ee56f1-9f08-459f-8517-0fe7bc645fa3.png?1555039913',
        art_crop:
-        'https://img.scryfall.com/cards/art_crop/en/rix/40.jpg?1524750539',
+        'https://img.scryfall.com/cards/art_crop/front/a/4/a4ee56f1-9f08-459f-8517-0fe7bc645fa3.jpg?1555039913',
        border_crop:
-        'https://img.scryfall.com/cards/border_crop/en/rix/40.jpg?1524750539' },
+        'https://img.scryfall.com/cards/border_crop/front/a/4/a4ee56f1-9f08-459f-8517-0fe7bc645fa3.jpg?1555039913' },
     mana_cost: '{2}{U}',
     cmc: 3,
     type_line: 'Enchantment',
@@ -15095,10 +14937,9 @@ module.exports = [ { object: 'card',
     artist: 'Chris Rallis',
     border_color: 'black',
     frame: '2015',
-    frame_effect: '',
     full_art: false,
     story_spotlight: true,
-    edhrec_rank: 6247,
+    edhrec_rank: 6600,
     related_uris:
      { gatherer:
         'http://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=439697',
@@ -15126,17 +14967,17 @@ module.exports = [ { object: 'card',
     highres_image: true,
     image_uris:
      { small:
-        'https://img.scryfall.com/cards/small/en/rix/39.jpg?1524750525',
+        'https://img.scryfall.com/cards/small/front/b/1/b10b8f15-b323-44d8-85a7-ed662a40889d.jpg?1555039907',
        normal:
-        'https://img.scryfall.com/cards/normal/en/rix/39.jpg?1524750525',
+        'https://img.scryfall.com/cards/normal/front/b/1/b10b8f15-b323-44d8-85a7-ed662a40889d.jpg?1555039907',
        large:
-        'https://img.scryfall.com/cards/large/en/rix/39.jpg?1524750525',
+        'https://img.scryfall.com/cards/large/front/b/1/b10b8f15-b323-44d8-85a7-ed662a40889d.jpg?1555039907',
        png:
-        'https://img.scryfall.com/cards/png/en/rix/39.png?1524750525',
+        'https://img.scryfall.com/cards/png/front/b/1/b10b8f15-b323-44d8-85a7-ed662a40889d.png?1555039907',
        art_crop:
-        'https://img.scryfall.com/cards/art_crop/en/rix/39.jpg?1524750525',
+        'https://img.scryfall.com/cards/art_crop/front/b/1/b10b8f15-b323-44d8-85a7-ed662a40889d.jpg?1555039907',
        border_crop:
-        'https://img.scryfall.com/cards/border_crop/en/rix/39.jpg?1524750525' },
+        'https://img.scryfall.com/cards/border_crop/front/b/1/b10b8f15-b323-44d8-85a7-ed662a40889d.jpg?1555039907' },
     mana_cost: '{2}{U}',
     cmc: 3,
     type_line: 'Instant',
@@ -15153,12 +14994,12 @@ module.exports = [ { object: 'card',
          uri:
           'https://api.scryfall.com/cards/b10b8f15-b323-44d8-85a7-ed662a40889d' },
        { object: 'related_card',
-         id: '56f06ec6-634d-454b-a46a-dfefe4600d27',
+         id: '720f3e68-84c0-462e-a0d1-90236ccc494a',
          component: 'token',
          name: 'Treasure',
          type_line: 'Token Artifact — Treasure',
          uri:
-          'https://api.scryfall.com/cards/56f06ec6-634d-454b-a46a-dfefe4600d27' } ],
+          'https://api.scryfall.com/cards/720f3e68-84c0-462e-a0d1-90236ccc494a' } ],
     legalities:
      { standard: 'legal',
        future: 'legal',
@@ -15198,10 +15039,9 @@ module.exports = [ { object: 'card',
     artist: 'Deruchenko Alexander',
     border_color: 'black',
     frame: '2015',
-    frame_effect: '',
     full_art: false,
     story_spotlight: false,
-    edhrec_rank: 5496,
+    edhrec_rank: 5354,
     related_uris:
      { gatherer:
         'http://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=439696',
@@ -15229,17 +15069,17 @@ module.exports = [ { object: 'card',
     highres_image: true,
     image_uris:
      { small:
-        'https://img.scryfall.com/cards/small/en/rix/38.jpg?1524750512',
+        'https://img.scryfall.com/cards/small/front/0/3/03a353c1-a640-4b01-9754-3fb6011c8211.jpg?1555039900',
        normal:
-        'https://img.scryfall.com/cards/normal/en/rix/38.jpg?1524750512',
+        'https://img.scryfall.com/cards/normal/front/0/3/03a353c1-a640-4b01-9754-3fb6011c8211.jpg?1555039900',
        large:
-        'https://img.scryfall.com/cards/large/en/rix/38.jpg?1524750512',
+        'https://img.scryfall.com/cards/large/front/0/3/03a353c1-a640-4b01-9754-3fb6011c8211.jpg?1555039900',
        png:
-        'https://img.scryfall.com/cards/png/en/rix/38.png?1524750512',
+        'https://img.scryfall.com/cards/png/front/0/3/03a353c1-a640-4b01-9754-3fb6011c8211.png?1555039900',
        art_crop:
-        'https://img.scryfall.com/cards/art_crop/en/rix/38.jpg?1524750512',
+        'https://img.scryfall.com/cards/art_crop/front/0/3/03a353c1-a640-4b01-9754-3fb6011c8211.jpg?1555039900',
        border_crop:
-        'https://img.scryfall.com/cards/border_crop/en/rix/38.jpg?1524750512' },
+        'https://img.scryfall.com/cards/border_crop/front/0/3/03a353c1-a640-4b01-9754-3fb6011c8211.jpg?1555039900' },
     mana_cost: '{U}{U}',
     cmc: 2,
     type_line: 'Sorcery',
@@ -15287,10 +15127,9 @@ module.exports = [ { object: 'card',
     artist: 'Magali Villeneuve',
     border_color: 'black',
     frame: '2015',
-    frame_effect: '',
     full_art: false,
     story_spotlight: true,
-    edhrec_rank: 2851,
+    edhrec_rank: 3002,
     related_uris:
      { gatherer:
         'http://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=439695',
@@ -15318,17 +15157,17 @@ module.exports = [ { object: 'card',
     highres_image: true,
     image_uris:
      { small:
-        'https://img.scryfall.com/cards/small/en/rix/37.jpg?1524750500',
+        'https://img.scryfall.com/cards/small/front/6/4/64f5119f-3921-48a5-a8fb-0cb1bbabde30.jpg?1555039894',
        normal:
-        'https://img.scryfall.com/cards/normal/en/rix/37.jpg?1524750500',
+        'https://img.scryfall.com/cards/normal/front/6/4/64f5119f-3921-48a5-a8fb-0cb1bbabde30.jpg?1555039894',
        large:
-        'https://img.scryfall.com/cards/large/en/rix/37.jpg?1524750500',
+        'https://img.scryfall.com/cards/large/front/6/4/64f5119f-3921-48a5-a8fb-0cb1bbabde30.jpg?1555039894',
        png:
-        'https://img.scryfall.com/cards/png/en/rix/37.png?1524750500',
+        'https://img.scryfall.com/cards/png/front/6/4/64f5119f-3921-48a5-a8fb-0cb1bbabde30.png?1555039894',
        art_crop:
-        'https://img.scryfall.com/cards/art_crop/en/rix/37.jpg?1524750500',
+        'https://img.scryfall.com/cards/art_crop/front/6/4/64f5119f-3921-48a5-a8fb-0cb1bbabde30.jpg?1555039894',
        border_crop:
-        'https://img.scryfall.com/cards/border_crop/en/rix/37.jpg?1524750500' },
+        'https://img.scryfall.com/cards/border_crop/front/6/4/64f5119f-3921-48a5-a8fb-0cb1bbabde30.jpg?1555039894' },
     mana_cost: '{1}{U}',
     cmc: 2,
     type_line: 'Instant',
@@ -15373,10 +15212,9 @@ module.exports = [ { object: 'card',
     artist: 'Steven Belledin',
     border_color: 'black',
     frame: '2015',
-    frame_effect: '',
     full_art: false,
     story_spotlight: false,
-    edhrec_rank: 6356,
+    edhrec_rank: 6399,
     related_uris:
      { gatherer:
         'http://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=439694',
@@ -15404,17 +15242,17 @@ module.exports = [ { object: 'card',
     highres_image: true,
     image_uris:
      { small:
-        'https://img.scryfall.com/cards/small/en/rix/36.jpg?1524750488',
+        'https://img.scryfall.com/cards/small/front/d/b/db310d8f-0db7-44c9-9f2d-9a0773b565b0.jpg?1555039888',
        normal:
-        'https://img.scryfall.com/cards/normal/en/rix/36.jpg?1524750488',
+        'https://img.scryfall.com/cards/normal/front/d/b/db310d8f-0db7-44c9-9f2d-9a0773b565b0.jpg?1555039888',
        large:
-        'https://img.scryfall.com/cards/large/en/rix/36.jpg?1524750488',
+        'https://img.scryfall.com/cards/large/front/d/b/db310d8f-0db7-44c9-9f2d-9a0773b565b0.jpg?1555039888',
        png:
-        'https://img.scryfall.com/cards/png/en/rix/36.png?1524750488',
+        'https://img.scryfall.com/cards/png/front/d/b/db310d8f-0db7-44c9-9f2d-9a0773b565b0.png?1555039888',
        art_crop:
-        'https://img.scryfall.com/cards/art_crop/en/rix/36.jpg?1524750488',
+        'https://img.scryfall.com/cards/art_crop/front/d/b/db310d8f-0db7-44c9-9f2d-9a0773b565b0.jpg?1555039888',
        border_crop:
-        'https://img.scryfall.com/cards/border_crop/en/rix/36.jpg?1524750488' },
+        'https://img.scryfall.com/cards/border_crop/front/d/b/db310d8f-0db7-44c9-9f2d-9a0773b565b0.jpg?1555039888' },
     mana_cost: '{3}{U}',
     cmc: 4,
     type_line: 'Creature — Human Pirate',
@@ -15462,10 +15300,9 @@ module.exports = [ { object: 'card',
     artist: 'Victor Adame Minguez',
     border_color: 'black',
     frame: '2015',
-    frame_effect: '',
     full_art: false,
     story_spotlight: false,
-    edhrec_rank: 9802,
+    edhrec_rank: 10330,
     related_uris:
      { gatherer:
         'http://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=439693',
@@ -15493,17 +15330,17 @@ module.exports = [ { object: 'card',
     highres_image: true,
     image_uris:
      { small:
-        'https://img.scryfall.com/cards/small/en/rix/35.jpg?1524750476',
+        'https://img.scryfall.com/cards/small/front/7/f/7f998c62-30c9-4fc3-a045-5becc04f9e3e.jpg?1555039881',
        normal:
-        'https://img.scryfall.com/cards/normal/en/rix/35.jpg?1524750476',
+        'https://img.scryfall.com/cards/normal/front/7/f/7f998c62-30c9-4fc3-a045-5becc04f9e3e.jpg?1555039881',
        large:
-        'https://img.scryfall.com/cards/large/en/rix/35.jpg?1524750476',
+        'https://img.scryfall.com/cards/large/front/7/f/7f998c62-30c9-4fc3-a045-5becc04f9e3e.jpg?1555039881',
        png:
-        'https://img.scryfall.com/cards/png/en/rix/35.png?1524750476',
+        'https://img.scryfall.com/cards/png/front/7/f/7f998c62-30c9-4fc3-a045-5becc04f9e3e.png?1555039881',
        art_crop:
-        'https://img.scryfall.com/cards/art_crop/en/rix/35.jpg?1524750476',
+        'https://img.scryfall.com/cards/art_crop/front/7/f/7f998c62-30c9-4fc3-a045-5becc04f9e3e.jpg?1555039881',
        border_crop:
-        'https://img.scryfall.com/cards/border_crop/en/rix/35.jpg?1524750476' },
+        'https://img.scryfall.com/cards/border_crop/front/7/f/7f998c62-30c9-4fc3-a045-5becc04f9e3e.jpg?1555039881' },
     mana_cost: '{U}',
     cmc: 1,
     type_line: 'Enchantment — Aura',
@@ -15548,10 +15385,9 @@ module.exports = [ { object: 'card',
     artist: 'Daniel Ljunggren',
     border_color: 'black',
     frame: '2015',
-    frame_effect: '',
     full_art: false,
     story_spotlight: false,
-    edhrec_rank: 5360,
+    edhrec_rank: 5353,
     related_uris:
      { gatherer:
         'http://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=439692',
@@ -15579,17 +15415,17 @@ module.exports = [ { object: 'card',
     highres_image: true,
     image_uris:
      { small:
-        'https://img.scryfall.com/cards/small/en/rix/34.jpg?1524750464',
+        'https://img.scryfall.com/cards/small/front/e/3/e312980a-7b3c-43f8-81cf-53ff818cea30.jpg?1555039872',
        normal:
-        'https://img.scryfall.com/cards/normal/en/rix/34.jpg?1524750464',
+        'https://img.scryfall.com/cards/normal/front/e/3/e312980a-7b3c-43f8-81cf-53ff818cea30.jpg?1555039872',
        large:
-        'https://img.scryfall.com/cards/large/en/rix/34.jpg?1524750464',
+        'https://img.scryfall.com/cards/large/front/e/3/e312980a-7b3c-43f8-81cf-53ff818cea30.jpg?1555039872',
        png:
-        'https://img.scryfall.com/cards/png/en/rix/34.png?1524750464',
+        'https://img.scryfall.com/cards/png/front/e/3/e312980a-7b3c-43f8-81cf-53ff818cea30.png?1555039872',
        art_crop:
-        'https://img.scryfall.com/cards/art_crop/en/rix/34.jpg?1524750464',
+        'https://img.scryfall.com/cards/art_crop/front/e/3/e312980a-7b3c-43f8-81cf-53ff818cea30.jpg?1555039872',
        border_crop:
-        'https://img.scryfall.com/cards/border_crop/en/rix/34.jpg?1524750464' },
+        'https://img.scryfall.com/cards/border_crop/front/e/3/e312980a-7b3c-43f8-81cf-53ff818cea30.jpg?1555039872' },
     mana_cost: '{2}{U}',
     cmc: 3,
     type_line: 'Sorcery',
@@ -15634,10 +15470,9 @@ module.exports = [ { object: 'card',
     artist: 'Carmen Sinek',
     border_color: 'black',
     frame: '2015',
-    frame_effect: '',
     full_art: false,
     story_spotlight: false,
-    edhrec_rank: 9146,
+    edhrec_rank: 9115,
     related_uris:
      { gatherer:
         'http://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=439691',
@@ -15665,17 +15500,17 @@ module.exports = [ { object: 'card',
     highres_image: true,
     image_uris:
      { small:
-        'https://img.scryfall.com/cards/small/en/rix/33.jpg?1524750454',
+        'https://img.scryfall.com/cards/small/front/a/c/ac6afc4c-3c41-44e8-ad8c-186c277267a1.jpg?1555039866',
        normal:
-        'https://img.scryfall.com/cards/normal/en/rix/33.jpg?1524750454',
+        'https://img.scryfall.com/cards/normal/front/a/c/ac6afc4c-3c41-44e8-ad8c-186c277267a1.jpg?1555039866',
        large:
-        'https://img.scryfall.com/cards/large/en/rix/33.jpg?1524750454',
+        'https://img.scryfall.com/cards/large/front/a/c/ac6afc4c-3c41-44e8-ad8c-186c277267a1.jpg?1555039866',
        png:
-        'https://img.scryfall.com/cards/png/en/rix/33.png?1524750454',
+        'https://img.scryfall.com/cards/png/front/a/c/ac6afc4c-3c41-44e8-ad8c-186c277267a1.png?1555039866',
        art_crop:
-        'https://img.scryfall.com/cards/art_crop/en/rix/33.jpg?1524750454',
+        'https://img.scryfall.com/cards/art_crop/front/a/c/ac6afc4c-3c41-44e8-ad8c-186c277267a1.jpg?1555039866',
        border_crop:
-        'https://img.scryfall.com/cards/border_crop/en/rix/33.jpg?1524750454' },
+        'https://img.scryfall.com/cards/border_crop/front/a/c/ac6afc4c-3c41-44e8-ad8c-186c277267a1.jpg?1555039866' },
     mana_cost: '{3}{U}',
     cmc: 4,
     type_line: 'Creature — Human Pirate',
@@ -15723,10 +15558,9 @@ module.exports = [ { object: 'card',
     artist: 'Grzegorz Rutkowski',
     border_color: 'black',
     frame: '2015',
-    frame_effect: '',
     full_art: false,
     story_spotlight: false,
-    edhrec_rank: 5006,
+    edhrec_rank: 5214,
     related_uris:
      { gatherer:
         'http://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=439690',
@@ -15754,17 +15588,17 @@ module.exports = [ { object: 'card',
     highres_image: true,
     image_uris:
      { small:
-        'https://img.scryfall.com/cards/small/en/rix/32.jpg?1524750439',
+        'https://img.scryfall.com/cards/small/front/5/6/56cb8fa2-337b-4596-9c31-01f0c0b171b7.jpg?1555039859',
        normal:
-        'https://img.scryfall.com/cards/normal/en/rix/32.jpg?1524750439',
+        'https://img.scryfall.com/cards/normal/front/5/6/56cb8fa2-337b-4596-9c31-01f0c0b171b7.jpg?1555039859',
        large:
-        'https://img.scryfall.com/cards/large/en/rix/32.jpg?1524750439',
+        'https://img.scryfall.com/cards/large/front/5/6/56cb8fa2-337b-4596-9c31-01f0c0b171b7.jpg?1555039859',
        png:
-        'https://img.scryfall.com/cards/png/en/rix/32.png?1524750439',
+        'https://img.scryfall.com/cards/png/front/5/6/56cb8fa2-337b-4596-9c31-01f0c0b171b7.png?1555039859',
        art_crop:
-        'https://img.scryfall.com/cards/art_crop/en/rix/32.jpg?1524750439',
+        'https://img.scryfall.com/cards/art_crop/front/5/6/56cb8fa2-337b-4596-9c31-01f0c0b171b7.jpg?1555039859',
        border_crop:
-        'https://img.scryfall.com/cards/border_crop/en/rix/32.jpg?1524750439' },
+        'https://img.scryfall.com/cards/border_crop/front/5/6/56cb8fa2-337b-4596-9c31-01f0c0b171b7.jpg?1555039859' },
     mana_cost: '{3}{U}',
     cmc: 4,
     type_line: 'Enchantment',
@@ -15824,10 +15658,9 @@ module.exports = [ { object: 'card',
     artist: 'Jason Rainville',
     border_color: 'black',
     frame: '2015',
-    frame_effect: '',
     full_art: false,
     story_spotlight: false,
-    edhrec_rank: 5372,
+    edhrec_rank: 5827,
     related_uris:
      { gatherer:
         'http://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=439689',
@@ -15855,17 +15688,17 @@ module.exports = [ { object: 'card',
     highres_image: true,
     image_uris:
      { small:
-        'https://img.scryfall.com/cards/small/en/rix/31.jpg?1524750430',
+        'https://img.scryfall.com/cards/small/front/8/0/80dc0310-afd9-49b4-b58f-a0e91120c38c.jpg?1555039852',
        normal:
-        'https://img.scryfall.com/cards/normal/en/rix/31.jpg?1524750430',
+        'https://img.scryfall.com/cards/normal/front/8/0/80dc0310-afd9-49b4-b58f-a0e91120c38c.jpg?1555039852',
        large:
-        'https://img.scryfall.com/cards/large/en/rix/31.jpg?1524750430',
+        'https://img.scryfall.com/cards/large/front/8/0/80dc0310-afd9-49b4-b58f-a0e91120c38c.jpg?1555039852',
        png:
-        'https://img.scryfall.com/cards/png/en/rix/31.png?1524750430',
+        'https://img.scryfall.com/cards/png/front/8/0/80dc0310-afd9-49b4-b58f-a0e91120c38c.png?1555039852',
        art_crop:
-        'https://img.scryfall.com/cards/art_crop/en/rix/31.jpg?1524750430',
+        'https://img.scryfall.com/cards/art_crop/front/8/0/80dc0310-afd9-49b4-b58f-a0e91120c38c.jpg?1555039852',
        border_crop:
-        'https://img.scryfall.com/cards/border_crop/en/rix/31.jpg?1524750430' },
+        'https://img.scryfall.com/cards/border_crop/front/8/0/80dc0310-afd9-49b4-b58f-a0e91120c38c.jpg?1555039852' },
     mana_cost: '{1}{U}{U}',
     cmc: 3,
     type_line: 'Instant',
@@ -15911,10 +15744,9 @@ module.exports = [ { object: 'card',
     artist: 'Slawomir Maniak',
     border_color: 'black',
     frame: '2015',
-    frame_effect: '',
     full_art: false,
     story_spotlight: false,
-    edhrec_rank: 4224,
+    edhrec_rank: 4600,
     related_uris:
      { gatherer:
         'http://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=439688',
@@ -15942,17 +15774,17 @@ module.exports = [ { object: 'card',
     highres_image: true,
     image_uris:
      { small:
-        'https://img.scryfall.com/cards/small/en/rix/30.jpg?1524750417',
+        'https://img.scryfall.com/cards/small/front/3/d/3d10560f-199d-4d04-b573-90024f8aecc4.jpg?1555039845',
        normal:
-        'https://img.scryfall.com/cards/normal/en/rix/30.jpg?1524750417',
+        'https://img.scryfall.com/cards/normal/front/3/d/3d10560f-199d-4d04-b573-90024f8aecc4.jpg?1555039845',
        large:
-        'https://img.scryfall.com/cards/large/en/rix/30.jpg?1524750417',
+        'https://img.scryfall.com/cards/large/front/3/d/3d10560f-199d-4d04-b573-90024f8aecc4.jpg?1555039845',
        png:
-        'https://img.scryfall.com/cards/png/en/rix/30.png?1524750417',
+        'https://img.scryfall.com/cards/png/front/3/d/3d10560f-199d-4d04-b573-90024f8aecc4.png?1555039845',
        art_crop:
-        'https://img.scryfall.com/cards/art_crop/en/rix/30.jpg?1524750417',
+        'https://img.scryfall.com/cards/art_crop/front/3/d/3d10560f-199d-4d04-b573-90024f8aecc4.jpg?1555039845',
        border_crop:
-        'https://img.scryfall.com/cards/border_crop/en/rix/30.jpg?1524750417' },
+        'https://img.scryfall.com/cards/border_crop/front/3/d/3d10560f-199d-4d04-b573-90024f8aecc4.jpg?1555039845' },
     mana_cost: '{6}{W}{W}',
     cmc: 8,
     type_line: 'Legendary Creature — Elder Dinosaur',
@@ -15999,10 +15831,9 @@ module.exports = [ { object: 'card',
     artist: 'Chris Rallis',
     border_color: 'black',
     frame: '2015',
-    frame_effect: '',
     full_art: false,
     story_spotlight: false,
-    edhrec_rank: 2077,
+    edhrec_rank: 2300,
     related_uris:
      { gatherer:
         'http://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=439687',
@@ -16030,17 +15861,17 @@ module.exports = [ { object: 'card',
     highres_image: true,
     image_uris:
      { small:
-        'https://img.scryfall.com/cards/small/en/rix/29.jpg?1524750403',
+        'https://img.scryfall.com/cards/small/front/b/2/b2c280c8-3471-4ae1-be96-0f392b095ce2.jpg?1555039837',
        normal:
-        'https://img.scryfall.com/cards/normal/en/rix/29.jpg?1524750403',
+        'https://img.scryfall.com/cards/normal/front/b/2/b2c280c8-3471-4ae1-be96-0f392b095ce2.jpg?1555039837',
        large:
-        'https://img.scryfall.com/cards/large/en/rix/29.jpg?1524750403',
+        'https://img.scryfall.com/cards/large/front/b/2/b2c280c8-3471-4ae1-be96-0f392b095ce2.jpg?1555039837',
        png:
-        'https://img.scryfall.com/cards/png/en/rix/29.png?1524750403',
+        'https://img.scryfall.com/cards/png/front/b/2/b2c280c8-3471-4ae1-be96-0f392b095ce2.png?1555039837',
        art_crop:
-        'https://img.scryfall.com/cards/art_crop/en/rix/29.jpg?1524750403',
+        'https://img.scryfall.com/cards/art_crop/front/b/2/b2c280c8-3471-4ae1-be96-0f392b095ce2.jpg?1555039837',
        border_crop:
-        'https://img.scryfall.com/cards/border_crop/en/rix/29.jpg?1524750403' },
+        'https://img.scryfall.com/cards/border_crop/front/b/2/b2c280c8-3471-4ae1-be96-0f392b095ce2.jpg?1555039837' },
     mana_cost: '{3}{W}{W}',
     cmc: 5,
     type_line: 'Creature — Dinosaur',
@@ -16088,10 +15919,9 @@ module.exports = [ { object: 'card',
     artist: 'Chris Rahn',
     border_color: 'black',
     frame: '2015',
-    frame_effect: '',
     full_art: false,
     story_spotlight: false,
-    edhrec_rank: 1841,
+    edhrec_rank: 2039,
     related_uris:
      { gatherer:
         'http://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=439686',
@@ -16119,17 +15949,17 @@ module.exports = [ { object: 'card',
     highres_image: true,
     image_uris:
      { small:
-        'https://img.scryfall.com/cards/small/en/rix/28.jpg?1524750389',
+        'https://img.scryfall.com/cards/small/front/f/a/fa8f8d61-51d6-479b-a812-6cbacc7ea1fc.jpg?1555039829',
        normal:
-        'https://img.scryfall.com/cards/normal/en/rix/28.jpg?1524750389',
+        'https://img.scryfall.com/cards/normal/front/f/a/fa8f8d61-51d6-479b-a812-6cbacc7ea1fc.jpg?1555039829',
        large:
-        'https://img.scryfall.com/cards/large/en/rix/28.jpg?1524750389',
+        'https://img.scryfall.com/cards/large/front/f/a/fa8f8d61-51d6-479b-a812-6cbacc7ea1fc.jpg?1555039829',
        png:
-        'https://img.scryfall.com/cards/png/en/rix/28.png?1524750389',
+        'https://img.scryfall.com/cards/png/front/f/a/fa8f8d61-51d6-479b-a812-6cbacc7ea1fc.png?1555039829',
        art_crop:
-        'https://img.scryfall.com/cards/art_crop/en/rix/28.jpg?1524750389',
+        'https://img.scryfall.com/cards/art_crop/front/f/a/fa8f8d61-51d6-479b-a812-6cbacc7ea1fc.jpg?1555039829',
        border_crop:
-        'https://img.scryfall.com/cards/border_crop/en/rix/28.jpg?1524750389' },
+        'https://img.scryfall.com/cards/border_crop/front/f/a/fa8f8d61-51d6-479b-a812-6cbacc7ea1fc.jpg?1555039829' },
     mana_cost: '{4}{W}',
     cmc: 5,
     type_line: 'Creature — Dinosaur',
@@ -16178,10 +16008,9 @@ module.exports = [ { object: 'card',
     artist: 'Daarken',
     border_color: 'black',
     frame: '2015',
-    frame_effect: '',
     full_art: false,
     story_spotlight: false,
-    edhrec_rank: 1948,
+    edhrec_rank: 2115,
     related_uris:
      { gatherer:
         'http://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=439685',
@@ -16209,17 +16038,17 @@ module.exports = [ { object: 'card',
     highres_image: true,
     image_uris:
      { small:
-        'https://img.scryfall.com/cards/small/en/rix/27.jpg?1524750372',
+        'https://img.scryfall.com/cards/small/front/c/2/c298b51f-b725-4a51-a91e-4c66cf6dfe9d.jpg?1555039823',
        normal:
-        'https://img.scryfall.com/cards/normal/en/rix/27.jpg?1524750372',
+        'https://img.scryfall.com/cards/normal/front/c/2/c298b51f-b725-4a51-a91e-4c66cf6dfe9d.jpg?1555039823',
        large:
-        'https://img.scryfall.com/cards/large/en/rix/27.jpg?1524750372',
+        'https://img.scryfall.com/cards/large/front/c/2/c298b51f-b725-4a51-a91e-4c66cf6dfe9d.jpg?1555039823',
        png:
-        'https://img.scryfall.com/cards/png/en/rix/27.png?1524750372',
+        'https://img.scryfall.com/cards/png/front/c/2/c298b51f-b725-4a51-a91e-4c66cf6dfe9d.png?1555039823',
        art_crop:
-        'https://img.scryfall.com/cards/art_crop/en/rix/27.jpg?1524750372',
+        'https://img.scryfall.com/cards/art_crop/front/c/2/c298b51f-b725-4a51-a91e-4c66cf6dfe9d.jpg?1555039823',
        border_crop:
-        'https://img.scryfall.com/cards/border_crop/en/rix/27.jpg?1524750372' },
+        'https://img.scryfall.com/cards/border_crop/front/c/2/c298b51f-b725-4a51-a91e-4c66cf6dfe9d.jpg?1555039823' },
     mana_cost: '{4}{W}',
     cmc: 5,
     type_line: 'Creature — Dinosaur',
@@ -16268,10 +16097,9 @@ module.exports = [ { object: 'card',
     artist: 'Lars Grant-West',
     border_color: 'black',
     frame: '2015',
-    frame_effect: '',
     full_art: false,
     story_spotlight: false,
-    edhrec_rank: 8578,
+    edhrec_rank: 9426,
     related_uris:
      { gatherer:
         'http://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=439684',
@@ -16299,17 +16127,17 @@ module.exports = [ { object: 'card',
     highres_image: true,
     image_uris:
      { small:
-        'https://img.scryfall.com/cards/small/en/rix/26.jpg?1524750358',
+        'https://img.scryfall.com/cards/small/front/6/8/6867fd5a-3bbe-416d-96a6-1db0b341260e.jpg?1555039817',
        normal:
-        'https://img.scryfall.com/cards/normal/en/rix/26.jpg?1524750358',
+        'https://img.scryfall.com/cards/normal/front/6/8/6867fd5a-3bbe-416d-96a6-1db0b341260e.jpg?1555039817',
        large:
-        'https://img.scryfall.com/cards/large/en/rix/26.jpg?1524750358',
+        'https://img.scryfall.com/cards/large/front/6/8/6867fd5a-3bbe-416d-96a6-1db0b341260e.jpg?1555039817',
        png:
-        'https://img.scryfall.com/cards/png/en/rix/26.png?1524750358',
+        'https://img.scryfall.com/cards/png/front/6/8/6867fd5a-3bbe-416d-96a6-1db0b341260e.png?1555039817',
        art_crop:
-        'https://img.scryfall.com/cards/art_crop/en/rix/26.jpg?1524750358',
+        'https://img.scryfall.com/cards/art_crop/front/6/8/6867fd5a-3bbe-416d-96a6-1db0b341260e.jpg?1555039817',
        border_crop:
-        'https://img.scryfall.com/cards/border_crop/en/rix/26.jpg?1524750358' },
+        'https://img.scryfall.com/cards/border_crop/front/6/8/6867fd5a-3bbe-416d-96a6-1db0b341260e.jpg?1555039817' },
     mana_cost: '{1}{W}',
     cmc: 2,
     type_line: 'Creature — Human Soldier',
@@ -16356,10 +16184,9 @@ module.exports = [ { object: 'card',
     artist: 'James Ryman',
     border_color: 'black',
     frame: '2015',
-    frame_effect: '',
     full_art: false,
     story_spotlight: false,
-    edhrec_rank: 13821,
+    edhrec_rank: 14022,
     related_uris:
      { gatherer:
         'http://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=439683',
@@ -16387,17 +16214,17 @@ module.exports = [ { object: 'card',
     highres_image: true,
     image_uris:
      { small:
-        'https://img.scryfall.com/cards/small/en/rix/25.jpg?1524750343',
+        'https://img.scryfall.com/cards/small/front/9/1/91de07da-564d-42f3-987d-a2321c3216bc.jpg?1555039810',
        normal:
-        'https://img.scryfall.com/cards/normal/en/rix/25.jpg?1524750343',
+        'https://img.scryfall.com/cards/normal/front/9/1/91de07da-564d-42f3-987d-a2321c3216bc.jpg?1555039810',
        large:
-        'https://img.scryfall.com/cards/large/en/rix/25.jpg?1524750343',
+        'https://img.scryfall.com/cards/large/front/9/1/91de07da-564d-42f3-987d-a2321c3216bc.jpg?1555039810',
        png:
-        'https://img.scryfall.com/cards/png/en/rix/25.png?1524750343',
+        'https://img.scryfall.com/cards/png/front/9/1/91de07da-564d-42f3-987d-a2321c3216bc.png?1555039810',
        art_crop:
-        'https://img.scryfall.com/cards/art_crop/en/rix/25.jpg?1524750343',
+        'https://img.scryfall.com/cards/art_crop/front/9/1/91de07da-564d-42f3-987d-a2321c3216bc.jpg?1555039810',
        border_crop:
-        'https://img.scryfall.com/cards/border_crop/en/rix/25.jpg?1524750343' },
+        'https://img.scryfall.com/cards/border_crop/front/9/1/91de07da-564d-42f3-987d-a2321c3216bc.jpg?1555039810' },
     mana_cost: '{2}{W}',
     cmc: 3,
     type_line: 'Enchantment — Aura',
@@ -16457,10 +16284,9 @@ module.exports = [ { object: 'card',
     artist: 'Winona Nelson',
     border_color: 'black',
     frame: '2015',
-    frame_effect: '',
     full_art: false,
     story_spotlight: false,
-    edhrec_rank: 7099,
+    edhrec_rank: 7448,
     related_uris:
      { gatherer:
         'http://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=439682',
@@ -16488,17 +16314,17 @@ module.exports = [ { object: 'card',
     highres_image: true,
     image_uris:
      { small:
-        'https://img.scryfall.com/cards/small/en/rix/24.jpg?1524750327',
+        'https://img.scryfall.com/cards/small/front/5/0/5058a729-9739-4548-b420-deebbc0950b7.jpg?1555039804',
        normal:
-        'https://img.scryfall.com/cards/normal/en/rix/24.jpg?1524750327',
+        'https://img.scryfall.com/cards/normal/front/5/0/5058a729-9739-4548-b420-deebbc0950b7.jpg?1555039804',
        large:
-        'https://img.scryfall.com/cards/large/en/rix/24.jpg?1524750327',
+        'https://img.scryfall.com/cards/large/front/5/0/5058a729-9739-4548-b420-deebbc0950b7.jpg?1555039804',
        png:
-        'https://img.scryfall.com/cards/png/en/rix/24.png?1524750327',
+        'https://img.scryfall.com/cards/png/front/5/0/5058a729-9739-4548-b420-deebbc0950b7.png?1555039804',
        art_crop:
-        'https://img.scryfall.com/cards/art_crop/en/rix/24.jpg?1524750327',
+        'https://img.scryfall.com/cards/art_crop/front/5/0/5058a729-9739-4548-b420-deebbc0950b7.jpg?1555039804',
        border_crop:
-        'https://img.scryfall.com/cards/border_crop/en/rix/24.jpg?1524750327' },
+        'https://img.scryfall.com/cards/border_crop/front/5/0/5058a729-9739-4548-b420-deebbc0950b7.jpg?1555039804' },
     mana_cost: '{1}{W}',
     cmc: 2,
     type_line: 'Sorcery',
@@ -16544,10 +16370,9 @@ module.exports = [ { object: 'card',
     artist: 'Daarken',
     border_color: 'black',
     frame: '2015',
-    frame_effect: '',
     full_art: false,
     story_spotlight: false,
-    edhrec_rank: 8355,
+    edhrec_rank: 8792,
     related_uris:
      { gatherer:
         'http://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=439681',
@@ -16575,17 +16400,17 @@ module.exports = [ { object: 'card',
     highres_image: true,
     image_uris:
      { small:
-        'https://img.scryfall.com/cards/small/en/rix/23.jpg?1524750315',
+        'https://img.scryfall.com/cards/small/front/3/e/3ee111e7-5309-46d5-b3ea-a049b3962c23.jpg?1555039797',
        normal:
-        'https://img.scryfall.com/cards/normal/en/rix/23.jpg?1524750315',
+        'https://img.scryfall.com/cards/normal/front/3/e/3ee111e7-5309-46d5-b3ea-a049b3962c23.jpg?1555039797',
        large:
-        'https://img.scryfall.com/cards/large/en/rix/23.jpg?1524750315',
+        'https://img.scryfall.com/cards/large/front/3/e/3ee111e7-5309-46d5-b3ea-a049b3962c23.jpg?1555039797',
        png:
-        'https://img.scryfall.com/cards/png/en/rix/23.png?1524750315',
+        'https://img.scryfall.com/cards/png/front/3/e/3ee111e7-5309-46d5-b3ea-a049b3962c23.png?1555039797',
        art_crop:
-        'https://img.scryfall.com/cards/art_crop/en/rix/23.jpg?1524750315',
+        'https://img.scryfall.com/cards/art_crop/front/3/e/3ee111e7-5309-46d5-b3ea-a049b3962c23.jpg?1555039797',
        border_crop:
-        'https://img.scryfall.com/cards/border_crop/en/rix/23.jpg?1524750315' },
+        'https://img.scryfall.com/cards/border_crop/front/3/e/3ee111e7-5309-46d5-b3ea-a049b3962c23.jpg?1555039797' },
     mana_cost: '{W}',
     cmc: 1,
     type_line: 'Creature — Dinosaur',
@@ -16634,10 +16459,9 @@ module.exports = [ { object: 'card',
     artist: 'Aaron Miller',
     border_color: 'black',
     frame: '2015',
-    frame_effect: '',
     full_art: false,
     story_spotlight: false,
-    edhrec_rank: 7782,
+    edhrec_rank: 8297,
     related_uris:
      { gatherer:
         'http://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=439680',
@@ -16665,17 +16489,17 @@ module.exports = [ { object: 'card',
     highres_image: true,
     image_uris:
      { small:
-        'https://img.scryfall.com/cards/small/en/rix/22.jpg?1524750303',
+        'https://img.scryfall.com/cards/small/front/4/2/4217ab21-181e-4c32-97c3-d8bd441287e0.jpg?1555039791',
        normal:
-        'https://img.scryfall.com/cards/normal/en/rix/22.jpg?1524750303',
+        'https://img.scryfall.com/cards/normal/front/4/2/4217ab21-181e-4c32-97c3-d8bd441287e0.jpg?1555039791',
        large:
-        'https://img.scryfall.com/cards/large/en/rix/22.jpg?1524750303',
+        'https://img.scryfall.com/cards/large/front/4/2/4217ab21-181e-4c32-97c3-d8bd441287e0.jpg?1555039791',
        png:
-        'https://img.scryfall.com/cards/png/en/rix/22.png?1524750303',
+        'https://img.scryfall.com/cards/png/front/4/2/4217ab21-181e-4c32-97c3-d8bd441287e0.png?1555039791',
        art_crop:
-        'https://img.scryfall.com/cards/art_crop/en/rix/22.jpg?1524750303',
+        'https://img.scryfall.com/cards/art_crop/front/4/2/4217ab21-181e-4c32-97c3-d8bd441287e0.jpg?1555039791',
        border_crop:
-        'https://img.scryfall.com/cards/border_crop/en/rix/22.jpg?1524750303' },
+        'https://img.scryfall.com/cards/border_crop/front/4/2/4217ab21-181e-4c32-97c3-d8bd441287e0.jpg?1555039791' },
     mana_cost: '{1}{W}{W}',
     cmc: 3,
     type_line: 'Sorcery',
@@ -16722,10 +16546,9 @@ module.exports = [ { object: 'card',
     artist: 'Randy Vargas',
     border_color: 'black',
     frame: '2015',
-    frame_effect: '',
     full_art: false,
     story_spotlight: false,
-    edhrec_rank: 1518,
+    edhrec_rank: 1564,
     related_uris:
      { gatherer:
         'http://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=439679',
@@ -16753,17 +16576,17 @@ module.exports = [ { object: 'card',
     highres_image: true,
     image_uris:
      { small:
-        'https://img.scryfall.com/cards/small/en/rix/21.jpg?1524750287',
+        'https://img.scryfall.com/cards/small/front/9/4/9473190f-5e96-4cf7-a0fa-a77d916acc2e.jpg?1555039784',
        normal:
-        'https://img.scryfall.com/cards/normal/en/rix/21.jpg?1524750287',
+        'https://img.scryfall.com/cards/normal/front/9/4/9473190f-5e96-4cf7-a0fa-a77d916acc2e.jpg?1555039784',
        large:
-        'https://img.scryfall.com/cards/large/en/rix/21.jpg?1524750287',
+        'https://img.scryfall.com/cards/large/front/9/4/9473190f-5e96-4cf7-a0fa-a77d916acc2e.jpg?1555039784',
        png:
-        'https://img.scryfall.com/cards/png/en/rix/21.png?1524750287',
+        'https://img.scryfall.com/cards/png/front/9/4/9473190f-5e96-4cf7-a0fa-a77d916acc2e.png?1555039784',
        art_crop:
-        'https://img.scryfall.com/cards/art_crop/en/rix/21.jpg?1524750287',
+        'https://img.scryfall.com/cards/art_crop/front/9/4/9473190f-5e96-4cf7-a0fa-a77d916acc2e.jpg?1555039784',
        border_crop:
-        'https://img.scryfall.com/cards/border_crop/en/rix/21.jpg?1524750287' },
+        'https://img.scryfall.com/cards/border_crop/front/9/4/9473190f-5e96-4cf7-a0fa-a77d916acc2e.jpg?1555039784' },
     mana_cost: '{W}',
     cmc: 1,
     type_line: 'Creature — Vampire Soldier',
@@ -16811,10 +16634,9 @@ module.exports = [ { object: 'card',
     artist: 'Winona Nelson',
     border_color: 'black',
     frame: '2015',
-    frame_effect: '',
     full_art: false,
     story_spotlight: false,
-    edhrec_rank: 4668,
+    edhrec_rank: 5043,
     related_uris:
      { gatherer:
         'http://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=439678',
@@ -16842,17 +16664,17 @@ module.exports = [ { object: 'card',
     highres_image: true,
     image_uris:
      { small:
-        'https://img.scryfall.com/cards/small/en/rix/20.jpg?1524750275',
+        'https://img.scryfall.com/cards/small/front/1/2/12993e53-8790-4d6f-9da1-a259f67aa5bf.jpg?1555039777',
        normal:
-        'https://img.scryfall.com/cards/normal/en/rix/20.jpg?1524750275',
+        'https://img.scryfall.com/cards/normal/front/1/2/12993e53-8790-4d6f-9da1-a259f67aa5bf.jpg?1555039777',
        large:
-        'https://img.scryfall.com/cards/large/en/rix/20.jpg?1524750275',
+        'https://img.scryfall.com/cards/large/front/1/2/12993e53-8790-4d6f-9da1-a259f67aa5bf.jpg?1555039777',
        png:
-        'https://img.scryfall.com/cards/png/en/rix/20.png?1524750275',
+        'https://img.scryfall.com/cards/png/front/1/2/12993e53-8790-4d6f-9da1-a259f67aa5bf.png?1555039777',
        art_crop:
-        'https://img.scryfall.com/cards/art_crop/en/rix/20.jpg?1524750275',
+        'https://img.scryfall.com/cards/art_crop/front/1/2/12993e53-8790-4d6f-9da1-a259f67aa5bf.jpg?1555039777',
        border_crop:
-        'https://img.scryfall.com/cards/border_crop/en/rix/20.jpg?1524750275' },
+        'https://img.scryfall.com/cards/border_crop/front/1/2/12993e53-8790-4d6f-9da1-a259f67aa5bf.jpg?1555039777' },
     mana_cost: '{3}{W}',
     cmc: 4,
     type_line: 'Creature — Vampire Cleric',
@@ -16901,10 +16723,9 @@ module.exports = [ { object: 'card',
     artist: 'Sara Winters',
     border_color: 'black',
     frame: '2015',
-    frame_effect: '',
     full_art: false,
     story_spotlight: false,
-    edhrec_rank: 10507,
+    edhrec_rank: 10849,
     related_uris:
      { gatherer:
         'http://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=439677',
@@ -16932,17 +16753,17 @@ module.exports = [ { object: 'card',
     highres_image: true,
     image_uris:
      { small:
-        'https://img.scryfall.com/cards/small/en/rix/19.jpg?1524750263',
+        'https://img.scryfall.com/cards/small/front/e/1/e16f2ffb-2780-47d2-bcdf-9cef82716b20.jpg?1555039769',
        normal:
-        'https://img.scryfall.com/cards/normal/en/rix/19.jpg?1524750263',
+        'https://img.scryfall.com/cards/normal/front/e/1/e16f2ffb-2780-47d2-bcdf-9cef82716b20.jpg?1555039769',
        large:
-        'https://img.scryfall.com/cards/large/en/rix/19.jpg?1524750263',
+        'https://img.scryfall.com/cards/large/front/e/1/e16f2ffb-2780-47d2-bcdf-9cef82716b20.jpg?1555039769',
        png:
-        'https://img.scryfall.com/cards/png/en/rix/19.png?1524750263',
+        'https://img.scryfall.com/cards/png/front/e/1/e16f2ffb-2780-47d2-bcdf-9cef82716b20.png?1555039769',
        art_crop:
-        'https://img.scryfall.com/cards/art_crop/en/rix/19.jpg?1524750263',
+        'https://img.scryfall.com/cards/art_crop/front/e/1/e16f2ffb-2780-47d2-bcdf-9cef82716b20.jpg?1555039769',
        border_crop:
-        'https://img.scryfall.com/cards/border_crop/en/rix/19.jpg?1524750263' },
+        'https://img.scryfall.com/cards/border_crop/front/e/1/e16f2ffb-2780-47d2-bcdf-9cef82716b20.jpg?1555039769' },
     mana_cost: '{1}{W}',
     cmc: 2,
     type_line: 'Creature — Dinosaur',
@@ -16990,10 +16811,9 @@ module.exports = [ { object: 'card',
     artist: 'Slawomir Maniak',
     border_color: 'black',
     frame: '2015',
-    frame_effect: '',
     full_art: false,
     story_spotlight: false,
-    edhrec_rank: 7528,
+    edhrec_rank: 8073,
     related_uris:
      { gatherer:
         'http://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=439676',
@@ -17021,17 +16841,17 @@ module.exports = [ { object: 'card',
     highres_image: true,
     image_uris:
      { small:
-        'https://img.scryfall.com/cards/small/en/rix/18.jpg?1524750252',
+        'https://img.scryfall.com/cards/small/front/9/d/9d44584d-e501-40aa-b3f2-a6155e2ee6e7.jpg?1555039758',
        normal:
-        'https://img.scryfall.com/cards/normal/en/rix/18.jpg?1524750252',
+        'https://img.scryfall.com/cards/normal/front/9/d/9d44584d-e501-40aa-b3f2-a6155e2ee6e7.jpg?1555039758',
        large:
-        'https://img.scryfall.com/cards/large/en/rix/18.jpg?1524750252',
+        'https://img.scryfall.com/cards/large/front/9/d/9d44584d-e501-40aa-b3f2-a6155e2ee6e7.jpg?1555039758',
        png:
-        'https://img.scryfall.com/cards/png/en/rix/18.png?1524750252',
+        'https://img.scryfall.com/cards/png/front/9/d/9d44584d-e501-40aa-b3f2-a6155e2ee6e7.png?1555039758',
        art_crop:
-        'https://img.scryfall.com/cards/art_crop/en/rix/18.jpg?1524750252',
+        'https://img.scryfall.com/cards/art_crop/front/9/d/9d44584d-e501-40aa-b3f2-a6155e2ee6e7.jpg?1555039758',
        border_crop:
-        'https://img.scryfall.com/cards/border_crop/en/rix/18.jpg?1524750252' },
+        'https://img.scryfall.com/cards/border_crop/front/9/d/9d44584d-e501-40aa-b3f2-a6155e2ee6e7.jpg?1555039758' },
     mana_cost: '{2}{W}',
     cmc: 3,
     type_line: 'Enchantment',
@@ -17076,10 +16896,9 @@ module.exports = [ { object: 'card',
     artist: 'Emrah Elmasli',
     border_color: 'black',
     frame: '2015',
-    frame_effect: '',
     full_art: false,
     story_spotlight: false,
-    edhrec_rank: 1295,
+    edhrec_rank: 1416,
     related_uris:
      { gatherer:
         'http://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=439675',
@@ -17107,17 +16926,17 @@ module.exports = [ { object: 'card',
     highres_image: true,
     image_uris:
      { small:
-        'https://img.scryfall.com/cards/small/en/rix/17.jpg?1524750237',
+        'https://img.scryfall.com/cards/small/front/f/f/ff0a769c-6602-4f6f-a388-f5aa15fb3c90.jpg?1555039752',
        normal:
-        'https://img.scryfall.com/cards/normal/en/rix/17.jpg?1524750237',
+        'https://img.scryfall.com/cards/normal/front/f/f/ff0a769c-6602-4f6f-a388-f5aa15fb3c90.jpg?1555039752',
        large:
-        'https://img.scryfall.com/cards/large/en/rix/17.jpg?1524750237',
+        'https://img.scryfall.com/cards/large/front/f/f/ff0a769c-6602-4f6f-a388-f5aa15fb3c90.jpg?1555039752',
        png:
-        'https://img.scryfall.com/cards/png/en/rix/17.png?1524750237',
+        'https://img.scryfall.com/cards/png/front/f/f/ff0a769c-6602-4f6f-a388-f5aa15fb3c90.png?1555039752',
        art_crop:
-        'https://img.scryfall.com/cards/art_crop/en/rix/17.jpg?1524750237',
+        'https://img.scryfall.com/cards/art_crop/front/f/f/ff0a769c-6602-4f6f-a388-f5aa15fb3c90.jpg?1555039752',
        border_crop:
-        'https://img.scryfall.com/cards/border_crop/en/rix/17.jpg?1524750237' },
+        'https://img.scryfall.com/cards/border_crop/front/f/f/ff0a769c-6602-4f6f-a388-f5aa15fb3c90.jpg?1555039752' },
     mana_cost: '{1}{W}',
     cmc: 2,
     type_line: 'Instant',
@@ -17162,10 +16981,9 @@ module.exports = [ { object: 'card',
     artist: 'Tomasz Jedruszek',
     border_color: 'black',
     frame: '2015',
-    frame_effect: '',
     full_art: false,
     story_spotlight: false,
-    edhrec_rank: 9452,
+    edhrec_rank: 9826,
     related_uris:
      { gatherer:
         'http://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=439674',
@@ -17193,17 +17011,17 @@ module.exports = [ { object: 'card',
     highres_image: true,
     image_uris:
      { small:
-        'https://img.scryfall.com/cards/small/en/rix/16.jpg?1524750226',
+        'https://img.scryfall.com/cards/small/front/d/0/d0ad263e-7ff0-459b-b04b-1d03b09c48aa.jpg?1555039745',
        normal:
-        'https://img.scryfall.com/cards/normal/en/rix/16.jpg?1524750226',
+        'https://img.scryfall.com/cards/normal/front/d/0/d0ad263e-7ff0-459b-b04b-1d03b09c48aa.jpg?1555039745',
        large:
-        'https://img.scryfall.com/cards/large/en/rix/16.jpg?1524750226',
+        'https://img.scryfall.com/cards/large/front/d/0/d0ad263e-7ff0-459b-b04b-1d03b09c48aa.jpg?1555039745',
        png:
-        'https://img.scryfall.com/cards/png/en/rix/16.png?1524750226',
+        'https://img.scryfall.com/cards/png/front/d/0/d0ad263e-7ff0-459b-b04b-1d03b09c48aa.png?1555039745',
        art_crop:
-        'https://img.scryfall.com/cards/art_crop/en/rix/16.jpg?1524750226',
+        'https://img.scryfall.com/cards/art_crop/front/d/0/d0ad263e-7ff0-459b-b04b-1d03b09c48aa.jpg?1555039745',
        border_crop:
-        'https://img.scryfall.com/cards/border_crop/en/rix/16.jpg?1524750226' },
+        'https://img.scryfall.com/cards/border_crop/front/d/0/d0ad263e-7ff0-459b-b04b-1d03b09c48aa.jpg?1555039745' },
     mana_cost: '{1}{W}',
     cmc: 2,
     type_line: 'Creature — Vampire Knight',
@@ -17252,10 +17070,9 @@ module.exports = [ { object: 'card',
     artist: 'Lius Lasahido',
     border_color: 'black',
     frame: '2015',
-    frame_effect: '',
     full_art: false,
     story_spotlight: false,
-    edhrec_rank: 4562,
+    edhrec_rank: 4881,
     related_uris:
      { gatherer:
         'http://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=439673',
@@ -17283,17 +17100,17 @@ module.exports = [ { object: 'card',
     highres_image: true,
     image_uris:
      { small:
-        'https://img.scryfall.com/cards/small/en/rix/15.jpg?1524750207',
+        'https://img.scryfall.com/cards/small/front/0/8/08be8c18-eca3-4960-b174-e4a78579ed63.jpg?1555039738',
        normal:
-        'https://img.scryfall.com/cards/normal/en/rix/15.jpg?1524750207',
+        'https://img.scryfall.com/cards/normal/front/0/8/08be8c18-eca3-4960-b174-e4a78579ed63.jpg?1555039738',
        large:
-        'https://img.scryfall.com/cards/large/en/rix/15.jpg?1524750207',
+        'https://img.scryfall.com/cards/large/front/0/8/08be8c18-eca3-4960-b174-e4a78579ed63.jpg?1555039738',
        png:
-        'https://img.scryfall.com/cards/png/en/rix/15.png?1524750207',
+        'https://img.scryfall.com/cards/png/front/0/8/08be8c18-eca3-4960-b174-e4a78579ed63.png?1555039738',
        art_crop:
-        'https://img.scryfall.com/cards/art_crop/en/rix/15.jpg?1524750207',
+        'https://img.scryfall.com/cards/art_crop/front/0/8/08be8c18-eca3-4960-b174-e4a78579ed63.jpg?1555039738',
        border_crop:
-        'https://img.scryfall.com/cards/border_crop/en/rix/15.jpg?1524750207' },
+        'https://img.scryfall.com/cards/border_crop/front/0/8/08be8c18-eca3-4960-b174-e4a78579ed63.jpg?1555039738' },
     mana_cost: '{W}',
     cmc: 1,
     type_line: 'Instant',
@@ -17340,10 +17157,9 @@ module.exports = [ { object: 'card',
     artist: 'Steven Belledin',
     border_color: 'black',
     frame: '2015',
-    frame_effect: '',
     full_art: false,
     story_spotlight: false,
-    edhrec_rank: 8414,
+    edhrec_rank: 8791,
     related_uris:
      { gatherer:
         'http://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=439672',
@@ -17371,17 +17187,17 @@ module.exports = [ { object: 'card',
     highres_image: true,
     image_uris:
      { small:
-        'https://img.scryfall.com/cards/small/en/rix/14.jpg?1524750195',
+        'https://img.scryfall.com/cards/small/front/0/4/04134be2-5e40-4732-832c-f616009eceff.jpg?1555039732',
        normal:
-        'https://img.scryfall.com/cards/normal/en/rix/14.jpg?1524750195',
+        'https://img.scryfall.com/cards/normal/front/0/4/04134be2-5e40-4732-832c-f616009eceff.jpg?1555039732',
        large:
-        'https://img.scryfall.com/cards/large/en/rix/14.jpg?1524750195',
+        'https://img.scryfall.com/cards/large/front/0/4/04134be2-5e40-4732-832c-f616009eceff.jpg?1555039732',
        png:
-        'https://img.scryfall.com/cards/png/en/rix/14.png?1524750195',
+        'https://img.scryfall.com/cards/png/front/0/4/04134be2-5e40-4732-832c-f616009eceff.png?1555039732',
        art_crop:
-        'https://img.scryfall.com/cards/art_crop/en/rix/14.jpg?1524750195',
+        'https://img.scryfall.com/cards/art_crop/front/0/4/04134be2-5e40-4732-832c-f616009eceff.jpg?1555039732',
        border_crop:
-        'https://img.scryfall.com/cards/border_crop/en/rix/14.jpg?1524750195' },
+        'https://img.scryfall.com/cards/border_crop/front/0/4/04134be2-5e40-4732-832c-f616009eceff.jpg?1555039732' },
     mana_cost: '{1}{W}',
     cmc: 2,
     type_line: 'Creature — Vampire Soldier',
@@ -17445,10 +17261,9 @@ module.exports = [ { object: 'card',
     artist: 'Greg Staples',
     border_color: 'black',
     frame: '2015',
-    frame_effect: '',
     full_art: false,
     story_spotlight: false,
-    edhrec_rank: 4830,
+    edhrec_rank: 4810,
     related_uris:
      { gatherer:
         'http://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=439671',
@@ -17476,17 +17291,17 @@ module.exports = [ { object: 'card',
     highres_image: true,
     image_uris:
      { small:
-        'https://img.scryfall.com/cards/small/en/rix/13.jpg?1524750180',
+        'https://img.scryfall.com/cards/small/front/0/a/0a012af0-c54e-4658-8a3b-b81cc8835e1b.jpg?1555039726',
        normal:
-        'https://img.scryfall.com/cards/normal/en/rix/13.jpg?1524750180',
+        'https://img.scryfall.com/cards/normal/front/0/a/0a012af0-c54e-4658-8a3b-b81cc8835e1b.jpg?1555039726',
        large:
-        'https://img.scryfall.com/cards/large/en/rix/13.jpg?1524750180',
+        'https://img.scryfall.com/cards/large/front/0/a/0a012af0-c54e-4658-8a3b-b81cc8835e1b.jpg?1555039726',
        png:
-        'https://img.scryfall.com/cards/png/en/rix/13.png?1524750180',
+        'https://img.scryfall.com/cards/png/front/0/a/0a012af0-c54e-4658-8a3b-b81cc8835e1b.png?1555039726',
        art_crop:
-        'https://img.scryfall.com/cards/art_crop/en/rix/13.jpg?1524750180',
+        'https://img.scryfall.com/cards/art_crop/front/0/a/0a012af0-c54e-4658-8a3b-b81cc8835e1b.jpg?1555039726',
        border_crop:
-        'https://img.scryfall.com/cards/border_crop/en/rix/13.jpg?1524750180' },
+        'https://img.scryfall.com/cards/border_crop/front/0/a/0a012af0-c54e-4658-8a3b-b81cc8835e1b.jpg?1555039726' },
     mana_cost: '{3}{W}',
     cmc: 4,
     type_line: 'Creature — Dinosaur',
@@ -17535,10 +17350,9 @@ module.exports = [ { object: 'card',
     artist: 'Filip Burburan',
     border_color: 'black',
     frame: '2015',
-    frame_effect: '',
     full_art: false,
     story_spotlight: false,
-    edhrec_rank: 4129,
+    edhrec_rank: 4450,
     related_uris:
      { gatherer:
         'http://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=439670',
@@ -17566,17 +17380,17 @@ module.exports = [ { object: 'card',
     highres_image: true,
     image_uris:
      { small:
-        'https://img.scryfall.com/cards/small/en/rix/12.jpg?1524750165',
+        'https://img.scryfall.com/cards/small/front/2/c/2ca3a547-ef22-4b87-b90f-e8ffb42f73ac.jpg?1555039719',
        normal:
-        'https://img.scryfall.com/cards/normal/en/rix/12.jpg?1524750165',
+        'https://img.scryfall.com/cards/normal/front/2/c/2ca3a547-ef22-4b87-b90f-e8ffb42f73ac.jpg?1555039719',
        large:
-        'https://img.scryfall.com/cards/large/en/rix/12.jpg?1524750165',
+        'https://img.scryfall.com/cards/large/front/2/c/2ca3a547-ef22-4b87-b90f-e8ffb42f73ac.jpg?1555039719',
        png:
-        'https://img.scryfall.com/cards/png/en/rix/12.png?1524750165',
+        'https://img.scryfall.com/cards/png/front/2/c/2ca3a547-ef22-4b87-b90f-e8ffb42f73ac.png?1555039719',
        art_crop:
-        'https://img.scryfall.com/cards/art_crop/en/rix/12.jpg?1524750165',
+        'https://img.scryfall.com/cards/art_crop/front/2/c/2ca3a547-ef22-4b87-b90f-e8ffb42f73ac.jpg?1555039719',
        border_crop:
-        'https://img.scryfall.com/cards/border_crop/en/rix/12.jpg?1524750165' },
+        'https://img.scryfall.com/cards/border_crop/front/2/c/2ca3a547-ef22-4b87-b90f-e8ffb42f73ac.jpg?1555039719' },
     mana_cost: '{2}{W}',
     cmc: 3,
     type_line: 'Enchantment — Aura',
@@ -17623,10 +17437,9 @@ module.exports = [ { object: 'card',
     artist: 'Steve Argyle',
     border_color: 'black',
     frame: '2015',
-    frame_effect: '',
     full_art: false,
     story_spotlight: false,
-    edhrec_rank: 6080,
+    edhrec_rank: 6085,
     related_uris:
      { gatherer:
         'http://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=439669',
@@ -17654,17 +17467,17 @@ module.exports = [ { object: 'card',
     highres_image: true,
     image_uris:
      { small:
-        'https://img.scryfall.com/cards/small/en/rix/11.jpg?1524750149',
+        'https://img.scryfall.com/cards/small/front/b/a/ba197b31-97b8-447e-b8fd-3eefd5ccdc72.jpg?1555039713',
        normal:
-        'https://img.scryfall.com/cards/normal/en/rix/11.jpg?1524750149',
+        'https://img.scryfall.com/cards/normal/front/b/a/ba197b31-97b8-447e-b8fd-3eefd5ccdc72.jpg?1555039713',
        large:
-        'https://img.scryfall.com/cards/large/en/rix/11.jpg?1524750149',
+        'https://img.scryfall.com/cards/large/front/b/a/ba197b31-97b8-447e-b8fd-3eefd5ccdc72.jpg?1555039713',
        png:
-        'https://img.scryfall.com/cards/png/en/rix/11.png?1524750149',
+        'https://img.scryfall.com/cards/png/front/b/a/ba197b31-97b8-447e-b8fd-3eefd5ccdc72.png?1555039713',
        art_crop:
-        'https://img.scryfall.com/cards/art_crop/en/rix/11.jpg?1524750149',
+        'https://img.scryfall.com/cards/art_crop/front/b/a/ba197b31-97b8-447e-b8fd-3eefd5ccdc72.jpg?1555039713',
        border_crop:
-        'https://img.scryfall.com/cards/border_crop/en/rix/11.jpg?1524750149' },
+        'https://img.scryfall.com/cards/border_crop/front/b/a/ba197b31-97b8-447e-b8fd-3eefd5ccdc72.jpg?1555039713' },
     mana_cost: '{2}{W}',
     cmc: 3,
     type_line: 'Creature — Vampire Soldier',
@@ -17713,10 +17526,9 @@ module.exports = [ { object: 'card',
     artist: 'Sidharth Chaturvedi',
     border_color: 'black',
     frame: '2015',
-    frame_effect: '',
     full_art: false,
     story_spotlight: false,
-    edhrec_rank: 16723,
+    edhrec_rank: 16546,
     related_uris:
      { gatherer:
         'http://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=439668',
@@ -17744,17 +17556,17 @@ module.exports = [ { object: 'card',
     highres_image: true,
     image_uris:
      { small:
-        'https://img.scryfall.com/cards/small/en/rix/10.jpg?1524750138',
+        'https://img.scryfall.com/cards/small/front/a/5/a5030e80-58c4-4ce3-877e-8395b653f6e8.jpg?1555039706',
        normal:
-        'https://img.scryfall.com/cards/normal/en/rix/10.jpg?1524750138',
+        'https://img.scryfall.com/cards/normal/front/a/5/a5030e80-58c4-4ce3-877e-8395b653f6e8.jpg?1555039706',
        large:
-        'https://img.scryfall.com/cards/large/en/rix/10.jpg?1524750138',
+        'https://img.scryfall.com/cards/large/front/a/5/a5030e80-58c4-4ce3-877e-8395b653f6e8.jpg?1555039706',
        png:
-        'https://img.scryfall.com/cards/png/en/rix/10.png?1524750138',
+        'https://img.scryfall.com/cards/png/front/a/5/a5030e80-58c4-4ce3-877e-8395b653f6e8.png?1555039706',
        art_crop:
-        'https://img.scryfall.com/cards/art_crop/en/rix/10.jpg?1524750138',
+        'https://img.scryfall.com/cards/art_crop/front/a/5/a5030e80-58c4-4ce3-877e-8395b653f6e8.jpg?1555039706',
        border_crop:
-        'https://img.scryfall.com/cards/border_crop/en/rix/10.jpg?1524750138' },
+        'https://img.scryfall.com/cards/border_crop/front/a/5/a5030e80-58c4-4ce3-877e-8395b653f6e8.jpg?1555039706' },
     mana_cost: '{4}{W}',
     cmc: 5,
     type_line: 'Creature — Dinosaur',
@@ -17803,10 +17615,9 @@ module.exports = [ { object: 'card',
     artist: 'Bayard Wu',
     border_color: 'black',
     frame: '2015',
-    frame_effect: '',
     full_art: false,
     story_spotlight: false,
-    edhrec_rank: 6309,
+    edhrec_rank: 6811,
     related_uris:
      { gatherer:
         'http://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=439667',
@@ -17834,16 +17645,17 @@ module.exports = [ { object: 'card',
     highres_image: true,
     image_uris:
      { small:
-        'https://img.scryfall.com/cards/small/en/rix/9.jpg?1524750124',
+        'https://img.scryfall.com/cards/small/front/1/0/10718d37-63d4-44b7-9450-5d49cffce944.jpg?1555039699',
        normal:
-        'https://img.scryfall.com/cards/normal/en/rix/9.jpg?1524750124',
+        'https://img.scryfall.com/cards/normal/front/1/0/10718d37-63d4-44b7-9450-5d49cffce944.jpg?1555039699',
        large:
-        'https://img.scryfall.com/cards/large/en/rix/9.jpg?1524750124',
-       png: 'https://img.scryfall.com/cards/png/en/rix/9.png?1524750124',
+        'https://img.scryfall.com/cards/large/front/1/0/10718d37-63d4-44b7-9450-5d49cffce944.jpg?1555039699',
+       png:
+        'https://img.scryfall.com/cards/png/front/1/0/10718d37-63d4-44b7-9450-5d49cffce944.png?1555039699',
        art_crop:
-        'https://img.scryfall.com/cards/art_crop/en/rix/9.jpg?1524750124',
+        'https://img.scryfall.com/cards/art_crop/front/1/0/10718d37-63d4-44b7-9450-5d49cffce944.jpg?1555039699',
        border_crop:
-        'https://img.scryfall.com/cards/border_crop/en/rix/9.jpg?1524750124' },
+        'https://img.scryfall.com/cards/border_crop/front/1/0/10718d37-63d4-44b7-9450-5d49cffce944.jpg?1555039699' },
     mana_cost: '{2}{W}',
     cmc: 3,
     type_line: 'Creature — Vampire Knight',
@@ -17890,10 +17702,9 @@ module.exports = [ { object: 'card',
     artist: 'Josh Hass',
     border_color: 'black',
     frame: '2015',
-    frame_effect: '',
     full_art: false,
     story_spotlight: false,
-    edhrec_rank: 1859,
+    edhrec_rank: 2073,
     related_uris:
      { gatherer:
         'http://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=439666',
@@ -17921,16 +17732,17 @@ module.exports = [ { object: 'card',
     highres_image: true,
     image_uris:
      { small:
-        'https://img.scryfall.com/cards/small/en/rix/8.jpg?1524750108',
+        'https://img.scryfall.com/cards/small/front/d/8/d80e3bc9-7b67-4eab-916a-6d83da06f20a.jpg?1555039693',
        normal:
-        'https://img.scryfall.com/cards/normal/en/rix/8.jpg?1524750108',
+        'https://img.scryfall.com/cards/normal/front/d/8/d80e3bc9-7b67-4eab-916a-6d83da06f20a.jpg?1555039693',
        large:
-        'https://img.scryfall.com/cards/large/en/rix/8.jpg?1524750108',
-       png: 'https://img.scryfall.com/cards/png/en/rix/8.png?1524750108',
+        'https://img.scryfall.com/cards/large/front/d/8/d80e3bc9-7b67-4eab-916a-6d83da06f20a.jpg?1555039693',
+       png:
+        'https://img.scryfall.com/cards/png/front/d/8/d80e3bc9-7b67-4eab-916a-6d83da06f20a.png?1555039693',
        art_crop:
-        'https://img.scryfall.com/cards/art_crop/en/rix/8.jpg?1524750108',
+        'https://img.scryfall.com/cards/art_crop/front/d/8/d80e3bc9-7b67-4eab-916a-6d83da06f20a.jpg?1555039693',
        border_crop:
-        'https://img.scryfall.com/cards/border_crop/en/rix/8.jpg?1524750108' },
+        'https://img.scryfall.com/cards/border_crop/front/d/8/d80e3bc9-7b67-4eab-916a-6d83da06f20a.jpg?1555039693' },
     mana_cost: '{1}{W}',
     cmc: 2,
     type_line: 'Creature — Vampire Knight',
@@ -17978,10 +17790,9 @@ module.exports = [ { object: 'card',
     artist: 'Tommy Arnold',
     border_color: 'black',
     frame: '2015',
-    frame_effect: '',
     full_art: false,
     story_spotlight: false,
-    edhrec_rank: 6894,
+    edhrec_rank: 7242,
     related_uris:
      { gatherer:
         'http://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=439665',
@@ -18009,16 +17820,17 @@ module.exports = [ { object: 'card',
     highres_image: true,
     image_uris:
      { small:
-        'https://img.scryfall.com/cards/small/en/rix/7.jpg?1524750098',
+        'https://img.scryfall.com/cards/small/front/f/f/fffe7b2b-22c3-4e6a-9b1b-c6d7b29b9f86.jpg?1555039686',
        normal:
-        'https://img.scryfall.com/cards/normal/en/rix/7.jpg?1524750098',
+        'https://img.scryfall.com/cards/normal/front/f/f/fffe7b2b-22c3-4e6a-9b1b-c6d7b29b9f86.jpg?1555039686',
        large:
-        'https://img.scryfall.com/cards/large/en/rix/7.jpg?1524750098',
-       png: 'https://img.scryfall.com/cards/png/en/rix/7.png?1524750098',
+        'https://img.scryfall.com/cards/large/front/f/f/fffe7b2b-22c3-4e6a-9b1b-c6d7b29b9f86.jpg?1555039686',
+       png:
+        'https://img.scryfall.com/cards/png/front/f/f/fffe7b2b-22c3-4e6a-9b1b-c6d7b29b9f86.png?1555039686',
        art_crop:
-        'https://img.scryfall.com/cards/art_crop/en/rix/7.jpg?1524750098',
+        'https://img.scryfall.com/cards/art_crop/front/f/f/fffe7b2b-22c3-4e6a-9b1b-c6d7b29b9f86.jpg?1555039686',
        border_crop:
-        'https://img.scryfall.com/cards/border_crop/en/rix/7.jpg?1524750098' },
+        'https://img.scryfall.com/cards/border_crop/front/f/f/fffe7b2b-22c3-4e6a-9b1b-c6d7b29b9f86.jpg?1555039686' },
     mana_cost: '{1}{W}{W}',
     cmc: 3,
     type_line: 'Creature — Vampire Soldier',
@@ -18066,10 +17878,9 @@ module.exports = [ { object: 'card',
     artist: 'Ryan Yee',
     border_color: 'black',
     frame: '2015',
-    frame_effect: '',
     full_art: false,
     story_spotlight: false,
-    edhrec_rank: 9524,
+    edhrec_rank: 9721,
     related_uris:
      { gatherer:
         'http://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=439664',
@@ -18097,16 +17908,17 @@ module.exports = [ { object: 'card',
     highres_image: true,
     image_uris:
      { small:
-        'https://img.scryfall.com/cards/small/en/rix/6.jpg?1524750089',
+        'https://img.scryfall.com/cards/small/front/8/4/84a74fa9-1338-40ea-95d9-0f4e78b85f60.jpg?1555039680',
        normal:
-        'https://img.scryfall.com/cards/normal/en/rix/6.jpg?1524750089',
+        'https://img.scryfall.com/cards/normal/front/8/4/84a74fa9-1338-40ea-95d9-0f4e78b85f60.jpg?1555039680',
        large:
-        'https://img.scryfall.com/cards/large/en/rix/6.jpg?1524750089',
-       png: 'https://img.scryfall.com/cards/png/en/rix/6.png?1524750089',
+        'https://img.scryfall.com/cards/large/front/8/4/84a74fa9-1338-40ea-95d9-0f4e78b85f60.jpg?1555039680',
+       png:
+        'https://img.scryfall.com/cards/png/front/8/4/84a74fa9-1338-40ea-95d9-0f4e78b85f60.png?1555039680',
        art_crop:
-        'https://img.scryfall.com/cards/art_crop/en/rix/6.jpg?1524750089',
+        'https://img.scryfall.com/cards/art_crop/front/8/4/84a74fa9-1338-40ea-95d9-0f4e78b85f60.jpg?1555039680',
        border_crop:
-        'https://img.scryfall.com/cards/border_crop/en/rix/6.jpg?1524750089' },
+        'https://img.scryfall.com/cards/border_crop/front/8/4/84a74fa9-1338-40ea-95d9-0f4e78b85f60.jpg?1555039680' },
     mana_cost: '{1}{W}{W}',
     cmc: 3,
     type_line: 'Creature — Human Soldier',
@@ -18155,10 +17967,9 @@ module.exports = [ { object: 'card',
     artist: 'Sara Winters',
     border_color: 'black',
     frame: '2015',
-    frame_effect: '',
     full_art: false,
     story_spotlight: false,
-    edhrec_rank: 9727,
+    edhrec_rank: 10207,
     related_uris:
      { gatherer:
         'http://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=439663',
@@ -18186,16 +17997,17 @@ module.exports = [ { object: 'card',
     highres_image: true,
     image_uris:
      { small:
-        'https://img.scryfall.com/cards/small/en/rix/5.jpg?1524750079',
+        'https://img.scryfall.com/cards/small/front/e/d/ed07b708-7232-4b87-b5d9-edaa20a69293.jpg?1555039673',
        normal:
-        'https://img.scryfall.com/cards/normal/en/rix/5.jpg?1524750079',
+        'https://img.scryfall.com/cards/normal/front/e/d/ed07b708-7232-4b87-b5d9-edaa20a69293.jpg?1555039673',
        large:
-        'https://img.scryfall.com/cards/large/en/rix/5.jpg?1524750079',
-       png: 'https://img.scryfall.com/cards/png/en/rix/5.png?1524750079',
+        'https://img.scryfall.com/cards/large/front/e/d/ed07b708-7232-4b87-b5d9-edaa20a69293.jpg?1555039673',
+       png:
+        'https://img.scryfall.com/cards/png/front/e/d/ed07b708-7232-4b87-b5d9-edaa20a69293.png?1555039673',
        art_crop:
-        'https://img.scryfall.com/cards/art_crop/en/rix/5.jpg?1524750079',
+        'https://img.scryfall.com/cards/art_crop/front/e/d/ed07b708-7232-4b87-b5d9-edaa20a69293.jpg?1555039673',
        border_crop:
-        'https://img.scryfall.com/cards/border_crop/en/rix/5.jpg?1524750079' },
+        'https://img.scryfall.com/cards/border_crop/front/e/d/ed07b708-7232-4b87-b5d9-edaa20a69293.jpg?1555039673' },
     mana_cost: '{3}{W}',
     cmc: 4,
     type_line: 'Instant',
@@ -18241,10 +18053,9 @@ module.exports = [ { object: 'card',
     artist: 'Slawomir Maniak',
     border_color: 'black',
     frame: '2015',
-    frame_effect: '',
     full_art: false,
     story_spotlight: false,
-    edhrec_rank: 8013,
+    edhrec_rank: 8226,
     related_uris:
      { gatherer:
         'http://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=439662',
@@ -18272,16 +18083,17 @@ module.exports = [ { object: 'card',
     highres_image: true,
     image_uris:
      { small:
-        'https://img.scryfall.com/cards/small/en/rix/4.jpg?1524750064',
+        'https://img.scryfall.com/cards/small/front/7/b/7bf94184-e745-469a-9d55-af0ddacbb9cf.jpg?1555039666',
        normal:
-        'https://img.scryfall.com/cards/normal/en/rix/4.jpg?1524750064',
+        'https://img.scryfall.com/cards/normal/front/7/b/7bf94184-e745-469a-9d55-af0ddacbb9cf.jpg?1555039666',
        large:
-        'https://img.scryfall.com/cards/large/en/rix/4.jpg?1524750064',
-       png: 'https://img.scryfall.com/cards/png/en/rix/4.png?1524750064',
+        'https://img.scryfall.com/cards/large/front/7/b/7bf94184-e745-469a-9d55-af0ddacbb9cf.jpg?1555039666',
+       png:
+        'https://img.scryfall.com/cards/png/front/7/b/7bf94184-e745-469a-9d55-af0ddacbb9cf.png?1555039666',
        art_crop:
-        'https://img.scryfall.com/cards/art_crop/en/rix/4.jpg?1524750064',
+        'https://img.scryfall.com/cards/art_crop/front/7/b/7bf94184-e745-469a-9d55-af0ddacbb9cf.jpg?1555039666',
        border_crop:
-        'https://img.scryfall.com/cards/border_crop/en/rix/4.jpg?1524750064' },
+        'https://img.scryfall.com/cards/border_crop/front/7/b/7bf94184-e745-469a-9d55-af0ddacbb9cf.jpg?1555039666' },
     mana_cost: '{1}{W}',
     cmc: 2,
     type_line: 'Sorcery',
@@ -18328,10 +18140,9 @@ module.exports = [ { object: 'card',
     artist: 'Anthony Palumbo',
     border_color: 'black',
     frame: '2015',
-    frame_effect: '',
     full_art: false,
     story_spotlight: false,
-    edhrec_rank: 13565,
+    edhrec_rank: 13827,
     related_uris:
      { gatherer:
         'http://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=439661',
@@ -18359,16 +18170,17 @@ module.exports = [ { object: 'card',
     highres_image: true,
     image_uris:
      { small:
-        'https://img.scryfall.com/cards/small/en/rix/3.jpg?1524750045',
+        'https://img.scryfall.com/cards/small/front/b/6/b6beac36-e12f-408d-a37b-a70e0e6c52d8.jpg?1555039660',
        normal:
-        'https://img.scryfall.com/cards/normal/en/rix/3.jpg?1524750045',
+        'https://img.scryfall.com/cards/normal/front/b/6/b6beac36-e12f-408d-a37b-a70e0e6c52d8.jpg?1555039660',
        large:
-        'https://img.scryfall.com/cards/large/en/rix/3.jpg?1524750045',
-       png: 'https://img.scryfall.com/cards/png/en/rix/3.png?1524750045',
+        'https://img.scryfall.com/cards/large/front/b/6/b6beac36-e12f-408d-a37b-a70e0e6c52d8.jpg?1555039660',
+       png:
+        'https://img.scryfall.com/cards/png/front/b/6/b6beac36-e12f-408d-a37b-a70e0e6c52d8.png?1555039660',
        art_crop:
-        'https://img.scryfall.com/cards/art_crop/en/rix/3.jpg?1524750045',
+        'https://img.scryfall.com/cards/art_crop/front/b/6/b6beac36-e12f-408d-a37b-a70e0e6c52d8.jpg?1555039660',
        border_crop:
-        'https://img.scryfall.com/cards/border_crop/en/rix/3.jpg?1524750045' },
+        'https://img.scryfall.com/cards/border_crop/front/b/6/b6beac36-e12f-408d-a37b-a70e0e6c52d8.jpg?1555039660' },
     mana_cost: '{W}',
     cmc: 1,
     type_line: 'Instant',
@@ -18414,10 +18226,9 @@ module.exports = [ { object: 'card',
     artist: 'Clint Cearley',
     border_color: 'black',
     frame: '2015',
-    frame_effect: '',
     full_art: false,
     story_spotlight: false,
-    edhrec_rank: 12162,
+    edhrec_rank: 12803,
     related_uris:
      { gatherer:
         'http://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=439660',
@@ -18445,16 +18256,17 @@ module.exports = [ { object: 'card',
     highres_image: true,
     image_uris:
      { small:
-        'https://img.scryfall.com/cards/small/en/rix/2.jpg?1524750026',
+        'https://img.scryfall.com/cards/small/front/a/a/aaadceb3-8a57-45de-b3f1-aca94f20de18.jpg?1555039653',
        normal:
-        'https://img.scryfall.com/cards/normal/en/rix/2.jpg?1524750026',
+        'https://img.scryfall.com/cards/normal/front/a/a/aaadceb3-8a57-45de-b3f1-aca94f20de18.jpg?1555039653',
        large:
-        'https://img.scryfall.com/cards/large/en/rix/2.jpg?1524750026',
-       png: 'https://img.scryfall.com/cards/png/en/rix/2.png?1524750026',
+        'https://img.scryfall.com/cards/large/front/a/a/aaadceb3-8a57-45de-b3f1-aca94f20de18.jpg?1555039653',
+       png:
+        'https://img.scryfall.com/cards/png/front/a/a/aaadceb3-8a57-45de-b3f1-aca94f20de18.png?1555039653',
        art_crop:
-        'https://img.scryfall.com/cards/art_crop/en/rix/2.jpg?1524750026',
+        'https://img.scryfall.com/cards/art_crop/front/a/a/aaadceb3-8a57-45de-b3f1-aca94f20de18.jpg?1555039653',
        border_crop:
-        'https://img.scryfall.com/cards/border_crop/en/rix/2.jpg?1524750026' },
+        'https://img.scryfall.com/cards/border_crop/front/a/a/aaadceb3-8a57-45de-b3f1-aca94f20de18.jpg?1555039653' },
     mana_cost: '{3}{W}',
     cmc: 4,
     type_line: 'Creature — Vampire Cleric',
@@ -18501,10 +18313,9 @@ module.exports = [ { object: 'card',
     artist: 'Bastien L. Deharme',
     border_color: 'black',
     frame: '2015',
-    frame_effect: '',
     full_art: false,
     story_spotlight: false,
-    edhrec_rank: 4900,
+    edhrec_rank: 5254,
     related_uris:
      { gatherer:
         'http://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=439659',
@@ -18532,16 +18343,17 @@ module.exports = [ { object: 'card',
     highres_image: true,
     image_uris:
      { small:
-        'https://img.scryfall.com/cards/small/en/rix/1.jpg?1524750014',
+        'https://img.scryfall.com/cards/small/front/2/0/208c6f51-3c00-4fc6-8579-8f57444d0e97.jpg?1555039647',
        normal:
-        'https://img.scryfall.com/cards/normal/en/rix/1.jpg?1524750014',
+        'https://img.scryfall.com/cards/normal/front/2/0/208c6f51-3c00-4fc6-8579-8f57444d0e97.jpg?1555039647',
        large:
-        'https://img.scryfall.com/cards/large/en/rix/1.jpg?1524750014',
-       png: 'https://img.scryfall.com/cards/png/en/rix/1.png?1524750014',
+        'https://img.scryfall.com/cards/large/front/2/0/208c6f51-3c00-4fc6-8579-8f57444d0e97.jpg?1555039647',
+       png:
+        'https://img.scryfall.com/cards/png/front/2/0/208c6f51-3c00-4fc6-8579-8f57444d0e97.png?1555039647',
        art_crop:
-        'https://img.scryfall.com/cards/art_crop/en/rix/1.jpg?1524750014',
+        'https://img.scryfall.com/cards/art_crop/front/2/0/208c6f51-3c00-4fc6-8579-8f57444d0e97.jpg?1555039647',
        border_crop:
-        'https://img.scryfall.com/cards/border_crop/en/rix/1.jpg?1524750014' },
+        'https://img.scryfall.com/cards/border_crop/front/2/0/208c6f51-3c00-4fc6-8579-8f57444d0e97.jpg?1555039647' },
     mana_cost: '{1}{W}',
     cmc: 2,
     type_line: 'Enchantment',
@@ -18601,10 +18413,9 @@ module.exports = [ { object: 'card',
     artist: 'Mathias Kollros',
     border_color: 'black',
     frame: '2015',
-    frame_effect: '',
     full_art: false,
     story_spotlight: false,
-    edhrec_rank: 7707,
+    edhrec_rank: 8296,
     related_uris:
      { gatherer:
         'http://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=439658',

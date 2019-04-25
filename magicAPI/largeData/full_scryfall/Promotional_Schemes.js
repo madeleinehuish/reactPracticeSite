@@ -14,17 +14,17 @@ module.exports = [ { object: 'card',
     highres_image: true,
     image_uris:
      { small:
-        'https://img.scryfall.com/cards/small/en/parc/58.jpg?1523997543',
+        'https://img.scryfall.com/cards/small/en/parc/58.jpg?1553909263',
        normal:
-        'https://img.scryfall.com/cards/normal/en/parc/58.jpg?1523997543',
+        'https://img.scryfall.com/cards/normal/en/parc/58.jpg?1553909263',
        large:
-        'https://img.scryfall.com/cards/large/en/parc/58.jpg?1523997543',
+        'https://img.scryfall.com/cards/large/en/parc/58.jpg?1553909263',
        png:
-        'https://img.scryfall.com/cards/png/en/parc/58.png?1523997543',
+        'https://img.scryfall.com/cards/png/en/parc/58.png?1553909263',
        art_crop:
-        'https://img.scryfall.com/cards/art_crop/en/parc/58.jpg?1523997543',
+        'https://img.scryfall.com/cards/art_crop/en/parc/58.jpg?1553909263',
        border_crop:
-        'https://img.scryfall.com/cards/border_crop/en/parc/58.jpg?1523997543' },
+        'https://img.scryfall.com/cards/border_crop/en/parc/58.jpg?1553909263' },
     mana_cost: '',
     cmc: 0,
     type_line: 'Ongoing Scheme',
@@ -68,8 +68,7 @@ module.exports = [ { object: 'card',
     illustration_id: '31b59eb6-eb83-4cf1-a05f-dd5fce88e30d',
     artist: 'Jim Pavelec',
     border_color: 'black',
-    frame: '2015',
-    frame_effect: '',
+    frame: '2003',
     full_art: false,
     story_spotlight: false,
     related_uris:
@@ -95,17 +94,17 @@ module.exports = [ { object: 'card',
     highres_image: true,
     image_uris:
      { small:
-        'https://img.scryfall.com/cards/small/en/parc/57.jpg?1517813031',
+        'https://img.scryfall.com/cards/small/en/parc/57.jpg?1553909126',
        normal:
-        'https://img.scryfall.com/cards/normal/en/parc/57.jpg?1517813031',
+        'https://img.scryfall.com/cards/normal/en/parc/57.jpg?1553909126',
        large:
-        'https://img.scryfall.com/cards/large/en/parc/57.jpg?1517813031',
+        'https://img.scryfall.com/cards/large/en/parc/57.jpg?1553909126',
        png:
-        'https://img.scryfall.com/cards/png/en/parc/57.png?1517813031',
+        'https://img.scryfall.com/cards/png/en/parc/57.png?1553909126',
        art_crop:
-        'https://img.scryfall.com/cards/art_crop/en/parc/57.jpg?1517813031',
+        'https://img.scryfall.com/cards/art_crop/en/parc/57.jpg?1553909126',
        border_crop:
-        'https://img.scryfall.com/cards/border_crop/en/parc/57.jpg?1517813031' },
+        'https://img.scryfall.com/cards/border_crop/en/parc/57.jpg?1553909126' },
     mana_cost: '',
     cmc: 0,
     type_line: 'Scheme',
@@ -150,8 +149,7 @@ module.exports = [ { object: 'card',
     illustration_id: '8119654a-0429-4b99-8df9-961fe655f18e',
     artist: 'Val Mayerik',
     border_color: 'black',
-    frame: '2015',
-    frame_effect: '',
+    frame: '2003',
     full_art: false,
     story_spotlight: false,
     related_uris:
@@ -177,17 +175,17 @@ module.exports = [ { object: 'card',
     highres_image: true,
     image_uris:
      { small:
-        'https://img.scryfall.com/cards/small/en/parc/56.jpg?1517813031',
+        'https://img.scryfall.com/cards/small/en/parc/56.jpg?1553909427',
        normal:
-        'https://img.scryfall.com/cards/normal/en/parc/56.jpg?1517813031',
+        'https://img.scryfall.com/cards/normal/en/parc/56.jpg?1553909427',
        large:
-        'https://img.scryfall.com/cards/large/en/parc/56.jpg?1517813031',
+        'https://img.scryfall.com/cards/large/en/parc/56.jpg?1553909427',
        png:
-        'https://img.scryfall.com/cards/png/en/parc/56.png?1517813031',
+        'https://img.scryfall.com/cards/png/en/parc/56.png?1553909427',
        art_crop:
-        'https://img.scryfall.com/cards/art_crop/en/parc/56.jpg?1517813031',
+        'https://img.scryfall.com/cards/art_crop/en/parc/56.jpg?1553909427',
        border_crop:
-        'https://img.scryfall.com/cards/border_crop/en/parc/56.jpg?1517813031' },
+        'https://img.scryfall.com/cards/border_crop/en/parc/56.jpg?1553909427' },
     mana_cost: '',
     cmc: 0,
     type_line: 'Ongoing Scheme',
@@ -231,8 +229,7 @@ module.exports = [ { object: 'card',
     illustration_id: '2d9e3c50-4b86-42f2-9cdd-f20487a49a1b',
     artist: 'Chuck Lukacs',
     border_color: 'black',
-    frame: '2015',
-    frame_effect: '',
+    frame: '2003',
     full_art: false,
     story_spotlight: false,
     related_uris:
@@ -258,17 +255,17 @@ module.exports = [ { object: 'card',
     highres_image: true,
     image_uris:
      { small:
-        'https://img.scryfall.com/cards/small/en/parc/55.jpg?1517813031',
+        'https://img.scryfall.com/cards/small/en/parc/55.jpg?1553909338',
        normal:
-        'https://img.scryfall.com/cards/normal/en/parc/55.jpg?1517813031',
+        'https://img.scryfall.com/cards/normal/en/parc/55.jpg?1553909338',
        large:
-        'https://img.scryfall.com/cards/large/en/parc/55.jpg?1517813031',
+        'https://img.scryfall.com/cards/large/en/parc/55.jpg?1553909338',
        png:
-        'https://img.scryfall.com/cards/png/en/parc/55.png?1517813031',
+        'https://img.scryfall.com/cards/png/en/parc/55.png?1553909338',
        art_crop:
-        'https://img.scryfall.com/cards/art_crop/en/parc/55.jpg?1517813031',
+        'https://img.scryfall.com/cards/art_crop/en/parc/55.jpg?1553909338',
        border_crop:
-        'https://img.scryfall.com/cards/border_crop/en/parc/55.jpg?1517813031' },
+        'https://img.scryfall.com/cards/border_crop/en/parc/55.jpg?1553909338' },
     mana_cost: '',
     cmc: 0,
     type_line: 'Scheme',
@@ -314,8 +311,7 @@ module.exports = [ { object: 'card',
     illustration_id: '67da1a30-b22b-4037-a4cf-3de579bcde8c',
     artist: 'Howard Lyon',
     border_color: 'black',
-    frame: '2015',
-    frame_effect: '',
+    frame: '2003',
     full_art: false,
     story_spotlight: false,
     related_uris:
@@ -341,17 +337,17 @@ module.exports = [ { object: 'card',
     highres_image: true,
     image_uris:
      { small:
-        'https://img.scryfall.com/cards/small/en/parc/54.jpg?1545325710',
+        'https://img.scryfall.com/cards/small/en/parc/54.jpg?1553909352',
        normal:
-        'https://img.scryfall.com/cards/normal/en/parc/54.jpg?1545325710',
+        'https://img.scryfall.com/cards/normal/en/parc/54.jpg?1553909352',
        large:
-        'https://img.scryfall.com/cards/large/en/parc/54.jpg?1545325710',
+        'https://img.scryfall.com/cards/large/en/parc/54.jpg?1553909352',
        png:
-        'https://img.scryfall.com/cards/png/en/parc/54.png?1545325710',
+        'https://img.scryfall.com/cards/png/en/parc/54.png?1553909352',
        art_crop:
-        'https://img.scryfall.com/cards/art_crop/en/parc/54.jpg?1545325710',
+        'https://img.scryfall.com/cards/art_crop/en/parc/54.jpg?1553909352',
        border_crop:
-        'https://img.scryfall.com/cards/border_crop/en/parc/54.jpg?1545325710' },
+        'https://img.scryfall.com/cards/border_crop/en/parc/54.jpg?1553909352' },
     mana_cost: '',
     cmc: 0,
     type_line: 'Scheme',
@@ -397,8 +393,7 @@ module.exports = [ { object: 'card',
     illustration_id: '11a5a9c4-a205-4a84-8593-f9c4e4a37017',
     artist: 'Jesper Ejsing',
     border_color: 'black',
-    frame: '2015',
-    frame_effect: '',
+    frame: '2003',
     full_art: false,
     story_spotlight: false,
     related_uris:

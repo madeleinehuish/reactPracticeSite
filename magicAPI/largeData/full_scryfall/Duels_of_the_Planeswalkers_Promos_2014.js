@@ -71,10 +71,9 @@ module.exports = [ { object: 'card',
     artist: 'Eytan Zana',
     border_color: 'black',
     frame: '2015',
-    frame_effect: '',
     full_art: false,
     story_spotlight: false,
-    edhrec_rank: 6276,
+    edhrec_rank: 6339,
     related_uris:
      { tcgplayer_decks:
         'https://decks.tcgplayer.com/magic/deck/search?contains=Soul+of+Zendikar&page=1&partner=Scryfall&utm_campaign=affiliate&utm_medium=scryfall&utm_source=scryfall',
@@ -155,10 +154,9 @@ module.exports = [ { object: 'card',
     artist: 'Lucas Graciano',
     border_color: 'black',
     frame: '2015',
-    frame_effect: '',
     full_art: false,
     story_spotlight: false,
-    edhrec_rank: 10049,
+    edhrec_rank: 10268,
     related_uris:
      { tcgplayer_decks:
         'https://decks.tcgplayer.com/magic/deck/search?contains=Soul+of+Ravnica&page=1&partner=Scryfall&utm_campaign=affiliate&utm_medium=scryfall&utm_source=scryfall',

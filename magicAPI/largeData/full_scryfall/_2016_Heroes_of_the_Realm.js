@@ -13,16 +13,16 @@ module.exports = [ { object: 'card',
     highres_image: true,
     image_uris:
      { small:
-        'https://img.scryfall.com/cards/small/en/htr/3.jpg?1517813031',
+        'https://img.scryfall.com/cards/small/en/htr/3.jpg?1552011126',
        normal:
-        'https://img.scryfall.com/cards/normal/en/htr/3.jpg?1517813031',
+        'https://img.scryfall.com/cards/normal/en/htr/3.jpg?1552011126',
        large:
-        'https://img.scryfall.com/cards/large/en/htr/3.jpg?1517813031',
-       png: 'https://img.scryfall.com/cards/png/en/htr/3.png?1517813031',
+        'https://img.scryfall.com/cards/large/en/htr/3.jpg?1552011126',
+       png: 'https://img.scryfall.com/cards/png/en/htr/3.png?1552011126',
        art_crop:
-        'https://img.scryfall.com/cards/art_crop/en/htr/3.jpg?1517813031',
+        'https://img.scryfall.com/cards/art_crop/en/htr/3.jpg?1552011126',
        border_crop:
-        'https://img.scryfall.com/cards/border_crop/en/htr/3.jpg?1517813031' },
+        'https://img.scryfall.com/cards/border_crop/en/htr/3.jpg?1552011126' },
     mana_cost: '{W}{U}{B}{R}{G}',
     cmc: 5,
     type_line: 'Legendary Creature — Dragon',
@@ -70,7 +70,6 @@ module.exports = [ { object: 'card',
     artist: 'Yoichi Ito',
     border_color: 'black',
     frame: '2015',
-    frame_effect: '',
     full_art: false,
     story_spotlight: false,
     related_uris:
@@ -95,16 +94,16 @@ module.exports = [ { object: 'card',
     highres_image: true,
     image_uris:
      { small:
-        'https://img.scryfall.com/cards/small/en/htr/2.jpg?1530206606',
+        'https://img.scryfall.com/cards/small/en/htr/2.jpg?1552011120',
        normal:
-        'https://img.scryfall.com/cards/normal/en/htr/2.jpg?1530206606',
+        'https://img.scryfall.com/cards/normal/en/htr/2.jpg?1552011120',
        large:
-        'https://img.scryfall.com/cards/large/en/htr/2.jpg?1530206606',
-       png: 'https://img.scryfall.com/cards/png/en/htr/2.png?1530206606',
+        'https://img.scryfall.com/cards/large/en/htr/2.jpg?1552011120',
+       png: 'https://img.scryfall.com/cards/png/en/htr/2.png?1552011120',
        art_crop:
-        'https://img.scryfall.com/cards/art_crop/en/htr/2.jpg?1530206606',
+        'https://img.scryfall.com/cards/art_crop/en/htr/2.jpg?1552011120',
        border_crop:
-        'https://img.scryfall.com/cards/border_crop/en/htr/2.jpg?1530206606' },
+        'https://img.scryfall.com/cards/border_crop/en/htr/2.jpg?1552011120' },
     mana_cost: '{2}{W}{U}',
     cmc: 4,
     type_line: 'Legendary Planeswalker — Dungeon Master',
@@ -150,7 +149,6 @@ module.exports = [ { object: 'card',
     artist: 'Mike Burns',
     border_color: 'black',
     frame: '2015',
-    frame_effect: '',
     full_art: false,
     story_spotlight: false,
     related_uris:
@@ -175,16 +173,16 @@ module.exports = [ { object: 'card',
     highres_image: true,
     image_uris:
      { small:
-        'https://img.scryfall.com/cards/small/en/htr/1.jpg?1526407593',
+        'https://img.scryfall.com/cards/small/en/htr/1.jpg?1552011114',
        normal:
-        'https://img.scryfall.com/cards/normal/en/htr/1.jpg?1526407593',
+        'https://img.scryfall.com/cards/normal/en/htr/1.jpg?1552011114',
        large:
-        'https://img.scryfall.com/cards/large/en/htr/1.jpg?1526407593',
-       png: 'https://img.scryfall.com/cards/png/en/htr/1.png?1526407593',
+        'https://img.scryfall.com/cards/large/en/htr/1.jpg?1552011114',
+       png: 'https://img.scryfall.com/cards/png/en/htr/1.png?1552011114',
        art_crop:
-        'https://img.scryfall.com/cards/art_crop/en/htr/1.jpg?1526407593',
+        'https://img.scryfall.com/cards/art_crop/en/htr/1.jpg?1552011114',
        border_crop:
-        'https://img.scryfall.com/cards/border_crop/en/htr/1.jpg?1526407593' },
+        'https://img.scryfall.com/cards/border_crop/en/htr/1.jpg?1552011114' },
     mana_cost: '{2}{R}{R}',
     cmc: 4,
     type_line: 'Legendary Planeswalker — Chandra',
@@ -232,7 +230,6 @@ module.exports = [ { object: 'card',
     artist: 'Kari Christensen',
     border_color: 'black',
     frame: '2015',
-    frame_effect: '',
     full_art: false,
     story_spotlight: false,
     related_uris:

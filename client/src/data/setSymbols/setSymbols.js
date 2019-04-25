@@ -532,4 +532,6 @@ export default { 'Modern Horizons': 'https://img.scryfall.com/sets/mh1.svg?15528
   'Collectors’ Edition': 'https://img.scryfall.com/sets/ced.svg?1552881600',
   'Unlimited Edition': 'https://img.scryfall.com/sets/2ed.svg?1552881600',
   'Limited Edition Beta': 'https://img.scryfall.com/sets/leb.svg?1552881600',
-  'Limited Edition Alpha': 'https://img.scryfall.com/sets/lea.svg?1552881600' }
+  'Limited Edition Alpha': 'https://img.scryfall.com/sets/lea.svg?1552881600',
+  'War of the Spark': 'https://img.scryfall.com/sets/war.svg?1555905600'
+ }

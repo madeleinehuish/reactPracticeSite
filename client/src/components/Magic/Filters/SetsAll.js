@@ -171,7 +171,8 @@ const TestSets = React.forwardRef((props, ref) => {
 		{ name: 'Ultimate Masters', id: 'uma' },
 		{ name: 'Ravnica Allegiance Mythic Edition', id: 'med' },
 		{ name: 'Ravnica Allegiance', id: 'rna' },
-		{ name: 'Ravnica Allegiance Guild Kits', id: 'gk2' }
+		{ name: 'Ravnica Allegiance Guild Kits', id: 'gk2' },
+		{ name: 'War of the Spark', id: 'war'}
 
 	]
 

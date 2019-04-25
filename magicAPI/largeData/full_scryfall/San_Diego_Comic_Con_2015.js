@@ -104,7 +104,7 @@ module.exports = [ { object: 'card',
     frame_effect: 'originpwdfc',
     full_art: false,
     story_spotlight: false,
-    edhrec_rank: 1498,
+    edhrec_rank: 1502,
     related_uris:
      { tcgplayer_decks:
         'https://decks.tcgplayer.com/magic/deck/search?contains=Nissa%2C+Vastwood+Seer&page=1&partner=Scryfall&utm_campaign=affiliate&utm_medium=scryfall&utm_source=scryfall',
@@ -218,7 +218,7 @@ module.exports = [ { object: 'card',
     frame_effect: 'originpwdfc',
     full_art: false,
     story_spotlight: false,
-    edhrec_rank: 5374,
+    edhrec_rank: 5481,
     related_uris:
      { tcgplayer_decks:
         'https://decks.tcgplayer.com/magic/deck/search?contains=Chandra%2C+Fire+of+Kaladesh&page=1&partner=Scryfall&utm_campaign=affiliate&utm_medium=scryfall&utm_source=scryfall',
@@ -332,7 +332,7 @@ module.exports = [ { object: 'card',
     frame_effect: 'originpwdfc',
     full_art: false,
     story_spotlight: false,
-    edhrec_rank: 1799,
+    edhrec_rank: 1825,
     related_uris:
      { tcgplayer_decks:
         'https://decks.tcgplayer.com/magic/deck/search?contains=Liliana%2C+Heretical+Healer&page=1&partner=Scryfall&utm_campaign=affiliate&utm_medium=scryfall&utm_source=scryfall',
@@ -446,7 +446,7 @@ module.exports = [ { object: 'card',
     frame_effect: 'originpwdfc',
     full_art: false,
     story_spotlight: false,
-    edhrec_rank: 1880,
+    edhrec_rank: 1901,
     related_uris:
      { tcgplayer_decks:
         'https://decks.tcgplayer.com/magic/deck/search?contains=Jace%2C+Vryn%27s+Prodigy&page=1&partner=Scryfall&utm_campaign=affiliate&utm_medium=scryfall&utm_source=scryfall',
@@ -560,7 +560,7 @@ module.exports = [ { object: 'card',
     frame_effect: 'originpwdfc',
     full_art: false,
     story_spotlight: false,
-    edhrec_rank: 4560,
+    edhrec_rank: 4661,
     related_uris:
      { tcgplayer_decks:
         'https://decks.tcgplayer.com/magic/deck/search?contains=Kytheon%2C+Hero+of+Akros&page=1&partner=Scryfall&utm_campaign=affiliate&utm_medium=scryfall&utm_source=scryfall',

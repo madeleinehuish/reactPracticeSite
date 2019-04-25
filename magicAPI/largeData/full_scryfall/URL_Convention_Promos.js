@@ -1,94 +1,11 @@
 module.exports = [ { object: 'card',
-    id: '7a3d472f-6454-427e-8434-ae70af43dcaf',
-    oracle_id: '104ea189-14cd-420f-afdc-57b0f827ab8e',
-    multiverse_ids: [],
-    name: 'Relentless Rats',
-    lang: 'it',
-    released_at: '2010-01-01',
-    uri:
-     'https://api.scryfall.com/cards/7a3d472f-6454-427e-8434-ae70af43dcaf',
-    scryfall_uri:
-     'https://scryfall.com/card/purl/9/it/relentless-rats?utm_source=api',
-    layout: 'normal',
-    highres_image: true,
-    image_uris:
-     { small:
-        'https://img.scryfall.com/cards/small/front/7/a/7a3d472f-6454-427e-8434-ae70af43dcaf.jpg?1539226557',
-       normal:
-        'https://img.scryfall.com/cards/normal/front/7/a/7a3d472f-6454-427e-8434-ae70af43dcaf.jpg?1539226557',
-       large:
-        'https://img.scryfall.com/cards/large/front/7/a/7a3d472f-6454-427e-8434-ae70af43dcaf.jpg?1539226557',
-       png:
-        'https://img.scryfall.com/cards/png/front/7/a/7a3d472f-6454-427e-8434-ae70af43dcaf.png?1539226557',
-       art_crop:
-        'https://img.scryfall.com/cards/art_crop/front/7/a/7a3d472f-6454-427e-8434-ae70af43dcaf.jpg?1539226557',
-       border_crop:
-        'https://img.scryfall.com/cards/border_crop/front/7/a/7a3d472f-6454-427e-8434-ae70af43dcaf.jpg?1539226557' },
-    mana_cost: '{1}{B}{B}',
-    cmc: 3,
-    type_line: 'Creature — Rat',
-    oracle_text:
-     'Relentless Rats gets +1/+1 for each other creature on the battlefield named Relentless Rats.\nA deck can have any number of cards named Relentless Rats.',
-    power: '2',
-    toughness: '2',
-    colors: [ 'B' ],
-    color_identity: [ 'B' ],
-    legalities:
-     { standard: 'not_legal',
-       future: 'not_legal',
-       frontier: 'not_legal',
-       modern: 'legal',
-       legacy: 'legal',
-       pauper: 'legal',
-       vintage: 'legal',
-       penny: 'not_legal',
-       commander: 'legal',
-       duel: 'legal',
-       oldschool: 'not_legal' },
-    games: [ 'paper' ],
-    reserved: false,
-    foil: true,
-    nonfoil: true,
-    oversized: false,
-    promo: true,
-    reprint: true,
-    set: 'purl',
-    set_name: 'URL/Convention Promos',
-    set_uri:
-     'https://api.scryfall.com/sets/a9fbcd3c-290f-4fa1-b227-dbab037c0c91',
-    set_search_uri:
-     'https://api.scryfall.com/cards/search?order=set&q=e%3Apurl&unique=prints',
-    scryfall_set_uri: 'https://scryfall.com/sets/purl?utm_source=api',
-    rulings_uri:
-     'https://api.scryfall.com/cards/7a3d472f-6454-427e-8434-ae70af43dcaf/rulings',
-    prints_search_uri:
-     'https://api.scryfall.com/cards/search?order=released&q=oracleid%3A104ea189-14cd-420f-afdc-57b0f827ab8e&unique=prints',
-    collector_number: '9',
-    digital: false,
-    rarity: 'rare',
-    illustration_id: '76fc4aad-fff6-4814-8567-fe796b04d013',
-    artist: 'Thomas M. Baxa',
-    border_color: 'black',
-    frame: '2015',
-    frame_effect: '',
-    full_art: false,
-    story_spotlight: false,
-    edhrec_rank: 5299,
-    related_uris:
-     { tcgplayer_decks:
-        'https://decks.tcgplayer.com/magic/deck/search?contains=Relentless+Rats&page=1&partner=Scryfall&utm_campaign=affiliate&utm_medium=scryfall&utm_source=scryfall',
-       edhrec: 'http://edhrec.com/route/?cc=Relentless+Rats',
-       mtgtop8:
-        'http://mtgtop8.com/search?MD_check=1&SB_check=1&cards=Relentless+Rats' },
-    myId: 2 },
-  { object: 'card',
     id: '21c3a636-962f-46e0-9c9e-48523547acd0',
     oracle_id: 'a15bb807-ea31-4bff-b573-c249c4c78dd6',
     multiverse_ids: [],
     tcgplayer_id: 131908,
     name: 'Aeronaut Tinkerer',
     lang: 'en',
-    released_at: '2009-02-08',
+    released_at: '2015-01-23',
     uri:
      'https://api.scryfall.com/cards/21c3a636-962f-46e0-9c9e-48523547acd0',
     scryfall_uri:
@@ -157,24 +74,24 @@ module.exports = [ { object: 'card',
     artist: 'Willian Murai',
     border_color: 'black',
     frame: '2015',
-    frame_effect: '',
     full_art: false,
     story_spotlight: false,
-    edhrec_rank: 16031,
+    edhrec_rank: 16118,
     related_uris:
      { tcgplayer_decks:
         'https://decks.tcgplayer.com/magic/deck/search?contains=Aeronaut+Tinkerer&page=1&partner=Scryfall&utm_campaign=affiliate&utm_medium=scryfall&utm_source=scryfall',
        edhrec: 'http://edhrec.com/route/?cc=Aeronaut+Tinkerer',
        mtgtop8:
         'http://mtgtop8.com/search?MD_check=1&SB_check=1&cards=Aeronaut+Tinkerer' },
-    myId: 3 },
+    myId: 2 },
   { object: 'card',
     id: '8785bf1f-c459-4332-9915-2c0e046ab3f4',
     oracle_id: '8f9535f2-f00c-40d3-9997-d1c0ece15f9f',
     multiverse_ids: [],
+    tcgplayer_id: 183116,
     name: 'Stealer of Secrets',
     lang: 'en',
-    released_at: '2009-02-08',
+    released_at: '2014-04-11',
     uri:
      'https://api.scryfall.com/cards/8785bf1f-c459-4332-9915-2c0e046ab3f4',
     scryfall_uri:
@@ -242,17 +159,16 @@ module.exports = [ { object: 'card',
     artist: 'Michael C. Hayes',
     border_color: 'black',
     frame: '2003',
-    frame_effect: '',
     full_art: false,
     story_spotlight: false,
-    edhrec_rank: 7876,
+    edhrec_rank: 7995,
     related_uris:
      { tcgplayer_decks:
         'https://decks.tcgplayer.com/magic/deck/search?contains=Stealer+of+Secrets&page=1&partner=Scryfall&utm_campaign=affiliate&utm_medium=scryfall&utm_source=scryfall',
        edhrec: 'http://edhrec.com/route/?cc=Stealer+of+Secrets',
        mtgtop8:
         'http://mtgtop8.com/search?MD_check=1&SB_check=1&cards=Stealer+of+Secrets' },
-    myId: 4 },
+    myId: 3 },
   { object: 'card',
     id: 'e761acf6-6618-44cc-8f65-1d7ad7e520fe',
     oracle_id: 'eb16f188-fe12-4a13-9947-d43cd6ce270c',
@@ -260,7 +176,7 @@ module.exports = [ { object: 'card',
     tcgplayer_id: 79346,
     name: "Chandra's Fury",
     lang: 'en',
-    released_at: '2009-02-08',
+    released_at: '2013-03-22',
     uri:
      'https://api.scryfall.com/cards/e761acf6-6618-44cc-8f65-1d7ad7e520fe',
     scryfall_uri:
@@ -323,20 +239,19 @@ module.exports = [ { object: 'card',
     watermark: 'wotc',
     flavor_text: 'www.MagicTheGathering.com',
     illustration_id: '158eab18-f4cf-4946-b5ab-8d6400848aba',
-    artist: 'Volkan Baga',
+    artist: 'Volkan Baǵa',
     border_color: 'black',
     frame: '2003',
-    frame_effect: '',
     full_art: false,
     story_spotlight: false,
-    edhrec_rank: 8104,
+    edhrec_rank: 8252,
     related_uris:
      { tcgplayer_decks:
         'https://decks.tcgplayer.com/magic/deck/search?contains=Chandra%27s+Fury&page=1&partner=Scryfall&utm_campaign=affiliate&utm_medium=scryfall&utm_source=scryfall',
        edhrec: 'http://edhrec.com/route/?cc=Chandra%27s+Fury',
        mtgtop8:
         'http://mtgtop8.com/search?MD_check=1&SB_check=1&cards=Chandra%27s+Fury' },
-    myId: 5 },
+    myId: 4 },
   { object: 'card',
     id: 'a2052095-99a5-4db1-b7ef-d13875f4da5d',
     oracle_id: '590d524f-278d-4cf4-ae3f-efcced4517b1',
@@ -344,7 +259,7 @@ module.exports = [ { object: 'card',
     tcgplayer_id: 77453,
     name: 'Merfolk Mesmerist',
     lang: 'en',
-    released_at: '2009-02-08',
+    released_at: '2012-04-06',
     uri:
      'https://api.scryfall.com/cards/a2052095-99a5-4db1-b7ef-d13875f4da5d',
     scryfall_uri:
@@ -412,17 +327,16 @@ module.exports = [ { object: 'card',
     artist: 'Jana Schirmer & Johannes Voss',
     border_color: 'black',
     frame: '2003',
-    frame_effect: '',
     full_art: false,
     story_spotlight: false,
-    edhrec_rank: 12056,
+    edhrec_rank: 12295,
     related_uris:
      { tcgplayer_decks:
         'https://decks.tcgplayer.com/magic/deck/search?contains=Merfolk+Mesmerist&page=1&partner=Scryfall&utm_campaign=affiliate&utm_medium=scryfall&utm_source=scryfall',
        edhrec: 'http://edhrec.com/route/?cc=Merfolk+Mesmerist',
        mtgtop8:
         'http://mtgtop8.com/search?MD_check=1&SB_check=1&cards=Merfolk+Mesmerist' },
-    myId: 6 },
+    myId: 5 },
   { object: 'card',
     id: 'abe7768f-5686-44d0-8698-694fb9a400f7',
     oracle_id: 'aa76cc50-5be0-4844-b3a4-fb33fca3cdd3',
@@ -430,7 +344,7 @@ module.exports = [ { object: 'card',
     tcgplayer_id: 48144,
     name: 'Bloodthrone Vampire',
     lang: 'en',
-    released_at: '2009-02-08',
+    released_at: '2011-03-11',
     uri:
      'https://api.scryfall.com/cards/abe7768f-5686-44d0-8698-694fb9a400f7',
     scryfall_uri:
@@ -497,17 +411,16 @@ module.exports = [ { object: 'card',
     artist: 'Steve Argyle',
     border_color: 'black',
     frame: '2003',
-    frame_effect: '',
     full_art: false,
     story_spotlight: false,
-    edhrec_rank: 3513,
+    edhrec_rank: 3449,
     related_uris:
      { tcgplayer_decks:
         'https://decks.tcgplayer.com/magic/deck/search?contains=Bloodthrone+Vampire&page=1&partner=Scryfall&utm_campaign=affiliate&utm_medium=scryfall&utm_source=scryfall',
        edhrec: 'http://edhrec.com/route/?cc=Bloodthrone+Vampire',
        mtgtop8:
         'http://mtgtop8.com/search?MD_check=1&SB_check=1&cards=Bloodthrone+Vampire' },
-    myId: 7 },
+    myId: 6 },
   { object: 'card',
     id: 'cffc6114-aa99-4c56-80fc-92fb32639d13',
     oracle_id: '054a0193-861e-4644-ab0a-8aa33407abc8',
@@ -515,7 +428,7 @@ module.exports = [ { object: 'card',
     tcgplayer_id: 38356,
     name: 'Kor Skyfisher',
     lang: 'en',
-    released_at: '2009-02-08',
+    released_at: '2010-03-26',
     uri:
      'https://api.scryfall.com/cards/cffc6114-aa99-4c56-80fc-92fb32639d13',
     scryfall_uri:
@@ -583,17 +496,183 @@ module.exports = [ { object: 'card',
     artist: 'Dan Scott',
     border_color: 'black',
     frame: '2003',
-    frame_effect: '',
     full_art: false,
     story_spotlight: false,
-    edhrec_rank: 7362,
+    edhrec_rank: 7373,
     related_uris:
      { tcgplayer_decks:
         'https://decks.tcgplayer.com/magic/deck/search?contains=Kor+Skyfisher&page=1&partner=Scryfall&utm_campaign=affiliate&utm_medium=scryfall&utm_source=scryfall',
        edhrec: 'http://edhrec.com/route/?cc=Kor+Skyfisher',
        mtgtop8:
         'http://mtgtop8.com/search?MD_check=1&SB_check=1&cards=Kor+Skyfisher' },
+    myId: 7 },
+  { object: 'card',
+    id: '7a3d472f-6454-427e-8434-ae70af43dcaf',
+    oracle_id: '104ea189-14cd-420f-afdc-57b0f827ab8e',
+    multiverse_ids: [],
+    name: 'Relentless Rats',
+    lang: 'it',
+    released_at: '2010-01-01',
+    uri:
+     'https://api.scryfall.com/cards/7a3d472f-6454-427e-8434-ae70af43dcaf',
+    scryfall_uri:
+     'https://scryfall.com/card/purl/9/it/relentless-rats?utm_source=api',
+    layout: 'normal',
+    highres_image: true,
+    image_uris:
+     { small:
+        'https://img.scryfall.com/cards/small/front/7/a/7a3d472f-6454-427e-8434-ae70af43dcaf.jpg?1553908932',
+       normal:
+        'https://img.scryfall.com/cards/normal/front/7/a/7a3d472f-6454-427e-8434-ae70af43dcaf.jpg?1553908932',
+       large:
+        'https://img.scryfall.com/cards/large/front/7/a/7a3d472f-6454-427e-8434-ae70af43dcaf.jpg?1553908932',
+       png:
+        'https://img.scryfall.com/cards/png/front/7/a/7a3d472f-6454-427e-8434-ae70af43dcaf.png?1553908932',
+       art_crop:
+        'https://img.scryfall.com/cards/art_crop/front/7/a/7a3d472f-6454-427e-8434-ae70af43dcaf.jpg?1553908932',
+       border_crop:
+        'https://img.scryfall.com/cards/border_crop/front/7/a/7a3d472f-6454-427e-8434-ae70af43dcaf.jpg?1553908932' },
+    mana_cost: '{1}{B}{B}',
+    cmc: 3,
+    type_line: 'Creature — Rat',
+    oracle_text:
+     'Relentless Rats gets +1/+1 for each other creature on the battlefield named Relentless Rats.\nA deck can have any number of cards named Relentless Rats.',
+    power: '2',
+    toughness: '2',
+    colors: [ 'B' ],
+    color_identity: [ 'B' ],
+    legalities:
+     { standard: 'not_legal',
+       future: 'not_legal',
+       frontier: 'not_legal',
+       modern: 'legal',
+       legacy: 'legal',
+       pauper: 'legal',
+       vintage: 'legal',
+       penny: 'not_legal',
+       commander: 'legal',
+       duel: 'legal',
+       oldschool: 'not_legal' },
+    games: [ 'paper' ],
+    reserved: false,
+    foil: true,
+    nonfoil: false,
+    oversized: false,
+    promo: true,
+    reprint: true,
+    set: 'purl',
+    set_name: 'URL/Convention Promos',
+    set_uri:
+     'https://api.scryfall.com/sets/a9fbcd3c-290f-4fa1-b227-dbab037c0c91',
+    set_search_uri:
+     'https://api.scryfall.com/cards/search?order=set&q=e%3Apurl&unique=prints',
+    scryfall_set_uri: 'https://scryfall.com/sets/purl?utm_source=api',
+    rulings_uri:
+     'https://api.scryfall.com/cards/7a3d472f-6454-427e-8434-ae70af43dcaf/rulings',
+    prints_search_uri:
+     'https://api.scryfall.com/cards/search?order=released&q=oracleid%3A104ea189-14cd-420f-afdc-57b0f827ab8e&unique=prints',
+    collector_number: '9',
+    digital: false,
+    rarity: 'rare',
+    watermark: 'colorpie',
+    illustration_id: '76fc4aad-fff6-4814-8567-fe796b04d013',
+    artist: 'Thomas M. Baxa',
+    border_color: 'black',
+    frame: '2003',
+    full_art: false,
+    story_spotlight: false,
+    edhrec_rank: 5424,
+    related_uris:
+     { tcgplayer_decks:
+        'https://decks.tcgplayer.com/magic/deck/search?contains=Relentless+Rats&page=1&partner=Scryfall&utm_campaign=affiliate&utm_medium=scryfall&utm_source=scryfall',
+       edhrec: 'http://edhrec.com/route/?cc=Relentless+Rats',
+       mtgtop8:
+        'http://mtgtop8.com/search?MD_check=1&SB_check=1&cards=Relentless+Rats' },
     myId: 8 },
+  { object: 'card',
+    id: 'd7e4b490-e435-41bd-9877-6bfed57874f0',
+    oracle_id: 'd8c70f2f-985c-4982-97eb-99da3810e048',
+    multiverse_ids: [],
+    name: 'Shepherd of the Lost',
+    lang: 'ja',
+    released_at: '2009-10-03',
+    uri:
+     'https://api.scryfall.com/cards/d7e4b490-e435-41bd-9877-6bfed57874f0',
+    scryfall_uri:
+     'https://scryfall.com/card/purl/34*/ja/shepherd-of-the-lost?utm_source=api',
+    layout: 'normal',
+    highres_image: true,
+    image_uris:
+     { small:
+        'https://img.scryfall.com/cards/small/front/d/7/d7e4b490-e435-41bd-9877-6bfed57874f0.jpg?1553246215',
+       normal:
+        'https://img.scryfall.com/cards/normal/front/d/7/d7e4b490-e435-41bd-9877-6bfed57874f0.jpg?1553246215',
+       large:
+        'https://img.scryfall.com/cards/large/front/d/7/d7e4b490-e435-41bd-9877-6bfed57874f0.jpg?1553246215',
+       png:
+        'https://img.scryfall.com/cards/png/front/d/7/d7e4b490-e435-41bd-9877-6bfed57874f0.png?1553246215',
+       art_crop:
+        'https://img.scryfall.com/cards/art_crop/front/d/7/d7e4b490-e435-41bd-9877-6bfed57874f0.jpg?1553246215',
+       border_crop:
+        'https://img.scryfall.com/cards/border_crop/front/d/7/d7e4b490-e435-41bd-9877-6bfed57874f0.jpg?1553246215' },
+    mana_cost: '{4}{W}',
+    cmc: 5,
+    type_line: 'Creature — Angel',
+    oracle_text: 'Flying, first strike, vigilance',
+    power: '3',
+    toughness: '3',
+    colors: [ 'W' ],
+    color_identity: [ 'W' ],
+    legalities:
+     { standard: 'not_legal',
+       future: 'not_legal',
+       frontier: 'not_legal',
+       modern: 'legal',
+       legacy: 'legal',
+       pauper: 'not_legal',
+       vintage: 'legal',
+       penny: 'legal',
+       commander: 'legal',
+       duel: 'legal',
+       oldschool: 'not_legal' },
+    games: [ 'paper' ],
+    reserved: false,
+    foil: true,
+    nonfoil: false,
+    oversized: false,
+    promo: true,
+    reprint: true,
+    set: 'purl',
+    set_name: 'URL/Convention Promos',
+    set_uri:
+     'https://api.scryfall.com/sets/a9fbcd3c-290f-4fa1-b227-dbab037c0c91',
+    set_search_uri:
+     'https://api.scryfall.com/cards/search?order=set&q=e%3Apurl&unique=prints',
+    scryfall_set_uri: 'https://scryfall.com/sets/purl?utm_source=api',
+    rulings_uri:
+     'https://api.scryfall.com/cards/d7e4b490-e435-41bd-9877-6bfed57874f0/rulings',
+    prints_search_uri:
+     'https://api.scryfall.com/cards/search?order=released&q=oracleid%3Ad8c70f2f-985c-4982-97eb-99da3810e048&unique=prints',
+    collector_number: '34*',
+    digital: false,
+    rarity: 'uncommon',
+    watermark: 'dengekimaoh',
+    flavor_text:
+     `"Should you fall in the wilds, lift your voice to the Sky Realm. The one who answers will be your salvation." —Emeria's Creed`,
+    illustration_id: 'ccfd66f8-8cde-491f-8453-f90a27c0e440',
+    artist: 'Kekai Kotaki',
+    border_color: 'black',
+    frame: '2003',
+    full_art: false,
+    story_spotlight: false,
+    edhrec_rank: 11073,
+    related_uris:
+     { tcgplayer_decks:
+        'https://decks.tcgplayer.com/magic/deck/search?contains=Shepherd+of+the+Lost&page=1&partner=Scryfall&utm_campaign=affiliate&utm_medium=scryfall&utm_source=scryfall',
+       edhrec: 'http://edhrec.com/route/?cc=Shepherd+of+the+Lost',
+       mtgtop8:
+        'http://mtgtop8.com/search?MD_check=1&SB_check=1&cards=Shepherd+of+the+Lost' },
+    myId: 9 },
   { object: 'card',
     id: '47a88207-e15c-4d34-bd70-218e6afd15c6',
     oracle_id: 'ca5d0a56-69c1-4bdb-95f0-af0dec3604a5',
@@ -601,7 +680,7 @@ module.exports = [ { object: 'card',
     tcgplayer_id: 38363,
     name: 'Steward of Valeron',
     lang: 'en',
-    released_at: '2009-02-08',
+    released_at: '2009-01-01',
     uri:
      'https://api.scryfall.com/cards/47a88207-e15c-4d34-bd70-218e6afd15c6',
     scryfall_uri:
@@ -667,14 +746,13 @@ module.exports = [ { object: 'card',
     artist: 'Greg Staples',
     border_color: 'black',
     frame: '2003',
-    frame_effect: '',
     full_art: false,
     story_spotlight: false,
-    edhrec_rank: 7188,
+    edhrec_rank: 7327,
     related_uris:
      { tcgplayer_decks:
         'https://decks.tcgplayer.com/magic/deck/search?contains=Steward+of+Valeron&page=1&partner=Scryfall&utm_campaign=affiliate&utm_medium=scryfall&utm_source=scryfall',
        edhrec: 'http://edhrec.com/route/?cc=Steward+of+Valeron',
        mtgtop8:
         'http://mtgtop8.com/search?MD_check=1&SB_check=1&cards=Steward+of+Valeron' },
-    myId: 9 } ]
+    myId: 10 } ]

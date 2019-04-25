@@ -14,17 +14,17 @@ module.exports = [ { object: 'card',
     highres_image: true,
     image_uris:
      { small:
-        'https://img.scryfall.com/cards/small/en/pwor/1.jpg?1517813031',
+        'https://img.scryfall.com/cards/small/en/pwor/1.jpg?1554868724',
        normal:
-        'https://img.scryfall.com/cards/normal/en/pwor/1.jpg?1517813031',
+        'https://img.scryfall.com/cards/normal/en/pwor/1.jpg?1554868724',
        large:
-        'https://img.scryfall.com/cards/large/en/pwor/1.jpg?1517813031',
+        'https://img.scryfall.com/cards/large/en/pwor/1.jpg?1554868724',
        png:
-        'https://img.scryfall.com/cards/png/en/pwor/1.png?1517813031',
+        'https://img.scryfall.com/cards/png/en/pwor/1.png?1554868724',
        art_crop:
-        'https://img.scryfall.com/cards/art_crop/en/pwor/1.jpg?1517813031',
+        'https://img.scryfall.com/cards/art_crop/en/pwor/1.jpg?1554868724',
        border_crop:
-        'https://img.scryfall.com/cards/border_crop/en/pwor/1.jpg?1517813031' },
+        'https://img.scryfall.com/cards/border_crop/en/pwor/1.jpg?1554868724' },
     mana_cost: '{2}{R}{R}',
     cmc: 4,
     type_line: 'Creature — Human Barbarian',
@@ -71,10 +71,9 @@ module.exports = [ { object: 'card',
     artist: 'Brian Snõddy',
     border_color: 'black',
     frame: '1997',
-    frame_effect: '',
     full_art: false,
     story_spotlight: false,
-    edhrec_rank: 13438,
+    edhrec_rank: 13704,
     related_uris:
      { tcgplayer_decks:
         'https://decks.tcgplayer.com/magic/deck/search?contains=Balduvian+Horde&page=1&partner=Scryfall&utm_campaign=affiliate&utm_medium=scryfall&utm_source=scryfall',

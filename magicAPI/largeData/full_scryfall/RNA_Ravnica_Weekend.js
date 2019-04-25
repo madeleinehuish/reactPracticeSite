@@ -7,22 +7,22 @@ module.exports = [ { object: 'card',
     released_at: '2019-02-16',
     uri:
      'https://api.scryfall.com/cards/ac709474-7790-483f-9ed5-ea7abccfce53',
-    scryfall_uri: 'https://scryfall.com/card/prw2/10/island?utm_source=api',
+    scryfall_uri: 'https://scryfall.com/card/prw2/B10/island?utm_source=api',
     layout: 'normal',
     highres_image: true,
     image_uris:
      { small:
-        'https://img.scryfall.com/cards/small/front/a/c/ac709474-7790-483f-9ed5-ea7abccfce53.jpg?1548387660',
+        'https://img.scryfall.com/cards/small/front/a/c/ac709474-7790-483f-9ed5-ea7abccfce53.jpg?1553195352',
        normal:
-        'https://img.scryfall.com/cards/normal/front/a/c/ac709474-7790-483f-9ed5-ea7abccfce53.jpg?1548387660',
+        'https://img.scryfall.com/cards/normal/front/a/c/ac709474-7790-483f-9ed5-ea7abccfce53.jpg?1553195352',
        large:
-        'https://img.scryfall.com/cards/large/front/a/c/ac709474-7790-483f-9ed5-ea7abccfce53.jpg?1548387660',
+        'https://img.scryfall.com/cards/large/front/a/c/ac709474-7790-483f-9ed5-ea7abccfce53.jpg?1553195352',
        png:
-        'https://img.scryfall.com/cards/png/front/a/c/ac709474-7790-483f-9ed5-ea7abccfce53.png?1548387660',
+        'https://img.scryfall.com/cards/png/front/a/c/ac709474-7790-483f-9ed5-ea7abccfce53.png?1553195352',
        art_crop:
-        'https://img.scryfall.com/cards/art_crop/front/a/c/ac709474-7790-483f-9ed5-ea7abccfce53.jpg?1548387660',
+        'https://img.scryfall.com/cards/art_crop/front/a/c/ac709474-7790-483f-9ed5-ea7abccfce53.jpg?1553195352',
        border_crop:
-        'https://img.scryfall.com/cards/border_crop/front/a/c/ac709474-7790-483f-9ed5-ea7abccfce53.jpg?1548387660' },
+        'https://img.scryfall.com/cards/border_crop/front/a/c/ac709474-7790-483f-9ed5-ea7abccfce53.jpg?1553195352' },
     mana_cost: '',
     cmc: 0,
     type_line: 'Basic Land — Island',
@@ -59,7 +59,7 @@ module.exports = [ { object: 'card',
      'https://api.scryfall.com/cards/ac709474-7790-483f-9ed5-ea7abccfce53/rulings',
     prints_search_uri:
      'https://api.scryfall.com/cards/search?order=released&q=oracleid%3Ab2c6aa39-2d2a-459c-a555-fb48ba993373&unique=prints',
-    collector_number: '10',
+    collector_number: 'B10',
     digital: false,
     rarity: 'common',
     watermark: 'simic',
@@ -67,7 +67,6 @@ module.exports = [ { object: 'card',
     artist: 'Yeong-Hao Han',
     border_color: 'black',
     frame: '2015',
-    frame_effect: '',
     full_art: false,
     story_spotlight: false,
     related_uris:
@@ -86,22 +85,22 @@ module.exports = [ { object: 'card',
     released_at: '2019-02-16',
     uri:
      'https://api.scryfall.com/cards/b79ec1ab-99ac-4552-891e-839067f606fc',
-    scryfall_uri: 'https://scryfall.com/card/prw2/9/forest?utm_source=api',
+    scryfall_uri: 'https://scryfall.com/card/prw2/B9/forest?utm_source=api',
     layout: 'normal',
     highres_image: true,
     image_uris:
      { small:
-        'https://img.scryfall.com/cards/small/front/b/7/b79ec1ab-99ac-4552-891e-839067f606fc.jpg?1548387611',
+        'https://img.scryfall.com/cards/small/front/b/7/b79ec1ab-99ac-4552-891e-839067f606fc.jpg?1553195358',
        normal:
-        'https://img.scryfall.com/cards/normal/front/b/7/b79ec1ab-99ac-4552-891e-839067f606fc.jpg?1548387611',
+        'https://img.scryfall.com/cards/normal/front/b/7/b79ec1ab-99ac-4552-891e-839067f606fc.jpg?1553195358',
        large:
-        'https://img.scryfall.com/cards/large/front/b/7/b79ec1ab-99ac-4552-891e-839067f606fc.jpg?1548387611',
+        'https://img.scryfall.com/cards/large/front/b/7/b79ec1ab-99ac-4552-891e-839067f606fc.jpg?1553195358',
        png:
-        'https://img.scryfall.com/cards/png/front/b/7/b79ec1ab-99ac-4552-891e-839067f606fc.png?1548387611',
+        'https://img.scryfall.com/cards/png/front/b/7/b79ec1ab-99ac-4552-891e-839067f606fc.png?1553195358',
        art_crop:
-        'https://img.scryfall.com/cards/art_crop/front/b/7/b79ec1ab-99ac-4552-891e-839067f606fc.jpg?1548387611',
+        'https://img.scryfall.com/cards/art_crop/front/b/7/b79ec1ab-99ac-4552-891e-839067f606fc.jpg?1553195358',
        border_crop:
-        'https://img.scryfall.com/cards/border_crop/front/b/7/b79ec1ab-99ac-4552-891e-839067f606fc.jpg?1548387611' },
+        'https://img.scryfall.com/cards/border_crop/front/b/7/b79ec1ab-99ac-4552-891e-839067f606fc.jpg?1553195358' },
     mana_cost: '',
     cmc: 0,
     type_line: 'Basic Land — Forest',
@@ -138,7 +137,7 @@ module.exports = [ { object: 'card',
      'https://api.scryfall.com/cards/b79ec1ab-99ac-4552-891e-839067f606fc/rulings',
     prints_search_uri:
      'https://api.scryfall.com/cards/search?order=released&q=oracleid%3Ab34bb2dc-c1af-4d77-b0b3-a0fb342a5fc6&unique=prints',
-    collector_number: '9',
+    collector_number: 'B9',
     digital: false,
     rarity: 'common',
     watermark: 'simic',
@@ -146,7 +145,6 @@ module.exports = [ { object: 'card',
     artist: 'Yeong-Hao Han',
     border_color: 'black',
     frame: '2015',
-    frame_effect: '',
     full_art: false,
     story_spotlight: false,
     related_uris:
@@ -165,22 +163,22 @@ module.exports = [ { object: 'card',
     released_at: '2019-02-16',
     uri:
      'https://api.scryfall.com/cards/abe92f9f-635a-4c76-95cc-163715553057',
-    scryfall_uri: 'https://scryfall.com/card/prw2/8/forest?utm_source=api',
+    scryfall_uri: 'https://scryfall.com/card/prw2/B8/forest?utm_source=api',
     layout: 'normal',
     highres_image: true,
     image_uris:
      { small:
-        'https://img.scryfall.com/cards/small/front/a/b/abe92f9f-635a-4c76-95cc-163715553057.jpg?1548387639',
+        'https://img.scryfall.com/cards/small/front/a/b/abe92f9f-635a-4c76-95cc-163715553057.jpg?1553195362',
        normal:
-        'https://img.scryfall.com/cards/normal/front/a/b/abe92f9f-635a-4c76-95cc-163715553057.jpg?1548387639',
+        'https://img.scryfall.com/cards/normal/front/a/b/abe92f9f-635a-4c76-95cc-163715553057.jpg?1553195362',
        large:
-        'https://img.scryfall.com/cards/large/front/a/b/abe92f9f-635a-4c76-95cc-163715553057.jpg?1548387639',
+        'https://img.scryfall.com/cards/large/front/a/b/abe92f9f-635a-4c76-95cc-163715553057.jpg?1553195362',
        png:
-        'https://img.scryfall.com/cards/png/front/a/b/abe92f9f-635a-4c76-95cc-163715553057.png?1548387639',
+        'https://img.scryfall.com/cards/png/front/a/b/abe92f9f-635a-4c76-95cc-163715553057.png?1553195362',
        art_crop:
-        'https://img.scryfall.com/cards/art_crop/front/a/b/abe92f9f-635a-4c76-95cc-163715553057.jpg?1548387639',
+        'https://img.scryfall.com/cards/art_crop/front/a/b/abe92f9f-635a-4c76-95cc-163715553057.jpg?1553195362',
        border_crop:
-        'https://img.scryfall.com/cards/border_crop/front/a/b/abe92f9f-635a-4c76-95cc-163715553057.jpg?1548387639' },
+        'https://img.scryfall.com/cards/border_crop/front/a/b/abe92f9f-635a-4c76-95cc-163715553057.jpg?1553195362' },
     mana_cost: '',
     cmc: 0,
     type_line: 'Basic Land — Forest',
@@ -217,7 +215,7 @@ module.exports = [ { object: 'card',
      'https://api.scryfall.com/cards/abe92f9f-635a-4c76-95cc-163715553057/rulings',
     prints_search_uri:
      'https://api.scryfall.com/cards/search?order=released&q=oracleid%3Ab34bb2dc-c1af-4d77-b0b3-a0fb342a5fc6&unique=prints',
-    collector_number: '8',
+    collector_number: 'B8',
     digital: false,
     rarity: 'common',
     watermark: 'gruul',
@@ -225,7 +223,6 @@ module.exports = [ { object: 'card',
     artist: 'James Paick',
     border_color: 'black',
     frame: '2015',
-    frame_effect: '',
     full_art: false,
     story_spotlight: false,
     related_uris:
@@ -244,22 +241,22 @@ module.exports = [ { object: 'card',
     released_at: '2019-02-16',
     uri:
      'https://api.scryfall.com/cards/8b95a588-8dd1-49f7-92d8-34e2237769f2',
-    scryfall_uri: 'https://scryfall.com/card/prw2/7/mountain?utm_source=api',
+    scryfall_uri: 'https://scryfall.com/card/prw2/B7/mountain?utm_source=api',
     layout: 'normal',
     highres_image: true,
     image_uris:
      { small:
-        'https://img.scryfall.com/cards/small/front/8/b/8b95a588-8dd1-49f7-92d8-34e2237769f2.jpg?1548387662',
+        'https://img.scryfall.com/cards/small/front/8/b/8b95a588-8dd1-49f7-92d8-34e2237769f2.jpg?1553195369',
        normal:
-        'https://img.scryfall.com/cards/normal/front/8/b/8b95a588-8dd1-49f7-92d8-34e2237769f2.jpg?1548387662',
+        'https://img.scryfall.com/cards/normal/front/8/b/8b95a588-8dd1-49f7-92d8-34e2237769f2.jpg?1553195369',
        large:
-        'https://img.scryfall.com/cards/large/front/8/b/8b95a588-8dd1-49f7-92d8-34e2237769f2.jpg?1548387662',
+        'https://img.scryfall.com/cards/large/front/8/b/8b95a588-8dd1-49f7-92d8-34e2237769f2.jpg?1553195369',
        png:
-        'https://img.scryfall.com/cards/png/front/8/b/8b95a588-8dd1-49f7-92d8-34e2237769f2.png?1548387662',
+        'https://img.scryfall.com/cards/png/front/8/b/8b95a588-8dd1-49f7-92d8-34e2237769f2.png?1553195369',
        art_crop:
-        'https://img.scryfall.com/cards/art_crop/front/8/b/8b95a588-8dd1-49f7-92d8-34e2237769f2.jpg?1548387662',
+        'https://img.scryfall.com/cards/art_crop/front/8/b/8b95a588-8dd1-49f7-92d8-34e2237769f2.jpg?1553195369',
        border_crop:
-        'https://img.scryfall.com/cards/border_crop/front/8/b/8b95a588-8dd1-49f7-92d8-34e2237769f2.jpg?1548387662' },
+        'https://img.scryfall.com/cards/border_crop/front/8/b/8b95a588-8dd1-49f7-92d8-34e2237769f2.jpg?1553195369' },
     mana_cost: '',
     cmc: 0,
     type_line: 'Basic Land — Mountain',
@@ -296,7 +293,7 @@ module.exports = [ { object: 'card',
      'https://api.scryfall.com/cards/8b95a588-8dd1-49f7-92d8-34e2237769f2/rulings',
     prints_search_uri:
      'https://api.scryfall.com/cards/search?order=released&q=oracleid%3Aa3fb7228-e76b-4e96-a40e-20b5fed75685&unique=prints',
-    collector_number: '7',
+    collector_number: 'B7',
     digital: false,
     rarity: 'common',
     watermark: 'gruul',
@@ -304,7 +301,6 @@ module.exports = [ { object: 'card',
     artist: 'James Paick',
     border_color: 'black',
     frame: '2015',
-    frame_effect: '',
     full_art: false,
     story_spotlight: false,
     related_uris:
@@ -323,22 +319,22 @@ module.exports = [ { object: 'card',
     released_at: '2019-02-16',
     uri:
      'https://api.scryfall.com/cards/280cbdd4-57e1-49a0-a9b0-60b2d9fb9ac9',
-    scryfall_uri: 'https://scryfall.com/card/prw2/6/mountain?utm_source=api',
+    scryfall_uri: 'https://scryfall.com/card/prw2/B6/mountain?utm_source=api',
     layout: 'normal',
     highres_image: true,
     image_uris:
      { small:
-        'https://img.scryfall.com/cards/small/front/2/8/280cbdd4-57e1-49a0-a9b0-60b2d9fb9ac9.jpg?1548387663',
+        'https://img.scryfall.com/cards/small/front/2/8/280cbdd4-57e1-49a0-a9b0-60b2d9fb9ac9.jpg?1553195376',
        normal:
-        'https://img.scryfall.com/cards/normal/front/2/8/280cbdd4-57e1-49a0-a9b0-60b2d9fb9ac9.jpg?1548387663',
+        'https://img.scryfall.com/cards/normal/front/2/8/280cbdd4-57e1-49a0-a9b0-60b2d9fb9ac9.jpg?1553195376',
        large:
-        'https://img.scryfall.com/cards/large/front/2/8/280cbdd4-57e1-49a0-a9b0-60b2d9fb9ac9.jpg?1548387663',
+        'https://img.scryfall.com/cards/large/front/2/8/280cbdd4-57e1-49a0-a9b0-60b2d9fb9ac9.jpg?1553195376',
        png:
-        'https://img.scryfall.com/cards/png/front/2/8/280cbdd4-57e1-49a0-a9b0-60b2d9fb9ac9.png?1548387663',
+        'https://img.scryfall.com/cards/png/front/2/8/280cbdd4-57e1-49a0-a9b0-60b2d9fb9ac9.png?1553195376',
        art_crop:
-        'https://img.scryfall.com/cards/art_crop/front/2/8/280cbdd4-57e1-49a0-a9b0-60b2d9fb9ac9.jpg?1548387663',
+        'https://img.scryfall.com/cards/art_crop/front/2/8/280cbdd4-57e1-49a0-a9b0-60b2d9fb9ac9.jpg?1553195376',
        border_crop:
-        'https://img.scryfall.com/cards/border_crop/front/2/8/280cbdd4-57e1-49a0-a9b0-60b2d9fb9ac9.jpg?1548387663' },
+        'https://img.scryfall.com/cards/border_crop/front/2/8/280cbdd4-57e1-49a0-a9b0-60b2d9fb9ac9.jpg?1553195376' },
     mana_cost: '',
     cmc: 0,
     type_line: 'Basic Land — Mountain',
@@ -375,7 +371,7 @@ module.exports = [ { object: 'card',
      'https://api.scryfall.com/cards/280cbdd4-57e1-49a0-a9b0-60b2d9fb9ac9/rulings',
     prints_search_uri:
      'https://api.scryfall.com/cards/search?order=released&q=oracleid%3Aa3fb7228-e76b-4e96-a40e-20b5fed75685&unique=prints',
-    collector_number: '6',
+    collector_number: 'B6',
     digital: false,
     rarity: 'common',
     watermark: 'rakdos',
@@ -383,7 +379,6 @@ module.exports = [ { object: 'card',
     artist: 'Dimitar Marinski',
     border_color: 'black',
     frame: '2015',
-    frame_effect: '',
     full_art: false,
     story_spotlight: false,
     related_uris:
@@ -402,22 +397,22 @@ module.exports = [ { object: 'card',
     released_at: '2019-02-16',
     uri:
      'https://api.scryfall.com/cards/7562f3d1-bde9-4f5d-a51a-01e6d0578695',
-    scryfall_uri: 'https://scryfall.com/card/prw2/5/swamp?utm_source=api',
+    scryfall_uri: 'https://scryfall.com/card/prw2/B5/swamp?utm_source=api',
     layout: 'normal',
     highres_image: true,
     image_uris:
      { small:
-        'https://img.scryfall.com/cards/small/front/7/5/7562f3d1-bde9-4f5d-a51a-01e6d0578695.jpg?1548387717',
+        'https://img.scryfall.com/cards/small/front/7/5/7562f3d1-bde9-4f5d-a51a-01e6d0578695.jpg?1553195381',
        normal:
-        'https://img.scryfall.com/cards/normal/front/7/5/7562f3d1-bde9-4f5d-a51a-01e6d0578695.jpg?1548387717',
+        'https://img.scryfall.com/cards/normal/front/7/5/7562f3d1-bde9-4f5d-a51a-01e6d0578695.jpg?1553195381',
        large:
-        'https://img.scryfall.com/cards/large/front/7/5/7562f3d1-bde9-4f5d-a51a-01e6d0578695.jpg?1548387717',
+        'https://img.scryfall.com/cards/large/front/7/5/7562f3d1-bde9-4f5d-a51a-01e6d0578695.jpg?1553195381',
        png:
-        'https://img.scryfall.com/cards/png/front/7/5/7562f3d1-bde9-4f5d-a51a-01e6d0578695.png?1548387717',
+        'https://img.scryfall.com/cards/png/front/7/5/7562f3d1-bde9-4f5d-a51a-01e6d0578695.png?1553195381',
        art_crop:
-        'https://img.scryfall.com/cards/art_crop/front/7/5/7562f3d1-bde9-4f5d-a51a-01e6d0578695.jpg?1548387717',
+        'https://img.scryfall.com/cards/art_crop/front/7/5/7562f3d1-bde9-4f5d-a51a-01e6d0578695.jpg?1553195381',
        border_crop:
-        'https://img.scryfall.com/cards/border_crop/front/7/5/7562f3d1-bde9-4f5d-a51a-01e6d0578695.jpg?1548387717' },
+        'https://img.scryfall.com/cards/border_crop/front/7/5/7562f3d1-bde9-4f5d-a51a-01e6d0578695.jpg?1553195381' },
     mana_cost: '',
     cmc: 0,
     type_line: 'Basic Land — Swamp',
@@ -454,7 +449,7 @@ module.exports = [ { object: 'card',
      'https://api.scryfall.com/cards/7562f3d1-bde9-4f5d-a51a-01e6d0578695/rulings',
     prints_search_uri:
      'https://api.scryfall.com/cards/search?order=released&q=oracleid%3A56719f6a-1a6c-4c0a-8d21-18f7d7350b68&unique=prints',
-    collector_number: '5',
+    collector_number: 'B5',
     digital: false,
     rarity: 'common',
     watermark: 'rakdos',
@@ -462,7 +457,6 @@ module.exports = [ { object: 'card',
     artist: 'Dimitar Marinski',
     border_color: 'black',
     frame: '2015',
-    frame_effect: '',
     full_art: false,
     story_spotlight: false,
     related_uris:
@@ -481,22 +475,22 @@ module.exports = [ { object: 'card',
     released_at: '2019-02-16',
     uri:
      'https://api.scryfall.com/cards/ac3772ad-581e-4ed6-9813-aa15cba27085',
-    scryfall_uri: 'https://scryfall.com/card/prw2/4/swamp?utm_source=api',
+    scryfall_uri: 'https://scryfall.com/card/prw2/B4/swamp?utm_source=api',
     layout: 'normal',
     highres_image: true,
     image_uris:
      { small:
-        'https://img.scryfall.com/cards/small/front/a/c/ac3772ad-581e-4ed6-9813-aa15cba27085.jpg?1548387673',
+        'https://img.scryfall.com/cards/small/front/a/c/ac3772ad-581e-4ed6-9813-aa15cba27085.jpg?1553195385',
        normal:
-        'https://img.scryfall.com/cards/normal/front/a/c/ac3772ad-581e-4ed6-9813-aa15cba27085.jpg?1548387673',
+        'https://img.scryfall.com/cards/normal/front/a/c/ac3772ad-581e-4ed6-9813-aa15cba27085.jpg?1553195385',
        large:
-        'https://img.scryfall.com/cards/large/front/a/c/ac3772ad-581e-4ed6-9813-aa15cba27085.jpg?1548387673',
+        'https://img.scryfall.com/cards/large/front/a/c/ac3772ad-581e-4ed6-9813-aa15cba27085.jpg?1553195385',
        png:
-        'https://img.scryfall.com/cards/png/front/a/c/ac3772ad-581e-4ed6-9813-aa15cba27085.png?1548387673',
+        'https://img.scryfall.com/cards/png/front/a/c/ac3772ad-581e-4ed6-9813-aa15cba27085.png?1553195385',
        art_crop:
-        'https://img.scryfall.com/cards/art_crop/front/a/c/ac3772ad-581e-4ed6-9813-aa15cba27085.jpg?1548387673',
+        'https://img.scryfall.com/cards/art_crop/front/a/c/ac3772ad-581e-4ed6-9813-aa15cba27085.jpg?1553195385',
        border_crop:
-        'https://img.scryfall.com/cards/border_crop/front/a/c/ac3772ad-581e-4ed6-9813-aa15cba27085.jpg?1548387673' },
+        'https://img.scryfall.com/cards/border_crop/front/a/c/ac3772ad-581e-4ed6-9813-aa15cba27085.jpg?1553195385' },
     mana_cost: '',
     cmc: 0,
     type_line: 'Basic Land — Swamp',
@@ -533,7 +527,7 @@ module.exports = [ { object: 'card',
      'https://api.scryfall.com/cards/ac3772ad-581e-4ed6-9813-aa15cba27085/rulings',
     prints_search_uri:
      'https://api.scryfall.com/cards/search?order=released&q=oracleid%3A56719f6a-1a6c-4c0a-8d21-18f7d7350b68&unique=prints',
-    collector_number: '4',
+    collector_number: 'B4',
     digital: false,
     rarity: 'common',
     watermark: 'orzhov',
@@ -541,7 +535,6 @@ module.exports = [ { object: 'card',
     artist: 'Jenn Ravenna',
     border_color: 'black',
     frame: '2015',
-    frame_effect: '',
     full_art: false,
     story_spotlight: false,
     related_uris:
@@ -560,22 +553,22 @@ module.exports = [ { object: 'card',
     released_at: '2019-02-16',
     uri:
      'https://api.scryfall.com/cards/378318f0-c45b-4e02-a3c7-931796e8796a',
-    scryfall_uri: 'https://scryfall.com/card/prw2/3/plains?utm_source=api',
+    scryfall_uri: 'https://scryfall.com/card/prw2/B3/plains?utm_source=api',
     layout: 'normal',
     highres_image: true,
     image_uris:
      { small:
-        'https://img.scryfall.com/cards/small/front/3/7/378318f0-c45b-4e02-a3c7-931796e8796a.jpg?1548387670',
+        'https://img.scryfall.com/cards/small/front/3/7/378318f0-c45b-4e02-a3c7-931796e8796a.jpg?1553195395',
        normal:
-        'https://img.scryfall.com/cards/normal/front/3/7/378318f0-c45b-4e02-a3c7-931796e8796a.jpg?1548387670',
+        'https://img.scryfall.com/cards/normal/front/3/7/378318f0-c45b-4e02-a3c7-931796e8796a.jpg?1553195395',
        large:
-        'https://img.scryfall.com/cards/large/front/3/7/378318f0-c45b-4e02-a3c7-931796e8796a.jpg?1548387670',
+        'https://img.scryfall.com/cards/large/front/3/7/378318f0-c45b-4e02-a3c7-931796e8796a.jpg?1553195395',
        png:
-        'https://img.scryfall.com/cards/png/front/3/7/378318f0-c45b-4e02-a3c7-931796e8796a.png?1548387670',
+        'https://img.scryfall.com/cards/png/front/3/7/378318f0-c45b-4e02-a3c7-931796e8796a.png?1553195395',
        art_crop:
-        'https://img.scryfall.com/cards/art_crop/front/3/7/378318f0-c45b-4e02-a3c7-931796e8796a.jpg?1548387670',
+        'https://img.scryfall.com/cards/art_crop/front/3/7/378318f0-c45b-4e02-a3c7-931796e8796a.jpg?1553195395',
        border_crop:
-        'https://img.scryfall.com/cards/border_crop/front/3/7/378318f0-c45b-4e02-a3c7-931796e8796a.jpg?1548387670' },
+        'https://img.scryfall.com/cards/border_crop/front/3/7/378318f0-c45b-4e02-a3c7-931796e8796a.jpg?1553195395' },
     mana_cost: '',
     cmc: 0,
     type_line: 'Basic Land — Plains',
@@ -612,7 +605,7 @@ module.exports = [ { object: 'card',
      'https://api.scryfall.com/cards/378318f0-c45b-4e02-a3c7-931796e8796a/rulings',
     prints_search_uri:
      'https://api.scryfall.com/cards/search?order=released&q=oracleid%3Abc71ebf6-2056-41f7-be35-b2e5c34afa99&unique=prints',
-    collector_number: '3',
+    collector_number: 'B3',
     digital: false,
     rarity: 'common',
     watermark: 'orzhov',
@@ -620,7 +613,6 @@ module.exports = [ { object: 'card',
     artist: 'Jenn Ravenna',
     border_color: 'black',
     frame: '2015',
-    frame_effect: '',
     full_art: false,
     story_spotlight: false,
     related_uris:
@@ -639,22 +631,22 @@ module.exports = [ { object: 'card',
     released_at: '2019-02-16',
     uri:
      'https://api.scryfall.com/cards/9f71d5d2-49a5-4d5c-a218-8f0634c57d94',
-    scryfall_uri: 'https://scryfall.com/card/prw2/2/island?utm_source=api',
+    scryfall_uri: 'https://scryfall.com/card/prw2/B2/island?utm_source=api',
     layout: 'normal',
     highres_image: true,
     image_uris:
      { small:
-        'https://img.scryfall.com/cards/small/front/9/f/9f71d5d2-49a5-4d5c-a218-8f0634c57d94.jpg?1548387613',
+        'https://img.scryfall.com/cards/small/front/9/f/9f71d5d2-49a5-4d5c-a218-8f0634c57d94.jpg?1553195398',
        normal:
-        'https://img.scryfall.com/cards/normal/front/9/f/9f71d5d2-49a5-4d5c-a218-8f0634c57d94.jpg?1548387613',
+        'https://img.scryfall.com/cards/normal/front/9/f/9f71d5d2-49a5-4d5c-a218-8f0634c57d94.jpg?1553195398',
        large:
-        'https://img.scryfall.com/cards/large/front/9/f/9f71d5d2-49a5-4d5c-a218-8f0634c57d94.jpg?1548387613',
+        'https://img.scryfall.com/cards/large/front/9/f/9f71d5d2-49a5-4d5c-a218-8f0634c57d94.jpg?1553195398',
        png:
-        'https://img.scryfall.com/cards/png/front/9/f/9f71d5d2-49a5-4d5c-a218-8f0634c57d94.png?1548387613',
+        'https://img.scryfall.com/cards/png/front/9/f/9f71d5d2-49a5-4d5c-a218-8f0634c57d94.png?1553195398',
        art_crop:
-        'https://img.scryfall.com/cards/art_crop/front/9/f/9f71d5d2-49a5-4d5c-a218-8f0634c57d94.jpg?1548387613',
+        'https://img.scryfall.com/cards/art_crop/front/9/f/9f71d5d2-49a5-4d5c-a218-8f0634c57d94.jpg?1553195398',
        border_crop:
-        'https://img.scryfall.com/cards/border_crop/front/9/f/9f71d5d2-49a5-4d5c-a218-8f0634c57d94.jpg?1548387613' },
+        'https://img.scryfall.com/cards/border_crop/front/9/f/9f71d5d2-49a5-4d5c-a218-8f0634c57d94.jpg?1553195398' },
     mana_cost: '',
     cmc: 0,
     type_line: 'Basic Land — Island',
@@ -691,7 +683,7 @@ module.exports = [ { object: 'card',
      'https://api.scryfall.com/cards/9f71d5d2-49a5-4d5c-a218-8f0634c57d94/rulings',
     prints_search_uri:
      'https://api.scryfall.com/cards/search?order=released&q=oracleid%3Ab2c6aa39-2d2a-459c-a555-fb48ba993373&unique=prints',
-    collector_number: '2',
+    collector_number: 'B2',
     digital: false,
     rarity: 'common',
     watermark: 'azorius',
@@ -699,7 +691,6 @@ module.exports = [ { object: 'card',
     artist: 'Alayna Danner',
     border_color: 'black',
     frame: '2015',
-    frame_effect: '',
     full_art: false,
     story_spotlight: false,
     related_uris:
@@ -718,22 +709,22 @@ module.exports = [ { object: 'card',
     released_at: '2019-02-16',
     uri:
      'https://api.scryfall.com/cards/8004052e-cb88-4ca6-a563-5396f13f7c6d',
-    scryfall_uri: 'https://scryfall.com/card/prw2/1/plains?utm_source=api',
+    scryfall_uri: 'https://scryfall.com/card/prw2/B1/plains?utm_source=api',
     layout: 'normal',
     highres_image: true,
     image_uris:
      { small:
-        'https://img.scryfall.com/cards/small/front/8/0/8004052e-cb88-4ca6-a563-5396f13f7c6d.jpg?1548387716',
+        'https://img.scryfall.com/cards/small/front/8/0/8004052e-cb88-4ca6-a563-5396f13f7c6d.jpg?1553195401',
        normal:
-        'https://img.scryfall.com/cards/normal/front/8/0/8004052e-cb88-4ca6-a563-5396f13f7c6d.jpg?1548387716',
+        'https://img.scryfall.com/cards/normal/front/8/0/8004052e-cb88-4ca6-a563-5396f13f7c6d.jpg?1553195401',
        large:
-        'https://img.scryfall.com/cards/large/front/8/0/8004052e-cb88-4ca6-a563-5396f13f7c6d.jpg?1548387716',
+        'https://img.scryfall.com/cards/large/front/8/0/8004052e-cb88-4ca6-a563-5396f13f7c6d.jpg?1553195401',
        png:
-        'https://img.scryfall.com/cards/png/front/8/0/8004052e-cb88-4ca6-a563-5396f13f7c6d.png?1548387716',
+        'https://img.scryfall.com/cards/png/front/8/0/8004052e-cb88-4ca6-a563-5396f13f7c6d.png?1553195401',
        art_crop:
-        'https://img.scryfall.com/cards/art_crop/front/8/0/8004052e-cb88-4ca6-a563-5396f13f7c6d.jpg?1548387716',
+        'https://img.scryfall.com/cards/art_crop/front/8/0/8004052e-cb88-4ca6-a563-5396f13f7c6d.jpg?1553195401',
        border_crop:
-        'https://img.scryfall.com/cards/border_crop/front/8/0/8004052e-cb88-4ca6-a563-5396f13f7c6d.jpg?1548387716' },
+        'https://img.scryfall.com/cards/border_crop/front/8/0/8004052e-cb88-4ca6-a563-5396f13f7c6d.jpg?1553195401' },
     mana_cost: '',
     cmc: 0,
     type_line: 'Basic Land — Plains',
@@ -770,7 +761,7 @@ module.exports = [ { object: 'card',
      'https://api.scryfall.com/cards/8004052e-cb88-4ca6-a563-5396f13f7c6d/rulings',
     prints_search_uri:
      'https://api.scryfall.com/cards/search?order=released&q=oracleid%3Abc71ebf6-2056-41f7-be35-b2e5c34afa99&unique=prints',
-    collector_number: '1',
+    collector_number: 'B1',
     digital: false,
     rarity: 'common',
     watermark: 'azorius',
@@ -778,7 +769,6 @@ module.exports = [ { object: 'card',
     artist: 'Alayna Danner',
     border_color: 'black',
     frame: '2015',
-    frame_effect: '',
     full_art: false,
     story_spotlight: false,
     related_uris:

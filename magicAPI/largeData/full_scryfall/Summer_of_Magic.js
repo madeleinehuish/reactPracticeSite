@@ -70,10 +70,9 @@ module.exports = [ { object: 'card',
     artist: 'Rob Alexander',
     border_color: 'black',
     frame: '2003',
-    frame_effect: '',
     full_art: false,
     story_spotlight: false,
-    edhrec_rank: 2295,
+    edhrec_rank: 2316,
     related_uris:
      { tcgplayer_decks:
         'https://decks.tcgplayer.com/magic/deck/search?contains=Treetop+Village&page=1&partner=Scryfall&utm_campaign=affiliate&utm_medium=scryfall&utm_source=scryfall',
@@ -153,10 +152,9 @@ module.exports = [ { object: 'card',
     artist: 'Stephan Martiniere',
     border_color: 'black',
     frame: '2003',
-    frame_effect: '',
     full_art: false,
     story_spotlight: false,
-    edhrec_rank: 2169,
+    edhrec_rank: 2191,
     related_uris:
      { tcgplayer_decks:
         'https://decks.tcgplayer.com/magic/deck/search?contains=Faerie+Conclave&page=1&partner=Scryfall&utm_campaign=affiliate&utm_medium=scryfall&utm_source=scryfall',

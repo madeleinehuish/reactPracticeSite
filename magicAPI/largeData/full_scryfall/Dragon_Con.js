@@ -73,7 +73,6 @@ module.exports = [ { object: 'card',
     artist: 'Michael Whelan',
     border_color: 'black',
     frame: '1993',
-    frame_effect: '',
     full_art: false,
     story_spotlight: false,
     related_uris:

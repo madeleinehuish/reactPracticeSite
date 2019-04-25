@@ -105,7 +105,7 @@ module.exports = [ { object: 'card',
     frame_effect: 'originpwdfc',
     full_art: false,
     story_spotlight: false,
-    edhrec_rank: 1498,
+    edhrec_rank: 1502,
     related_uris:
      { gatherer:
         'http://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=439341',
@@ -222,7 +222,7 @@ module.exports = [ { object: 'card',
     frame_effect: 'originpwdfc',
     full_art: false,
     story_spotlight: false,
-    edhrec_rank: 1799,
+    edhrec_rank: 1825,
     related_uris:
      { gatherer:
         'http://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=439339',
@@ -339,7 +339,7 @@ module.exports = [ { object: 'card',
     frame_effect: 'originpwdfc',
     full_art: false,
     story_spotlight: false,
-    edhrec_rank: 4560,
+    edhrec_rank: 4661,
     related_uris:
      { gatherer:
         'http://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=439337',
@@ -458,7 +458,7 @@ module.exports = [ { object: 'card',
     frame_effect: 'originpwdfc',
     full_art: false,
     story_spotlight: false,
-    edhrec_rank: 1880,
+    edhrec_rank: 1901,
     related_uris:
      { gatherer:
         'http://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=439335',
@@ -575,7 +575,7 @@ module.exports = [ { object: 'card',
     frame_effect: 'sunmoondfc',
     full_art: false,
     story_spotlight: false,
-    edhrec_rank: 4366,
+    edhrec_rank: 4452,
     related_uris:
      { gatherer:
         'http://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=439333',
@@ -682,10 +682,9 @@ module.exports = [ { object: 'card',
     artist: 'Clint Cearley',
     border_color: 'black',
     frame: '2015',
-    frame_effect: '',
     full_art: false,
     story_spotlight: false,
-    edhrec_rank: 2173,
+    edhrec_rank: 2218,
     related_uris:
      { gatherer:
         'http://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=439332',
@@ -800,7 +799,7 @@ module.exports = [ { object: 'card',
     frame_effect: 'sunmoondfc',
     full_art: false,
     story_spotlight: false,
-    edhrec_rank: 3792,
+    edhrec_rank: 3858,
     related_uris:
      { gatherer:
         'http://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=439330',
@@ -919,7 +918,7 @@ module.exports = [ { object: 'card',
     frame_effect: 'sunmoondfc',
     full_art: false,
     story_spotlight: false,
-    edhrec_rank: 5072,
+    edhrec_rank: 5183,
     related_uris:
      { gatherer:
         'http://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=439328',
@@ -982,7 +981,7 @@ module.exports = [ { object: 'card',
          power: '3',
          toughness: '2',
          flavor_text:
-          '"Unfortunately, all my test animals have died or escaped, so I shall be the final subject. I feel no fear. This is a momentous night." —Laboratory notes, final entry',
+          '"Unfortunately, all my test animals have died or escaped, so I shall be the final subject. I feel no fear. This is a momentous night."\n—Laboratory notes, final entry',
          artist: 'Lius Lasahido',
          illustration_id: '7719db45-6774-4005-85ab-ccc6923a1545',
          image_uris:
@@ -1037,7 +1036,7 @@ module.exports = [ { object: 'card',
     frame_effect: 'sunmoondfc',
     full_art: false,
     story_spotlight: false,
-    edhrec_rank: 6790,
+    edhrec_rank: 6956,
     related_uris:
      { gatherer:
         'http://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=439326',
@@ -1154,7 +1153,7 @@ module.exports = [ { object: 'card',
     frame_effect: 'originpwdfc',
     full_art: false,
     story_spotlight: false,
-    edhrec_rank: 5374,
+    edhrec_rank: 5481,
     related_uris:
      { gatherer:
         'http://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=439324',
@@ -1260,10 +1259,9 @@ module.exports = [ { object: 'card',
     artist: 'Clint Cearley',
     border_color: 'black',
     frame: '2015',
-    frame_effect: '',
     full_art: false,
     story_spotlight: false,
-    edhrec_rank: 16961,
+    edhrec_rank: 17248,
     related_uris:
      { gatherer:
         'http://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=439323',
@@ -1370,10 +1368,9 @@ module.exports = [ { object: 'card',
     artist: 'Clint Cearley',
     border_color: 'black',
     frame: '2015',
-    frame_effect: '',
     full_art: false,
     story_spotlight: false,
-    edhrec_rank: 2129,
+    edhrec_rank: 2172,
     related_uris:
      { gatherer:
         'http://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=439322',
@@ -1490,7 +1487,7 @@ module.exports = [ { object: 'card',
     frame_effect: 'sunmoondfc',
     full_art: false,
     story_spotlight: false,
-    edhrec_rank: 1536,
+    edhrec_rank: 1549,
     related_uris:
      { gatherer:
         'http://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=439320',
@@ -1605,7 +1602,7 @@ module.exports = [ { object: 'card',
     frame_effect: 'sunmoondfc',
     full_art: false,
     story_spotlight: false,
-    edhrec_rank: 2063,
+    edhrec_rank: 2118,
     related_uris:
      { gatherer:
         'http://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=439318',
@@ -1641,7 +1638,7 @@ module.exports = [ { object: 'card',
          oracle_text:
           "{1}{B}, Pay 2 life: Draw a card.\nAt the beginning of your upkeep, if you have 5 or less life, you may transform Arguel's Blood Fast.",
          colors: [ 'B' ],
-         flavor_text: "Arguel's vision led him into the jungles of Ixalan …",
+         flavor_text: "Arguel's vision led him into the jungles of Ixalan . . .",
          artist: 'Daarken',
          illustration_id: 'a1e9f54d-adde-4c8a-acd0-5c63c2fece55',
          image_uris:
@@ -1665,7 +1662,7 @@ module.exports = [ { object: 'card',
           "(Transforms from Arguel's Blood Fast.)\n{T}: Add {B}.\n{T}, Sacrifice a creature: You gain life equal to the sacrificed creature's toughness.",
          colors: [],
          flavor_text:
-          '… to the lost temple of a bat-god of night, eternal enemy to the Threefold Sun.',
+          '. . . to the lost temple of a bat-god of night, eternal enemy to the Threefold Sun.',
          artist: 'Daarken',
          illustration_id: '872bd01d-10b1-4050-84e8-bf128e624b6d',
          image_uris:
@@ -1720,7 +1717,7 @@ module.exports = [ { object: 'card',
     frame_effect: 'compasslanddfc',
     full_art: false,
     story_spotlight: false,
-    edhrec_rank: 1221,
+    edhrec_rank: 1287,
     related_uris:
      { gatherer:
         'http://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=439316',
@@ -1784,7 +1781,7 @@ module.exports = [ { object: 'card',
          power: '6',
          toughness: '5',
          flavor_text:
-          '"Wings that once bore hope are now stained with blood. She is our guardian no longer." —Grete, cathar apostate',
+          '"Wings that once bore hope are now stained with blood. She is our guardian no longer."\n—Grete, cathar apostate',
          artist: 'James Ryman',
          illustration_id: '7c028c56-e6d0-4ce9-aea9-994ba128245f',
          image_uris:
@@ -1839,7 +1836,7 @@ module.exports = [ { object: 'card',
     frame_effect: 'sunmoondfc',
     full_art: false,
     story_spotlight: false,
-    edhrec_rank: 3603,
+    edhrec_rank: 3652,
     related_uris:
      { gatherer:
         'http://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=439314',

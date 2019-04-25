@@ -71,7 +71,6 @@ module.exports = [ { object: 'card',
     artist: 'Matt Cavotta',
     border_color: 'silver',
     frame: '2015',
-    frame_effect: '',
     full_art: false,
     story_spotlight: false,
     related_uris:

@@ -14,17 +14,17 @@ module.exports = [ { object: 'card',
     highres_image: true,
     image_uris:
      { small:
-        'https://img.scryfall.com/cards/small/en/pdtp/1.jpg?1517813031',
+        'https://img.scryfall.com/cards/small/en/pdtp/1.jpg?1553908867',
        normal:
-        'https://img.scryfall.com/cards/normal/en/pdtp/1.jpg?1517813031',
+        'https://img.scryfall.com/cards/normal/en/pdtp/1.jpg?1553908867',
        large:
-        'https://img.scryfall.com/cards/large/en/pdtp/1.jpg?1517813031',
+        'https://img.scryfall.com/cards/large/en/pdtp/1.jpg?1553908867',
        png:
-        'https://img.scryfall.com/cards/png/en/pdtp/1.png?1517813031',
+        'https://img.scryfall.com/cards/png/en/pdtp/1.png?1553908867',
        art_crop:
-        'https://img.scryfall.com/cards/art_crop/en/pdtp/1.jpg?1517813031',
+        'https://img.scryfall.com/cards/art_crop/en/pdtp/1.jpg?1553908867',
        border_crop:
-        'https://img.scryfall.com/cards/border_crop/en/pdtp/1.jpg?1517813031' },
+        'https://img.scryfall.com/cards/border_crop/en/pdtp/1.jpg?1553908867' },
     mana_cost: '{2}{G}{G}',
     cmc: 4,
     type_line: 'Legendary Planeswalker — Garruk',
@@ -69,11 +69,10 @@ module.exports = [ { object: 'card',
     illustration_id: 'faa3fdd6-6a7a-4612-9558-1a338dd0cf2b',
     artist: 'Nils Hamm',
     border_color: 'black',
-    frame: '2015',
-    frame_effect: '',
+    frame: '2003',
     full_art: false,
     story_spotlight: false,
-    edhrec_rank: 431,
+    edhrec_rank: 435,
     related_uris:
      { tcgplayer_decks:
         'https://decks.tcgplayer.com/magic/deck/search?contains=Garruk+Wildspeaker&page=1&partner=Scryfall&utm_campaign=affiliate&utm_medium=scryfall&utm_source=scryfall',

@@ -32,11 +32,11 @@ export default {
 	},
 	currentStandard: { //current standard block as of present time
 		name: 'Jan 19 to Apr 19',
-		sets: [ 'Ixalan', 'Rivals_of_Ixalan', 'Dominaria', 'Core_Set_2019', 'Guilds_of_Ravnica', 'Ravnica_Allegiance']
+		sets: [ 'Ixalan', 'Rivals_of_Ixalan', 'Dominaria', 'Core_Set_2019', 'Guilds_of_Ravnica', 'Ravnica_Allegiance', 'War_of_the_Spark']
 	},
 	currentBlock: { //currently selected standard block
 		name: 'Jan 19 to Apr 19',
-		sets: [ 'Ixalan', 'Rivals_of_Ixalan', 'Dominaria', 'Core_Set_2019', 'Guilds_of_Ravnica', 'Ravnica_Allegiance']
+		sets: [ 'Ixalan', 'Rivals_of_Ixalan', 'Dominaria', 'Core_Set_2019', 'Guilds_of_Ravnica', 'Ravnica_Allegiance', 'War_of_the_Spark']
 	},
 	decks: [],
 	cardFilters: {

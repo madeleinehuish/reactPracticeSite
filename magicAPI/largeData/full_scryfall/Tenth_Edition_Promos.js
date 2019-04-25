@@ -14,17 +14,17 @@ module.exports = [ { object: 'card',
     highres_image: true,
     image_uris:
      { small:
-        'https://img.scryfall.com/cards/small/en/p10e/35.jpg?1529167270',
+        'https://img.scryfall.com/cards/small/en/p10e/35.jpg?1555642505',
        normal:
-        'https://img.scryfall.com/cards/normal/en/p10e/35.jpg?1529167270',
+        'https://img.scryfall.com/cards/normal/en/p10e/35.jpg?1555642505',
        large:
-        'https://img.scryfall.com/cards/large/en/p10e/35.jpg?1529167270',
+        'https://img.scryfall.com/cards/large/en/p10e/35.jpg?1555642505',
        png:
-        'https://img.scryfall.com/cards/png/en/p10e/35.png?1529167270',
+        'https://img.scryfall.com/cards/png/en/p10e/35.png?1555642505',
        art_crop:
-        'https://img.scryfall.com/cards/art_crop/en/p10e/35.jpg?1529167270',
+        'https://img.scryfall.com/cards/art_crop/en/p10e/35.jpg?1555642505',
        border_crop:
-        'https://img.scryfall.com/cards/border_crop/en/p10e/35.jpg?1529167270' },
+        'https://img.scryfall.com/cards/border_crop/en/p10e/35.jpg?1555642505' },
     mana_cost: '{6}{W}{W}{W}',
     cmc: 9,
     type_line: 'Legendary Creature — Angel',
@@ -73,10 +73,9 @@ module.exports = [ { object: 'card',
     artist: 'Matthew D. Wilson',
     border_color: 'black',
     frame: '2003',
-    frame_effect: '',
     full_art: false,
     story_spotlight: false,
-    edhrec_rank: 2749,
+    edhrec_rank: 2764,
     related_uris:
      { tcgplayer_decks:
         'https://decks.tcgplayer.com/magic/deck/search?contains=Reya+Dawnbringer&page=1&partner=Scryfall&utm_campaign=affiliate&utm_medium=scryfall&utm_source=scryfall',

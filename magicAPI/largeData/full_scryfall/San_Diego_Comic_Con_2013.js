@@ -14,17 +14,17 @@ module.exports = [ { object: 'card',
     highres_image: true,
     image_uris:
      { small:
-        'https://img.scryfall.com/cards/small/en/psdc/172.jpg?1517813031',
+        'https://img.scryfall.com/cards/small/en/psdc/172.jpg?1553908860',
        normal:
-        'https://img.scryfall.com/cards/normal/en/psdc/172.jpg?1517813031',
+        'https://img.scryfall.com/cards/normal/en/psdc/172.jpg?1553908860',
        large:
-        'https://img.scryfall.com/cards/large/en/psdc/172.jpg?1517813031',
+        'https://img.scryfall.com/cards/large/en/psdc/172.jpg?1553908860',
        png:
-        'https://img.scryfall.com/cards/png/en/psdc/172.png?1517813031',
+        'https://img.scryfall.com/cards/png/en/psdc/172.png?1553908860',
        art_crop:
-        'https://img.scryfall.com/cards/art_crop/en/psdc/172.jpg?1517813031',
+        'https://img.scryfall.com/cards/art_crop/en/psdc/172.jpg?1553908860',
        border_crop:
-        'https://img.scryfall.com/cards/border_crop/en/psdc/172.jpg?1517813031' },
+        'https://img.scryfall.com/cards/border_crop/en/psdc/172.jpg?1553908860' },
     mana_cost: '{4}{G}{G}',
     cmc: 6,
     type_line: 'Legendary Planeswalker — Garruk',
@@ -69,11 +69,10 @@ module.exports = [ { object: 'card',
     illustration_id: 'b82e4b55-744b-4baf-b7aa-e42c573a020b',
     artist: 'Steve Prescott',
     border_color: 'black',
-    frame: '2015',
-    frame_effect: '',
+    frame: '2003',
     full_art: false,
     story_spotlight: false,
-    edhrec_rank: 1705,
+    edhrec_rank: 1749,
     related_uris:
      { tcgplayer_decks:
         'https://decks.tcgplayer.com/magic/deck/search?contains=Garruk%2C+Caller+of+Beasts&page=1&partner=Scryfall&utm_campaign=affiliate&utm_medium=scryfall&utm_source=scryfall',
@@ -97,17 +96,17 @@ module.exports = [ { object: 'card',
     highres_image: true,
     image_uris:
      { small:
-        'https://img.scryfall.com/cards/small/en/psdc/131.jpg?1517813031',
+        'https://img.scryfall.com/cards/small/en/psdc/131.jpg?1553908802',
        normal:
-        'https://img.scryfall.com/cards/normal/en/psdc/131.jpg?1517813031',
+        'https://img.scryfall.com/cards/normal/en/psdc/131.jpg?1553908802',
        large:
-        'https://img.scryfall.com/cards/large/en/psdc/131.jpg?1517813031',
+        'https://img.scryfall.com/cards/large/en/psdc/131.jpg?1553908802',
        png:
-        'https://img.scryfall.com/cards/png/en/psdc/131.png?1517813031',
+        'https://img.scryfall.com/cards/png/en/psdc/131.png?1553908802',
        art_crop:
-        'https://img.scryfall.com/cards/art_crop/en/psdc/131.jpg?1517813031',
+        'https://img.scryfall.com/cards/art_crop/en/psdc/131.jpg?1553908802',
        border_crop:
-        'https://img.scryfall.com/cards/border_crop/en/psdc/131.jpg?1517813031' },
+        'https://img.scryfall.com/cards/border_crop/en/psdc/131.jpg?1553908802' },
     mana_cost: '{2}{R}{R}',
     cmc: 4,
     type_line: 'Legendary Planeswalker — Chandra',
@@ -152,11 +151,10 @@ module.exports = [ { object: 'card',
     illustration_id: '72b0e884-3d35-4f71-a2aa-ddfef068f4b1',
     artist: 'Steve Prescott',
     border_color: 'black',
-    frame: '2015',
-    frame_effect: '',
+    frame: '2003',
     full_art: false,
     story_spotlight: false,
-    edhrec_rank: 2845,
+    edhrec_rank: 2901,
     related_uris:
      { tcgplayer_decks:
         'https://decks.tcgplayer.com/magic/deck/search?contains=Chandra%2C+Pyromaster&page=1&partner=Scryfall&utm_campaign=affiliate&utm_medium=scryfall&utm_source=scryfall',
@@ -180,17 +178,17 @@ module.exports = [ { object: 'card',
     highres_image: true,
     image_uris:
      { small:
-        'https://img.scryfall.com/cards/small/en/psdc/102.jpg?1517813031',
+        'https://img.scryfall.com/cards/small/en/psdc/102.jpg?1553908913',
        normal:
-        'https://img.scryfall.com/cards/normal/en/psdc/102.jpg?1517813031',
+        'https://img.scryfall.com/cards/normal/en/psdc/102.jpg?1553908913',
        large:
-        'https://img.scryfall.com/cards/large/en/psdc/102.jpg?1517813031',
+        'https://img.scryfall.com/cards/large/en/psdc/102.jpg?1553908913',
        png:
-        'https://img.scryfall.com/cards/png/en/psdc/102.png?1517813031',
+        'https://img.scryfall.com/cards/png/en/psdc/102.png?1553908913',
        art_crop:
-        'https://img.scryfall.com/cards/art_crop/en/psdc/102.jpg?1517813031',
+        'https://img.scryfall.com/cards/art_crop/en/psdc/102.jpg?1553908913',
        border_crop:
-        'https://img.scryfall.com/cards/border_crop/en/psdc/102.jpg?1517813031' },
+        'https://img.scryfall.com/cards/border_crop/en/psdc/102.jpg?1553908913' },
     mana_cost: '{2}{B}{B}',
     cmc: 4,
     type_line: 'Legendary Planeswalker — Liliana',
@@ -235,11 +233,10 @@ module.exports = [ { object: 'card',
     illustration_id: 'cff7bf06-cda3-4df5-8eab-41d151f72008',
     artist: 'Steve Prescott',
     border_color: 'black',
-    frame: '2015',
-    frame_effect: '',
+    frame: '2003',
     full_art: false,
     story_spotlight: false,
-    edhrec_rank: 673,
+    edhrec_rank: 690,
     related_uris:
      { tcgplayer_decks:
         'https://decks.tcgplayer.com/magic/deck/search?contains=Liliana+of+the+Dark+Realms&page=1&partner=Scryfall&utm_campaign=affiliate&utm_medium=scryfall&utm_source=scryfall',
@@ -263,17 +260,17 @@ module.exports = [ { object: 'card',
     highres_image: true,
     image_uris:
      { small:
-        'https://img.scryfall.com/cards/small/en/psdc/60.jpg?1517813031',
+        'https://img.scryfall.com/cards/small/en/psdc/60.jpg?1553908902',
        normal:
-        'https://img.scryfall.com/cards/normal/en/psdc/60.jpg?1517813031',
+        'https://img.scryfall.com/cards/normal/en/psdc/60.jpg?1553908902',
        large:
-        'https://img.scryfall.com/cards/large/en/psdc/60.jpg?1517813031',
+        'https://img.scryfall.com/cards/large/en/psdc/60.jpg?1553908902',
        png:
-        'https://img.scryfall.com/cards/png/en/psdc/60.png?1517813031',
+        'https://img.scryfall.com/cards/png/en/psdc/60.png?1553908902',
        art_crop:
-        'https://img.scryfall.com/cards/art_crop/en/psdc/60.jpg?1517813031',
+        'https://img.scryfall.com/cards/art_crop/en/psdc/60.jpg?1553908902',
        border_crop:
-        'https://img.scryfall.com/cards/border_crop/en/psdc/60.jpg?1517813031' },
+        'https://img.scryfall.com/cards/border_crop/en/psdc/60.jpg?1553908902' },
     mana_cost: '{3}{U}{U}',
     cmc: 5,
     type_line: 'Legendary Planeswalker — Jace',
@@ -318,11 +315,10 @@ module.exports = [ { object: 'card',
     illustration_id: '1cbae437-43a7-4e0d-84cb-6e7a6b295c62',
     artist: 'Steve Prescott',
     border_color: 'black',
-    frame: '2015',
-    frame_effect: '',
+    frame: '2003',
     full_art: false,
     story_spotlight: false,
-    edhrec_rank: 1198,
+    edhrec_rank: 1208,
     related_uris:
      { tcgplayer_decks:
         'https://decks.tcgplayer.com/magic/deck/search?contains=Jace%2C+Memory+Adept&page=1&partner=Scryfall&utm_campaign=affiliate&utm_medium=scryfall&utm_source=scryfall',
@@ -346,17 +342,17 @@ module.exports = [ { object: 'card',
     highres_image: true,
     image_uris:
      { small:
-        'https://img.scryfall.com/cards/small/en/psdc/1.jpg?1517813031',
+        'https://img.scryfall.com/cards/small/en/psdc/1.jpg?1553908755',
        normal:
-        'https://img.scryfall.com/cards/normal/en/psdc/1.jpg?1517813031',
+        'https://img.scryfall.com/cards/normal/en/psdc/1.jpg?1553908755',
        large:
-        'https://img.scryfall.com/cards/large/en/psdc/1.jpg?1517813031',
+        'https://img.scryfall.com/cards/large/en/psdc/1.jpg?1553908755',
        png:
-        'https://img.scryfall.com/cards/png/en/psdc/1.png?1517813031',
+        'https://img.scryfall.com/cards/png/en/psdc/1.png?1553908755',
        art_crop:
-        'https://img.scryfall.com/cards/art_crop/en/psdc/1.jpg?1517813031',
+        'https://img.scryfall.com/cards/art_crop/en/psdc/1.jpg?1553908755',
        border_crop:
-        'https://img.scryfall.com/cards/border_crop/en/psdc/1.jpg?1517813031' },
+        'https://img.scryfall.com/cards/border_crop/en/psdc/1.jpg?1553908755' },
     mana_cost: '{1}{W}{W}',
     cmc: 3,
     type_line: 'Legendary Planeswalker — Ajani',
@@ -401,11 +397,10 @@ module.exports = [ { object: 'card',
     illustration_id: '33ea2cc6-3fba-47d3-915e-4a2bad08ef5a',
     artist: 'Steve Prescott',
     border_color: 'black',
-    frame: '2015',
-    frame_effect: '',
+    frame: '2003',
     full_art: false,
     story_spotlight: false,
-    edhrec_rank: 1716,
+    edhrec_rank: 1752,
     related_uris:
      { tcgplayer_decks:
         'https://decks.tcgplayer.com/magic/deck/search?contains=Ajani%2C+Caller+of+the+Pride&page=1&partner=Scryfall&utm_campaign=affiliate&utm_medium=scryfall&utm_source=scryfall',

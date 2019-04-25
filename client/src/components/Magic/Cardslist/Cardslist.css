@@ -67,8 +67,13 @@
 	margin-top: 15px;
 }
 
+.smallerFont {
+	font-size: 18px;
+}
+
 .setSelected {
 	margin-left: 15px;
+	font-size: 15px;
 }
 
 .addToDeck {

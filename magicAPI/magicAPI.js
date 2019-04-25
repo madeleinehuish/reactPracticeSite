@@ -88,7 +88,7 @@ const filterRarity = (elem, filter) => {
 const applyFilters = (filters) => {
 	console.log('inside applyFilters, filters: ', filters)
 	let data = filterSets(filters.set); //first decide how big of dataset you want to use. 'All will default to full set'
-	// console.log('data (filters.set): ', data)
+	console.log('data (filters.set): ', data)
 	let filtered = data.filter(elem => {
 		const conditionType = filterType(elem, filters.type);
 		const conditionColor = filterColor(elem, filters.color);
@@ -144,9 +144,9 @@ exports.filterKeywords = function(req, res, next) {
 
 exports.filterCards = function(req, res, next) {
 
-	// console.log('Req.query for filterCards: ', req.query);
+	console.log('Req.query for filterCards: ', req.query);
 	let returnData = applyFilters(req.query);
-
+	// console.log('returnData: ', returnData)
 	res.send(returnData);
 }
 
@@ -178,4 +178,10 @@ exports.filterCardsByBlock = async function(req, res, next) {
 	//
 	// res.send(filtered);
 	res.send(await applyFiltersByBlock(req.query.name))
+}
+
+exports.callScryfallAPI = async function(req, res, next) {
+	console.log('Calling Scryfall, req.query: ', req.query);
+
+	res.send('completed');
 }

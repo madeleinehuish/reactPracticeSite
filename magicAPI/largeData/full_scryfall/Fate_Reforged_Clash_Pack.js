@@ -5,7 +5,7 @@ module.exports = [ { object: 'card',
     tcgplayer_id: 95336,
     name: 'Courser of Kruphix',
     lang: 'en',
-    released_at: '2015-01-24',
+    released_at: '2015-01-23',
     uri:
      'https://api.scryfall.com/cards/e8383d6a-0f26-4afe-88e0-9b14c8e9122d',
     scryfall_uri:
@@ -73,7 +73,7 @@ module.exports = [ { object: 'card',
     frame_effect: 'nyxtouched',
     full_art: false,
     story_spotlight: false,
-    edhrec_rank: 267,
+    edhrec_rank: 263,
     related_uris:
      { tcgplayer_decks:
         'https://decks.tcgplayer.com/magic/deck/search?contains=Courser+of+Kruphix&page=1&partner=Scryfall&utm_campaign=affiliate&utm_medium=scryfall&utm_source=scryfall',
@@ -88,7 +88,7 @@ module.exports = [ { object: 'card',
     tcgplayer_id: 95337,
     name: 'Whip of Erebos',
     lang: 'en',
-    released_at: '2015-01-24',
+    released_at: '2015-01-23',
     uri:
      'https://api.scryfall.com/cards/a67b5770-3b52-4f43-9db3-71224c9bebd2',
     scryfall_uri:
@@ -154,7 +154,7 @@ module.exports = [ { object: 'card',
     frame_effect: 'nyxtouched',
     full_art: false,
     story_spotlight: false,
-    edhrec_rank: 265,
+    edhrec_rank: 275,
     related_uris:
      { tcgplayer_decks:
         'https://decks.tcgplayer.com/magic/deck/search?contains=Whip+of+Erebos&page=1&partner=Scryfall&utm_campaign=affiliate&utm_medium=scryfall&utm_source=scryfall',
@@ -169,7 +169,7 @@ module.exports = [ { object: 'card',
     tcgplayer_id: 95335,
     name: 'Reaper of the Wilds',
     lang: 'en',
-    released_at: '2015-01-24',
+    released_at: '2015-01-23',
     uri:
      'https://api.scryfall.com/cards/cdce5fb1-319b-4b70-aa75-a9434eb0cc4c',
     scryfall_uri:
@@ -234,10 +234,9 @@ module.exports = [ { object: 'card',
     artist: 'Jeff Simpson',
     border_color: 'black',
     frame: '2015',
-    frame_effect: '',
     full_art: false,
     story_spotlight: false,
-    edhrec_rank: 2885,
+    edhrec_rank: 2976,
     related_uris:
      { tcgplayer_decks:
         'https://decks.tcgplayer.com/magic/deck/search?contains=Reaper+of+the+Wilds&page=1&partner=Scryfall&utm_campaign=affiliate&utm_medium=scryfall&utm_source=scryfall',
@@ -252,7 +251,7 @@ module.exports = [ { object: 'card',
     tcgplayer_id: 95333,
     name: 'Sultai Ascendancy',
     lang: 'en',
-    released_at: '2015-01-24',
+    released_at: '2015-01-23',
     uri:
      'https://api.scryfall.com/cards/32f4c02f-9a64-45b5-8c2e-d34b0ff3e54b',
     scryfall_uri:
@@ -315,10 +314,9 @@ module.exports = [ { object: 'card',
     artist: 'Karl Kopinski',
     border_color: 'black',
     frame: '2015',
-    frame_effect: '',
     full_art: false,
     story_spotlight: false,
-    edhrec_rank: 2344,
+    edhrec_rank: 2312,
     related_uris:
      { tcgplayer_decks:
         'https://decks.tcgplayer.com/magic/deck/search?contains=Sultai+Ascendancy&page=1&partner=Scryfall&utm_campaign=affiliate&utm_medium=scryfall&utm_source=scryfall',
@@ -333,7 +331,7 @@ module.exports = [ { object: 'card',
     tcgplayer_id: 95334,
     name: "Hero's Downfall",
     lang: 'en',
-    released_at: '2015-01-24',
+    released_at: '2015-01-23',
     uri:
      'https://api.scryfall.com/cards/64aa5cbd-98e9-46fc-8de4-64eab7afc90f',
     scryfall_uri:
@@ -396,10 +394,9 @@ module.exports = [ { object: 'card',
     artist: 'Johannes Voss',
     border_color: 'black',
     frame: '2015',
-    frame_effect: '',
     full_art: false,
     story_spotlight: false,
-    edhrec_rank: 182,
+    edhrec_rank: 186,
     related_uris:
      { tcgplayer_decks:
         'https://decks.tcgplayer.com/magic/deck/search?contains=Hero%27s+Downfall&page=1&partner=Scryfall&utm_campaign=affiliate&utm_medium=scryfall&utm_source=scryfall',
@@ -414,7 +411,7 @@ module.exports = [ { object: 'card',
     tcgplayer_id: 95332,
     name: 'Necropolis Fiend',
     lang: 'en',
-    released_at: '2015-01-24',
+    released_at: '2015-01-23',
     uri:
      'https://api.scryfall.com/cards/f27fb4a1-cf88-45e3-90bc-aa146f7c4ffa',
     scryfall_uri:
@@ -479,10 +476,9 @@ module.exports = [ { object: 'card',
     artist: 'Svetlin Velinov',
     border_color: 'black',
     frame: '2015',
-    frame_effect: '',
     full_art: false,
     story_spotlight: false,
-    edhrec_rank: 8554,
+    edhrec_rank: 8702,
     related_uris:
      { tcgplayer_decks:
         'https://decks.tcgplayer.com/magic/deck/search?contains=Necropolis+Fiend&page=1&partner=Scryfall&utm_campaign=affiliate&utm_medium=scryfall&utm_source=scryfall',

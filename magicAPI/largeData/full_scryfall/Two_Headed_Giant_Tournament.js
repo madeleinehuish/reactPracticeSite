@@ -72,10 +72,9 @@ module.exports = [ { object: 'card',
     artist: 'Julie Baroh',
     border_color: 'black',
     frame: '2003',
-    frame_effect: '',
     full_art: false,
     story_spotlight: false,
-    edhrec_rank: 1704,
+    edhrec_rank: 1725,
     related_uris:
      { tcgplayer_decks:
         'https://decks.tcgplayer.com/magic/deck/search?contains=Underworld+Dreams&page=1&partner=Scryfall&utm_campaign=affiliate&utm_medium=scryfall&utm_source=scryfall',

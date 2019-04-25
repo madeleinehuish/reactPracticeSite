@@ -12,17 +12,17 @@ module.exports = [ { object: 'card',
     highres_image: true,
     image_uris:
      { small:
-        'https://img.scryfall.com/cards/small/en/plny/1.jpg?1548989500',
+        'https://img.scryfall.com/cards/small/en/plny/1.jpg?1553207411',
        normal:
-        'https://img.scryfall.com/cards/normal/en/plny/1.jpg?1548989500',
+        'https://img.scryfall.com/cards/normal/en/plny/1.jpg?1553207411',
        large:
-        'https://img.scryfall.com/cards/large/en/plny/1.jpg?1548989500',
+        'https://img.scryfall.com/cards/large/en/plny/1.jpg?1553207411',
        png:
-        'https://img.scryfall.com/cards/png/en/plny/1.png?1548989500',
+        'https://img.scryfall.com/cards/png/en/plny/1.png?1553207411',
        art_crop:
-        'https://img.scryfall.com/cards/art_crop/en/plny/1.jpg?1548989500',
+        'https://img.scryfall.com/cards/art_crop/en/plny/1.jpg?1553207411',
        border_crop:
-        'https://img.scryfall.com/cards/border_crop/en/plny/1.jpg?1548989500' },
+        'https://img.scryfall.com/cards/border_crop/en/plny/1.jpg?1553207411' },
     mana_cost: '',
     cmc: 0,
     type_line: 'Token Artifact — Treasure',
@@ -44,7 +44,7 @@ module.exports = [ { object: 'card',
     games: [ 'paper' ],
     reserved: false,
     foil: true,
-    nonfoil: true,
+    nonfoil: false,
     oversized: false,
     promo: true,
     reprint: true,
@@ -66,7 +66,6 @@ module.exports = [ { object: 'card',
     artist: 'YW Tang',
     border_color: 'black',
     frame: '2015',
-    frame_effect: '',
     full_art: false,
     story_spotlight: false,
     related_uris:

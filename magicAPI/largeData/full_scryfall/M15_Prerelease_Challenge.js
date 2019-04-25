@@ -68,7 +68,6 @@ module.exports = [ { object: 'card',
     artist: 'David Palumbo',
     border_color: 'black',
     frame: '2015',
-    frame_effect: '',
     full_art: false,
     story_spotlight: false,
     related_uris:
@@ -81,6 +80,7 @@ module.exports = [ { object: 'card',
     id: 'c18e2175-ec42-47f2-a40f-426ccaa1e89e',
     oracle_id: '640c1743-3ad6-46ae-87d1-4d7fbe6a8ff4',
     multiverse_ids: [],
+    tcgplayer_id: 91617,
     name: 'Garruk the Slayer',
     lang: 'en',
     released_at: '2014-07-12',
@@ -92,17 +92,17 @@ module.exports = [ { object: 'card',
     highres_image: true,
     image_uris:
      { small:
-        'https://img.scryfall.com/cards/small/en/ppc1/1.jpg?1548989265',
+        'https://img.scryfall.com/cards/small/en/ppc1/1.jpg?1553909516',
        normal:
-        'https://img.scryfall.com/cards/normal/en/ppc1/1.jpg?1548989265',
+        'https://img.scryfall.com/cards/normal/en/ppc1/1.jpg?1553909516',
        large:
-        'https://img.scryfall.com/cards/large/en/ppc1/1.jpg?1548989265',
+        'https://img.scryfall.com/cards/large/en/ppc1/1.jpg?1553909516',
        png:
-        'https://img.scryfall.com/cards/png/en/ppc1/1.png?1548989265',
+        'https://img.scryfall.com/cards/png/en/ppc1/1.png?1553909516',
        art_crop:
-        'https://img.scryfall.com/cards/art_crop/en/ppc1/1.jpg?1548989265',
+        'https://img.scryfall.com/cards/art_crop/en/ppc1/1.jpg?1553909516',
        border_crop:
-        'https://img.scryfall.com/cards/border_crop/en/ppc1/1.jpg?1548989265' },
+        'https://img.scryfall.com/cards/border_crop/en/ppc1/1.jpg?1553909516' },
     mana_cost: '',
     cmc: 0,
     type_line: 'Legendary Planeswalker — Garruk',
@@ -148,7 +148,6 @@ module.exports = [ { object: 'card',
     artist: 'Brad Rigney',
     border_color: 'black',
     frame: '2015',
-    frame_effect: '',
     full_art: false,
     story_spotlight: false,
     related_uris:

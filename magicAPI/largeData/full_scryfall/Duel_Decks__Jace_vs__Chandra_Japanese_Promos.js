@@ -15,17 +15,17 @@ module.exports = [ { object: 'card',
     highres_image: true,
     image_uris:
      { small:
-        'https://img.scryfall.com/cards/small/ja/pdd2/34.jpg?1530637822',
+        'https://img.scryfall.com/cards/small/ja/pdd2/34.jpg?1553908788',
        normal:
-        'https://img.scryfall.com/cards/normal/ja/pdd2/34.jpg?1530637822',
+        'https://img.scryfall.com/cards/normal/ja/pdd2/34.jpg?1553908788',
        large:
-        'https://img.scryfall.com/cards/large/ja/pdd2/34.jpg?1530637822',
+        'https://img.scryfall.com/cards/large/ja/pdd2/34.jpg?1553908788',
        png:
-        'https://img.scryfall.com/cards/png/ja/pdd2/34.png?1530637822',
+        'https://img.scryfall.com/cards/png/ja/pdd2/34.png?1553908788',
        art_crop:
-        'https://img.scryfall.com/cards/art_crop/ja/pdd2/34.jpg?1530637822',
+        'https://img.scryfall.com/cards/art_crop/ja/pdd2/34.jpg?1553908788',
        border_crop:
-        'https://img.scryfall.com/cards/border_crop/ja/pdd2/34.jpg?1530637822' },
+        'https://img.scryfall.com/cards/border_crop/ja/pdd2/34.jpg?1553908788' },
     mana_cost: '{3}{R}{R}',
     cmc: 5,
     type_line: 'Legendary Planeswalker — Chandra',
@@ -73,11 +73,10 @@ module.exports = [ { object: 'card',
     illustration_id: 'd05a80fa-d9f7-42ea-a062-7e9e83b16b34',
     artist: 'Yoshino Himori',
     border_color: 'black',
-    frame: '2015',
-    frame_effect: '',
+    frame: '2003',
     full_art: false,
     story_spotlight: false,
-    edhrec_rank: 4486,
+    edhrec_rank: 4613,
     related_uris:
      { tcgplayer_decks:
         'https://decks.tcgplayer.com/magic/deck/search?contains=Chandra+Nalaar&page=1&partner=Scryfall&utm_campaign=affiliate&utm_medium=scryfall&utm_source=scryfall',
@@ -102,17 +101,17 @@ module.exports = [ { object: 'card',
     highres_image: true,
     image_uris:
      { small:
-        'https://img.scryfall.com/cards/small/ja/pdd2/1.jpg?1530637820',
+        'https://img.scryfall.com/cards/small/ja/pdd2/1.jpg?1553908875',
        normal:
-        'https://img.scryfall.com/cards/normal/ja/pdd2/1.jpg?1530637820',
+        'https://img.scryfall.com/cards/normal/ja/pdd2/1.jpg?1553908875',
        large:
-        'https://img.scryfall.com/cards/large/ja/pdd2/1.jpg?1530637820',
+        'https://img.scryfall.com/cards/large/ja/pdd2/1.jpg?1553908875',
        png:
-        'https://img.scryfall.com/cards/png/ja/pdd2/1.png?1530637820',
+        'https://img.scryfall.com/cards/png/ja/pdd2/1.png?1553908875',
        art_crop:
-        'https://img.scryfall.com/cards/art_crop/ja/pdd2/1.jpg?1530637820',
+        'https://img.scryfall.com/cards/art_crop/ja/pdd2/1.jpg?1553908875',
        border_crop:
-        'https://img.scryfall.com/cards/border_crop/ja/pdd2/1.jpg?1530637820' },
+        'https://img.scryfall.com/cards/border_crop/ja/pdd2/1.jpg?1553908875' },
     mana_cost: '{1}{U}{U}',
     cmc: 3,
     type_line: 'Legendary Planeswalker — Jace',
@@ -160,11 +159,10 @@ module.exports = [ { object: 'card',
     illustration_id: '05129662-b5f6-49b5-8fc9-56cd83fec5f4',
     artist: 'Yoshino Himori',
     border_color: 'black',
-    frame: '2015',
-    frame_effect: '',
+    frame: '2003',
     full_art: false,
     story_spotlight: false,
-    edhrec_rank: 725,
+    edhrec_rank: 710,
     related_uris:
      { tcgplayer_decks:
         'https://decks.tcgplayer.com/magic/deck/search?contains=Jace+Beleren&page=1&partner=Scryfall&utm_campaign=affiliate&utm_medium=scryfall&utm_source=scryfall',

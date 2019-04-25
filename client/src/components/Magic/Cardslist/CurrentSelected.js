@@ -36,15 +36,21 @@ const CurrentSelected = (props) => {
 	}
 	let setSymbol = setSymbols[setName] || 'x';
 
+	if(setName==="Duel Decks: Mirrodin Pure vs. New Phyrexia") setName = "DD: Mirrodin vs New Phyrexia";
+	if(setName==="Duel Decks: Phyrexia vs. the Coalition") setName = "DD: Phyrexia vs Coalition"
+
 	// console.log('props in CurrentSelected : ', props);
 	return (
 		<div className={styles.currentSelected}>
 			<div className={styles.titleSelected}>
-				{card.name!=='There are no cards with these given filters' ? <b>{card.name}</b> : <b>Totally Lost</b>}
-
+				{card.name!=='There are no cards with these given filters' ?
+				(card.name.length < 20 ? <b>{card.name}</b> : <b className={styles.smallerFont}>{card.name}</b>)
+				: <b>Totally Lost</b>}
 			</div>
+
 			<div className={styles.setSelected}>set: {setName}&nbsp;&nbsp;&nbsp;<img className={styles.setSymbol} src={setSymbol} alt="set symbol" style={{'height': '25px', 'paddingTop': '3px'}}/></div>
 			<div className={styles.setSelected}>date: {date}</div>
+
 			<div className={styles.addToDeck}>
 				<button className={styles.button} onClick={() => props.deckModify(card, 'add')}>add to deck     >>></button>
 			</div>

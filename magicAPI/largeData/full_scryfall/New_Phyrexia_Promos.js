@@ -14,17 +14,17 @@ module.exports = [ { object: 'card',
     highres_image: true,
     image_uris:
      { small:
-        'https://img.scryfall.com/cards/small/en/pnph/151.jpg?1517813031',
+        'https://img.scryfall.com/cards/small/en/pnph/151.jpg?1551554806',
        normal:
-        'https://img.scryfall.com/cards/normal/en/pnph/151.jpg?1517813031',
+        'https://img.scryfall.com/cards/normal/en/pnph/151.jpg?1551554806',
        large:
-        'https://img.scryfall.com/cards/large/en/pnph/151.jpg?1517813031',
+        'https://img.scryfall.com/cards/large/en/pnph/151.jpg?1551554806',
        png:
-        'https://img.scryfall.com/cards/png/en/pnph/151.png?1517813031',
+        'https://img.scryfall.com/cards/png/en/pnph/151.png?1551554806',
        art_crop:
-        'https://img.scryfall.com/cards/art_crop/en/pnph/151.jpg?1517813031',
+        'https://img.scryfall.com/cards/art_crop/en/pnph/151.jpg?1551554806',
        border_crop:
-        'https://img.scryfall.com/cards/border_crop/en/pnph/151.jpg?1517813031' },
+        'https://img.scryfall.com/cards/border_crop/en/pnph/151.jpg?1551554806' },
     mana_cost: '{3}',
     cmc: 3,
     type_line: 'Artifact',
@@ -71,10 +71,9 @@ module.exports = [ { object: 'card',
     artist: 'Matt Cavotta',
     border_color: 'black',
     frame: '2003',
-    frame_effect: '',
     full_art: false,
     story_spotlight: false,
-    edhrec_rank: 861,
+    edhrec_rank: 845,
     related_uris:
      { tcgplayer_decks:
         'https://decks.tcgplayer.com/magic/deck/search?contains=Pristine+Talisman&page=1&partner=Scryfall&utm_campaign=affiliate&utm_medium=scryfall&utm_source=scryfall',
@@ -155,10 +154,9 @@ module.exports = [ { object: 'card',
     artist: 'Greg Staples',
     border_color: 'black',
     frame: '2003',
-    frame_effect: '',
     full_art: true,
     story_spotlight: false,
-    edhrec_rank: 7966,
+    edhrec_rank: 8061,
     related_uris:
      { tcgplayer_decks:
         'https://decks.tcgplayer.com/magic/deck/search?contains=Myr+Superion&page=1&partner=Scryfall&utm_campaign=affiliate&utm_medium=scryfall&utm_source=scryfall',
@@ -239,10 +237,9 @@ module.exports = [ { object: 'card',
     artist: 'Clint Cearley',
     border_color: 'black',
     frame: '2003',
-    frame_effect: '',
     full_art: true,
     story_spotlight: false,
-    edhrec_rank: 5457,
+    edhrec_rank: 5383,
     related_uris:
      { tcgplayer_decks:
         'https://decks.tcgplayer.com/magic/deck/search?contains=Priest+of+Urabrask&page=1&partner=Scryfall&utm_campaign=affiliate&utm_medium=scryfall&utm_source=scryfall',
@@ -322,10 +319,9 @@ module.exports = [ { object: 'card',
     artist: 'Greg Staples',
     border_color: 'black',
     frame: '2003',
-    frame_effect: '',
     full_art: false,
     story_spotlight: false,
-    edhrec_rank: 12857,
+    edhrec_rank: 13121,
     related_uris:
      { tcgplayer_decks:
         'https://decks.tcgplayer.com/magic/deck/search?contains=Surgical+Extraction&page=1&partner=Scryfall&utm_campaign=affiliate&utm_medium=scryfall&utm_source=scryfall',
@@ -407,10 +403,9 @@ module.exports = [ { object: 'card',
     artist: 'Jason Felix',
     border_color: 'black',
     frame: '2003',
-    frame_effect: '',
     full_art: false,
     story_spotlight: false,
-    edhrec_rank: 532,
+    edhrec_rank: 543,
     related_uris:
      { tcgplayer_decks:
         'https://decks.tcgplayer.com/magic/deck/search?contains=Sheoldred%2C+Whispering+One&page=1&partner=Scryfall&utm_campaign=affiliate&utm_medium=scryfall&utm_source=scryfall',
@@ -492,10 +487,9 @@ module.exports = [ { object: 'card',
     artist: 'Jung Park',
     border_color: 'black',
     frame: '2003',
-    frame_effect: '',
     full_art: false,
     story_spotlight: false,
-    edhrec_rank: 170,
+    edhrec_rank: 171,
     related_uris:
      { tcgplayer_decks:
         'https://decks.tcgplayer.com/magic/deck/search?contains=Phyrexian+Metamorph&page=1&partner=Scryfall&utm_campaign=affiliate&utm_medium=scryfall&utm_source=scryfall',

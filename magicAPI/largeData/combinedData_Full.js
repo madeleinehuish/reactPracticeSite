@@ -398,6 +398,7 @@ const Vanguard_Series = require('./full_scryfall/Vanguard_Series');
 const Vintage_Championship = require('./full_scryfall/Vintage_Championship');
 const Vintage_Masters = require('./full_scryfall/Vintage_Masters');
 const Visions = require('./full_scryfall/Visions');
+const War_of_the_Spark = require('./full_scryfall/War_of_the_Spark');
 const Weatherlight = require('./full_scryfall/Weatherlight');
 const Welcome_Deck_2016 = require('./full_scryfall/Welcome_Deck_2016');
 const Welcome_Deck_2017 = require('./full_scryfall/Welcome_Deck_2017');
@@ -833,6 +834,7 @@ const combinedData = [
   ...Vintage_Championship,
   ...Vintage_Masters,
   ...Visions,
+  ...War_of_the_Spark,
   ...Weatherlight,
   ...Welcome_Deck_2016,
   ...Welcome_Deck_2017,
