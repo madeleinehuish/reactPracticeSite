@@ -37,7 +37,7 @@ const CurrentSelected = (props) => {
 	let setSymbol = setSymbols[setName] || 'x';
 
 	if(setName==="Duel Decks: Mirrodin Pure vs. New Phyrexia") setName = "DD: Mirrodin vs New Phyrexia";
-	if(setName==="Duel Decks: Phyrexia vs. the Coalition") setName = "DD: Phyrexia vs Coalition"
+	if(setName==="Duel Decks: Phyrexia vs. the Coalition") setName = "DD: Phyrexia vs Coalition";
 
 	// console.log('props in CurrentSelected : ', props);
 	return (

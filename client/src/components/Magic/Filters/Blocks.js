@@ -11,7 +11,7 @@ const standardBlocks = React.forwardRef((props, ref) => {
 
 	return (
 		<select className={styles.select} onChange={(event)=>props.handleNewBlock(event)} ref={ref}>
-			<option default value="Jan 19 to Apr 19">sort by block (current)</option>
+			<option default value="Apr 19 to Jun 19">sort by block (current)</option>
 			{list}
 			{/* <option value="mrd">Mirrodin</option>
 			<option value="dst">Darksteel</option>

@@ -21,6 +21,7 @@ import {
 	STORE_COLOR,
 	STORE_RARITY,
 	STORE_SET,
+	STORE_CMC,
 	STORE_SPECIAL
 	// TEST_CARDS
 } from './types';
@@ -153,6 +154,13 @@ const filterColor = (elem, filtersColors, filtersType) => {
 
 }
 
+const filterCMC = (elem, filter) => {
+	if(filter === 'All CMC') return true;
+	if(filter === 'X' && elem.cmc === 'X') return true;
+	if(elem.cmc === Number(filter)) return true;
+	return false;
+}
+
 const filterRarity = (elem, filter) => {
 	if(filter==='All') return true;
 	if(elem.rarity===filter) return true;
@@ -176,22 +184,22 @@ const filterSpecial = (elem, filter) => {
 
 
 export const getcards = (base, filters, resetTrue, cb) => async dispatch => {
-
+	console.log('getCards, filters: ', filters)
 	const data = base; //first decide how big of dataset you want to use. 'All will default to full set'
 
 	const filteredByInput = filterByInput(data, filters.text);
 
 	const filtered = filteredByInput.filter(elem => {
-
 		// const conditionSet = filterSet(elem, filters.set);
 		const conditionKeyword = filterKeyword(elem, filters.keyword);
 		const conditionType = filterType(elem, filters.type, filters.creature);
 		const conditionColor = filterColor(elem, filters.color, filters.type);
 		const conditionRarity = filterRarity(elem, filters.rarity);
 		const conditionSpecial = filterSpecial(elem, filters.special);
+		const conditionCMC = filterCMC(elem, filters.cmc)
 
 
-		return ( conditionKeyword && conditionType && conditionColor && conditionRarity && conditionSpecial );
+		return ( conditionKeyword && conditionType && conditionColor && conditionRarity && conditionSpecial && conditionCMC);
 	})
 
 	if(!filtered.length) filtered[0] =  {
@@ -388,6 +396,14 @@ export const storeCreature = (creature, cb) => async dispatch => {
 		type: STORE_CREATURE,
 		payload: creature
 	});
+	cb();
+}
+
+export const storeCMC = (cmc, cb) => async dispatch => {
+	dispatch({
+		type: STORE_CMC,
+		payload: cmc
+	})
 	cb();
 }
 

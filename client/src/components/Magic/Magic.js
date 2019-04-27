@@ -20,7 +20,8 @@ import StandardBlocks from './Filters/Blocks';
 import SetsAll from './Filters/SetsAll';
 
 import Special from './Filters/Special';
-import Types from './Filters/Types'
+import Types from './Filters/Types';
+import Cmc from './Filters/CMC';
 
 import styles from './Magic.css';
 
@@ -67,6 +68,7 @@ class Magic extends Component {
 		this.keywordFullBox = React.createRef();
 		this.specialBox = React.createRef();
 		this.standardSetBox = React.createRef();
+		this.cmcBox = React.createRef();
 
 		//deckbuilding refs
 		this.selectDeck = React.createRef();
@@ -185,6 +187,9 @@ class Magic extends Component {
 			case 'rarity':
 				this.props.storeRarity(filterValue, cb);
 				break;
+			case 'cmc':
+				this.props.storeCMC(filterValue, cb);
+				break;
 			case 'set':
 
 				let filters = {
@@ -279,6 +284,7 @@ class Magic extends Component {
 		this.keywordBox.current.value = 'keywords (all)';
 		this.keywordFullBox.current.value = 'keywords (all)';
 		this.specialBox.current.value = 'All Special';
+		this.cmcBox.current.value = 'All CMC';
 		if(fullReset) {
 			this.standardBlocks.current.value = 'Jan 19 to Apr 19';
 		}
@@ -292,6 +298,7 @@ class Magic extends Component {
 		this.props.storeSet('All', cb);
 		this.props.storeKeyword('keywords (all)', cb);
 		this.props.storeSpecial('All Special', cb);
+		this.props.storeCMC('All CMC', cb);
 
 		if(fullReset) {
 			this.props.resetBlock(this.props.currentStandard, cb); //standard in present time
@@ -317,7 +324,8 @@ class Magic extends Component {
 			rarity: this.props.filterRarity,
 			creature: this.props.filterCreature,
 			keyword: this.props.filterKeyword,
-			special: this.props.filterSpecial
+			special: this.props.filterSpecial,
+			cmc: this.props.filterCMC
 		}
 
 		if(!reset) {
@@ -403,6 +411,9 @@ class Magic extends Component {
 										<div className={styles.filters}>
 											<Special handleFilter={this.handleFilter} ref={this.specialBox}/>
 										</div>
+										<div className={styles.filters}>
+											<Cmc handleFilter={this.handleFilter} ref={this.cmcBox}/>
+										</div>
 									</div>
 								</div>
 							</div>
@@ -446,7 +457,7 @@ class Magic extends Component {
 }
 
 function mapStateToProps(state) {
-	// console.log('state in magic: ', state);
+	console.log('state in magic: ', state);
 	// console.log('state.cards.cards: ', state.cards.cards);
 	return {
 		base: state.cards.base,
@@ -465,6 +476,7 @@ function mapStateToProps(state) {
 		filterKeyword: state.cardFilters.filterKeyword,
 		filterText: state.cardFilters.filterText,
 		filterColor: state.cardFilters.filterColor,
+		filterCMC: state.cardFilters.filterCMC,
 		filterRarity: state.cardFilters.filterRarity,
 		filterSet: state.cardFilters.filterSet,
 		filterSpecial: state.cardFilters.filterSpecial,
