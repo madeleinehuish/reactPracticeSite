@@ -356,6 +356,7 @@ class Magic extends Component {
 
 						<div className={styles.topHeaderColumns}>
 							<div className={styles.control_bar}>
+
 								<div className={styles.filters}>
 									<StandardBlocks handleNewBlock={this.handleNewBlock} currentBlock={this.props.currentBlock} ref={this.standardBlocks}/>
 								</div>
@@ -372,18 +373,21 @@ class Magic extends Component {
 								<div className={styles.filters}>
 									<KeywordsForFull handleFilterKeywordFull={this.handleFilterKeywordFull} ref={this.keywordFullBox} />
 								</div>
+								{/* <div className={styles.control_bar}> */}
+
+								{/* </div> */}
 							</div>
 						</div>
 					</div>
 
 					<div className={styles.bottomHeaderContainer}>
-							<div className={styles.bottomHeaderColumns}>
-								<div className={styles.control_bar}>
+							{/* <div className={styles.bottomHeaderColumns}> */}
+								{/* <div className={styles.control_bar}>
 									<div className={styles.filters}>
 										<button id="magicButton" className={styles.button} onClick={()=>this.reset(true)}>Reset</button>
 									</div>
-								</div>
-							</div>
+								</div> */}
+							{/* </div> */}
 							<div className={styles.bottomHeaderColumns}>
 								<div className={styles.control_bar}>
 									<div className={styles.filters}>
@@ -394,6 +398,9 @@ class Magic extends Component {
 							<div className={styles.bottomHeaderColumns}>
 								<div className={styles.control_bar}>
 									<div className={styles.topFilters}>
+										<div className={styles.filters}>
+											<button id="magicButton" className={styles.button} onClick={()=>this.reset(true)}>Reset</button>
+										</div>
 										<div className={styles.filters}>
 											<Types handleFilter={this.handleFilter} ref={this.selectBox}/>
 										</div>
