@@ -5,7 +5,6 @@ const cmc = React.forwardRef((props, ref) => {
 	return (
 		<select className={styles.select} onChange={(event)=>props.handleFilter(event, 'cmc')} ref={ref}>
 			<option default value="All CMC">All CMC</option>
-			<option value="X">X cmc</option>
 			<option value="0">0 cmc</option>
 			<option value="1">1 cmc</option>
 			<option value="2">2 cmc</option>

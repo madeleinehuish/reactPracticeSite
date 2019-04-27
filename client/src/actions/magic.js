@@ -155,8 +155,10 @@ const filterColor = (elem, filtersColors, filtersType) => {
 }
 
 const filterCMC = (elem, filter) => {
+
 	if(filter === 'All CMC') return true;
-	if(filter === 'X' && elem.cmc === 'X') return true;
+	// console.log('elem.type_line.substr(0,4)', elem.type_line.substr(0,4));
+	if(elem.type_line.includes('Land')) return false;
 	if(elem.cmc === Number(filter)) return true;
 	return false;
 }
@@ -192,11 +194,12 @@ export const getcards = (base, filters, resetTrue, cb) => async dispatch => {
 	const filtered = filteredByInput.filter(elem => {
 		// const conditionSet = filterSet(elem, filters.set);
 		const conditionKeyword = filterKeyword(elem, filters.keyword);
+		const conditionCMC = filterCMC(elem, filters.cmc);
 		const conditionType = filterType(elem, filters.type, filters.creature);
 		const conditionColor = filterColor(elem, filters.color, filters.type);
 		const conditionRarity = filterRarity(elem, filters.rarity);
 		const conditionSpecial = filterSpecial(elem, filters.special);
-		const conditionCMC = filterCMC(elem, filters.cmc)
+
 
 
 		return ( conditionKeyword && conditionType && conditionColor && conditionRarity && conditionSpecial && conditionCMC);
