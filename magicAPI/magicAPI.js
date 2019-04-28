@@ -1,6 +1,27 @@
+const axios = require('axios');
 const dataFull = require('./largeData/combinedData_Full.js');
 const blocksAll = require('./largeData/standard_blocks/standard_blocks.js');
 const dataStandard = require('./largeData/combinedData_Standard.js');
+
+
+const getCurrentPrice = async (card) => {
+	// console.log('inside getCurrentPrice... card: ', card);
+	const url = `https://api.scryfall.com/cards/${card.id}`;
+
+	try {
+		const response = await axios.get(url);
+		// console.log('response from scryfall api: ', response);
+
+		let price = response.data.prices.usd || response.data.usd;
+		console.log('response price from scryfall api: ', price)// if(price===null) price = response.data.usd;
+
+		return price;
+
+	} catch (error) {
+		console.log('axios error: ', error);
+	}
+
+}
 
 const filterKeyword = (filterKey) => {
 	console.log('filterKeyword function: ', filterKey)
@@ -135,6 +156,13 @@ const applyFiltersByBlock = async (name) => {
 	return filtered
 }
 
+exports.getPrice = async function(req, res, next) {
+	// console.log('getPrice: req.query: ', req.query);
+	let returnData = await getCurrentPrice(req.query);
+
+	res.send(returnData);
+}
+
 exports.filterKeywords = function(req, res, next) {
 	console.log('filterKeywords: ', req.query)
 	let returnData = filterKeyword(req.query);
@@ -146,6 +174,7 @@ exports.filterCards = function(req, res, next) {
 
 	console.log('Req.query for filterCards: ', req.query);
 	let returnData = applyFilters(req.query);
+
 	// console.log('returnData: ', returnData)
 	res.send(returnData);
 }

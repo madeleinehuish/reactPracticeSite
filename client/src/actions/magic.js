@@ -185,20 +185,20 @@ const filterSpecial = (elem, filter) => {
 }
 
 export const getCurrentPrice = (card, cb) => async dispatch => {
-	// let url = 'https://api.scryfall.com/cards/search?q=name=' + card.name;
-	let url = `https://api.scryfall.com/cards/${card.id}`;
-	console.log('url request: ', url);
-	// let url = 'https://api.scryfall.com/cards/search?q=name=' + card.name + '&id=' + card.id;
-	// let url = 'https://api.scryfall.com/cards/search?q=name=' + card.name + '&id=' + card.id;
+
+	// const url = `https://api.scryfall.com/cards/${card.id}`;
+	const url = getUrl('/price');
+	const query = `?name=${card.name}&id=${card.id}`
+
 	try {
-		const response = await axios.get(url);
-		// let item = response.data.filter(elem => elem.id === card.id);
-		// console.log('item: ', item)
-		console.log('response: ', response);
-		console.log('card id: ', card.id);
-		let price = response.data.prices.usd;
-		if(price===null) price = response.data.usd
-		console.log('price: ', price);
+		const response = await axios.get(url + query);
+
+		console.log('response from server: ', response);
+		// console.log('card id: ', card.id);
+		// let price = response.data.prices.usd;
+		let price = response.data;
+		// if(price===null) price = response.data.usd
+		// console.log('price: ', price);
 
 		dispatch({
 			type: GET_CURRENT_PRICE,

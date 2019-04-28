@@ -19,6 +19,9 @@ module.exports = function(app) {
 	app.get('/filtersinglecard', magicAPI.filterCardSingle);
 	app.get('/filterskeyword', magicAPI.filterKeywords);
 
+	//get pricing for a card
+	app.get('/price', magicAPI.getPrice);
+
 	//magic decks
 	app.post('/decks', magicDecks.saveDeckToDB);
 	app.get('/decks', magicDecks.getDecksFromDB);

@@ -241,7 +241,7 @@ class Magic extends Component {
 
 	handleHover = (cardId) => {
 		const cb = () => {
-			console.log('hover, price', this.props.currentPrice)
+			// console.log('hover, price', this.props.currentPrice)
 		}
 		let card = this.props.cards.filter(obj => {
 			return obj.id === cardId;
@@ -355,7 +355,7 @@ class Magic extends Component {
 
 	render() {
 		// console.log('this.props in Magic.js: ', this.props);
-		console.log('render triggered');
+		// console.log('render triggered');
 		if (this.props.authenticated) {
 		return (
 			<div>

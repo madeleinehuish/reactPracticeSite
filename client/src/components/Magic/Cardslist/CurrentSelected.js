@@ -1,5 +1,4 @@
 import React from 'react';
-import axios from 'axios';
 import styles from './Cardslist.css';
 import setDates from '../../../data/setDates/setDates.js';
 import setSymbols from '../../../data/setSymbols/setSymbols.js';
