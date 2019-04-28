@@ -185,7 +185,8 @@ const filterSpecial = (elem, filter) => {
 }
 
 export const getCurrentPrice = (card, cb) => async dispatch => {
-	let url = 'https://api.scryfall.com/cards/search?q=name=' + card.name;
+	// let url = 'https://api.scryfall.com/cards/search?q=name=' + card.name;
+	let url = `https://api.scryfall.com/cards/${card.id}`;
 	console.log('url request: ', url);
 	// let url = 'https://api.scryfall.com/cards/search?q=name=' + card.name + '&id=' + card.id;
 	// let url = 'https://api.scryfall.com/cards/search?q=name=' + card.name + '&id=' + card.id;
@@ -195,8 +196,8 @@ export const getCurrentPrice = (card, cb) => async dispatch => {
 		// console.log('item: ', item)
 		console.log('response: ', response);
 		console.log('card id: ', card.id);
-		let price = response.data.data[0].prices.usd;
-		if(price===null) price = response.data.data[0].usd
+		let price = response.data.prices.usd;
+		if(price===null) price = response.data.usd
 		console.log('price: ', price);
 
 		dispatch({

@@ -53,7 +53,7 @@ const CurrentSelected = (props) => {
 			</div>
 
 			<div className={styles.setSelected}>set: {setName}&nbsp;&nbsp;&nbsp;<img className={styles.setSymbol} src={setSymbol} alt="set symbol" style={{'height': '25px', 'paddingTop': '3px'}}/></div>
-			<div className={styles.setSelected}>date: {date} price: {props.currentPrice}</div>
+			<div className={styles.setSelected}>date: {date} &nbsp;&nbsp; price: {props.currentPrice}</div>
 
 			<div className={styles.addToDeck}>
 				<button className={styles.button} onClick={() => props.deckModify(card, 'add')}>add to deck     >>></button>
