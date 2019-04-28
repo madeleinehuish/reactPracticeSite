@@ -22,7 +22,8 @@ import {
 	STORE_RARITY,
 	STORE_SET,
 	STORE_CMC,
-	STORE_SPECIAL
+	STORE_SPECIAL,
+	GET_CURRENT_PRICE
 	// TEST_CARDS
 } from './types';
 
@@ -183,6 +184,31 @@ const filterSpecial = (elem, filter) => {
 	return false;
 }
 
+export const getCurrentPrice = (card, cb) => async dispatch => {
+	let url = 'https://api.scryfall.com/cards/search?q=name=' + card.name;
+	console.log('url request: ', url);
+	// let url = 'https://api.scryfall.com/cards/search?q=name=' + card.name + '&id=' + card.id;
+	// let url = 'https://api.scryfall.com/cards/search?q=name=' + card.name + '&id=' + card.id;
+	try {
+		const response = await axios.get(url);
+		// let item = response.data.filter(elem => elem.id === card.id);
+		// console.log('item: ', item)
+		console.log('response: ', response);
+		console.log('card id: ', card.id);
+		let price = response.data.data[0].prices.usd;
+		if(price===null) price = response.data.data[0].usd
+		console.log('price: ', price);
+
+		dispatch({
+			type: GET_CURRENT_PRICE,
+			payload: await price
+		})
+
+		cb()
+	} catch (error) {
+		console.log('axios error: ', error);
+	}
+}
 
 
 export const getcards = (base, filters, resetTrue, cb) => async dispatch => {

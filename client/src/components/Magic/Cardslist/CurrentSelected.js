@@ -1,7 +1,9 @@
 import React from 'react';
+import axios from 'axios';
 import styles from './Cardslist.css';
 import setDates from '../../../data/setDates/setDates.js';
 import setSymbols from '../../../data/setSymbols/setSymbols.js';
+
 
 const CurrentSelected = (props) => {
 	const card = props.currentSelected || null;
@@ -39,6 +41,8 @@ const CurrentSelected = (props) => {
 	if(setName==="Duel Decks: Mirrodin Pure vs. New Phyrexia") setName = "DD: Mirrodin vs New Phyrexia";
 	if(setName==="Duel Decks: Phyrexia vs. the Coalition") setName = "DD: Phyrexia vs Coalition";
 
+
+
 	// console.log('props in CurrentSelected : ', props);
 	return (
 		<div className={styles.currentSelected}>
@@ -49,7 +53,7 @@ const CurrentSelected = (props) => {
 			</div>
 
 			<div className={styles.setSelected}>set: {setName}&nbsp;&nbsp;&nbsp;<img className={styles.setSymbol} src={setSymbol} alt="set symbol" style={{'height': '25px', 'paddingTop': '3px'}}/></div>
-			<div className={styles.setSelected}>date: {date}</div>
+			<div className={styles.setSelected}>date: {date} price: {props.currentPrice}</div>
 
 			<div className={styles.addToDeck}>
 				<button className={styles.button} onClick={() => props.deckModify(card, 'add')}>add to deck     >>></button>

@@ -80,7 +80,7 @@ class Magic extends Component {
 			// console.log('component did mount finished...')
 		}
 		this.props.getDecksFromDB(cb);
-
+		this.props.getCurrentPrice(this.props.cards[0], cb);
 	}
 
 	componentDidUpdate(prevProps) { //this is necessary to reset flipped cards when switching cards to another flipped card
@@ -93,9 +93,10 @@ class Magic extends Component {
 	getSingleTerm = (event, term) => {
 		const cb = () => {
 			// event.preventDefault();
-
+			let cb2 = () => { };
 			this.forceUpdate(()=>{
 				this.props.changeCurrentCard(this.props.cards[0]);
+				this.props.getCurrentPrice(this.props.cards[0], cb2);
 			});
 		};
 		event.preventDefault();
@@ -157,18 +158,21 @@ class Magic extends Component {
 	handleFilter = (event, filterType) => {
 		const filterValue = event.target.value;
 		// console.log('filterValue: ', filterValue);
-
+		let cb2a = () => { };
 		const cb = () => {
 			this.forceUpdate(()=>{
-			// 	console.log('cb1')
+
 				this.updateCards(false);
 				this.props.changeCurrentCard(this.props.cards[0]);
+				this.props.getCurrentPrice(this.props.cards[0], cb2a);
+
 			});
 		};
 
 		const cb2 = () => {
 			// console.log('cb2, no forceUpdate')
 			this.props.changeCurrentCard(this.props.cards[0]);
+			this.props.getCurrentPrice(this.props.cards[0], cb2a);
 			// this.forceUpdate(()=>{
 			// 	this.props.changeCurrentCard(this.props.cards[0]);
 			// });
@@ -236,10 +240,14 @@ class Magic extends Component {
 	}
 
 	handleHover = (cardId) => {
+		const cb = () => {
+			console.log('hover, price', this.props.currentPrice)
+		}
 		let card = this.props.cards.filter(obj => {
 			return obj.id === cardId;
 		});
 		this.props.changeCurrentCard(card[0]);
+		this.props.getCurrentPrice(card[0], cb);
 	}
 
 	handleDeckHover = (card) => {
@@ -249,7 +257,9 @@ class Magic extends Component {
 
 	handleNewBlock = (event) => {
 		const cb = () => {
+			let cb2 = () => { };
 			this.props.changeCurrentCard(this.props.cards[0]);
+			this.props.getCurrentPrice(this.props.cards[0], cb2);
 			// this.forceUpdate(()=>{
 			// 	this.props.changeCurrentCard(this.props.cards[0]);
 			// });
@@ -309,10 +319,15 @@ class Magic extends Component {
 	}
 
 	updateCards = (reset) => {
-		console.log('updateCards')
+		// console.log('updateCards')
 		const cb = () => {
+
 			this.forceUpdate(()=>{
+				let cb2 = () => { };
+				// console.log('update cards cb')
 				this.props.changeCurrentCard(this.props.cards[0]);
+				this.props.getCurrentPrice(this.props.cards[0], cb2);
+
 			});
 		};
 
@@ -432,7 +447,7 @@ class Magic extends Component {
 							<CurrentImage currentCard={this.props.currentCard} flipped={this.props.currentCardIsFlipped} flipCurrentCard={this.flipCurrentCard}/>
 						</div>
 						<div className={[styles.col, styles.col2].join(' ')}>
-							<CurrentSelected currentSelected={this.props.currentCard} deckModify={this.deckModify} />
+							<CurrentSelected currentSelected={this.props.currentCard} currentPrice={this.props.currentPrice} deckModify={this.deckModify} />
 							<br />
 							{this.props.columnTwo
 								? <CurrentCardInfo card={this.props.currentCard} handleClick={this.handleClickColumnTwo} /> :
@@ -474,6 +489,7 @@ function mapStateToProps(state) {
 		currentBlock: state.currentBlock, //double check
 		currentStandard: state.currentStandard,
 		currentCard: state.currentCard.currentCard,
+		currentPrice: state.currentCard.currentPrice,
 		currentCardIsFlipped: state.currentCard.flipped,
 		currentDeckName: state.currentDeck.name,
 		decks: state.decks.decks,

@@ -24,7 +24,8 @@ export default {
 	columnTwo: false,
 	currentCard: {
 		currentCard: firstCard,
-		flipped: false
+		flipped: false,
+		currentPrice: 0
 	},
 	currentDeck: {
 		name: 'Unnamed Deck',

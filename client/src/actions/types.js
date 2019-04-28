@@ -21,3 +21,4 @@ export const STORE_SPECIAL = 'store_special';
 export const TEST_CARDS = 'test_get_cards';
 export const STORE_DECK_NAME = 'store_deck_name';
 export const STORE_CMC = 'store_cmc';
+export const GET_CURRENT_PRICE = 'get_current_price';
