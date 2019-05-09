@@ -124,6 +124,8 @@ class Magic extends Component {
 			// console.log('deckModify completed...')
 		}
 
+		console.log('inside of deckModify');
+
 		let deck = newDeck || this.props.currentDeck; //TODO possibly change this to add an || newDeck
 		if(card && card.name==="There are no cards with these given filters") return;
 		if(sign==='reset') {
@@ -228,7 +230,7 @@ class Magic extends Component {
 		}
 	}
 
-	handleFilterKeywordFull = (event) => {
+	handleFilterKeywordFull = event => {
 		const filterValue = event.target.value;
 		// console.log('inside handleFilterKeywordFull, filterValue: ', filterValue);
 		const cb = () => {
@@ -239,7 +241,7 @@ class Magic extends Component {
 		this.props.getKeywordsFromDatabase(filterValue, cb);
 	}
 
-	handleHover = (cardId) => {
+	handleHover = cardId => {
 		const cb = () => {
 			// console.log('hover, price', this.props.currentPrice)
 		}
@@ -250,12 +252,12 @@ class Magic extends Component {
 		this.props.getCurrentPrice(card[0], cb);
 	}
 
-	handleDeckHover = (card) => {
+	handleDeckHover = card => {
 		this.props.setColumnTwo(false);
 		this.props.changeCurrentCard(card);
 	}
 
-	handleNewBlock = (event) => {
+	handleNewBlock = event => {
 		const cb = () => {
 			let cb2 = () => { };
 			this.props.changeCurrentCard(this.props.cards[0]);
@@ -268,7 +270,7 @@ class Magic extends Component {
 		// this.props.changeCurrentCard(this.props.cards[0]);
 	}
 
-	reset = (fullReset) => {
+	reset = fullReset => {
 		const cb = () => {
 			if(fullReset) {
 				this.forceUpdate(()=>{
@@ -455,7 +457,10 @@ class Magic extends Component {
 							}
 
 						</div>
-						<div className={[styles.col, styles.col3].join(' ')}>
+						{/* <div className={[styles.col, styles.col3].join(' ')}>
+							
+						</div> */}
+						<div className={[styles.col, styles.col4].join(' ')}>
 							<DeckBuilding
 								deck={this.props.currentDeck}
 								decks={this.props.decks}

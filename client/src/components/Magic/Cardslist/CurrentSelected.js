@@ -47,7 +47,7 @@ const CurrentSelected = (props) => {
 		<div className={styles.currentSelected}>
 			<div className={styles.titleSelected}>
 				{card.name!=='There are no cards with these given filters' ?
-				(card.name.length < 20 ? <b>{card.name}</b> : <b className={styles.smallerFont}>{card.name}</b>)
+					(card.name.length < 20 ? <b>{card.name}</b> : card.name.length > 30 ? <b className={styles.superSmallerFont}>{card.name}</b> : <b className={styles.smallerFont}>{card.name}</b>)
 				: <b>Totally Lost</b>}
 			</div>
 

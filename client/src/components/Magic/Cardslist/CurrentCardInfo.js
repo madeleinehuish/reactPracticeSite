@@ -1,7 +1,7 @@
 import React from 'react';
 import styles from './Cardslist.css';
 
-const CurrentCardInfo = (props) => {
+const CurrentCardInfo = props => {
 	return (
 		<div className={styles.cardsUlWrapper} onClick={props.handleClick}>
 			<div className={styles.currentCardInfo}>
@@ -10,9 +10,7 @@ const CurrentCardInfo = (props) => {
 					<p>mana cost: {props.card.mana_cost}</p>
 					<p>{props.card.oracle_text}</p>
 					<p>{props.card.rarity} - {props.card.set_name}</p>
-
 			</div>
-
 		</div>
 	)
 }

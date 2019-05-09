@@ -15,7 +15,9 @@ const Cardslist = props => {
 									<div key={card.id}>
 										<br />
 										<li>
-											<b className={styles.cardSelect} onClick={()=> props.handleClick(card)} onMouseOver={()=> props.handleHover(card.id)}>{card.name}</b>
+											<b className={styles.cardSelect} onClick={() => props.handleClick(card)} onMouseOver={() => props.handleHover(card.id)}>{card.name}&nbsp;&nbsp;
+											{/* <span style={{ fontSize: '16px', float: 'right', marginRight: '20px'}}>{card.set}</span> */}
+											</b>
 											{/* <div>{card.locationdesc}</div> */}
 										</li>
 									</div>

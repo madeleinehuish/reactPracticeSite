@@ -4,7 +4,7 @@ import EmptyWrapper from '../../EmptyWrapper/EmptyWrapper';
 
 
 const Decks = React.forwardRef((props, ref) => {
-	// console.log('props in Decks: ', props);
+	console.log('props in Decks: ', props);
 	if(!props.decks) {
 		return (
 			<select className={styles.select} ref={ref}>
@@ -22,7 +22,8 @@ const Decks = React.forwardRef((props, ref) => {
 		return (
 			<select
 				className={styles.select}
-				// onChange={()=>props.deckModify(null, 'changeDeck', deckArr)}
+				// onChange={()=>{console.log('clicked')}}
+				onChange={()=>props.deckModify(null, 'changeDeck', deckArr)}
 				>
 				<option key='001'>decks</option>
 				{deckArr}
@@ -41,7 +42,14 @@ const Multiples = (props) => {
 		} else margin=0;
 
 		multiplesArr.push(
-			<img src={ props.card.info.image_uris ? props.card.info.image_uris.small : null } key={i} onClick={()=>props.deckModify(props.card, 'delete')} onMouseOver={()=>{props.handleHover(props.card.info)}} style={{ position: 'absolute', zIndex: i, top: `${margin}px`, left: `${margin}px`}} className={styles.cardImage} alt="magic card" height="100px" />
+			<img src={ props.card.info.image_uris ? props.card.info.image_uris.small : null } 
+					 key={i} 
+					 onClick={()=>props.deckModify(props.card, 'delete')} 
+					 onMouseOver={()=>{props.handleHover(props.card.info)}} 
+					 style={{ position: 'absolute', zIndex: i, top: `${margin}px`, left: `${margin}px`}} 
+					 className={styles.cardImage} 
+					 alt="magic card" 
+					 height="100px" />
 		)
 	}
 
@@ -113,7 +121,7 @@ const DeckBuilding = React.forwardRef((props, ref) => {
 					</div>
 					<div className={styles.filters}>
 
-						<Decks decks={props.decks} ref={refSelect} />
+						<Decks decks={props.decks} deckModify={props.deckModify} ref={refSelect} />
 						{/* <select className={styles.select}>
 							<option>decks</option>
 						</select> */}
@@ -121,9 +129,9 @@ const DeckBuilding = React.forwardRef((props, ref) => {
 					<div className={styles.filters}>
 						<button className={styles.button} onClick={props.saveDeck}>Save</button>
 					</div>
-					<div className={styles.filters}>
+					{/* <div className={styles.filters}>
 						<button className={styles.button}>Analysis</button>
-					</div>
+					</div> */}
 					<div className={styles.filters}>
 						<button
 							className={styles.button}
@@ -134,7 +142,8 @@ const DeckBuilding = React.forwardRef((props, ref) => {
 						>Reset</button>
 					</div>
 				</header>
-				<div className={styles.deckWrapper}>
+				{/* do NOT!!!! delete this next section... */}
+				{/* <div className={styles.deckWrapper}>
 					<div className={styles.deckGrid}>
 						{props.deck.map((card, index) => {
 							if(card.number>1) {
@@ -143,6 +152,27 @@ const DeckBuilding = React.forwardRef((props, ref) => {
 								return (
 									<div className={styles.cardDiv} key={index}>
 										<img src={ card.info.image_uris ? card.info.image_uris.small : null } onClick={()=>props.deckModify(card, 'delete')} onMouseOver={()=>{props.handleHover(card.info)}} className={styles.cardImage} alt="magic card" height="100px" />
+									</div>
+								)
+							}
+						})}
+					</div>
+				</div> */}
+				<div className={styles.deckWrapper}>
+					<div className={styles.deckListedByLine}>
+						{props.deck.map((card, index) => {
+							if (card.number > 1) {
+								return <div 
+								          className={styles.cardLine} 
+								          onMouseOver={() => { props.handleHover(card.info) }} 
+													>{card.name}&nbsp;&nbsp;{card.number}
+											 </div>
+								// <Multiples key={index} card={card} handleHover={props.handleHover} deckModify={props.deckModify} />
+							} else {
+								return (
+									<div className={styles.cardDiv} key={index}>
+										<div>{card.name}&nbsp;&nbsp;{card.number}</div>
+										{/* <img src={card.info.image_uris ? card.info.image_uris.small : null} onClick={() => props.deckModify(card, 'delete')} onMouseOver={() => { props.handleHover(card.info) }} className={styles.cardImage} alt="magic card" height="100px" /> */}
 									</div>
 								)
 							}

@@ -27,22 +27,6 @@ import {
 	// TEST_CARDS
 } from './types';
 
-// //change this for heroku or development
-// const DEVELOPMENT = true;
-// const DEVELOPMENT_URL = 'http://localhost:3090';
-// const PRODUCTION_URL = 'https://radiant-stream-78248.herokuapp.com';
-//
-// const getUrl = (page) => {
-// 	let url;
-// 	// let page = '/decks';
-// 	if(DEVELOPMENT) {
-// 		url = DEVELOPMENT_URL + page;
-// 	} else {
-// 		url = PRODUCTION_URL + page;
-// 	}
-// 	return url;
-// }
-
 
 function isSubset(arr, sub) {
 	let arrMap = {};

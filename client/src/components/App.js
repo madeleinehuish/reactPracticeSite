@@ -12,7 +12,7 @@ import Trucks from './Trucks/Trucks';
 import Magic from './Magic/Magic'
 import styles from './App.css';
 
-const App = (props) => {
+const App = props => {
 	// useEffect(() => {
 	// 	document.title = 'Magic :)';
 	// })

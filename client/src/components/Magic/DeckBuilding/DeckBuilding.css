@@ -58,6 +58,19 @@
 	/* margin-top:50px; */
 
 }
+
+.deckListedByLine {
+	padding-left: 20px;
+}
+
+.cardLine {
+	padding-bottom: 5px;
+}
+
+.cardLine:hover {
+	cursor: pointer;
+}
+
 .cardDiv {
 	display: inline-grid;
 	/* border: 1px solid red; */

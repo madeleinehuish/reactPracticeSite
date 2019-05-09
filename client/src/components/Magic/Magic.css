@@ -77,12 +77,13 @@
 
 .magicOuterContainer {
 	display: grid;
-	grid-template-columns: 30% 25% 45%;
+	grid-template-columns: 30% 30% 40%;
+	/* grid-template-columns: 30% 30% 10% 30%; */
 }
 
 
 
-.col2, .col3 {
+.col2, .col3, .col4 {
 	border-left: 1px solid grey;
 }
 

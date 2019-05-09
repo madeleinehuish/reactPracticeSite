@@ -13,7 +13,7 @@
 	height: 360px;
 	border: 2px solid #bcf5bc;
 	overflow:scroll;
-	width: 300px;
+	width: 85%;
 	margin: 0 auto;
 	border-radius: 4%;
 	/* margin-left: -50px; */
@@ -57,7 +57,7 @@
 .currentSelected {
 	height: 110px;
 	border: 2px solid #bcf5bc;
-	width: 300px;
+	width: 85%;
 	margin: 0 auto;
 	border-radius: 5px;
 }
@@ -71,14 +71,18 @@
 	font-size: 18px;
 }
 
+.superSmallerFont {
+	font-size: 15px;
+}
+
 .setSelected {
 	margin-left: 15px;
 	font-size: 15px;
 }
 
 .addToDeck {
-	margin-top: 5px;
-	margin-left: 45px;
+	margin-top: 10px;
+	margin-left: 65px;
 	/* z-index:3; */
 	/* opacity: 1 */
 }
