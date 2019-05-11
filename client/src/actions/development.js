@@ -1,6 +1,6 @@
 const getUrl = (page) => {
 
-	//change this line for heroku or development
+	//change this one line for heroku or development
 	/////////////////////////////
 	const DEVELOPMENT = true;
 	////////////////////////////

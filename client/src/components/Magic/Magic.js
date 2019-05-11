@@ -1,6 +1,8 @@
 import React, { Component } from 'react';
+import axios from 'axios';
 import { connect } from 'react-redux';
 import * as actions from '../../actions/magic';
+// import getUrl from '../../actions/development';
 
 import CurrentImage from './CurrentImage/CurrentImage';
 import Cardslist from './Cardslist/Cardslist';
@@ -52,11 +54,10 @@ class SearchForm extends Component {
 	}
 }
 
-
 class Magic extends Component {
 
 	constructor(props) {
-		super(props);
+		super(props); 
 		//filter refs
 		this.standardBlocks = React.createRef();
 		this.selectBox = React.createRef();
@@ -70,25 +71,63 @@ class Magic extends Component {
 		this.standardSetBox = React.createRef();
 		this.cmcBox = React.createRef();
 
-		//deckbuilding refs
-		this.selectDeck = React.createRef();
-		this.inputDeck = React.createRef();
+		// //deckbuilding refs
+		// this.selectDeck = React.createRef();
+		// this.inputDeck = React.createRef();
+	}
+
+	state = {
+		numberOfExtraDeckCalls: 0
 	}
 
 	componentDidMount() {
-		const cb = () => {
-			// console.log('component did mount finished...')
+		//this crazy stuff is due to the deck calls in redux not happening after hot reload in dev
+		//this lifecycle method should be modified for production 
+		const cb = decks => {
+			// console.log('call back, decks: ', decks || 'error');
+			// const cb2 = () => {};
+			if(!decks) {
+				setTimeout(() => { 
+					console.log('resetting decks in setTimeout due to hot reload');
+					if(this.state.numberOfExtraDeckCalls < 3) {
+						this.setState({ numberOfExtraDeckCalls: this.state.numberOfExtraDeckCalls + 1})
+						this.props.getDecksFromDB(cb); 
+						// this.props.getCurrentPrice(this.props.cards[0], cb2);
+					}	
+				}, 5000);
+			} else {
+				//do not attempt extra calls more than twice
+				this.setState({ numberOfExtraDeckCalls: 0 })
+			}
 		}
-		this.props.getDecksFromDB(cb);
-		this.props.getCurrentPrice(this.props.cards[0], cb);
+		const cb2 = () => {
+		
+		}
+
+		try {
+			this.props.getDecksFromDB(cb);
+			this.props.getCurrentPrice(this.props.cards[0], cb2);
+			// console.log('componentDidMount')
+		} catch {
+			console.log('catch error axios')
+		}
+		
 	}
 
 	componentDidUpdate(prevProps) { //this is necessary to reset flipped cards when switching cards to another flipped card
+		// console.log('componentDidUpdate', prevProps)
+		const cb = () => {
+			// console.log('component did update finished...')
+		}
 		console.log('componentDidUpdate')
 		if(prevProps.currentCardIsFlipped) {
 			this.flipCurrentCard(true);
 		}
+		if(prevProps.decks===undefined) {
+			this.props.getDecksFromDB(cb);
+		}
 	}
+
 
 	getSingleTerm = (event, term) => {
 		const cb = () => {
@@ -124,7 +163,7 @@ class Magic extends Component {
 			// console.log('deckModify completed...')
 		}
 
-		console.log('inside of deckModify');
+		// console.log('inside of deckModify');
 
 		let deck = newDeck || this.props.currentDeck; //TODO possibly change this to add an || newDeck
 		if(card && card.name==="There are no cards with these given filters") return;
@@ -356,8 +395,8 @@ class Magic extends Component {
 	}
 
 	render() {
-		// console.log('this.props in Magic.js: ', this.props);
-		// console.log('render triggered');
+		console.log('this.props in Magic.js: ', this.props);
+		console.log('render triggered');
 		if (this.props.authenticated) {
 		return (
 			<div>
@@ -469,7 +508,7 @@ class Magic extends Component {
 								handleDeckNameSubmit={this.handleDeckNameSubmit}
 								handleHover={this.handleDeckHover}
 								deckModify={this.deckModify}
-								ref={{ refSelect: this.selectDeck, refInput: this.inputDeck }}
+								// ref={{ refSelect: this.selectDeck, refInput: this.inputDeck }}
 								// resetDeck={this.resetDeck}
 							/>
 						</div>
@@ -511,7 +550,6 @@ function mapStateToProps(state) {
 		testCards: state.testCards,
 		authenticated: state.auth.authenticated,
 		user: state.auth.user
-
 	};
 }
 

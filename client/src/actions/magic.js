@@ -236,8 +236,15 @@ export const getcards = (base, filters, resetTrue, cb) => async dispatch => {
 	cb();
 }
 
+export const quickSetStateDecks = (decks) => {
+	return {
+		type: GET_DECKS_FROM_DB,
+		payload: decks
+	}
+}
 
-export const getDecksFromDB = (cb) => async dispatch => {
+
+export const getDecksFromDB = cb => async dispatch => {
 	const url = getUrl('/decks');
 
 	// //development
@@ -253,16 +260,17 @@ export const getDecksFromDB = (cb) => async dispatch => {
 	try {
 		const response = await axios.get(url + query);
 
-		// console.log('response: ', response);
-
+		console.log('response: ', response);
+		
 		dispatch({
 			type: GET_DECKS_FROM_DB,
 			payload: await response.data
 		})
 
-		cb()
+		cb(await response.data)
 	} catch (error) {
 		console.log('axios error: ', error);
+		cb();
 	}
 }
 
@@ -303,7 +311,7 @@ export const modifyDeck = (card, deck, sign, cb) => async dispatch => {
 						cb()
 					}
 					break;
-		case 'delete':
+		case 'delete': 
 					{
 						let newDeck = [...deck];
 

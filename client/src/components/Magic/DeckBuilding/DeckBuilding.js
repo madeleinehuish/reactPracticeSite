@@ -32,6 +32,7 @@ const Decks = React.forwardRef((props, ref) => {
 	}
 })
 
+// eslint-disable-next-line
 const Multiples = (props) => {
 	let multiplesArr=[];
 	// let multiplesArr = [<img src={ props.card.info.image_uris ? props.card.info.image_uris.small : null } key='1' onClick={()=>props.deckModify(props.card, 'delete')} onMouseOver={()=>{props.handleHover(props.card.info)}} style={{ position: 'absolute', zIndex: i, marginTop: `${margin}px`, marginLeft: `${margin}px`}} className={styles.cardImage} alt="magic card" height="100px" />];
@@ -93,7 +94,7 @@ class DeckNameInput extends Component {
 					onChange={this.handleInput}
 					type='text'
 					placeholder='change deck name'
-					ref={this.props.refInput}
+					// ref={this.props.refInput}
 					>
 				</input>
 			</form>
@@ -101,86 +102,178 @@ class DeckNameInput extends Component {
 	}
 }
 
-const DeckBuilding = React.forwardRef((props, ref) => {
+class DeckBuilding extends Component {
+	constructor(props) {
+		super(props);
+		// this.state = props;
+	}
+	componentDidMount() {
+		this.setState({ ...this.props })
+	}
+		
+	render() {
+		console.log('inside deckBuilding render, this.state: ', this.state);
+			return (
+				<EmptyWrapper>
+					<header className={styles.controlBar}>
+						<div className={styles.titleWrapper}>
+							<b className={styles.title}>{this.props.deckName}</b>
+						</div>
 
-		const { refSelect, refInput } = ref;
+						<div className={styles.filters}>
+							<DeckNameInput {...this.props} />
+						</div>
+						<div className={styles.filters}>
 
-		return (
-			<EmptyWrapper>
-				<header className={styles.controlBar}>
-					<div className={styles.titleWrapper}>
-						<b className={styles.title}>{props.deckName}</b>
-					</div>
-
-					<div className={styles.filters}>
-						<Forwarded
-							handleDeckNameSubmit={props.handleDeckNameSubmit}
-							refInput={refInput}
-						/>
-
-					</div>
-					<div className={styles.filters}>
-
-						<Decks decks={props.decks} deckModify={props.deckModify} ref={refSelect} />
-						{/* <select className={styles.select}>
-							<option>decks</option>
-						</select> */}
-					</div>
-					<div className={styles.filters}>
-						<button className={styles.button} onClick={props.saveDeck}>Save</button>
-					</div>
-					{/* <div className={styles.filters}>
-						<button className={styles.button}>Analysis</button>
+							<Decks decks={this.props.decks} deckModify={this.props.deckModify} />
+							{/* <select className={styles.select}>
+								<option>decks</option>
+							</select> */}
+						</div>
+						<div className={styles.filters}>
+							<button className={styles.button} onClick={this.props.saveDeck}>Save</button>
+						</div>
+						{/* <div className={styles.filters}>
+							<button className={styles.button}>Analysis</button>
+						</div> */}
+						<div className={styles.filters}>
+							<button
+								className={styles.button}
+								onClick={() => {
+									// refInput.current.value='';
+									this.props.deckModify(null, 'reset');
+								}}
+							>Reset</button>
+						</div>
+					</header>
+					{/* do NOT!!!! delete this next section... */}
+					{/* <div className={styles.deckWrapper}>
+						<div className={styles.deckGrid}>
+							{props.deck.map((card, index) => {
+								if(card.number>1) {
+									return <Multiples key={index} card={card} handleHover={props.handleHover} deckModify={props.deckModify}/>
+								} else {
+									return (
+										<div className={styles.cardDiv} key={index}>
+											<img src={ card.info.image_uris ? card.info.image_uris.small : null } onClick={()=>props.deckModify(card, 'delete')} onMouseOver={()=>{props.handleHover(card.info)}} className={styles.cardImage} alt="magic card" height="100px" />
+										</div>
+									)
+								}
+							})}
+						</div>
 					</div> */}
-					<div className={styles.filters}>
-						<button
-							className={styles.button}
-							onClick={()=>{
-								// refInput.current.value='';
-								props.deckModify(null, 'reset');
-							}}
-						>Reset</button>
-					</div>
-				</header>
-				{/* do NOT!!!! delete this next section... */}
-				{/* <div className={styles.deckWrapper}>
-					<div className={styles.deckGrid}>
-						{props.deck.map((card, index) => {
-							if(card.number>1) {
-								return <Multiples key={index} card={card} handleHover={props.handleHover} deckModify={props.deckModify}/>
-							} else {
-								return (
-									<div className={styles.cardDiv} key={index}>
-										<img src={ card.info.image_uris ? card.info.image_uris.small : null } onClick={()=>props.deckModify(card, 'delete')} onMouseOver={()=>{props.handleHover(card.info)}} className={styles.cardImage} alt="magic card" height="100px" />
-									</div>
-								)
-							}
-						})}
-					</div>
-				</div> */}
-				<div className={styles.deckWrapper}>
-					<div className={styles.deckListedByLine}>
-						{props.deck.map((card, index) => {
-							if (card.number > 1) {
-								return <div 
-								          className={styles.cardLine} 
-								          onMouseOver={() => { props.handleHover(card.info) }} 
-													>{card.name}&nbsp;&nbsp;{card.number}
-											 </div>
+					<div className={styles.deckWrapper}>
+						<div className={styles.deckListedByLine}>
+							{this.props.deck.map((card, index) => {
+								// if (card.number > 0) {
+								return <div
+									className={styles.cardLine}
+									onMouseOver={() => { this.props.handleHover(card.info) }}
+									onClick={() => this.props.deckModify(card, 'delete')}
+								>{card.name}&nbsp;&nbsp;{card.number}
+								</div>
 								// <Multiples key={index} card={card} handleHover={props.handleHover} deckModify={props.deckModify} />
-							} else {
-								return (
-									<div className={styles.cardDiv} key={index}>
-										<div>{card.name}&nbsp;&nbsp;{card.number}</div>
-										{/* <img src={card.info.image_uris ? card.info.image_uris.small : null} onClick={() => props.deckModify(card, 'delete')} onMouseOver={() => { props.handleHover(card.info) }} className={styles.cardImage} alt="magic card" height="100px" /> */}
-									</div>
-								)
-							}
-						})}
+								// } 
+								// else {
+								// 	return (
+								// 		<div className={styles.cardDiv} key={index}>
+								// 			<div>{card.name}&nbsp;&nbsp;{card.number}</div>
+								// 			{/* <img src={card.info.image_uris ? card.info.image_uris.small : null} onClick={() => props.deckModify(card, 'delete')} onMouseOver={() => { props.handleHover(card.info) }} className={styles.cardImage} alt="magic card" height="100px" /> */}
+								// 		</div>
+								// 	)
+								// }
+							})}
+						</div>
 					</div>
-				</div>
-			</EmptyWrapper>
-		)
-})
+				</EmptyWrapper>
+			)
+	}
+		
+}
 
 export default DeckBuilding;
+
+
+// const DeckBuilding = React.forwardRef((props, ref) => {
+
+// 	const { refSelect, refInput } = ref;
+
+// 	return (
+// 		<EmptyWrapper>
+// 			<header className={styles.controlBar}>
+// 				<div className={styles.titleWrapper}>
+// 					<b className={styles.title}>{props.deckName}</b>
+// 				</div>
+
+// 				<div className={styles.filters}>
+// 					<Forwarded
+// 						handleDeckNameSubmit={props.handleDeckNameSubmit}
+// 						refInput={refInput}
+// 					/>
+
+// 				</div>
+// 				<div className={styles.filters}>
+
+// 					<Decks decks={props.decks} deckModify={props.deckModify} ref={refSelect} />
+// 					{/* <select className={styles.select}>
+// 							<option>decks</option>
+// 						</select> */}
+// 				</div>
+// 				<div className={styles.filters}>
+// 					<button className={styles.button} onClick={props.saveDeck}>Save</button>
+// 				</div>
+// 				{/* <div className={styles.filters}>
+// 						<button className={styles.button}>Analysis</button>
+// 					</div> */}
+// 				<div className={styles.filters}>
+// 					<button
+// 						className={styles.button}
+// 						onClick={() => {
+// 							// refInput.current.value='';
+// 							props.deckModify(null, 'reset');
+// 						}}
+// 					>Reset</button>
+// 				</div>
+// 			</header>
+// 			{/* do NOT!!!! delete this next section... */}
+// 			{/* <div className={styles.deckWrapper}>
+// 					<div className={styles.deckGrid}>
+// 						{props.deck.map((card, index) => {
+// 							if(card.number>1) {
+// 								return <Multiples key={index} card={card} handleHover={props.handleHover} deckModify={props.deckModify}/>
+// 							} else {
+// 								return (
+// 									<div className={styles.cardDiv} key={index}>
+// 										<img src={ card.info.image_uris ? card.info.image_uris.small : null } onClick={()=>props.deckModify(card, 'delete')} onMouseOver={()=>{props.handleHover(card.info)}} className={styles.cardImage} alt="magic card" height="100px" />
+// 									</div>
+// 								)
+// 							}
+// 						})}
+// 					</div>
+// 				</div> */}
+// 			<div className={styles.deckWrapper}>
+// 				<div className={styles.deckListedByLine}>
+// 					{props.deck.map((card, index) => {
+// 						// if (card.number > 0) {
+// 						return <div
+// 							className={styles.cardLine}
+// 							onMouseOver={() => { props.handleHover(card.info) }}
+// 							onClick={() => props.deckModify(card, 'delete')}
+// 						>{card.name}&nbsp;&nbsp;{card.number}
+// 						</div>
+// 						// <Multiples key={index} card={card} handleHover={props.handleHover} deckModify={props.deckModify} />
+// 						// } 
+// 						// else {
+// 						// 	return (
+// 						// 		<div className={styles.cardDiv} key={index}>
+// 						// 			<div>{card.name}&nbsp;&nbsp;{card.number}</div>
+// 						// 			{/* <img src={card.info.image_uris ? card.info.image_uris.small : null} onClick={() => props.deckModify(card, 'delete')} onMouseOver={() => { props.handleHover(card.info) }} className={styles.cardImage} alt="magic card" height="100px" /> */}
+// 						// 		</div>
+// 						// 	)
+// 						// }
+// 					})}
+// 				</div>
+// 			</div>
+// 		</EmptyWrapper>
+// 	)
+// })
