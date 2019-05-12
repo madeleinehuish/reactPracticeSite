@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import axios from 'axios';
+// import axios from 'axios';
 import { connect } from 'react-redux';
 import * as actions from '../../actions/magic';
 // import getUrl from '../../actions/development';
@@ -102,8 +102,10 @@ class Magic extends Component {
 		}
 		const cb2 = () => {
 		
-		}
+		// }
+		// const cb = () => {
 
+		}
 		try {
 			this.props.getDecksFromDB(cb);
 			this.props.getCurrentPrice(this.props.cards[0], cb2);
@@ -287,8 +289,11 @@ class Magic extends Component {
 		let card = this.props.cards.filter(obj => {
 			return obj.id === cardId;
 		});
-		this.props.changeCurrentCard(card[0]);
-		this.props.getCurrentPrice(card[0], cb);
+		this.props.changeCurrentCard(card[0], cb);
+		// setTimeout(() => {
+			this.props.getCurrentPrice(card[0], cb);
+		// }, 2000);
+		
 	}
 
 	handleDeckHover = card => {
@@ -395,7 +400,7 @@ class Magic extends Component {
 	}
 
 	render() {
-		console.log('this.props in Magic.js: ', this.props);
+		// console.log('this.props in Magic.js: ', this.props);
 		console.log('render triggered');
 		if (this.props.authenticated) {
 		return (
@@ -523,7 +528,7 @@ class Magic extends Component {
 }
 
 function mapStateToProps(state) {
-	console.log('state in magic: ', state);
+	// console.log('state in magic: ', state);
 	// console.log('state.cards.cards: ', state.cards.cards);
 	return {
 		base: state.cards.base,

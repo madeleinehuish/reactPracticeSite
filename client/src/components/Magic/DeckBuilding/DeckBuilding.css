@@ -121,6 +121,19 @@
 	cursor: pointer;
 }
 
+.buttonSmall {
+	width: 20px;
+	height: 30px;
+	border-radius: 5px;
+	border-color: #bcf5bc;
+	background-color: #5f9ea0;
+	color: #fff3f0;
+	margin-top: 2px;
+	margin-bottom: 10px;
+	cursor: pointer;
+	text-align: center;
+}
+
 .select {
 	border-radius: 5px;
 	border-color: #bcf5bc;
