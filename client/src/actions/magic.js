@@ -186,7 +186,12 @@ export const getCurrentPrice = (card, cb) => async dispatch => {
 
 		dispatch({
 			type: GET_CURRENT_PRICE,
-			payload: await price
+			payload: await price,
+			meta: {
+				debounce: {
+					time: 500
+				}
+			}
 		})
 
 		cb()

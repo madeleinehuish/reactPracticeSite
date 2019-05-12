@@ -2,6 +2,7 @@ import reducers from './reducers';
 import initialState from './initialState';
 import { createStore, applyMiddleware } from 'redux';
 import reduxThunk from 'redux-thunk';
+import createDebounce from 'redux-debounced';
 
 // const logger = store => next => action => {
 //   console.group(action.type)
@@ -19,6 +20,7 @@ const store = createStore(
 	initialState,
 	applyMiddleware(
     // logger,
+    createDebounce(),
     reduxThunk
   )
 );

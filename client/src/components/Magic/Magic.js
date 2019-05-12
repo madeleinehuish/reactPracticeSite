@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 // import axios from 'axios';
 import { connect } from 'react-redux';
 import * as actions from '../../actions/magic';
+import debounce from 'lodash.debounce';
 // import getUrl from '../../actions/development';
 
 import CurrentImage from './CurrentImage/CurrentImage';
@@ -289,11 +290,8 @@ class Magic extends Component {
 		let card = this.props.cards.filter(obj => {
 			return obj.id === cardId;
 		});
-		this.props.changeCurrentCard(card[0], cb);
-		// setTimeout(() => {
-			this.props.getCurrentPrice(card[0], cb);
-		// }, 2000);
-		
+		this.props.changeCurrentCard(card[0]);
+		this.props.getCurrentPrice(card[0], cb);
 	}
 
 	handleDeckHover = card => {
@@ -489,9 +487,11 @@ class Magic extends Component {
 
 
 					<div className={styles.magicOuterContainer}>
+
 						<div className={styles.col}>
 							<CurrentImage currentCard={this.props.currentCard} flipped={this.props.currentCardIsFlipped} flipCurrentCard={this.flipCurrentCard}/>
 						</div>
+
 						<div className={[styles.col, styles.col2].join(' ')}>
 							<CurrentSelected currentSelected={this.props.currentCard} currentPrice={this.props.currentPrice} deckModify={this.deckModify} />
 							<br />
@@ -499,12 +499,9 @@ class Magic extends Component {
 								? <CurrentCardInfo card={this.props.currentCard} handleClick={this.handleClickColumnTwo} /> :
 									<Cardslist cards={this.props.cards} handleHover={this.handleHover} handleClick={this.handleClickColumnTwo} currentCard={this.props.currentCard}/>
 							}
-
 						</div>
-						{/* <div className={[styles.col, styles.col3].join(' ')}>
-							
-						</div> */}
-						<div className={[styles.col, styles.col4].join(' ')}>
+						
+						<div className={[styles.col, styles.col3].join(' ')}>
 							<DeckBuilding
 								deck={this.props.currentDeck}
 								decks={this.props.decks}
