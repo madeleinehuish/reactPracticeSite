@@ -28,8 +28,8 @@ export default {
 		currentPrice: 0
 	},
 	currentDeck: {
-		name: 'Unnamed Deck',
-		currentDeck: []
+		deck_name: 'Unnamed Deck',
+		deck: []
 	},
 	currentStandard: { //current standard block as of present time
 		name: 'Apr 19 to Jun 19',

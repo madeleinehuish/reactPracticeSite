@@ -5,7 +5,9 @@ import setSymbols from '../../../data/setSymbols/setSymbols.js';
 
 
 const CurrentSelected = (props) => {
+	console.log('currentSelected, props: ', props)
 	const card = props.currentSelected || null;
+	const cb = () => {};
 	let date;
 	let setName;
 
@@ -55,7 +57,7 @@ const CurrentSelected = (props) => {
 			<div className={styles.setSelected}>date: {date} &nbsp;&nbsp; price: {props.currentPrice}</div>
 
 			<div className={styles.addToDeck}>
-				<button className={styles.button} onClick={() => props.deckModify(card, 'add')}>add to deck     >>></button>
+				<button className={styles.button} onClick={() => props.addToDeck(card)}>add to deck     >>></button>
 			</div>
 		</div>
 	)

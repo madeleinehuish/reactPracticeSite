@@ -2,7 +2,6 @@ import React, { Component } from 'react';
 // import axios from 'axios';
 import { connect } from 'react-redux';
 import * as actions from '../../actions/magic';
-import debounce from 'lodash.debounce';
 // import getUrl from '../../actions/development';
 
 import CurrentImage from './CurrentImage/CurrentImage';
@@ -58,7 +57,7 @@ class SearchForm extends Component {
 class Magic extends Component {
 
 	constructor(props) {
-		super(props); 
+		super(props);
 		//filter refs
 		this.standardBlocks = React.createRef();
 		this.selectBox = React.createRef();
@@ -78,46 +77,20 @@ class Magic extends Component {
 	}
 
 	state = {
-		numberOfExtraDeckCalls: 0
+		numberOfExtraPriceCalls: 0
 	}
 
 	componentDidMount() {
-		//this crazy stuff is due to the deck calls in redux not happening after hot reload in dev
-		//this lifecycle method should be modified for production 
-		const cb = decks => {
-			// console.log('call back, decks: ', decks || 'error');
-			// const cb2 = () => {};
-			if(!decks) {
-				setTimeout(() => { 
-					console.log('resetting decks in setTimeout due to hot reload');
-					if(this.state.numberOfExtraDeckCalls < 3) {
-						this.setState({ numberOfExtraDeckCalls: this.state.numberOfExtraDeckCalls + 1})
-						this.props.getDecksFromDB(cb); 
-						// this.props.getCurrentPrice(this.props.cards[0], cb2);
-					}	
-				}, 5000);
-			} else {
-				//do not attempt extra calls more than twice
-				this.setState({ numberOfExtraDeckCalls: 0 })
-			}
-		}
-		const cb2 = () => {
-		
-		// }
-		// const cb = () => {
 
+		const cb = () => {
+			console.log('component did mount complete')
 		}
-		try {
-			this.props.getDecksFromDB(cb);
-			this.props.getCurrentPrice(this.props.cards[0], cb2);
-			// console.log('componentDidMount')
-		} catch {
-			console.log('catch error axios')
-		}
-		
+			console.log('call to price component did mount')
+			this.props.getCurrentPrice(this.props.currentCard, cb);
+
 	}
 
-	componentDidUpdate(prevProps) { //this is necessary to reset flipped cards when switching cards to another flipped card
+	componentDidUpdate(prevProps) {
 		// console.log('componentDidUpdate', prevProps)
 		const cb = () => {
 			// console.log('component did update finished...')
@@ -126,8 +99,9 @@ class Magic extends Component {
 		if(prevProps.currentCardIsFlipped) {
 			this.flipCurrentCard(true);
 		}
-		if(prevProps.decks===undefined) {
-			this.props.getDecksFromDB(cb);
+		if(prevProps.currentPrice===0) {
+			console.log('call to price component did update');
+			this.props.getCurrentPrice(this.props.currentCard, cb);
 		}
 	}
 
@@ -146,46 +120,36 @@ class Magic extends Component {
 		// console.log('%%%%%%%%%%%%%%%%%%term : ', term);
 	}
 
-	handleDeckNameSubmit = (event, value) => {
+	// handleDeckNameSubmit = (event, value) => {
+	//
+	// 	const cb = () => {
+	// 		event.preventDefault();
+	//
+	// 		this.forceUpdate(()=>{
+	// 		});
+	// 	};
+	// 	this.props.storeDeckName(value, cb)
+	// }
 
-		const cb = () => {
-			event.preventDefault();
-
-			this.forceUpdate(()=>{
-			});
-		};
-		this.props.storeDeckName(value, cb)
-	}
-
-	//TODO add deckModify to select function in deckbuilding send in null, and maybe add deck to parameters
-	deckModify = (card, sign, newDeck) => { //TODO add parameter newDeck after sign
-		// console.log('card, sign in deckModify:  ', card, sign);
+	addToDeck = (card) => {
 
 		const cb = () => {
 			this.forceUpdate();
 			// console.log('deckModify completed...')
 		}
 
-		// console.log('inside of deckModify');
-
-		let deck = newDeck || this.props.currentDeck; //TODO possibly change this to add an || newDeck
+		let deck = this.props.currentDeck;
 		if(card && card.name==="There are no cards with these given filters") return;
-		if(sign==='reset') {
-			// console.log('value of input ref in magic: ', this.inputDeck.current.value);
-			this.inputDeck.current.value = '';
-			// forceUpdate();
-			// console.log('value after reset: ', this.inputDeck.current.value)
-		}
-		this.props.modifyDeck(card, deck, sign, cb);
 
+		this.props.addToCurrentDeck(card, deck, cb);
 	}
-
-	saveDeck = () => {
-		this.props.saveDeckToDB({
-			deck_name: this.props.currentDeckName,
-			deck: this.props.currentDeck
-		})
-	}
+	//
+	// saveDeck = () => {
+	// 	this.props.saveDeckToDB({
+	// 		deck_name: this.props.currentDeckName,
+	// 		deck: this.props.currentDeck
+	// 	})
+	// }
 
 	flipCurrentCard = (defaultFlip) => {
 		if(defaultFlip) {
@@ -207,6 +171,7 @@ class Magic extends Component {
 			this.forceUpdate(()=>{
 
 				this.updateCards(false);
+				console.log('handle filter')
 				this.props.changeCurrentCard(this.props.cards[0]);
 				this.props.getCurrentPrice(this.props.cards[0], cb2a);
 
@@ -368,7 +333,7 @@ class Magic extends Component {
 
 			this.forceUpdate(()=>{
 				let cb2 = () => { };
-				// console.log('update cards cb')
+				console.log('update cards cb')
 				this.props.changeCurrentCard(this.props.cards[0]);
 				this.props.getCurrentPrice(this.props.cards[0], cb2);
 
@@ -493,22 +458,23 @@ class Magic extends Component {
 						</div>
 
 						<div className={[styles.col, styles.col2].join(' ')}>
-							<CurrentSelected currentSelected={this.props.currentCard} currentPrice={this.props.currentPrice} deckModify={this.deckModify} />
+							<CurrentSelected currentSelected={this.props.currentCard} currentPrice={this.props.currentPrice} addToDeck={this.addToDeck} currentDeck={this.props.currentDeck}/>
 							<br />
 							{this.props.columnTwo
 								? <CurrentCardInfo card={this.props.currentCard} handleClick={this.handleClickColumnTwo} /> :
 									<Cardslist cards={this.props.cards} handleHover={this.handleHover} handleClick={this.handleClickColumnTwo} currentCard={this.props.currentCard}/>
 							}
 						</div>
-						
+
 						<div className={[styles.col, styles.col3].join(' ')}>
 							<DeckBuilding
+								handleHover={this.handleDeckHover}
+
 								deck={this.props.currentDeck}
 								decks={this.props.decks}
 								deckName={this.props.currentDeckName}
-								saveDeck={this.saveDeck}
+								// saveDeck={this.saveDeck}
 								handleDeckNameSubmit={this.handleDeckNameSubmit}
-								handleHover={this.handleDeckHover}
 								deckModify={this.deckModify}
 								// ref={{ refSelect: this.selectDeck, refInput: this.inputDeck }}
 								// resetDeck={this.resetDeck}
@@ -537,9 +503,9 @@ function mapStateToProps(state) {
 		currentCard: state.currentCard.currentCard,
 		currentPrice: state.currentCard.currentPrice,
 		currentCardIsFlipped: state.currentCard.flipped,
-		currentDeckName: state.currentDeck.name,
+		currentDeckName: state.currentDeck.deck_name,
 		decks: state.decks.decks,
-		currentDeck: state.currentDeck.currentDeck,
+		currentDeck: state.currentDeck.deck,
 		filterType: state.cardFilters.filterType,
 		filterCreature: state.cardFilters.filterCreature,
 		filterKeyword: state.cardFilters.filterKeyword,

@@ -10,7 +10,7 @@ const userSchema = new Schema({
 	password: String,
 	decks: [{
 		deck_name: String,
-		data: [{
+		deck: [{
 					name: String,
 					number: Number,
 					info: {

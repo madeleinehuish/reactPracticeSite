@@ -265,8 +265,9 @@ export const getDecksFromDB = cb => async dispatch => {
 	try {
 		const response = await axios.get(url + query);
 
-		console.log('response: ', response);
-		
+		console.log('response from database after getting decks: ', response);
+		// if(!response.name) response.name='undefined';
+
 		dispatch({
 			type: GET_DECKS_FROM_DB,
 			payload: await response.data
@@ -279,44 +280,117 @@ export const getDecksFromDB = cb => async dispatch => {
 	}
 }
 
-export const modifyDeck = (card, deck, sign, cb) => async dispatch => {
+export const addToCurrentDeck = (card, deck, cb) => {
+	// console.log('deckAddTo card: ', card);
+	console.log('deck in add to current deck: ', deck)
+	// let currentNumber = 0;
+	let newDeck = [...deck];
+	// let newDeck = deck.deck;
+	let isDup = false;
 
-	switch(sign) {
-		case 'add':
-					{
-						// console.log('deckAddTo card: ', card);
-						// console.log('deck: ', )
-						// let currentNumber = 0;
-						let newDeck = [...deck];
-						let isDup = false;
+	for(let elem of newDeck) {
+		if(elem.name && elem.name === card.name ) {
+			isDup = true;
+			if(elem.number < 4) {
+				elem.number = elem.number + 1;
+			} else {
+				elem.number = 4;
+			}
+		}
+	}
 
-						for(let elem of newDeck) {
-							if(elem.name && elem.name === card.name ) {
-								isDup = true;
-								if(elem.number < 4) {
-									elem.number = elem.number + 1;
-								} else {
-									elem.number = 4;
-								}
-							}
-						}
+	if(isDup===false || !newDeck.length) newDeck.push({
+		name: card.name,
+		number: 1,
+		info: card
+	});
 
-						if(isDup===false) newDeck.push({
-							name: card.name,
-							number: 1,
-							info: card
-						});
+	return {
+		type: DECK_ADD_TO_DECK,
+		payload: newDeck
+	}
 
+}
 
-						dispatch({
-							type: DECK_ADD_TO_DECK,
-							payload: newDeck
-						});
+export const switchCurrentDeck = (deck, cb) => async dispatch => {
 
-						cb()
-					}
-					break;
-		case 'delete': 
+	dispatch({
+		type: DECK_ADD_TO_DECK,
+		payload: deck.deck
+	});
+
+	dispatch({
+		type: STORE_DECK_NAME,
+		payload: deck.name
+	});
+
+	cb()
+}
+
+export const modifyDeck = (card, deck, type, cb) => async dispatch => {
+
+	switch(type) {
+		// case 'add':
+		// 			{
+		// 				// console.log('deckAddTo card: ', card);
+		// 				console.log('deck: ', )
+		// 				// let currentNumber = 0;
+		// 				let newDeck = [...deck];
+		// 				// let newDeck = deck.deck;
+		// 				let isDup = false;
+		//
+		// 				for(let elem of newDeck) {
+		// 					if(elem.name && elem.name === card.name ) {
+		// 						isDup = true;
+		// 						if(elem.number < 4) {
+		// 							elem.number = elem.number + 1;
+		// 						} else {
+		// 							elem.number = 4;
+		// 						}
+		// 					}
+		// 				}
+		//
+		// 				if(isDup===false || !newDeck.length) newDeck.push({
+		// 					name: card.name,
+		// 					number: 1,
+		// 					info: card
+		// 				});
+		//
+		//
+		// 				dispatch({
+		// 					type: DECK_ADD_TO_DECK,
+		// 					payload: newDeck
+		// 				});
+		//
+		// 				dispatch({
+		// 					type: STORE_DECK_NAME,
+		// 					payload: deck.name
+		// 				});
+		//
+		// 				cb()
+		// 			}
+		// 			break;
+		// case 'changeDeck':
+		// 			{
+		// 				console.log('modifyDeck, : card, deck, type', card, deck, type);
+		// 				// console.log('deck: ', )
+		// 				// let currentNumber = 0;
+		// 				// let newDeck = [...deck.deck];
+		//
+		// 				dispatch({
+		// 					type: DECK_ADD_TO_DECK,
+		// 					payload: deck.deck
+		// 				});
+		//
+		// 				dispatch({
+		// 					type: STORE_DECK_NAME,
+		// 					payload: deck.name
+		// 				});
+		//
+		// 				cb(deck.deck)
+		// 			}
+		// 			break;
+		case 'delete':
 					{
 						let newDeck = [...deck];
 
@@ -392,12 +466,12 @@ export const setColumnTwo = (columnTwo) => {
 	}
 }
 
-export const storeDeckName = (deckName, cb) => async dispatch => {
-	dispatch({
+export const storeDeckName = deckName => {
+	return {
 		type: STORE_DECK_NAME,
 		payload: deckName
-	});
-	cb();
+	};
+
 }
 
 export const storeFilterText = (text, cb) => async dispatch => {
