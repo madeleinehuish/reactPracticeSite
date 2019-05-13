@@ -312,16 +312,30 @@ export const addToCurrentDeck = (card, deck, cb) => {
 
 }
 
-export const switchCurrentDeck = (deck, cb) => async dispatch => {
+export const changeCurrentDeck = (deckData, cb) => async dispatch => {
+
+	if(deckData.deck_name==='new deck') {
+		dispatch({
+			type: DECK_ADD_TO_DECK,
+			payload: []
+		});
+
+		dispatch({
+			type: STORE_DECK_NAME,
+			payload: 'new deck'
+		});
+
+		cb()
+	}
 
 	dispatch({
 		type: DECK_ADD_TO_DECK,
-		payload: deck.deck
+		payload: deckData.deck
 	});
 
 	dispatch({
 		type: STORE_DECK_NAME,
-		payload: deck.name
+		payload: deckData.deck_name
 	});
 
 	cb()

@@ -25,15 +25,18 @@ const Decks = props => {
 		return (
 			<select
 				className={styles.select}
-				// onChange={()=>{console.log('clicked')}}
 				onChange={(event)=> {
 					const deck = props.decks.filter(d => d.deck_name===event.target.value);
 					console.log('inside onChange, decks==', props.decks);
 					console.log('inside onChange, deck==', deck);
-					props.switchCurrentDeck({ name: event.target.value, deck: deck[0].data })
+					if(event.target.value==='new deck') {
+						props.switchCurrentDeck({ deck_name: event.target.value, deck: [] })
+					} else {
+						props.switchCurrentDeck({ deck_name: event.target.value, deck: deck[0].deck || [] })
+					}
 				}}
 				>
-				<option key='001'>decks</option>
+				<option key='001' value='new deck'>new deck</option>
 				{deckArr}
 			</select>
 		)
@@ -75,13 +78,6 @@ const Multiples = (props) => {
 	)
 }
 
-// const ForwardRef = (props, ref) => {
-// 	return <DeckNameInput {...props } forwardedRef={ref}/>
-// }
-
-// const Forwarded = React.forwardRef(ForwardRef);
-
-
 
 class DeckBuilding extends Component {
 
@@ -121,7 +117,9 @@ class DeckBuilding extends Component {
 		const cb = () => {
 			// console.log('component did update finished...')
 		}
+		// if(prevProps.currentDeckName) {
 
+		// }
 		if(prevProps.decks===undefined) {
 			this.props.getDecksFromDB(cb);
 		}
@@ -160,14 +158,11 @@ class DeckBuilding extends Component {
 
 	}
 
-	handleDeckNameSubmit = (event, value) => {
-
+	switchCurrentDeck = (deckData) => {
 		const cb = () => {
-			// this.forceUpdate(()=>{
-			// });
-		};
-		event.preventDefault();
-
+			this.setState({ inputValueDeck: this.props.currentDeckName || this.state.inputValueDeck })
+		}
+		this.props.changeCurrentDeck(deckData, cb);
 	}
 
 	saveDeck = () => {
@@ -188,7 +183,7 @@ class DeckBuilding extends Component {
 				<EmptyWrapper>
 					<header className={styles.controlBar}>
 						<div className={styles.titleWrapper}>
-							<b className={styles.title}>{this.props.currentDeckName || this.state.inputValueDeck || 'new deck'}</b>
+							<b className={styles.title}>{this.props.deckName || this.state.inputValueDeck || 'new deck'}</b>
 						</div>
 
 						<div className={styles.filters}>
@@ -206,7 +201,7 @@ class DeckBuilding extends Component {
 							<button className={styles.button} onClick={this.saveDeck}>Save</button>
 						</div>
 						<div className={styles.filters}>
-							<Decks decks={this.props.decks} currentDeck={this.props.currentDeck} deckModify={this.deckModify} />
+							<Decks decks={this.props.decks} currentDeck={this.props.currentDeck} deckModify={this.deckModify} switchCurrentDeck={this.switchCurrentDeck}/>
 						</div>
 
 						{/* <div className={styles.filters}>
@@ -231,7 +226,7 @@ class DeckBuilding extends Component {
 					{/* do NOT!!!! delete this next section... */}
 					{this.state.view3d ? <div className={styles.deckWrapper}>
 						<div className={styles.deckGrid}>
-							{this.props.deck.map((card, index) => {
+							{this.props.currentDeck.map((card, index) => {
 								if (card.number > 1) {
 									return <Multiples key={index} card={card} handleHover={this.props.handleHover} deckModify={this.props.deckModify} />
 								} else {
@@ -248,6 +243,7 @@ class DeckBuilding extends Component {
 								{this.props.currentDeck.map((card, index) => {
 									// if (card.number > 0) {
 									return <div
+										key={index}
 										className={styles.cardLine}
 										onMouseOver={() => { this.props.handleHover(card.info) }}
 										onClick={() => this.props.deckModify(card, 'delete')}

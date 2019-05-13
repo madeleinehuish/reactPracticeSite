@@ -28,7 +28,7 @@ export default {
 		currentPrice: 0
 	},
 	currentDeck: {
-		deck_name: 'Unnamed Deck',
+		deck_name: 'new deck',
 		deck: []
 	},
 	currentStandard: { //current standard block as of present time
