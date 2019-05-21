@@ -32,13 +32,13 @@ import styles from './Magic.css';
 class SearchForm extends Component {
 	state = {
 		searchTerm: ''
-	}
+	};
 
 	handleSearch = (event) => {
 		this.setState({
 			searchTerm: event.target.value
 		});
-	}
+	};
 
 	render() {
 		return (
@@ -133,16 +133,11 @@ class Magic extends Component {
 
 	addToDeck = (card) => {
 
-		const cb = () => {
-			this.forceUpdate();
-			// console.log('deckModify completed...')
-		}
-
 		let deck = this.props.currentDeck;
 		if(card && card.name==="There are no cards with these given filters") return;
 
-		this.props.addToCurrentDeck(card, deck, cb);
-	}
+		this.props.addToCurrentDeck(card, deck);
+	};
 	//
 	// saveDeck = () => {
 	// 	this.props.saveDeckToDB({

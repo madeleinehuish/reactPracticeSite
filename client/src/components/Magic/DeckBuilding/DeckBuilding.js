@@ -166,12 +166,12 @@ class DeckBuilding extends Component {
 	}
 
 	saveDeck = () => {
-		if(!this.state.inputValueDeck.length) {
+		if(!this.state.inputValueDeck.length && !this.props.deckName) {
 			alert('you need to enter a deck name!!!');
 			return;
 		}
 		this.props.saveDeckToDB({
-			deck_name: this.state.inputValueDeck,
+			deck_name: this.state.inputValueDeck || this.props.deckName,
 			deck: this.props.currentDeck
 		})
 		console.log('save Deck')

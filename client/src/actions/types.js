@@ -1,7 +1,6 @@
 export const AUTH_USER = 'auth_user';
 export const AUTH_ERROR = 'auth_error';
 export const DECK_ADD_TO_DECK = 'deck_add_to_deck';
-export const DECK_UPDATE_NUMBER = 'deck_update_number';
 export const GET_DECKS_FROM_DB = 'get_decks_from_db';
 export const FETCH_TRUCKS = 'fetch_trucks';
 export const FETCH_CARDS = 'fetch_cards';
