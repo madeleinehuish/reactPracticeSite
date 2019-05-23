@@ -154,6 +154,7 @@ export default [
 		'shadow',
 		'shroud',
 		'skulk',
+		'snow',
 		'soulbond',
 		'spectacle',
 		'splice',
