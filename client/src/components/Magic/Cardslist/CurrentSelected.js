@@ -17,7 +17,7 @@ const CurrentSelected = (props) => {
 	// 	console.log('no props.currentSelected in CurrentSelected.js!!!!!');
 	// 	console.log('props: ', props);
 	// }
-
+	// if(!props.currentSelected.set_name) setName = 'none'
 	if(props.currentSelected.set_name==='Limited Edition Alpha') {
 		date = '1993';
 		setName = 'Alpha (Limited)'

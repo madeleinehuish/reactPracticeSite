@@ -213,7 +213,7 @@ class Magic extends Component {
 					return;
 				}
 				else {
-					// console.log('hit getCardsFromDatabase')
+					console.log('hit getCardsFromDatabase', filters)
 					this.props.getCardsFromDatabase(filters, cb2);
 					return;
 				}
@@ -359,7 +359,8 @@ class Magic extends Component {
 
 	render() {
 		// console.log('this.props in Magic.js: ', this.props);
-		console.log('render triggered');
+		// console.log('render triggered');
+		
 		if (this.props.authenticated) {
 		return (
 			<div>
@@ -486,8 +487,9 @@ class Magic extends Component {
 }
 
 function mapStateToProps(state) {
+	// console.log('state.cards.length: ', state.cards.length)
 	// console.log('state in magic: ', state);
-	// console.log('state.cards.cards: ', state.cards.cards);
+	console.log('state.cards.cards.length: ', state.cards.cards.length);
 	return {
 		base: state.cards.base,
 		cards: state.cards.cards,

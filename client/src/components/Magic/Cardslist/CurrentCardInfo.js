@@ -1,7 +1,13 @@
 import React from 'react';
 import styles from './Cardslist.css';
 
-const clean = (string) => string.split('_').join(' ')
+const clean = (string) => {
+	if(string) {
+		return string.split('_').join(' ')
+	} else {
+		return ''
+	}
+}
 
 const CurrentCardInfo = ({ card, handleClick}) => {
 	return (

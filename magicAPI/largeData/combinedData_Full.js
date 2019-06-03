@@ -295,6 +295,7 @@ const Mirrodin_Besieged = require('./full_scryfall/Mirrodin_Besieged');
 const Mirrodin_Besieged_Promos = require('./full_scryfall/Mirrodin_Besieged_Promos');
 const Miscellaneous_Book_Promos = require('./full_scryfall/Miscellaneous_Book_Promos');
 const Modern_Event_Deck_2014 = require('./full_scryfall/Modern_Event_Deck_2014');
+const Modern_Horizons = require('./full_scryfall/Modern_Horizons');
 const Modern_Masters = require('./full_scryfall/Modern_Masters');
 const Modern_Masters_2015 = require('./full_scryfall/Modern_Masters_2015');
 const Modern_Masters_2017 = require('./full_scryfall/Modern_Masters_2017');
@@ -731,6 +732,7 @@ const combinedData = [
   ...Mirrodin_Besieged_Promos,
   ...Miscellaneous_Book_Promos,
   ...Modern_Event_Deck_2014,
+  ...Modern_Horizons,
   ...Modern_Masters,
   ...Modern_Masters_2015,
   ...Modern_Masters_2017,

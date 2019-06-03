@@ -6,7 +6,7 @@ const dataStandard = require('./largeData/combinedData_Standard.js');
 
 const getCurrentPrice = async (card) => {
   // console.log('inside getCurrentPrice... card: ', card);
-  const url = `https://api.scryfall.com/cards/${card.id}`;
+  const url = `https://api.scryfall.com/card/${card.id}`;
 
   try {
     const response = await axios.get(url);
@@ -175,7 +175,7 @@ exports.filterCards = function(req, res, next) {
   console.log('Req.query for filterCards: ', req.query);
   let returnData = applyFilters(req.query);
 
-  // console.log('returnData: ', returnData)
+  console.log('returnData: ', returnData)
   res.send(returnData);
 }
 
