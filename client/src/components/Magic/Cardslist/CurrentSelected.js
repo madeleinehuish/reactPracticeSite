@@ -11,7 +11,7 @@ const CurrentSelected = (props) => {
 	let date;
 	let setName;
 
-	// console.log('first console log in CurrentSelected. Props: ', props);
+	console.log('first console log in CurrentSelected. Props: ', props);
 
 	// if(!props.currentSelected) {
 	// 	console.log('no props.currentSelected in CurrentSelected.js!!!!!');
@@ -44,7 +44,7 @@ const CurrentSelected = (props) => {
 
 
 
-	// console.log('props in CurrentSelected : ', props);
+	console.log('props in CurrentSelected : ', props);
 	return (
 		<div className={styles.currentSelected}>
 			<div className={styles.titleSelected}>

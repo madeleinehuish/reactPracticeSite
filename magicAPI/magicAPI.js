@@ -6,7 +6,7 @@ const dataStandard = require('./largeData/combinedData_Standard.js');
 
 const getCurrentPrice = async (card) => {
   // console.log('inside getCurrentPrice... card: ', card);
-  const url = `https://api.scryfall.com/card/${card.id}`;
+  const url = `https://api.scryfall.com/cards/${card.id}`;
 
   try {
     const response = await axios.get(url);

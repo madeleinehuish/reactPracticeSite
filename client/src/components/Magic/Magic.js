@@ -245,7 +245,7 @@ class Magic extends Component {
 
 	handleHover = cardId => {
 		const cb = () => {
-			// console.log('hover, price', this.props.currentPrice)
+			console.log('hover, price', this.props.currentPrice)
 		}
 		let card = this.props.cards.filter(obj => {
 			return obj.id === cardId;
