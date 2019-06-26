@@ -92,5 +92,6 @@ module.exports = [
 	{ name: 'Jul 18 to Oct 18', sets: [ 'Kaladesh', 'Aether_Revolt', 'Amonkhet', 'Hour_of_Devastation', 'Ixalan', 'Rivals_of_Ixalan', 'Dominaria', 'Core_Set_2019']},
 	{ name: 'Oct 18 to Jan 19', sets: [ 'Ixalan', 'Rivals_of_Ixalan', 'Dominaria', 'Core_Set_2019', 'Guilds_of_Ravnica']},
 	{ name: 'Jan 19 to Apr 19', sets: [ 'Ixalan', 'Rivals_of_Ixalan', 'Dominaria', 'Core_Set_2019', 'Guilds_of_Ravnica', 'Ravnica_Allegiance']},
-	{ name: 'Apr 19 to Jun 19', sets: [ 'Ixalan', 'Rivals_of_Ixalan', 'Dominaria', 'Core_Set_2019', 'Guilds_of_Ravnica', 'Ravnica_Allegiance', 'War_of_the_Spark']}
+	{ name: 'Apr 19 to Jun 19', sets: [ 'Ixalan', 'Rivals_of_Ixalan', 'Dominaria', 'Core_Set_2019', 'Guilds_of_Ravnica', 'Ravnica_Allegiance', 'War_of_the_Spark']},
+	{ name: 'Jun 19 to Sep 19', sets: [ 'Ixalan', 'Rivals_of_Ixalan', 'Dominaria', 'Core_Set_2019', 'Guilds_of_Ravnica', 'Ravnica_Allegiance', 'War_of_the_Spark', 'Core_Set_2020']}
 ]

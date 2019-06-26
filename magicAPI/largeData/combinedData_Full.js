@@ -68,6 +68,7 @@ const Conspiracy = require('./full_scryfall/Conspiracy');
 const Conspiracy__Take_the_Crown = require('./full_scryfall/Conspiracy__Take_the_Crown');
 const Core_Set_2019 = require('./full_scryfall/Core_Set_2019');
 const Core_Set_2019_Promos = require('./full_scryfall/Core_Set_2019_Promos');
+const Core_Set_2020 = require('./full_scryfall/Core_Set_2020');
 const DCI_Legend_Membership = require('./full_scryfall/DCI_Legend_Membership');
 const Dark_Ascension = require('./full_scryfall/Dark_Ascension');
 const Dark_Ascension_Promos = require('./full_scryfall/Dark_Ascension_Promos');
@@ -505,6 +506,7 @@ const combinedData = [
   ...Conspiracy__Take_the_Crown,
   ...Core_Set_2019,
   ...Core_Set_2019_Promos,
+  ...Core_Set_2020,
   ...DCI_Legend_Membership,
   ...Dark_Ascension,
   ...Dark_Ascension_Promos,

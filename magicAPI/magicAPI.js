@@ -10,7 +10,7 @@ const getCurrentPrice = async (card) => {
 
   try {
     const response = await axios.get(url);
-    // console.log('response from scryfall api: ', response);
+    console.log('response from scryfall api: ', response);
 
     let price = response.data.prices.usd || response.data.usd;
     console.log('response price from scryfall api: ', price)// if(price===null) price = response.data.usd;
@@ -157,7 +157,7 @@ const applyFiltersByBlock = async (name) => {
 }
 
 exports.getPrice = async function(req, res, next) {
-  // console.log('getPrice: req.query: ', req.query);
+  console.log('getPrice: req.query: ', req.query);
   let returnData = await getCurrentPrice(req.query);
 
   res.send(returnData);
