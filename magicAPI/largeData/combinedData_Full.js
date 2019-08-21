@@ -59,6 +59,7 @@ const Commander_2017 = require('./full_scryfall/Commander_2017');
 const Commander_2017_Oversized = require('./full_scryfall/Commander_2017_Oversized');
 const Commander_2018 = require('./full_scryfall/Commander_2018');
 const Commander_2018_Oversized = require('./full_scryfall/Commander_2018_Oversized');
+const Commander_2019 = require('./full_scryfall/Commander_2019');
 const Commander_Anthology = require('./full_scryfall/Commander_Anthology');
 const Commander_Anthology_Volume_II = require('./full_scryfall/Commander_Anthology_Volume_II');
 const Commanders_Arsenal = require('./full_scryfall/Commanders_Arsenal');
@@ -497,6 +498,7 @@ const combinedData = [
   ...Commander_2017_Oversized,
   ...Commander_2018,
   ...Commander_2018_Oversized,
+  ...Commander_2019,
   ...Commander_Anthology,
   ...Commander_Anthology_Volume_II,
   ...Commanders_Arsenal,

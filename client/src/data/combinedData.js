@@ -11,6 +11,7 @@ import dataM19 from './standard_scryfall/data_m19';
 import dataGuildsOfRavnica from './standard_scryfall/data_guilds_ravnica';
 import dataRavnicaAllegiance from './standard_scryfall/data_ravnica_allegiance';
 import dataWaroftheSpark from './standard_scryfall/data_war_of_the_spark';
+import dataM20 from './standard_scryfall/data_m20';
 
 
 let combinedData = [
@@ -20,7 +21,8 @@ let combinedData = [
 	...dataM19,
 	...dataGuildsOfRavnica,
 	...dataRavnicaAllegiance,
-	...dataWaroftheSpark
+	...dataWaroftheSpark,
+	...dataM20,
 ];
 
 let sortedInitialData = combinedData.sort((a,b) =>{

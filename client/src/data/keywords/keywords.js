@@ -181,5 +181,6 @@ export default [
 		'untap',
 		'vanishing',
 		'vigilance',
+		'weatherlight',
 		'wither'
   ]
