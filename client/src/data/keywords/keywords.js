@@ -124,6 +124,7 @@ export default [
 		'persist',
 		'phasing',
 		'poisonous',
+		'populate',
 		'proliferate',
 		'protection',
 		'provoke',

@@ -10,10 +10,10 @@ const getCurrentPrice = async (card) => {
 
   try {
     const response = await axios.get(url);
-    console.log('response from scryfall api: ', response);
+    // console.log('response from scryfall api: ', response);
 
     let price = response.data.prices.usd || response.data.usd;
-    console.log('response price from scryfall api: ', price)// if(price===null) price = response.data.usd;
+    // console.log('response price from scryfall api: ', price)// if(price===null) price = response.data.usd;
 
     return price;
 
@@ -23,7 +23,7 @@ const getCurrentPrice = async (card) => {
 
 }
 
-const filterKeyword = (filterKey) => {
+const filterKeyword = filterKey => {
   console.log('filterKeyword function: ', filterKey)
   let filtered = dataFull.filter(elem => {
     // console.log('elem: ', elem);
@@ -46,7 +46,22 @@ const filterKeyword = (filterKey) => {
   return filtered;
 }
 
-const filterSingleCard = (filterValue) => {
+const filterCreature = filterKey => {
+  console.log('filterCreature function$$$$$$$$$$: ', filterKey)
+  let filtered = dataFull.filter(elem => {
+    console.log('filterKey.creature: ', filterKey.creature, ' elem.type_line: ', elem.type_line);
+    if(filterKey.creature==='All') return true;
+    if(filterKey.creature==='Creature' && filterKey.creature!=='All Creatures') {
+      return true;
+    } else {
+      return elem.type_line.includes(filterKey.creature);
+    }
+  });
+  return filtered;
+}
+
+
+const filterSingleCard = filterValue => {
 
     // console.log('CARDS in INPUT: ', cards);
     console.log('filterValue: ', filterValue);
@@ -107,9 +122,9 @@ const filterRarity = (elem, filter) => {
 
 
 const applyFilters = (filters) => {
-  console.log('inside applyFilters, filters: ', filters)
+  // console.log('inside applyFilters, filters: ', filters)
   let data = filterSets(filters.set); //first decide how big of dataset you want to use. 'All will default to full set'
-  console.log('data (filters.set): ', data)
+  // console.log('data (filters.set): ', data)
   let filtered = data.filter(elem => {
     const conditionType = filterType(elem, filters.type);
     const conditionColor = filterColor(elem, filters.color);
@@ -157,7 +172,7 @@ const applyFiltersByBlock = async (name) => {
 }
 
 exports.getPrice = async function(req, res, next) {
-  console.log('getPrice: req.query: ', req.query);
+  // console.log('getPrice: req.query: ', req.query);
   let returnData = await getCurrentPrice(req.query);
 
   res.send(returnData);
@@ -170,12 +185,19 @@ exports.filterKeywords = function(req, res, next) {
   res.send(returnData);
 }
 
+exports.filterCreatures = function(req, res, next) {
+  console.log('filtersCreatures: ', req.query)
+  let returnData = filterCreature(req.query);
+
+  res.send(returnData);
+}
+
 exports.filterCards = function(req, res, next) {
 
-  console.log('Req.query for filterCards: ', req.query);
+  // console.log('Req.query for filterCards: ', req.query);
   let returnData = applyFilters(req.query);
 
-  console.log('returnData: ', returnData)
+  // console.log('returnData: ', returnData)
   res.send(returnData);
 }
 
@@ -201,7 +223,7 @@ exports.filterCardsAll = function(req, res, next) {
 }
 
 exports.filterCardsByBlock = async function(req, res, next) {
-  console.log('Req.query for filterCardsByBlock: ', req.query); //should recieve an object with keys name(string) and sets(array)
+  // console.log('Req.query for filterCardsByBlock: ', req.query); //should recieve an object with keys name(string) and sets(array)
 
   // let filtered = await applyFiltersByBlock(req.query.name);
   //
@@ -210,7 +232,7 @@ exports.filterCardsByBlock = async function(req, res, next) {
 }
 
 exports.callScryfallAPI = async function(req, res, next) {
-  console.log('Calling Scryfall, req.query: ', req.query);
+  // console.log('Calling Scryfall, req.query: ', req.query);
 
   res.send('completed');
 }

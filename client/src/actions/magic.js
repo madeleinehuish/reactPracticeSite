@@ -65,15 +65,12 @@ function filterByInput(cards, filterValue) {
 const filterType = (elem, filterType, filterCreature) => {
   if(filterType==='All') return true;
   if(filterType==='Creature' && filterCreature==='All Creatures') {
-  return elem.type_line.includes(filterType);
-
-}
-    if(filterType==='Creature' && filterCreature!=='All Creatures') {
+    return elem.type_line.includes(filterType);
+  }
+  if(filterType==='Creature' && filterCreature!=='All Creatures') {
     return elem.type_line.includes(filterCreature);
-
   } else {
     return elem.type_line.includes(filterType);
-
   }
 }
 
@@ -626,6 +623,27 @@ export const getKeywordsFromDatabase = (filter, cb) => async dispatch => {
   }
 
 };
+
+export const getCreaturesFromDatabase = (filter, cb) => async dispatch => {
+  const url = getUrl('/filtersCreatures');
+
+  const query = `?creature=${filter}`;
+  console.log('query: ', query);
+  try {
+      const response = await axios.get(url + query);
+
+      console.log('response: ', response);
+
+      dispatch({
+          type: FETCH_CARDS,
+          payload: response.data
+      })
+
+      cb()
+  } catch (error) {
+      console.log('axios error: ', error);
+  }
+}
 
 export const getCardsFromDatabase = (filters, cb) => async dispatch => {
 

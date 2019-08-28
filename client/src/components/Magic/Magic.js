@@ -13,6 +13,7 @@ import DeckBuilding from './DeckBuilding/DeckBuilding';
 
 import Colors from './Filters/Colors';
 import Creatures from './Filters/Creatures';
+import CreaturesForFull from './Filters/CreaturesForFull'
 import Keywords from './Filters/Keywords';
 import KeywordsForFull from './Filters/KeywordsForFull';
 import Rarity from './Filters/Rarity';
@@ -67,6 +68,7 @@ class Magic extends Component {
 		this.setBox = React.createRef();
 		this.keywordBox = React.createRef();
 		this.keywordFullBox = React.createRef();
+		this.creatureFullBox = React.createRef();
 		this.specialBox = React.createRef();
 		this.standardSetBox = React.createRef();
 		this.cmcBox = React.createRef();
@@ -243,6 +245,17 @@ class Magic extends Component {
 		this.props.getKeywordsFromDatabase(filterValue, cb);
 	}
 
+	handleFilterCreatureFull = event => {
+		const filterValue = event.target.value;
+
+		const cb = () => {
+			this.forceUpdate(()=>{
+				this.updateCards(false)
+			});
+		};
+		this.props.getCreaturesFromDatabase(filterValue, cb);
+	}
+
 	handleHover = cardId => {
 		const cb = () => {
 			console.log('hover, price', this.props.currentPrice)
@@ -297,6 +310,7 @@ class Magic extends Component {
 		this.standardSetBox.current.value = 'All';
 		this.keywordBox.current.value = 'keywords (all)';
 		this.keywordFullBox.current.value = 'keywords (all)';
+		this.creatureFullBox.current.value = 'All Creatures';
 		this.specialBox.current.value = 'All Special';
 		this.cmcBox.current.value = 'All CMC';
 		if(fullReset) {
@@ -360,7 +374,7 @@ class Magic extends Component {
 	render() {
 		// console.log('this.props in Magic.js: ', this.props);
 		// console.log('render triggered');
-		
+
 		if (this.props.authenticated) {
 		return (
 			<div>
@@ -392,6 +406,9 @@ class Magic extends Component {
 								</div>
 								<div className={styles.filters}>
 									<KeywordsForFull handleFilterKeywordFull={this.handleFilterKeywordFull} ref={this.keywordFullBox} />
+								</div>
+								<div className={styles.filters}>
+									<CreaturesForFull handleFilter={this.handleFilter} handleFilterCreatureFull={this.handleFilterCreatureFull} ref={this.creatureFullBox}/>
 								</div>
 								{/* <div className={styles.control_bar}> */}
 

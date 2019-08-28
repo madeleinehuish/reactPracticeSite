@@ -6,6 +6,7 @@ const {
 	filterCardsByBlock,
 	filterCardSingle,
 	filterKeywords,
+	filterCreatures,
 	getPrice
 } = require('./magicAPI/magicAPI');
 const { saveDeckToDB, getDecksFromDB } = require('./magicDecks/magicDecks');
@@ -25,6 +26,7 @@ module.exports = function(app) {
 	app.get('/filterbyblock', filterCardsByBlock);
 	app.get('/filtersinglecard', filterCardSingle);
 	app.get('/filterskeyword', filterKeywords);
+	app.get('/filtersCreatures', filterCreatures);
 
 	//get pricing for a card
 	app.get('/price', getPrice);
