@@ -97,13 +97,17 @@ class Magic extends Component {
 		const cb = () => {
 			// console.log('component did update finished...')
 		}
+		const { currentCard } = this.props;
 		console.log('componentDidUpdate')
 		if(prevProps.currentCardIsFlipped) {
 			this.flipCurrentCard(true);
 		}
-		if(prevProps.currentPrice===0) {
-			console.log('call to price component did update');
-			this.props.getCurrentPrice(this.props.currentCard, cb);
+		// if(prevProps.currentPrice===0) {
+		// 	console.log('call to price component did update');
+		// 	this.props.getCurrentPrice(card, cb);
+		// }
+		if(prevProps.currentCard !== currentCard) {
+			this.props.getCurrentPrice(currentCard, cb);
 		}
 	}
 
@@ -257,14 +261,8 @@ class Magic extends Component {
 	}
 
 	handleHover = cardId => {
-		const cb = () => {
-			console.log('hover, price', this.props.currentPrice)
-		}
-		let card = this.props.cards.filter(obj => {
-			return obj.id === cardId;
-		});
-		this.props.changeCurrentCard(card[0]);
-		this.props.getCurrentPrice(card[0], cb);
+		let card = this.props.cards.find(obj => obj.id === cardId);
+		this.props.changeCurrentCard(card);
 	}
 
 	handleDeckHover = card => {

@@ -178,7 +178,7 @@ export const getCurrentPrice = (card, cb) => async dispatch => {
         payload: await price,
         meta: {
           debounce: {
-              time: 500
+              time: 100
           }
         }
     })

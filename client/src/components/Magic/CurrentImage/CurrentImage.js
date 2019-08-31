@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React, { Component, Fragment } from 'react';
 import styles from './CurrentImage.css';
 import rotateImage from '../../../data/images/rotate.png';
 
@@ -31,14 +31,14 @@ class CurrentImage extends Component {
 			if(!this.props.flipped) {
 
 				return (
-					<React.Fragment>
+					<Fragment>
 						<img src={this.props.currentCard ? this.props.currentCard.card_faces[0].image_uris.large : null } className={styles.cardImageDouble} alt="magic card" height="320px" />
 						<img src={rotateImage} id="rotateIcon" className={styles.rotateImage}
 							onClick={()=>{
 								this.props.flipCurrentCard(false);
 								// this.handleClick();
 							}} alt="rotate icon"/>
-					</React.Fragment>
+					</Fragment>
 				)
 			} else {
 
@@ -46,13 +46,13 @@ class CurrentImage extends Component {
 				let cn = this.props.currentCard.collector_number;
 				let imgUrl = `https://api.scryfall.com/cards/${set}/${cn}?format=image&face=back`;
 				return (
-					<React.Fragment>
+					<Fragment>
 						<img src={ this.props.currentCard ? imgUrl : null } className={styles.cardImageDouble} alt="magic card" height="320px" />
 						<img src={rotateImage} id="rotateIcon" className={styles.rotateImage} onClick={()=>{
 							this.props.flipCurrentCard(false);
 							// this.handleClick();
 						}} alt="rotate icon"/>
-					</React.Fragment>
+					</Fragment>
 				)
 			}
 		} else {
