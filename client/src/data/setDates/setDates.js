@@ -209,4 +209,6 @@ export default
   { 'War of the Spark': '2019-04' },
   { 'Modern Horizons': '2019-07' },
   { 'Core Set 2020': '2019-07' },
-  { 'Commander 2019': '2019-08' } ]
+  { 'Commander 2019': '2019-08' },
+  { 'Throne of Eldraine': '2019-10'},
+ ]

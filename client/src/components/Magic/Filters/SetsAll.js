@@ -176,6 +176,7 @@ const TestSets = React.forwardRef((props, ref) => {
 		{ name: 'Modern Horizons', id: 'mh1' },
 		{ name: 'Core Set 2020', id: 'm20' },
 		{ name: 'Commander 2019', id: 'c19'},
+		{ name: 'Throne of Eldraine', id: 'eld'},
 	]
 
 	let list = setArray.map((elem, index) => {

@@ -381,6 +381,7 @@ const The_Dark = require('./full_scryfall/The_Dark');
 const Theros = require('./full_scryfall/Theros');
 const Theros_Heros_Path = require('./full_scryfall/Theros_Heros_Path');
 const Theros_Promos = require('./full_scryfall/Theros_Promos');
+const Throne_of_Eldraine = require('./full_scryfall/Throne_of_Eldraine');
 const Time_Spiral = require('./full_scryfall/Time_Spiral');
 const Time_Spiral_Timeshifted = require('./full_scryfall/Time_Spiral_Timeshifted');
 const Torment = require('./full_scryfall/Torment');
@@ -820,6 +821,7 @@ const combinedData = [
   ...Theros,
   ...Theros_Heros_Path,
   ...Theros_Promos,
+  ...Throne_of_Eldraine,
   ...Time_Spiral,
   ...Time_Spiral_Timeshifted,
   ...Torment,

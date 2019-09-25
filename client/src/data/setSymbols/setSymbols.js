@@ -537,4 +537,5 @@ export default { 'Modern Horizons': 'https://img.scryfall.com/sets/mh1.svg?15528
   // 'Core Set 2020': 'https://img.scryfall.com/sets/m20.svg?1561348800',
   'Core Set 2020': 'https://img.scryfall.com/sets/m20.svg?155288160',
   'Commander 2019': 'https://img.scryfall.com/sets/c19.svg?1552881600',
+  'Throne of Eldraine': 'https://img.scryfall.com/sets/eld.svg?1552881600'
  }
