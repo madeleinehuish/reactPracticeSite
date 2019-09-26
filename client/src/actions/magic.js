@@ -549,6 +549,7 @@ export const saveDeckToDB = (data) => async dispatch => {
 };
 
 export const updateBlock = (name, cb) => async dispatch => {
+  console.log('inside updateBlock, name: ', name)
   const url = getUrl('/filterbyblock');
   const sets = standardBlocks.filter(elem => { //this is unstable
       return elem.name===name

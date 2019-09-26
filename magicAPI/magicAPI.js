@@ -1,6 +1,6 @@
 const axios = require('axios');
 const dataFull = require('./largeData/combinedData_Full.js');
-const blocksAll = require('./largeData/standard_blocks/standard_blocks.js');
+const allBlocks = require('./largeData/standard_blocks/standard_blocks.js');
 const dataStandard = require('./largeData/combinedData_Standard.js');
 
 
@@ -148,9 +148,10 @@ const applyFiltersAll = (filters) => {
 
 }
 
-const applyFiltersByBlock = async (name) => {
-  let block = blocksAll.filter(elem => {
-    return(elem.name===name);
+const applyFiltersByBlock = async name => {
+  console.log('inside applyFiltersByBlock, name: ', name)
+  let block = allBlocks.filter(elem => {
+    return elem.name===name;
   });
 
   // console.log('block.sets: ', block[0].sets);
@@ -223,7 +224,7 @@ exports.filterCardsAll = function(req, res, next) {
 }
 
 exports.filterCardsByBlock = async function(req, res, next) {
-  // console.log('Req.query for filterCardsByBlock: ', req.query); //should recieve an object with keys name(string) and sets(array)
+  console.log('Req.query for filterCardsByBlock: ', req.query); //should recieve an object with keys name(string) and sets(array)
 
   // let filtered = await applyFiltersByBlock(req.query.name);
   //

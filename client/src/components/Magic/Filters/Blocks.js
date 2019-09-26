@@ -2,6 +2,8 @@ import React from 'react';
 import styles from './Filters.css';
 import allBlocks from '../../../data/standard_blocks/standard_blocks';
 
+const defaultBlock = "Oct 19 to Jan 20" //TODO: add this to a config
+
 const standardBlocks = React.forwardRef((props, ref) => {
 	let list = allBlocks.map(elem => {
 		// console.log('inside of standardBlocks: name: ', elem.name, ' sets: ', elem.sets);
@@ -11,7 +13,7 @@ const standardBlocks = React.forwardRef((props, ref) => {
 
 	return (
 		<select className={styles.select} onChange={(event)=>props.handleNewBlock(event)} ref={ref}>
-			<option default value="Apr 19 to Jun 19">sort by block (current)</option>
+			<option default value={defaultBlock}>sort by block (current)</option>
 			{list}
 			{/* <option value="mrd">Mirrodin</option>
 			<option value="dst">Darksteel</option>

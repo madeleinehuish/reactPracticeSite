@@ -279,6 +279,7 @@ class Magic extends Component {
 			// 	this.props.changeCurrentCard(this.props.cards[0]);
 			// });
 		};
+		// console.log('new block event : ', event.target.value)
 		this.props.updateBlock(event.target.value, cb);
 		// this.props.changeCurrentCard(this.props.cards[0]);
 	}
@@ -312,7 +313,7 @@ class Magic extends Component {
 		this.specialBox.current.value = 'All Special';
 		this.cmcBox.current.value = 'All CMC';
 		if(fullReset) {
-			this.standardBlocks.current.value = 'Jan 19 to Apr 19';
+			this.standardBlocks.current.value = 'Oct 19 to Jan 20';  //TODO: add to config, add ref
 		}
 
 		// send in default values to state
