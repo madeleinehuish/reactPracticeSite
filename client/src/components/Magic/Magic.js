@@ -8,6 +8,7 @@ import CurrentImage from './CurrentImage/CurrentImage';
 import Cardslist from './Cardslist/Cardslist';
 import CurrentSelected from './Cardslist/CurrentSelected';
 import CurrentCardInfo from './Cardslist/CurrentCardInfo';
+import { STANDARD_BLOCK_CURRENT } from '../../config';
 
 import DeckBuilding from './DeckBuilding/DeckBuilding';
 
@@ -313,7 +314,8 @@ class Magic extends Component {
 		this.specialBox.current.value = 'All Special';
 		this.cmcBox.current.value = 'All CMC';
 		if(fullReset) {
-			this.standardBlocks.current.value = 'Oct 19 to Jan 20';  //TODO: add to config, add ref
+			this.standardBlocks.current.value = STANDARD_BLOCK_CURRENT;  //TODO: add to config, add ref
+			// this.standardBlocks.current.value = 'Oct 19 to Jan 20';  //TODO: add to config, add ref
 		}
 
 		// send in default values to state

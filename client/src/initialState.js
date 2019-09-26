@@ -1,4 +1,6 @@
 import data from './data/combinedData'; // current standard
+import { CURRENT_STANDARD as currentStandard } from './config';
+import { CURRENT_BLOCK as currentBlock } from './config';
 // import data from './data/combinedDataTest'; //mirrodin test run
 import firstCard from './data/firstCard';
 // import firstCard from './data/firstCardMirrodinTest';
@@ -31,14 +33,8 @@ export default {
 		deck_name: 'new deck',
 		deck: []
 	},
-	currentStandard: { //current standard block as of present time
-		name: 'Oct 19 to Jan 20',
-		sets: [ 'Guilds_of_Ravnica', 'Ravnica_Allegiance', 'War_of_the_Spark', 'Core_Set_2020', 'Throne_of_Eldraine']
-	},
-	currentBlock: { //currently selected standard block
-		name: 'Oct 19 to Jan 20',
-		sets: [ 'Guilds_of_Ravnica', 'Ravnica_Allegiance', 'War_of_the_Spark', 'Core_Set_2020', 'Throne_of_Eldraine']
-	},
+	currentStandard,
+	currentBlock,
 	decks: [],
 	cardFilters: {
 		filterText: '',
