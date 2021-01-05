@@ -20,7 +20,7 @@
   "author": "Madeleine Huish <madeleinehuish@gmail.com>",
   "license": "ISC",
   "dependencies": {
-    "axios": "^0.18.1",
+    "axios": "^0.21.1",
     "bcrypt-nodejs": "0.0.3",
     "body-parser": "^1.18.3",
     "colors": "^1.3.2",
